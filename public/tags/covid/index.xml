@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Zagreus Health</title>
-    <link>https://zagreushealth.github.io/posts/</link>
-    <description>Recent content in Posts on Zagreus Health</description>
+    <title>Covid on Zagreus Health</title>
+    <link>https://zagreushealth.github.io/tags/covid/</link>
+    <description>Recent content in Covid on Zagreus Health</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 11 Mar 2025 13:41:11 +0100</lastBuildDate>
-    <atom:link href="https://zagreushealth.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zagreushealth.github.io/tags/covid/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Long COVID Prevention Protocol - v1.2</title>
       <link>https://zagreushealth.github.io/posts/covid-protocol/</link>

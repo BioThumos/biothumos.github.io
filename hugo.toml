@@ -1,18 +1,14 @@
 baseURL = "https://zagreushealth.github.io/"
 languageCode = 'en-us'
 title = 'Zagreus Health'
-#theme = "dead-simple"
-#theme = "ananke"
-#theme = "hugo-blog-awesome"
 theme = "diary"
-#theme = "nostyleplease"
 
-[[params.socialIcons]]
-name = "github"
-url = "https://github.com/zagreushealth"
-
-[[params.socialIcons]]
-name = "twitter"
-url = "https://twitter.com/zagreusrevival"
-
+[[menu.main]]
+url = "/tags"
+name = "Tags"
+weight = 3
+[[menu.main]]
+url = "/posts"
+name = "Archive"
+weight = 1
 

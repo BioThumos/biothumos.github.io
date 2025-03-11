@@ -1,11 +1,12 @@
 +++
 date = '2025-03-11T13:41:11+01:00'
 draft = false
-title = 'Long COVID Prevention Protocol'
+title = 'Long COVID Prevention Protocol - v1.2'
+tags = ['covid']
 +++
 
-# Long COVID Prevention Protocol - v1.2
 *Will keep up to date. Only established advice is included here. If you know me, ask for prescription-free sources I can't list publicly.*
+
 ### Preface
 ##### On risk – it's kind of a Russian roulette
 * COVID hasn't gone away: almost everyone gets infected 1-3x/year, many develop LC (5%, up to 30% have some damage even after mild infx)
