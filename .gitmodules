@@ -1,0 +1,15 @@
+[submodule "themes/ananke"]
+	path = themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
+[submodule "themes/dead-simple"]
+	path = themes/dead-simple
+	url = https://github.com/barklan/hugo-dead-simple
+[submodule "themes/bearcub"]
+	path = themes/bearcub
+	url = https://github.com/clente/hugo-bearcub
+[submodule "themes/tailwind"]
+	path = themes/tailwind
+	url = https://github.com/tomowang/hugo-theme-tailwind.git
+[submodule "themes/diary"]
+	path = themes/diary
+	url = https://github.com/AmazingRise/hugo-theme-diary
