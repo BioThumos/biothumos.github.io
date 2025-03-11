@@ -1,7 +1,7 @@
-name: Deploy Hugo Site on:
+name: Deploy Hugo Site
   push:
     branches:
-      - main # Trigger on push to main branch jobs:
+      - main # Trigger on push to main branch jobs
   build-and-deploy:
     runs-on: ubuntu-latest steps:
       - name: Checkout
