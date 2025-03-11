@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Zagreus Health</title>
-    <link>http://localhost:1313/</link>
+    <link>https://zagreushealth.github.io/</link>
     <description>Recent content on Zagreus Health</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 11 Mar 2025 13:41:11 +0100</lastBuildDate>
     
-        <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://zagreushealth.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     
         <item>
         <title>Long COVID Prevention Protocol</title>
-        <link>http://localhost:1313/posts/covid-protocol/</link>
+        <link>https://zagreushealth.github.io/posts/covid-protocol/</link>
         <pubDate>Tue, 11 Mar 2025 13:41:11 +0100</pubDate>
         
-        <guid>http://localhost:1313/posts/covid-protocol/</guid>
-        <description>Zagreus Health http://localhost:1313/posts/covid-protocol/ -&lt;h1 id=&#34;long-covid-prevention-protocol---v12&#34;&gt;Long COVID Prevention Protocol - v1.2&lt;/h1&gt;
+        <guid>https://zagreushealth.github.io/posts/covid-protocol/</guid>
+        <description>Zagreus Health https://zagreushealth.github.io/posts/covid-protocol/ -&lt;h1 id=&#34;long-covid-prevention-protocol---v12&#34;&gt;Long COVID Prevention Protocol - v1.2&lt;/h1&gt;
 &lt;p&gt;&lt;em&gt;Will keep up to date. Only established advice is included here. If you know me, ask for prescription-free sources I can&amp;rsquo;t list publicly.&lt;/em&gt;&lt;/p&gt;
 &lt;h3 id=&#34;preface&#34;&gt;Preface&lt;/h3&gt;
 &lt;h5 id=&#34;on-risk--its-kind-of-a-russian-roulette&#34;&gt;On risk – it&amp;rsquo;s kind of a Russian roulette&lt;/h5&gt;
@@ -422,7 +422,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-- http://localhost:1313/posts/covid-protocol/ - </description>
+- https://zagreushealth.github.io/posts/covid-protocol/ - </description>
         </item>
     
     
