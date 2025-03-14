@@ -2,27 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://zagreushealth.github.io/blog/</loc>
+    <lastmod>2025-03-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zagreushealth.github.io/blog/2025/03/14/hello-world/</loc>
+    <lastmod>2025-03-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zagreushealth.github.io/docs/</loc>
+    <lastmod>2025-03-14T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://zagreushealth.github.io/tags/peptide/</loc>
-    <lastmod>2025-03-11T16:25:09+01:00</lastmod>
+    <lastmod>2025-03-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://zagreushealth.github.io/posts/peptide-guide/</loc>
-    <lastmod>2025-03-11T16:25:09+01:00</lastmod>
-  </url><url>
-    <loc>https://zagreushealth.github.io/posts/</loc>
-    <lastmod>2025-03-11T16:25:09+01:00</lastmod>
+    <loc>https://zagreushealth.github.io/docs/peptide-guide/</loc>
+    <lastmod>2025-03-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://zagreushealth.github.io/tags/</loc>
-    <lastmod>2025-03-11T16:25:09+01:00</lastmod>
+    <lastmod>2025-03-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://zagreushealth.github.io/</loc>
-    <lastmod>2025-03-11T16:25:09+01:00</lastmod>
+    <lastmod>2025-03-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://zagreushealth.github.io/tags/covid/</loc>
-    <lastmod>2025-03-11T13:41:11+01:00</lastmod>
+    <lastmod>2025-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://zagreushealth.github.io/posts/covid-protocol/</loc>
-    <lastmod>2025-03-11T13:41:11+01:00</lastmod>
+    <loc>https://zagreushealth.github.io/docs/covid-protocol/</loc>
+    <lastmod>2025-03-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://zagreushealth.github.io/categories/</loc>
+  </url><url>
+    <loc>https://zagreushealth.github.io/search/</loc>
   </url>
 </urlset>
