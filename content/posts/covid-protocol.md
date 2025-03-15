@@ -1,5 +1,5 @@
 +++
-date = '2025-03-11T13:41:11+01:00'
+date = '2025-03-11'
 draft = false
 title = 'Long COVID Prevention Protocol - v1.2'
 tags = ['covid']

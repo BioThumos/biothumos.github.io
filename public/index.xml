@@ -6,7 +6,7 @@
     <description>Recent content on Zagreus Health</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Mar 2025 16:25:09 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 14 Mar 2025 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://zagreushealth.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,20 +15,26 @@
         <item>
         <title>Peptide Guide - v1.0</title>
         <link>https://zagreushealth.github.io/posts/peptide-guide/</link>
-        <pubDate>Tue, 11 Mar 2025 16:25:09 +0100</pubDate>
+        <pubDate>Fri, 14 Mar 2025 00:00:00 +0000</pubDate>
         
         <guid>https://zagreushealth.github.io/posts/peptide-guide/</guid>
-        <description>Zagreus Health https://zagreushealth.github.io/posts/peptide-guide/ -&lt;blockquote&gt;
-&lt;p&gt;Knowledge based on the experience of friends far more knowledgeable than me, as well as my own attempts and many hours of research, containing hard-to-find information from esoteric internet forums.&lt;/p&gt;&lt;/blockquote&gt;
+        <description>Zagreus Health https://zagreushealth.github.io/posts/peptide-guide/ -&lt;p&gt;&lt;em&gt;Knowledge based on the experience of friends far more knowledgeable than me, as well as my own attempts and many hours of research, containing hard-to-find information from esoteric internet forums.&lt;/em&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Injection or capsules?&lt;/strong&gt; Most peptides are not bioavailable orally and have little bioavailability sublingually, so unfortunately you will have to inject if you want the full benefits. This guide focuses on IM (intramuscular) or subQ (subcutaneous) injections.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;termsslang&#34;&gt;Terms/slang&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;slin: insulin&lt;/li&gt;
+&lt;li&gt;pinning: injecting&lt;/li&gt;
+&lt;li&gt;reconstituting: mixing&lt;/li&gt;
+&lt;li&gt;lyophilized: freeze dried (basically powder form)&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;sources&#34;&gt;Sources&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Peptides are a legal grey area. Very few of them have been authorized for human use by health agencies (one example is Zadaxin – TA1), yet all of them are sold for &amp;ldquo;research use&amp;rdquo; – and that is how you can buy them. All sources will tell you their compounds are not for human consumption, which they do to stay legally compliant, but it is also why you have to make absolutely sure the ones you buy have third-party purity and content testing.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Peptides are a legal grey area. Very few of them have been authorized for human use by health agencies (one example is Zadaxin – FDA approved TA-1), yet all of them are sold for &amp;ldquo;research use&amp;rdquo; – and that is how you can buy them. All sources will tell you their compounds are not for human consumption, which they do to stay legally compliant, but it is also why you have to make absolutely sure the ones you buy have third-party purity and content testing.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;/li&gt;
-&lt;li&gt;3 types of sources:
+&lt;li&gt;types of sources:
 &lt;ul&gt;
 &lt;li&gt;pharma: purest, due to stricter guidelines, very expensive, hard to get
 &lt;ul&gt;
@@ -42,33 +48,31 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;UGL (underground lab): cheapest and often also purest
+&lt;li&gt;UGL (underground lab):
 &lt;ul&gt;
-&lt;li&gt;&lt;em&gt;can be 5-10x cheaper than research peptides&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;best way to find UGLs is by browsing &lt;a href=&#34;https://thinksteroids.com/community/forums/steroid-underground.45/&#34;&gt;Meso&lt;/a&gt; and checking comments
-&lt;ul&gt;
-&lt;li&gt;
-&lt;blockquote&gt;
-&lt;p&gt;This forum is notable because it is public and has many active users who often independently test and evaluate sources, so scammers get filtered out very quickly.&lt;/p&gt;&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Chinese UGLs have the cheapest peptides, bar none, and many are legitimate businesses. Only order from sources tested at janosh and with many customers.&lt;/p&gt;&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
+&lt;li&gt;in-between solution&lt;/li&gt;
+&lt;li&gt;usually your local chemist who can synthesize peptides&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;research:
 &lt;ul&gt;
 &lt;li&gt;more expensive than UGLs, cheaper than pharma&lt;/li&gt;
+&lt;li&gt;official businesses&lt;/li&gt;
 &lt;li&gt;not necessarily purer than UGLs&lt;/li&gt;
 &lt;li&gt;may get it through customs screening easier than unlabeled vials with white powder from China&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;Chinese sources: cheapest and often more pure than UGL/research
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;can be 5-10x cheaper than research peptides&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;they operate on low margins and high volume&lt;/li&gt;
+&lt;li&gt;these are sometimes official businesses, sometimes UGLs&lt;/li&gt;
+&lt;li&gt;even cheaper in group buys&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;li&gt;
 &lt;blockquote&gt;
-&lt;p&gt;⚠️ Only use 99% purity sources with many customers and a good reputation (esp. if going for UGL). Unless you can get pharma peptides e.g. in Russia,&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;⚠️ Only use 99% purity sources with many customers and a good reputation (esp. if going Chinese). Unless you can get pharma peptides e.g. in Russia.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
@@ -119,7 +123,7 @@
 &lt;ul&gt;
 &lt;li&gt;CN: &lt;a href=&#34;https://nexaph.com/&#34;&gt;https://nexaph.com/&lt;/a&gt; - $
 &lt;ul&gt;
-&lt;li&gt;UGL&lt;/li&gt;
+&lt;li&gt;Chinese, unclear if they produce themselves or resell&lt;/li&gt;
 &lt;li&gt;used by some twitter mutuals but some concerns on &lt;a href=&#34;https://thinksteroids.com/community/threads/introducing-spc-snp-nexaph-com-premium-usa-domestic-peptides-at-unbeatable-prices.134426803/#post-3340948&#34;&gt;contaminants&lt;/a&gt; and &lt;a href=&#34;https://thinksteroids.com/community/threads/introducing-spc-snp-nexaph-com-premium-usa-domestic-peptides-at-unbeatable-prices.134426803/page-2#post-3341138&#34;&gt;cherry picking tests&lt;/a&gt;, and an &lt;a href=&#34;https://thinksteroids.com/community/threads/qingdao-sigma-chemical-co-ltd-international-us-eu-canada-and-australia-domestic.134407154/page-3743#post-3435143&#34;&gt;overview&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;has recent janoshik reports&lt;/li&gt;
 &lt;li&gt;likely a drop-shipper that reships other cheaper UGLs&lt;/li&gt;
@@ -128,9 +132,15 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;legality&#34;&gt;Legality&lt;/h4&gt;
+&lt;h3 id=&#34;legality&#34;&gt;Legality&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;in some countries using experimental compounds for personal use, even steroids, is fine (e.g. UK), in others they are strictly regulated&lt;/li&gt;
+&lt;li&gt;in some countries using experimental compounds for personal use, even steroids, is fine (e.g. UK, France), in others they are strictly regulated&lt;/li&gt;
+&lt;li&gt;import of raw power peptides declared as cosmetic synthetics is legal in EU
+&lt;ul&gt;
+&lt;li&gt;substance has to be not lyophilized, not sterile, not in rubber top vials ready for injection → would count as medication, generally illegal&lt;/li&gt;
+&lt;li&gt;instead: screw-top vials with lyophilized powder: you have to filter/sterilize yourself&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;li&gt;prepare before making any purchases: check your local laws, read forum posts for anecdotes, ask experts&lt;/li&gt;
 &lt;li&gt;if still unsure:
 &lt;ul&gt;
@@ -148,7 +158,7 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;all-the-things-you-will-need-to-buy&#34;&gt;All the things you will need to buy&lt;/h2&gt;
-&lt;h4 id=&#34;bacteriostatic-bac-water&#34;&gt;Bacteriostatic (BAC) water&lt;/h4&gt;
+&lt;h3 id=&#34;bacteriostatic-bac-water&#34;&gt;Bacteriostatic (BAC) water&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;blockquote&gt;
@@ -196,15 +206,11 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;syringes&#34;&gt;Syringes&lt;/h4&gt;
+&lt;h3 id=&#34;syringes-needles&#34;&gt;Syringes, needles&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;blockquote&gt;
-&lt;p&gt;The idea is to use two types of syringes: one for reconstituting (mixing) the peptide, another for injection. The former uses a larger needle (between 25G and 27G, possibly larger ones too) and can be either modular or a simple non-modular unit, while the ones for injecting should be modular so you can attach a filter and a thinner needle (29G or 30G).&lt;/p&gt;&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Slang: slin=insulin, pinning=injecting, drawing=reconstituting&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;The idea is to use two types of syringes: one for reconstituting the peptide, another for injection. The former uses a larger needle (between 25G and 27G, possibly larger ones too) and can be either modular or a simple non-modular unit, while the ones for injecting should be modular so you can attach a filter and a thinner needle (29G or 30G).&lt;/p&gt;&lt;/blockquote&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;blockquote&gt;
@@ -214,7 +220,8 @@
 &lt;blockquote&gt;
 &lt;p&gt;⚠️ Only buy pharma-grade components, meaning they must be: &lt;strong&gt;sterile (individually packaged)&lt;/strong&gt;, depyrogenized, non-toxic, non-latex (some are allergic to it), non-PVC, non-DEHP, &amp;amp; ISO 13485 compliant.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;/li&gt;
-&lt;li&gt;syringe: 1cc/ml 100U luer lock: &lt;a href=&#34;https://www.exchangesupplies.org/product/UX1L&#34;&gt;UK&lt;/a&gt;
+&lt;li&gt;
+&lt;p&gt;syringe: 1cc/ml 100U luer lock: &lt;a href=&#34;https://www.exchangesupplies.org/product/UX1L&#34;&gt;UK&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;blockquote&gt;
@@ -222,28 +229,32 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;blockquote&gt;
-&lt;p&gt;If 1cc syringes are more expensive than alternatives, like in my case, you can get 2-3cc needles for mixing to save some money, as mixing needs less accuracy (usually increments of 1ml are used), while 1cc 100U is more important for injecting as smaller doses are injected (5-10U).&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;If 1cc syringes are more expensive than alternatives, like in my case, you can get 2-3cc syringes for mixing to save some money, as mixing needs less accuracy (usually increments of 1ml are used), while 1cc 100U is more important for injecting as smaller doses are injected (5-10U).&lt;/p&gt;&lt;/blockquote&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;drawing needle (for reconstitution): 25-27G 3/4-1&amp;quot; luer lock: &lt;a href=&#34;https://www.exchangesupplies.org/product/A235&#34;&gt;UK&lt;/a&gt;
+&lt;li&gt;
+&lt;p&gt;needles:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&amp;lsquo;G&amp;rsquo; stands for gauge, i.e. the diameter.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;/li&gt;
-&lt;li&gt;ideally low dead space&lt;/li&gt;
-&lt;li&gt;[alternative] one-piece or pre-assembled luer insulin syringe, cheaper&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;pinning needle (for injections): 29-30G 1/2&amp;quot; luer lock: &lt;a href=&#34;https://www.exchangesupplies.org/product/TY13&#34;&gt;UK&lt;/a&gt;
+&lt;li&gt;pinning needle: has to be thin, 29-30G 1/2&amp;quot; luer lock: &lt;a href=&#34;https://www.exchangesupplies.org/product/TY13&#34;&gt;UK&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;ideally low dead space&lt;/li&gt;
 &lt;li&gt;if you have thick fat layer under skin, may want a longer needle&lt;/li&gt;
+&lt;li&gt;ideally low dead space for pinning needles (only important to save substance, not a requirement)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;for reconstitution: you can use a thicker needle if it&amp;rsquo;s cheaper: eg. 25-27G 3/4-1&amp;quot; luer lock: &lt;a href=&#34;https://www.exchangesupplies.org/product/A235&#34;&gt;UK&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;[alternative] one-piece or pre-assembled luer insulin syringe for reconstitution, can be cheaper&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;filters&#34;&gt;Filters:&lt;/h4&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;filters&#34;&gt;Filters&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;most guides don&amp;rsquo;t mention this, but IMO it&amp;rsquo;s a must: &lt;a href=&#34;https://thinksteroids.com/community/threads/qingdao-sigma-chemical-co-ltd-international-us-eu-canada-and-australia-domestic.134407154/page-3779#post-3439069&#34;&gt;rationale&lt;/a&gt;
 &lt;ul&gt;
@@ -288,7 +299,7 @@
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;0.2 μm (or 0.22 μm)&lt;/strong&gt; filters are best for sterility &amp;amp; removing protein aggregates without damaging the peptide structure&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h5 id=&#34;et-cetera&#34;&gt;Et cetera&lt;/h5&gt;
+&lt;h3 id=&#34;et-cetera&#34;&gt;Et cetera&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;opaque box: to store peptides (both raw and mixed) shielded from light&lt;/li&gt;
 &lt;li&gt;alcohol wipes: to disinfect the exterior of vials before reconstitution and skin before injecting&lt;/li&gt;
@@ -359,11 +370,11 @@
 &lt;li&gt;refer to guide below on calculating desired concentration&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;inject water into dial, NOTE:
+&lt;li&gt;inject water into vial:
 &lt;ul&gt;
-&lt;li&gt;⚠️ DO NOT SPRAY water directly on peptide as it MAY DAMAGE IT&lt;/li&gt;
-&lt;li&gt;let it drip SLOWLY down the side of the vial onto ONE SPOT OF THE POWDER, not everywhere&lt;/li&gt;
-&lt;li&gt;don&amp;rsquo;t need to push, vacuum in vial will suck water into the vial&lt;/li&gt;
+&lt;li&gt;⚠️ DO NOT SPRAY water directly on peptide (MAY DAMAGE)&lt;/li&gt;
+&lt;li&gt;let it drip SLOWLY down the side of the vial onto ONE SPOT of the powder, not everywhere&lt;/li&gt;
+&lt;li&gt;probably don&amp;rsquo;t need to push, vacuum in vial will suck water into the vial (but not always)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;after injecting water, draw equivalent air from the peptide to neutralize pressure, then remove needle&lt;/li&gt;
@@ -373,10 +384,11 @@
 &lt;li&gt;let mix normally and do nothing, may take a while&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;wait until reconstituted (may take some time)&lt;/li&gt;
 &lt;li&gt;it is now reconstituted&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;TODO: min volume of water for solution&lt;/p&gt;
-&lt;h4 id=&#34;how-to-calculate-concentrations&#34;&gt;How to calculate concentrations&lt;/h4&gt;
+&lt;h3 id=&#34;how-to-calculate-concentrations&#34;&gt;How to calculate concentrations&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;note down the vial content
 &lt;ul&gt;
@@ -428,10 +440,15 @@
 &lt;/li&gt;
 &lt;li&gt;remove excess air from syringe
 &lt;ul&gt;
-&lt;li&gt;air bubbles: mini bubbles aren&amp;rsquo;t dangerous, you can inject up to 1cc of air safely (but obviously don&amp;rsquo;t do that)&lt;/li&gt;
+&lt;li&gt;air bubbles: mini bubbles aren&amp;rsquo;t dangerous&lt;/li&gt;
+&lt;li&gt;you can inject up to 1cc of air safely when &lt;strong&gt;IM&lt;/strong&gt;  (but obviously don&amp;rsquo;t do that)
+&lt;ul&gt;
+&lt;li&gt;but NOT SAFE when IV!!!&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;wipe mixed peptide vial, uncap, wipe vial top&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;wipe mixed peptide vial, wipe vial top&lt;/li&gt;
 &lt;li&gt;draw mixed peptide upside down&lt;/li&gt;
 &lt;li&gt;choose injection location
 &lt;ul&gt;
@@ -459,7 +476,7 @@
 &lt;/ol&gt;
 &lt;blockquote&gt;
 &lt;p&gt;If you need a visual guide, &lt;a href=&#34;https://youtu.be/I8WOHeoL1Wg?si=VaIN7eclzDvqpAhf&amp;amp;t=1020&#34;&gt;this video&lt;/a&gt; from the 17 minute mark is good.&lt;/p&gt;&lt;/blockquote&gt;
-&lt;h4 id=&#34;notes-on-injecting-multiple-peptides-important&#34;&gt;Notes on injecting multiple peptides, IMPORTANT&lt;/h4&gt;
+&lt;h3 id=&#34;notes-on-injecting-multiple-peptides-important&#34;&gt;Notes on injecting multiple peptides, IMPORTANT&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;always use a different syringe and needle for each peptide&lt;/li&gt;
 &lt;li&gt;ideally you inject into different locations or wait some time between each peptide injection&lt;/li&gt;
@@ -467,16 +484,12 @@
 &lt;hr&gt;
 &lt;h2 id=&#34;peptides-overview&#34;&gt;Peptides overview&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;SS31/elamipretide&lt;/strong&gt;: mitochondrial antioxidant&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;BPC157&lt;/strong&gt;: tissue repair, gut barrier repair&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;TB4/TB500&lt;/strong&gt;: immune/glial modulator, vascular (VEGF), antioxidant&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SS-31/elamipretide&lt;/strong&gt;: mitochondrial antioxidant&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;BPC-157&lt;/strong&gt;: tissue repair, gut barrier repair&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;TB-4/TB-500&lt;/strong&gt;: immune/glial modulator, vascular (VEGF), antioxidant&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;MOTS-C&lt;/strong&gt;: mitochondria, AMPK, skeletal muscle glucose metabolism&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;humanin&lt;/strong&gt;: mitochondria, cellular stress pathway&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;melanotan&lt;/strong&gt;: skin tanning, sexual function&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;cerebrolysin&lt;/strong&gt;: promotes neurotrophic stimulation&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;KPV&lt;/strong&gt;: kill candida, repair barrier&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;LA&lt;/strong&gt;: temporary barrier sealant&lt;/li&gt;
@@ -496,7 +509,7 @@
         <item>
         <title>Long COVID Prevention Protocol - v1.2</title>
         <link>https://zagreushealth.github.io/posts/covid-protocol/</link>
-        <pubDate>Tue, 11 Mar 2025 13:41:11 +0100</pubDate>
+        <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
         
         <guid>https://zagreushealth.github.io/posts/covid-protocol/</guid>
         <description>Zagreus Health https://zagreushealth.github.io/posts/covid-protocol/ -&lt;p&gt;&lt;em&gt;Will keep up to date. Only established advice is included here. If you know me, ask for prescription-free sources I can&amp;rsquo;t list publicly.&lt;/em&gt;&lt;/p&gt;
