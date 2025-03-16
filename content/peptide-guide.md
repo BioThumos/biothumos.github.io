@@ -241,6 +241,5 @@ TODO: min volume of water for solution
 
 ## Additional reading and sources
 
-* https://x.com/0xVM7 – good friend who has shared a lot of the knowledge in this document
-* https://x.com/zagreusrevival – myself, if you want to follow updates
+* https://x.com/0xVM7 shared a lot of the knowledge in this document
 * [another guide](https://docs.google.com/document/d/1wm4pPzdBSt1yVMWG4UeZPOjiqBk1vHYzHMRCF1WySl0/edit?tab=t.0) by someone I trust, but long winded and incomplete
