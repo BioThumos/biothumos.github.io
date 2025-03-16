@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en"><head><title>Peptide Guide - v1.0</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=Schibsted Grotesk:wght@400;700&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="BioThumos"/><meta property="og:title" content="Peptide Guide - v1.0"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Peptide Guide - v1.0"/><meta name="twitter:description" content="Knowledge based on the experience of friends far more knowledgeable than me, as well as my own attempts and many hours of research, containing hard-to-find information from esoteric internet forums."/><meta property="og:description" content="Knowledge based on the experience of friends far more knowledgeable than me, as well as my own attempts and many hours of research, containing hard-to-find information from esoteric internet forums."/><meta property="og:image:alt" content="Knowledge based on the experience of friends far more knowledgeable than me, as well as my own attempts and many hours of research, containing hard-to-find information from esoteric internet forums."/><meta property="twitter:domain" content="zagreushealth.github.io"/><meta property="og:url" content="https://zagreushealth.github.io/peptide-guide"/><meta property="twitter:url" content="https://zagreushealth.github.io/peptide-guide"/><link rel="icon" href="./static/icon.png"/><meta name="description" content="Knowledge based on the experience of friends far more knowledgeable than me, as well as my own attempts and many hours of research, containing hard-to-find information from esoteric internet forums."/><meta name="generator" content="Quartz"/><link href="./index.css" rel="stylesheet" type="text/css" spa-preserve/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  padding: 2rem;
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL1VzZXJzL21hcmNsb2VkaV8xL3gvemFncmV1c2hlYWx0aC5naXRodWIuaW8vcXVhcnR6L2NvbXBvbmVudHMvc3R5bGVzIiwic291cmNlcyI6WyJtZXJtYWlkLmlubGluZS5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBOztBQUdGO0VBQ0U7RUFDQTs7QUFHRjtFQUNFOzs7QUFLRjtFQUNFO0VBQ0E7OztBQUlKO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFOztBQUdGO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUlKO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTs7QUFHRjtFQUNFOztBQUlGO0VBQ0U7RUFDQTtFQUNBIiwic291cmNlc0NvbnRlbnQiOlsiLmV4cGFuZC1idXR0b24ge1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsb2F0OiByaWdodDtcbiAgcGFkZGluZzogMC40cmVtO1xuICBtYXJnaW46IDAuM3JlbTtcbiAgcmlnaHQ6IDA7IC8vIE5PVEU6IHJpZ2h0IHdpbGwgYmUgc2V0IGluIG1lcm1haWQuaW5saW5lLnRzXG4gIGNvbG9yOiB2YXIoLS1ncmF5KTtcbiAgYm9yZGVyLWNvbG9yOiB2YXIoLS1kYXJrKTtcbiAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tbGlnaHQpO1xuICBib3JkZXI6IDFweCBzb2xpZDtcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xuICBvcGFjaXR5OiAwO1xuICB0cmFuc2l0aW9uOiAwLjJzO1xuXG4gICYgPiBzdmcge1xuICAgIGZpbGw6IHZhcigtLWxpZ2h0KTtcbiAgICBmaWx0ZXI6IGNvbnRyYXN0KDAuMyk7XG4gIH1cblxuICAmOmhvdmVyIHtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgYm9yZGVyLWNvbG9yOiB2YXIoLS1zZWNvbmRhcnkpO1xuICB9XG5cbiAgJjpmb2N1cyB7XG4gICAgb3V0bGluZTogMDtcbiAgfVxufVxuXG5wcmUge1xuICAmOmhvdmVyID4gLmV4cGFuZC1idXR0b24ge1xuICAgIG9wYWNpdHk6IDE7XG4gICAgdHJhbnNpdGlvbjogMC4ycztcbiAgfVxufVxuXG4jbWVybWFpZC1jb250YWluZXIge1xuICBwb3NpdGlvbjogZml4ZWQ7XG4gIGNvbnRhaW46IGxheW91dDtcbiAgei1pbmRleDogOTk5O1xuICBsZWZ0OiAwO1xuICB0b3A6IDA7XG4gIHdpZHRoOiAxMDB2dztcbiAgaGVpZ2h0OiAxMDB2aDtcbiAgb3ZlcmZsb3c6IGhpZGRlbjtcbiAgZGlzcGxheTogbm9uZTtcbiAgYmFja2Ryb3AtZmlsdGVyOiBibHVyKDRweCk7XG4gIGJhY2tncm91bmQ6IHJnYmEoMCwgMCwgMCwgMC41KTtcblxuICAmLmFjdGl2ZSB7XG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICB9XG5cbiAgJiA+ICNtZXJtYWlkLXNwYWNlIHtcbiAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWxpZ2h0KTtcbiAgICBib3JkZXItcmFkaXVzOiA1cHg7XG4gICAgcG9zaXRpb246IGZpeGVkO1xuICAgIHRvcDogNTAlO1xuICAgIGxlZnQ6IDUwJTtcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAtNTAlKTtcbiAgICBoZWlnaHQ6IDgwdmg7XG4gICAgd2lkdGg6IDgwdnc7XG4gICAgb3ZlcmZsb3c6IGhpZGRlbjtcblxuICAgICYgPiAubWVybWFpZC1jb250ZW50IHtcbiAgICAgIHBhZGRpbmc6IDJyZW07XG4gICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICB0cmFuc2Zvcm0tb3JpZ2luOiAwIDA7XG4gICAgICB0cmFuc2l0aW9uOiB0cmFuc2Zvcm0gMC4xcyBlYXNlO1xuICAgICAgb3ZlcmZsb3c6IHZpc2libGU7XG4gICAgICBtaW4taGVpZ2h0OiAyMDBweDtcbiAgICAgIG1pbi13aWR0aDogMjAwcHg7XG5cbiAgICAgIHByZSB7XG4gICAgICAgIG1hcmdpbjogMDtcbiAgICAgICAgYm9yZGVyOiBub25lO1xuICAgICAgfVxuXG4gICAgICBzdmcge1xuICAgICAgICBtYXgtd2lkdGg6IG5vbmU7XG4gICAgICAgIGhlaWdodDogYXV0bztcbiAgICAgIH1cbiAgICB9XG5cbiAgICAmID4gLm1lcm1haWQtY29udHJvbHMge1xuICAgICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgICAgYm90dG9tOiAyMHB4O1xuICAgICAgcmlnaHQ6IDIwcHg7XG4gICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgZ2FwOiA4cHg7XG4gICAgICBwYWRkaW5nOiA4cHg7XG4gICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodCk7XG4gICAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgYm9yZGVyLXJhZGl1czogNnB4O1xuICAgICAgYm94LXNoYWRvdzogMCAycHggNHB4IHJnYmEoMCwgMCwgMCwgMC4xKTtcbiAgICAgIHotaW5kZXg6IDI7XG5cbiAgICAgIC5tZXJtYWlkLWNvbnRyb2wtYnV0dG9uIHtcbiAgICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICAgICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gICAgICAgIHdpZHRoOiAzMnB4O1xuICAgICAgICBoZWlnaHQ6IDMycHg7XG4gICAgICAgIHBhZGRpbmc6IDA7XG4gICAgICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgICAgIGJhY2tncm91bmQ6IHZhcigtLWxpZ2h0KTtcbiAgICAgICAgY29sb3I6IHZhcigtLWRhcmspO1xuICAgICAgICBib3JkZXItcmFkaXVzOiA0cHg7XG4gICAgICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICAgICAgZm9udC1zaXplOiAxNnB4O1xuICAgICAgICBmb250LWZhbWlseTogdmFyKC0tYm9keUZvbnQpO1xuICAgICAgICB0cmFuc2l0aW9uOiBhbGwgMC4ycyBlYXNlO1xuXG4gICAgICAgICY6aG92ZXIge1xuICAgICAgICAgIGJhY2tncm91bmQ6IHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgICAgIH1cblxuICAgICAgICAmOmFjdGl2ZSB7XG4gICAgICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDFweCk7XG4gICAgICAgIH1cblxuICAgICAgICAvLyBTdHlsZSB0aGUgcmVzZXQgYnV0dG9uIGRpZmZlcmVudGx5XG4gICAgICAgICY6bnRoLWNoaWxkKDIpIHtcbiAgICAgICAgICB3aWR0aDogYXV0bztcbiAgICAgICAgICBwYWRkaW5nOiAwIDEycHg7XG4gICAgICAgICAgZm9udC1zaXplOiAxNHB4O1xuICAgICAgICB9XG4gICAgICB9XG4gICAgfVxuICB9XG59XG4iXX0= */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><script src="./prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch("./static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://zagreushealth.github.io/index.xml"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://zagreushealth.github.io/peptide-guide-og-image.webp"/><meta property="og:image:url" content="https://zagreushealth.github.io/peptide-guide-og-image.webp"/><meta name="twitter:image" content="https://zagreushealth.github.io/peptide-guide-og-image.webp"/><meta property="og:image:type" content="image/.webp"/></head><body data-slug="peptide-guide"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href=".">BioThumos</a></h2><div class="spacer mobile-only"></div><div style="display: flex; flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button"><p>Search</p><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-content"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>Explorer</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div class="explorer-content" aria-expanded="false"><ul class="explorer-ul overflow" id="jhl9wt"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="./">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>Peptide Guide - v1.0</a></div></nav><h1 class="article-title">Peptide Guide - v1.0</h1><p show-comma="true" class="content-meta"><time datetime="2025-03-14T00:00:00.000Z">Mar 14, 2025</time><span>11 min read</span></p><ul class="tags"><li><a href="./tags/peptide" class="internal tag-link">peptide</a></li></ul></div></div><article class="popover-hint"><p><em>Knowledge based on the experience of friends far more knowledgeable than me, as well as my own attempts and many hours of research, containing hard-to-find information from esoteric internet forums.</em></p>
+<blockquote>
+<p><strong>Injection or capsules?</strong> Most peptides are not bioavailable orally and have little bioavailability sublingually, so unfortunately you will have to inject if you want the full benefits. This guide focuses on IM (intramuscular) or subQ (subcutaneous) injections.</p>
+</blockquote>
+<h2 id="termsslang">Terms/slang<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#termsslang" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li><em>slin</em>: insulin</li>
+<li><em>pinning</em>: injecting</li>
+<li><em>reconstituting</em>: mixing</li>
+<li><em>lyophilized</em>: freeze dried (basically powder form)</li>
+</ul>
+<h2 id="sources">Sources<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#sources" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>
+<blockquote>
+<p>Peptides are a legal grey area. Very few of them have been authorized for human use by health agencies (one example is Zadaxin – FDA approved TA-1), yet all of them are sold for “research use” – and that is how you can buy them. All sources will tell you their compounds are not for human consumption, which they do to stay legally compliant, but it is also why you have to make absolutely sure the ones you buy have third-party purity and content testing.</p>
+</blockquote>
+</li>
+<li>types of sources:
+<ul>
+<li>pharma: purest, due to stricter guidelines, very expensive, hard to get
+<ul>
+<li>main difference: purified to <a href="https://thinksteroids.com/community/threads/qingdao-sigma-chemical-co-ltd-international-us-eu-canada-and-australia-domestic.134407154/page-2736#post-3320308" class="external">remove endotoxins<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+<ul>
+<li>
+<blockquote>
+<p>UGL labs don’t even test for endotoxins, 99% purity labels don’t cover this. This is a risk-cost trade-off that you have to make.</p>
+</blockquote>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>UGL (underground lab):
+<ul>
+<li>in-between solution</li>
+<li>usually your local chemist who can synthesize peptides</li>
+</ul>
+</li>
+<li>research:
+<ul>
+<li>more expensive than UGLs, cheaper than pharma</li>
+<li>official businesses</li>
+<li>not necessarily purer than UGLs</li>
+<li>may get it through customs screening easier than unlabeled vials with white powder from China</li>
+</ul>
+</li>
+<li>Chinese sources: cheapest and often more pure than UGL/research
+<ul>
+<li><em>can be 5-10x cheaper than research peptides</em></li>
+<li>they operate on low margins and high volume</li>
+<li>these are sometimes official businesses, sometimes UGLs</li>
+<li>even cheaper in group buys</li>
+</ul>
+</li>
+<li>
+<blockquote>
+<p>⚠️ Only use 99% purity sources with many customers and a good reputation (esp. if going Chinese). Unless you can get pharma peptides e.g. in Russia.</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li>testing gold standard: <a href="https://janoshik.com/" class="external">https://janoshik.com/<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+<ul>
+<li>
+<blockquote>
+<p>If you see a vendor frequently testing their batches with janoshik, it’s probably trustworthy.</p>
+</blockquote>
+</li>
+<li>obviously not relevant for pharma peptides</li>
+<li>always ask for third-party testing and CoA’s (certificate of authenticity)
+<ul>
+<li>
+<blockquote>
+<p>⚠️ Disreputable labs do in-house testing and cook results.</p>
+</blockquote>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>some vetted sources:
+<ul>
+<li>EU: <a href="https://biolabshop.eu/" class="external">https://biolabshop.eu/<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> - $$
+<ul>
+<li>research</li>
+<li>97-99% purity, so I mostly avoid their injectables</li>
+<li>I use their KPV and LA caps as slight impurity is less important when taken orally</li>
+</ul>
+</li>
+<li>UK: <a href="https://pharmalabglobal.com" class="external">https://pharmalabglobal.com<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> - $$$
+<ul>
+<li>research</li>
+<li>recommended by a pharma engineer friend I trust</li>
+</ul>
+</li>
+<li>US: <a href="https://www.peptidesciences.com/" class="external">https://www.peptidesciences.com/<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> - $$$
+<ul>
+<li>research, but possibly purer than others</li>
+</ul>
+</li>
+<li>
+<blockquote>
+<p>If you know me, ask me for my latest UGL sources. I don’t want to list them here in case this document becomes popular and attracts unwanted attention.</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li>dubious sources:
+<ul>
+<li>CN: <a href="https://nexaph.com/" class="external">https://nexaph.com/<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> - $
+<ul>
+<li>Chinese, unclear if they produce themselves or resell</li>
+<li>used by some twitter mutuals but some concerns on <a href="https://thinksteroids.com/community/threads/introducing-spc-snp-nexaph-com-premium-usa-domestic-peptides-at-unbeatable-prices.134426803/#post-3340948" class="external">contaminants<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> and <a href="https://thinksteroids.com/community/threads/introducing-spc-snp-nexaph-com-premium-usa-domestic-peptides-at-unbeatable-prices.134426803/page-2#post-3341138" class="external">cherry picking tests<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>, and an <a href="https://thinksteroids.com/community/threads/qingdao-sigma-chemical-co-ltd-international-us-eu-canada-and-australia-domestic.134407154/page-3743#post-3435143" class="external">overview<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>has recent janoshik reports</li>
+<li>likely a drop-shipper that reships other cheaper UGLs</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="legality">Legality<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#legality" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>in some countries using experimental compounds for personal use, even steroids, is fine (e.g. UK, France), in others they are strictly regulated</li>
+<li>import of raw power peptides declared as cosmetic synthetics is legal in EU
+<ul>
+<li>substance has to be not lyophilized, not sterile, not in rubber top vials ready for injection → would count as medication, generally illegal</li>
+<li>instead: screw-top vials with lyophilized powder: you have to filter/sterilize yourself</li>
+</ul>
+</li>
+<li>prepare before making any purchases: check your local laws, read forum posts for anecdotes, ask experts</li>
+<li>if still unsure:
+<ul>
+<li>order small quantities each time, less suspicious during customs screening
+<ul>
+<li>higher shipping fees but given how cheap UGL sources are it’s not a major concern</li>
+</ul>
+</li>
+<li>China UGL sources usually ship with innocent labels (e.g. “hyaluronic acid”), so chances are there won’t be a problem
+<ul>
+<li>ask to make sure they do this if it’s a concern</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="all-the-things-you-will-need-to-buy">All the things you will need to buy<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#all-the-things-you-will-need-to-buy" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="bacteriostatic-bac-water">Bacteriostatic (BAC) water<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#bacteriostatic-bac-water" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>
+<blockquote>
+<p>⚠️ Do <strong>not</strong> use regular water or even sterile water. BAC is needed to keep bacteria out, sterile won’t do. Even BAC is not a foolproof solution, but it greatly reduces risk.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>Components must meet USP specs. BAC also meets a specific pH range suitable for peptides, others may damage it. Even the vial materials need to be specific not to change the pH much, which is why I recommend Hospira below.</p>
+</blockquote>
+</li>
+<li>⚠️ do NOT buy BAC from Amazon, <a href="https://thinksteroids.com/community/threads/is-reconstitution-solution-good-for-tirzepatide.134428517/#post-3428006" class="external">see why<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>[best] Hospira/Pfizer:
+<ul>
+<li>
+<blockquote>
+<p>Very hard to get as it’s an rx product usually only available to licensed suppliers, even though it’s “just” water.</p>
+</blockquote>
+</li>
+<li><a href="https://thinksteroids.com/community/threads/cheap-pfizer-hospira-bac-may-be-about-to-end.134428523/#post-3428386" class="external">why<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> it’s superior</li>
+<li>licensed medical suppliers that sell w/o rx: <a href="https://medexsupply.com/water-bacteriostatic-iv-inj-sol-mdv-30ml-sterile-ftv-25-pack/" class="external">US - currently the only one<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+<ul>
+<li>US source but comes out to <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">7</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">8/</span><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="mord mathnormal">ia</span><span class="mord mathnormal" style="margin-right:0.02691em;">lw</span><span class="mord mathnormal">i</span><span class="mord mathnormal">t</span><span class="mord mathnormal">h</span><span class="mord mathnormal">s</span><span class="mord mathnormal">hi</span><span class="mord mathnormal">pp</span><span class="mord mathnormal">in</span><span class="mord mathnormal" style="margin-right:0.03588em;">g</span><span class="mord mathnormal">an</span><span class="mord mathnormal">d</span><span class="mord mathnormal">c</span><span class="mord mathnormal">u</span><span class="mord mathnormal">s</span><span class="mord mathnormal">t</span><span class="mord mathnormal">o</span><span class="mord mathnormal">m</span><span class="mord mathnormal">s</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal" style="margin-right:0.02691em;">w</span><span class="mord mathnormal">hi</span><span class="mord mathnormal" style="margin-right:0.01968em;">l</span><span class="mord mathnormal">e</span><span class="mord mathnormal" style="margin-right:0.05764em;">E</span><span class="mord mathnormal" style="margin-right:0.10903em;">U</span><span class="mord mathnormal">so</span><span class="mord mathnormal">u</span><span class="mord mathnormal">rces</span><span class="mord mathnormal">a</span><span class="mord mathnormal">re</span><span class="mord mathnormal">u</span><span class="mord mathnormal">s</span><span class="mord mathnormal">u</span><span class="mord mathnormal">a</span><span class="mord mathnormal" style="margin-right:0.01968em;">ll</span><span class="mord mathnormal" style="margin-right:0.03588em;">y</span></span></span></span>20-30/vial (<a href="https://biolabshop.eu/accessories/133-woda-bakteriostatyczna.html" class="external">example<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>)</li>
+<li>it’s a no-brainer in the US at $4/vial</li>
+</ul>
+</li>
+<li>
+<blockquote>
+<p>⚠️ There are many shady sites asking for 3-10x this price or straight up selling fakes, which could be very dangerous to inject. This is not an area where you want to penny-pinch.</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li>[alternative] your peptide source may have purity tested BAC for a similar price or cheaper
+<ul>
+<li>$2.5/10ml is common with Chinese sources</li>
+</ul>
+</li>
+<li>[advanced] DIY:
+<ul>
+<li>pharma-grade 50-100ml sterile water in vials - <a href="https://www.aponeo.de/00626544-wasser-fuer-injektionszwecke.html" class="external">DE<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>pharma-grade benzyl-alcohol, usually comes in 0.5-1L size for €70 and will last you a lifetime - <a href="https://shop.es-drei.de/alkohole/410/benzylalkohol-min.-99-5?number=S1004291" class="external">DE<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+<ul>
+<li>needs to be: “Endotoxin Free” or “For Parenteral Applications” (Parenteral=for injection)</li>
+</ul>
+</li>
+<li>use a syringe to get 0.9% of BA into the steril water</li>
+<li><a href="https://thinksteroids.com/community/threads/eu-domestic-source-talk.134403344/page-133#post-3011607" class="external">guide<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>,  <a href="https://thinksteroids.com/community/threads/is-reconstitution-solution-good-for-tirzepatide.134428517/#post-3429686" class="external">additional info<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+</ul>
+</li>
+</ul>
+<h3 id="syringes-needles">Syringes, needles<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#syringes-needles" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>
+<blockquote>
+<p>The idea is to use two types of syringes: one for reconstituting the peptide, another for injection. The former uses a larger needle (between 25G and 27G, possibly larger ones too) and can be either modular or a simple non-modular unit, while the ones for injecting should be modular so you can attach a filter and a thinner needle (29G or 30G).</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>For modular syringes, there are two connection types: <a href="https://www.apsf.org/article/managing-luer-connections/" class="external">luer slip/taper and luer lock<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>. Latter is preferred as it’s more secure.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>⚠️ Only buy pharma-grade components, meaning they must be: <strong>sterile (individually packaged)</strong>, depyrogenized, non-toxic, non-latex (some are allergic to it), non-PVC, non-DEHP, &amp; ISO 13485 compliant.</p>
+</blockquote>
+</li>
+<li>
+<p>syringe: 1cc/ml 100U luer lock: <a href="https://www.exchangesupplies.org/product/UX1L" class="external">UK<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></p>
+<ul>
+<li>
+<blockquote>
+<p>‘U’ stands for units, and you want it to be 100 to make dosing precise and easy.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>If 1cc syringes are more expensive than alternatives, like in my case, you can get 2-3cc syringes for mixing to save some money, as mixing needs less accuracy (usually increments of 1ml are used), while 1cc 100U is more important for injecting as smaller doses are injected (5-10U).</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li>
+<p>needles:</p>
+<ul>
+<li>
+<blockquote>
+<p>‘G’ stands for gauge, i.e. the diameter.</p>
+</blockquote>
+</li>
+<li>pinning needle: has to be thin, 29-30G 1/2” luer lock: <a href="https://www.exchangesupplies.org/product/TY13" class="external">UK<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+<ul>
+<li>if you have thick fat layer under skin, may want a longer needle</li>
+<li>ideally low dead space for pinning needles (only important to save substance, not a requirement)</li>
+</ul>
+</li>
+<li>for reconstitution: you can use a thicker needle if it’s cheaper: eg. 25-27G 3/4-1” luer lock: <a href="https://www.exchangesupplies.org/product/A235" class="external">UK<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+<ul>
+<li>[alternative] one-piece or pre-assembled luer insulin syringe for reconstitution, can be cheaper</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="filters">Filters<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#filters" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>most guides don’t mention this, but IMO it’s a must: <a href="https://thinksteroids.com/community/threads/qingdao-sigma-chemical-co-ltd-international-us-eu-canada-and-australia-domestic.134407154/page-3779#post-3439069" class="external">rationale<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+<ul>
+<li>protein aggregates may form that can cause an unwanted immune reaction</li>
+<li>there can be contaminants</li>
+</ul>
+</li>
+<li>
+<blockquote>
+<p>I would use a filter with every injection. This makes it more expensive, but it lowers risk. You could also filter once during reconstitution into a sterile vial, but I couldn’t find sterile sealed pharma-grade empty vials (don’t trust Amazon). <a href="https://www.medical-and-lab-supplies.com/ultra-spec-sterile-5ml-20mm-neck-clear-sealed-glass-vial-qty-1.html" class="external">US<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>Many inject without filters and are fine, but you probably don’t want to tempt fate.</p>
+</blockquote>
+</li>
+<li>membrane material:
+<ul>
+<li><strong>hydrophilic</strong>: to allow. water flow
+<ul>
+<li>(if you are injecting oils, not covered here, must be oleophilic/hydrophobic)</li>
+</ul>
+</li>
+<li>[best] <strong>PES</strong>: preferred, lowest protein binding capacity
+<ul>
+<li>
+<blockquote>
+<p>Low protein binding capacity is important to not waste your peptides.</p>
+</blockquote>
+</li>
+<li><a href="https://shop.cobetter.com/products/sterile-0-22-um-pes-syringe-filters-for-sterile-filtration?variant=47858129305899" class="external">CN/global<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> <a href="https://hornik.eu.com/de/3-134_spritzenfilter/9262-spritzenfilter-qmax-rr-pes-13-mm-022-m-ve-100-stck.html" class="external">DE<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+</ul>
+</li>
+<li>[alternative] <strong>PVDF-L</strong>: slightly higher protein binding capacity</li>
+<li><strong>AVOID</strong>: PVDF-H, PTFE, nylon or cellulose acetate
+<ul>
+<li>
+<blockquote>
+<p>These have high protein binding capacity or are hydrophilic.</p>
+</blockquote>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>0.2 μm (or 0.22 μm)</strong> filters are best for sterility &amp; removing protein aggregates without damaging the peptide structure</li>
+</ul>
+<h3 id="et-cetera">Et cetera<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#et-cetera" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>opaque box: to store peptides (both raw and mixed) shielded from light</li>
+<li>alcohol wipes: to disinfect the exterior of vials before reconstitution and skin before injecting</li>
+<li>mirror: for injecting</li>
+<li>[maybe] electronic pH meter
+<ul>
+<li>only if you mix special peptides</li>
+</ul>
+</li>
+</ul>
+<h2 id="storage">Storage<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#storage" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>BAC:
+<ul>
+<li>unopened:
+<ul>
+<li>practically good forever despite expiry date</li>
+<li>away from light</li>
+<li>in room temperature, as alcohol may separate from water <a href="https://thinksteroids.com/community/threads/questions-regarding-hgh-bac-water-storage.134426722/#post-3337741" class="external">in the fridge<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+</ul>
+</li>
+<li>opened/after use: 28 days in fridge
+<ul>
+<li>
+<blockquote>
+<p>Recommended to get volume of BAC that you use up with each reconstituting so no there is no left-over that could spoil or that you’d have to waste.</p>
+</blockquote>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>peptides:
+<ul>
+<li>in fridge
+<ul>
+<li>freezer not needed: might damage molecules upon unthawing</li>
+<li>most consumer freezers cycle between low-high temperatures that may damage peptide</li>
+</ul>
+</li>
+<li>in opaque box, <strong>away from light</strong>
+<ul>
+<li>disinfect box with alcohol wipes before putting in peptides</li>
+</ul>
+</li>
+<li>shelf life:
+<ul>
+<li>raw: always ask source but should last 6 months in fridge</li>
+<li>mixed: 28 days</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="mixing-reconstituting">Mixing (reconstituting)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#mixing-reconstituting" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ol>
+<li>uncap BAC and peptide vials</li>
+<li>wipe vial tops w/ alcohol wipes</li>
+<li>pick new syringe w/ drawing needle (25-27G)
+<ul>
+<li>if luer-lock: attach</li>
+<li>do NOT touch needle (use protective case while assembling)</li>
+</ul>
+</li>
+<li>remove air from syringe TODO link video</li>
+<li>draw BAC water to desired concentration
+<ul>
+<li>draw upside down</li>
+<li>refer to guide below on calculating desired concentration</li>
+</ul>
+</li>
+<li>inject water into vial:
+<ul>
+<li>⚠️ DO NOT SPRAY water directly on peptide (MAY DAMAGE)</li>
+<li>let it drip SLOWLY down the side of the vial onto ONE SPOT of the powder, not everywhere</li>
+<li>probably don’t need to push, vacuum in vial will suck water into the vial (but not always)</li>
+</ul>
+</li>
+<li>after injecting water, draw equivalent air from the peptide to neutralize pressure, then remove needle</li>
+<li>gently roll the vial
+<ul>
+<li>⚠️ DO NOT SHAKE (may damage)</li>
+<li>let mix normally and do nothing, may take a while</li>
+</ul>
+</li>
+<li>wait until reconstituted (may take some time)</li>
+<li>it is now reconstituted</li>
+</ol>
+<p>TODO: min volume of water for solution</p>
+<h3 id="how-to-calculate-concentrations">How to calculate concentrations<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#how-to-calculate-concentrations" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ol>
+<li>note down the vial content
+<ul>
+<li>eg: 10mg</li>
+</ul>
+</li>
+<li>take your desired minimum dose
+<ul>
+<li>eg: 500mcg=0.5mg</li>
+</ul>
+</li>
+<li>calculate dose ratio: dose/vial
+<ul>
+<li>eg: 0.5/10=0.05=5%</li>
+</ul>
+</li>
+<li>note down BAC volume used for mixing
+<ul>
+<li>eg: 2ml=200U</li>
+</ul>
+</li>
+<li>calculate injection volume: multiply ratio with BAC volume
+<ul>
+<li>eg: 0.05*200U=10U</li>
+<li>this means you would draw 10U=0.1ml worth of mixed peptide into your 1cc injection syringe</li>
+</ul>
+</li>
+</ol>
+<ul>
+<li>⚠️ choose BAC volume such that the minimum injection volume is 5U=0.05ml
+<ul>
+<li>anything smaller will be very hard to precisely dose</li>
+</ul>
+</li>
+</ul>
+<h3 id="ph">pH<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#ph" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>most peptides can be mixed with BAC (pH=[5,7])</li>
+<li>some compounds like NAD+ require careful pH adjustments</li>
+<li>TODO</li>
+</ul>
+<h2 id="injecting">Injecting<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#injecting" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ol>
+<li>remove mixed peptide vial from fridge 10 minutes before injection</li>
+<li>use new syringe every time, w/ pinning needle (29-30G)
+<ul>
+<li>attach filter to syringe, then attach the pinning needle to filter</li>
+</ul>
+</li>
+<li>remove excess air from syringe
+<ul>
+<li>air bubbles: mini bubbles aren’t dangerous</li>
+<li>you can inject up to 1cc of air safely when <strong>IM</strong>  (but obviously don’t do that)
+<ul>
+<li>but NOT SAFE when IV!!!</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>wipe mixed peptide vial, wipe vial top</li>
+<li>draw mixed peptide upside down</li>
+<li>choose injection location
+<ul>
+<li>IM locations: delts preferred, glutes <a href="https://www.spotinjections.com/index3.htm" class="external">guide<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>subQ also works but likely a bit less effective
+<ul>
+<li>need to roll skin into 1-inch fold of skin and inject there</li>
+<li>see <a href="https://youtu.be/LNXOFKjTPJc?si=gOyQY8ezvHIExqpd&amp;t=179" class="external">this guide<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>if you may faint from needles, sit down on couch where you can recline</li>
+<li>wipe injection site (use different wipe): use circular motion moving outward</li>
+<li>wait a little for injection site to dry, this avoids stinging</li>
+<li>inject:
+<ol>
+<li>relax and don’t move or contract muscle during injection</li>
+<li>inject straight on (perpendicular to skin)</li>
+<li>make sure you push in needle fully, inject everything</li>
+</ol>
+</li>
+<li>wipe place of injection again</li>
+<li>wipe vial tops again and put in fridge</li>
+</ol>
+<blockquote>
+<p>If you need a visual guide, <a href="https://youtu.be/I8WOHeoL1Wg?si=VaIN7eclzDvqpAhf&amp;t=1020" class="external">this video<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> from the 17 minute mark is good.</p>
+</blockquote>
+<h3 id="notes-on-injecting-multiple-peptides-important">Notes on injecting multiple peptides, IMPORTANT<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#notes-on-injecting-multiple-peptides-important" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>always use a different syringe and needle for each peptide</li>
+<li>ideally you inject into different locations or wait some time between each peptide injection</li>
+</ul>
+<hr/>
+<h2 id="peptides-overview">Peptides overview<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#peptides-overview" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li><strong>SS-31/elamipretide</strong>: mitochondrial antioxidant</li>
+<li><strong>BPC-157</strong>: tissue repair, gut barrier repair</li>
+<li><strong>TB-4/TB-500</strong>: immune/glial modulator, vascular (VEGF), antioxidant</li>
+<li><strong>MOTS-C</strong>: mitochondria, AMPK, skeletal muscle glucose metabolism</li>
+<li><strong>humanin</strong>: mitochondria, cellular stress pathway</li>
+<li><strong>melanotan</strong>: skin tanning, sexual function</li>
+<li><strong>cerebrolysin</strong>: promotes neurotrophic stimulation</li>
+<li><strong>KPV</strong>: kill candida, repair barrier</li>
+<li><strong>LA</strong>: temporary barrier sealant</li>
+</ul>
+<hr/>
+<h2 id="additional-reading-and-sources">Additional reading and sources<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#additional-reading-and-sources" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li><a href="https://x.com/0xVM7" class="external">https://x.com/0xVM7<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> – good friend who has shared a lot of the knowledge in this document</li>
+<li><a href="https://x.com/zagreusrevival" class="external">https://x.com/zagreusrevival<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> – myself, if you want to follow updates</li>
+<li><a href="https://docs.google.com/document/d/1wm4pPzdBSt1yVMWG4UeZPOjiqBk1vHYzHMRCF1WySl0/edit?tab=t.0" class="external">another guide<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> by someone I trust, but long winded and incomplete</li>
+</ul></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="toc desktop-only"><button type="button" class="toc-header" aria-controls="toc-content" aria-expanded="true"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div class="toc-content"><ul id="c1nkg9" class="overflow"><li class="depth-0"><a href="#termsslang" data-for="termsslang">Terms/slang</a></li><li class="depth-0"><a href="#sources" data-for="sources">Sources</a></li><li class="depth-1"><a href="#legality" data-for="legality">Legality</a></li><li class="depth-0"><a href="#all-the-things-you-will-need-to-buy" data-for="all-the-things-you-will-need-to-buy">All the things you will need to buy</a></li><li class="depth-1"><a href="#bacteriostatic-bac-water" data-for="bacteriostatic-bac-water">Bacteriostatic (BAC) water</a></li><li class="depth-1"><a href="#syringes-needles" data-for="syringes-needles">Syringes, needles</a></li><li class="depth-1"><a href="#filters" data-for="filters">Filters</a></li><li class="depth-1"><a href="#et-cetera" data-for="et-cetera">Et cetera</a></li><li class="depth-0"><a href="#storage" data-for="storage">Storage</a></li><li class="depth-0"><a href="#mixing-reconstituting" data-for="mixing-reconstituting">Mixing (reconstituting)</a></li><li class="depth-1"><a href="#how-to-calculate-concentrations" data-for="how-to-calculate-concentrations">How to calculate concentrations</a></li><li class="depth-1"><a href="#ph" data-for="ph">pH</a></li><li class="depth-0"><a href="#injecting" data-for="injecting">Injecting</a></li><li class="depth-1"><a href="#notes-on-injecting-multiple-peptides-important" data-for="notes-on-injecting-multiple-peptides-important">Notes on injecting multiple peptides, IMPORTANT</a></li><li class="depth-0"><a href="#peptides-overview" data-for="peptides-overview">Peptides overview</a></li><li class="depth-0"><a href="#additional-reading-and-sources" data-for="additional-reading-and-sources">Additional reading and sources</a></li><li class="overflow-end"></li></ul></div></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.4.1</a> © 2025</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></div></body><script type="application/javascript">function o(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.classList.contains("is-collapsed")?this.scrollHeight:t.scrollHeight;t.style.maxHeight=e+"px";let c=t,l=t.parentElement;for(;l;){if(!l.classList.contains("callout"))return;let i=l.classList.contains("is-collapsed")?l.scrollHeight:l.scrollHeight+c.scrollHeight;l.style.maxHeight=i+"px",c=l,l=l.parentElement}}function n(){let t=document.getElementsByClassName("callout is-collapsible");for(let s of t){let e=s.firstElementChild;if(!e)continue;e.addEventListener("click",o),window.addCleanup(()=>e.removeEventListener("click",o));let l=s.classList.contains("is-collapsed")?e.scrollHeight:s.scrollHeight;s.style.maxHeight=l+"px"}}document.addEventListener("nav",n);
+</script><script type="module">function f(i,e){if(!i)return;function r(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function t(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}i?.addEventListener("click",r),window.addCleanup(()=>i?.removeEventListener("click",r)),document.addEventListener("keydown",t),window.addCleanup(()=>document.removeEventListener("keydown",t))}function y(i){for(;i.firstChild;)i.removeChild(i.firstChild)}var h=class{constructor(e,r){this.container=e;this.content=r;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),r=this.onMouseMove.bind(this),t=this.onMouseUp.bind(this),o=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",r),document.addEventListener("mouseup",t),window.addEventListener("resize",o),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",r),()=>document.removeEventListener("mouseup",t),()=>window.removeEventListener("resize",o))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let r=this.createButton("+",()=>this.zoom(.1)),t=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(t),e.appendChild(o),e.appendChild(r),this.container.appendChild(e)}createButton(e,r){let t=document.createElement("button");return t.textContent=e,t.className="mermaid-control-button",t.addEventListener("click",r),window.addCleanup(()=>t.removeEventListener("click",r)),t}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}zoom(e){let r=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),t=this.content.getBoundingClientRect(),o=t.width/2,n=t.height/2,c=r-this.scale;this.currentPan.x-=o*c,this.currentPan.y-=n*c,this.scale=r,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){this.scale=1;let e=this.content.querySelector("svg");this.currentPan={x:e.getBoundingClientRect().width/2,y:e.getBoundingClientRect().height/2},this.updateTransform()}},C=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],E;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;E||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let r=E.default,t=new WeakMap;for(let n of e)t.set(n,n.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let a=t.get(s);a&&(s.innerHTML=a)}let n=C.reduce((s,a)=>(s[a]=window.getComputedStyle(document.documentElement).getPropertyValue(a),s),{}),c=document.documentElement.getAttribute("saved-theme")==="dark";r.initialize({startOnLoad:!1,securityLevel:"loose",theme:c?"dark":"base",themeVariables:{fontFamily:n["--codeFont"],primaryColor:n["--light"],primaryTextColor:n["--darkgray"],primaryBorderColor:n["--tertiary"],lineColor:n["--darkgray"],secondaryColor:n["--secondary"],tertiaryColor:n["--tertiary"],clusterBkg:n["--light"],edgeLabelBackground:n["--highlight"]}}),await r.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let n=0;n<e.length;n++){let v=function(){let g=l.querySelector("#mermaid-space"),m=l.querySelector(".mermaid-content");if(!m)return;y(m);let w=c.querySelector("svg").cloneNode(!0);m.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new h(g,m)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},c=e[n],s=c.parentElement,a=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(a),L=a.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),f(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script type="application/javascript">
+        const socket = new WebSocket('ws://localhost:3001')
+        // reload(true) ensures resources like images and scripts are fetched again in firefox
+        socket.addEventListener('message', () => document.location.reload(true))
+      </script><script src="./postscript.js" type="module"></script></html>
