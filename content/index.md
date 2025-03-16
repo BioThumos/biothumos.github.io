@@ -1,5 +1,5 @@
 ---
-title: Welcome to the BioThumos Knowledge Base
+title: The BioThumos Knowledge Base
 ---
 
 This is a collection of knowledge on COVID, Long COVID, ME/CFS, health optimization, longevity, and other related topics based on latest research and anecdotes.
