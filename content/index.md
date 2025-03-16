@@ -2,7 +2,7 @@
 title: Welcome to the BioThumos Knowledge Base
 ---
 
-This is a collection of knowledge on recovery from Long COVID, ME/CFS, health optimization, longevity, and other related topics based on latest research and anecdotes.
+This is a collection of knowledge on COVID, Long COVID, ME/CFS, health optimization, longevity, and other related topics based on latest research and anecdotes.
 
 See knowledge entries in the left sidebar.
 
