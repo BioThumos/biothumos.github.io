@@ -4,7 +4,12 @@ title: The BioThumos Knowledge Base
 
 This is a collection of knowledge on COVID, Long COVID, ME/CFS, health optimization, longevity, and other related topics based on latest research and anecdotes.
 
-See knowledge entries in the left sidebar.
+See all knowledge entries in the left sidebar.
+
+## Highlights
+
+* [Long COVID Prevention Protocol](./chronic-illness/covid-protocol.md)
+* [Peptide Guide](./peptide/guide.md)
 
 ## Contributors
 * [Zagreus](https://x.com/zagreusrevival) - The main author. Long COVID & ME/CFS patient.

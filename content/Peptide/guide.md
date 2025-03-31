@@ -195,28 +195,31 @@ TODO: min volume of water for solution
 
 ## Injecting
 1. remove mixed peptide vial from fridge 10 minutes before injection
-2. use new syringe every time, w/ pinning needle (29-30G)
-	* attach filter to syringe, then attach the pinning needle to filter
-3. remove excess air from syringe
+2. use new syringe every time, attach pinning needle (29-30G) but *not* yet the filter!
+	* you [can't draw with the filter on](https://www.youtube.com/watch?v=esm6qMSoQ3Q)
+3. wipe mixed peptide vial, wipe vial top
+6. draw mixed peptide upside down
+8. put cover back on needle, remove needle from syringe
+	* ⚠️ make sure neither the needle nor the syringe outlet touches anything
+9. attach filter to filled syringe, then attach the needle to filter
+10. remove excess air from syringe: flick syringe with your finger to move bubbles to top, then gently push them out
 	* air bubbles: mini bubbles aren't dangerous
 	* you can inject up to 1cc of air safely when **IM**  (but obviously don't do that)
 		* but NOT SAFE when IV!!!
-1. wipe mixed peptide vial, wipe vial top
-2. draw mixed peptide upside down
-3. choose injection location
+11. choose injection location
 	* IM locations: delts preferred, glutes [guide](https://www.spotinjections.com/index3.htm)
 	* subQ also works but likely a bit less effective
 		* need to roll skin into 1-inch fold of skin and inject there
 		* see [this guide](https://youtu.be/LNXOFKjTPJc?si=gOyQY8ezvHIExqpd&t=179)
-4. if you may faint from needles, sit down on couch where you can recline
-5. wipe injection site (use different wipe): use circular motion moving outward
-6. wait a little for injection site to dry, this avoids stinging
-7. inject:
+12. if you may faint from needles, sit down on couch where you can recline
+13. wipe injection site (use different wipe): ⚠️ use circular motion moving outward for 15-30s
+14. wait a little for injection site to dry, this avoids stinging
+15. inject:
 	1. relax and don't move or contract muscle during injection
 	2. inject straight on (perpendicular to skin)
 	3. make sure you push in needle fully, inject everything
-8. wipe place of injection again
-9. wipe vial tops again and put in fridge
+16. wipe place of injection again
+17. wipe vial tops again and put in fridge
 
 > If you need a visual guide, [this video](https://youtu.be/I8WOHeoL1Wg?si=VaIN7eclzDvqpAhf&t=1020) from the 17 minute mark is good.
 
@@ -234,7 +237,7 @@ TODO: min volume of water for solution
 - **humanin**: mitochondria, cellular stress pathway
 - **melanotan**: skin tanning, sexual function
 - **cerebrolysin**: promotes neurotrophic stimulation
-- **KPV**: kill candida, repair barrier
+- **KPV**: kill candida, repair gut lining
 - **LA**: temporary barrier sealant
 
 ---
