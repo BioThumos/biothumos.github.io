@@ -15,6 +15,7 @@ tags:
 * *lyophilized*: freeze dried (basically powder form)
 * *IM*: intramuscular
 * *subQ*: subcutaneous
+* *CoA*: Certificate of Analysis, purity and content test results basically
 
 ## Injections or capsules?
 > Most peptides are not bioavailable orally and have little bioavailability sublingually, so unfortunately you will have to inject if you want the full benefits. This guide focuses on IM or subQ injections.
@@ -42,7 +43,7 @@ tags:
 * testing gold standard: https://janoshik.com/
 	* > If you see a vendor frequently testing their batches with janoshik, it's probably trustworthy.
 	* obviously not relevant for pharma peptides
-	* always ask for third-party testing and CoA's (certificate of authenticity)
+	* always ask for third-party testing and CoA
 		* > ⚠️ Disreputable labs do in-house testing and cook results.
 * some vetted sources:
 	* EU: https://biolabshop.eu/ - \$\$
@@ -84,40 +85,42 @@ tags:
 	* > Very hard to get as it's an rx product usually only available to licensed suppliers, even though it's "just" water.
 	* [why](https://thinksteroids.com/community/threads/cheap-pfizer-hospira-bac-may-be-about-to-end.134428523/#post-3428386) it's superior
 	* licensed medical suppliers that sell w/o rx: [US - currently the only one](https://medexsupply.com/water-bacteriostatic-iv-inj-sol-mdv-30ml-sterile-ftv-25-pack/)
-		* US source but comes out to $7-8/vial with shipping and customs, while EU sources are usually $20-30/vial ([example](https://biolabshop.eu/accessories/133-woda-bakteriostatyczna.html))
-		* it's a no-brainer in the US at $4/vial
+		* US source but comes out to \$7-8/vial with shipping and customs, while EU sources are usually $20-30/vial ([example](https://biolabshop.eu/accessories/133-woda-bakteriostatyczna.html))
+		* it's a no-brainer in the US at \$4/vial
 	* > ⚠️ There are many shady sites asking for 3-10x this price or straight up selling fakes, which could be very dangerous to inject. This is not an area where you want to penny-pinch.
 * [alternative] your peptide source may have purity tested BAC for a similar price or cheaper
 	* $2.5/10ml is common with Chinese sources
+  * other sources (like BioLab) will straight up rip you off at $10/10ml (4-7x Hospira)
 * [advanced] DIY:
 	* pharma-grade 50-100ml sterile water in vials - [DE](https://www.aponeo.de/00626544-wasser-fuer-injektionszwecke.html)
 	* pharma-grade benzyl-alcohol, usually comes in 0.5-1L size for €70 and will last you a lifetime - [DE](https://shop.es-drei.de/alkohole/410/benzylalkohol-min.-99-5?number=S1004291)
 		* needs to be: "Endotoxin Free" or "For Parenteral Applications" (Parenteral=for injection)
-	* use a syringe to get 0.9% of BA into the steril water
+	* use a syringe to get 0.9% of BA into the steril water (e.g. 1cc syringe filled to 0.9cc with BA)
 	* [guide](https://thinksteroids.com/community/threads/eu-domestic-source-talk.134403344/page-133#post-3011607),  [additional info](https://thinksteroids.com/community/threads/is-reconstitution-solution-good-for-tirzepatide.134428517/#post-3429686)
 
 ### Syringes, needles
-* > The idea is to use two types of syringes: one for reconstituting the peptide, another for injection. The former uses a larger needle (between 25G and 27G, possibly larger ones too) and can be either modular or a simple non-modular unit, while the ones for injecting should be modular so you can attach a filter and a thinner needle (29G or 30G).
+* > The idea is to use two types of syringes: one for reconstituting the peptide, another for injection. The former uses a larger needle (27G) and can be either modular or a simple non-modular unit, while the ones for injecting should be modular so you can attach a filter and a thinner needle (29G or 30G).
 * > For modular syringes, there are two connection types: [luer slip/taper and luer lock](https://www.apsf.org/article/managing-luer-connections/). Latter is preferred as it's more secure.
 * > ⚠️ Only buy pharma-grade components, meaning they must be: **sterile (individually packaged)**, depyrogenized, non-toxic, non-latex (some are allergic to it), non-PVC, non-DEHP, & ISO 13485 compliant.
 
 * syringe: 1cc/ml 100U luer lock: [UK](https://www.exchangesupplies.org/product/UX1L)
-	* > 'U' stands for units, and you want it to be 100 to make dosing precise and easy.
+	* > 'U' stands for units, and you want it to be 100 to make dosing precise and easy. 100U should be 1ml.
 	* > If 1cc syringes are more expensive than alternatives, like in my case, you can get 2-3cc syringes for mixing to save some money, as mixing needs less accuracy (usually increments of 1ml are used), while 1cc 100U is more important for injecting as smaller doses are injected (5-10U).
 * needles:
 	* > 'G' stands for gauge, i.e. the diameter.
 	* pinning needle: has to be thin, 29-30G 1/2" luer lock: [UK](https://www.exchangesupplies.org/product/TY13)
 		* if you have thick fat layer under skin, may want a longer needle
 		* ideally low dead space for pinning needles (only important to save substance, not a requirement)
-	* for reconstitution: you can use a thicker needle if it's cheaper: eg. 25-27G 3/4-1" luer lock: [UK](https://www.exchangesupplies.org/product/A235)
+	* for reconstitution: you can use a thicker needle if it's cheaper: e.g. 27G 3/4-1" luer lock: [UK](https://www.exchangesupplies.org/product/A235)
 		* [alternative] one-piece or pre-assembled luer insulin syringe for reconstitution, can be cheaper
 
 ### Filters
 * most guides don't mention this, but IMO it's a must: [rationale](https://thinksteroids.com/community/threads/qingdao-sigma-chemical-co-ltd-international-us-eu-canada-and-australia-domestic.134407154/page-3779#post-3439069)
 	*  protein aggregates may form that can cause an unwanted immune reaction
 	* there can be contaminants
-* > I would use a filter with every injection. This makes it more expensive, but it lowers risk. You could also filter once during reconstitution into a sterile vial, but I couldn't find sterile sealed pharma-grade empty vials (don't trust Amazon). [US](https://www.medical-and-lab-supplies.com/ultra-spec-sterile-5ml-20mm-neck-clear-sealed-glass-vial-qty-1.html)
+* > I would use a **filter with every injection**. This makes it more expensive, but it lowers risk. You could also filter once during reconstitution into a sterile vial, but I couldn't find sterile sealed pharma-grade empty vials in my region (don't trust Amazon). [US](https://www.medical-and-lab-supplies.com/ultra-spec-sterile-5ml-20mm-neck-clear-sealed-glass-vial-qty-1.html)
 * > Many inject without filters and are fine, but you probably don't want to tempt fate.
+* > *Purity ratings are always after filtering!!!* E.g. Janoshik for sure always tests with 0.22 μm filters. This means CoA does *not* pick up degradation of actives due to protein aggregates at all.
 * membrane material:
 	* **hydrophilic**: to allow. water flow
 		* (if you are injecting oils, not covered here, must be oleophilic/hydrophobic)
@@ -142,7 +145,7 @@ tags:
 		* away from light
 		* in room temperature, as alcohol may separate from water [in the fridge](https://thinksteroids.com/community/threads/questions-regarding-hgh-bac-water-storage.134426722/#post-3337741)
 	* opened/after use: 28 days in fridge
-		* > Recommended to get volume of BAC that you use up with each reconstituting so no there is no left-over that could spoil or that you'd have to waste.
+		* > Recommended to get the volume of BAC that you can use up with each mixing so there is no left-over that could spoil or that you'd have to waste.
 * peptides:
 	* in fridge
 		* freezer not needed: might damage molecules upon unthawing
@@ -151,12 +154,12 @@ tags:
 		* disinfect box with alcohol wipes before putting in peptides
 	* shelf life:
 		* raw: always ask source but should last 6 months in fridge
-		* mixed: 28 days
+		* mixed: 28 days (BAC lifespan + peptides may degrade faster in water)
 
 ## Mixing (reconstituting)
 1. uncap BAC and peptide vials
 2. wipe vial tops w/ alcohol wipes
-3. pick new syringe w/ drawing needle (25-27G)
+3. pick new syringe w/ thicker needle (27G)
 	* if luer-lock: attach
 	* do NOT touch needle (use protective case while assembling)
 4. remove air from syringe TODO link video
@@ -165,28 +168,30 @@ tags:
 	* refer to guide below on calculating desired concentration
 7. inject water into vial:
 	* ⚠️ DO NOT SPRAY water directly on peptide (MAY DAMAGE)
+      * note that the vacuum will likely suck in the water very fast, you need to hold syringe pusher back with fingers
 	* let it drip SLOWLY down the side of the vial onto ONE SPOT of the powder, not everywhere
 	* probably don't need to push, vacuum in vial will suck water into the vial (but not always)
-2. after injecting water, draw equivalent air from the peptide to neutralize pressure, then remove needle
-3. gently roll the vial
+2. after injecting water, draw equivalent air from the peptide vial to neutralize pressure
+3. remove needle from peptide vial
+4. gently roll the vial
 	* ⚠️ DO NOT SHAKE (may damage)
 	* let mix normally and do nothing, may take a while
-1. wait until reconstituted (may take some time)
-4. it is now reconstituted
+5. wait until reconstituted (may take some time)
+6. it is now reconstituted
 
 TODO: min volume of water for solution
 
 ### How to calculate concentrations
 1. note down the vial content
-	* eg: 10mg
+	* e.g.: 10mg
 2. take your desired minimum dose
-	* eg: 500mcg=0.5mg
+	* e.g.: 500mcg=0.5mg
 3. calculate dose ratio: dose/vial
-	* eg: 0.5/10=0.05=5%
+	* e.g.: 0.5/10=0.05=5%
 4. note down BAC volume used for mixing
-	* eg: 2ml=200U
+	* e.g.: 2ml=200U
 5. calculate injection volume: multiply ratio with BAC volume
-	* eg: 0.05\*200U=10U
+	* e.g.: 0.05\*200U=10U
 	* this means you would draw 10U=0.1ml worth of mixed peptide into your 1cc injection syringe
 * ⚠️ choose BAC volume such that the minimum injection volume is 5U=0.05ml
 	* anything smaller will be very hard to precisely dose
