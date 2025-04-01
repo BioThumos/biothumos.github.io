@@ -8,13 +8,16 @@ tags:
 
 *Knowledge based on the experience of friends far more knowledgeable than me, as well as my own attempts and many hours of research, containing hard-to-find information from esoteric internet forums.*
 
-> **Injection or capsules?** Most peptides are not bioavailable orally and have little bioavailability sublingually, so unfortunately you will have to inject if you want the full benefits. This guide focuses on IM (intramuscular) or subQ (subcutaneous) injections.
-
 ## Terms/slang
 * *slin*: insulin
 * *pinning*: injecting
 * *reconstituting*: mixing
 * *lyophilized*: freeze dried (basically powder form)
+* *IM*: intramuscular
+* *subQ*: subcutaneous
+
+## Injections or capsules?
+> Most peptides are not bioavailable orally and have little bioavailability sublingually, so unfortunately you will have to inject if you want the full benefits. This guide focuses on IM or subQ injections.
 
 ## Sources
 * > Peptides are a legal grey area. Very few of them have been authorized for human use by health agencies (one example is Zadaxin – FDA approved TA-1), yet all of them are sold for "research use" – and that is how you can buy them. All sources will tell you their compounds are not for human consumption, which they do to stay legally compliant, but it is also why you have to make absolutely sure the ones you buy have third-party purity and content testing.
@@ -211,15 +214,16 @@ TODO: min volume of water for solution
 	* subQ also works but likely a bit less effective
 		* need to roll skin into 1-inch fold of skin and inject there
 		* see [this guide](https://youtu.be/LNXOFKjTPJc?si=gOyQY8ezvHIExqpd&t=179)
-12. if you may faint from needles, sit down on couch where you can recline
-13. wipe injection site (use different wipe): ⚠️ use circular motion moving outward for 15-30s
-14. wait a little for injection site to dry, this avoids stinging
-15. inject:
+	* > Some peptides are only administrable IM. I also find IM to be more comfortable than subQ (the stomach pinning sucks), so I would simply always default to IM for every peptide.
+1. if you may faint from needles, sit down on couch where you can recline afterwards
+2. wipe injection site (use different wipe): ⚠️ use circular motion moving outward for 15-30s
+3. wait a little for injection site to dry, this avoids stinging
+4. inject:
 	1. relax and don't move or contract muscle during injection
 	2. inject straight on (perpendicular to skin)
 	3. make sure you push in needle fully, inject everything
-16. wipe place of injection again
-17. wipe vial tops again and put in fridge
+5. wipe place of injection again
+6. wipe vial tops again and put in fridge
 
 > If you need a visual guide, [this video](https://youtu.be/I8WOHeoL1Wg?si=VaIN7eclzDvqpAhf&t=1020) from the 17 minute mark is good.
 
