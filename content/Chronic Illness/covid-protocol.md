@@ -8,8 +8,8 @@ tags:
 
 *Will keep up to date. Only established advice is included here. If you know me, ask for prescription-free sources I can't list publicly.*
 
-### Preface
-##### On risk – it's kind of a Russian roulette
+## Preface
+### On risk – it's kind of a Russian roulette
 * COVID hasn't gone away: almost everyone gets infected 1-3x/year, many develop LC (5%, up to 30% have some damage even after mild infx)
 * Not like a normal virus, need to adjust priors:
 	* **The more often you catch it, the more immunocompromised you will be**, as opposed to training your immune system.
@@ -19,7 +19,7 @@ tags:
 	* You don't have to be traditionally "at risk" (obesity, diabetes, old age) to develop LC.
 	* LC risk grows linearly with number of infx
 * **NO CURE FOR LC**
-##### Buy the things now, don't leave it for the last moment.
+### Buy the things now, don't leave it for the last moment.
 * Goal: **detect an infection early and aggressively reduce viral load ASAP**.
 	* Anything less will greatly increase your LC risk.
 	* Remember: significant latency in suspecting exposure → testing positive → getting your doctor to prescribe the drugs here (or worse, waiting for delivery) → starting dosing. This makes or breaks your protocol.
@@ -32,73 +32,85 @@ tags:
 	* one time: €500-1000 (air purifier, testing equipment)
 	* monthly: $200 (supplements, masks)
 	* per infx: €200-1500 (depending on choices)
-### Infection prevention:
-* **nasal + oral sprays** before/after socializing/exposure:
-	* > This is the **bare minimum** you should do, especially when you cannot mask. Even the best masks are not perfect, every layer of protection reduces your chances of infection.
-    * nasal:
-	    * NO (nitric oxide) based - SaNOtize formula:  [EU €17](https://www.maskwholesale.eu/corona-prevention/viromed-virx-virus-protection-nasal-spray_327_1389/)
-		    * > Note that the product name varies by region (Enovid, Virx, etc). See [**distributors **](https://sanotize.com/technology/nasal-spray/approved-distributors/).
-	    * or astrodimer sodium based: [EU €10](https://viraleze.co/products/viraleze-antiviral-nasal-spray)
-		    * > A direct virucidal, may be less irritating than NO or carrageenan based sprays, which is recommended for people already chronically ill (e.g. with LC).
-	    * or HPMC based
-	    * https://pmc.ncbi.nlm.nih.gov/articles/PMC9969373/ 
-	        * > Nitric oxide nasal spray (NONS) from SaNOtize has shown promise in reducing COVID-19 viral loads in clinical trials. Hydroxypropyl methyl cellulose (HPMC) nasal sprays like Taffix from Nasus Pharma have also demonstrated effectiveness in preventing SARS-CoV-2 transmission
-	* oral:
-		* TODO
-* **masking**:
-    * > If you don’t want to wear a mask at all times (understandable), infection risk is likely Pareto distributed and most of it happens in transmission hubs: hospitals, clinics, flights, airports, schools, taxi, public transport, grocery shopping (anywhere people have/want to go even if sick; very few people go to gym when sick). You could mask in these places and otherwise not.
-    * N95/FFP2 mask or better (ideally FFP3): 3M Aura 1873V+, 3M Aura 9332+, or other 3M Aura with head straps (not earloops)
-    * Vitacore CAN99 9500 or similar for MRI (most masks have metal components)
-    * [list of reliable sources](https://www.reddit.com/r/Masks4All/wiki/index/#wiki_where_to_purchase_masks)
-* supplements:
-    * antiviral (3CLpro inhibitor):
-        * **sumac** (effective for price): maybe drink it as a “cocktail” as eating it is harsh https://pmc.ncbi.nlm.nih.gov/articles/PMC9729036/
-        * **rhamnan sulfates**: https://pmc.ncbi.nlm.nih.gov/articles/PMC8707894/
-            * Japanese **seaweeds** (cheap): Monostroma nitidum or Ulva pertusa based only (red seaweeds won’t work)
-            * or **Arterosil** (expensive but has other benefits) – [EU €85/month](https://supplementhub.com/products/arterosil-hp-60-capsules-calroy-health-sciences?variant=49299038896466)
-		* **green tea (EGCG)**: * https://pmc.ncbi.nlm.nih.gov/articles/PMC8919953/
-			* also most polyphenols,[ especially with a gallate group](https://acquaintpublications.com/article/early_use_of_polyphenol_rich_cistus_creticus_extract_containing_nasopharyngeal_spray_is_associated_with_significantly_shorter_duration_of_symptoms_in_mild_covid_19_patients_a_retrospective_case_control_study)
-	* **nattokinase/serraptase**: binds and [degrades spike protein](https://pmc.ncbi.nlm.nih.gov/articles/PMC9458005/), [degrades biofilm](https://www.jstage.jst.go.jp/article/jafps/40/6/40_273/_pdf) where viral reservoirs can form, and [busts plaque](https://pmc.ncbi.nlm.nih.gov/articles/PMC9441630/) that can worsen COVID cardiovascular issues – [global](https://iherb.com/pr/solaray-nattokinase-serrapeptase-enteric-coated-30-vegcaps/23834)
-	* **alpha-lipoic-acid (ALA)** – Na-R-ALA/BioEnhanced formula: improves microvasculature and immune defenses, against [COVID](https://www.sciencedirect.com/science/article/pii/S0306987720310604) & [flu A](https://www.sciencedirect.com/science/article/pii/S1756464624002147) – [global](https://iherb.com/pr/doctor-s-best-stabilized-r-lipoic-acid-with-bioenhanced-na-rala-100-mg-60-veggie-caps/4) [US](https://nootropicsdepot.com/r-lipoic-acid/)
-    * basics: zinc, basic vitamins & especially C/B/D, magnesium, omega-3 (only get pharma grade ethyl-ester form, eg Lovaza/Omacor), etc
-        * > 💡 Deficiencies in general as well as a poor gut biome make one perdisposed to chronic illness and so also LC.
-    * [optional] may have some basic effect: selenium, NAC, CBD, black cumin seeds/black seed oil, curcumin, garlic, ginger, pomegranate
-* **testing**:
-    * > 💡 You want a test with high sensitivity (correctly captures positive results) and high specificity (correctly identifies negatives).
-    * [best] at home with PlusLife (98.91%/100%) – [EU €260](https://altruan.eu/collections/pcr-diagnostics/products/pluslife-mini-dock-poc-nat-test-device-v-575?shpxid=77ffa55d-c172-4e9f-a6e7-f9e87cb31f98) + [€6/test](https://altruan.eu/collections/pcr-diagnostics/products/pluslife-sars-cov-2-pcr-test-kits-10-tests)
-	    * > This ends up being the cheapest option long term, especially if you have a family. If you travel a lot, work with people, or have school children, this is worth the investment.
-    * [alternative] Metrix is similar to PlusLife, tests are more expensive though
-    * [alternative] get a PCR done at a lab, you can usually pay a little extra for express results
-    * rapid antigen tests (RATs) are probably no longer viable
-	    * > Anecdotally, they don't seem to detect newer variants, it's unclear why.
-* soap (not alcohol) hand washing
-* **air quality**:
-	* COVID is airborne, so maintaining good air quality is important for your home when you have guests over or a family member is sick, your office, your children's classrooms, etc
-		* > 💡 If you have a family, understanding airflow is important when dealing with infections – one person can be sick, but as long as they have negative air pressure in their room and positive pressure everywhere else, virus won't escape their room and infect everyone else. Eg: fans/HEPA filters/open windows in hallway with airflow pointing towards the sick person's room, fan in room directing air towards window. Wear a mask when going into their room.
-		* > 💡 The easiest way to reduce risk of your child getting infected in school (major transmission hub) is to donate a few high CFM HEPA air purifiers to their classroom.
-        * > 💡 Aim for <700ppm CO2 concentration indoors (outdoor baseline: ~400ppm), as higher concentrations indicate poor circulation and so more viral particles in air.
-    * CO2 monitors:
-        * [best] **Aranet4** – €180
-        * [alternative]: **AirFanta G2 Air Quality Monitor** – $100
-    * air purifiers w/ HEPA filters:
-        * *do NOT get ozone/ionizers → carcinogenic*
-        * *CFM (cubic feet per meter): only relevant metric, higher=better; can also use multiple small devices in a large room*
-        * [best]: [**AirFanta 3Pro**](https://breathesafeair.com/airfanta-3pro-review/): aesthetics might be a problem – €180
-	        * you can DYI build this too, google Corsi-Rosenthal
-        * [expensive/alternative]: [**Coway AirMega**](https://www.consumeranalysis.com/guides/air-purifiers/coway-airmega-review/): looks better but much more expensive – €500
-    * more info: [main autist](breathesafeair) in this domain ([also good](https://www.consumeranalysis.com/))
-* masking + antivirals > vaccines:
-	* > I don't think the vax risk/reward is worth it, definitely isn't with mRNA, due to design (eg if mRNA lipid particles circulate to heart or other sensitive areas and create RNA factories in those cells) and quality control (QC) issues, and while Novavax is better, you're still injecting spike proteins that cause half the issues in LC, and if the QC is as poor with Novavax as with Pfizer, those spikes may not be properly neutralized. I can't tell, inject at own risk.
-	* C19 mutates rapidly → vaccines quickly become ineffective → require regular shots every few months → increased Long Vax risk (law of large numbers)
-* [advanced] **monoclonal antibodies (mAbs)** – $1500:
-	* more effective and seemingly less risky than vaccines
-	* effective protection for 6 months, can repeat
-	* there are always new versions to tackle the latest variant
-		* latest **Sipavibart**
 
-### Acute stage treatment:
+## Infection prevention
+
+### **Nasal + oral sprays** before/after socializing/exposure
+* > This is the **bare minimum** you should do, especially when you cannot mask. Even the best masks are not perfect, every layer of protection reduces your chances of infection.
+* nasal:
+	* NO (nitric oxide) based - SaNOtize formula:  [EU €17](https://www.maskwholesale.eu/corona-prevention/viromed-virx-virus-protection-nasal-spray_327_1389/)
+	  * > Note that the product name varies by region (Enovid, Virx, etc). See [**distributors **](https://sanotize.com/technology/nasal-spray/approved-distributors/).
+	* or astrodimer sodium based: [EU €10](https://viraleze.co/products/viraleze-antiviral-nasal-spray)
+	  * > A direct virucidal, may be less irritating than NO or carrageenan based sprays, which is recommended for people already chronically ill (e.g. with LC).
+	* or HPMC based
+	* https://pmc.ncbi.nlm.nih.gov/articles/PMC9969373/ 
+		* > Nitric oxide nasal spray (NONS) from SaNOtize has shown promise in reducing COVID-19 viral loads in clinical trials. Hydroxypropyl methyl cellulose (HPMC) nasal sprays like Taffix from Nasus Pharma have also demonstrated effectiveness in preventing SARS-CoV-2 transmission
+* oral:
+	* TODO
+
+### Masking
+* > If you don’t want to wear a mask at all times (understandable), infection risk is likely Pareto distributed and most of it happens in transmission hubs: hospitals, clinics, flights, airports, schools, taxi, public transport, grocery shopping (anywhere people have/want to go even if sick; very few people go to gym when sick). You could mask in these places and otherwise not.
+* N95/FFP2 mask or better (ideally FFP3): 3M Aura 1873V+, 3M Aura 9332+, or other 3M Aura with head straps (not earloops)
+* Vitacore CAN99 9500 or similar for MRI (most masks have metal components)
+* [list of reliable sources](https://www.reddit.com/r/Masks4All/wiki/index/#wiki_where_to_purchase_masks)
+
+### Supplements
+* antiviral (3CLpro inhibitor):
+	* **sumac** (effective for price): maybe drink it as a “cocktail” as eating it is harsh https://pmc.ncbi.nlm.nih.gov/articles/PMC9729036/
+	* **rhamnan sulfates**: https://pmc.ncbi.nlm.nih.gov/articles/PMC8707894/
+		* Japanese **seaweeds** (cheap): Monostroma nitidum or Ulva pertusa based only (red seaweeds won’t work)
+		* or **Arterosil** (expensive but has other benefits) – [EU €85/month](https://supplementhub.com/products/arterosil-hp-60-capsules-calroy-health-sciences?variant=49299038896466)
+	* **green tea (EGCG)**: * https://pmc.ncbi.nlm.nih.gov/articles/PMC8919953/
+		* also most polyphenols,[ especially with a gallate group](https://acquaintpublications.com/article/early_use_of_polyphenol_rich_cistus_creticus_extract_containing_nasopharyngeal_spray_is_associated_with_significantly_shorter_duration_of_symptoms_in_mild_covid_19_patients_a_retrospective_case_control_study)
+* **nattokinase/serraptase**: binds and [degrades spike protein](https://pmc.ncbi.nlm.nih.gov/articles/PMC9458005/), [degrades biofilm](https://www.jstage.jst.go.jp/article/jafps/40/6/40_273/_pdf) where viral reservoirs can form, and [busts plaque](https://pmc.ncbi.nlm.nih.gov/articles/PMC9441630/) that can worsen COVID cardiovascular issues – [global](https://iherb.com/pr/solaray-nattokinase-serrapeptase-enteric-coated-30-vegcaps/23834)
+* **alpha-lipoic-acid (ALA)** – Na-R-ALA/BioEnhanced formula: improves microvasculature and immune defenses, against [COVID](https://www.sciencedirect.com/science/article/pii/S0306987720310604) & [flu A](https://www.sciencedirect.com/science/article/pii/S1756464624002147) – [global](https://iherb.com/pr/doctor-s-best-stabilized-r-lipoic-acid-with-bioenhanced-na-rala-100-mg-60-veggie-caps/4) [US](https://nootropicsdepot.com/r-lipoic-acid/)
+* basics: zinc, basic vitamins & especially C/B/D, magnesium, omega-3 (only get pharma grade ethyl-ester form, eg Lovaza/Omacor), etc
+	* > 💡 Deficiencies in general as well as a poor gut biome make one perdisposed to chronic illness and so also LC.
+* [optional] may have some basic effect: selenium, NAC, CBD, black cumin seeds/black seed oil, curcumin, garlic, ginger, pomegranate
+
+### Testing
+* > 💡 You want a test with high sensitivity (correctly captures positive results) and high specificity (correctly identifies negatives).
+* [best] at home with PlusLife (98.91%/100%) – [EU €260](https://altruan.eu/collections/pcr-diagnostics/products/pluslife-mini-dock-poc-nat-test-device-v-575?shpxid=77ffa55d-c172-4e9f-a6e7-f9e87cb31f98) + [€6/test](https://altruan.eu/collections/pcr-diagnostics/products/pluslife-sars-cov-2-pcr-test-kits-10-tests)
+	* > This ends up being the cheapest option long term, especially if you have a family. If you travel a lot, work with people, or have school children, this is worth the investment.
+* [alternative] Metrix is similar to PlusLife, tests are more expensive though
+* [alternative] get a PCR done at a lab, you can usually pay a little extra for express results
+* rapid antigen tests (RATs) are probably no longer viable
+	* > Anecdotally, they don't seem to detect newer variants, it's unclear why.
+
+### Hygiene
+* soap (not alcohol) hand washing
+
+### Air quality
+* COVID is airborne, so maintaining good air quality is important for your home when you have guests over or a family member is sick, your office, your children's classrooms, etc
+	* > 💡 If you have a family, understanding airflow is important when dealing with infections – one person can be sick, but as long as they have negative air pressure in their room and positive pressure everywhere else, virus won't escape their room and infect everyone else. Eg: fans/HEPA filters/open windows in hallway with airflow pointing towards the sick person's room, fan in room directing air towards window. Wear a mask when going into their room.
+	* > 💡 The easiest way to reduce risk of your child getting infected in school (major transmission hub) is to donate a few high CFM HEPA air purifiers to their classroom.
+	* > 💡 Aim for <700ppm CO2 concentration indoors (outdoor baseline: ~400ppm), as higher concentrations indicate poor circulation and so more viral particles in air.
+* CO2 monitors:
+	* [best] **Aranet4** – €180
+	* [alternative]: **AirFanta G2 Air Quality Monitor** – $100
+* air purifiers w/ HEPA filters:
+	* *do NOT get ozone/ionizers → carcinogenic*
+	* *CFM (cubic feet per meter): only relevant metric, higher=better; can also use multiple small devices in a large room*
+	* [best]: [**AirFanta 3Pro**](https://breathesafeair.com/airfanta-3pro-review/): aesthetics might be a problem – €180
+		* you can DYI build this too, google Corsi-Rosenthal
+	* [expensive/alternative]: [**Coway AirMega**](https://www.consumeranalysis.com/guides/air-purifiers/coway-airmega-review/): looks better but much more expensive – €500
+* more info: [main autist](breathesafeair) in this domain ([also good](https://www.consumeranalysis.com/))
+
+### Masking + antivirals > vaccines:
+* > I don't think the vax risk/reward is worth it, definitely isn't with mRNA, due to design (eg if mRNA lipid particles circulate to heart or other sensitive areas and create RNA factories in those cells) and quality control (QC) issues, and while Novavax is better, you're still injecting spike proteins that cause half the issues in LC, and if the QC is as poor with Novavax as with Pfizer, those spikes may not be properly neutralized. I can't tell, inject at own risk.
+* C19 mutates rapidly → vaccines quickly become ineffective → require regular shots every few months → increased Long Vax risk (law of large numbers)
+
+### [advanced] **monoclonal antibodies (mAbs)** – $1500:
+* more effective and seemingly less risky than vaccines
+  * you are essentially injecting the end result of the vaccines - the antibodies - without the spike exposure risk
+* effective protection for 6 months, can repeat
+* there are always new versions to tackle the latest variant
+	* latest **Sipavibart**
+
+## Acute stage treatment
+
 > ⚠️ Follow these steps as soon as you notice first symptoms, **before waiting for a positive test**.
-#### Outline:
+### Outline
 1. double key supplement doses
 2. high dose famotidine
 3. test → if positive, continue
@@ -109,7 +121,7 @@ tags:
         3. after 2-3 days: immune modulator
     - (b) metformin – dirt cheap
     - (c) TA1 – $150 [advanced]
-#### In detail:
+### In detail
 > ⚠️ Timing is important. Please read carefully.
 
 1. double vitamin C/D/B, zinc, omega-3 dosage (C - up to 2g/day)
@@ -124,7 +136,7 @@ tags:
 	* > 💡 The idea here is that while you don't know if you have COVID, by taking the cheap famotidine first, you hedge without wasting the hard to source antivirals (they're also expensive).
 4. *choose based on budget and tolerance:*
 
-###### (a) **antiviral** – $1200 [preferred]
+### (a) **antiviral** – $1200 [preferred]
 > This is my preferred stack, but it's also the most expensive, so it may not apply to everyone.
 5. start an **antiviral** (3CLpro inhibitor):
 	* **start as soon as you get a positive test**
@@ -152,14 +164,14 @@ tags:
 	* [advanced/alternative] **TA1** peptide – see *choice (c)* below for details
 	* > 💡 The idea of using weaker or smaller dose immune modulators here is that with famotidine & antivirals effectively targeting viral spread and infected cells, respectively, inflammation should not be as much.
 
-###### (b) **metformin** – very cheap
+### (b) **metformin** – very cheap
 * > 💡 Due to a lack of antivirals to target infected cells, we assume inflammation is high, so metformin – which is a potent anti-inflammatory – is used.
 * **start as soon as you get a positive test**
 * requires a prescription
 - titrate: 500mg on day 1, 500mg twice daily on days 2–5, then 500mg in the morning and 1000mg in the evening up to day 14
 *  ~40% reduction of LC incidence (https://www.thelancet.com/journals/lanam/article/PIIS2667-193X(21)00138-1/fulltext & https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(23)00299-2/fulltext)
 
-###### (c) **Thymosin Alpha 1 (TA1)** – $150 [advanced]
+### (c) **Thymosin Alpha 1 (TA1)** – $150 [advanced]
 - > ⚠️ This step is only recommended if you have experience with peptides, therefore I'm not going into too much detail here.
 * **you can start this upon first symptom presentation**, as it's useful even if it's not COVID
 * immune modulator: if too little immune activation → increases it; if too much → lowers it
@@ -172,7 +184,7 @@ tags:
 
 
 
-#### Experimental
+### Experimental
 * *The above should be enough to get you there most of the way, but if you really want to be sure, add these to your protocol.*
 * high-dose **melatonin**:
 	* *No enough clinical trials on this but it's harmless enough with big potential upside that I'm including it.*
@@ -180,7 +192,7 @@ tags:
 	* **KEY**: Start as soon as first symptoms present! Otherwise it doesn't work well.
 	* [instructions](https://api.doris-loh.com/catalog/April_2023_Melatonin_Dosing_Schedule.pdf)
 	* [theory](https://pubmed.ncbi.nlm.nih.gov/35897696/): prevents virus from forming factories in the cell, preserves mitochondria, prevents modification of RNA molecules in the cell
-#### Some interventions that didn't make the cut
+### Some interventions that didn't make the cut
 * **ivermectin/IVM**:
 	* decent anti-inflammatory if used early enough
 	* some people have a rare mutation in p-glycoprotein transporters required to pump IVM out of the CNS, and IVM left there is neurotoxic
