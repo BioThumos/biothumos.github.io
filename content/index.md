@@ -8,8 +8,8 @@ See all knowledge entries in the left sidebar.
 
 ## Highlights
 
-* [Long COVID Prevention Protocol](./chronic-illness/covid-protocol.md)
-* [Peptide Guide](./peptide/guide.md)
+* [Long COVID Prevention Protocol](Chronic-Illness/covid-protocol)
+* [Peptide Guide](./Peptide/guide)
 
 ## Contributors
 * [Zagreus](https://x.com/zagreusrevival) - The main author. Long COVID & ME/CFS patient.
