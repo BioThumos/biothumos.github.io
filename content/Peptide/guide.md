@@ -206,29 +206,32 @@ TODO: min volume of water for solution
 2. use new syringe every time, attach pinning needle (29-30G) but *not* yet the filter!
 	* you [can't draw with the filter on](https://www.youtube.com/watch?v=esm6qMSoQ3Q)
 3. wipe mixed peptide vial, wipe vial top
-6. draw mixed peptide upside down
-8. put cover back on needle, remove needle from syringe
-	* ⚠️ make sure neither the needle nor the syringe outlet touches anything
-9. attach filter to filled syringe, then attach the needle to filter
-10. remove excess air from syringe: flick syringe with your finger to move bubbles to top, then gently push them out
+2. wipe injection site (use different wipe): ⚠️ use circular motion moving outward for 15-30s
+    * do this now to let the skin dry a little (injecting with alcohol still on causes stinging)
+4. draw mixed peptide upside down
+5. put cap back on needle, remove needle from syringe
+	* ⚠️ make sure neither the needle and inlet nor the syringe outlet touch anything
+6. push out any air from the syringe before attaching filter (easier to do now)
+7. attach filter to filled syringe, then attach the needle to filter, remove needle cap
+8. remove excess air from syringe: hold syringe needle facing up, flick syringe with your finger to move bubbles to top, then gently push them out
+	* you will waste some actives at this step but over time you'll get better at minimizing air bubbles
 	* air bubbles: mini bubbles aren't dangerous
 	* you can inject up to 1cc of air safely when **IM**  (but obviously don't do that)
 		* but NOT SAFE when IV!!!
-11. choose injection location
+9. choose injection location
 	* IM locations: delts preferred, glutes [guide](https://www.spotinjections.com/index3.htm)
 	* subQ also works but likely a bit less effective
 		* need to roll skin into 1-inch fold of skin and inject there
 		* see [this guide](https://youtu.be/LNXOFKjTPJc?si=gOyQY8ezvHIExqpd&t=179)
 	* > Some peptides are only administrable IM. I also find IM to be more comfortable than subQ (the stomach pinning sucks), so I would simply always default to IM for every peptide.
-1. if you may faint from needles, sit down on couch where you can recline afterwards
-2. wipe injection site (use different wipe): ⚠️ use circular motion moving outward for 15-30s
-3. wait a little for injection site to dry, this avoids stinging
-4. inject:
+10. if you may faint from needles, sit down on couch where you can recline afterwards
+11. wait a little for injection site to dry, this avoids stinging
+12. inject:
 	1. relax and don't move or contract muscle during injection
 	2. inject straight on (perpendicular to skin)
 	3. make sure you push in needle fully, inject everything
-5. wipe place of injection again
-6. wipe vial tops again and put in fridge
+13. wipe place of injection again
+14. wipe vial tops again and put in fridge
 
 > If you need a visual guide, [this video](https://youtu.be/I8WOHeoL1Wg?si=VaIN7eclzDvqpAhf&t=1020) from the 17 minute mark is good.
 
