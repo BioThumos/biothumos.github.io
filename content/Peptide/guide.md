@@ -236,8 +236,9 @@ TODO: min volume of water for solution
 > If you need a visual guide, [this video](https://youtu.be/I8WOHeoL1Wg?si=VaIN7eclzDvqpAhf&t=1020) from the 17 minute mark is good.
 
 ### Notes on injecting multiple peptides, IMPORTANT
-* always use a different syringe and needle for each peptide
+* always use a different syringe, filter, and needle for each peptide
 * ideally you inject into different locations or wait some time between each peptide injection
+* this is to avoid the peptide forming protein aggregates in the blood
 
 ---
 
