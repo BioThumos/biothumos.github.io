@@ -226,10 +226,11 @@ TODO: min volume of water for solution
 	* > Some peptides are only administrable IM. I also find IM to be more comfortable than subQ (the stomach pinning sucks), so I would simply always default to IM for every peptide.
 10. if you may faint from needles, sit down on couch where you can recline afterwards
 11. wait a little for injection site to dry, this avoids stinging
-12. inject:
+12. inject SLOWLY:
 	1. relax and don't move or contract muscle during injection
 	2. inject straight on (perpendicular to skin)
 	3. make sure you push in needle fully, inject everything
+  4. has to be slow otherwise you may burst the filter membrane
 13. wipe place of injection again
 14. wipe vial tops again and put in fridge
 
