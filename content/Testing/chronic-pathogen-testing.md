@@ -34,7 +34,7 @@ https://www.youtube.com/watch?v=kUdt4-jkBRM
 - many people don't know they have tick borne infection
 	- bull's eye rash: 70% don't get it on borrelia, no rash for the other two at all
 	- ticks are easy to miss
-- see [his thoughts on treatment](Lyme.md#Dr-Kaufman)
+- see [his thoughts on treatment](chronic-lyme.md#Dr-Kaufman)
 
 #### overview:
 - **Bartonella**: foot burning/tender soles, pain/tenderness all over body, gastritis or if you have cats and have been bitten/scratched could be signs to test. PCR on lesion/lymph node biopsy + serology to confirm
