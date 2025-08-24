@@ -1,10 +1,10 @@
 ---
 title: General Testing
-draft: true
+draft: false
 date: 2025-08-22
 tags:
+  - testing
 ---
-
 ## CMA/CNA
 labs:
 * Cell Science Systems https://cellsciencesystems.com/patients/cna/

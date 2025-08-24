@@ -6,15 +6,9 @@
       <description>Last 10 notes on BioThumos</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Chronic Lyme Treatment</title>
-    <link>https://biothumos.github.io/Chronic-illness/chronic-lyme</link>
-    <guid>https://biothumos.github.io/Chronic-illness/chronic-lyme</guid>
-    <description>Dr.</description>
-    <pubDate>Sun, 24 Aug 2025 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>Chronic Lyme Treatment</title>
-    <link>https://biothumos.github.io/ME--and--Long-COVID/chronic-lyme</link>
-    <guid>https://biothumos.github.io/ME--and--Long-COVID/chronic-lyme</guid>
+    <title>Chronic Lyme (notes)</title>
+    <link>https://biothumos.github.io/Notes/chronic-lyme</link>
+    <guid>https://biothumos.github.io/Notes/chronic-lyme</guid>
     <description>Dr.</description>
     <pubDate>Sun, 24 Aug 2025 00:00:00 GMT</pubDate>
   </item><item>
@@ -28,6 +22,12 @@
     <link>https://biothumos.github.io/Testing/chronic-pathogen-testing</link>
     <guid>https://biothumos.github.io/Testing/chronic-pathogen-testing</guid>
     <description> most of these pathogens are hard to detect in their chronic stage IgM won’t be positive for most chronic cases 16x the IgG negative range upper-bound should be considered active there is no single test that can prove chronic infection, instead you need: a combination of different tests periodic re-...</description>
+    <pubDate>Fri, 22 Aug 2025 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>General Testing</title>
+    <link>https://biothumos.github.io/Testing/general-testing</link>
+    <guid>https://biothumos.github.io/Testing/general-testing</guid>
+    <description>CMA/CNA labs: Cell Science Systems cellsciencesystems.com/patients/cna/ Spectra Cell Vibrant Wellness .</description>
     <pubDate>Fri, 22 Aug 2025 00:00:00 GMT</pubDate>
   </item><item>
     <title>The BioThumos Knowledge Base</title>
@@ -45,12 +45,6 @@
     <title>Long COVID Prevention Protocol - v1.2</title>
     <link>https://biothumos.github.io/Chronic-illness/covid-protocol</link>
     <guid>https://biothumos.github.io/Chronic-illness/covid-protocol</guid>
-    <description>Will keep up to date. Only established advice is included here. If you know me, ask for prescription-free sources I can’t list publicly.</description>
-    <pubDate>Tue, 11 Mar 2025 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>Long COVID Prevention Protocol - v1.2</title>
-    <link>https://biothumos.github.io/ME--and--Long-COVID/covid-protocol</link>
-    <guid>https://biothumos.github.io/ME--and--Long-COVID/covid-protocol</guid>
     <description>Will keep up to date. Only established advice is included here. If you know me, ask for prescription-free sources I can’t list publicly.</description>
     <pubDate>Tue, 11 Mar 2025 00:00:00 GMT</pubDate>
   </item>

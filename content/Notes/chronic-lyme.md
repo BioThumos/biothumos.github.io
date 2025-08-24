@@ -1,12 +1,27 @@
 ---
-title: Chronic Lyme Treatment
+title: Chronic Lyme (notes)
 draft: false
 date: 2025-08-24
 tags:
   - lyme
-
 ---
 ## Dr. Kaufman
+###  Testing
+https://www.youtube.com/watch?v=kUdt4-jkBRM
+- thinks all 3 B's have herpes-like latent/reactivation dynamics based on his experience
+- doesn't pursue serology testing for this reason
+	- if we accept it's a reactivating disease, antibody testing is less useful
+	- 90% of his patients do test positive
+- looks for more evidence before expensive & difficult treatment → looks for active disease
+	- doesn't treat based on antibody results
+	- only treats treats if PCR positive in blood → culture doesn't work with these organisms
+	- uses TLab FISH testing
+- many people don't know they have tick borne infection
+	- bull's eye rash: 70% don't get it on borrelia, no rash for the other two at all
+	- ticks are easy to miss
+- see [his thoughts on treatment](chronic-lyme.md#Dr-Kaufman)
+
+###  Treatment
 https://youtu.be/kUdt4-jkBRM?si=MUnjCW9YLICKTfyE&t=1252
 - usual abx are only effective against the replicating forms, not against the latent phase (Zhang @ Hopkins, Lewis @ Northeastern, Rajadas @ Stanford)
 	- https://pubmed.ncbi.nlm.nih.gov/26014929/

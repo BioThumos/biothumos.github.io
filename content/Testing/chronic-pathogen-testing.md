@@ -21,21 +21,6 @@ My (possibly erroneous) understanding is that if you _never had the highly speci
 
 The symptoms for each species are fairly specific so I would start there as I can't list everything. This seems like an ok resource to start: https://www.lymedisease.org/touchedbylyme-wayne-anderson/, or ask GPT-thinking.
 
-####  Dr. Kaufman
-https://www.youtube.com/watch?v=kUdt4-jkBRM
-- thinks all 3 B's have herpes-like latent/reactivation dynamics based on his experience
-- doesn't pursue serology testing for this reason
-	- if we accept it's a reactivating disease, antibody testing is less useful
-	- 90% of his patients do test positive
-- looks for more evidence before expensive & difficult treatment → looks for active disease
-	- doesn't treat based on antibody results
-	- only treats treats if PCR positive in blood → culture doesn't work with these organisms
-	- uses TLab FISH testing
-- many people don't know they have tick borne infection
-	- bull's eye rash: 70% don't get it on borrelia, no rash for the other two at all
-	- ticks are easy to miss
-- see [his thoughts on treatment](chronic-lyme.md#Dr-Kaufman)
-
 #### overview:
 - **Bartonella**: foot burning/tender soles, pain/tenderness all over body, gastritis or if you have cats and have been bitten/scratched could be signs to test. PCR on lesion/lymph node biopsy + serology to confirm
 - **Babesia**: thrombocytopenia (low thrombocytes count on CBC), jaundice, anemia, bad fever/chill cycles, SOB are signs to test. Testing should be done during relapsing fever, but I'm not sure in us immunocompromised patients fever would ever present. (Eg. I never had much fever in my life, even during an appendicitis, which should have been a red flag all along a it points to baseline immune deficiency.)
