@@ -6,10 +6,16 @@
       <description>Last 10 notes on BioThumos</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Whole Genome Sequencing</title>
+    <link>https://biothumos.github.io/WGS</link>
+    <guid>https://biothumos.github.io/WGS</guid>
+    <description> I advise against the trendy online direct-to-customer labs due to many issues (see below) and instead recommend finding a non-trendy local accredited lab that has thorough documentation on their processes and technology (or is willing to tell you in detail).</description>
+    <pubDate>Sun, 24 Aug 2025 00:00:00 GMT</pubDate>
+  </item><item>
     <title>Chronic Pathogen Testing</title>
     <link>https://biothumos.github.io/Chronic-Illness/chronic-pathogen-testing</link>
     <guid>https://biothumos.github.io/Chronic-Illness/chronic-pathogen-testing</guid>
-    <description> most of these pathogens are hard to detect in their chronic stage IgM won’t be positive for most chronic cases 16x the IgG negative upper-bound should be considered active there is no single test that can prove chronic infection, instead you need: a combination of different tests periodic re-testin...</description>
+    <description> most of these pathogens are hard to detect in their chronic stage IgM won’t be positive for most chronic cases 16x the IgG negative range upper-bound should be considered active there is no single test that can prove chronic infection, instead you need: a combination of different tests periodic re-...</description>
     <pubDate>Fri, 22 Aug 2025 00:00:00 GMT</pubDate>
   </item><item>
     <title>The BioThumos Knowledge Base</title>
