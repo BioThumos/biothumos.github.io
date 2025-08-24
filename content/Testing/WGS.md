@@ -24,6 +24,7 @@ tags:
 	- some labs (especially the trendy ones) can take arbitrarily long
 - reasonable pricing is $1-2k
 	- anything below is suspicious, anything above likely a rip-off
+- I would recommend not giving the lab your real name if not going with a national healthcare genetics lab. This is to preserve privacy as your genetic information could be used for any number of things.
 
 ## Pre-processing
 - library preparation: PCR-free

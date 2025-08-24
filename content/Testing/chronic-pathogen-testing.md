@@ -8,7 +8,6 @@ tags:
   - ebv
   - herpes
 ---
-
 * most of these pathogens are hard to detect in their chronic stage
 	* IgM won't be positive for most chronic cases
 	* 16x the IgG negative range upper-bound should be considered active
@@ -17,10 +16,25 @@ tags:
 	* periodic re-testing to measure trends
 	* expert analysis to match test results with symptoms to *guess* the state of your infection
 
-## Lyme diseases
+## Tick borne diseases (Lyme)
 My (possibly erroneous) understanding is that if you _never had the highly specific symptoms_ of either of the 3B's, you are unlikely to have either.
 
 The symptoms for each species are fairly specific so I would start there as I can't list everything. This seems like an ok resource to start: https://www.lymedisease.org/touchedbylyme-wayne-anderson/, or ask GPT-thinking.
+
+####  Dr. Kaufman
+https://www.youtube.com/watch?v=kUdt4-jkBRM
+- thinks all 3 B's have herpes-like latent/reactivation dynamics based on his experience
+- doesn't pursue serology testing for this reason
+	- if we accept it's a reactivating disease, antibody testing is less useful
+	- 90% of his patients do test positive
+- looks for more evidence before expensive & difficult treatment → looks for active disease
+	- doesn't treat based on antibody results
+	- only treats treats if PCR positive in blood → culture doesn't work with these organisms
+	- uses TLab FISH testing
+- many people don't know they have tick borne infection
+	- bull's eye rash: 70% don't get it on borrelia, no rash for the other two at all
+	- ticks are easy to miss
+- see [his thoughts on treatment](Lyme.md#Dr-Kaufman)
 
 #### overview:
 - **Bartonella**: foot burning/tender soles, pain/tenderness all over body, gastritis or if you have cats and have been bitten/scratched could be signs to test. PCR on lesion/lymph node biopsy + serology to confirm
@@ -31,6 +45,8 @@ The symptoms for each species are fairly specific so I would start there as I ca
 * ***TLab RNA FISH**:
 	* Seems to be the most advanced test as it detects pathogens in cells directly through microscopy and then RNA sequencing on the found pathogen is run to confirm.
 	* However, it's very expensive ($600+ per strain, so testing all B's will run you several thousand), and probably not useful for Borrelia due to tissue preference.
+	* 6 weeks
+	* cannot quantify positivity
 * ***Igenex**:
 	* possibly best serology option for bart/babs (again, useless for chronic Borrelia)
 	* but serology can't confirm active infection (not even with the 16x rule, it's a heuristic)
