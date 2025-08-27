@@ -40,7 +40,7 @@ https://www.youtube.com/watch?v=Uz_F6UQ628Y
 	- octreotide
 	- prucalopride
 	- all help a little bit, no silver bullet
-	once things get moving, may relapse at first → could be toxin release
-	colonoscopy prep can help
-		don't do enema, not strong enough? especially frequently
+- once things get moving, may relapse at first → could be toxin release
+- colonoscopy prep can help
+	- don't do enema (not strong enough?), especially frequently
 - they don't know what the best probiotics is
