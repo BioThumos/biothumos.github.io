@@ -5,7 +5,12 @@ date: 2025-08-24
 tags:
   - lyme
 ---
-## Dr. Kaufman
+
+## Tania Dempsey & David Kaufman
+https://www.youtube.com/watch?v=_1mEDBroU9Y
+- 
+
+## David Kaufman
 ###  Testing
 https://www.youtube.com/watch?v=kUdt4-jkBRM
 - thinks all 3 B's have herpes-like latent/reactivation dynamics based on his experience

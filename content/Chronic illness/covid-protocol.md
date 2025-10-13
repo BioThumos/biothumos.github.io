@@ -4,6 +4,7 @@ draft: false
 date: 2025-03-11
 tags:
   - covid
+  - guide
 ---
 
 *Will keep up to date. Only established advice is included here. If you know me, ask for prescription-free sources I can't list publicly.*

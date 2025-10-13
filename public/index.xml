@@ -6,16 +6,52 @@
       <description>Last 10 notes on BioThumos</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Cell Danger Response (CDR)</title>
+    <link>https://biothumos.github.io/Notes/cdr</link>
+    <guid>https://biothumos.github.io/Notes/cdr</guid>
+    <description>ME/CFS, CDR, and Treatments — crisp notes Conceptual model Illness sustained by a chronic Cell Danger Response (CDR) with immune exhaustion, mitochondrial dysfunction, limbic sensitization, and persistent alarmins.</description>
+    <pubDate>Thu, 11 Sep 2025 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>ME/CFS Treatment Protocol - v0.1</title>
+    <link>https://biothumos.github.io/Chronic-illness/mecfs-treatment-protocol</link>
+    <guid>https://biothumos.github.io/Chronic-illness/mecfs-treatment-protocol</guid>
+    <description> see testing and chronic-pathogen-testing to determine phenotype and areas of interest TODO: immunopeptidome changing to fix HLA mismatch itaconate shunt innate opiod receptor tolerance → bacopa → then methylene blue fosmanogepix for fungal stuff Basics: use in all stages ARA-290 → fix SFN takes a l...</description>
+    <pubDate>Wed, 10 Sep 2025 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>Longevity Protocol - v0.1</title>
+    <link>https://biothumos.github.io/Longevity/longevity-protocol</link>
+    <guid>https://biothumos.github.io/Longevity/longevity-protocol</guid>
+    <description>TODO: gut health, probiotics bone health: L.</description>
+    <pubDate>Wed, 10 Sep 2025 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>Conversations Excerpts: A.S.</title>
+    <link>https://biothumos.github.io/Notes/_priv-conv-as</link>
+    <guid>https://biothumos.github.io/Notes/_priv-conv-as</guid>
+    <description>analyisis of my immune status: I am not usually a massive fan of Dr Patterson’s cytokine panels, but I really like this particular result Immune activation is weighted towards Th2 (IL-4, IL-13), which neatly explains MCAS - Th2 T cells encourage humoral immunity via B cell stimulation → IgE I consid...</description>
+    <pubDate>Thu, 04 Sep 2025 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>Conversation Excerpts: D.C.</title>
+    <link>https://biothumos.github.io/Notes/_priv-conv-dc</link>
+    <guid>https://biothumos.github.io/Notes/_priv-conv-dc</guid>
+    <description>Viral driver of ME (WTHHF) In us humans it’s almost impossible with the approved antivirals to remove viral infections like EBV, CMV, HHV6 from the central nervous system.</description>
+    <pubDate>Thu, 04 Sep 2025 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>Conversation Excerpts: S.</title>
+    <link>https://biothumos.github.io/Notes/conv-s</link>
+    <guid>https://biothumos.github.io/Notes/conv-s</guid>
+    <description>Ablify If it’s Abilify, I just wanted to let you know that I have a friend who has remained mostly asymptomatic thanks to Abilify.</description>
+    <pubDate>Thu, 04 Sep 2025 00:00:00 GMT</pubDate>
+  </item><item>
     <title>GI Health</title>
     <link>https://biothumos.github.io/Notes/gut</link>
     <guid>https://biothumos.github.io/Notes/gut</guid>
-    <description>Dr. Kaufman &amp; Dr.</description>
+    <description>David Kaufman &amp; Ilene Ruhoy www.youtube.com/watch Ruhoy likes enteragem: expensive, 1-3 months should be enough, reduces gut inflammation cheaper versions: SBI protect, IG spore, glutashield enteragem is more potent though sx treatment, not core SIBO treatments (Kaufman): getting rid of inapprop...</description>
     <pubDate>Wed, 27 Aug 2025 00:00:00 GMT</pubDate>
   </item><item>
     <title>Chronic Lyme (notes)</title>
     <link>https://biothumos.github.io/Notes/chronic-lyme</link>
     <guid>https://biothumos.github.io/Notes/chronic-lyme</guid>
-    <description>Dr.</description>
+    <description>Tania Dempsey &amp; David Kaufman www.youtube.com/watch David Kaufman Testing www.youtube.com/watch thinks all 3 B’s have herpes-like latent/reactivation dynamics based on his experience doesn’t pursue serology testing for this reason if we accept it’s a reactivating disease, antibody testing is les...</description>
     <pubDate>Sun, 24 Aug 2025 00:00:00 GMT</pubDate>
   </item><item>
     <title>Whole Genome Sequencing</title>
@@ -29,30 +65,6 @@
     <guid>https://biothumos.github.io/Testing/chronic-pathogen-testing</guid>
     <description> most of these pathogens are hard to detect in their chronic stage IgM won’t be positive for most chronic cases 16x the IgG negative range upper-bound should be considered active there is no single test that can prove chronic infection, instead you need: a combination of different tests periodic re-...</description>
     <pubDate>Fri, 22 Aug 2025 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>General Testing</title>
-    <link>https://biothumos.github.io/Testing/general-testing</link>
-    <guid>https://biothumos.github.io/Testing/general-testing</guid>
-    <description>CMA/CNA labs: Cell Science Systems cellsciencesystems.com/patients/cna/ Spectra Cell Vibrant Wellness .</description>
-    <pubDate>Fri, 22 Aug 2025 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>The BioThumos Knowledge Base</title>
-    <link>https://biothumos.github.io/</link>
-    <guid>https://biothumos.github.io/</guid>
-    <description>This is a collection of knowledge on COVID, Long COVID, ME/CFS, health optimization, longevity, and other related topics based on latest research and anecdotes.</description>
-    <pubDate>Sun, 16 Mar 2025 12:13:08 GMT</pubDate>
-  </item><item>
-    <title>Peptide Guide - v1.0</title>
-    <link>https://biothumos.github.io/Peptide/guide</link>
-    <guid>https://biothumos.github.io/Peptide/guide</guid>
-    <description>Knowledge based on the experience of friends far more knowledgeable than me, as well as my own attempts and many hours of research, containing hard-to-find information from esoteric internet forums.</description>
-    <pubDate>Fri, 14 Mar 2025 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>Long COVID Prevention Protocol - v1.2</title>
-    <link>https://biothumos.github.io/Chronic-illness/covid-protocol</link>
-    <guid>https://biothumos.github.io/Chronic-illness/covid-protocol</guid>
-    <description>Will keep up to date. Only established advice is included here. If you know me, ask for prescription-free sources I can’t list publicly.</description>
-    <pubDate>Tue, 11 Mar 2025 00:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>

@@ -6,7 +6,7 @@ tags:
   - gut
   - sibo
 ---
-## Dr. Kaufman & Dr. Ruhoy
+## David Kaufman & Ilene Ruhoy
 https://www.youtube.com/watch?v=Uz_F6UQ628Y
 - Ruhoy likes enteragem: expensive, 1-3 months should be enough, reduces gut inflammation
 	- cheaper versions: SBI protect, IG spore, glutashield
