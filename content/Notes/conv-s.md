@@ -1117,3 +1117,177 @@ As for opioid receptors, I still haven’t found a clear explanation for why the
 But we also have fewer beta-endorphins... This might be linked to the instability of inducible nitric oxide synthase (iNOS) when BH4 (tetrahydrobiopterin) is depleted—both because of methylation defects and because peroxynitrite oxidizes BH4. There must be a fixed mechanistic link there somewhere; I’m sure of it.
 
 Another thing I forgot to mention: if you want to identify which pathways are disrupted in ME/CFS within the hypometabolic phenotype, it’s extremely useful to study the metabolic pathways that drive and sustain cellular senescence. Most of them are the very same ones that are dysregulated in ME/CFS — it’s honestly quite remarkable.
+
+
+## Neurotransmitters
+
+For example, the neurotransmitter imbalance may stem from NOS uncoupling. When NOS becomes uncoupled, it produces superoxide instead of nitric oxide, which then reacts with any remaining nitric oxide to form peroxynitrite. Peroxynitrite, in turn, oxidizes BH4 and further inhibits NOS. Meanwhile, activation of the pentose phosphate pathway increases NADPH, which fuels NOX activity, generating more superoxide — further perpetuating NOS uncoupling. Excess oxidative stress also disrupts the methylation cycle, leading to a shortage of 5-methyltetrahydrofolate, which is needed to regenerate BH4. Without enough BH4, dopamine, serotonin, and norepinephrine synthesis all decline.
+
+But ultimately, trying to fix these individual pathways one by one is futile — everything realigns when you address the primary cause.
+
+## S's evaluation of me, part 1: OAT
+
+I’ve reviewed your organic acids test, and it’s quite interesting. You show deficiencies in both the serotonin and dopamine pathways. This usually stems from two factors. First, if you look at the pathway, both serotonin and dopamine, derived from tryptophan and phenylalanine, require BH4 for synthesis. The problem is that we often have impaired BH4 availability, since it depends on adequate methylation to generate 5-methyltetrahydrofolate, which stabilizes BH4 and also supports iNOS. That way, BH4 can activate iNOS properly instead of generating excess superoxide and peroxynitrite. The lack of methylation usually occurs under conditions of oxidative stress inside the cell, typically when there is mitochondrial dysfunction and when the CDR is active. In other words, it is a consequence of oxidative stress, intrinsic to the CDR.
+
+What can be done in the meantime is to support methylation with SAMe, together with methylated B9 and B12 in the form of 5-methyltetrahydrofolate and sublingual or SC or IM hydroxocobalamin or methylcobalamin. This can help improve methylation and possibly normalize serotonin and dopamine levels, although it’s not a magic solution; as long as the disease is active, this impairment will persist. But many patients feels the difference. 
+
+Another reason serotonin and its metabolites decrease is that tryptophan is diverted through the enzyme IDO, which is strongly induced by proinflammatory cytokines. IDO converts tryptophan into kynurenine, which activates AHR and induces TGF-β1, IL-6, and further IDO expression, perpetuating the cycle. This kynurenine/AHR axis is one of the major immunosuppressive pathways, and it also drives the expression of enzymes such as CD38 and PPAR that consume NAD⁺, further reducing mitochondrial function and favoring reductive stress. This is where TMS, by inhibiting AHR, could be very helpful.
+
+On the other hand, the organic acids pattern suggests that the itaconate shunt is active, as indicated by a high succinate-to-fumarate ratio. This is consistent with itaconate inhibiting the conversion of succinate to fumarate. Interestingly, fumarate is still within normal or even elevated range.
+
+Meanwhile, your antioxidant capacity appears to be under strain, as indicated by elevated pyroglutamate, which reflects an attempt to produce glutathione. This suggests that glutathione itself is likely low, NAC is depleted, even though vitamin C remains normal. Early in the disease, during a more proinflammatory CDR1 state, fumarate can still accept electrons and be reduced back to succinate in an attempt to preserve NAD⁺ levels. Over time this compensation fails, and fumarate levels typically collapse toward zero. This pattern suggests you are still in a predominantly proinflammatory state.
+
+This also fits with evidence of increased transsulfuration flux toward glutathione production. That’s why some of your sulfur-related metabolite
+(2-hydroxybutyric acid) is very high. Interestingly, your methylmalonic acid is not elevated, which is unusual if there is functional B12 deficiency. This may mean you are supplementing B12; if not, then you have not yet reached the point of methylmalonate accumulation. It would have been very useful to see FIGLU (formiminoglutamate) as a marker of active folate status. Both active B12 and B9 are required to sustain the methylation cycle and recycle homocysteine to methionine. Have you checked homocysteine in blood? If it is elevated, you should lower it with active B12 and B9 as described.
+
+Most amino acid metabolites are very low except for hydroxybutyrate. This could reflect NAD⁺ or B2 deficiency. If low aminoacids are confirmed in plasma or urine, you might benefit from broad amino acid supplementation (e.g. complete amino acid mixes) or simply higher dietary protein. However, due to low stomach acid, intestinal dysbiosis, and intrinsic catabolism, many patients are unable to raise amino acid levels significantly, even with increased protein in the diet—hence the AAs are a good alternative. 
+
+Are you currently in ketosis? Please confirm, as otherwise it would be very surprising to see specific ketosis markers.
+
+You also show elevated arabinose, consistent with Candida albicans, and some metabolites that may indicate Clostridium difficile. In my opinion these findings are common and not very actionable. Treating Candida usually doesn’t solve much. You could reduce carbohydrates or follow a ketogenic diet to try to starve them, but until immune function recovers, dysbiosis will not resolve properly. That has been my experience and that of many other patients.
+
+In conclusion, I see relatively common abnormalities, but the fumarate pattern suggests you are still in an early inflammatory stage of the illness with typical abnormalities 
+
+You are right that elevated suberic acid implies omega-oxidation, and this is actually to be expected since fatty acid oxidation requires NAD⁺ to be reduced to NADH. When there is mitochondrial reductive stress, this cannot occur. The problem is that pyruvate dehydrogenase is also inhibited, so glucose oxidation, its conversion into acetyl-CoA, and subsequent entry into the Krebs cycle are also deficient. Therefore, in my view, this tends to be more of a mitochondrial dysfunction than a purely genetic or epigenetic defect of fatty acid oxidation.
+
+Next, the fact that you felt better after your first fast, or that you improved with MCTs—which indeed produce ketones very rapidly—is an indication that ketosis may benefit you. As you surely know, high ketosis is one of the most powerful therapies to reduce neuroglial inflammation, increase brain-derived neurotrophic factor, lower mitochondrial inflammation, reduce central nervous system inflammation, decrease glutamate, increase GABA, and overall produce fewer ROS, among other effects.
+
+Therefore, if you can tolerate a ketogenic diet, I believe it could be beneficial given that your main symptoms are neurological. But if not, I would definitely try exogenous ketones in the form of salts rather than esters, and see how you do. I would test both sodium-based and magnesium-based versions, as well as potassium-based, so you can combine them and take a fairly high total dose—especially using sodium β-hydroxybutyrate, which allows for a higher daily intake.
+
+## S's evaluation of me, part 2
+
+I’ve reviewed everything you sent me. I still can’t open the clinical history file, but even without that, the overall picture is very clear. Serum cytokines, when elevated, are extremely informative because they show that systemic inflammation is not just present but significantly activated. In your case, the Th2-skewed profile is unmistakable: IL-4, IL-13, and elevated total IgE all point in the same direction. The high mycotoxin load in urine—on two separate tests—and the presence of fungal organisms in nasal and sinus secretions provide a strong and continuous antigenic stimulus that pushes the immune system toward this Th2/ILC2-dominant state.
+
+High RANTES (CCL5) and elevated IL-8 indicate substantial systemic inflammation, combining lymphocytic and neutrophilic recruitment signals. Together with leptin—which, in this context, behaves as a pro-inflammatory adipokine that recruits monocytes and T cells—this suggests that both the innate and adaptive arms are being “called” into action. The problem is that their functional capacity is impaired. Activated T cells (CD3⁺HLA-DR⁺) are very low, reflecting suppression of the adaptive effector response, while NK cells are numerically high but functionally depleted—a classic sign of chronic immune stimulation leading to exhaustion.
+
+Dr. Dietrich Klinghardt also notes that elevated RANTES is very often a marker of retroviral activation. I would be very interested to know whether your nagalase levels are high in other tests, because I don’t fully trust the Amatica measurements. In any case, when we are in this state of chronic CDR activation and inflammation, global methylation capacity decreases, which increases the expression of endogenous retroviruses—and these can contribute to the broader inflammatory context. Obviously, improving one part of the system helps the others, but if you are interested in looking into Dr. Klinghardt’s specific protocols for retroviral activation, based on certain herbal combinations, this is another angle worth considering. And yes, this would also imply finding a reliable source of GcMAF.
+
+Ferritin is high, which, as an acute-phase reactant, fits perfectly with a state of sustained systemic inflammation. The fact that ceruloplasmin is at the lower end of normal suggests suboptimal copper availability and impaired ferroxidase activity—this allows iron to remain intracellular, promoting oxidative stress and even ferroptosis under certain conditions. This is a well-described host strategy against chronic infections: iron sequestration helps limit microbial access to iron but comes at the cost of cellular stress.
+
+Elevated lipase and amylase, in this context, most likely represent low-grade chronic pancreatic inflammation, not an acute pancreatitis. Given your coexisting microvascular dysfunction (VEGF extremely high, Long COVID background, and the possibility of Bartonella), endothelial injury within the pancreatic microcirculation is a very plausible contributor.
+
+Your thyroid profile suggests early Graves’ disease: TSH is already on the low side, and both T3 and T4 are drifting toward the upper end of normal. I strongly recommend testing for TSI, TRAb (TSHR-stimulating antibodies), TPOAb, and TgAb. Treating hyperthyroidism—if confirmed—would likely help you by reducing the extreme sympathetic surges you’ve been experiencing. Hyperthyroidism accelerates mitochondrial biogenesis and forces both lipids and glucose into the cell, increasing the reductive and oxidative stress load on mitochondria and the cytoplasm. Correcting this would remove a major pro-inflammatory driver.
+
+Interestingly, your DHEA-S is still normal, which means your adrenal reserve remains intact. Over time, it is often one of the first hormones to decline in chronic inflammatory and infectious syndromes, so maintaining normal levels at this stage is reassuring.
+
+Regarding the Amatica DRP1 result, I would be cautious in over-interpreting it. But if it is accurate and truly reflects reduced DRP1 expression inside cells, then it suggests a mitochondrial fragmentation defect with a bias toward hyperfusion. This actually makes sense. In early CDR1, mitochondria undergo defensive hyperfision; but as immune cells become progressively dysfunctional, they can remain locked in a hyperfused, low-turnover state characteristic of chronic CDR3A physiology. In real life this is never binary—some cells still attempt activation and maintain high fusion, while others are exhausted and remain hyperfused, which is equally detrimental.
+
+Overall, your immune profile is typical of someone early in the evolution of a chronic illness, where CDR1-type inflammatory activation coexists with the early stages of CDR3-type exhaustion. The NK data show this perfectly: increased numbers reflect strong inflammatory signalling and recruitment, but low cytotoxic function shows exhaustion, not competence.
+
+Long COVID alone can produce significant vascular involvement, often accompanied by elevated VEGF. However, in your specific case—and based on your symptoms—the possibility of Bartonella is very real. This relationship is well described in the literature; microbiologist Amy Proal, PhD., has discussed these patterns extensively in Long COVID cohorts.
+
+As you know from my general view of ME/CFS and Long COVID, CDR dysregulation is driven primarily by persistent infections and environmental toxins. Your strong Borrelia IgG (ELISA + Western Blot), combined with NK dysfunction, suggests that Borrelia is very likely part of the picture. And where Borrelia is present, co-infections such as Bartonella or Babesia are common. On top of this, your mycotoxin levels are extremely high—among the highest I have ever seen—indicating significant past or ongoing mold exposure. Addressing and eliminating this toxic load at home and inside the body is essential.
+
+To be fully transparent with you: if I were in your position and had the means, I would seek care from a U.S. physician highly experienced in this cluster of conditions. Neil Nathan, for example, or Jill Crista, are internationally recognized for their expertise in mold toxicity and vector-borne infections. Their guidance could make a substantial difference. I haven’t pursued care with them myself for two reasons: financial limitations, and because my own illness phenotype is entirely different from yours. My case is dominated by mental and physical fatigue and severe gastrointestinal dysfunction, with borderline or weak infectious markers, low inflammation, and profound immunosuppression—very different from your clearly inflammatory, infectious, and toxin-driven presentation. Experts like Nathan or Crista could likely help you much more than they could help me.
+
+You clearly have abnormalities at multiple levels: endocrine, neurological, immunological, neuroinflammatory, serotonergic, dopaminergic, glutamatergic, GABAergic... But after 21 years sick, and after interacting with many patients, I can tell you that targeting individual biochemical abnormalities rarely produces meaningful improvements. The therapies I mentioned previously may help you symptomatically, but none of them replace the fundamental need to treat the root causes: clearing the mycotoxins, treating Bartonella and Lyme, and reducing the overall pathogen and toxin burden.
+
+The good news is that you caught this early. You can still see the drivers clearly in your lab tests, which means the treatments can be much more effective. In my case, after so many years, the system may simply be self-propagating. But in your case, with the right clinician and the right strategy, I really believe you have a strong chance of improving.
+
+If I were you, I would get under the care of someone who truly understands mold toxicity and vector-borne diseases in depth. That is where your best chances lie—and of course improve that treatment with the therapies we have access to on MM, that they can't apply they don't know. 
+
+
+The “poisoned feeling” you get when PEM kicks in is most likely your brain’s interpretation of a neuro-immune flare, not actual toxins flowing around. After exertion, the innate immune system in ME/CFS/long-COVID tends to overreact, releasing inflammatory molecules and oxidative stress that activate glial cells in the brain and spinal cord.
+
+The upper cervical region and brainstem are key hubs where vagus, pain pathways and meningeal/lymphatic drainage all converge. When this area becomes inflamed and overloaded with immune signals, your nervous system can map that activity as a wave of “toxic sludge” rising from the nape into the head. It’s a very real signal, but it’s about neuroinflammation and autonomic dysregulation, not literal poison in your cerebrospinal fluid.
+
+---
+
+[regarding the theory on complex IV breakage due to localized hypoxia]
+
+Yeah, that might be the case, but electrons that will leak from the 3rd complex will also leak from the first... So I don't know.
+
+Your symptoms are familiar to me and are related to Bartonella, Babesia, and mold. I have known many fellows describing this. 
+
+You can read the compilation of symptoms described by Dr Horowitz attributed to each infection, and also Dr Nathan's last book (Toxic, second edition), describing this.
+
+I think in your case SARS-CoV-2 activated one of these infections as have been published several times.
+
+I can send you Dr. Richard Horowitz’s latest book, where—if I remember correctly—he describes the characteristic symptoms of each infection, and it’s quite interesting. You’ll definitely recognize the symptoms you’ve been describing. I wouldn’t rule out mold either, since it can also present with those symptoms, although the fact that they come and go points more toward these bacterial infections. Honestly, it could be a combination of everything.
+
+There’s obviously no single infection-to-symptom mapping that holds true 100% of the time. That’s undeniable. Even so, there is a high probability that certain infections produce certain symptom patterns, and that probability is quite high. I’ve been ill for 22 years now, unfortunately, and in that time I’ve met hundreds of patients with these infections. I can assure you the patterns are very clear. And in your case, your symptoms strongly suggest mold and/or infections such as Bartonella and Babesia. Moreover, the literature clearly describes how Long COVID is associated with the activation of mold/mycotoxins and with the reactivation of Bartonella, for example. In other words, your immune system was previously able to keep these infections under control, but once Long COVID disrupted everything, infections that were previously contained are now dysregulated.
+
+I’m also absolutely convinced that you have COVID involvement in your central nervous system — whether that means active virus, residual spike protein, or small mRNA fragments that continue to drive chronic inflammation and keep the CDR switched on.
+
+That you don’t experience fatigue does mean you may not meet strict ME/CFS criteria, but in my opinion that’s completely irrelevant. You’re clearly experiencing post-exertional symptoms, and whether you have one symptom or another changes nothing, because the underlying mechanism is the same. What actually matters is determining whether you’re currently in a more pro-inflammatory or anti-inflammatory state, even though the treatments will be broadly similar. This is especially true for the immune system, although not identical in every case, since in a predominantly pro-inflammatory state many anti-inflammatory treatments could noticeably improve your symptoms
+
+---
+
+
+
+I still haven’t been able to read your story, as I’ve spent the whole morning dealing with MENC-related matters. Honestly, the three hours I have each day to work just aren’t enough for everything.
+
+In my view, this happens because an excess of electrons —which is essentially what NADH represents— increases reductive stress in the mitochondria. This raises the pool of electrons that cannot enter Complex II, and these electrons react with molecular oxygen to form superoxide, which in turn leads to the formation of some peroxynitrite. Both species inhibit iNOS, which further increases superoxide production. This then activates TGF-β and the NOX enzymes, generating even more superoxide.
+
+All of this can explain the triggering effect you experienced with NADH. In addition, extracellular NADH also acts as a danger-associated stress signal —at least that’s what I remember from the literature, though it’s been a long time since I last read about it— and this could also contribute.
+
+In any case, I wouldn’t give too much weight to the specific details of your symptoms. As I’ve told you, over these twenty-two years —especially in patients whose profiles resemble the typical patterns seen in Lyme, Bartonella, Babesia, or mold-related illnesses— symptoms tend to be exactly like the ones you describe: strange, neurological, migratory, fluctuating, coming and going. And honestly, in my opinion, whether it’s intracranial pressure, visual snow, depersonalization, paresthesias, neuropathic pain, or burning sensations that appear and disappear —the details matter far less than understanding what is actually causing them.
+
+## List of antimicrobials/agents
+REVIEW OF UNIVERSAL ANTIMICROBIAL AGENTS THAT COULD HELP REVERSE THE CDR STATE INDUCED BY CHRONIC INFECTIONS IN ME/CFS
+
+All the treatments I include as tools to exit the CDR are, in fact, very potent universal antimicrobials—something clearly demonstrated in studies. Keep in mind that active infections and their consequences are what alter specific pathways in order to suppress our immune system and mitochondria and ensure their own persistence. Therefore, by correcting those infection-induced alterations, you’re actually restoring the immune system in a far more physiological way than with most antiviral treatments such as anti-PD-1 or IL-15 agonists. These approaches are generally better tolerated and, in my view, represent a more rational strategy.
+
+To give some specific examples, most—if not all—microbes stimulate the secretion of ATP into the extracellular space, where it initially acts as a pro-inflammatory signal through purinergic receptors. However, if excessive ATP is released, this acute inflammatory state shifts toward immune exhaustion or immune apoptosis . Other pathogens convert extracellular ATP into adenosine, which is profoundly immunosuppressive. Hence, antipurinergic agents can serve as powerful broad-spectrum antimicrobials. Similarly, most microbes chronically activate mTOR, which inhibits mitochondrial function and drives immune exhaustion; thus, mTOR inhibition is inherently immunostimulatory—especially at low doses. In addition, virtually all studied microbes either contain or release nagalase, which blocks macrophage and dendritic-cell activation. GcMAF bypasses this inhibition, allowing the immune system to be activated “from above.”
+
+On the other hand, the reduction of endorphins—caused by reductive stress, low BH₄, or excessive peroxynitrite that uncouples iNOS—leads to abnormally low MENK levels, impairing proper immune activation. Therefore, MENK should also be seen as part of the CDR recovery strategy, as it broadly enhances immune function.
+
+Inhibiting itaconate or the enzyme IRG-1 that forms itaconate would further boost overall immunity, since this pathway is one of the main mechanisms infections use to suppress us. Additional targets could include blocking the mitochondrial-DNA efflux channels such as BAX or VDAC1.
+
+Microbes also tend to inhibit the integrated stress response (ISR), which ultimately depletes antimicrobial strategies and chronically elevates CHOP levels, which is profoundly immune-supressive. Therefore, anything that activates the ISR or inhibits CHOP may be beneficial.
+
+Likewise, the inflammatory cytokines and free radicals generated by infections—and by the CDR itself—increase tryptophan catabolism away from serotonin synthesis toward kynurenine and other metabolites that are highly immunosuppressive. These act mainly through AHR activation, which induces TGF-β and IDO, perpetuating a positive-feedback loop that further depletes tryptophan, reinforces immunosuppression, and favors microbial persistence. GSK-3β likely participates in similar mechanisms.
+
+Almost all studied microbes also inhibit the vitamin D receptor (VDR), suppressing much of the innate immune response. Therefore, VDR activators such as olmesartan—as proposed by Dr. Trevor Marshall—could play a key role here.
+
+Beyond these biochemical pathways, there are also immune-training therapies. Examples include the BCG vaccine or staphylococcal vaccines, and potentially future sublingual immunizations using Epstein–Barr, HHV-6, or enterovirus antigens. This approach has worked very well in hepatitis C, where it completely cleared the virus by boosting immunity. Along the same lines, low-dose immune therapies (LDI) using highly diluted bacterial or viral preparations—such as those for Lyme and co-infections—aim to achieve immune retraining through cross reactivity or bystander suppression.
+
+There are also broader, more generalized antimicrobial approaches capable of targeting any infected cell regardless of the pathogen—for instance, glutamine-metabolism inhibitors. This is crucial because depriving cells of their main fuel, especially under conditions of high ketosis and low glucose, suppresses microbial growth. In mouse models of tuberculosis, such interventions enhanced immune responses and enabled clearance of infected cells.
+
+In the same vein, salicilium—if it truly acts as proposed, namely by entering infected cells and promoting their apoptosis, as already observed in a couple of our colleagues—could also be considered part of this broader strategy of universal antimicrobial therapies.
+
+Lys-alloferon has likewise been shown to strongly enhance the functional capacity of NK cells. However, because its effect is so targeted, it can leave the adaptive immune system (T and B cells) exhausted, meaning it should be combined with complementary therapies.
+
+Increasing extracellular nitric oxide (NO) levels with RRX might also represent a very interesting therapeutic strategy. Although it’s true that there is significant nitrosylation of proteins and DNA, it also appears that NO levels are actually low at the endothelial and extracellular levels. Moreover, RRX would inhibit the overactive pentose phosphate pathway, helping to restore the BH₄/BH₂ ratio, reduce peroxynitrite formation, and prevent iNOS uncoupling—making it a potentially valuable approach overall to strongly stimulate the immune response.
+
+We also know that microbes, through systemic activation of both purinergic receptors and PRRs, induce a chronic interferon-α response that remains persistently elevated over time. This sustained signaling leads to the expression of immunosuppressive genes such as PD-1 and SOCS. Inhibiting SOCS with the peptide we had been considering could therefore represent a highly valid therapeutic strategy.
+
+Additionally, milder but still synergistic broad-spectrum antimicrobials—such as DMSO, methylene blue, iodine and high-dose vitamin C up to bowel tolerance—can further reinforce these effects, as recommended by Dr. Sarah Myhill.
+
+There are even energetic therapies, like ultrasound applied over the spleen, which has been shown to powerfully stimulate immune activity—so much so that I personally can’t tolerate even 30 seconds of it.
+
+Altogether, what I want to convey is that rather than searching for a single drug with a single target—most of which are highly pro-inflammatory because they abruptly activate parts of the immune system in isolation—it makes far more sense to identify why the immune system is exhausted, determine which key pathways microbes have deliberately altered to suppress us, and address those pathways directly. I believe this is the best strategy. Of course, all of this remains theoretical for now, but my partner and I are about to put it into practice.
+
+In the past, both LDN and GcMAF helped me significantly when I had been sick for a shorter time—I went from being bedridden to studying again. Later, immune-retraining therapies such as LDI brought remarkable improvements for me, my mother, and my partner, though we never managed to sustain them long-term. Subsequently, my partner and I spent a year and a half on antipurinergic therapy, and the immune activation was unmistakable—we finally tested negative for all Lyme markers while NK-cell activity increased dramatically. All this leads me to conclude that this is indeed the right path—though it must be pursued more powerfully, with greater synergy, and for longer periods.
+
+
+You’re asking a very difficult question — and I completely understand why. The theory is always easier than actually finding treatments that truly work. I can tell you which treatments target some of these pathways, but I can’t say they’re necessarily the best; we’ll have to find out over time and through practice.
+
+In this regard, inhibiting mTOR with everolimus or rapamycin seems essential and relatively easy to do, starting at very low doses. Inhibiting AHR with TMS is also within reach. Likewise, antipurinergic therapy is fundamental; although suramin is hard to obtain, one can use Panx1 inhibitors such as probenecid or Brilliant Blue FCF. P2X7 receptors in lymph nodes can also be inhibited topically with a lidocaine base cream (I could show you how to make it). There are also inhibitors of glutamine metabolism like JHU083. Monthly BCG vaccination could help stimulate a Th1 response. It might even be possible to find GcMAF, for instance, in Dubai — although I’m unsure if what’s sold there is genuine. Interestingly, if you take salicilium and react poorly, that could be a good sign that it’s actually doing what it’s supposed to. With all this, you should ideally see a drop in nagalase and an overall boost in immune function.
+
+RRX might also strongly enhance immune function and help address several issues like reductive stress, though it also activates NRF2 and inhibits the inflammasome — so we’ll have to see how it balances out. MENK is on the way, so hopefully in a few months we’ll know whether it truly stimulates the immune system as much as the theory and animal studies suggest. Both TGF-β1 and prostaglandin E2 inhibitors should theoretically work well, though I suspect they may cause significant side effects; we’ll have to test tolerance carefully, but they should definitely boost immune activity.
+
+Itraconazole inhibits VDAC1 pores, blocking mitochondrial DNA release and therefore preventing cGAS activation and the downstream type I interferon response. This reduces the expression of immunosuppressive proteins such as SOCS, PD-1, and arginase, and also limits IRG-1–driven itaconate production — though for many people, including me, it’s very harsh on the gastrointestinal tract.
+
+Another possible option is inhibiting arginase with a treatment from MM.
+
+Additionally promoting ISR with sephin1 should help and seems to help some people. Also the KL-1333 should improve mitochondrial electron flux and activate the immune cells.) 
+
+And I’m probably forgetting a few key ones, since I’m writing from memory. What I want to stress is that there are available treatments — I just don’t know which are the most critical, or which each individual can tolerate best. 
+
+It’s also true that if you have mycotoxins/ mold exposure/colonization, none of these treatments are likely to work. Removing exposure to mold, mycotoxins, heavy metals, and other toxins (pesticides, VOCs, etc.) is absolutely fundamental, even if we don’t talk much about it in this group. Also removing amalgam fillings, root canals or cavitations might be really necessary for some. 
+
+We’ll also need to see whether stimulating the immune system like this is enough for it to regain control over vector-borne infections such as Borrelia (Lyme), Bartonella, Babesia, Ehrlichia, Anaplasma, etc., or whether pathogen-specific antimicrobials will still be required.
+
+It’s also very possible that another key factor to address is a fermenting gut, as explained by Dr. Sarah Myhill. It’s a continuous source of LPS, ammonia, alcohols, D-lactate, and many other mitochondrial inhibitors, and following her protocol to eliminate gut fermentation can be essential.
+
+So, even though this isn’t the straightforward answer you were hoping for, the issue is extremely complex. All I can do is outline, at a theoretical level, the pathways that seem most relevant for escaping immune suppression — in my view, these are Nagalase, extracellular ATP, AHR, endorphin receptors, and the mechanisms tied to chronic interferon-α and itaconate signaling. Beyond that, predicting which interventions will work best is nearly impossible. We'll learn as we go! 🙂
+
+
+you could start by what is readily avaliable such as rapa, TMS, brilliant blue FCF, LDN at low dose (100-1000 ug), salicilium, MENK, and perhaps GCMAF from Dubai... Starting one at a time and at a very low dose....
+
+## Nagalase testing & GcMAF
+
+Regarding nagalase testing, twelve years ago, when I first took GcMAF under Dr. KDM, he did test my nagalase, and it wasn’t very high — I believe around 0.9. Once I improved on GcMAF I never repeated the test, and I still haven’t repeated it to this day. The reason is that most, if not all, commercially available nagalase tests are poorly designed and do not measure the specific nagalase associated with chronic infections and cancer. Moreover, I have seen people with normal nagalase levels improve dramatically, and people with very high nagalase who were completely unable to tolerate GcMAF. And when you have a rather “quiet” form of ME/CFS, like mine, meaning mild systemic inflammation, a general hypometabolic CDR3A state, no strongly pro-inflammatory symptoms, and my main symptoms being the usual ones — physical and mental fatigue, severe gastrointestinal dysfunction, and not much else (although those symptoms are extremely severe) — the problem is that, if there is not much active immune engagement with pathogens, these pathogens tend to reside deeper in tissues and release very little nagalase into the blood. Therefore, I do not think the test is particularly meaningful, and I am convinced that some patients who start GcMAF may actually see their nagalase rise temporarily over time.
+
+In my view, if there is evidence of immunosuppression — whether in NK cell function or in other components of the adaptive immune system — that is more than sufficient to conclude that GcMAF is absolutely necessary, because the nagalase pathway is always upregulated in these states, given that essentially all studied microbes either express nagalase on their membrane or release it into the extracellular environment.
