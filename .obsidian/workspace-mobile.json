@@ -11,14 +11,13 @@
             "id": "ca9a1d00f06abc1e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "content/Notes/conv-s.md",
-                "mode": "source",
-                "source": false
+                "file": "Untitled.base",
+                "viewName": "Table"
               },
-              "icon": "lucide-file",
-              "title": "conv-s"
+              "icon": "lucide-table",
+              "title": "Untitled"
             }
           }
         ]
@@ -156,6 +155,8 @@
   },
   "active": "ca9a1d00f06abc1e",
   "lastOpenFiles": [
+    "content/Notes/conv-s.md",
+    "Untitled.base",
     "content/Longevity/longevity-protocol.md",
     "content/Notes/chronic-lyme.md",
     "content/Notes/_conv-s.md",
