@@ -109,7 +109,7 @@ plugins:
   - source: "@quartz-themes/core"
     enabled: true
     options:
-      theme: default
+      theme: tokyo-night
       mode: both
   - source: "@quartz-community/explicit-publish"
     enabled: false

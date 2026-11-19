@@ -1,1 +1,0 @@
-![](https://x.com/Zedzies/status/2122137630091391443)
