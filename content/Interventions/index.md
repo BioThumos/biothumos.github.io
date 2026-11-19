@@ -1,5 +1,4 @@
 ## Currently taking
-
 ![[Tracker.base#Active]]
 
 ## TODOs
@@ -8,9 +7,10 @@
 ### To order
 ![[Tracker.base#Order]]
 
+-------------------
 ## Therapeutic approaches
 ### Misc
-- neuro-calming: NPY
+- neuro-calming: [Neuropeptide Y (NPY)](Neuropeptide%20Y%20(NPY).md)
 
 ### GI stabilization - Patrick Bayer's protocol
 ![[Tracker.base#Bayer]]
@@ -21,5 +21,5 @@
 ### Antiviral-immune cocktail - [[Jard's protocol]]
 ![[Tracker.base#Jard]]
 
-## Inactive (stopped, maybe, order, pending, or in inventory)
+## Inactive (stopped/maybe/order/pending/inventory)
 ![[Tracker.base#Inactive]]

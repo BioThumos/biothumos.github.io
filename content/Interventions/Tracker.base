@@ -11,18 +11,25 @@ views:
         - status == "active"
     order:
       - file.name
-      - status
+      - dose
+      - timing
       - category
       - provenance
+      - status
       - file.mtime
     sort:
+      - property: timing
+        direction: ASC
       - property: category
         direction: ASC
+    columnSize:
+      note.dose: 70
+      note.timing: 91
   - type: table
     name: Bayer
     filters:
       and:
-        - provenance == "patrick_bayer"
+        - provenance == "pbayer"
     order:
       - file.name
       - status
@@ -75,6 +82,8 @@ views:
       - provenance
       - file.mtime
     sort:
+      - property: provenance
+        direction: DESC
       - property: status
         direction: ASC
       - property: category
