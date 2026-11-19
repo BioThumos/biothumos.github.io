@@ -1,0 +1,113 @@
+filters:
+  and:
+    - file.folder == this.file.folder
+    - file.ext == "md"
+    - tracked == true
+views:
+  - type: table
+    name: Active
+    filters:
+      and:
+        - status == "active"
+    order:
+      - file.name
+      - status
+      - category
+      - provenance
+      - file.mtime
+    sort:
+      - property: category
+        direction: ASC
+  - type: table
+    name: Bayer
+    filters:
+      and:
+        - provenance == "patrick_bayer"
+    order:
+      - file.name
+      - status
+      - category
+      - provenance
+      - file.mtime
+    sort:
+      - property: category
+        direction: ASC
+  - type: table
+    name: Membrane
+    filters:
+      and:
+        - category == "membrane"
+    order:
+      - file.name
+      - status
+      - category
+      - provenance
+      - file.mtime
+    sort:
+      - property: category
+        direction: ASC
+  - type: table
+    name: Jard
+    filters:
+      and:
+        - provenance == "jard"
+        - or:
+            - category == "antiviral"
+            - category == "immune"
+    order:
+      - file.name
+      - status
+      - category
+      - provenance
+      - file.mtime
+    sort:
+      - property: category
+        direction: ASC
+  - type: table
+    name: Inactive
+    filters:
+      and:
+        - status != "active"
+    order:
+      - file.name
+      - status
+      - category
+      - provenance
+      - file.mtime
+    sort:
+      - property: status
+        direction: ASC
+      - property: category
+        direction: ASC
+  - type: table
+    name: Research
+    filters:
+      and:
+        - status == "research"
+    order:
+      - file.name
+      - status
+      - category
+      - provenance
+      - file.mtime
+    sort:
+      - property: status
+        direction: ASC
+      - property: category
+        direction: ASC
+  - type: table
+    name: Order
+    filters:
+      and:
+        - status == "order"
+    order:
+      - file.name
+      - status
+      - category
+      - provenance
+      - file.mtime
+    sort:
+      - property: status
+        direction: ASC
+      - property: category
+        direction: ASC
