@@ -82,10 +82,10 @@ views:
       - provenance
       - file.mtime
     sort:
+      - property: status
+        direction: DESC
       - property: provenance
         direction: DESC
-      - property: status
-        direction: ASC
       - property: category
         direction: ASC
   - type: table

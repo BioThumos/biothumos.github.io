@@ -1,6 +1,9 @@
 ## Currently taking
 ![[Tracker.base#Active]]
 
+### Meals
+- breakfast: coconut milk based rice porridge
+- lunch & dinner: minced meat mixed with rice with a root vegetable-based purée, minimally natural juice-flavored collagen gummies for dessert
 ## TODOs
 ### To research
 ![[Tracker.base#Research]]

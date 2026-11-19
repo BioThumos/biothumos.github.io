@@ -1,3 +1,9 @@
+---
+tracked: true
+status: stopped
+category: immune
+provenance:
+---
 Where we run into trouble with rapamycin is that ME/CFS is highly cell-type-specific:
 • Monocytes, many effector CD8+ T cells, and microglia tend to show mTOR hyperactivation → rapamycin calms these down.
 • NK cells, certain exhausted CD8+ subsets, and macrophages (especially in patients with persistent viruses and/or high nagalase) already run on hypoactive mTOR → adding rapamycin suppresses their residual glycolysis, granzyme/perforin, phagocytosis, and antiviral activity even further → cytotoxic function collapses and latent viruses (HHV-6, EBV, CMV, HSV1, HSv2, Enteroviruses, etc.) can surge.

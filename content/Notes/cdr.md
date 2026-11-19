@@ -6,7 +6,6 @@ tags:
   - cdr
   - mecfs
 ---
-
 # ME/CFS, CDR, and Treatments — crisp notes
 
 ## Conceptual model
