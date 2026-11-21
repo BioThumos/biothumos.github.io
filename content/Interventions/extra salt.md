@@ -1,6 +1,6 @@
 ---
 tracked: true
-status: active
+status:
 dose: 1/2 tsp
 timing: TID w meals
 category: electrolyte

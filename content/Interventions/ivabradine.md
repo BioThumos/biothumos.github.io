@@ -1,6 +1,6 @@
 ---
 tracked: true
-status: active
+status:
 category: POTS
 provenance: arta
 dose: 5mg

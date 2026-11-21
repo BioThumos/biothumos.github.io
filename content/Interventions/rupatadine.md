@@ -1,7 +1,7 @@
 ---
 tracked: true
 category: MCAS
-status: active
+status:
 provenance: arta
 dose: 10mg
 timing: dinner

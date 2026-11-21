@@ -5,36 +5,15 @@ filters:
     - tracked == true
 views:
   - type: table
-    name: Active
-    filters:
-      and:
-        - status == "active"
-    order:
-      - file.name
-      - dose
-      - timing
-      - category
-      - provenance
-      - status
-      - file.mtime
-    sort:
-      - property: timing
-        direction: ASC
-      - property: category
-        direction: ASC
-    columnSize:
-      note.dose: 70
-      note.timing: 91
-  - type: table
     name: Bayer
     filters:
       and:
         - provenance == "pbayer"
     order:
       - file.name
-      - status
       - category
       - provenance
+      - status
       - file.mtime
     sort:
       - property: category
@@ -46,9 +25,9 @@ views:
         - category == "membrane"
     order:
       - file.name
-      - status
       - category
       - provenance
+      - status
       - file.mtime
     sort:
       - property: category
@@ -63,29 +42,26 @@ views:
             - category == "immune"
     order:
       - file.name
-      - status
       - category
       - provenance
+      - status
       - file.mtime
     sort:
       - property: category
         direction: ASC
   - type: table
-    name: Inactive
-    filters:
-      and:
-        - status != "active"
+    name: All
     order:
       - file.name
-      - status
       - category
       - provenance
+      - status
       - file.mtime
     sort:
-      - property: status
-        direction: DESC
       - property: provenance
-        direction: DESC
+        direction: ASC
+      - property: status
+        direction: ASC
       - property: category
         direction: ASC
   - type: table
@@ -95,9 +71,9 @@ views:
         - status == "research"
     order:
       - file.name
-      - status
       - category
       - provenance
+      - status
       - file.mtime
     sort:
       - property: status
@@ -111,9 +87,9 @@ views:
         - status == "order"
     order:
       - file.name
-      - status
       - category
       - provenance
+      - status
       - file.mtime
     sort:
       - property: status

@@ -2,7 +2,7 @@
 tracked: true
 status: research
 category:
-provenance: peattwitter
+provenance: peatx
 ---
 ---
 > Ray Peat on potato juice:

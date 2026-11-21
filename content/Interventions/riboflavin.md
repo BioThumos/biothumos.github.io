@@ -1,6 +1,6 @@
 ---
 tracked: true
-status: active
+status:
 dose: 100mg
 timing: breakfast
 category: vitamin

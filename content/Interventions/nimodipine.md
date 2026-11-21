@@ -1,6 +1,6 @@
 ---
 tracked: true
 status: research
-category: calciumchannel
+category: ion channel
 provenance: gpt
 ---

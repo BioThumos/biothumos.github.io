@@ -1,6 +1,6 @@
 ---
 tracked: true
-status: active
+status:
 dose: 1700mcg
 timing: breakfast
 category: vitamin

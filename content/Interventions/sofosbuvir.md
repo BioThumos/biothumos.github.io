@@ -1,6 +1,6 @@
 ---
 tracked: true
-status: active
+status:
 dose: 400mg
 timing: dinner
 category: antiviral

@@ -1,6 +1,6 @@
 ---
 tracked: true
 status: research
-category: GI stabilization
+category: gut
 provenance: pbayer
 ---

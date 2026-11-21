@@ -1,6 +1,6 @@
 ---
 tracked: true
-status: stopped
+status:
 category: antiviral
 provenance: jard
 dose: 60mg

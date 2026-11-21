@@ -1,6 +1,6 @@
 ---
 tracked: true
-status: active
+status:
 dose: 4mg
 timing: breakfast
 category: mineral
