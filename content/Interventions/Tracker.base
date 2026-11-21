@@ -58,11 +58,13 @@ views:
       - status
       - file.mtime
     sort:
-      - property: provenance
-        direction: ASC
       - property: status
-        direction: ASC
+        direction: DESC
+      - property: provenance
+        direction: DESC
       - property: category
+        direction: DESC
+      - property: file.name
         direction: ASC
   - type: table
     name: Research

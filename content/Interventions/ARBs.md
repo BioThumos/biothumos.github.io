@@ -7,6 +7,23 @@ provenance: zedzies
 
 
 ---
+> Angiotensin receptor blockers (particularly high dose) are the most robust anti-endothelial senescence drugs I’ve seen in the literature by a long shot and contrary to statins, they are mito-protective.
+> 
+> > [!quote] Quoting @MichaelAlbertMD
+> > No one likes having this conversation, but the strongest risk factor for cardiovascular disease—the leading cause of death worldwide—is simply getting older. Aging drives cumulative vascular injury over time, which is why prevention has to start early, not after problems appear. I’ve been on a statin for years, despite being in my 30s, because reducing lifetime exposure to elevated LDL cholesterol lowers long-term cardiovascular risk. Too many people wait until disease is established before starting therapy, when much of the preventable damage has already occurred.
+> > 
+> > ![[reference/tweets/assets/media_G_e8hs_XcAAH7Dr.jpg|600]]
+> 
+> @Zedzies Why olmesartan over azilsartan or candesartan?
+> 
+> @SkiingChad Olmesartan inhibits covid which is one of the biggest risk factors.
+> — @Zedzies — Jan 25, 2026 ° 10:58 PM ([Source](https://x.com/Zedzies/status/2015544729484595683))
+---
+
+
+
+
+---
 > High dose ARBs probably blow away every longevity drug in existence.
 > 
 > Just insane vascular aging reversal effects in the literature at high dose.
