@@ -3,12 +3,13 @@
   "privacy_policy_version": 2,
   "source_database_included": false,
   "indexed_sensitive_activity_events_checked": 138,
-  "redacted_text_files": 1,
-  "audited_text_files": 2051,
+  "redacted_text_files": 334,
+  "audited_text_files": 2057,
   "self_stimulation_sources_whole_line_redacted": 167,
   "alias_counts_by_category": {
-    "legacy_activity_labels": 0,
-    "anatomical_detail": 0
+    "legacy_activity_labels": 125,
+    "anatomical_detail": 48,
+    "intimate_source_snippets_scrubbed": 991
   },
   "requires_human_privacy_review": true
 }

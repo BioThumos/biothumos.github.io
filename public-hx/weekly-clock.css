@@ -96,6 +96,17 @@
 .shell .wk-wrap[data-single-day] .wk-day-head,.wk-wrap[data-single-day] .wc-axis>div:first-child{
   position:relative;top:auto;transform:translateY(var(--pinned-y,0px))
 }
+/* Phone day cards scroll with the page.  No scroll-following transforms on
+   the date/sleep header or the time-axis corner (prevents iOS Safari jumps). */
+@media (max-width:39.99rem){
+  .shell .wk-wrap .wk-day>.wk-day-head,
+  .shell .wk-wrap[data-single-day] .wk-day>.wk-day-head,
+  .shell .wk-wrap .wc-axis>div:first-child,
+  .shell .wk-wrap[data-single-day] .wc-axis>div:first-child{
+    position:relative;top:auto;transform:none
+  }
+  .shell .wk-wrap{scroll-padding-top:0}
+}
 .wc-sleep-line{display:flex;align-items:baseline;justify-content:space-between;gap:.2rem}
 .wc-sleep-line strong{font-size:.76rem;color:var(--muted)}
 .shell .wk-day .wc-sleep-line .wc-sleep-duration{

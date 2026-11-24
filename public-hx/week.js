@@ -231,7 +231,14 @@
     }
     // An element that scrolls sideways also establishes a sticky containing block.
     // Follow the page viewport while keeping the real, focusable headers in their columns.
+    const phone = matchMedia('(max-width: 39.99rem)');
     function pinHeaders() {
+      // iOS Safari: no pinned/translated header on narrow day-by-day pages.
+      // Allow the date/sleep panel to scroll normally with its column.
+      if (phone.matches) {
+        scroller.style.removeProperty('--pinned-y');
+        return;
+      }
       const bounds=scroller.getBoundingClientRect();
       const header=days[0]?.querySelector('.wk-day-head');
       if (!header) return;
@@ -250,7 +257,6 @@
       return days.reduce((a,b) => Math.abs(a.getBoundingClientRect().left-left) <=
         Math.abs(b.getBoundingClientRect().left-left) ? a : b);
     }
-    const phone = matchMedia('(max-width: 39.99rem)');
     function updateView() {
       if (!view) return;
       view.value = scroller.hasAttribute('data-single-day') || phone.matches ?

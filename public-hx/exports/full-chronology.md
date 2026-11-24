@@ -1,6 +1,6 @@
 # Event chronology
 
-Revision Revision 66 · Snapshot 2026-11-23
+Revision Revision 69 · Snapshot 2026-11-23
 
 ## 2021-06 · Vaccination and surgery
 
@@ -9723,6 +9723,16 @@ Source: clinical_episodes:S2-P-8654 · S2:8654-8681
 S2:8654-8681 · 5.30- headache, wired - typed too much/intensely again → take it easy afterwards unlike usually when i’m unable to stop whatever i’m doing
 6 take 500mg aspirin + l-theanine
 13 sleep […]
+
+## In use by 2026-10-16 · Ongoing at review · Rupatadine
+
+Intervention
+
+Rupatadine is called an existing evening medication in the 2026-10-16 diary (that evening was skipped; taking it the following morning was planned). The 2026-11-20 complete stack confirms continued use. Exact restart unknown. A separate extra dose on 2026-08-18 does not prove continuity from August.
+
+documented course
+
+Source: course:pz67-rupatadine-in-use-by-2026-10-16 · diary_logs:S2-L08664
 
 ## 2026-10-19 · Last dose 2026-10-19 · Clonazepam
 
