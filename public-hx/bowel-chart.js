@@ -20,9 +20,13 @@
   let dates=[],step=70,left=54,selectedNode=null,queued=0;
   function svg(parent,tag,attrs={},content){const n=document.createElementNS(ns,tag);for(const [k,v] of Object.entries(attrs))n.setAttribute(k,String(v));if(content!==undefined)n.textContent=content;parent.append(n);return n;}
   function description(r){if(!r)return 'No diary entry';
-    return (r.mean==null?'Count uncertain or conflicting':fmt(r.mean)+(scale==='day'?' recorded movement(s)':' movements per countable diary day'))+
+    const label=r.status==='insufficient_coverage'?'Insufficient recorded days for a representative average':
+      r.status==='not_quantified'?'No quantifiable bowel count':
+      fmt(r.mean)+(scale==='day'?' recorded movement(s)':' movements per countable diary day');
+    return label+
       ` · ${r.total} total movement(s) · ${r.countable_days}/${r.diary_days} countable diary days`+
       (r.implied_zero_days?` · ${r.implied_zero_days} zero(s) by omission`:'')+
+      (r.untracked_days?` · ${r.untracked_days} diary day(s) without bowel tracking`:'')+
       (r.uncertain_days?` · ${r.uncertain_days} uncertain day(s)`:'');}
   function choose(day){selected=clamp(day,first,last);$('bowel-date').value=selected;
     const key=floor(selected,scale),row=index[scale].get(key),detail=$('bowel-detail');
@@ -56,7 +60,7 @@
     dates.forEach((day,i)=>{if(i%tickEvery===0)svg(root,'text',{x:x(i),y:height-8,'text-anchor':'middle'},scale==='year'?day.slice(0,4):scale==='month'?day.slice(0,7):name(day).replace(/ \d{4}$/,''));
       const r=rows[i];if(!r)return;
       const g=svg(root,'g',{'data-point':day,role:'button',tabindex:0,'aria-label':period(day)+': '+description(r)});
-      window.PZChartTooltip?.attach(g,[r.mean==null?'Count uncertain':fmt(r.mean)+(scale==='day'?' movements':' / day')],period(day)+' · '+r.countable_days+'/'+r.diary_days+' countable diary days'+(r.uncertain_days?' · '+r.uncertain_days+' uncertain':''));
+      window.PZChartTooltip?.attach(g,[r.mean==null?(r.status==='insufficient_coverage'?'Insufficient coverage':'Not quantified'):fmt(r.mean)+(scale==='day'?' movements':' / day')],period(day)+' · '+r.countable_days+'/'+r.diary_days+' countable diary days'+(r.untracked_days?' · '+r.untracked_days+' not tracked':'')+(r.uncertain_days?' · '+r.uncertain_days+' uncertain':''));
       if(r.mean===null){svg(g,'path',{d:`M ${x(i)-4} ${bottom-7} l 8 8 m -8 0 l 8 -8`,class:'bowel-uncertain'});}
       else {const h=Math.max(2,bottom-y(r.mean));svg(g,'rect',{x:x(i)-Math.min(22,step*.5)/2,y:bottom-h,width:Math.min(22,step*.5),height:h,class:r.mean===0?'bowel-zero':'bowel-bar'});
         svg(g,'text',{x:x(i),y:Math.max(19,bottom-h-10),'text-anchor':'middle',class:'bowel-value-label'},fmt(r.mean));}

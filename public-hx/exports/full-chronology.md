@@ -1,6 +1,6 @@
 # Event chronology
 
-Revision Revision 65 · Snapshot 2026-11-23
+Revision Revision 66 · Snapshot 2026-11-23
 
 ## 2021-06 · Vaccination and surgery
 

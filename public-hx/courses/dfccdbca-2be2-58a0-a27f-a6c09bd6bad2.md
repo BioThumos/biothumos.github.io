@@ -1,6 +1,6 @@
 # PHGG · course dossier
 
-Revision: Revision 65
+Revision: Revision 66
 course:dfccdbca-2be2-58a0-a27f-a6c09bd6bad2
 documented_course
 2025-09-18 · Stopped 2025-09-21 · Diary places initiation Sept 18. Patient on Sept 20 recalled starting three days earlier, suggesting Sept 17. One evening dose missed.

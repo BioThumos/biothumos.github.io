@@ -1,5 +1,5 @@
 {
-  "method": "Bowel counts as in v_pz_bowel_daily_frequency; zero by omission only on diary days; conflict/uncertain excluded.",
+  "method": "Bowel counts as in v_pz_bowel_daily_frequency; zero by omission only in later systematic S1/S2 diaries; 2024 historical untracked days and conflict/uncertain excluded.",
   "last_twelve_complete_weeks": [
     {
       "week": "2026-08-24",

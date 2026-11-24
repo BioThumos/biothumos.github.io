@@ -1,5 +1,5 @@
 {
-  "revision_id": "Revision 65",
+  "revision_id": "Revision 66",
   "from": "2026-10-18",
   "through": "2026-11-16",
   "unit": "bowel movements",
@@ -9,6 +9,7 @@
   "per_diary_day": 0.43333333333333335,
   "per_seven_diary_days": 3.033333333333333,
   "days_zero_by_omission": 17,
+  "days_untracked": 0,
   "days_unquantified": 0,
   "days_excluded_conflicting_counts": 0,
   "days": [
@@ -163,12 +164,12 @@
       "documented_count": 0
     }
   ],
-  "method": "Patient diary convention: blank or omitted BM/stool on a dated diary day means zero. A recorded daily total supersedes individual entries. Explicitly uncertain or conflicting counts are excluded. Dates with no diary are excluded and are never assigned zero.",
-  "coverage": "Only diary-covered dates. Omitted bowel count means zero on those dates (patient convention).",
+  "method": "In systematic S1/S2 diaries a missing BM entry counts as zero according to the logging convention. The older 2024 S5 checklist did not systematically track bowel frequency: an omitted entry is unknown, not zero. A recorded daily total supersedes individual entries. Explicitly uncertain, untracked or conflicting counts are excluded. Dates with no diary are excluded and are never assigned zero.",
+  "coverage": "Only diary-covered dates; untracked older S5 dates are excluded. Zero by omission applies only to systematic S1/S2 diaries.",
   "source_methods": [
     "structured stool daily summaries",
     "individual BM entries",
     "explicit none reports",
-    "implicit zero on otherwise documented diary day"
+    "zero by omission in later systematic S1/S2 diary formats; not in S5 historical checklist"
   ]
 }
