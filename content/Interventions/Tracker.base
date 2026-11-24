@@ -58,9 +58,9 @@ views:
       - status
       - file.mtime
     sort:
-      - property: status
-        direction: DESC
       - property: provenance
+        direction: ASC
+      - property: status
         direction: DESC
       - property: category
         direction: DESC

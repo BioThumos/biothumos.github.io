@@ -8,6 +8,8 @@ author_followers: 6286
 ---
 # Tweets by Zedzies (@Zedzies)
 
+![[reference/tweets/posts/Zedzies - Mito damage is primarily membranecardiolipin dama]]
+
 ![[reference/tweets/posts/Zedzies - Hundreds of millions wasted on ivermectin meme res]]
 
 ![[reference/tweets/posts/Zedzies - 1) It containsnplasmolagens and increases them in]]
