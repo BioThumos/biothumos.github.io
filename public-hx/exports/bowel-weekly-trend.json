@@ -1,0 +1,103 @@
+{
+  "method": "Bowel counts as in v_pz_bowel_daily_frequency; zero by omission only on diary days; conflict/uncertain excluded.",
+  "last_twelve_complete_weeks": [
+    {
+      "week": "2026-08-24",
+      "days": 7,
+      "countable_days": 7,
+      "movements": 6,
+      "assumed_zero_days": 2,
+      "per_diary_day": 0.857
+    },
+    {
+      "week": "2026-08-31",
+      "days": 7,
+      "countable_days": 7,
+      "movements": 3,
+      "assumed_zero_days": 4,
+      "per_diary_day": 0.429
+    },
+    {
+      "week": "2026-09-07",
+      "days": 7,
+      "countable_days": 7,
+      "movements": 2,
+      "assumed_zero_days": 5,
+      "per_diary_day": 0.286
+    },
+    {
+      "week": "2026-09-14",
+      "days": 7,
+      "countable_days": 7,
+      "movements": 5,
+      "assumed_zero_days": 2,
+      "per_diary_day": 0.714
+    },
+    {
+      "week": "2026-09-21",
+      "days": 7,
+      "countable_days": 7,
+      "movements": 3,
+      "assumed_zero_days": 4,
+      "per_diary_day": 0.429
+    },
+    {
+      "week": "2026-09-28",
+      "days": 7,
+      "countable_days": 7,
+      "movements": 2,
+      "assumed_zero_days": 5,
+      "per_diary_day": 0.286
+    },
+    {
+      "week": "2026-10-05",
+      "days": 7,
+      "countable_days": 7,
+      "movements": 4,
+      "assumed_zero_days": 4,
+      "per_diary_day": 0.571
+    },
+    {
+      "week": "2026-10-12",
+      "days": 7,
+      "countable_days": 7,
+      "movements": 2,
+      "assumed_zero_days": 5,
+      "per_diary_day": 0.286
+    },
+    {
+      "week": "2026-10-19",
+      "days": 7,
+      "countable_days": 7,
+      "movements": 4,
+      "assumed_zero_days": 3,
+      "per_diary_day": 0.571
+    },
+    {
+      "week": "2026-10-26",
+      "days": 7,
+      "countable_days": 7,
+      "movements": 2,
+      "assumed_zero_days": 5,
+      "per_diary_day": 0.286
+    },
+    {
+      "week": "2026-11-02",
+      "days": 7,
+      "countable_days": 7,
+      "movements": 4,
+      "assumed_zero_days": 3,
+      "per_diary_day": 0.571
+    },
+    {
+      "week": "2026-11-09",
+      "days": 7,
+      "countable_days": 7,
+      "movements": 3,
+      "assumed_zero_days": 4,
+      "per_diary_day": 0.429
+    }
+  ],
+  "previous_four_week_mean": 0.39285714285714285,
+  "latest_four_week_mean": 0.4642857142857143
+}

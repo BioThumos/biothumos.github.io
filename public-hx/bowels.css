@@ -1,0 +1,20 @@
+.ba-section{margin:1.5rem 0 2rem}.ba-heading{border-bottom:2px solid var(--control-line);padding-bottom:.55rem;margin-bottom:.8rem}.ba-heading h2,.ba-heading p{margin:.25rem 0}.ba-heading p,.ba-desc,.ba-type,.ba-date{color:var(--muted)}.ba-days{display:grid;gap:.6rem}.ba-day,.ba-group{border:1px solid var(--control-line);background:var(--paper);border-radius:.5rem}.ba-day h3{font-size:.94rem;padding:.45rem .8rem;background:var(--tint);border-radius:.5rem .5rem 0 0;margin:0;border-bottom:1px solid var(--line)}.ba-day ul,.ba-activity-list{margin:0;padding:0;list-style:none}.ba-day li,.ba-activity-list li{display:grid;align-items:start;grid-template-columns:minmax(5rem,8rem) minmax(0,1fr) auto;gap:.7rem;padding:.55rem .8rem}.ba-day li+li,.ba-activity-list li+li{border-top:1px solid var(--line)}.ba-words{overflow-wrap:anywhere;white-space:pre-line}.ba-type,.ba-date,.ba-link{font-size:.87rem;font-variant-numeric:tabular-nums}.ba-tools{display:flex;align-items:baseline;gap:.7rem;white-space:nowrap}.ba-group{margin:.55rem 0}.ba-group>summary{padding:.8rem;cursor:pointer;font-weight:650}.ba-group>summary small{font-weight:400;color:var(--muted);margin-left:.75rem}.ba-group[open]>summary{border-bottom:1px solid var(--control-line)}.ba-group>.ba-days{padding:.65rem}.ba-desc,.ba-filters{margin:.75rem}.ba-activity-list li[hidden],.ba-group[hidden],.ba-filters[hidden]{display:none}.ba-filters input{accent-color:var(--accent)}.ba-activity-list .record-source,.ba-day .record-source{margin:0}.ba-activity-list .record-source-body,.ba-day .record-source-body{white-space:normal}.ba-activity-list .record-source-body>div,.ba-day .record-source-body>div{white-space:pre-line}
+@media(max-width:620px){.ba-day li,.ba-activity-list li{grid-template-columns:minmax(0,1fr) auto;gap:.2rem .55rem}.ba-type,.ba-date{grid-column:1;grid-row:1}.ba-words{grid-row:2;grid-column:1/-1}.ba-tools,.ba-activity-list li>.record-source{grid-row:1;grid-column:2}.ba-group>.ba-days{padding:.35rem}}
+
+.ba-clock{display:block;color:var(--ink);font-variant-numeric:tabular-nums}.bristol-badge{display:inline-block;margin-inline-end:.45em;padding:0 .3em;border:1px solid var(--control-line);border-radius:.25rem;font:600 .83rem/1.4 var(--font);color:var(--accent);text-decoration:none}.ba-activity-list li:target{outline:2px solid var(--focus);outline-offset:-2px}
+
+.bristol-legend {max-width:44rem}
+.bristol-legend dl {margin:.35rem .85rem}
+.bristol-legend dl div {display:grid;grid-template-columns:4.25rem minmax(0,1fr);padding:.35rem 0}
+.bristol-legend dl div+div {border-top:1px solid var(--line)}
+.bristol-legend dt {font-weight:650}
+.bristol-legend dd {margin:0}
+.bristol-legend p {margin:.5rem .85rem .85rem;font-size:.86rem}
+
+.ba-frequency {padding:.85rem 1rem;border:1px solid var(--control-line);border-radius:.55rem;background:var(--paper);margin-bottom:.75rem}
+.ba-frequency h2,.ba-frequency p {margin:.15rem 0}
+.ba-frequency p,.ba-frequency details {color:var(--muted);font-size:.88rem}
+.ba-frequency dl {display:flex;flex-wrap:wrap;gap:.5rem 2.5rem;margin:.75rem 0;padding:.55rem 0;border-block:1px solid var(--line)}
+.ba-frequency dt {font-size:.86rem;color:var(--muted)}
+.ba-frequency dd {margin:0;font:650 1.5rem/1.4 var(--font);font-variant-numeric:tabular-nums}
+.ba-frequency details {margin-top:.4rem}

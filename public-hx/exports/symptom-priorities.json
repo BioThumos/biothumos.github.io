@@ -1,0 +1,3440 @@
+{
+  "revision_id": "Revision 65",
+  "scale": {
+    "1": "Low",
+    "2": "Very disabling",
+    "3": "Profoundly disabling"
+  },
+  "pattern_labels": {
+    "continuous_fluctuating": "Always present, fluctuating",
+    "intermittent": "Intermittent",
+    "triggered": "Trigger-linked episodes",
+    "episodic_unspecified": "Intermittent",
+    "unknown": "Pattern unclear"
+  },
+  "meaning": "Course events distinguish onset from first indexed observation. Status and occurrence pattern are independent. Impact on daily life. Low is the directory default. Recovery is recorded separately.",
+  "items": [
+    {
+      "symptom_id": "symptom:ec265f48-26f6-5399-8b3f-7e7d0e10127b",
+      "symptom": "Abdominal discomfort or pressure",
+      "level": 1,
+      "level_label": "Low",
+      "resolution": {
+        "status": "unknown"
+      },
+      "occurrence_pattern": {
+        "baseline": "intermittent",
+        "triggers": "",
+        "note": "Pressure came and went over the day.",
+        "source_ref": "diary_observations:S2-OBS-5578",
+        "author": "record_review",
+        "reviewed_on": "2026-11-20"
+      },
+      "course_events": [
+        {
+          "id": "default-onset:symptom:ec265f48-26f6-5399-8b3f-7e7d0e10127b",
+          "symptom_id": "symptom:ec265f48-26f6-5399-8b3f-7e7d0e10127b",
+          "kind": "onset",
+          "timing": "known",
+          "period": "2023",
+          "anchor_label": "illness onset (October–November 2023)",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "Practitioner convention for an unknown onset. Exact date and presence at illness onset are unconfirmed.",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW",
+          "anchor_card": null,
+          "basis": "practitioner_default"
+        }
+      ],
+      "first_indexed_episode": {
+        "date": "2025-08-08",
+        "source_ref": "diary_symptom_intervals:SI-35aff1875042319bdf2ec61c",
+        "page": "weeks/2025-08-04.html#entry-ac5dcaf6f7e8466ccfebce"
+      },
+      "reviewed_relationships": []
+    },
+    {
+      "symptom_id": "symptom:46e20d91-09d6-54db-a39c-80e11b26a5f5",
+      "symptom": "Abdominal pain near colic flexures",
+      "level": 1,
+      "level_label": "Low",
+      "resolution": {
+        "status": "active",
+        "rated_on": "2026-10-31",
+        "rationale": "13.32 terrible pain flare in stomach while eating. some after echoes but generally these are always just momentary flares during eating, usually only this meal. not sure if a response to fat or the hot food",
+        "rated_by": "patient"
+      },
+      "occurrence_pattern": {
+        "baseline": "intermittent",
+        "triggers": "Worse after some foods, especially onions",
+        "note": "Historical periods of nearly continuous colic-flexure pain, but presently intermittent. Count documented episodes, not presumed daily presence.",
+        "source_ref": "historical_entries:S3:symptom:047",
+        "author": "practitioner",
+        "reviewed_on": "2026-11-21"
+      },
+      "course_events": [
+        {
+          "id": "default-onset:symptom:46e20d91-09d6-54db-a39c-80e11b26a5f5",
+          "symptom_id": "symptom:46e20d91-09d6-54db-a39c-80e11b26a5f5",
+          "kind": "onset",
+          "timing": "known",
+          "period": "2023",
+          "anchor_label": "illness onset (October–November 2023)",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "Practitioner convention for an unknown onset. Exact date and presence at illness onset are unconfirmed.",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW",
+          "anchor_card": null,
+          "basis": "practitioner_default"
+        }
+      ],
+      "first_indexed_episode": {
+        "date": "2024-06-22",
+        "source_ref": "diary_symptom_intervals:SI-355c032bc28f254b407483c4",
+        "page": "weeks/2024-06-17.html#entry-2ed0960c6076cd38f754bc"
+      },
+      "reviewed_relationships": []
+    },
+    {
+      "symptom_id": "symptom:6d738550-0735-5808-965d-2ee14afe1b38",
+      "symptom": "Altered taste",
+      "level": 1,
+      "level_label": "Low",
+      "resolution": {
+        "status": "unknown"
+      },
+      "occurrence_pattern": {
+        "baseline": "intermittent",
+        "triggers": "",
+        "note": "An altered taste returns with some poisoned episodes.",
+        "source_ref": "diary_observations:S2-OBS-5852; context_cards:CTX-022",
+        "author": "record_review",
+        "reviewed_on": "2026-11-20"
+      },
+      "course_events": [
+        {
+          "id": "default-onset:symptom:6d738550-0735-5808-965d-2ee14afe1b38",
+          "symptom_id": "symptom:6d738550-0735-5808-965d-2ee14afe1b38",
+          "kind": "onset",
+          "timing": "known",
+          "period": "2023",
+          "anchor_label": "illness onset (October–November 2023)",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "Practitioner convention for an unknown onset. Exact date and presence at illness onset are unconfirmed.",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW",
+          "anchor_card": null,
+          "basis": "practitioner_default"
+        }
+      ],
+      "first_indexed_episode": {
+        "date": "2025-08-15",
+        "source_ref": "diary_symptom_intervals:SI-f29b53813e7e9999531ebad8",
+        "page": "weeks/2025-08-11.html#entry-25680f0e34d03541e0be53"
+      },
+      "reviewed_relationships": []
+    },
+    {
+      "symptom_id": "symptom:1c53fd5f-8255-507b-9036-06d769a829d0",
+      "symptom": "Bloating",
+      "level": 1,
+      "level_label": "Low",
+      "resolution": {
+        "status": "unknown"
+      },
+      "occurrence_pattern": {
+        "baseline": "intermittent",
+        "triggers": "",
+        "note": "Bloating returned on separate occasions. A specific food cause was uncertain. Bloating sometimes coincided with meals.",
+        "source_ref": "diary_fields:S2-L00870-FL6; diary_observations:S2-OBS-5925",
+        "author": "record_review",
+        "reviewed_on": "2026-11-20"
+      },
+      "course_events": [
+        {
+          "id": "default-onset:symptom:1c53fd5f-8255-507b-9036-06d769a829d0",
+          "symptom_id": "symptom:1c53fd5f-8255-507b-9036-06d769a829d0",
+          "kind": "onset",
+          "timing": "known",
+          "period": "2023",
+          "anchor_label": "illness onset (October–November 2023)",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "Practitioner convention for an unknown onset. Exact date and presence at illness onset are unconfirmed.",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW",
+          "anchor_card": null,
+          "basis": "practitioner_default"
+        }
+      ],
+      "first_indexed_episode": {
+        "date": "2025-08-01",
+        "source_ref": "diary_symptom_intervals:SI-ad0895ac700cb8bd6cc980d8",
+        "page": "weeks/2025-07-28.html#entry-d1f6c6db7b994f0a291e60"
+      },
+      "reviewed_relationships": []
+    },
+    {
+      "symptom_id": "symptom:2485a3aa-402a-5691-b184-29d584d9273b",
+      "symptom": "Brain / brainstem flare",
+      "level": 2,
+      "rated_by": "patient",
+      "rated_on": "2026-11-22",
+      "rationale": "Patient-reported impact on daily functioning.",
+      "source_card": null,
+      "source_title": null,
+      "source_detail": null,
+      "source_refs": [],
+      "level_label": "Very disabling",
+      "resolution": {
+        "status": "unknown"
+      },
+      "occurrence_pattern": {
+        "baseline": "intermittent",
+        "triggers": "",
+        "note": "The diary describes repeated brain or brainstem flares, including a timed bout.",
+        "source_ref": "diary_observations:S2-OBS-6610; diary_observations:S2-OBS-6714",
+        "author": "record_review",
+        "reviewed_on": "2026-11-20"
+      },
+      "course_events": [
+        {
+          "id": "default-onset:symptom:2485a3aa-402a-5691-b184-29d584d9273b",
+          "symptom_id": "symptom:2485a3aa-402a-5691-b184-29d584d9273b",
+          "kind": "onset",
+          "timing": "known",
+          "period": "2023",
+          "anchor_label": "illness onset (October–November 2023)",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "Practitioner convention for an unknown onset. Exact date and presence at illness onset are unconfirmed.",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW",
+          "anchor_card": null,
+          "basis": "practitioner_default"
+        }
+      ],
+      "first_indexed_episode": {
+        "date": "2025-11-29",
+        "source_ref": "diary_symptom_intervals:SI-000663983ecb54703ee3ffc9",
+        "page": "weeks/2025-11-24.html#entry-c36c77f478cb3347d13485-2"
+      },
+      "reviewed_relationships": [
+        {
+          "related_id": "symptom:3f12ab1d-4fe1-5fb0-a9e3-661b126990ca",
+          "relation": "Can precede or coincide with",
+          "note": "The regional flare and subsequent fatigue can be separately experienced.",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW; archive_messages:S1-M69556",
+          "title": "Nape fatigue"
+        }
+      ]
+    },
+    {
+      "symptom_id": "symptom:227a05a7-02e4-54ee-b742-71d823a9ccdb",
+      "symptom": "Brain burning",
+      "level": 3,
+      "rated_by": "practitioner",
+      "rated_on": "2026-11-22",
+      "rationale": "Given that even the smallest sustained cognitive exertion causes drastic cognitive performance drop, confusion, \"laggy\" perception, and considerable discomfort and \"burning\" pain, this practically means that patient is unable to do any mental exertion required for most daily activities.",
+      "level_label": "Profoundly disabling",
+      "resolution": {
+        "status": "unknown"
+      },
+      "occurrence_pattern": {
+        "baseline": "intermittent",
+        "triggers": "Exertion, also episodes at rest",
+        "note": "Attacks can be spontaneous or appear after exertion. Baseline cognitive fog is recorded separately.",
+        "source_ref": "historical_entries:S3:symptom:029; archive_messages:S1-M2754",
+        "author": "record_review",
+        "reviewed_on": "2026-11-20"
+      },
+      "course_events": [
+        {
+          "id": "default-onset:symptom:227a05a7-02e4-54ee-b742-71d823a9ccdb",
+          "symptom_id": "symptom:227a05a7-02e4-54ee-b742-71d823a9ccdb",
+          "kind": "onset",
+          "timing": "known",
+          "period": "2023",
+          "anchor_label": "illness onset (October–November 2023)",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "Practitioner convention for an unknown onset. Exact date and presence at illness onset are unconfirmed.",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW",
+          "anchor_card": null,
+          "basis": "practitioner_default"
+        },
+        {
+          "id": "R20:history:brain_burning:recurred:S3:chronology:665",
+          "symptom_id": "symptom:227a05a7-02e4-54ee-b742-71d823a9ccdb",
+          "kind": "recurred",
+          "timing": "known",
+          "period": "2025-06",
+          "anchor_label": "During the June 2025 rapamycin episode",
+          "recorded_on": "2026-11-20",
+          "author": "patient",
+          "note": "The patient recalls brain burning returning after roughly six months of relative relief. The first day of recurrence was unspecified.",
+          "source_ref": "historical_entries:S3:chronology:665",
+          "anchor_card": null,
+          "basis": "reviewed_evidence"
+        }
+      ],
+      "first_indexed_episode": {
+        "date": "2024-06-14",
+        "source_ref": "diary_symptom_intervals:SI-67e7bd7240bb29b659eb7fc4",
+        "page": "weeks/2024-06-10.html#entry-f18c054a55ead0a232c0a6"
+      },
+      "reviewed_relationships": [
+        {
+          "related_id": "intervention:d2791758-1a3d-5f28-b23b-b5ef705c0252",
+          "relation": "Reported recurrence after treatment",
+          "note": "Burning and pressure returned in June 2025 after about six months of relative relief. The patient associated the recurrence with the June 21 dose.",
+          "source_ref": "historical_entries:S3:chronology:665; context_cards:CTX-014",
+          "title": "Rapamycin"
+        }
+      ]
+    },
+    {
+      "symptom_id": "symptom:e9af0b77-fd32-5442-9d9c-6aa92d207d74",
+      "symptom": "Brain fatigue",
+      "level": 3,
+      "rated_by": "patient",
+      "rated_on": "2026-11-22",
+      "rationale": "Patient-reported impact on daily functioning.",
+      "source_card": null,
+      "source_title": null,
+      "source_detail": null,
+      "source_refs": [],
+      "level_label": "Profoundly disabling",
+      "resolution": {
+        "status": "unknown"
+      },
+      "occurrence_pattern": {
+        "baseline": "triggered",
+        "triggers": "Physical, cognitive or sensory exertion",
+        "note": "The patient describes attacks of central fatigue within the exertional sequence. Some episodes have no clear trigger. Brain fatigue predates December 2025; brain heaviness was newly described December 4, 2025; explicit brain-lactate descriptions begin January 12, 2026. Neither quality establishes treatment causality.",
+        "source_ref": "historical_entries:S3:symptom:013; context_cards:CTX-014",
+        "author": "record_review",
+        "reviewed_on": "2026-11-20"
+      },
+      "course_events": [
+        {
+          "id": "R20:history:cns_fatigue:onset:S3:treatment_response:212",
+          "symptom_id": "symptom:e9af0b77-fd32-5442-9d9c-6aa92d207d74",
+          "kind": "onset",
+          "timing": "known",
+          "period": "2025-06",
+          "anchor_label": "June 2025 rapamycin episode",
+          "recorded_on": "2026-11-20",
+          "author": "patient",
+          "note": "The patient describes new attacks of CNS and upper-body fatigue that subsequently recurred. The association with rapamycin is patient-reported.",
+          "source_ref": "historical_entries:S3:treatment_response:212",
+          "anchor_card": null,
+          "basis": "reviewed_evidence"
+        },
+        {
+          "id": "R21:heaviness:pattern_onset",
+          "symptom_id": "symptom:e9af0b77-fd32-5442-9d9c-6aa92d207d74",
+          "kind": "pattern_onset",
+          "timing": "after",
+          "period": "2025-12-01",
+          "anchor_label": "the December 1, 2025 bezisterim dose",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "Brain-heaviness quality, not first onset of Brain fatigue. The practitioner raises this as a possibility. All four indexed descriptions identify head or CNS heaviness, beginning December 4.",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW; diary_observations:S2-OBS-3597",
+          "anchor_card": null,
+          "basis": "suspected"
+        }
+      ],
+      "first_indexed_episode": {
+        "date": "2025-01-29",
+        "source_ref": "diary_symptom_intervals:SI-0549d9a41b9b29ee1a36940a",
+        "page": "weeks/2025-01-27.html#entry-37acd306129a91c26a5ad7"
+      },
+      "reviewed_relationships": [
+        {
+          "related_id": "intervention:ee824179-20cd-5023-98b9-9ca860592f79",
+          "relation": "Possible timing after treatment",
+          "note": "The first indexed description is December 4. A treatment effect is unconfirmed.",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW; diary_observations:S2-OBS-3597",
+          "title": "Bezisterim"
+        },
+        {
+          "related_id": "intervention:8c44127d-11fb-5024-8f14-bb5c20b3def5",
+          "relation": "Present in overlapping treatment period; cause uncertain",
+          "note": "The spore probiotic was in use/restarted before the single December 1 bezisterim dose. The symptom was reported around this period, but available chronology does not isolate which, if either, treatment contributed.",
+          "source_ref": "context_cards:CTX-017; intervention_events:S2-L03457-E1; intervention_events:S2-L03554-E1",
+          "title": "Spore probiotic"
+        }
+      ]
+    },
+    {
+      "symptom_id": "symptom:01a81101-6126-55ed-8bb8-99e66627d32b",
+      "symptom": "Brain fog",
+      "level": 2,
+      "rated_by": "practitioner",
+      "rated_on": "2026-11-20",
+      "rationale": "Baseline cognitive impairment.",
+      "source_card": "CTX-009",
+      "source_title": "Cognition, burning pressure and tinnitus",
+      "source_detail": "Slowed processing, word-finding and memory difficulty, reduced mental imagery, focal frontal burning or helmet pressure, tinnitus that intensifies during flares, and sinus/ocular pressure. Pre-existing mild tinnitus followed concert exposure. Light, speech, screens and sound carry varying exertional costs.",
+      "source_refs": [
+        "S3:23-41",
+        "S1:30035-30044",
+        "S2:9005-9042"
+      ],
+      "level_label": "Very disabling",
+      "resolution": {
+        "status": "active",
+        "rated_by": "practitioner",
+        "rated_on": "2026-11-20",
+        "rationale": "Present at baseline with fluctuating intensity."
+      },
+      "occurrence_pattern": {
+        "baseline": "continuous_fluctuating",
+        "triggers": "Exertion worsens baseline fog",
+        "note": "The patient describes impaired clarity and memory even at rest, with further slowing during exertion.",
+        "source_ref": "Practitioner review (2026-11-20); historical_entries:S3:symptom:036; archive_messages:S1-M2754",
+        "author": "practitioner",
+        "reviewed_on": "2026-11-20"
+      },
+      "course_events": [
+        {
+          "id": "R20:history:cognitive_slowing:onset:S3:chronology:418",
+          "symptom_id": "symptom:01a81101-6126-55ed-8bb8-99e66627d32b",
+          "kind": "onset",
+          "timing": "known",
+          "period": "2023",
+          "anchor_label": "October–November 2023",
+          "recorded_on": "2026-11-20",
+          "author": "patient",
+          "note": "Brain fog accompanied the initial relapsing illness. The early spells were separated by returns to usual function.",
+          "source_ref": "historical_entries:S3:chronology:418",
+          "anchor_card": null,
+          "basis": "reviewed_evidence"
+        },
+        {
+          "id": "R20:history:cognitive_slowing:pattern_onset:S3:chronology:423",
+          "symptom_id": "symptom:01a81101-6126-55ed-8bb8-99e66627d32b",
+          "kind": "pattern_onset",
+          "timing": "known",
+          "period": "2023",
+          "anchor_label": "Third illness spell, October–November 2023",
+          "recorded_on": "2026-11-20",
+          "author": "patient",
+          "note": "The third spell persisted. In the following weeks the patient struggled with familiar tasks.",
+          "source_ref": "historical_entries:S3:chronology:423",
+          "anchor_card": null,
+          "basis": "reviewed_evidence"
+        },
+        {
+          "id": "R20:cognitive_slowing:ongoing",
+          "symptom_id": "symptom:01a81101-6126-55ed-8bb8-99e66627d32b",
+          "kind": "ongoing",
+          "timing": "known",
+          "period": "2026-11-20",
+          "anchor_label": "",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "Present at baseline with fluctuating intensity.",
+          "source_ref": "context_cards:CTX-R20-SYMPTOM-COURSE",
+          "anchor_card": null,
+          "basis": "reviewed_evidence"
+        }
+      ],
+      "first_indexed_episode": {
+        "date": "2024-06-12",
+        "source_ref": "diary_symptom_intervals:SI-5fb70d391cb5583e6711e9cd",
+        "page": "weeks/2024-06-10.html#entry-df3d917d1b08d5bb486f14"
+      },
+      "reviewed_relationships": []
+    },
+    {
+      "symptom_id": "symptom:fe2205b5-f601-5c4f-91d2-4e7db97dbabf",
+      "symptom": "Breathing discomfort",
+      "level": 1,
+      "level_label": "Low",
+      "resolution": {
+        "status": "unknown"
+      },
+      "occurrence_pattern": {
+        "baseline": "intermittent",
+        "triggers": "",
+        "note": "Breathlessness has been logged during a symptomatic bout. Its usual frequency is unclear.",
+        "source_ref": "diary_fields:S2-L00870-FL6",
+        "author": "record_review",
+        "reviewed_on": "2026-11-20"
+      },
+      "course_events": [
+        {
+          "id": "default-onset:symptom:fe2205b5-f601-5c4f-91d2-4e7db97dbabf",
+          "symptom_id": "symptom:fe2205b5-f601-5c4f-91d2-4e7db97dbabf",
+          "kind": "onset",
+          "timing": "known",
+          "period": "2023",
+          "anchor_label": "illness onset (October–November 2023)",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "Practitioner convention for an unknown onset. Exact date and presence at illness onset are unconfirmed.",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW",
+          "anchor_card": null,
+          "basis": "practitioner_default"
+        }
+      ],
+      "first_indexed_episode": {
+        "date": "2025-12-05",
+        "source_ref": "diary_symptom_intervals:SI-8582fea9ad9ba8e196799016",
+        "page": "weeks/2025-12-01.html#entry-8314d5b980d2e8e7b029f0"
+      },
+      "reviewed_relationships": []
+    },
+    {
+      "symptom_id": "symptom:3d9842c2-91bb-549a-9f65-98b8561ef3e9",
+      "symptom": "Brief sharp stomach pain at meal onset",
+      "level": 1,
+      "level_label": "Low",
+      "resolution": {
+        "status": "unknown"
+      },
+      "occurrence_pattern": {
+        "baseline": "intermittent",
+        "triggers": "At meal onset; food, temperature and abdominal movement are unproven triggers",
+        "note": "Sudden or very brief upper-abdominal or stomach pain beginning while eating. Reported with meals on several dates; the immediate pain may resolve while mild echoes remain. Do not assume the food, fat or temperature caused it.",
+        "source_ref": "S2-OBS-8894; S2-OBS-1147; S2-OBS-3094",
+        "author": "practitioner",
+        "reviewed_on": "2026-11-21"
+      },
+      "course_events": [
+        {
+          "id": "course:ee2d1390-1be1-58a3-acd1-a5df1ac757b5",
+          "symptom_id": "symptom:3d9842c2-91bb-549a-9f65-98b8561ef3e9",
+          "kind": "onset",
+          "timing": "by",
+          "period": "2025-08-05",
+          "anchor_label": "2025-08-05",
+          "recorded_on": "2026-11-21",
+          "author": "practitioner",
+          "note": "First selected short/prompt meal-onset pain account; episodic recurrence later, onset unknown. This is a no-later-than onset boundary, not a claimed first symptom date.",
+          "source_ref": "S2-OBS-990",
+          "anchor_card": null,
+          "basis": "reviewed_evidence"
+        }
+      ],
+      "first_indexed_episode": {
+        "date": "2025-08-05",
+        "source_ref": "diary_symptom_intervals:SI-027135c7c8a2def0175b9b00",
+        "page": "weeks/2025-08-04.html#entry-82dae24a7cddd0a327f5b2"
+      },
+      "reviewed_relationships": []
+    },
+    {
+      "symptom_id": "symptom:4f94110c-5636-5b0f-8cad-fb1be5b76554",
+      "symptom": "Burning sensation",
+      "level": 1,
+      "level_label": "Low",
+      "resolution": {
+        "status": "unknown"
+      },
+      "occurrence_pattern": {
+        "baseline": "intermittent",
+        "triggers": "",
+        "note": "Burning is reported at different body locations and sometimes during PEM. The word alone does not identify one anatomical symptom or a separate attack; see the source wording for location.",
+        "source_ref": "diary_observations:S2-OBS-7409",
+        "author": "record_review",
+        "reviewed_on": "2026-11-20"
+      },
+      "course_events": [
+        {
+          "id": "default-onset:symptom:4f94110c-5636-5b0f-8cad-fb1be5b76554",
+          "symptom_id": "symptom:4f94110c-5636-5b0f-8cad-fb1be5b76554",
+          "kind": "onset",
+          "timing": "known",
+          "period": "2023",
+          "anchor_label": "illness onset (October–November 2023)",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "Practitioner convention for an unknown onset. Exact date and presence at illness onset are unconfirmed.",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW",
+          "anchor_card": null,
+          "basis": "practitioner_default"
+        }
+      ],
+      "first_indexed_episode": {
+        "date": "2024-06-14",
+        "source_ref": "diary_symptom_intervals:SI-67e7bd7240bb29b659eb7fc4",
+        "page": "weeks/2024-06-10.html#entry-f18c054a55ead0a232c0a6"
+      },
+      "reviewed_relationships": []
+    },
+    {
+      "symptom_id": "symptom:3b57b4fd-f688-5bf3-b4a4-1d5d47b8a804",
+      "symptom": "Chest tightness or pressure",
+      "level": 1,
+      "level_label": "Low",
+      "resolution": {
+        "status": "unknown"
+      },
+      "occurrence_pattern": {
+        "baseline": "intermittent",
+        "triggers": "",
+        "note": "The diary describes chest tightness returning in the evening.",
+        "source_ref": "diary_observations:S2-OBS-1361",
+        "author": "record_review",
+        "reviewed_on": "2026-11-20"
+      },
+      "course_events": [
+        {
+          "id": "default-onset:symptom:3b57b4fd-f688-5bf3-b4a4-1d5d47b8a804",
+          "symptom_id": "symptom:3b57b4fd-f688-5bf3-b4a4-1d5d47b8a804",
+          "kind": "onset",
+          "timing": "known",
+          "period": "2023",
+          "anchor_label": "illness onset (October–November 2023)",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "Practitioner convention for an unknown onset. Exact date and presence at illness onset are unconfirmed.",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW",
+          "anchor_card": null,
+          "basis": "practitioner_default"
+        }
+      ],
+      "first_indexed_episode": {
+        "date": "2025-08-22",
+        "source_ref": "diary_symptom_intervals:SI-deff4319485601c4c6a6d8b9",
+        "page": "weeks/2025-08-18.html#entry-be9d388b282d24348651eb"
+      },
+      "reviewed_relationships": []
+    },
+    {
+      "symptom_id": "symptom:7dd0a7bb-ea7c-5606-ac9d-2b7a13e0680a",
+      "symptom": "Constipation",
+      "level": 1,
+      "level_label": "Low",
+      "resolution": {
+        "status": "active",
+        "rated_by": "practitioner",
+        "rated_on": "2026-11-20",
+        "rationale": "Intermittent episodes were still reported at review."
+      },
+      "occurrence_pattern": {
+        "baseline": "intermittent",
+        "triggers": "",
+        "note": "The patient describes runs of constipation alternating with loose stools.",
+        "source_ref": "Practitioner review (2026-11-20); historical_entries:S3:symptom:047",
+        "author": "practitioner",
+        "reviewed_on": "2026-11-20"
+      },
+      "course_events": [
+        {
+          "id": "default-onset:symptom:7dd0a7bb-ea7c-5606-ac9d-2b7a13e0680a",
+          "symptom_id": "symptom:7dd0a7bb-ea7c-5606-ac9d-2b7a13e0680a",
+          "kind": "onset",
+          "timing": "known",
+          "period": "2023",
+          "anchor_label": "illness onset (October–November 2023)",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "Practitioner convention for an unknown onset. Exact date and presence at illness onset are unconfirmed.",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW",
+          "anchor_card": null,
+          "basis": "practitioner_default"
+        },
+        {
+          "id": "R20:constipation:ongoing",
+          "symptom_id": "symptom:7dd0a7bb-ea7c-5606-ac9d-2b7a13e0680a",
+          "kind": "ongoing",
+          "timing": "known",
+          "period": "2026-11-20",
+          "anchor_label": "",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "Intermittent episodes were still reported at review.",
+          "source_ref": "context_cards:CTX-R20-SYMPTOM-COURSE",
+          "anchor_card": null,
+          "basis": "reviewed_evidence"
+        }
+      ],
+      "first_indexed_episode": {
+        "date": "2025-08-24",
+        "source_ref": "diary_observations:S2-OBS-1398",
+        "page": "weeks/2025-08-18.html#entry-a6b3ceed5b6f7110828a94"
+      },
+      "reviewed_relationships": []
+    },
+    {
+      "symptom_id": "symptom:bbec37b1-1b89-58f4-aaf2-214943a25d60",
+      "symptom": "Crash",
+      "level": 3,
+      "rated_by": "practitioner",
+      "rated_on": "2026-11-20",
+      "rationale": "",
+      "source_card": null,
+      "source_title": null,
+      "source_detail": null,
+      "source_refs": [],
+      "level_label": "Profoundly disabling",
+      "resolution": {
+        "status": "active",
+        "rated_by": "practitioner",
+        "rated_on": "2026-11-20",
+        "rationale": "The post-NADH pattern was still present at the practitioner review."
+      },
+      "occurrence_pattern": {
+        "baseline": "intermittent",
+        "triggers": "Often exertion or sensory stimulation",
+        "note": "A patient-described attack. The diary can describe progression from feeling PEM-like to a crash.",
+        "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW; historical_entries:S3:symptom:013; context_cards:CTX-008; context_cards:CTX-014",
+        "author": "practitioner",
+        "reviewed_on": "2026-11-20"
+      },
+      "course_events": [
+        {
+          "id": "R20:crash:pattern_onset",
+          "symptom_id": "symptom:bbec37b1-1b89-58f4-aaf2-214943a25d60",
+          "kind": "pattern_onset",
+          "timing": "after",
+          "period": "2024-10",
+          "anchor_label": "the October 2024 NADH courses",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "Practitioner-reported onset of the persistent pattern. The exact day is unknown.",
+          "source_ref": "context_cards:CTX-R20-SYMPTOM-COURSE",
+          "anchor_card": "CTX-007",
+          "basis": "reviewed_evidence"
+        },
+        {
+          "id": "R20:crash:ongoing",
+          "symptom_id": "symptom:bbec37b1-1b89-58f4-aaf2-214943a25d60",
+          "kind": "ongoing",
+          "timing": "known",
+          "period": "2026-11-20",
+          "anchor_label": "",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "The pattern was still present at review.",
+          "source_ref": "context_cards:CTX-R20-SYMPTOM-COURSE",
+          "anchor_card": null,
+          "basis": "reviewed_evidence"
+        }
+      ],
+      "first_indexed_episode": {
+        "date": "2024-06-06",
+        "source_ref": "diary_symptom_intervals:SI-fb5253a94ff1602907ed4655",
+        "page": "weeks/2024-06-03.html#entry-ff90453b77ab5a3b012fcc"
+      },
+      "reviewed_relationships": []
+    },
+    {
+      "symptom_id": "symptom:50b80b74-96b8-527c-88cb-642962324051",
+      "symptom": "Deep internal tingling / pulsing",
+      "level": 1,
+      "level_label": "Low",
+      "resolution": {
+        "status": "unknown"
+      },
+      "occurrence_pattern": {
+        "baseline": "continuous_fluctuating",
+        "triggers": "Often intensifies during PEM, activity or sensory stimulation",
+        "note": "Patient-reviewed description: deeper diffuse pulsating/tingling, sometimes mildly painful or corrosive and psychologically unsettling; distinct from surface pins and needles. Mechanism unknown. Original note: The patient describes a constant low-grade tingling pattern with stronger spreading attacks. The separate early hand/foot phenotype has a different history.",
+        "source_ref": "archive_messages:S1-M22525; context_cards:CTX-008",
+        "author": "record_review",
+        "reviewed_on": "2026-11-21"
+      },
+      "course_events": [
+        {
+          "id": "R21:tingling:pattern_onset",
+          "symptom_id": "symptom:50b80b74-96b8-527c-88cb-642962324051",
+          "kind": "pattern_onset",
+          "timing": "after",
+          "period": "2024-10",
+          "anchor_label": "the October 2024 NADH courses",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "The practitioner identifies the later low-grade tingling and exertional flares with the post-NADH PEM pattern.",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW",
+          "anchor_card": "CTX-007",
+          "basis": "reviewed_evidence"
+        }
+      ],
+      "first_indexed_episode": {
+        "date": "2025-01-08",
+        "source_ref": "diary_symptom_intervals:SI-cda060fb6f67a9d06959f344",
+        "page": "weeks/2025-01-06.html#entry-9299bed2c8ba812e2bc2be"
+      },
+      "reviewed_relationships": [
+        {
+          "related_id": "symptom:d5710799-23f3-5a35-bd32-289763af0b59",
+          "relation": "Often intensifies during",
+          "note": "Deep internal tingling/pulsing is experienced as a fluctuating baseline feature; it often intensifies during the PEM-like state but is not equivalent to PEM or proof of a crash.",
+          "source_ref": "historical_entries:S3:symptom:013; diary_observations:S2-OBS-9103",
+          "title": "PEM / PEM-like state"
+        },
+        {
+          "related_id": "intervention:4863b7ca-16f3-5128-9034-cac865754888",
+          "relation": "Part of post-NADH symptom cluster",
+          "note": "The practitioner identifies the later low-grade tingling and exertional flares with the post-NADH PEM pattern.",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW; context_cards:CTX-007",
+          "title": "NC NADH-containing formulation (composition unverified)"
+        }
+      ]
+    },
+    {
+      "symptom_id": "symptom:901b1855-444e-5edf-b6f5-3403c8f4f5a0",
+      "symptom": "Diarrhea",
+      "level": 1,
+      "level_label": "Low",
+      "resolution": {
+        "status": "mostly_resolved",
+        "rated_by": "practitioner",
+        "rated_on": "2026-11-21",
+        "rationale": "Markedly less frequent than during the 2025 gastrointestinal deterioration; sporadic diarrhea still occurs. Mostly resolved does not mean absent."
+      },
+      "occurrence_pattern": {
+        "baseline": "intermittent",
+        "triggers": "",
+        "note": "Loose stools still recur infrequently. Stool color is tracked independently.",
+        "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW; Practitioner review (2026-11-20); historical_entries:S3:symptom:047",
+        "author": "practitioner",
+        "reviewed_on": "2026-11-20"
+      },
+      "course_events": [
+        {
+          "id": "default-onset:symptom:901b1855-444e-5edf-b6f5-3403c8f4f5a0",
+          "symptom_id": "symptom:901b1855-444e-5edf-b6f5-3403c8f4f5a0",
+          "kind": "onset",
+          "timing": "known",
+          "period": "2023",
+          "anchor_label": "illness onset (October–November 2023)",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "Practitioner convention for an unknown onset. Exact date and presence at illness onset are unconfirmed.",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW",
+          "anchor_card": null,
+          "basis": "practitioner_default"
+        },
+        {
+          "id": "R20:diarrhea:ongoing",
+          "symptom_id": "symptom:901b1855-444e-5edf-b6f5-3403c8f4f5a0",
+          "kind": "improved",
+          "timing": "by",
+          "period": "2026-11-21",
+          "anchor_label": "",
+          "recorded_on": "2026-11-21",
+          "author": "practitioner",
+          "note": "Episodes still occur sporadically; overall frequency is substantially reduced from the 2025 diarrheal phase.",
+          "source_ref": "context_cards:CTX-R20-SYMPTOM-COURSE",
+          "anchor_card": null,
+          "basis": "reviewed_evidence"
+        }
+      ],
+      "first_indexed_episode": {
+        "date": "2025-08-17",
+        "source_ref": "diary_observations:S2-OBS-1228",
+        "page": "weeks/2025-08-11.html#entry-0b657d0d97055c6d80c743"
+      },
+      "reviewed_relationships": []
+    },
+    {
+      "symptom_id": "symptom:e4ac9881-1e89-5b3c-b42c-2d6a252295c8",
+      "symptom": "Difficulty sleeping",
+      "level": 1,
+      "level_label": "Low",
+      "resolution": {
+        "status": "unknown"
+      },
+      "occurrence_pattern": {
+        "baseline": "intermittent",
+        "triggers": "Wiredness in some episodes",
+        "note": "Difficulty falling asleep is described on particular nights.",
+        "source_ref": "diary_observations:S2-OBS-4669; context_cards:CTX-019",
+        "author": "record_review",
+        "reviewed_on": "2026-11-20"
+      },
+      "course_events": [
+        {
+          "id": "default-onset:symptom:e4ac9881-1e89-5b3c-b42c-2d6a252295c8",
+          "symptom_id": "symptom:e4ac9881-1e89-5b3c-b42c-2d6a252295c8",
+          "kind": "onset",
+          "timing": "known",
+          "period": "2023",
+          "anchor_label": "illness onset (October–November 2023)",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "Practitioner convention for an unknown onset. Exact date and presence at illness onset are unconfirmed.",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW",
+          "anchor_card": null,
+          "basis": "practitioner_default"
+        }
+      ],
+      "first_indexed_episode": {
+        "date": "2024-10-10",
+        "source_ref": "diary_symptom_intervals:SI-896204ca3150849ffe6b6e76",
+        "page": "weeks/2024-10-07.html#entry-1fb05f13bc20e300a18aa5"
+      },
+      "reviewed_relationships": []
+    },
+    {
+      "symptom_id": "symptom:ea07bb29-01c1-5340-912d-7dbd9277577e",
+      "symptom": "Early hand and foot paresthesias",
+      "level": 1,
+      "level_label": "Low",
+      "resolution": {
+        "status": "resolved",
+        "rated_by": "practitioner",
+        "rated_on": "2026-11-20",
+        "rationale": "The practitioner dates resolution of the early hand and foot pins and needles to February 2025. Later PEM-associated tingling is a separate pattern."
+      },
+      "occurrence_pattern": {
+        "baseline": "unknown",
+        "triggers": "",
+        "note": "The early hand and foot symptoms lasted across the first months of illness. Continuity within those months is unclear.",
+        "source_ref": "historical_entries:S3:symptom:059",
+        "author": "record_review",
+        "reviewed_on": "2026-11-20"
+      },
+      "course_events": [
+        {
+          "id": "R20:history:early_paresthesias:onset:S3:chronology:426",
+          "symptom_id": "symptom:ea07bb29-01c1-5340-912d-7dbd9277577e",
+          "kind": "onset",
+          "timing": "known",
+          "period": "2023",
+          "anchor_label": "First months of illness, beginning in late 2023",
+          "recorded_on": "2026-11-20",
+          "author": "patient",
+          "note": "The early hand and foot pins and needles were prominent during the first few months.",
+          "source_ref": "historical_entries:S3:chronology:426",
+          "anchor_card": null,
+          "basis": "reviewed_evidence"
+        },
+        {
+          "id": "R21:early_paresthesias:resolved",
+          "symptom_id": "symptom:ea07bb29-01c1-5340-912d-7dbd9277577e",
+          "kind": "resolved",
+          "timing": "by",
+          "period": "2025-02",
+          "anchor_label": "",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "The practitioner dates resolution of the early hand and foot pins and needles to February 2025. Later PEM-associated tingling is a separate pattern.",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW",
+          "anchor_card": null,
+          "basis": "reviewed_evidence"
+        },
+        {
+          "id": "R20:history:early_paresthesias:improved:S1-M16254",
+          "symptom_id": "symptom:ea07bb29-01c1-5340-912d-7dbd9277577e",
+          "kind": "improved",
+          "timing": "by",
+          "period": "2025-02-03",
+          "anchor_label": "",
+          "recorded_on": "2025-02-03",
+          "author": "patient",
+          "note": "The patient said the hand or foot pins and needles had become very rare. Occasional episodes still occurred.",
+          "source_ref": "archive_messages:S1-M16254",
+          "anchor_card": null,
+          "basis": "reviewed_evidence"
+        }
+      ],
+      "first_indexed_episode": null,
+      "reviewed_relationships": []
+    },
+    {
+      "symptom_id": "symptom:e44f94b0-9f78-59f8-a6ce-dac73645f054",
+      "symptom": "Emotional distress / mood symptoms",
+      "level": 1,
+      "level_label": "Low",
+      "resolution": {
+        "status": "unknown"
+      },
+      "occurrence_pattern": {
+        "baseline": "intermittent",
+        "triggers": "",
+        "note": "The diary documents anxiety, irritability and depressed or low mood at different times. These descriptions do not imply a single cause or continuous depressed mood.",
+        "source_ref": "diary_observations:S2-OBS-1612; diary_observations:S2-OBS-4750",
+        "author": "record_review",
+        "reviewed_on": "2026-11-20"
+      },
+      "course_events": [
+        {
+          "id": "default-onset:symptom:e44f94b0-9f78-59f8-a6ce-dac73645f054",
+          "symptom_id": "symptom:e44f94b0-9f78-59f8-a6ce-dac73645f054",
+          "kind": "onset",
+          "timing": "known",
+          "period": "2023",
+          "anchor_label": "illness onset (October–November 2023)",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "Practitioner convention for an unknown onset. Exact date and presence at illness onset are unconfirmed.",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW",
+          "anchor_card": null,
+          "basis": "practitioner_default"
+        }
+      ],
+      "first_indexed_episode": {
+        "date": "2024-06-20",
+        "source_ref": "diary_symptom_intervals:SI-8624433ac8869c40cc03c03b",
+        "page": "weeks/2024-06-17.html#entry-944106e29874df59a3835d"
+      },
+      "reviewed_relationships": []
+    },
+    {
+      "symptom_id": "symptom:9fdcdaab-6919-579a-9480-227ab4f01989",
+      "symptom": "Evening-type sensory waves / tingling",
+      "level": 1,
+      "level_label": "Low",
+      "resolution": {
+        "status": "unknown"
+      },
+      "occurrence_pattern": {
+        "baseline": "continuous_fluctuating",
+        "triggers": "No consistent exertion trigger established; can recur on low-exertion days.",
+        "note": "Patient-reported recurring background/rhythmic sensation historically called “evening PEM”; later described as evening pulsing or tingling. May start in the morning or afternoon despite its name. The patient describes it as near-daily; absence of an entry does not indicate absence of the sensation. A severe PEM crash or poisoned state may overlap but is not a prerequisite. The patient reports a similar return or intensification during the January 2026 S-acetyl-L-glutathione (SAG) trial; the SAG-like presentation could include stronger sinus/retro-orbital/forehead pressure, though sinus pressure started before SAG. An analogous presentation was described in April 2026 after a different treatment. Similarity does not establish a common mechanism or treatment causation.",
+        "source_ref": "archive_messages:S1-M15668; S1-M72650; diary_observations:S2-OBS-1478; S2-OBS-6312; S2-OBS-7916; S2-OBS-8619; patient clarification 2026-11-21; archive_messages:S1-M67218; S1-M69426; S1-M69457; S1-M67177; S1-M75811; diary_observations:S2-OBS-6291",
+        "author": "patient_clarification",
+        "reviewed_on": "2026-11-21"
+      },
+      "course_events": [
+        {
+          "id": "course:4f77b3a3-7277-51d8-a73d-098d2c943d30",
+          "symptom_id": "symptom:9fdcdaab-6919-579a-9480-227ab4f01989",
+          "kind": "pattern_onset",
+          "timing": "after",
+          "period": "2024-10",
+          "anchor_label": "Patient places the pattern after the late-2024 NADH period",
+          "recorded_on": "2026-11-21",
+          "author": "patient_clarification",
+          "note": "Patient-reported historical association, not a precisely dated first episode or treatment causation. Named references in retrieved archive records appear by February 2025; regular diary phrases start August 2025.",
+          "source_ref": "patient clarification 2026-11-21; archive_messages:S1-M15668; diary_observations:S2-OBS-1478",
+          "anchor_card": null,
+          "basis": "reviewed_evidence"
+        },
+        {
+          "id": "course:eafe3a03-3876-53b3-9d07-2c192fb03097",
+          "symptom_id": "symptom:9fdcdaab-6919-579a-9480-227ab4f01989",
+          "kind": "recurred",
+          "timing": "known",
+          "period": "2026-01-28",
+          "anchor_label": "Patient-reported return of an earlier tingling/pulsing pattern during SAG trial",
+          "recorded_on": "2026-11-21",
+          "author": "patient_description",
+          "note": "The patient compared the intense non-painful pulsing/tingling to an earlier evening pattern; the match was initially uncertain and more directly asserted retrospectively in February. Eye/sinus pressure was prominent, but sinus pressure had already begun before SAG. No causal attribution or additional counted attack is implied.",
+          "source_ref": "archive_messages:S1-M67218; S1-M69457; S1-M67177; diary_observations:S2-OBS-4699",
+          "anchor_card": null,
+          "basis": "reviewed_evidence"
+        }
+      ],
+      "first_indexed_episode": {
+        "date": "2025-08-27",
+        "source_ref": "diary_observations:S2-OBS-1478",
+        "page": "weeks/2025-08-25.html#entry-adda5dd3950bf6d43d17a6"
+      },
+      "reviewed_relationships": [
+        {
+          "related_id": "intervention:6796cb12-8e27-5863-990e-7e732a38b61d",
+          "relation": "Reported recurrence during treatment trial",
+          "note": "The patient described a return/intensification of the familiar evening-type pulsing/tingling while taking S-acetyl-L-glutathione in January 2026. Some accounts are tentative. Prominent sinus/retro-orbital pressure was documented, but sinus pressure began before SAG. Neither the shared sensory pattern nor treatment causation is proven.",
+          "source_ref": "archive_messages:S1-M67218; S1-M67177; S1-M69426; S1-M69457; S1-M67437; diary_observations:S2-OBS-4694; S2-OBS-4699",
+          "title": "S-acetyl-L-glutathione"
+        },
+        {
+          "related_id": "symptom:d5710799-23f3-5a35-bd32-289763af0b59",
+          "relation": "terminology_overlap",
+          "note": "The diary sometimes calls this sensation “evening PEM”, but its reported regularity and lack of a consistent exertion trigger argue against automatically counting it as exertion-triggered PEM.",
+          "source_ref": "diary_observations:S2-OBS-6312; S2-OBS-7916; archive_messages:S1-M72650",
+          "title": "PEM / PEM-like state"
+        }
+      ]
+    },
+    {
+      "symptom_id": "symptom:1d04fe0d-d290-561a-97ce-5ca208a86176",
+      "symptom": "Facial or sinus pressure",
+      "level": 2,
+      "rated_by": "practitioner",
+      "rated_on": "2026-11-20",
+      "rationale": "",
+      "source_card": null,
+      "source_title": null,
+      "source_detail": null,
+      "source_refs": [],
+      "level_label": "Very disabling",
+      "resolution": {
+        "status": "unknown"
+      },
+      "occurrence_pattern": {
+        "baseline": "continuous_fluctuating",
+        "triggers": "Exertion can intensify the baseline pressure",
+        "note": "The patient reports near-continuous facial/sinus pressure since illness onset, with varying intensity. Sensations in or behind the eyes are part of this symptom presentation and may include irritation, tearing or difficulty keeping the eye open. These experiences do not establish a specific ocular or intracranial mechanism.",
+        "source_ref": "patient review 2026-11-21; historical_entries:S3:symptom:039",
+        "author": "practitioner",
+        "reviewed_on": "2026-11-21"
+      },
+      "course_events": [
+        {
+          "id": "SYM32-FACIAL-BASELINE-ONSET",
+          "symptom_id": "symptom:1d04fe0d-d290-561a-97ce-5ca208a86176",
+          "kind": "onset",
+          "timing": "known",
+          "period": "2023",
+          "anchor_label": "October–November 2023 (illness onset)",
+          "recorded_on": "2026-11-21",
+          "author": "practitioner",
+          "note": "Patient reports continuous facial/sinus pressure since illness onset; earlier diary only dates first indexed observation. Exact first day unknown. Possible interim improvement remains unconfirmed.",
+          "source_ref": "patient review 2026-11-21; historical_entries:S3:symptom:039",
+          "anchor_card": null,
+          "basis": "reviewed_evidence"
+        }
+      ],
+      "first_indexed_episode": {
+        "date": "2024-07-09",
+        "source_ref": "diary_symptom_intervals:SI-ca9d770fec4c1775a7f3c5ea",
+        "page": "weeks/2024-07-08.html#entry-e5c1edfdb9f05ca59396a8"
+      },
+      "reviewed_relationships": [
+        {
+          "related_id": "intervention:8c44127d-11fb-5024-8f14-bb5c20b3def5",
+          "relation": "Present in overlapping treatment period; cause uncertain",
+          "note": "The spore probiotic was in use/restarted before the single December 1 bezisterim dose. The symptom was reported around this period, but available chronology does not isolate which, if either, treatment contributed.",
+          "source_ref": "context_cards:CTX-017; intervention_events:S2-L03457-E1; intervention_events:S2-L03554-E1",
+          "title": "Spore probiotic"
+        },
+        {
+          "related_id": "intervention:ee824179-20cd-5023-98b9-9ca860592f79",
+          "relation": "Present in overlapping treatment period; cause uncertain",
+          "note": "The spore probiotic was in use/restarted before the single December 1 bezisterim dose. The symptom was reported around this period, but available chronology does not isolate which, if either, treatment contributed.",
+          "source_ref": "context_cards:CTX-017; intervention_events:S2-L03457-E1; intervention_events:S2-L03554-E1",
+          "title": "Bezisterim"
+        }
+      ]
+    },
+    {
+      "symptom_id": "symptom:da28ac95-d09a-5c08-a7b7-40c6a952cf75",
+      "symptom": "Fatigue, location unspecified",
+      "level": 1,
+      "level_label": "Low",
+      "resolution": {
+        "status": "unknown"
+      },
+      "occurrence_pattern": {
+        "baseline": "intermittent",
+        "triggers": "",
+        "note": "The diary records fatigue or tiredness without identifying a site. Dated entries that specify the CNS, neck, wrist or forearm are indexed to those sites.",
+        "source_ref": "diary_fields:S2-L00338-FL3",
+        "author": "record_review",
+        "reviewed_on": "2026-11-20"
+      },
+      "course_events": [
+        {
+          "id": "default-onset:symptom:da28ac95-d09a-5c08-a7b7-40c6a952cf75",
+          "symptom_id": "symptom:da28ac95-d09a-5c08-a7b7-40c6a952cf75",
+          "kind": "onset",
+          "timing": "known",
+          "period": "2023",
+          "anchor_label": "illness onset (October–November 2023)",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "Practitioner convention for an unknown onset. Exact date and presence at illness onset are unconfirmed.",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW",
+          "anchor_card": null,
+          "basis": "practitioner_default"
+        }
+      ],
+      "first_indexed_episode": {
+        "date": "2024-10-25",
+        "source_ref": "diary_symptom_intervals:SI-c6f036338679826309a91d7a",
+        "page": "weeks/2024-10-21.html#entry-d6b36226d186df834976a5"
+      },
+      "reviewed_relationships": []
+    },
+    {
+      "symptom_id": "symptom:562d526d-013f-542c-93e9-0dd0e0c75e6d",
+      "symptom": "Feeling cold / cold extremities",
+      "level": 1,
+      "level_label": "Low",
+      "resolution": {
+        "status": "active",
+        "rated_by": "practitioner",
+        "rated_on": "2026-11-20",
+        "rationale": "Feet remain usually cold at the review."
+      },
+      "occurrence_pattern": {
+        "baseline": "continuous_fluctuating",
+        "triggers": "",
+        "note": "Feet are usually cold. The intensity fluctuates and is lower than earlier in the illness.",
+        "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW; historical_entries:S3:symptom:042; diary_observations:S2-OBS-1831",
+        "author": "practitioner",
+        "reviewed_on": "2026-11-20"
+      },
+      "course_events": [
+        {
+          "id": "default-onset:symptom:562d526d-013f-542c-93e9-0dd0e0c75e6d",
+          "symptom_id": "symptom:562d526d-013f-542c-93e9-0dd0e0c75e6d",
+          "kind": "onset",
+          "timing": "known",
+          "period": "2023",
+          "anchor_label": "illness onset (October–November 2023)",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "Practitioner convention for an unknown onset. Exact date and presence at illness onset are unconfirmed.",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW",
+          "anchor_card": null,
+          "basis": "practitioner_default"
+        }
+      ],
+      "first_indexed_episode": {
+        "date": "2025-01-08",
+        "source_ref": "diary_symptom_intervals:SI-8c34cf273e392fbf0a7a351e",
+        "page": "weeks/2025-01-06.html#entry-6d9af79d392d83ec209c6c"
+      },
+      "reviewed_relationships": []
+    },
+    {
+      "symptom_id": "symptom:8e8b39a9-8cf3-5581-873a-4ec2fbf995d4",
+      "symptom": "Feeling unusually warm",
+      "level": 1,
+      "level_label": "Low",
+      "resolution": {
+        "status": "mostly_resolved",
+        "rated_by": "practitioner",
+        "rated_on": "2026-11-20",
+        "rationale": "Overheating has largely subsided. The last clear report found was July 9, 2026."
+      },
+      "occurrence_pattern": {
+        "baseline": "intermittent",
+        "triggers": "",
+        "note": "The patient reports periods of unusually strong warmth. Frequency and precipitants are unclear.",
+        "source_ref": "diary_observations:S2-OBS-6764; diary_logs:S2-L02939",
+        "author": "record_review",
+        "reviewed_on": "2026-11-20"
+      },
+      "course_events": [
+        {
+          "id": "default-onset:symptom:8e8b39a9-8cf3-5581-873a-4ec2fbf995d4",
+          "symptom_id": "symptom:8e8b39a9-8cf3-5581-873a-4ec2fbf995d4",
+          "kind": "onset",
+          "timing": "known",
+          "period": "2023",
+          "anchor_label": "illness onset (October–November 2023)",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "Practitioner convention for an unknown onset. Exact date and presence at illness onset are unconfirmed.",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW",
+          "anchor_card": null,
+          "basis": "practitioner_default"
+        },
+        {
+          "id": "R21:warmth:documented",
+          "symptom_id": "symptom:8e8b39a9-8cf3-5581-873a-4ec2fbf995d4",
+          "kind": "documented",
+          "timing": "known",
+          "period": "2026-07-09",
+          "anchor_label": "",
+          "recorded_on": "2026-11-20",
+          "author": "record_review",
+          "note": "Woke overheated. Later night sweating alone does not establish overheating.",
+          "source_ref": "diary_observations:S2-OBS-7373; archive_messages:S1-M76661",
+          "anchor_card": null,
+          "basis": "reviewed_evidence"
+        },
+        {
+          "id": "R21:warmth:improved",
+          "symptom_id": "symptom:8e8b39a9-8cf3-5581-873a-4ec2fbf995d4",
+          "kind": "improved",
+          "timing": "by",
+          "period": "2026-11-20",
+          "anchor_label": "",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "Overheating has largely subsided. The last clear report found was July 9, 2026.",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW",
+          "anchor_card": null,
+          "basis": "reviewed_evidence"
+        }
+      ],
+      "first_indexed_episode": {
+        "date": "2025-10-29",
+        "source_ref": "diary_symptom_intervals:SI-9504294d9ccad09fa3671906",
+        "page": "weeks/2025-10-27.html#entry-29e55ab7713ebf28bb0ca1"
+      },
+      "reviewed_relationships": []
+    },
+    {
+      "symptom_id": "symptom:ec770832-b72a-5e3b-9b14-dad0239254d7",
+      "symptom": "Feeling wired",
+      "level": 1,
+      "level_label": "Low",
+      "resolution": {
+        "status": "unknown"
+      },
+      "occurrence_pattern": {
+        "baseline": "intermittent",
+        "triggers": "Often after sustained typing, conversation or emotional arousal",
+        "note": "Wired spells recur and can delay sleep.",
+        "source_ref": "diary_observations:S2-OBS-4669; diary_observations:S2-OBS-8983; context_cards:CTX-022",
+        "author": "record_review",
+        "reviewed_on": "2026-11-20"
+      },
+      "course_events": [
+        {
+          "id": "R21:wired:onset",
+          "symptom_id": "symptom:ec770832-b72a-5e3b-9b14-dad0239254d7",
+          "kind": "onset",
+          "timing": "known",
+          "period": "2025-02-26",
+          "anchor_label": "",
+          "recorded_on": "2026-11-21",
+          "author": "practitioner",
+          "note": "Directly documented after an outing February 26, 2025; an April diary report also precedes the previously selected August date. Exact original first onset may be earlier.",
+          "source_ref": "archive_messages:S1-M23621; diary_fields:S1-L35258-FL1",
+          "anchor_card": null,
+          "basis": "practitioner_selected"
+        },
+        {
+          "id": "R21:wired:documented",
+          "symptom_id": "symptom:ec770832-b72a-5e3b-9b14-dad0239254d7",
+          "kind": "documented",
+          "timing": "known",
+          "period": "2025-04-21",
+          "anchor_label": "",
+          "recorded_on": "2026-11-21",
+          "author": "record_review",
+          "note": "April 21 diary described wiredness delaying sleep, confirming recurrence after the February 26 report.",
+          "source_ref": "diary_fields:S1-L35258-FL1",
+          "anchor_card": null,
+          "basis": "reviewed_evidence"
+        }
+      ],
+      "first_indexed_episode": {
+        "date": "2025-08-14",
+        "source_ref": "diary_symptom_intervals:SI-591e67a9091e64c4caca19da",
+        "page": "weeks/2025-08-11.html#entry-2e9f57985bd96e29596708"
+      },
+      "reviewed_relationships": []
+    },
+    {
+      "symptom_id": "symptom:bf15aa08-de7b-5837-9892-03014c51dbb0",
+      "symptom": "Forearm fatigue",
+      "level": 3,
+      "rated_by": "practitioner",
+      "rated_on": "2026-11-22",
+      "rationale": "When this symptom was strongest, he was unable to hold onto his phone without support.",
+      "level_label": "Profoundly disabling",
+      "resolution": {
+        "status": "unknown"
+      },
+      "occurrence_pattern": {
+        "baseline": "intermittent",
+        "triggers": "",
+        "note": "Documented in a timed brainstem flare. Continuity outside flares is unclear.",
+        "source_ref": "diary_observations:S2-OBS-6250",
+        "author": "record_review",
+        "reviewed_on": "2026-11-20"
+      },
+      "course_events": [
+        {
+          "id": "default-onset:symptom:bf15aa08-de7b-5837-9892-03014c51dbb0",
+          "symptom_id": "symptom:bf15aa08-de7b-5837-9892-03014c51dbb0",
+          "kind": "onset",
+          "timing": "known",
+          "period": "2023",
+          "anchor_label": "illness onset (October–November 2023)",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "Practitioner convention for an unknown onset. Exact date and presence at illness onset are unconfirmed.",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW",
+          "anchor_card": null,
+          "basis": "practitioner_default"
+        }
+      ],
+      "first_indexed_episode": {
+        "date": "2025-01-10",
+        "source_ref": "diary_symptom_intervals:SI-dd7835c70fa52b090a7b5ae5",
+        "page": "weeks/2025-01-06.html#entry-f01683f28ca8771edccd3f"
+      },
+      "reviewed_relationships": []
+    },
+    {
+      "symptom_id": "symptom:74316b91-912d-5855-bc4e-bf6b5d429a18",
+      "symptom": "Gastrointestinal burning (patient-described)",
+      "level": 1,
+      "level_label": "Low",
+      "resolution": {
+        "status": "unknown"
+      },
+      "occurrence_pattern": {
+        "baseline": "intermittent",
+        "triggers": "",
+        "note": "Patient-described burning in the gut or stomach. Not automatically heartburn, reflux, inflammatory disease, or any objective diagnosis. One source has questioned wording.",
+        "source_ref": "diary_observations:S2-OBS-968; diary_observations:S2-OBS-1674",
+        "author": "record_review",
+        "reviewed_on": "2026-11-21"
+      },
+      "course_events": [
+        {
+          "id": "default-onset:symptom:74316b91-912d-5855-bc4e-bf6b5d429a18",
+          "symptom_id": "symptom:74316b91-912d-5855-bc4e-bf6b5d429a18",
+          "kind": "onset",
+          "timing": "known",
+          "period": "2023",
+          "anchor_label": "illness onset (October–November 2023)",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "Practitioner convention for an unknown onset. Exact date and presence at illness onset are unconfirmed.",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW",
+          "anchor_card": null,
+          "basis": "practitioner_default"
+        }
+      ],
+      "first_indexed_episode": {
+        "date": "2025-08-04",
+        "source_ref": "diary_symptom_intervals:SI-e42cd08f2fb798a2bcae10e8",
+        "page": "weeks/2025-08-04.html#entry-68de68459b787903a818c9"
+      },
+      "reviewed_relationships": []
+    },
+    {
+      "symptom_id": "symptom:93557d60-fe18-5369-af7b-8be48854f87e",
+      "symptom": "Green stool",
+      "level": 1,
+      "level_label": "Low",
+      "resolution": {
+        "status": "mostly_resolved",
+        "rated_by": "practitioner",
+        "rated_on": "2026-11-21",
+        "rationale": "Largely improved, but an explicitly green bowel movement was still documented October 30, 2026; complete resolution is not supported. Color is tracked separately from diarrhea. The patient recalls that PEA/luteolin may have contributed to improvement during the July 2025 green-stool episode. Several interventions overlapped and attribution is uncertain. The patient also suspects that the contemporaneous GI-stabilization regimen, including PEA/luteolin and dietary/supplement adjustments, helped symptoms; this is a retrospective theory, not proof of a treatment response or cause of enzyme normalization. The patient also suspects that the contemporaneous GI-stabilization regimen, including PEA/luteolin and dietary/supplement adjustments, helped symptoms; this is a retrospective theory, not proof of a treatment response or cause of enzyme normalization."
+      },
+      "occurrence_pattern": {
+        "baseline": "intermittent",
+        "triggers": "",
+        "note": "The diary reports recurrent color changes, sometimes in otherwise normal stools.",
+        "source_ref": "diary_fields:S2-L00435-FL7",
+        "author": "record_review",
+        "reviewed_on": "2026-11-20"
+      },
+      "course_events": [
+        {
+          "id": "R20:history:green_stool:onset:S3:chronology:671",
+          "symptom_id": "symptom:93557d60-fe18-5369-af7b-8be48854f87e",
+          "kind": "onset",
+          "timing": "known",
+          "period": "2025-07",
+          "anchor_label": "July 2–6, 2025",
+          "recorded_on": "2026-11-20",
+          "author": "patient",
+          "note": "The patient explicitly described green stool as new during these days. Stool color is tracked separately from green diarrhea.",
+          "source_ref": "historical_entries:S3:chronology:671",
+          "anchor_card": null,
+          "basis": "reviewed_evidence"
+        },
+        {
+          "id": "PZ57-GREEN-STOOL-PEA",
+          "symptom_id": "symptom:93557d60-fe18-5369-af7b-8be48854f87e",
+          "kind": "improved",
+          "timing": "unknown",
+          "period": "2025-07",
+          "anchor_label": "July 2025 green-stool episode",
+          "recorded_on": "2026-11-23",
+          "author": "patient",
+          "note": "The patient recalls that PEA/luteolin may have contributed to improvement during the July 2025 green-stool episode. Several interventions overlapped and attribution is uncertain.",
+          "source_ref": "PZ57-COURSE-REVIEW; archive_messages:S1-M48877,S1-M49790",
+          "anchor_card": "CTX-015",
+          "basis": "reviewed_evidence"
+        },
+        {
+          "id": "R20:green_diarrhea:improved",
+          "symptom_id": "symptom:93557d60-fe18-5369-af7b-8be48854f87e",
+          "kind": "improved",
+          "timing": "by",
+          "period": "2025-09",
+          "anchor_label": "",
+          "recorded_on": "2026-11-20",
+          "author": "patient",
+          "note": "The patient described it as mostly resolved by September 2025.",
+          "source_ref": "historical_entries:S3:symptom:053",
+          "anchor_card": null,
+          "basis": "reviewed_evidence"
+        },
+        {
+          "id": "R21:green_stool:documented",
+          "symptom_id": "symptom:93557d60-fe18-5369-af7b-8be48854f87e",
+          "kind": "documented",
+          "timing": "known",
+          "period": "2026-10-30",
+          "anchor_label": "",
+          "recorded_on": "2026-11-20",
+          "author": "record_review",
+          "note": "Green, somewhat constipated stool. Color change occurred independently of diarrhea.",
+          "source_ref": "diary_observations:S2-OBS-8880",
+          "anchor_card": null,
+          "basis": "reviewed_evidence"
+        },
+        {
+          "id": "R20:green_diarrhea:resolved",
+          "symptom_id": "symptom:93557d60-fe18-5369-af7b-8be48854f87e",
+          "kind": "improved",
+          "timing": "by",
+          "period": "2026-11-21",
+          "anchor_label": "",
+          "recorded_on": "2026-11-21",
+          "author": "practitioner",
+          "note": "Significantly improved at review but intermittent green colour was documented October 30, 2026; exact full resolution unknown.",
+          "source_ref": "context_cards:CTX-R20-SYMPTOM-COURSE",
+          "anchor_card": null,
+          "basis": "reviewed_evidence"
+        }
+      ],
+      "first_indexed_episode": null,
+      "reviewed_relationships": [
+        {
+          "related_id": "intervention:4c58b49b-b0d4-5bf8-8c77-7bd9f0c665ff",
+          "relation": "Possible contributor reported at review",
+          "note": "The patient reported more normal stools while using famotidine and eating more vegetables. That account does not specify color or isolate the treatment effect.",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW; archive_messages:S1-M58234",
+          "title": "Famotidine"
+        },
+        {
+          "related_id": "intervention:1dd4afe1-c223-5e32-8afd-7e920d130239",
+          "relation": "Reported improvement during combined use",
+          "note": "The retrospective history describes color improving during overlapping treatment. Individual contributions are uncertain.",
+          "source_ref": "historical_entries:S3:chronology:678; archive_messages:S1-M54349",
+          "title": "KPV"
+        },
+        {
+          "related_id": "intervention:4ac4fe9d-f60e-5768-8aa9-9a2d085ae50e",
+          "relation": "Reported improvement during combined use",
+          "note": "The retrospective history describes color improving during overlapping treatment. Individual contributions are uncertain.",
+          "source_ref": "historical_entries:S3:chronology:678; archive_messages:S1-M54349",
+          "title": "Charcoal"
+        },
+        {
+          "related_id": "intervention:5f2fecaf-cc8f-557a-9e7b-c5606e312362",
+          "relation": "Reported improvement during combined use",
+          "note": "The retrospective history describes color improving during overlapping treatment. Individual contributions are uncertain.",
+          "source_ref": "historical_entries:S3:chronology:678; archive_messages:S1-M54349",
+          "title": "Modified citrus pectin"
+        },
+        {
+          "related_id": "intervention:b83129aa-3081-52f5-9b69-8eb53c5e4725",
+          "relation": "Reported improvement during combined use",
+          "note": "The retrospective history describes color improving during overlapping treatment. Individual contributions are uncertain.",
+          "source_ref": "historical_entries:S3:chronology:678; archive_messages:S1-M54349",
+          "title": "Enterosgel"
+        }
+      ]
+    },
+    {
+      "symptom_id": "symptom:187326b9-9882-53b0-a080-1e92d2c7e4e4",
+      "symptom": "Gut gurgling / bubbling",
+      "level": 1,
+      "level_label": "Low",
+      "resolution": {
+        "status": "active",
+        "rated_by": "practitioner",
+        "rated_on": "2026-11-20",
+        "rationale": "Intermittent episodes were still reported at review."
+      },
+      "occurrence_pattern": {
+        "baseline": "intermittent",
+        "triggers": "",
+        "note": "The patient reports intermittent gurgling or bubbling.",
+        "source_ref": "Practitioner review (2026-11-20); diary_observations:S2-OBS-968",
+        "author": "practitioner",
+        "reviewed_on": "2026-11-20"
+      },
+      "course_events": [
+        {
+          "id": "default-onset:symptom:187326b9-9882-53b0-a080-1e92d2c7e4e4",
+          "symptom_id": "symptom:187326b9-9882-53b0-a080-1e92d2c7e4e4",
+          "kind": "onset",
+          "timing": "known",
+          "period": "2023",
+          "anchor_label": "illness onset (October–November 2023)",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "Practitioner convention for an unknown onset. Exact date and presence at illness onset are unconfirmed.",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW",
+          "anchor_card": null,
+          "basis": "practitioner_default"
+        },
+        {
+          "id": "R20:gut_sounds:ongoing",
+          "symptom_id": "symptom:187326b9-9882-53b0-a080-1e92d2c7e4e4",
+          "kind": "ongoing",
+          "timing": "known",
+          "period": "2026-11-20",
+          "anchor_label": "",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "Intermittent episodes were still reported at review.",
+          "source_ref": "context_cards:CTX-R20-SYMPTOM-COURSE",
+          "anchor_card": null,
+          "basis": "reviewed_evidence"
+        }
+      ],
+      "first_indexed_episode": {
+        "date": "2025-01-10",
+        "source_ref": "diary_symptom_intervals:SI-2e3ee6644fef2db672895af2",
+        "page": "weeks/2025-01-06.html#entry-6609d8f933785f749bc74f"
+      },
+      "reviewed_relationships": []
+    },
+    {
+      "symptom_id": "symptom:427b863c-da44-5f2f-b07a-8e75cc9b43e7",
+      "symptom": "Headache",
+      "level": 1,
+      "level_label": "Low",
+      "resolution": {
+        "status": "unknown"
+      },
+      "occurrence_pattern": {
+        "baseline": "intermittent",
+        "triggers": "Sometimes prolonged conversation",
+        "note": "Headaches are logged as timed episodes, occasionally after chatting.",
+        "source_ref": "diary_observations:S2-OBS-7314",
+        "author": "record_review",
+        "reviewed_on": "2026-11-20"
+      },
+      "course_events": [
+        {
+          "id": "default-onset:symptom:427b863c-da44-5f2f-b07a-8e75cc9b43e7",
+          "symptom_id": "symptom:427b863c-da44-5f2f-b07a-8e75cc9b43e7",
+          "kind": "onset",
+          "timing": "known",
+          "period": "2023",
+          "anchor_label": "illness onset (October–November 2023)",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "Practitioner convention for an unknown onset. Exact date and presence at illness onset are unconfirmed.",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW",
+          "anchor_card": null,
+          "basis": "practitioner_default"
+        }
+      ],
+      "first_indexed_episode": {
+        "date": "2024-06-11",
+        "source_ref": "diary_symptom_intervals:SI-322910c5aa3fb12a168eda9f",
+        "page": "weeks/2024-06-10.html#entry-a314bb93cabe281f3ce441"
+      },
+      "reviewed_relationships": []
+    },
+    {
+      "symptom_id": "symptom:5f387bf7-cb81-5be7-968a-a255f0a4967b",
+      "symptom": "Heartburn / reflux sensation",
+      "level": 1,
+      "level_label": "Low",
+      "resolution": {
+        "status": "active",
+        "rated_by": "practitioner",
+        "rated_on": "2026-11-20",
+        "rationale": "Intermittent episodes were still reported at review."
+      },
+      "occurrence_pattern": {
+        "baseline": "intermittent",
+        "triggers": "",
+        "note": "Intermittent heartburn is recorded alongside some abdominal episodes.",
+        "source_ref": "Practitioner review (2026-11-20); diary_observations:S2-OBS-2225",
+        "author": "practitioner",
+        "reviewed_on": "2026-11-20"
+      },
+      "course_events": [
+        {
+          "id": "default-onset:symptom:5f387bf7-cb81-5be7-968a-a255f0a4967b",
+          "symptom_id": "symptom:5f387bf7-cb81-5be7-968a-a255f0a4967b",
+          "kind": "onset",
+          "timing": "known",
+          "period": "2023",
+          "anchor_label": "illness onset (October–November 2023)",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "Practitioner convention for an unknown onset. Exact date and presence at illness onset are unconfirmed.",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW",
+          "anchor_card": null,
+          "basis": "practitioner_default"
+        },
+        {
+          "id": "R20:reflux:ongoing",
+          "symptom_id": "symptom:5f387bf7-cb81-5be7-968a-a255f0a4967b",
+          "kind": "ongoing",
+          "timing": "known",
+          "period": "2026-11-20",
+          "anchor_label": "",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "Intermittent episodes were still reported at review.",
+          "source_ref": "context_cards:CTX-R20-SYMPTOM-COURSE",
+          "anchor_card": null,
+          "basis": "reviewed_evidence"
+        }
+      ],
+      "first_indexed_episode": {
+        "date": "2025-09-23",
+        "source_ref": "diary_symptom_intervals:SI-16d1a4ae92e194e31ef3d8fd",
+        "page": "weeks/2025-09-22.html#entry-018d5908c4cc866d8d92c8"
+      },
+      "reviewed_relationships": []
+    },
+    {
+      "symptom_id": "symptom:f0c17843-c40a-5297-8253-f8dd864d7fb7",
+      "symptom": "Helmet sensation / intracranial pressure",
+      "level": 2,
+      "rated_by": "practitioner",
+      "rated_on": "2026-11-20",
+      "rationale": "",
+      "source_card": null,
+      "source_title": null,
+      "source_detail": null,
+      "source_refs": [],
+      "level_label": "Very disabling",
+      "resolution": {
+        "status": "unknown"
+      },
+      "occurrence_pattern": {
+        "baseline": "intermittent",
+        "triggers": "",
+        "note": "A symptom rating describes pressure during burning. Its presence between flares is unclear. The label describes a patient-perceived helmet/cranial pressure sensation; it is not evidence of objectively elevated intracranial pressure.",
+        "source_ref": "diary_observations:S2-OBS-3363",
+        "author": "record_review",
+        "reviewed_on": "2026-11-20"
+      },
+      "course_events": [
+        {
+          "id": "default-onset:symptom:f0c17843-c40a-5297-8253-f8dd864d7fb7",
+          "symptom_id": "symptom:f0c17843-c40a-5297-8253-f8dd864d7fb7",
+          "kind": "onset",
+          "timing": "known",
+          "period": "2023",
+          "anchor_label": "illness onset (October–November 2023)",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "Practitioner convention for an unknown onset. Exact date and presence at illness onset are unconfirmed.",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW",
+          "anchor_card": null,
+          "basis": "practitioner_default"
+        },
+        {
+          "id": "R20:history:brain_pressure:recurred:S3:chronology:665",
+          "symptom_id": "symptom:f0c17843-c40a-5297-8253-f8dd864d7fb7",
+          "kind": "recurred",
+          "timing": "known",
+          "period": "2025-06",
+          "anchor_label": "During the June 2025 rapamycin episode",
+          "recorded_on": "2026-11-20",
+          "author": "patient",
+          "note": "The patient describes brain pressure returning with brain burning after a roughly six-month hiatus.",
+          "source_ref": "historical_entries:S3:chronology:665",
+          "anchor_card": null,
+          "basis": "reviewed_evidence"
+        }
+      ],
+      "first_indexed_episode": {
+        "date": "2024-06-05",
+        "source_ref": "diary_symptom_intervals:SI-67bd2c8ec5b79bc84358b8b7",
+        "page": "weeks/2024-06-03.html#entry-8bb4545a8cc953114809c1"
+      },
+      "reviewed_relationships": [
+        {
+          "related_id": "intervention:d2791758-1a3d-5f28-b23b-b5ef705c0252",
+          "relation": "Reported recurrence after treatment",
+          "note": "Burning and pressure returned in June 2025 after about six months of relative relief. The patient associated the recurrence with the June 21 dose.",
+          "source_ref": "historical_entries:S3:chronology:665; context_cards:CTX-014",
+          "title": "Rapamycin"
+        }
+      ]
+    },
+    {
+      "symptom_id": "symptom:a3c3bfa8-9053-57b1-8025-ac0a5ce440ab",
+      "symptom": "Increased mucus",
+      "level": 1,
+      "level_label": "Low",
+      "resolution": {
+        "status": "unknown"
+      },
+      "occurrence_pattern": {
+        "baseline": "intermittent",
+        "triggers": "",
+        "note": "Increased mucus has been reported on waking. The time course between reports is unclear.",
+        "source_ref": "diary_observations:S2-OBS-4042",
+        "author": "record_review",
+        "reviewed_on": "2026-11-20"
+      },
+      "course_events": [
+        {
+          "id": "default-onset:symptom:a3c3bfa8-9053-57b1-8025-ac0a5ce440ab",
+          "symptom_id": "symptom:a3c3bfa8-9053-57b1-8025-ac0a5ce440ab",
+          "kind": "onset",
+          "timing": "known",
+          "period": "2023",
+          "anchor_label": "illness onset (October–November 2023)",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "Practitioner convention for an unknown onset. Exact date and presence at illness onset are unconfirmed.",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW",
+          "anchor_card": null,
+          "basis": "practitioner_default"
+        }
+      ],
+      "first_indexed_episode": {
+        "date": "2025-04-06",
+        "source_ref": "diary_symptom_intervals:SI-8759b2fda27f127958d18799",
+        "page": "weeks/2025-03-31.html#entry-12126eb66a34854a5eb38a"
+      },
+      "reviewed_relationships": []
+    },
+    {
+      "symptom_id": "symptom:6c707aae-31a4-55fe-81b5-f54d67f75959",
+      "symptom": "Internal tremor / buzzing",
+      "level": 1,
+      "level_label": "Low",
+      "resolution": {
+        "status": "unknown"
+      },
+      "occurrence_pattern": {
+        "baseline": "intermittent",
+        "triggers": "Sometimes after sustained typing",
+        "note": "The diary describes returning solar-plexus or chest buzzing, including after typing.",
+        "source_ref": "diary_observations:S2-OBS-8983; context_cards:CTX-019",
+        "author": "record_review",
+        "reviewed_on": "2026-11-20"
+      },
+      "course_events": [
+        {
+          "id": "default-onset:symptom:6c707aae-31a4-55fe-81b5-f54d67f75959",
+          "symptom_id": "symptom:6c707aae-31a4-55fe-81b5-f54d67f75959",
+          "kind": "onset",
+          "timing": "known",
+          "period": "2023",
+          "anchor_label": "illness onset (October–November 2023)",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "Practitioner convention for an unknown onset. Exact date and presence at illness onset are unconfirmed.",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW",
+          "anchor_card": null,
+          "basis": "practitioner_default"
+        }
+      ],
+      "first_indexed_episode": {
+        "date": "2025-08-01",
+        "source_ref": "diary_symptom_intervals:SI-f61d7325372a44442d48e93c",
+        "page": "weeks/2025-07-28.html#entry-3220e56cbac989d2ba4e52"
+      },
+      "reviewed_relationships": []
+    },
+    {
+      "symptom_id": "symptom:99a0f70f-34dc-538e-956c-a139d05c7168",
+      "symptom": "Intestinal gas",
+      "level": 1,
+      "level_label": "Low",
+      "resolution": {
+        "status": "active",
+        "rated_by": "practitioner",
+        "rated_on": "2026-11-20",
+        "rationale": "Intermittent episodes were still reported at review."
+      },
+      "occurrence_pattern": {
+        "baseline": "intermittent",
+        "triggers": "",
+        "note": "The diary describes gas returning, sometimes with upper abdominal pain.",
+        "source_ref": "Practitioner review (2026-11-20); diary_observations:S2-OBS-2860",
+        "author": "practitioner",
+        "reviewed_on": "2026-11-20"
+      },
+      "course_events": [
+        {
+          "id": "default-onset:symptom:99a0f70f-34dc-538e-956c-a139d05c7168",
+          "symptom_id": "symptom:99a0f70f-34dc-538e-956c-a139d05c7168",
+          "kind": "onset",
+          "timing": "known",
+          "period": "2023",
+          "anchor_label": "illness onset (October–November 2023)",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "Practitioner convention for an unknown onset. Exact date and presence at illness onset are unconfirmed.",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW",
+          "anchor_card": null,
+          "basis": "practitioner_default"
+        },
+        {
+          "id": "R20:intestinal_gas:ongoing",
+          "symptom_id": "symptom:99a0f70f-34dc-538e-956c-a139d05c7168",
+          "kind": "ongoing",
+          "timing": "known",
+          "period": "2026-11-20",
+          "anchor_label": "",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "Intermittent episodes were still reported at review.",
+          "source_ref": "context_cards:CTX-R20-SYMPTOM-COURSE",
+          "anchor_card": null,
+          "basis": "reviewed_evidence"
+        }
+      ],
+      "first_indexed_episode": {
+        "date": "2025-08-22",
+        "source_ref": "diary_symptom_intervals:SI-7452c3b34b469706ca7b69c4",
+        "page": "weeks/2025-08-18.html#entry-779d20d09c7bfcd697361f"
+      },
+      "reviewed_relationships": []
+    },
+    {
+      "symptom_id": "symptom:e817463c-237c-5580-903b-fd815e8098b5",
+      "symptom": "Itching",
+      "level": 1,
+      "level_label": "Low",
+      "resolution": {
+        "status": "unknown"
+      },
+      "occurrence_pattern": {
+        "baseline": "intermittent",
+        "triggers": "",
+        "note": "Itching is described as returning on separate occasions.",
+        "source_ref": "diary_observations:S2-OBS-8513",
+        "author": "record_review",
+        "reviewed_on": "2026-11-20"
+      },
+      "course_events": [
+        {
+          "id": "default-onset:symptom:e817463c-237c-5580-903b-fd815e8098b5",
+          "symptom_id": "symptom:e817463c-237c-5580-903b-fd815e8098b5",
+          "kind": "onset",
+          "timing": "known",
+          "period": "2023",
+          "anchor_label": "illness onset (October–November 2023)",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "Practitioner convention for an unknown onset. Exact date and presence at illness onset are unconfirmed.",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW",
+          "anchor_card": null,
+          "basis": "practitioner_default"
+        }
+      ],
+      "first_indexed_episode": {
+        "date": "2025-08-17",
+        "source_ref": "diary_symptom_intervals:SI-387788876a21a5d5961c9297",
+        "page": "weeks/2025-08-11.html#entry-ec6caac9301b4ac266919e"
+      },
+      "reviewed_relationships": []
+    },
+    {
+      "symptom_id": "symptom:b97b5585-9759-5f54-8912-c96f8d794bcb",
+      "symptom": "Joint aching",
+      "level": 1,
+      "level_label": "Low",
+      "resolution": {
+        "status": "unknown"
+      },
+      "occurrence_pattern": {
+        "baseline": "intermittent",
+        "triggers": "Sometimes reported during PEM-like periods",
+        "note": "Joint aching reported alongside a headache. Anatomical joints and cause were not specified; this is not evidence of inflammatory arthritis.",
+        "source_ref": "S2-OBS-8713",
+        "author": "practitioner",
+        "reviewed_on": "2026-11-21"
+      },
+      "course_events": [
+        {
+          "id": "course:e586968a-54d5-5bbf-a015-9ca91df0b6a0",
+          "symptom_id": "symptom:b97b5585-9759-5f54-8912-c96f8d794bcb",
+          "kind": "onset",
+          "timing": "by",
+          "period": "2026-10-18",
+          "anchor_label": "2026-10-18",
+          "recorded_on": "2026-11-21",
+          "author": "practitioner",
+          "note": "One headache-and-joint-ache episode; no evidence of chronic inflammatory arthritis. This is a no-later-than onset boundary, not a claimed first symptom date.",
+          "source_ref": "S2-OBS-8713",
+          "anchor_card": null,
+          "basis": "reviewed_evidence"
+        }
+      ],
+      "first_indexed_episode": {
+        "date": "2026-10-18",
+        "source_ref": "diary_symptom_intervals:SI-334d0d35d14d4d76dbb34b61",
+        "page": "weeks/2026-10-12.html#entry-bbc81ff5d639eb88bbb9c9"
+      },
+      "reviewed_relationships": []
+    },
+    {
+      "symptom_id": "symptom:85bb1a5d-2676-5826-b0b4-9e8f578eaae2",
+      "symptom": "Light intolerance",
+      "level": 3,
+      "rated_by": "practitioner",
+      "rated_on": "2026-11-20",
+      "rationale": "",
+      "source_card": null,
+      "source_title": null,
+      "source_detail": null,
+      "source_refs": [],
+      "level_label": "Profoundly disabling",
+      "resolution": {
+        "status": "active",
+        "rated_by": "practitioner",
+        "rated_on": "2026-11-20",
+        "rationale": "The post-NADH pattern was still present at the practitioner review."
+      },
+      "occurrence_pattern": {
+        "baseline": "continuous_fluctuating",
+        "triggers": "Bright screens or light, especially during crashes",
+        "note": "Baseline light sensitivity is present even between exacerbations.",
+        "source_ref": "Practitioner review (2026-11-20); historical_entries:S3:symptom:023",
+        "author": "practitioner",
+        "reviewed_on": "2026-11-20"
+      },
+      "course_events": [
+        {
+          "id": "R20:light_sensitivity:pattern_onset",
+          "symptom_id": "symptom:85bb1a5d-2676-5826-b0b4-9e8f578eaae2",
+          "kind": "pattern_onset",
+          "timing": "after",
+          "period": "2024-10",
+          "anchor_label": "the October 2024 NADH courses",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "Practitioner-reported onset of the persistent pattern. The exact day is unknown.",
+          "source_ref": "context_cards:CTX-R20-SYMPTOM-COURSE",
+          "anchor_card": "CTX-007",
+          "basis": "reviewed_evidence"
+        },
+        {
+          "id": "R20:light_sensitivity:ongoing",
+          "symptom_id": "symptom:85bb1a5d-2676-5826-b0b4-9e8f578eaae2",
+          "kind": "ongoing",
+          "timing": "known",
+          "period": "2026-11-20",
+          "anchor_label": "",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "The pattern was still present at review.",
+          "source_ref": "context_cards:CTX-R20-SYMPTOM-COURSE",
+          "anchor_card": null,
+          "basis": "reviewed_evidence"
+        }
+      ],
+      "first_indexed_episode": {
+        "date": "2025-01-19",
+        "source_ref": "diary_symptom_intervals:SI-9ae4e5e0e4106316078f7616",
+        "page": "weeks/2025-01-13.html#entry-ee61343036ae59621cc1d0"
+      },
+      "reviewed_relationships": []
+    },
+    {
+      "symptom_id": "symptom:7d7e84f6-a4b9-5a52-9d03-bb66a302d88f",
+      "symptom": "Lymph-node pain",
+      "level": 1,
+      "level_label": "Low",
+      "resolution": {
+        "status": "unknown"
+      },
+      "occurrence_pattern": {
+        "baseline": "intermittent",
+        "triggers": "No established trigger",
+        "note": "Patient explicitly recorded pain in the lymph-node region. No enlargement or etiology established.",
+        "source_ref": "S2-OBS-1785",
+        "author": "practitioner",
+        "reviewed_on": "2026-11-21"
+      },
+      "course_events": [
+        {
+          "id": "course:22fb195d-cf93-5a6d-b209-616f6dc3dcd9",
+          "symptom_id": "symptom:7d7e84f6-a4b9-5a52-9d03-bb66a302d88f",
+          "kind": "onset",
+          "timing": "by",
+          "period": "2025-09-06",
+          "anchor_label": "2025-09-06",
+          "recorded_on": "2026-11-21",
+          "author": "practitioner",
+          "note": "Isolated documented mention of lymph node pain. This is a no-later-than onset boundary, not a claimed first symptom date.",
+          "source_ref": "S2-OBS-1785",
+          "anchor_card": null,
+          "basis": "reviewed_evidence"
+        }
+      ],
+      "first_indexed_episode": {
+        "date": "2025-09-06",
+        "source_ref": "diary_symptom_intervals:SI-b25a3e9858f1ac11d7f7d3d3",
+        "page": "weeks/2025-09-01.html#entry-c49a93dbb4efd69ddee4af"
+      },
+      "reviewed_relationships": []
+    },
+    {
+      "symptom_id": "symptom:4bf23004-267f-52a1-b73e-2d5ecb2e4fce",
+      "symptom": "Medication intolerance",
+      "level": 3,
+      "rated_by": "practitioner",
+      "rated_on": "2026-11-20",
+      "rationale": "",
+      "source_card": null,
+      "source_title": null,
+      "source_detail": null,
+      "source_refs": [],
+      "level_label": "Profoundly disabling",
+      "resolution": {
+        "status": "active",
+        "rated_by": "practitioner",
+        "rated_on": "2026-11-20",
+        "rationale": "The post-NADH pattern was still present at the practitioner review."
+      },
+      "occurrence_pattern": {
+        "baseline": "triggered",
+        "triggers": "Exposure to some medicines or preparations",
+        "note": "Responses vary across products and doses. This is a susceptibility to exposures.",
+        "source_ref": "context_cards:CTX-018; context_cards:CTX-020; context_cards:CTX-021",
+        "author": "record_review",
+        "reviewed_on": "2026-11-20"
+      },
+      "course_events": [
+        {
+          "id": "R20:medicine_intolerance:pattern_onset",
+          "symptom_id": "symptom:4bf23004-267f-52a1-b73e-2d5ecb2e4fce",
+          "kind": "pattern_onset",
+          "timing": "after",
+          "period": "2024-10",
+          "anchor_label": "the October 2024 NADH courses",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "Practitioner-reported onset of the persistent pattern. The exact day is unknown.",
+          "source_ref": "context_cards:CTX-R20-SYMPTOM-COURSE",
+          "anchor_card": "CTX-007",
+          "basis": "reviewed_evidence"
+        },
+        {
+          "id": "R20:medicine_intolerance:ongoing",
+          "symptom_id": "symptom:4bf23004-267f-52a1-b73e-2d5ecb2e4fce",
+          "kind": "ongoing",
+          "timing": "known",
+          "period": "2026-11-20",
+          "anchor_label": "",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "The pattern was still present at review.",
+          "source_ref": "context_cards:CTX-R20-SYMPTOM-COURSE",
+          "anchor_card": null,
+          "basis": "reviewed_evidence"
+        }
+      ],
+      "first_indexed_episode": null,
+      "reviewed_relationships": []
+    },
+    {
+      "symptom_id": "symptom:73d82b2c-2bd6-5d02-b216-9ff3eaea9699",
+      "symptom": "Muscle twitching",
+      "level": 1,
+      "level_label": "Low",
+      "resolution": {
+        "status": "unknown"
+      },
+      "occurrence_pattern": {
+        "baseline": "intermittent",
+        "triggers": "",
+        "note": "Muscle twitching recurred in the diary.",
+        "source_ref": "diary_observations:S2-OBS-5574",
+        "author": "record_review",
+        "reviewed_on": "2026-11-20"
+      },
+      "course_events": [
+        {
+          "id": "default-onset:symptom:73d82b2c-2bd6-5d02-b216-9ff3eaea9699",
+          "symptom_id": "symptom:73d82b2c-2bd6-5d02-b216-9ff3eaea9699",
+          "kind": "onset",
+          "timing": "known",
+          "period": "2023",
+          "anchor_label": "illness onset (October–November 2023)",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "Practitioner convention for an unknown onset. Exact date and presence at illness onset are unconfirmed.",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW",
+          "anchor_card": null,
+          "basis": "practitioner_default"
+        }
+      ],
+      "first_indexed_episode": {
+        "date": "2026-01-01",
+        "source_ref": "diary_symptom_intervals:SI-faafea3fa7ff1f43a57c85a1",
+        "page": "weeks/2025-12-29.html#entry-46a226275a3013a91e18b7"
+      },
+      "reviewed_relationships": []
+    },
+    {
+      "symptom_id": "symptom:c5ba84c7-ddcd-563b-8aa8-e95a3bffeee6",
+      "symptom": "Nape clenching / pressure",
+      "level": 3,
+      "rated_by": "patient",
+      "rated_on": "2026-11-22",
+      "rationale": "Patient-reported impact on daily functioning.",
+      "source_card": null,
+      "source_title": null,
+      "source_detail": null,
+      "source_refs": [],
+      "level_label": "Profoundly disabling",
+      "resolution": {
+        "status": "unknown"
+      },
+      "occurrence_pattern": {
+        "baseline": "intermittent",
+        "triggers": "Exertion or sensory stimulation can intensify it",
+        "note": "Nape pressure can accompany an exertional episode. Its presence between episodes is unclear.",
+        "source_ref": "diary_observations:S2-OBS-3614; context_cards:CTX-008",
+        "author": "record_review",
+        "reviewed_on": "2026-11-20"
+      },
+      "course_events": [
+        {
+          "id": "R21:nape_pressure:pattern_onset",
+          "symptom_id": "symptom:c5ba84c7-ddcd-563b-8aa8-e95a3bffeee6",
+          "kind": "pattern_onset",
+          "timing": "after",
+          "period": "2024-10",
+          "anchor_label": "the October 2024 NADH courses",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "The practitioner recalls delayed development after NADH. The precise interval is unknown.",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW",
+          "anchor_card": "CTX-007",
+          "basis": "reviewed_evidence"
+        },
+        {
+          "id": "R21:throat_tightness:onset",
+          "symptom_id": "symptom:826e8456-d182-52e2-aa8b-bd2c4e89cdcd",
+          "kind": "onset",
+          "timing": "known",
+          "period": "2025-12-19",
+          "anchor_label": "",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "The practitioner selected this onset date in the annotated symptom review.",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW",
+          "anchor_card": null,
+          "basis": "practitioner_selected"
+        }
+      ],
+      "first_indexed_episode": {
+        "date": "2025-01-11",
+        "source_ref": "diary_symptom_intervals:SI-ab092e4a340ccc65e1caa62b",
+        "page": "weeks/2025-01-06.html#entry-5bb24d08d5fa912cda2064"
+      },
+      "reviewed_relationships": [
+        {
+          "related_id": "intervention:4863b7ca-16f3-5128-9034-cac865754888",
+          "relation": "Part of post-NADH symptom cluster",
+          "note": "The practitioner recalls delayed development after NADH. The precise interval is unknown.",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW; context_cards:CTX-007",
+          "title": "NC NADH-containing formulation (composition unverified)"
+        },
+        {
+          "related_id": "intervention:8d7f9654-5ec4-5d4e-ab5e-50ebacf26088",
+          "relation": "Reported pressure after a rinse",
+          "note": "During a December 20, 2024 rinse with additives, sharp pain shot to the back of the head and left pressure. Occipital pain had also occurred before rinses. The practitioner considers a contribution possible.",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW; archive_messages:S1-M9772; historical_entries:S3:chronology:612",
+          "title": "NeilMed"
+        }
+      ]
+    },
+    {
+      "symptom_id": "symptom:3f12ab1d-4fe1-5fb0-a9e3-661b126990ca",
+      "symptom": "Nape fatigue",
+      "level": 2,
+      "rated_by": "patient",
+      "rated_on": "2026-11-22",
+      "rationale": "Patient-reported impact on daily functioning.",
+      "source_card": null,
+      "source_title": null,
+      "source_detail": null,
+      "source_refs": [],
+      "level_label": "Very disabling",
+      "resolution": {
+        "status": "unknown"
+      },
+      "occurrence_pattern": {
+        "baseline": "intermittent",
+        "triggers": "Sometimes during reactions to treatment or exertional flares",
+        "note": "Nape fatigue became prominent later in the illness. The degree present between flares is uncertain.",
+        "source_ref": "archive_messages:S1-M68863; context_cards:CTX-017; context_cards:CTX-018",
+        "author": "record_review",
+        "reviewed_on": "2026-11-20"
+      },
+      "course_events": [
+        {
+          "id": "R21:nape_fatigue:onset",
+          "symptom_id": "symptom:3f12ab1d-4fe1-5fb0-a9e3-661b126990ca",
+          "kind": "onset",
+          "timing": "by",
+          "period": "2025-02-05",
+          "anchor_label": "",
+          "recorded_on": "2026-11-20",
+          "author": "record_review",
+          "note": "The patient reported forearm, nape and calf fatigue on waking, improving after food. Exact first onset unknown.",
+          "source_ref": "archive_messages:S1-M16763",
+          "anchor_card": null,
+          "basis": "reviewed_evidence"
+        },
+        {
+          "id": "R20:history:nape_fatigue:onset:S3:treatment_response:226",
+          "symptom_id": "symptom:3f12ab1d-4fe1-5fb0-a9e3-661b126990ca",
+          "kind": "pattern_onset",
+          "timing": "known",
+          "period": "2025",
+          "anchor_label": "November–December 2025",
+          "recorded_on": "2026-11-20",
+          "author": "patient",
+          "note": "The nape fatigue became more prominent in the period of overlapping trials. An earlier episode is documented.",
+          "source_ref": "historical_entries:S3:treatment_response:226",
+          "anchor_card": null,
+          "basis": "reviewed_evidence"
+        }
+      ],
+      "first_indexed_episode": {
+        "date": "2025-11-14",
+        "source_ref": "diary_symptom_intervals:SI-e0da8064f531dfe74e751671",
+        "page": "weeks/2025-11-10.html#entry-6e02ccf8487d76dc79a140-2"
+      },
+      "reviewed_relationships": [
+        {
+          "related_id": "intervention:8c44127d-11fb-5024-8f14-bb5c20b3def5",
+          "relation": "Present in overlapping treatment period; cause uncertain",
+          "note": "The spore probiotic was in use/restarted before the single December 1 bezisterim dose. The symptom was reported around this period, but available chronology does not isolate which, if either, treatment contributed.",
+          "source_ref": "context_cards:CTX-017; intervention_events:S2-L03457-E1; intervention_events:S2-L03554-E1",
+          "title": "Spore probiotic"
+        },
+        {
+          "related_id": "intervention:ee824179-20cd-5023-98b9-9ca860592f79",
+          "relation": "Suspected worsening after treatment",
+          "note": "The practitioner suspects this exposure. The spore probiotic trial overlapped. Nape fatigue was already reported on February 5, 2025. A more prominent pattern was reported later.",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW; context_cards:CTX-017; archive_messages:S1-M69556",
+          "title": "Bezisterim"
+        }
+      ]
+    },
+    {
+      "symptom_id": "symptom:52e1c6ea-d38b-5842-a121-c526bd520463",
+      "symptom": "Nausea",
+      "level": 1,
+      "level_label": "Low",
+      "resolution": {
+        "status": "active",
+        "rated_on": "2026-11-12",
+        "rationale": "14.55-15 short nausea right after i started eating. not sure if from the greasy duck smell or the usual nausea i get around this time post breakfast. duck was actually fine",
+        "rated_by": "patient"
+      },
+      "occurrence_pattern": {
+        "baseline": "intermittent",
+        "triggers": "Sometimes several hours after eating",
+        "note": "Some episodes occur with meal-related shaking. A particular ingredient is uncertain.",
+        "source_ref": "context_cards:CTX-019; diary_observations:S2-OBS-4314",
+        "author": "record_review",
+        "reviewed_on": "2026-11-20"
+      },
+      "course_events": [
+        {
+          "id": "default-onset:symptom:52e1c6ea-d38b-5842-a121-c526bd520463",
+          "symptom_id": "symptom:52e1c6ea-d38b-5842-a121-c526bd520463",
+          "kind": "onset",
+          "timing": "known",
+          "period": "2023",
+          "anchor_label": "illness onset (October–November 2023)",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "Practitioner convention for an unknown onset. Exact date and presence at illness onset are unconfirmed.",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW",
+          "anchor_card": null,
+          "basis": "practitioner_default"
+        }
+      ],
+      "first_indexed_episode": {
+        "date": "2024-10-10",
+        "source_ref": "diary_symptom_intervals:SI-575d59c6663889db85ba5045",
+        "page": "weeks/2024-10-07.html#entry-1fb05f13bc20e300a18aa5"
+      },
+      "reviewed_relationships": []
+    },
+    {
+      "symptom_id": "symptom:ff156e09-926f-5d02-8e1d-18e7d0e0b8cb",
+      "symptom": "Numbness",
+      "level": 1,
+      "level_label": "Low",
+      "resolution": {
+        "status": "unknown"
+      },
+      "occurrence_pattern": {
+        "baseline": "intermittent",
+        "triggers": "",
+        "note": "Patient reports numbness predominantly in the left leg or foot. It was experienced nearly daily during the first two years of illness and is now rare. Isolated nape and left-arm descriptions also appear in the diary. No vascular, neurological or PEM mechanism is established; gaps in diary mentions do not imply absence.",
+        "source_ref": "diary_fields:S1-L21790-FL12; diary_observations:S2-OBS-7390; diary_observations:S2-OBS-6481; patient clarification 2026-11-22",
+        "author": "patient",
+        "reviewed_on": "2026-11-22"
+      },
+      "course_events": [
+        {
+          "id": "R21:numbness:pattern_onset",
+          "symptom_id": "symptom:ff156e09-926f-5d02-8e1d-18e7d0e0b8cb",
+          "kind": "onset",
+          "timing": "unknown",
+          "period": "",
+          "anchor_label": "Left-leg numbness during the early illness years",
+          "recorded_on": "2026-11-22",
+          "author": "patient",
+          "note": "Patient describes predominantly left-leg/foot numbness as nearly daily for the first two years of illness, now rare. Not classified as PEM; exact start and transition dates are uncertain.",
+          "source_ref": "diary_fields:S1-L21790-FL12; diary_observations:S2-OBS-7390; patient clarification 2026-11-22",
+          "anchor_card": null,
+          "basis": "reviewed_evidence"
+        }
+      ],
+      "first_indexed_episode": {
+        "date": "2025-01-11",
+        "source_ref": "diary_symptom_intervals:SI-16c10056faadd024638d9629",
+        "page": "weeks/2025-01-06.html#entry-4c6a5267f81d0541f7d0ab"
+      },
+      "reviewed_relationships": []
+    },
+    {
+      "symptom_id": "symptom:5fb06d44-e415-56b4-83ec-de882f240fdd",
+      "symptom": "Occipital pain during the PEM warning phase",
+      "level": 1,
+      "level_label": "Low",
+      "resolution": {
+        "status": "unknown"
+      },
+      "occurrence_pattern": {
+        "baseline": "intermittent",
+        "triggers": "",
+        "note": "Back-of-head pain can accompany the patient’s PEM warning phase. It can also settle without a full attack.",
+        "source_ref": "archive_messages:S1-M12902; archive_messages:S1-M13340; historical_entries:S3:symptom:013",
+        "author": "record_review",
+        "reviewed_on": "2026-11-20"
+      },
+      "course_events": [
+        {
+          "id": "R21:occipital-warning:onset",
+          "symptom_id": "symptom:5fb06d44-e415-56b4-83ec-de882f240fdd",
+          "kind": "onset",
+          "timing": "by",
+          "period": "2025-01-12",
+          "anchor_label": "",
+          "recorded_on": "2026-11-20",
+          "author": "patient",
+          "note": "Recorded January 12. On January 17 the patient dated its appearance to less than one month earlier. Exact onset unknown.",
+          "source_ref": "archive_messages:S1-M12902; archive_messages:S1-M13343",
+          "anchor_card": null,
+          "basis": "reviewed_evidence"
+        }
+      ],
+      "first_indexed_episode": {
+        "date": "2025-01-12",
+        "source_ref": "diary_symptom_intervals:SI-b11da006a16b3c58bed0af72",
+        "page": "weeks/2025-01-06.html#entry-d6a4bd07e219802711bfb9"
+      },
+      "reviewed_relationships": []
+    },
+    {
+      "symptom_id": "symptom:e1a8c34c-db18-59f8-bab4-20ffcd0121ac",
+      "symptom": "Orthostatic symptoms / patient-reported POTS",
+      "level": 3,
+      "rated_by": "practitioner",
+      "rated_on": "2026-11-22",
+      "rationale": "He is unable to stand for more than a few minutes without confusion, dizziness, headaches and related symptoms appearing or intensifying. This is the main cause of his bed-bound state.",
+      "level_label": "Profoundly disabling",
+      "resolution": {
+        "status": "active",
+        "rated_by": "practitioner",
+        "rated_on": "2026-11-20",
+        "rationale": "Present at baseline with fluctuating intensity."
+      },
+      "occurrence_pattern": {
+        "baseline": "continuous_fluctuating",
+        "triggers": "Standing or remaining upright",
+        "note": "The underlying orthostatic intolerance is ongoing. Dizziness and tachycardia are provoked on standing.",
+        "source_ref": "Practitioner review (2026-11-20); historical_entries:S3:symptom:042; context_cards:CTX-011",
+        "author": "practitioner",
+        "reviewed_on": "2026-11-20"
+      },
+      "course_events": [
+        {
+          "id": "default-onset:symptom:e1a8c34c-db18-59f8-bab4-20ffcd0121ac",
+          "symptom_id": "symptom:e1a8c34c-db18-59f8-bab4-20ffcd0121ac",
+          "kind": "onset",
+          "timing": "known",
+          "period": "2023",
+          "anchor_label": "illness onset (October–November 2023)",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "Practitioner convention for an unknown onset. Exact date and presence at illness onset are unconfirmed.",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW",
+          "anchor_card": null,
+          "basis": "practitioner_default"
+        },
+        {
+          "id": "R20:history:orthostatic_symptoms:documented:S1-M1617",
+          "symptom_id": "symptom:e1a8c34c-db18-59f8-bab4-20ffcd0121ac",
+          "kind": "documented",
+          "timing": "by",
+          "period": "2024-10-25",
+          "anchor_label": "",
+          "recorded_on": "2024-10-25",
+          "author": "patient",
+          "note": "The patient described POTS symptoms as already persistent at this point. The onset date is unknown.",
+          "source_ref": "archive_messages:S1-M1617",
+          "anchor_card": null,
+          "basis": "reviewed_evidence"
+        },
+        {
+          "id": "R20:orthostatic_symptoms:ongoing",
+          "symptom_id": "symptom:e1a8c34c-db18-59f8-bab4-20ffcd0121ac",
+          "kind": "ongoing",
+          "timing": "known",
+          "period": "2026-11-20",
+          "anchor_label": "",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "Present at baseline with fluctuating intensity.",
+          "source_ref": "context_cards:CTX-R20-SYMPTOM-COURSE",
+          "anchor_card": null,
+          "basis": "reviewed_evidence"
+        }
+      ],
+      "first_indexed_episode": {
+        "date": "2024-06-06",
+        "source_ref": "diary_symptom_intervals:SI-759291fa3c4ca82dd2807626",
+        "page": "weeks/2024-06-03.html#entry-ff90453b77ab5a3b012fcc"
+      },
+      "reviewed_relationships": []
+    },
+    {
+      "symptom_id": "symptom:869982b3-0660-5009-9340-aea886948791",
+      "symptom": "Palpitations / racing heartbeat",
+      "level": 1,
+      "level_label": "Low",
+      "resolution": {
+        "status": "unknown"
+      },
+      "occurrence_pattern": {
+        "baseline": "intermittent",
+        "triggers": "Sometimes standing or during washing",
+        "note": "The diary describes timed palpitations. The generic symptom also occurs outside the orthostatic definition.",
+        "source_ref": "diary_observations:S2-OBS-2778; diary_observations:S2-OBS-4768",
+        "author": "record_review",
+        "reviewed_on": "2026-11-20"
+      },
+      "course_events": [
+        {
+          "id": "default-onset:symptom:869982b3-0660-5009-9340-aea886948791",
+          "symptom_id": "symptom:869982b3-0660-5009-9340-aea886948791",
+          "kind": "onset",
+          "timing": "known",
+          "period": "2023",
+          "anchor_label": "illness onset (October–November 2023)",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "Practitioner convention for an unknown onset. Exact date and presence at illness onset are unconfirmed.",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW",
+          "anchor_card": null,
+          "basis": "practitioner_default"
+        }
+      ],
+      "first_indexed_episode": {
+        "date": "2025-10-20",
+        "source_ref": "diary_symptom_intervals:SI-2b5e8bca37b4bfb9ae8c0656",
+        "page": "weeks/2025-10-20.html#entry-946fce62b64eebbdf1ed4a"
+      },
+      "reviewed_relationships": []
+    },
+    {
+      "symptom_id": "symptom:39e1e355-9d34-531e-95fc-3b09a72b3e0e",
+      "symptom": "Panic attacks",
+      "level": 1,
+      "level_label": "Low",
+      "resolution": {
+        "status": "resolved",
+        "rated_by": "practitioner",
+        "rated_on": "2026-11-20",
+        "rationale": "The initial panic attacks resolved by 2024. The practitioner credits meditation. The original account also describes resting and breathing exercises."
+      },
+      "occurrence_pattern": {
+        "baseline": "intermittent",
+        "triggers": "",
+        "note": "Recurrent attacks, including during sleep, were described early in the illness.",
+        "source_ref": "historical_entries:S3:symptom:059",
+        "author": "record_review",
+        "reviewed_on": "2026-11-20"
+      },
+      "course_events": [
+        {
+          "id": "R20:history:panic_attacks:onset:S3:chronology:425",
+          "symptom_id": "symptom:39e1e355-9d34-531e-95fc-3b09a72b3e0e",
+          "kind": "onset",
+          "timing": "known",
+          "period": "2023",
+          "anchor_label": "First month of the persistent illness in late 2023",
+          "recorded_on": "2026-11-20",
+          "author": "patient",
+          "note": "Frequent unexpected attacks also woke the patient from sleep.",
+          "source_ref": "historical_entries:S3:chronology:425",
+          "anchor_card": null,
+          "basis": "reviewed_evidence"
+        },
+        {
+          "id": "R20:history:panic_attacks:resolved:S3:chronology:425",
+          "symptom_id": "symptom:39e1e355-9d34-531e-95fc-3b09a72b3e0e",
+          "kind": "resolved",
+          "timing": "after",
+          "period": "2023",
+          "anchor_label": "the first month of the persistent illness in late 2023",
+          "recorded_on": "2026-11-20",
+          "author": "patient",
+          "note": "The patient said this early cluster disappeared after the first month.",
+          "source_ref": "historical_entries:S3:chronology:425",
+          "anchor_card": null,
+          "basis": "reviewed_evidence"
+        },
+        {
+          "id": "R21:panic_attacks:resolved",
+          "symptom_id": "symptom:39e1e355-9d34-531e-95fc-3b09a72b3e0e",
+          "kind": "resolved",
+          "timing": "by",
+          "period": "2024",
+          "anchor_label": "",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "The initial panic attacks resolved by 2024. The practitioner credits meditation. The original account also describes resting and breathing exercises.",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW",
+          "anchor_card": null,
+          "basis": "reviewed_evidence"
+        }
+      ],
+      "first_indexed_episode": null,
+      "reviewed_relationships": []
+    },
+    {
+      "symptom_id": "symptom:09f7618a-821c-53c4-88ce-6f98964e72f2",
+      "symptom": "Paralysis (patient-described, after NADH)",
+      "level": 3,
+      "rated_by": "patient",
+      "rated_on": "2026-11-22",
+      "rationale": "Patient-reported impact on daily functioning.",
+      "source_card": null,
+      "source_title": null,
+      "source_detail": null,
+      "source_refs": [],
+      "level_label": "Profoundly disabling",
+      "resolution": {
+        "rated_by": "practitioner",
+        "rated_on": "2026-11-22",
+        "rationale": "This symptom only occurred once after the first NADH dose, and was later replaced by the other types of PEM symptoms documented on this site. Whether this means that this symptom was resolved by or morphed into these new symptoms, is unclear at this time.",
+        "status": "mostly_resolved"
+      },
+      "occurrence_pattern": {
+        "baseline": "unknown",
+        "triggers": "",
+        "note": "New deep muscle fatigue was distinguished after NADH exposure. These sources do not establish continuous muscle fatigue afterward.",
+        "source_ref": "archive_messages:S1-M2714",
+        "author": "record_review",
+        "reviewed_on": "2026-11-20"
+      },
+      "course_events": [
+        {
+          "id": "R21:nadh_deep_muscle_fatigue:pattern_onset",
+          "symptom_id": "symptom:09f7618a-821c-53c4-88ce-6f98964e72f2",
+          "kind": "pattern_onset",
+          "timing": "after",
+          "period": "2024-10",
+          "anchor_label": "starting NADH in October 2024",
+          "recorded_on": "2026-11-20",
+          "author": "record_review",
+          "note": "New deep muscle fatigue was distinguished in the October decline, first documented October 23.",
+          "source_ref": "context_cards:CTX-007",
+          "anchor_card": "CTX-007",
+          "basis": "reviewed_evidence"
+        },
+        {
+          "id": "R20:nadh_deep_muscle_fatigue:documented",
+          "symptom_id": "symptom:09f7618a-821c-53c4-88ce-6f98964e72f2",
+          "kind": "documented",
+          "timing": "known",
+          "period": "2024-10-23",
+          "anchor_label": "",
+          "recorded_on": "2026-11-20",
+          "author": "record_review",
+          "note": "First documented deep muscle fatigue in the October decline.",
+          "source_ref": "annotations:S6-ANN-EO15",
+          "anchor_card": "CTX-007",
+          "basis": "reviewed_evidence"
+        }
+      ],
+      "first_indexed_episode": {
+        "date": "2024-10-23",
+        "source_ref": "annotations:S6-ANN-EO15",
+        "page": "weeks/2024-10-21.html#entry-7a1b51ef3f97cc9c675a28"
+      },
+      "reviewed_relationships": []
+    },
+    {
+      "symptom_id": "symptom:bd400a76-a7b8-5eeb-9d51-66b9bf873d0a",
+      "symptom": "Patient-described glucose crash",
+      "level": 1,
+      "level_label": "Low",
+      "resolution": {
+        "status": "unknown"
+      },
+      "occurrence_pattern": {
+        "baseline": "triggered",
+        "triggers": "Often several hours after cocorice (coconut-milk rice porridge). Occasionally while fasting.",
+        "note": "The patient describes delayed episodes of hunger, shaking or weakness, especially after cocorice; some episodes were reported while fasting. A low glucose level at onset is unconfirmed.",
+        "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW; context_cards:CTX-019; diary_observations:S2-OBS-7940",
+        "author": "practitioner",
+        "reviewed_on": "2026-11-20"
+      },
+      "course_events": [
+        {
+          "id": "R21:glucose_crash_reported:documented",
+          "symptom_id": "symptom:bd400a76-a7b8-5eeb-9d51-66b9bf873d0a",
+          "kind": "documented",
+          "timing": "known",
+          "period": "2026-04-17",
+          "anchor_label": "",
+          "recorded_on": "2026-11-20",
+          "author": "record_review",
+          "note": "Earlier suspected episode with marked limb shaking and weakness, easing toward the end of a meal. No low glucose measurement is documented.",
+          "source_ref": "diary_observations:S2-OBS-6058",
+          "anchor_card": null,
+          "basis": "reviewed_evidence"
+        },
+        {
+          "id": "R21:glucose_crash_reported:onset",
+          "symptom_id": "symptom:bd400a76-a7b8-5eeb-9d51-66b9bf873d0a",
+          "kind": "onset",
+          "timing": "known",
+          "period": "2026-04-18",
+          "anchor_label": "",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "The practitioner selected this onset date in the annotated symptom review.",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW",
+          "anchor_card": null,
+          "basis": "practitioner_selected"
+        }
+      ],
+      "first_indexed_episode": {
+        "date": "2026-04-18",
+        "source_ref": "diary_symptom_intervals:SI-ff4846bbac485fe0d6d297d3",
+        "page": "weeks/2026-04-13.html#entry-d1292830eb92d1437d0bb0"
+      },
+      "reviewed_relationships": []
+    },
+    {
+      "symptom_id": "symptom:d5710799-23f3-5a35-bd32-289763af0b59",
+      "symptom": "PEM / PEM-like state",
+      "level": 3,
+      "rated_by": "practitioner",
+      "rated_on": "2026-11-20",
+      "rationale": "",
+      "source_card": "CTX-008",
+      "source_title": "Exertional and sensory intolerance",
+      "source_detail": "Physical, cognitive and sensory activity can precipitate tingling in the forearms/legs, nape pressure, cognitive slowing, marked malaise and involuntary sleep. The patient distinguishes this from ordinary muscle fatigue. Evening attacks and repeated waves over days are described. Meals often relieved milder episodes rapidly, with exceptions.",
+      "source_refs": [
+        "S3:13-28",
+        "S2:9016-9032"
+      ],
+      "level_label": "Profoundly disabling",
+      "resolution": {
+        "status": "active",
+        "rated_by": "practitioner",
+        "rated_on": "2026-11-20",
+        "rationale": "The post-NADH pattern was still present at the practitioner review."
+      },
+      "occurrence_pattern": {
+        "baseline": "triggered",
+        "triggers": "Patient-reported physical, cognitive and sensory exertion; some episodes follow sleep loss, emotional effort, or treatment changes. Other episodes have no established trigger.",
+        "note": "Patient-described spectrum, not a proven single mechanism. Crashy = vulnerable/warning phase, potentially aborted. Poisoned and malaise = experiential qualities. A crash is a distinct severe endpoint, not obligatory. Deep internal tingling/pulsing and sensory intolerance remain independently recorded baseline features that often intensify with episodes. Individual observations do not establish causation or an exertional trigger.",
+        "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW; historical_entries:S3:symptom:013; context_cards:CTX-008; archive_messages:S1-M22525",
+        "author": "patient-and-practitioner",
+        "reviewed_on": "2026-11-21"
+      },
+      "course_events": [
+        {
+          "id": "R20:pem:pattern_onset",
+          "symptom_id": "symptom:d5710799-23f3-5a35-bd32-289763af0b59",
+          "kind": "pattern_onset",
+          "timing": "after",
+          "period": "2024-10",
+          "anchor_label": "the October 2024 NADH courses",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "Practitioner-reported onset of the persistent pattern. The exact day is unknown.",
+          "source_ref": "context_cards:CTX-R20-SYMPTOM-COURSE",
+          "anchor_card": "CTX-007",
+          "basis": "reviewed_evidence"
+        },
+        {
+          "id": "R20:pem:ongoing",
+          "symptom_id": "symptom:d5710799-23f3-5a35-bd32-289763af0b59",
+          "kind": "ongoing",
+          "timing": "known",
+          "period": "2026-11-20",
+          "anchor_label": "",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "The pattern was still present at review.",
+          "source_ref": "context_cards:CTX-R20-SYMPTOM-COURSE",
+          "anchor_card": null,
+          "basis": "reviewed_evidence"
+        }
+      ],
+      "first_indexed_episode": {
+        "date": "2024-06-06",
+        "source_ref": "diary_symptom_intervals:SI-fb5253a94ff1602907ed4655",
+        "page": "weeks/2024-06-03.html#entry-ff90453b77ab5a3b012fcc"
+      },
+      "reviewed_relationships": [
+        {
+          "related_id": "symptom:5fb06d44-e415-56b4-83ec-de882f240fdd",
+          "relation": "May include",
+          "note": "Occipital/nape pain can occur in a reported warning phase but is not present in every episode.",
+          "source_ref": "historical_entries:S3:symptom:013",
+          "title": "Occipital pain during the PEM warning phase"
+        },
+        {
+          "related_id": "symptom:bbec37b1-1b89-58f4-aaf2-214943a25d60",
+          "relation": "May progress to",
+          "note": "Explicit severe crash, sometimes with CNS fatigue or sleep pressure. Many PEM-like/warning states do not progress to a full crash.",
+          "source_ref": "diary_observations:S2-OBS-8064; historical_entries:S3:symptom:013",
+          "title": "Crash"
+        },
+        {
+          "related_id": "symptom:50b80b74-96b8-527c-88cb-642962324051",
+          "relation": "Often intensifies during",
+          "note": "Baseline deep internal tingling/pulsing may be present between episodes, with reported escalation during PEM-like states. Keep a separate symptom identity.",
+          "source_ref": "historical_entries:S3:symptom:013; diary_observations:S2-OBS-9103",
+          "title": "Deep internal tingling / pulsing"
+        },
+        {
+          "related_id": "symptom:85bb1a5d-2676-5826-b0b4-9e8f578eaae2",
+          "relation": "Often intensifies during",
+          "note": "Light intolerance exists at baseline and can become extreme during PEM/crashes. Bright/white light can provoke a described spinal shivering response.",
+          "source_ref": "historical_entries:S3:symptom:023; diary_observations:S2-OBS-3064",
+          "title": "Light intolerance"
+        },
+        {
+          "related_id": "symptom:fcc1206c-92bb-5360-a7ee-bc925ec48a5d",
+          "relation": "Often intensifies during",
+          "note": "Sound intolerance exists at baseline and can intensify with PEM/crashes; patient describes sharp head pain from noise.",
+          "source_ref": "historical_entries:S3:symptom:023; diary_observations:S2-OBS-1065",
+          "title": "Sound intolerance"
+        },
+        {
+          "related_id": "symptom:9fdcdaab-6919-579a-9480-227ab4f01989",
+          "relation": "terminology_overlap",
+          "note": "The recurring evening-type pulsing/tingling is tracked separately because it can occur without an exertion-linked crash.",
+          "source_ref": "diary_observations:S2-OBS-6312; S2-OBS-7916; archive_messages:S1-M72650",
+          "title": "Evening-type sensory waves / tingling"
+        }
+      ]
+    },
+    {
+      "symptom_id": "symptom:47f42bb3-f5c5-5ccf-8205-5a4e6937d55b",
+      "symptom": "Poorly restorative sleep",
+      "level": 1,
+      "level_label": "Low",
+      "resolution": {
+        "status": "unknown"
+      },
+      "occurrence_pattern": {
+        "baseline": "unknown",
+        "triggers": "",
+        "note": "Poor restorative sleep is reported, but its night-to-night frequency is unclear.",
+        "source_ref": "historical_entries:S3:symptom:041",
+        "author": "record_review",
+        "reviewed_on": "2026-11-20"
+      },
+      "course_events": [
+        {
+          "id": "default-onset:symptom:47f42bb3-f5c5-5ccf-8205-5a4e6937d55b",
+          "symptom_id": "symptom:47f42bb3-f5c5-5ccf-8205-5a4e6937d55b",
+          "kind": "onset",
+          "timing": "known",
+          "period": "2023",
+          "anchor_label": "illness onset (October–November 2023)",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "Practitioner convention for an unknown onset. Exact date and presence at illness onset are unconfirmed.",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW",
+          "anchor_card": null,
+          "basis": "practitioner_default"
+        }
+      ],
+      "first_indexed_episode": null,
+      "reviewed_relationships": []
+    },
+    {
+      "symptom_id": "symptom:22abe669-c0ea-5882-862f-2dcea10da42f",
+      "symptom": "Pulsing sensation",
+      "level": 1,
+      "level_label": "Low",
+      "resolution": {
+        "status": "unknown"
+      },
+      "occurrence_pattern": {
+        "baseline": "intermittent",
+        "triggers": "",
+        "note": "Sites and contexts vary, including pulsing in the calves or feet, nape pulsing with wrist fatigue, and pulsing during a poisoned episode. Pulsing is a subjective sensory descriptor, not evidence of measured vascular pulsation. Region-specific qualities are indexed without adding independent attacks.",
+        "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW; diary_observations:S2-OBS-3060",
+        "author": "practitioner",
+        "reviewed_on": "2026-11-20"
+      },
+      "course_events": [
+        {
+          "id": "default-onset:symptom:22abe669-c0ea-5882-862f-2dcea10da42f",
+          "symptom_id": "symptom:22abe669-c0ea-5882-862f-2dcea10da42f",
+          "kind": "onset",
+          "timing": "known",
+          "period": "2023",
+          "anchor_label": "illness onset (October–November 2023)",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "Practitioner convention for an unknown onset. Exact date and presence at illness onset are unconfirmed.",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW",
+          "anchor_card": null,
+          "basis": "practitioner_default"
+        }
+      ],
+      "first_indexed_episode": {
+        "date": "2025-01-10",
+        "source_ref": "diary_symptom_intervals:SI-68eceeb2a7a0c2b950afa1a2",
+        "page": "weeks/2025-01-06.html#entry-15c1c80b1e7c342de90ed7"
+      },
+      "reviewed_relationships": []
+    },
+    {
+      "symptom_id": "symptom:cd78cdf7-fe2c-5f54-afb6-13d8c889fe7f",
+      "symptom": "Sleep pressure",
+      "level": 3,
+      "rated_by": "patient",
+      "rated_on": "2026-11-22",
+      "rationale": "Patient-reported impact on daily functioning.",
+      "source_card": null,
+      "source_title": null,
+      "source_detail": null,
+      "source_refs": [],
+      "level_label": "Profoundly disabling",
+      "resolution": {
+        "status": "unknown"
+      },
+      "occurrence_pattern": {
+        "baseline": "intermittent",
+        "triggers": "",
+        "note": "Marked sleep pressure recurs, with the diary distinguishing it from ordinary tiredness. Sometimes recorded during a crash.",
+        "source_ref": "context_cards:CTX-023; diary_observations:S2-OBS-1339",
+        "author": "record_review",
+        "reviewed_on": "2026-11-20"
+      },
+      "course_events": [
+        {
+          "id": "R21:sleep_pressure:pattern_onset",
+          "symptom_id": "symptom:cd78cdf7-fe2c-5f54-afb6-13d8c889fe7f",
+          "kind": "pattern_onset",
+          "timing": "after",
+          "period": "2024-10",
+          "anchor_label": "the October 2024 NADH courses",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "The practitioner identifies episodes of pathological sleep pressure with the post-NADH PEM pattern.",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW",
+          "anchor_card": "CTX-007",
+          "basis": "reviewed_evidence"
+        }
+      ],
+      "first_indexed_episode": {
+        "date": "2025-08-08",
+        "source_ref": "diary_symptom_intervals:SI-b052e4ff17cb93f961bbb0e8",
+        "page": "weeks/2025-08-04.html#entry-794c83e44ded99427d3f2a"
+      },
+      "reviewed_relationships": [
+        {
+          "related_id": "intervention:4863b7ca-16f3-5128-9034-cac865754888",
+          "relation": "Part of post-NADH symptom cluster",
+          "note": "The practitioner identifies episodes of pathological sleep pressure with the post-NADH PEM pattern.",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW; context_cards:CTX-007",
+          "title": "NC NADH-containing formulation (composition unverified)"
+        }
+      ]
+    },
+    {
+      "symptom_id": "symptom:fcc1206c-92bb-5360-a7ee-bc925ec48a5d",
+      "symptom": "Sound intolerance",
+      "level": 3,
+      "rated_by": "practitioner",
+      "rated_on": "2026-11-20",
+      "rationale": "",
+      "source_card": null,
+      "source_title": null,
+      "source_detail": null,
+      "source_refs": [],
+      "level_label": "Profoundly disabling",
+      "resolution": {
+        "status": "active",
+        "rated_by": "practitioner",
+        "rated_on": "2026-11-20",
+        "rationale": "The post-NADH pattern was still present at the practitioner review."
+      },
+      "occurrence_pattern": {
+        "baseline": "continuous_fluctuating",
+        "triggers": "Noise and crashes aggravate symptoms",
+        "note": "The patient describes ongoing sensory intolerance with marked increases during crashes.",
+        "source_ref": "Practitioner review (2026-11-20); historical_entries:S3:symptom:023",
+        "author": "practitioner",
+        "reviewed_on": "2026-11-20"
+      },
+      "course_events": [
+        {
+          "id": "R20:noise_sensitivity:pattern_onset",
+          "symptom_id": "symptom:fcc1206c-92bb-5360-a7ee-bc925ec48a5d",
+          "kind": "pattern_onset",
+          "timing": "after",
+          "period": "2024-10",
+          "anchor_label": "the October 2024 NADH courses",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "Practitioner-reported onset of the persistent pattern. The exact day is unknown.",
+          "source_ref": "context_cards:CTX-R20-SYMPTOM-COURSE",
+          "anchor_card": "CTX-007",
+          "basis": "reviewed_evidence"
+        },
+        {
+          "id": "R20:noise_sensitivity:ongoing",
+          "symptom_id": "symptom:fcc1206c-92bb-5360-a7ee-bc925ec48a5d",
+          "kind": "ongoing",
+          "timing": "known",
+          "period": "2026-11-20",
+          "anchor_label": "",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "The pattern was still present at review.",
+          "source_ref": "context_cards:CTX-R20-SYMPTOM-COURSE",
+          "anchor_card": null,
+          "basis": "reviewed_evidence"
+        }
+      ],
+      "first_indexed_episode": {
+        "date": "2025-08-09",
+        "source_ref": "diary_symptom_intervals:SI-623a1b62348f82e34cdc2d77",
+        "page": "weeks/2025-08-04.html#entry-42b1c614dac3c87c9438c2"
+      },
+      "reviewed_relationships": []
+    },
+    {
+      "symptom_id": "symptom:c2a9d8f4-24a5-5765-8b49-46c091bfd280",
+      "symptom": "Tinnitus",
+      "level": 1,
+      "level_label": "Low",
+      "resolution": {
+        "status": "active",
+        "rated_by": "practitioner",
+        "rated_on": "2026-11-20",
+        "rationale": "Present at baseline with fluctuating intensity."
+      },
+      "occurrence_pattern": {
+        "baseline": "continuous_fluctuating",
+        "triggers": "PEM or brain burning aggravates ringing",
+        "note": "The patient reports baseline ringing that intensifies in flares.",
+        "source_ref": "Practitioner review (2026-11-20); context_cards:CTX-009",
+        "author": "practitioner",
+        "reviewed_on": "2026-11-20"
+      },
+      "course_events": [
+        {
+          "id": "R20:history:tinnitus:onset:S3:symptom:037",
+          "symptom_id": "symptom:c2a9d8f4-24a5-5765-8b49-46c091bfd280",
+          "kind": "onset",
+          "timing": "by",
+          "period": "2023",
+          "anchor_label": "the onset of the 2023 illness",
+          "recorded_on": "2026-11-20",
+          "author": "patient",
+          "note": "The patient recalls mild ringing after hearing damage at a concert. The date is unknown. Ringing became much stronger during the illness.",
+          "source_ref": "historical_entries:S3:symptom:037",
+          "anchor_card": null,
+          "basis": "reviewed_evidence"
+        },
+        {
+          "id": "R20:history:tinnitus:documented:S3:chronology:460",
+          "symptom_id": "symptom:c2a9d8f4-24a5-5765-8b49-46c091bfd280",
+          "kind": "documented",
+          "timing": "known",
+          "period": "2024",
+          "anchor_label": "February–April 2024",
+          "recorded_on": "2026-11-20",
+          "author": "patient",
+          "note": "The patient describes stronger tinnitus during the combined maraviroc and atorvastatin course.",
+          "source_ref": "historical_entries:S3:chronology:460",
+          "anchor_card": null,
+          "basis": "reviewed_evidence"
+        },
+        {
+          "id": "R20:tinnitus:ongoing",
+          "symptom_id": "symptom:c2a9d8f4-24a5-5765-8b49-46c091bfd280",
+          "kind": "ongoing",
+          "timing": "known",
+          "period": "2026-11-20",
+          "anchor_label": "",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "Present at baseline with fluctuating intensity.",
+          "source_ref": "context_cards:CTX-R20-SYMPTOM-COURSE",
+          "anchor_card": null,
+          "basis": "reviewed_evidence"
+        }
+      ],
+      "first_indexed_episode": {
+        "date": "2025-01-11",
+        "source_ref": "diary_symptom_intervals:SI-30e480215a1c3a016d6bb722",
+        "page": "weeks/2025-01-06.html#entry-82af1765a9b7dbfd6d605c"
+      },
+      "reviewed_relationships": []
+    },
+    {
+      "symptom_id": "symptom:08f8ea88-29fb-5e1d-a60a-1dbdbecea566",
+      "symptom": "Uncomfortable or persistent fullness",
+      "level": 1,
+      "level_label": "Low",
+      "resolution": {
+        "status": "resolved",
+        "rated_by": "practitioner",
+        "rated_on": "2026-11-20",
+        "rationale": "The prolonged uncomfortable fullness has resolved. Exact recovery date unknown."
+      },
+      "occurrence_pattern": {
+        "baseline": "triggered",
+        "triggers": "Eating",
+        "note": "The examples describe uncomfortable fullness after eating, sometimes after a small amount.",
+        "source_ref": "diary_observations:S2-OBS-2992; diary_observations:S2-OBS-3387",
+        "author": "record_review",
+        "reviewed_on": "2026-11-20"
+      },
+      "course_events": [
+        {
+          "id": "default-onset:symptom:08f8ea88-29fb-5e1d-a60a-1dbdbecea566",
+          "symptom_id": "symptom:08f8ea88-29fb-5e1d-a60a-1dbdbecea566",
+          "kind": "onset",
+          "timing": "known",
+          "period": "2023",
+          "anchor_label": "illness onset (October–November 2023)",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "Practitioner convention for an unknown onset. Exact date and presence at illness onset are unconfirmed.",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW",
+          "anchor_card": null,
+          "basis": "practitioner_default"
+        },
+        {
+          "id": "R21:fullness:documented",
+          "symptom_id": "symptom:08f8ea88-29fb-5e1d-a60a-1dbdbecea566",
+          "kind": "documented",
+          "timing": "known",
+          "period": "2026-02-13",
+          "anchor_label": "",
+          "recorded_on": "2026-11-20",
+          "author": "record_review",
+          "note": "Still uncomfortably full about 2½ hours after a meal. April 5 describes discomfort lying down immediately after breakfast.",
+          "source_ref": "diary_observations:S2-OBS-4998; archive_messages:S1-M69324; archive_messages:S1-M74285",
+          "anchor_card": null,
+          "basis": "reviewed_evidence"
+        },
+        {
+          "id": "R21:fullness:resolved",
+          "symptom_id": "symptom:08f8ea88-29fb-5e1d-a60a-1dbdbecea566",
+          "kind": "resolved",
+          "timing": "by",
+          "period": "2026-11-20",
+          "anchor_label": "",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "The prolonged uncomfortable fullness has resolved. Exact recovery date unknown.",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW",
+          "anchor_card": null,
+          "basis": "reviewed_evidence"
+        }
+      ],
+      "first_indexed_episode": {
+        "date": "2025-10-08",
+        "source_ref": "diary_symptom_intervals:SI-736a31b19d65d0e962b90579",
+        "page": "weeks/2025-10-06.html#entry-975bfdd369e1e18386e0fb-2"
+      },
+      "reviewed_relationships": []
+    },
+    {
+      "symptom_id": "symptom:061022e0-eaf6-5d48-97b6-a61386a380fe",
+      "symptom": "Upper abdominal pain or cramps (RUQ/LUQ)",
+      "level": 1,
+      "level_label": "Low",
+      "resolution": {
+        "status": "unknown"
+      },
+      "occurrence_pattern": {
+        "baseline": "intermittent",
+        "triggers": "Some episodes follow meals; no trigger established for all episodes",
+        "note": "Upper left and/or right abdominal quadrant pain, prominent after July 2025 medication changes. Separate from left/right colic-flexure pain. Do not assert pancreatic, biliary or liver diagnosis.",
+        "source_ref": "S3:chronology:679;S2-L00807-E1",
+        "author": "practitioner",
+        "reviewed_on": "2026-11-21"
+      },
+      "course_events": [
+        {
+          "id": "course:upper-abd-2025-07",
+          "symptom_id": "symptom:061022e0-eaf6-5d48-97b6-a61386a380fe",
+          "kind": "pattern_onset",
+          "timing": "known",
+          "period": "2025-07",
+          "anchor_label": "July 2025 (day uncertain)",
+          "recorded_on": "2026-11-21",
+          "author": "practitioner",
+          "note": "First reported upper-quadrant pain pattern during July treatment changes; no confirmed organ etiology.",
+          "source_ref": "S3:chronology:679;S2-L00807-E1",
+          "anchor_card": null,
+          "basis": "reviewed_evidence"
+        }
+      ],
+      "first_indexed_episode": {
+        "date": "2025-08-05",
+        "source_ref": "diary_symptom_intervals:SI-027135c7c8a2def0175b9b00",
+        "page": "weeks/2025-08-04.html#entry-82dae24a7cddd0a327f5b2"
+      },
+      "reviewed_relationships": []
+    },
+    {
+      "symptom_id": "symptom:1a8eab7c-7dd4-588c-9be7-37dd42d7796b",
+      "symptom": "Urinary symptoms (diary UTI field)",
+      "level": 1,
+      "level_label": "Low",
+      "resolution": {
+        "status": "unknown"
+      },
+      "occurrence_pattern": {
+        "baseline": "intermittent",
+        "triggers": "",
+        "note": "Urinary symptoms are recorded in the diary UTI field; this label does not assert an infection. Entries describe symptoms at some voids and not others, including discomfort after urination.",
+        "source_ref": "diary_fields:S1-L19050-FL11; diary_fields:S1-L23119-FL11",
+        "author": "record_review",
+        "reviewed_on": "2026-11-20"
+      },
+      "course_events": [
+        {
+          "id": "default-onset:symptom:1a8eab7c-7dd4-588c-9be7-37dd42d7796b",
+          "symptom_id": "symptom:1a8eab7c-7dd4-588c-9be7-37dd42d7796b",
+          "kind": "onset",
+          "timing": "known",
+          "period": "2023",
+          "anchor_label": "illness onset (October–November 2023)",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "Practitioner convention for an unknown onset. Exact date and presence at illness onset are unconfirmed.",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW",
+          "anchor_card": null,
+          "basis": "practitioner_default"
+        },
+        {
+          "id": "course:2dace3b2-2675-5d8d-aeea-9541ae10e627",
+          "symptom_id": "symptom:1a8eab7c-7dd4-588c-9be7-37dd42d7796b",
+          "kind": "documented",
+          "timing": "known",
+          "period": "2025-02-26",
+          "anchor_label": "Post-void discomfort recorded",
+          "recorded_on": "2026-11-21",
+          "author": "practitioner",
+          "note": "One episode of [private anatomical detail] and bladder discomfort after the first morning void, easing after the next void. Not the onset of all urinary symptoms or evidence of a UTI.",
+          "source_ref": "S1-L23737-FL10",
+          "anchor_card": null,
+          "basis": "reviewed_evidence"
+        }
+      ],
+      "first_indexed_episode": null,
+      "reviewed_relationships": []
+    },
+    {
+      "symptom_id": "symptom:941f447c-c1f2-5650-86a2-a8327ea69fd2",
+      "symptom": "Vision dimming / blackout sensation",
+      "level": 1,
+      "level_label": "Low",
+      "resolution": {
+        "status": "unknown"
+      },
+      "occurrence_pattern": {
+        "baseline": "intermittent",
+        "triggers": "",
+        "note": "Timed episodes of visual darkening recur.",
+        "source_ref": "diary_observations:S2-OBS-2911; diary_observations:S2-OBS-2778",
+        "author": "record_review",
+        "reviewed_on": "2026-11-20"
+      },
+      "course_events": [
+        {
+          "id": "R21:vision_change:onset",
+          "symptom_id": "symptom:941f447c-c1f2-5650-86a2-a8327ea69fd2",
+          "kind": "onset",
+          "timing": "known",
+          "period": "2025-10-14",
+          "anchor_label": "",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "The practitioner selected this onset date in the annotated symptom review.",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW",
+          "anchor_card": null,
+          "basis": "practitioner_selected"
+        }
+      ],
+      "first_indexed_episode": {
+        "date": "2025-10-14",
+        "source_ref": "diary_symptom_intervals:SI-3a12541e0af028457aa0d76f",
+        "page": "weeks/2025-10-13.html#entry-74af871f388f78ada0cd44"
+      },
+      "reviewed_relationships": []
+    },
+    {
+      "symptom_id": "symptom:8b999268-04df-573e-a4e5-4ec33cc60e22",
+      "symptom": "Weakness",
+      "level": 3,
+      "rated_by": "patient",
+      "rated_on": "2026-11-22",
+      "rationale": "Patient-reported impact on daily functioning.",
+      "source_card": null,
+      "source_title": null,
+      "source_detail": null,
+      "source_refs": [],
+      "level_label": "Profoundly disabling",
+      "resolution": {
+        "status": "unknown"
+      },
+      "occurrence_pattern": {
+        "baseline": "intermittent",
+        "triggers": "",
+        "note": "Episodes of weakness occur in several contexts. The general term does not establish continuous weakness.",
+        "source_ref": "diary_fields:S5-F-V15; archive_messages:S1-M2714",
+        "author": "record_review",
+        "reviewed_on": "2026-11-20"
+      },
+      "course_events": [
+        {
+          "id": "default-onset:symptom:8b999268-04df-573e-a4e5-4ec33cc60e22",
+          "symptom_id": "symptom:8b999268-04df-573e-a4e5-4ec33cc60e22",
+          "kind": "onset",
+          "timing": "known",
+          "period": "2023",
+          "anchor_label": "illness onset (October–November 2023)",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "Practitioner convention for an unknown onset. Exact date and presence at illness onset are unconfirmed.",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW",
+          "anchor_card": null,
+          "basis": "practitioner_default"
+        }
+      ],
+      "first_indexed_episode": {
+        "date": "2024-06-15",
+        "source_ref": "diary_symptom_intervals:SI-bf1828b74ee321e472794cc2",
+        "page": "weeks/2024-06-10.html#entry-40348780132828b6894119"
+      },
+      "reviewed_relationships": [
+        {
+          "related_id": "symptom:d5710799-23f3-5a35-bd32-289763af0b59",
+          "relation": "reported_pem_family",
+          "note": "Patient classifies disabling weakness within the PEM symptom family; weakness remains a separately described component rather than another counted PEM attack.",
+          "source_ref": "patient clarification 2026-11-22",
+          "title": "PEM / PEM-like state"
+        }
+      ]
+    },
+    {
+      "symptom_id": "symptom:1ce3a49d-5182-57e9-b0dc-384f55e5bea9",
+      "symptom": "Wheezing",
+      "level": 1,
+      "level_label": "Low",
+      "resolution": {
+        "status": "unknown"
+      },
+      "occurrence_pattern": {
+        "baseline": "intermittent",
+        "triggers": "",
+        "note": "Wheezing was recorded with bloating. Its usual pattern is unclear.",
+        "source_ref": "diary_observations:S2-OBS-3615",
+        "author": "record_review",
+        "reviewed_on": "2026-11-20"
+      },
+      "course_events": [
+        {
+          "id": "default-onset:symptom:1ce3a49d-5182-57e9-b0dc-384f55e5bea9",
+          "symptom_id": "symptom:1ce3a49d-5182-57e9-b0dc-384f55e5bea9",
+          "kind": "onset",
+          "timing": "known",
+          "period": "2023",
+          "anchor_label": "illness onset (October–November 2023)",
+          "recorded_on": "2026-11-20",
+          "author": "practitioner",
+          "note": "Practitioner convention for an unknown onset. Exact date and presence at illness onset are unconfirmed.",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW",
+          "anchor_card": null,
+          "basis": "practitioner_default"
+        }
+      ],
+      "first_indexed_episode": {
+        "date": "2025-12-05",
+        "source_ref": "diary_symptom_intervals:SI-8582fea9ad9ba8e196799016",
+        "page": "weeks/2025-12-01.html#entry-8314d5b980d2e8e7b029f0"
+      },
+      "reviewed_relationships": []
+    },
+    {
+      "symptom_id": "symptom:ed31a629-6baf-539a-8fb5-51aa5b55aff1",
+      "symptom": "Wrist fatigue",
+      "level": 2,
+      "rated_by": "patient",
+      "rated_on": "2026-11-22",
+      "rationale": "Patient-reported impact on daily functioning.",
+      "source_card": null,
+      "source_title": null,
+      "source_detail": null,
+      "source_refs": [],
+      "level_label": "Very disabling",
+      "resolution": {
+        "status": "unknown"
+      },
+      "occurrence_pattern": {
+        "baseline": "intermittent",
+        "triggers": "Sometimes treatment exposure or during exertional flares",
+        "note": "Wrist fatigue occurs with nape and central fatigue. The extent present between episodes is unclear.",
+        "source_ref": "archive_messages:S1-M68863; context_cards:CTX-017; context_cards:CTX-018",
+        "author": "record_review",
+        "reviewed_on": "2026-11-20"
+      },
+      "course_events": [
+        {
+          "id": "R20:history:wrist_fatigue:onset:S3:treatment_response:226",
+          "symptom_id": "symptom:ed31a629-6baf-539a-8fb5-51aa5b55aff1",
+          "kind": "onset",
+          "timing": "known",
+          "period": "2025",
+          "anchor_label": "November–December 2025",
+          "recorded_on": "2026-11-20",
+          "author": "patient",
+          "note": "The patient described developing wrist or forearm fatigue around the bezisterim and spore probiotic trials. Attribution was uncertain.",
+          "source_ref": "historical_entries:S3:treatment_response:226",
+          "anchor_card": null,
+          "basis": "reviewed_evidence"
+        }
+      ],
+      "first_indexed_episode": {
+        "date": "2026-02-12",
+        "source_ref": "diary_symptom_intervals:SI-8e049d3eb7caac68cc1a42ae",
+        "page": "weeks/2026-02-09.html#entry-f841a6a6d91c9dc3c00eee"
+      },
+      "reviewed_relationships": [
+        {
+          "related_id": "intervention:8c44127d-11fb-5024-8f14-bb5c20b3def5",
+          "relation": "Present in overlapping treatment period; cause uncertain",
+          "note": "The spore probiotic was in use/restarted before the single December 1 bezisterim dose. The symptom was reported around this period, but available chronology does not isolate which, if either, treatment contributed.",
+          "source_ref": "context_cards:CTX-017; intervention_events:S2-L03457-E1; intervention_events:S2-L03554-E1",
+          "title": "Spore probiotic"
+        },
+        {
+          "related_id": "intervention:ee824179-20cd-5023-98b9-9ca860592f79",
+          "relation": "Suspected onset after treatment",
+          "note": "The practitioner suspects this exposure. The spore probiotic trial overlapped. The available retrospective account dates the wrist-specific pattern to the period of these trials.",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW; context_cards:CTX-017; archive_messages:S1-M69556",
+          "title": "Bezisterim"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+.pz-chart-tooltip{position:fixed;z-index:2000;max-width:min(360px,calc(100vw - 16px));padding:.58rem .72rem;
+  background:var(--paper,#172721);color:var(--ink,#f1f7f2);border:1px solid var(--control-line,#91a89a);
+  border-radius:7px;box-shadow:0 8px 28px #0007;pointer-events:none;font:13px/1.45 system-ui,sans-serif;
+  text-align:left;font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+.pz-chart-tooltip[hidden]{display:none!important}
+.pz-chart-tooltip-values{display:flex;flex-wrap:wrap;gap:.16rem .7rem;line-height:1.45}
+.pz-chart-tooltip-values strong{font-weight:750;color:inherit}
+.pz-chart-tooltip-meta{color:var(--muted,#abbfb5);font-size:12px;margin-top:.24rem}

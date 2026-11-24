@@ -1,0 +1,512 @@
+/* Print uses the light palette. A fresh screen session starts in dark mode. */
+:root {
+  color-scheme: light;
+  --canvas:#fbfbf8; --paper:#fff; --ink:#203030; --muted:#536560;
+  --accent:#246454; --line:#d5dfd9; --tint:#eaf2ed; --control-line:#929f97;
+  --button-fill:#246454; --button-hover:#194e42; --button-text:#fff; --focus:#a85c21;
+  --mast:#173c34; --seg:#e9eee8; --tab:#466052; --selected:#fff;
+  --mark-test:#82719c; --mark-response:#b88350; --mark-intervention:#6389a8;
+  --mark-baseline:#9b8752; --mark-episode:#a27775; --mark-milestone:#2c7262;
+  --font:Inter,"Segoe UI",system-ui,sans-serif;
+  --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+}
+@media screen {
+  :root:not([data-theme="light"]) {
+    color-scheme:dark;
+    --canvas:#121818; --paper:#1b2323; --ink:#e1e9e5; --muted:#aab8b4;
+    --accent:#98d2be; --line:#364541; --tint:#243932; --control-line:#677d73;
+    --button-fill:#a3d4bc; --button-hover:#bce4ce; --button-text:#11271e; --focus:#f3c691;
+    --mast:#182c27; --seg:#1a2724; --tab:#afc2b8; --selected:#334a40;
+    --mark-test:#a69ebc; --mark-response:#c39772; --mark-intervention:#8da9c2;
+    --mark-baseline:#b4a069; --mark-episode:#ba8d88; --mark-milestone:#75ad97;
+  }
+}
+html{background:var(--canvas)}
+*{box-sizing:border-box}
+body{margin:0;color:var(--ink);background:var(--canvas);font:15px/1.6 var(--font);overflow-wrap:anywhere}
+a{color:var(--accent);text-underline-offset:.18em}a:hover{text-decoration:underline}a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:3px solid var(--focus);outline-offset:3px}
+button,input,select{font:inherit;color:var(--ink)}
+button,.button{display:inline-flex;align-items:center;gap:.4em;justify-content:center;background:var(--paper);border:1px solid var(--control-line);border-radius:5px;padding:.45rem .8rem;color:var(--accent);font-size:.88rem;font-weight:600;text-decoration:none;cursor:pointer}
+button:hover,.button:hover{background:var(--tint)}input,select{border:1px solid var(--control-line);border-radius:4px;padding:.45rem .55rem;background:var(--paper);max-width:100%}
+.search-field-wrap{position:relative;display:inline-flex;align-items:center;max-width:100%}.search-field-wrap>input[type=search]{padding-inline-end:2rem;width:100%}.search-clear{position:absolute;inset-inline-end:.35rem;top:50%;transform:translateY(-50%);border:0;background:none;color:var(--muted);padding:.15rem .3rem;min-width:auto;line-height:1;font-size:1rem}.search-clear:hover{background:var(--tint);color:var(--ink)}.search-clear[hidden]{display:none}
+.skip-link{position:absolute;left:.5rem;top:-8rem;z-index:10;background:var(--paper);padding:.5rem}.skip-link:focus{top:.25rem}
+.mast{background:var(--mast);color:#fff}.mast-inner,.shell,.footer{width:min(1240px,calc(100% - 80px));margin:auto}
+.mast-inner{display:flex;gap:clamp(14px,3.6vw,55px);align-items:center;min-height:66px}
+.mast nav{align-self:stretch;display:flex;gap:clamp(13px,2.5vw,34px);align-items:stretch}.mast nav a{color:#e4ece6;text-decoration:none;align-content:center;display:grid;font-size:.92rem;border-block:3px solid transparent;line-height:1.4;padding:8px 0}.mast nav a[aria-current]{border-bottom-color:#b9d5b8;color:#fff;font-weight:650}.mast nav a:hover{color:white;text-decoration:underline}
+.shell{padding-block:32px 56px;min-height:80vh;min-width:0}.footer{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;padding:20px 0 40px;border-top:1px solid var(--line);font-size:.76rem;color:var(--muted)}
+h1,h2,h3,p{margin-top:0}h1{font-family:var(--serif);font-weight:500;font-size:clamp(2.5rem,5vw,4rem);line-height:1.08;letter-spacing:-.045em;margin-bottom:12px}h2,h3{line-height:1.27;letter-spacing:-.018em}summary{cursor:pointer}summary:focus-visible{border-radius:3px}.meta,.source,small{color:var(--muted);font-size:.83rem}.panel{background:var(--paper);padding:1rem;border:1px solid var(--line);border-radius:6px}.page-intro{margin-bottom:24px}.research-links{margin:12px 0}.prose-note{white-space:pre-wrap;max-width:80ch;background:var(--paper);padding:24px;border:1px solid var(--line)}
+.hero{display:flex;align-items:center;justify-content:space-between;gap:20px;margin:10px 0 26px}.hero p{color:var(--muted);margin:4px 0 0;font-size:.92rem}.hero-actions{display:flex;gap:8px;flex-wrap:wrap}.button.primary{background:var(--button-fill);border-color:var(--button-fill);color:var(--button-text)}.button.primary:hover{background:var(--button-hover)}
+.ledger-grid{display:grid;grid-template-columns:minmax(150px,200px) minmax(0,1fr);gap:clamp(25px,4.5vw,64px);border-top:1px solid var(--line)}
+.index-rail{padding-top:26px}.rail-inner{position:sticky;top:12px}.rail-block{padding-bottom:22px;margin-bottom:22px;border-bottom:1px solid var(--line)}.rail-title{font-size:.78rem;letter-spacing:.055em;font-weight:700;text-transform:uppercase;color:var(--muted);margin:0 0 12px}.year-nav{list-style:none;padding:0;margin:0}.year-nav a{display:flex;justify-content:space-between;align-items:center;padding:5px 6px;color:var(--ink);text-decoration:none;border-radius:3px;font-variant-numeric:tabular-nums}.year-nav a:hover{background:var(--tint)}.year-nav small{font-size:.73rem}.date-form{display:flex;align-items:stretch;gap:5px;flex-wrap:wrap}.date-form input{font-size:.84rem;min-width:0}.date-form button{font-size:.77rem}.date-form output{width:100%;font-size:.78rem}.rail-block label{display:block;margin-bottom:8px}
+.ledger-main{min-width:0}.view-bar{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:22px 0}.seg{display:inline-flex;gap:2px;background:var(--seg);padding:3px;border:1px solid var(--line);border-radius:7px}.seg a{display:inline-block;font-weight:600;font-size:.84rem;padding:5px 12px;border-radius:4px;text-decoration:none;color:var(--tab)}.seg a[aria-current]{color:var(--ink);background:var(--selected);box-shadow:0 1px 3px #22372b25}.view-bar .count{color:var(--muted);font-size:.82rem;font-variant-numeric:tabular-nums}
+.year-group{margin-bottom:34px;scroll-margin-top:14px}.year-label{display:flex;align-items:center;gap:14px;color:var(--accent);font:500 1.8rem/1.4 var(--serif);margin:14px 0}.year-label:after{content:"";height:1px;background:var(--line);flex:1}
+.entry{margin:0 0 12px;padding:17px 22px 15px;border:1px solid var(--line);border-inline-start:3px solid var(--mark,#76a796);border-radius:2px 6px 6px 2px;background:var(--paper);break-inside:avoid}
+.entry header{display:flex;align-items:center;gap:10px;justify-content:space-between;flex-wrap:wrap}.entry time,.entry .date{font-size:.82rem;color:var(--accent);font-weight:650;font-variant-numeric:tabular-nums}.entry .kind{font-size:.72rem;color:var(--muted);letter-spacing:.035em;font-weight:650}.entry h3{margin:8px 0;font-family:var(--serif);font-size:1.42rem;font-weight:600}.entry p{max-width:95ch;margin:4px 0 8px}.entry .row-tools{display:flex;column-gap:18px;row-gap:5px;align-items:baseline;flex-wrap:wrap;font-size:.81rem}.entry details{font-size:.83rem;margin:7px 0 2px;color:var(--muted)}.entry .row-tools a{font-weight:550}.entry blockquote{margin:.5rem 0;padding:.4rem .8rem;border-left:2px solid var(--line);white-space:pre-line}
+.entry[data-type="Test"]{--mark:var(--mark-test)}.entry[data-type="Response"]{--mark:var(--mark-response)}.entry[data-type="Intervention"]{--mark:var(--mark-intervention)}.entry[data-type="Baseline"]{--mark:var(--mark-baseline)}.entry[data-type="Episode"]{--mark:var(--mark-episode)}.entry[data-type="Milestone"]{--mark:var(--mark-milestone)}
+html{scroll-behavior:auto}[hidden]{display:none!important}table{border-collapse:collapse;max-width:100%}th,td{text-align:left;vertical-align:top;padding:.38rem .55rem;border-bottom:1px solid var(--line)}
+@media(max-width:800px){.mast-inner,.shell,.footer{width:calc(100% - 36px)}.mast-inner{align-items:flex-start;flex-direction:column;gap:0;padding-top:14px}.mast nav{min-height:43px;flex-wrap:wrap;gap:0 22px}.mast nav a{font-size:.85rem}.shell{padding-top:18px}.ledger-grid{grid-template-columns:1fr;gap:0}.index-rail{padding-top:10px}.rail-inner{position:static;display:flex;flex-wrap:wrap;gap:10px 20px;align-items:center}.rail-block{padding:0;margin:0;border:0}.rail-block:first-child{flex-basis:100%}.year-nav{display:flex;flex-wrap:wrap;gap:5px 8px}.year-nav li small{display:none}.rail-title{font-size:.71rem;margin-bottom:4px}.rail-block .date-form{display:inline-flex}.rail-block>label{display:inline-block;margin-right:.4rem}.view-bar{margin-top:16px}.hero{align-items:flex-start;flex-wrap:wrap;gap:12px}.entry{padding:13px 15px}.year-label{margin:7px 0}.entry p{line-height:1.53}}
+@media print{.mast,.skip-link,.index-rail,.view-bar,.hero-actions,.row-tools,.footer,form,button{display:none!important}.shell{width:100%;padding:0}.ledger-grid{display:block}.hero{margin-top:0}.entry{box-shadow:none}.year-group{margin:0}.year-label{break-after:avoid}body{background:white;color:black;font-size:10pt}.entry h3{font-size:14pt}.entry{padding:8px 12px}.shell a{color:inherit}}
+.entry p.basis{font-size:.81rem;color:var(--muted);margin:.4rem 0}.sources{margin:.6rem 0;line-height:1.45}.sources>div{margin:.45rem 0}.result-table{max-width:100%;overflow-x:auto;margin-top:.65rem}
+.entry h3 a{color:inherit;text-decoration:none}.entry h3 a:hover,.entry h3 a:focus-visible{color:var(--accent);text-decoration:underline}
+
+/* Local section styles also use the shared palette. The selectors below are
+   more specific than the per-page styles embedded after this stylesheet. */
+main .wk-nav button,main .wk-export button{background:var(--button-fill);color:var(--button-text)}
+main .wk-nav button:hover,main .wk-export button:hover{background:var(--button-hover)}
+main .wk-day:target{background:var(--tint)}
+input::placeholder{color:var(--muted);opacity:1}
+.theme-toggle{margin-inline-start:auto;align-self:center;white-space:nowrap;gap:.55rem;padding:.45rem .5rem;background:none;color:#e2eee8;border:0;font-size:.82rem}
+.theme-toggle:hover{background:#ffffff0f}
+.switch-track{display:inline-flex;align-items:center;width:1.9rem;height:1.1rem;padding:2px;border:1px solid #b6c8bc;background:transparent;border-radius:1rem}
+.switch-track:before{content:"";display:block;width:.7rem;height:.7rem;border-radius:50%;background:#e1e9e3}
+.theme-toggle[aria-checked="true"] .switch-track{justify-content:flex-end;background:#a3d4bc;border-color:#a3d4bc}
+.theme-toggle[aria-checked="true"] .switch-track:before{background:#153228}
+@media(max-width:800px){
+  .mast-inner{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:1px 10px}
+  .mast nav{grid-column:1/-1;grid-row:2}
+  .theme-toggle{grid-column:2;grid-row:1}
+}
+
+.record-source{margin:.25rem 0;font-size:.79rem;color:var(--muted);line-height:1.45}
+.record-source>summary{width:fit-content;cursor:help;text-decoration:underline dotted;text-underline-offset:.18em}
+.record-source-body{padding:.4rem .7rem;margin:.25rem 0;border-left:2px solid var(--line);color:var(--ink);overflow-wrap:anywhere;white-space:pre-line}
+.record-source-body>div+div{margin-top:.45rem}
+
+@media(min-width:801px){.mast-inner{gap:clamp(8px,1.6vw,25px);flex-wrap:wrap}.mast nav{gap:clamp(9px,1.35vw,22px);min-height:3.8rem;margin-inline-end:auto}.theme-toggle{margin-inline-start:0}}
+@media(max-width:800px){.mast-inner{grid-template-columns:minmax(0,1fr) auto auto}.theme-toggle{grid-column:3}.mast #pz-edit{grid-column:2;grid-row:1}}
+
+.identity-forward{display:none}.identity-forward:target{display:block}
+
+/* Source wording, including schedules and uncertainty, stays together. */
+.dose-value{color:var(--ink);background:var(--tint);border-bottom:2px solid var(--accent);border-radius:2px;padding:0 .22em;font-weight:750;font-variant-numeric:tabular-nums;overflow-wrap:anywhere;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.dose-history{margin:.55rem 0 .75rem;padding-left:.65rem;border-left:2px solid var(--accent)}
+.dose-label{display:block;color:var(--muted);font-size:.78rem;font-weight:650}
+.dose-row{margin:.22rem 0;font-size:.94rem;line-height:1.6}
+.dose-history .dose-more{margin:.2rem 0 0;padding:0;border:0}
+.dose-more>summary,.dose-empty{font-size:.8rem;color:var(--muted)}
+@media print{.dose-value{color:#111;border-color:#52665b;background:transparent}}
+
+.regimen-table{border-collapse:collapse;width:100%;max-width:56rem}.regimen-table th,.regimen-table td{text-align:left;border-bottom:1px solid var(--line);padding:.75rem .8rem;vertical-align:top}.regimen-table thead th{color:var(--muted);font-size:.9rem}.regimen-table td:nth-child(2){white-space:nowrap}.regimen-table thead{background:var(--panel)}
+
+/* Reading panels and out-of-flow, keyboard-accessible source popups. */
+[data-record-source]{width:fit-content;position:relative}
+[data-record-source]>summary{color:var(--muted);font:550 .78rem/1.5 var(--font);cursor:help}
+[data-record-source][open]>:not(summary){position:fixed;inset:auto;z-index:25;width:min(29rem,calc(100vw - 16px));max-height:min(44vh,26rem);overflow:auto;overscroll-behavior:contain;margin:0;padding:.8rem 1rem;border:1px solid var(--control-line);border-radius:7px;background:var(--paper);color:var(--ink);box-shadow:0 6px 24px #0005;white-space:pre-line;overflow-wrap:anywhere;font:400 .88rem/1.55 var(--font);text-align:left}
+.record-source[open]>summary{font-weight:550}
+.shell .c-list .c-group{padding:.8rem 1rem 1rem;border:1px solid var(--control-line);border-radius:8px;background:var(--paper);margin:1.25rem 0}
+.shell .c-group>h2{border-bottom:2px solid var(--control-line);padding:.18rem 0 .65rem}
+.shell .c-member .c-entry{padding:.22rem .4rem}
+.shell .c-entry[open]{background:var(--canvas);border:1px solid var(--control-line);border-radius:6px;padding:.65rem .9rem;margin:.45rem 0}
+.shell .c-card,.shell [data-treatment-id]>section,.wk-course>section,.sym-month{background:var(--paper);border:1px solid var(--control-line);border-radius:6px;padding:.8rem 1rem;margin:.8rem 0}
+[data-treatment-id] h2,.wk-course h2{font:600 1.3rem/1.35 var(--serif);margin:0 0 .5rem}
+.reading-status,.sym-calendar-links{display:flex;gap:.5rem 1rem;align-items:baseline;flex-wrap:wrap;margin:.5rem 0}
+.clinical-rationale{padding:.65rem .9rem;border-left:3px solid var(--mark-test);background:var(--tint);margin:.65rem 0;max-width:75ch}
+.clinical-rationale>strong,.sym-when small,.sym-month summary small{font:600 .78rem/1.45 var(--font);color:var(--muted)}
+.clinical-rationale p,.sym-month li p{margin:.25rem 0}
+.sym-month{max-width:86ch}.sym-month summary{cursor:pointer;font-weight:650}.sym-month ul{list-style:none;padding:0}.sym-month li+li{border-top:1px solid var(--line);margin-top:.6rem;padding-top:.6rem}.sym-when{display:flex;gap:1rem;align-items:baseline}
+.shell .wk-wrap{border-color:var(--control-line)}
+.shell .wk-grid{align-items:stretch;grid-template-columns:repeat(7,minmax(220px,1fr));min-width:1540px;}
+.shell .wk-grid>.wk-day{background:var(--canvas);border-left:2px solid var(--control-line);padding:0 .52rem .65rem}
+.shell .wk-day:first-child{border-left:none}
+.shell .wk-day-head{background:var(--day-head,#243c34);margin:0 -.52rem .6rem;padding:.7rem .65rem;border-bottom:2px solid var(--control-line)}
+.shell .wk-rating strong{font-size:1.55rem;line-height:1.2}.shell .wk-rating.missing strong{font:500 .84rem/1.5 var(--font)}
+.wk-sleep{border-top:1px solid var(--control-line);padding-top:.38rem;margin-top:.42rem}.wk-sleep>strong{font-size:.76rem;color:var(--muted)}
+.shell .wk-sleep button.wk-source-trigger{font-size:.88rem}
+.wk-day .wk-block{background:var(--paper);border:1px solid var(--control-line);border-radius:5px;margin:.6rem 0;overflow:visible}
+.wk-day .wk-block>h3{margin:0;padding:.4rem .5rem;background:var(--seg);border-radius:4px 4px 0 0;color:var(--muted);font-size:.74rem}
+.wk-day .wk-changes{border-color:var(--mark-intervention)}.wk-day .wk-changes>h3{color:var(--ink);border-left:3px solid var(--mark-intervention)}
+.shell .wk-day .wk-block article{padding:.45rem .5rem;border-top:1px solid var(--control-line);font-size:.89rem}
+.wk-block time{display:block;color:var(--accent);font-size:.79rem}.wk-day-foot{padding:.4rem}
+.wk-day [id^=entry-]:target{outline:3px solid var(--focus);outline-offset:-2px;background:var(--tint);scroll-margin:1.2rem}
+.sample-identity>*{display:block}.sample-identity small{color:var(--muted)}
+@media(max-width:800px){
+  .view-bar .seg{max-width:100%;flex-wrap:wrap}
+  .view-bar .seg a{min-height:2.5rem;align-content:center}
+  .ledger-grid{grid-template-columns:minmax(0,1fr)}
+}
+main:has(>section#regimen_context)>section>section{background:var(--paper);border:1px solid var(--control-line);border-radius:6px;padding:.6rem 1rem;margin:.75rem 0}
+.weekly-reports{margin:2rem 0}.wk-posted{background:var(--paper);border:1px solid var(--line);border-radius:5px;padding:.6rem .85rem;margin:.6rem 0;scroll-margin-top:.8rem}.wk-posted>summary{cursor:pointer;font-weight:600}.wk-posted article{border-top:1px solid var(--line);padding:.45rem .15rem;max-width:88ch}.wk-posted .wk-source-trigger{display:block;border:0;text-align:left;color:inherit;background:transparent;font:inherit;cursor:help;padding:.2rem 0}.wk-posted .wk-details{font-size:.81rem;color:var(--muted);margin:.2rem 0}.wk-posted:target{outline:2px solid var(--focus)}
+.context-directory>section{background:var(--paper);border:1px solid var(--control-line);border-radius:6px;padding:.65rem 1rem;margin:.75rem 0;max-width:82ch}.context-directory h3{margin:.3rem 0}.context-directory>section:target{outline:2px solid var(--focus)}
+
+.patient-overview{display:grid;grid-template-columns:minmax(9rem,.52fr) minmax(0,2.1fr);gap:1.5rem;margin-bottom:1.65rem;padding:1.2rem 1.35rem;border-inline-start:3px solid var(--mark-milestone)}
+.patient-overview h2{font:600 1.55rem/1.25 var(--serif);margin:0 0 .45rem}
+.patient-overview>div>a,.overview-sources{font-size:.85rem}
+.overview-points{padding-left:1.15rem;margin:0;max-width:95ch;line-height:1.43;font-size:.94rem}
+.overview-points li+li{margin-top:.35rem}
+.overview-points li::marker{color:var(--mark-milestone)}
+.overview-sources{margin:.7rem 0 0;color:var(--muted)}
+.overview-sources summary{width:fit-content}
+.overview-sources ul{padding-left:1.15rem}
+@media(max-width:760px){.patient-overview{grid-template-columns:minmax(0,1fr);gap:.8rem}}
+
+/* Shared navigation and controls across the reading and editing pages. */
+#site-sections[hidden],#sections-toggle[hidden]{display:none}
+#sections-toggle{color:#e9f4ef;background:transparent;border-color:#7f9a8f;font-weight:600}
+.priority-badge{display:inline-block;font:600 .73rem/1.35 var(--font);padding:.14rem .38rem;border:1px solid var(--control-line);border-radius:.3rem;color:var(--muted);vertical-align:middle}
+.priority-3{background:var(--tint);border-color:var(--accent);color:var(--ink)}
+.c-entry:is([data-resolution="mostly_resolved"],[data-resolution="resolved"])>summary{color:var(--muted)}
+.c-entry:is([data-resolution="mostly_resolved"],[data-resolution="resolved"])>summary strong{color:inherit}
+.resolution-badge{display:inline-block;font:600 .8rem/1.4 var(--font);color:var(--muted);white-space:nowrap}
+.resolution-badge>span{color:#8bd1a4;font-weight:800}
+:root[data-theme="light"] .resolution-badge>span{color:#24703c}
+.shell .c-tools>label.resolution-filter{display:flex;align-items:center;gap:.4rem;min-height:2.5rem}
+.c-tools .resolution-filter input{width:auto;accent-color:var(--accent)}
+.care-rating{font-size:.92rem;border-left:3px solid var(--accent);padding:.45rem .65rem}
+.pz-field textarea{width:100%;max-width:100%;font:inherit;background:var(--canvas);color:var(--ink);border:1px solid var(--control-line);border-radius:.3rem;resize:vertical}
+.shell .c-tools>label,.shell .c-grid>label,.shell .bm-tools>label:not(.bm-check){
+  min-width:0;max-width:100%;grid-template-columns:minmax(0,1fr)
+}
+.shell .c-tools select,.shell .bm-tools select,.shell .c-grid select{min-width:0;max-width:100%}
+@media (max-width:800px){
+  .mast .mast-inner{row-gap:.35rem;padding-block:.4rem}
+  .mast #sections-toggle{grid-column:1;grid-row:1;justify-self:start;min-height:2.5rem;padding:.2rem .8rem}
+  .mast #site-sections{grid-row:2;grid-column:1/-1;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,8rem),1fr));gap:0 .7rem;width:100%;min-height:0}
+  .mast #site-sections[hidden]{display:none}
+  .mast #site-sections a{min-height:2.75rem}
+  .shell .bm-tools,.shell .c-tools,.shell .c-grid,.shell .hero-actions{max-width:100%}
+}
+@media (min-width:801px) and (max-width:1199px){
+  .mast .mast-inner nav{max-width:100%;flex-wrap:wrap;row-gap:0}
+}
+@media (max-width:640px){
+  .shell .c-tools>label,.shell .bm-tools>label:not(.bm-check){width:100%;flex:1 1 100%}
+  .shell .bm-tools input[type=search]{width:100%;min-width:0}
+  .shell .sym-when{flex-wrap:wrap;gap:.2rem .6rem}
+  .shell .regimen-table,.shell .bm-scroll table{display:block;min-width:0;width:100%;max-width:100%}
+  .shell :is(.regimen-table,.bm-scroll table) thead{
+    position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap
+  }
+  .shell :is(.regimen-table,.bm-scroll table) tbody{display:block}
+  .shell :is(.regimen-table,.bm-scroll table) tbody tr{
+    display:block;border:1px solid var(--control-line);border-radius:.45rem;margin-bottom:.7rem;padding:.3rem .7rem;background:var(--paper)
+  }
+  .shell :is(.regimen-table,.bm-scroll table) tbody :is(td,th){
+    display:block;min-width:0;padding:.24rem 0;border:0;text-align:left;white-space:normal;overflow-wrap:anywhere
+  }
+  .shell :is(.regimen-table,.bm-scroll table) td[data-label]::before{
+    content:attr(data-label);display:block;color:var(--muted);font:600 .74rem/1.3 var(--font)
+  }
+  .shell .regimen-table tbody th{font-weight:650;border-bottom:1px solid var(--line);padding-block:.3rem .5rem}
+  .shell .bm-scroll .bm-exception{border-inline-start:3px solid var(--mark-response)}
+  .shell .bm-scroll .bm-exception td:first-child{box-shadow:none}
+}
+
+.shell .c-tools .poor-control,.rail-block .poor-control{display:flex;align-items:center;gap:.5rem;font-size:.88rem}
+.shell .poor-control input[type=checkbox]{width:1.1rem;height:1.1rem;flex:none;margin:0}
+.rail-block label[for=chronology-tx-type]{margin-top:.95rem;font-size:.88rem}
+.rail-block #chronology-tx-type{display:block;width:100%;margin:.25rem 0 .6rem}
+@media(max-width:420px){
+  .mast .mast-inner:has(#pz-edit){grid-template-columns:minmax(0,1fr) auto auto;column-gap:.35rem}
+  .mast .mast-inner #sections-toggle{grid-column:1;grid-row:1}
+  .mast .mast-inner #theme-toggle{grid-column:3;grid-row:1}
+  .mast .mast-inner #pz-edit{grid-column:2;grid-row:1}
+  .mast .mast-inner #site-sections{grid-column:1/-1;grid-row:2}
+}
+
+.course-annotation{margin:.65rem 0 0 .75rem;padding:.15rem .75rem;border-inline-start:2px solid var(--line);font-size:.88rem}
+.course-annotation ul{margin:.25rem 0;padding-inline-start:1.15rem}
+.course-annotation li{margin:.2rem 0;overflow-wrap:anywhere}
+.course-annotation summary{cursor:pointer}
+.course-outcomes{border-inline-start-color:var(--accent)}
+
+.response-panel{margin:.25rem 0 1rem;padding:.55rem .9rem .65rem;border:1px solid var(--line);border-inline-start:3px solid #ad6872;border-radius:.35rem;overflow-wrap:anywhere}
+.response-panel h3{margin:0 0 .45rem;font:650 .98rem/1.4 var(--font)}
+.response-panel ul{list-style:none;margin:0;padding:0}
+.response-panel li{margin:0;padding:.4rem 0;font-size:.91rem}
+.response-panel li+li{border-top:1px solid var(--line)}
+.response-panel p{margin:.3rem 0}
+.response-tags{display:flex;align-items:baseline;flex-wrap:wrap;gap:.25rem .4rem;margin:.4rem 0}
+.response-tags strong{font-size:.85rem;color:var(--muted)}
+.response-pattern{padding:.13rem .44rem;border:1px solid var(--control-line);border-radius:.3rem;
+    font-size:.86rem;line-height:1.3;background:var(--tint);color:var(--ink)}
+#catalog-pattern-help:not(:empty){display:grid;gap:.2rem;padding:.65rem .85rem;border:1px solid var(--control-line);
+    border-inline-start:3px solid var(--accent);border-radius:.35rem;background:var(--tint)}
+#catalog-pattern-help strong{font-size:1rem}
+.catalog-metadata{color:var(--muted);font-size:.83rem;line-height:1.4;margin:.7rem 0}
+.catalog-metadata p{margin:.18rem 0}
+.response-partners{font-size:.88rem;margin-top:.2rem}
+
+.c-chip{display:inline-block;font-size:.76rem;padding:.16rem .48rem;border:1px solid var(--line);border-radius:1rem;margin:.12rem .3rem .12rem 0}
+.sym-frequency{display:inline-block;margin:.12rem .2rem;padding:.12rem .4rem;border:1px solid var(--line);border-radius:.28rem;color:var(--muted);font:500 .8rem/1.35 var(--font)}
+.sym-course{margin:.65rem 0;padding:.55rem .75rem;border-left:2px solid var(--control-line);overflow-wrap:anywhere}
+.sym-course p,.sym-course li{margin:.2rem 0}
+.sym-course-events{list-style:none;margin:.45rem 0;padding:0}
+
+/* Clinical directories use one card boundary and a quieter evidence footer. */
+.record-list-info { display:flex; flex-wrap:wrap; gap:.4rem 1rem; align-items:baseline; color:var(--muted); font-size:.85rem }
+.record-list-info .catalog-metadata { margin:0 }
+.record-list-info .catalog-metadata[open] { flex-basis:100% }
+.record-list-info summary, .record-body summary, .record-footer summary { cursor:pointer }
+.shell .record-directory .c-group {
+  background:transparent; padding:0; border:0; border-radius:0; margin:2rem 0;
+}
+.shell .record-directory .c-group > h2 {
+  align-items:baseline; border:0; margin:0 0 .65rem; padding:0; gap:.65rem;
+}
+.record-directory .c-group-count { font-size:.8rem; font-variant-numeric:tabular-nums }
+.record-directory .c-member {
+  border:1px solid var(--line); background:var(--paper); border-radius:.45rem; margin:.35rem 0;
+  overflow-wrap:anywhere; min-width:0;
+}
+.record-directory .c-member:has(>details[open]) { border-color:var(--control-line) }
+.shell .record-directory .c-member > .c-entry {
+  border:0; padding:0; margin:0; border-radius:inherit; background:transparent;
+}
+.shell .record-directory .c-entry > .record-heading {
+  display:grid; grid-template-columns:.55rem minmax(0,1fr) auto; align-items:center;
+  column-gap:.7rem; margin:0; padding:.75rem 1rem; line-height:1.35; list-style:none;
+}
+.record-directory .record-heading::-webkit-details-marker { display:none }
+.record-directory .record-heading::before {
+  content:''; width:.38rem; height:.38rem; border:solid var(--muted); border-width:0 1.5px 1.5px 0;
+  transform:rotate(-45deg); justify-self:center;
+}
+.record-directory .c-entry[open] > .record-heading::before { transform:rotate(45deg) }
+.record-directory .record-heading-text { display:flex; gap:.3rem .65rem; align-items:baseline; flex-wrap:wrap }
+.record-directory .record-name { font-weight:670; letter-spacing:-.012em; line-height:1.35 }
+.record-directory .record-name a { text-decoration-thickness:1px; text-underline-offset:.15em }
+.record-directory .record-status, .record-directory .sym-frequency, .record-count {
+  color:var(--muted); font:500 .82rem/1.4 var(--font); margin:0; padding:0; border:0;
+}
+.record-directory .status-taking { color:var(--accent) }
+.record-count { text-align:end; font-variant-numeric:tabular-nums }
+.record-directory .c-entry > .record-body { padding:0 1rem .15rem 2.25rem }
+.record-body { overflow-wrap:anywhere; min-width:0 }
+.record-body .record-section { margin:.4rem 0 1rem }
+.record-body .record-section > h3, .record-body > .record-section > h3 {
+  margin:0 0 .32rem; color:var(--muted); font:600 .84rem/1.4 var(--font);
+}
+.record-body p, .record-body ul { max-width:78ch }
+.record-section > p { margin:.25rem 0 }
+.record-body .patient-words {
+  color:var(--ink); border-inline-start:2px solid var(--accent); margin:.4rem 0 .55rem;
+  padding:.14rem 0 .14rem .8rem; max-width:75ch; white-space:pre-line;
+}
+.record-body .patient-words p { margin:0; line-height:1.52 }
+.record-body .patient-words details { white-space:normal; margin-top:.4rem }
+.record-body .patient-words details p { white-space:pre-line }
+.record-more, .record-additional { margin:.45rem 0 }
+:is(.record-more, .record-additional) > summary, .record-metadata > summary, .record-list-info summary {
+  color:var(--muted); font-size:.85rem; width:fit-content; text-underline-offset:.18em;
+}
+:is(.record-more, .record-additional, .record-metadata, .catalog-metadata) > summary:hover { color:var(--ink); text-decoration:underline }
+.record-more[open] > .record-section { margin:.7rem 0 .5rem .45rem }
+.record-facts {
+  display:grid; grid-template-columns:fit-content(13rem) minmax(0,1fr); align-items:baseline;
+  gap:.3rem .9rem; margin:.55rem 0 .8rem; line-height:1.5;
+}
+.record-facts dt { color:var(--muted); font-size:.86rem; font-weight:550 }
+.record-facts dd { margin:0; max-width:78ch }
+.record-section ul { margin:.4rem 0; padding-inline-start:1.25rem }
+.record-body .record-actions {
+  display:flex; flex-wrap:wrap; gap:.35rem 1rem; font-size:.9rem; margin:.65rem 0;
+}
+.shell .record-body .record-course {
+  border:0; border-inline-start:2px solid var(--control-line); border-radius:0; background:transparent;
+  padding:.1rem 0 .1rem .75rem; margin:.45rem 0 .85rem;
+}
+.record-course h3 { font:600 1rem/1.45 var(--font) }
+.record-course h3 a { text-decoration-thickness:1px; font-variant-numeric:tabular-nums }
+.record-course .record-actions { margin:.25rem 0 0 }
+.record-secondary, .response-attribution { color:var(--muted); font-size:.84rem }
+.record-body .record-dose-list { margin:.35rem 0 }
+.record-dose { max-width:76ch; margin:.2rem 0; line-height:1.5 }
+.record-dose .dose-value { color:var(--ink); padding:0; border:0; background:transparent; font-weight:730 }
+.record-dose-note, .dose-qualification { font-size:.92rem }
+.record-footer {
+  display:flex; align-items:baseline; flex-wrap:wrap; gap:.35rem 1rem; padding:.55rem 1rem .6rem 2.25rem;
+  border-top:1px solid var(--line); color:var(--muted); font-size:.82rem;
+}
+.record-footer .record-metadata { flex:1 1 auto }
+.record-footer .record-metadata[open] { flex-basis:100%; min-width:0 }
+.record-footer .record-tools { display:flex; gap:.85rem; flex-wrap:wrap }
+.record-tools a { color:var(--muted); text-decoration-thickness:1px }
+.record-support { padding:.65rem .15rem .3rem; max-width:82ch; line-height:1.5; font-size:.87rem }
+.record-support p, .record-support h4, .record-support ul { margin:.4rem 0 }
+.record-support ul { padding-inline-start:1.2rem }
+.record-support .record-facts dt { font-size:inherit }
+.record-directory .response-panel, .shell .treatment-dossier .response-panel {
+  margin:.1rem 1rem .8rem 2.25rem; padding:.18rem 0 .22rem .8rem; border:0; border-radius:0;
+  border-inline-start:3px solid var(--mark-episode); background:transparent;
+}
+.record-directory .response-panel h3, .treatment-dossier .response-panel h3 { margin:0 0 .2rem; font-size:.87rem }
+.response-panel .response-account { color:var(--ink); max-width:78ch; line-height:1.5; margin:0 0 .3rem }
+.response-panel .response-attribution { margin:.28rem 0 0 }
+.response-panel .response-pattern { border:0; border-radius:0; background:transparent; color:var(--muted); padding:0; font-size:.82rem }
+.response-panel .response-pattern + .response-pattern::before { content:'·'; padding-inline-end:.4rem }
+.response-panel .response-tags { margin:.15rem 0 }
+.record-directory .pz-edit-actions { padding-inline:1rem }
+.shell .treatment-dossier > .response-panel { margin-left:0 }
+.record-directory :is(summary,a,button):focus-visible, .record-list-info summary:focus-visible {
+  outline:2px solid var(--focus); outline-offset:2px; border-radius:2px;
+}
+@media (max-width:560px) {
+  .shell .record-directory .c-entry > .record-heading { column-gap:.5rem; padding:.7rem .75rem }
+  .record-count { font-size:.78rem }
+  .record-directory .c-entry > .record-body { padding:0 .8rem .1rem }
+  .record-footer { padding:.5rem .8rem; gap:.45rem .75rem }
+  .record-directory .response-panel { margin-left:.8rem; margin-right:.8rem }
+  .record-facts { grid-template-columns:minmax(0,1fr); gap:0 }
+  .record-facts dt:not(:first-child) { margin-top:.45rem }
+  .record-directory .record-heading-text { gap:.25rem .5rem }
+  .record-footer .record-tools { gap:.6rem }
+}
+
+/* Temporal symptom-group index: observed chronology, not causal identification. */
+.episode-group{border:1px solid var(--line);border-radius:.45rem;padding:1rem 1.2rem;margin:1.25rem 0;scroll-margin-top:5rem}
+.episode-group>h2{font:650 1.18rem/1.5 var(--font);margin:0 0 .35rem}
+.episode-group>h2 small{color:var(--muted);font-size:.83rem;font-weight:450}
+.episode-dates{color:var(--accent);font-variant-numeric:tabular-nums;margin:.1rem 0}
+.episode-members{list-style:none;padding:0;margin:1rem 0 0}
+.episode-members>li{border-top:1px solid var(--line);padding:.65rem 0}
+.episode-members>li p{margin:.25rem 0;font-size:.9rem;max-width:85ch;color:var(--muted)}
+.episode-member-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:.3rem .75rem}
+.episode-relation{font-size:.8rem;color:var(--muted)}
+.record-extra-effects>ul{margin:.35rem 0 .45rem;padding-left:1.15rem}
+.record-extra-effects>ul>li{margin:.45rem 0}
+
+/* Reviewed clinical episodes: distinguish index exposure from later therapies. */
+.episode-exposures{margin:.8rem 0 1.2rem;padding:.65rem .85rem;border:1px solid var(--control-line);border-radius:6px;background:var(--paper)}
+.episode-exposures>h3{font:600 .88rem/1.4 var(--font);margin:.05rem 0 .6rem;color:var(--ink)}
+.episode-exposures ul{list-style:none;padding:0;margin:0;display:grid;gap:.45rem}
+.episode-exposures li{padding:.25rem .15rem .45rem;border-bottom:1px solid var(--line);font-size:.86rem}
+.episode-exposures li:last-child{border-bottom:0}
+.episode-exposures li .record-secondary{margin:.18rem 0 0;font-size:.82rem}
+
+/* Compact worsening indicator on collapsed treatment entries; full reports render below details. */
+.record-worsening-preview {font-size:.84rem;color:var(--muted);margin:.05rem 0 .55rem 1rem;opacity:.86}
+details.c-entry[open] + .record-worsening-preview {display:none}
+.treatment-notes {display:grid;gap:.5rem}
+.treatment-note {padding:.65rem .8rem;background:var(--soft,rgba(127,151,143,.06));border:1px solid var(--line);border-radius:.4rem}
+.treatment-note p {margin:.35rem 0;font-size:.95rem;line-height:1.5}
+
+/* Revision 29: clinically meaningful adverse reports must remain visible when collapsed. */
+:root {--adverse-text:#9b3444;--adverse-bg:#fff1f2;--adverse-line:#d18a97;}
+@media screen { :root:not([data-theme="light"]) {--adverse-text:#ffc0c7;--adverse-bg:#392328;--adverse-line:#c87b8a;} }
+.record-directory .record-worsening-preview {display:table;max-width:calc(100% - 1rem);font-weight:650;
+ font-size:.9rem;line-height:1.5;color:var(--adverse-text);opacity:1;
+ padding:.32rem .65rem;margin:.12rem 0 .75rem .7rem;background:var(--adverse-bg);
+ border:1px solid var(--adverse-line);border-inline-start:3px solid var(--adverse-line);border-radius:.32rem;}
+.record-worsening-preview [aria-hidden] {font-weight:900;margin-inline-end:.3rem;}
+
+/* Revision 31: compact rate evidence and a sortable global symptom list. */
+.record-directory .symptom-rate{display:inline-flex;color:var(--muted);font:500 .80rem/1.4 var(--font);font-variant-numeric:tabular-nums;white-space:nowrap;letter-spacing:0}
+#c-sorted-group>h2{margin:.3rem 0 1rem}
+#c-sorted-members>.c-member{display:block}
+#c-sorted-members>.c-member[hidden]{display:none!important}
+
+/* Descriptive PEM state, separate baseline sensory identities. */
+.pem-overview{border:1px solid var(--control-line);background:var(--paper);border-radius:.45rem;padding:.85rem 1rem;margin-bottom:1rem}
+.pem-overview h3{margin:0 0 .55rem}
+.pem-flow{display:flex;align-items:center;gap:.35rem;flex-wrap:wrap;margin:.4rem 0 .65rem;font-size:.88rem}
+.pem-flow span:not([aria-hidden]){border:1px solid var(--control-line);border-radius:.28rem;padding:.22rem .4rem;background:var(--tint)}
+.sym-marker{color:var(--muted);font-size:.78rem;font-weight:550}
+
+/* Revision 36: compact, source-linked phenotype audit */
+.qual-phenotype{margin:1rem 0;padding:1rem 0;border-top:1px solid var(--line);max-width:90ch}
+.qual-phenotype h3{margin-bottom:.4rem;font-size:1.18rem}
+.qual-phenotype p{margin:.4rem 0}
+.qual-account{margin:.4rem 0}.qual-account>summary{font-size:.88rem;color:var(--accent)}
+.qual-account blockquote,.qual-record-list blockquote{border-left:2px solid var(--control-line);padding:.25rem .8rem;margin:.4rem 0;white-space:pre-wrap;overflow-wrap:anywhere}
+.qual-records>summary{font-weight:650;padding:.55rem 0}
+.qual-record-list{list-style:decimal;padding-left:1.35rem;max-width:105ch}
+.qual-record-list>li{border-top:1px solid var(--line);padding:.6rem 0;scroll-margin-top:6rem}
+.qual-record-list p{margin:.25rem 0;font-size:.91rem}
+.qual-record-list blockquote{font-size:.93rem}
+.qual-record-list code{font-size:.85rem;overflow-wrap:anywhere}
+
+.record-taxonomy{display:inline-block;font-size:.77rem;border:1px solid var(--control-line);color:var(--muted);border-radius:4px;padding:.12rem .38rem;margin-inline-start:.35rem;vertical-align:baseline}
+
+/* Clinician reading view: patterns, qualities and linked diary excerpts. */
+.qual-intro p{max-width:90ch}
+.qual-jump{display:flex;flex-wrap:wrap;gap:.6rem 1.4rem;margin-top:1rem}
+.qual-jump a{font-size:.93rem}
+.qual-section>p{max-width:94ch}
+.qual-card{margin-top:1rem;padding:1rem 1.15rem;border:1px solid var(--line);border-radius:.5rem;background:var(--paper);scroll-margin-top:6rem}
+.qual-card h3{font:650 1.19rem/1.35 var(--serif);margin:0 0 .24rem}
+.qual-card h3 a{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:.17em}
+.qual-kind{font-size:.85rem;color:var(--muted);margin:.05rem 0 .65rem}
+.qual-description p{margin:.5rem 0;max-width:92ch}
+.qual-excerpts{margin-top:.85rem;border-top:1px solid var(--line);padding-top:.7rem}
+.qual-excerpts>summary{cursor:pointer;font-size:.94rem;font-weight:600}
+.qual-excerpts>p{margin:.5rem 0;font-size:.87rem}
+.qual-record-list{padding-left:1.3rem;margin:1rem 0 .4rem;max-width:102ch}
+.qual-record-list>li{padding:.8rem 0 .9rem;border-top:1px solid var(--line);scroll-margin-top:6rem}
+.qual-record-list blockquote,.qual-account blockquote{overflow-wrap:anywhere;margin:.55rem 0;padding:.45rem .75rem;font-size:.94rem;white-space:pre-wrap}
+.qual-source,.qual-related{font-size:.87rem}
+.qual-related{margin:.4rem 0}
+.qual-record-list .record-secondary{font-size:.86rem;margin:.3rem 0}
+.qual-account{padding-top:.55rem;border-top:1px solid var(--line);max-width:102ch}
+.qual-matched-anchor{display:block;position:relative;top:-5.5rem;height:0}
+.qual-context{max-width:92ch;margin:1rem 0 0}
+.qual-download{margin:1.25rem 0}
+@media (max-width:640px){.qual-card{padding:.8rem}.qual-record-list{padding-left:1rem}}
+
+/* Source-transparent clinical trend tables, only within related clinical pages. */
+.trend-panel{margin-block:1.15rem}.trend-panel p{line-height:1.5}
+.trend-overflow{overflow-x:auto;max-width:100%}
+.trend-table{border-collapse:collapse;width:100%;font-size:.89rem;margin:.65rem 0}
+.trend-table th,.trend-table td{border-bottom:1px solid var(--line);padding:.45rem .6rem;text-align:left;font-variant-numeric:tabular-nums}
+.trend-table th{font-weight:600}.trend-table caption{text-align:left;color:var(--muted);font-size:.82rem;padding:.4rem 0}
+.trend-details>summary{cursor:pointer;font-weight:600;padding:.3rem 0}
+/* Home-care limitation belongs in the clinical overview, not as a dated event. */
+.patient-overview .care-constraint{
+  margin:.35rem 0 .8rem;padding:.55rem .8rem;border-left:3px solid var(--control-line);
+  background:var(--tint);line-height:1.55
+}
+
+/* Between-milestone observations: clearly different from the event cards. */
+.interval-status-method{color:var(--muted);font-size:.83rem;max-width:75ch;margin:0 0 1.2rem}
+.interval-status{margin:-4px 0 15px 1.1rem;padding:.7rem .88rem .85rem;border-left:2px dashed var(--control-line);
+  border-radius:0 4px 4px 0;background:color-mix(in srgb,var(--paper) 56%,var(--canvas));}
+.interval-status header{display:flex;justify-content:space-between;align-items:center;gap:.4rem 1rem;flex-wrap:wrap;margin-bottom:.35rem}
+.interval-status header .date{font-size:.76rem;color:var(--muted);font-variant-numeric:tabular-nums}
+.interval-status header .kind{font-size:.72rem;color:var(--muted);font-weight:650;letter-spacing:.02em}
+.interval-stat-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.45rem .7rem;align-items:stretch}
+.interval-lane{min-width:0;border-top:1px solid var(--control-line);padding:.35rem .15rem .1rem}
+.interval-lane h4{margin:0 0 .45rem;color:var(--muted);font-size:.73rem;font-weight:700}
+.interval-lane-empty{opacity:.6}
+.interval-no-data{color:var(--muted);font-size:.87rem}
+.interval-stat{display:flex;flex-direction:column;gap:.1rem;padding:.26rem 0 .45rem;line-height:1.3;min-width:0}
+.interval-stat+.interval-stat{border-top:1px solid var(--control-line)}
+.interval-stat a{font-size:.76rem;font-weight:600;text-decoration:none;color:var(--muted)}
+.interval-stat a:hover{text-decoration:underline;color:var(--accent)}
+.interval-stat strong{font-size:.91rem;font-variant-numeric:tabular-nums;font-weight:700}
+.interval-stat small{font-size:.69rem;color:var(--muted)}
+@media(max-width:900px){.interval-stat-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:650px){.interval-status{margin-left:.35rem}.interval-stat-grid{gap:.35rem .5rem}}
+
+/* Explicitly reported shifts in clinical state. No causal claim is implied. */
+.entry[data-trend="improvement"]{--mark:#358d61;box-shadow:inset 5px 0 0 #358d6122}
+.entry[data-trend="decline"]{--mark:#ba5860;box-shadow:inset 5px 0 0 #ba586022}
+.clinical-change,.legend-change{font:700 .73rem/1.5 var(--font);border:1px solid;border-radius:5px;padding:.12rem .5rem;white-space:nowrap}
+.entry[data-trend="improvement"] .clinical-change,.legend-improvement{color:#256f4c;border-color:#6fa78a;background:#e9f5ec}
+.entry[data-trend="decline"] .clinical-change,.legend-decline{color:#a22f3a;border-color:#c28b8d;background:#fae9ea}
+.timeline-change-guide{display:flex;align-items:center;gap:.45rem .7rem;flex-wrap:wrap;color:var(--muted);font-size:.82rem;margin:0 0 .8rem}
+@media screen{ :root:not([data-theme="light"]) .entry[data-trend="improvement"] .clinical-change,
+:root:not([data-theme="light"]) .legend-improvement{color:#a6ebc1;border-color:#47725a;background:#203c2d}
+:root:not([data-theme="light"]) .entry[data-trend="decline"] .clinical-change,
+:root:not([data-theme="light"]) .legend-decline{color:#ffc0c2;border-color:#824951;background:#3e252a}}
+
+/* Clinically interpretable between-milestone comparisons only. */
+/* Directional labels use color, not padding or borders; every value stays aligned. */
+.interval-stat[data-trend="improvement"],.interval-stat[data-trend="decline"]{border-left:0;padding-left:0}
+.interval-stat[data-trend="improvement"] strong,.interval-stat[data-trend="improvement"] .interval-stat-change{color:#76d49e}
+.interval-stat[data-trend="decline"] strong,.interval-stat[data-trend="decline"] .interval-stat-change{color:#f0a1aa}
+.interval-stat-change{font-size:.67rem;font-weight:650;line-height:1.3}
+@media screen{ :root[data-theme="light"] .interval-stat[data-trend="improvement"] strong,
+:root[data-theme="light"] .interval-stat[data-trend="improvement"] .interval-stat-change{color:#236942}
+:root[data-theme="light"] .interval-stat[data-trend="decline"] strong,
+:root[data-theme="light"] .interval-stat[data-trend="decline"] .interval-stat-change{color:#a02e3b}}
+
+/* Cross-page symptom navigation, consistent with the biomarker section controls. */
+.c-jump-links{display:flex;gap:.5rem;flex-wrap:wrap;margin:.4rem 0 1.15rem}
+.c-jump-links .button{font:600 .94rem/1.4 var(--font);padding:.5rem .9rem;min-height:2.55rem}
+
+/* Keep long comparison interpretation at the bottom of the milestone timeline. */
+.timeline-method-end{margin:1.2rem 0 .5rem;padding-top:.75rem;border-top:1px solid var(--line)}
+.timeline-method-end .interval-status-method{margin:0;max-width:105ch}
+
+/* Consistent navigation buttons for clinical sections and downloadable guides. */
+.page-action-links{display:flex;align-items:center;flex-wrap:wrap;gap:.8rem;margin:.2rem 0 1.55rem}
+.page-action-links .button{font-weight:650;min-height:2.55rem;padding:.5rem .9rem}

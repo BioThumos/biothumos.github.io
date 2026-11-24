@@ -1,0 +1,3850 @@
+{
+  "method": "A count of days with an explicitly positive symptom mention among diary-covered days. Missing mentions do not mean absence, and differences cannot establish symptom progression. Overlapping symptoms may occur on the same diary date. Last 12 complete Monday\u2013Sunday weeks.",
+  "last_complete_week_ending": "2026-11-15",
+  "symptoms": {
+    "symptom:01a81101-6126-55ed-8bb8-99e66627d32b": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 2
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 2
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      }
+    ],
+    "symptom:061022e0-eaf6-5d48-97b6-a61386a380fe": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      }
+    ],
+    "symptom:08f8ea88-29fb-5e1d-a60a-1dbdbecea566": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      }
+    ],
+    "symptom:09f7618a-821c-53c4-88ce-6f98964e72f2": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      }
+    ],
+    "symptom:187326b9-9882-53b0-a080-1e92d2c7e4e4": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      }
+    ],
+    "symptom:1a8eab7c-7dd4-588c-9be7-37dd42d7796b": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      }
+    ],
+    "symptom:1c53fd5f-8255-507b-9036-06d769a829d0": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      }
+    ],
+    "symptom:1ce3a49d-5182-57e9-b0dc-384f55e5bea9": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      }
+    ],
+    "symptom:1d04fe0d-d290-561a-97ce-5ca208a86176": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 2
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 2
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 3
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 3
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      }
+    ],
+    "symptom:227a05a7-02e4-54ee-b742-71d823a9ccdb": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      }
+    ],
+    "symptom:2485a3aa-402a-5691-b184-29d584d9273b": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 2
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      }
+    ],
+    "symptom:39e1e355-9d34-531e-95fc-3b09a72b3e0e": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      }
+    ],
+    "symptom:3b57b4fd-f688-5bf3-b4a4-1d5d47b8a804": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      }
+    ],
+    "symptom:3d9842c2-91bb-549a-9f65-98b8561ef3e9": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      }
+    ],
+    "symptom:3f12ab1d-4fe1-5fb0-a9e3-661b126990ca": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 3
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      }
+    ],
+    "symptom:427b863c-da44-5f2f-b07a-8e75cc9b43e7": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 2
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      }
+    ],
+    "symptom:46e20d91-09d6-54db-a39c-80e11b26a5f5": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      }
+    ],
+    "symptom:47f42bb3-f5c5-5ccf-8205-5a4e6937d55b": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      }
+    ],
+    "symptom:4bf23004-267f-52a1-b73e-2d5ecb2e4fce": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      }
+    ],
+    "symptom:50b80b74-96b8-527c-88cb-642962324051": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 2
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 2
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 2
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 2
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 4
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 5
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 3
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 5
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 4
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 3
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 5
+      }
+    ],
+    "symptom:52e1c6ea-d38b-5842-a121-c526bd520463": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 3
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      }
+    ],
+    "symptom:562d526d-013f-542c-93e9-0dd0e0c75e6d": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      }
+    ],
+    "symptom:5f387bf7-cb81-5be7-968a-a255f0a4967b": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      }
+    ],
+    "symptom:5fb06d44-e415-56b4-83ec-de882f240fdd": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      }
+    ],
+    "symptom:6c707aae-31a4-55fe-81b5-f54d67f75959": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      }
+    ],
+    "symptom:6d738550-0735-5808-965d-2ee14afe1b38": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      }
+    ],
+    "symptom:73d82b2c-2bd6-5d02-b216-9ff3eaea9699": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      }
+    ],
+    "symptom:74316b91-912d-5855-bc4e-bf6b5d429a18": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      }
+    ],
+    "symptom:7d7e84f6-a4b9-5a52-9d03-bb66a302d88f": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      }
+    ],
+    "symptom:7dd0a7bb-ea7c-5606-ac9d-2b7a13e0680a": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 2
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 2
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 2
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      }
+    ],
+    "symptom:85bb1a5d-2676-5826-b0b4-9e8f578eaae2": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      }
+    ],
+    "symptom:869982b3-0660-5009-9340-aea886948791": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      }
+    ],
+    "symptom:8b999268-04df-573e-a4e5-4ec33cc60e22": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      }
+    ],
+    "symptom:8e8b39a9-8cf3-5581-873a-4ec2fbf995d4": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      }
+    ],
+    "symptom:901b1855-444e-5edf-b6f5-3403c8f4f5a0": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 2
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      }
+    ],
+    "symptom:93557d60-fe18-5369-af7b-8be48854f87e": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 2
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      }
+    ],
+    "symptom:941f447c-c1f2-5650-86a2-a8327ea69fd2": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      }
+    ],
+    "symptom:99a0f70f-34dc-538e-956c-a139d05c7168": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      }
+    ],
+    "symptom:9fdcdaab-6919-579a-9480-227ab4f01989": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 2
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 3
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 3
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 2
+      }
+    ],
+    "symptom:a3c3bfa8-9053-57b1-8025-ac0a5ce440ab": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      }
+    ],
+    "symptom:b97b5585-9759-5f54-8912-c96f8d794bcb": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      }
+    ],
+    "symptom:bbec37b1-1b89-58f4-aaf2-214943a25d60": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 3
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 2
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 2
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 2
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      }
+    ],
+    "symptom:bd400a76-a7b8-5eeb-9d51-66b9bf873d0a": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      }
+    ],
+    "symptom:bf15aa08-de7b-5837-9892-03014c51dbb0": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      }
+    ],
+    "symptom:c2a9d8f4-24a5-5765-8b49-46c091bfd280": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      }
+    ],
+    "symptom:c5ba84c7-ddcd-563b-8aa8-e95a3bffeee6": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 2
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 2
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 2
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 3
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 3
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      }
+    ],
+    "symptom:cd78cdf7-fe2c-5f54-afb6-13d8c889fe7f": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 4
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 2
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 2
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      }
+    ],
+    "symptom:d5710799-23f3-5a35-bd32-289763af0b59": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 7
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 6
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 5
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 4
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 5
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 6
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 7
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 5
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 5
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 5
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 2
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 6
+      }
+    ],
+    "symptom:da28ac95-d09a-5c08-a7b7-40c6a952cf75": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 2
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 2
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 2
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      }
+    ],
+    "symptom:e1a8c34c-db18-59f8-bab4-20ffcd0121ac": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      }
+    ],
+    "symptom:e44f94b0-9f78-59f8-a6ce-dac73645f054": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 3
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      }
+    ],
+    "symptom:e4ac9881-1e89-5b3c-b42c-2d6a252295c8": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      }
+    ],
+    "symptom:e817463c-237c-5580-903b-fd815e8098b5": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 2
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      }
+    ],
+    "symptom:e9af0b77-fd32-5442-9d9c-6aa92d207d74": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 2
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 2
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 2
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 3
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 3
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 3
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 2
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 2
+      }
+    ],
+    "symptom:ea07bb29-01c1-5340-912d-7dbd9277577e": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      }
+    ],
+    "symptom:ec265f48-26f6-5399-8b3f-7e7d0e10127b": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      }
+    ],
+    "symptom:ec770832-b72a-5e3b-9b14-dad0239254d7": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 2
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 4
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 4
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 2
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 5
+      }
+    ],
+    "symptom:ed31a629-6baf-539a-8fb5-51aa5b55aff1": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 1
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 2
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 2
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 2
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 2
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 3
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      }
+    ],
+    "symptom:f0c17843-c40a-5297-8253-f8dd864d7fb7": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      }
+    ],
+    "symptom:fcc1206c-92bb-5360-a7ee-bc925ec48a5d": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      }
+    ],
+    "symptom:fe2205b5-f601-5c4f-91d2-4e7db97dbabf": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      }
+    ],
+    "symptom:ff156e09-926f-5d02-8e1d-18e7d0e0b8cb": [
+      {
+        "week": "2026-08-24",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-08-31",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-07",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-14",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-21",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-09-28",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-05",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-12",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-19",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-10-26",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-02",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      },
+      {
+        "week": "2026-11-09",
+        "diary_days": 7,
+        "positive_mention_days": 0
+      }
+    ]
+  }
+}

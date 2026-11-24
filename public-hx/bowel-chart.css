@@ -1,0 +1,19 @@
+.bowel-chart{margin:1.1rem 0 1.4rem;padding:clamp(.8rem,2vw,1.35rem)}
+.bowel-chart>h2{margin:0 0 .5rem}.bowel-chart>p{max-width:75ch;font-size:.88rem}
+.bowel-toolbar,.bowel-period,.bowel-nav,.bowel-jump{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem}
+.bowel-toolbar{justify-content:space-between;margin:.7rem 0}.bowel-period{gap:0;border:1px solid var(--line);border-radius:6px;overflow:hidden}
+.bowel-period button{border:0;border-radius:0}.bowel-period button[aria-pressed=true]{background:var(--button-fill);color:var(--button-text);font-weight:700}
+#bowel-range{color:var(--muted);font-size:.82rem}
+.bowel-jump{margin:.4rem 0 .8rem}
+.bowel-scroll{max-width:100%;overflow-x:auto;overflow-y:hidden;border:1px solid var(--line);border-radius:5px;
+  overscroll-behavior-inline:contain;-webkit-overflow-scrolling:touch;touch-action:pan-x pan-y;
+  scrollbar-width:thin;scrollbar-color:var(--muted) transparent;scroll-padding-inline:4rem}
+#bowel-plot{width:max-content;min-height:270px}#bowel-plot svg{display:block;max-width:none}
+#bowel-plot svg text{font:11px var(--font);fill:var(--muted)}
+.bowel-grid{stroke:var(--line);stroke-width:1}.bowel-bar{fill:var(--accent)}
+.bowel-zero{fill:var(--muted)}.bowel-uncertain{stroke:var(--muted);stroke-width:2;fill:none}
+#bowel-plot [data-point]{cursor:pointer}#bowel-plot [data-point]:hover,#bowel-plot [data-point]:focus-visible,#bowel-plot .bowel-selected{filter:brightness(1.35)}
+.bowel-detail{min-height:2.6rem;padding:.5rem 0;border-bottom:1px solid var(--line);color:var(--muted)}
+.bowel-note{color:var(--muted);line-height:1.5}
+
+#bowel-plot svg .bowel-value-label{fill:var(--ink);font-size:11px;font-weight:750;paint-order:stroke;stroke:var(--paper);stroke-width:2px;pointer-events:none}

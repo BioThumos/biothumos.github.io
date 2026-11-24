@@ -1,0 +1,2717 @@
+{
+  "method": "Status intervals follow calendar boundaries. Medians use only available daily readings; sleep values are displayed as hours and minutes. PEM-family counts include crash-documented dates; weekly rates use documented diary dates per complete Monday--Sunday week with >=5 structured PEM-assessment or detailed timed diary dates; require >=3 qualified weeks. Sparse and partial weeks are excluded and the actual adequately tracked window is stated. Short, explicitly documented crash episodes can be described qualitatively. Rates do not estimate clinical attack incidence or missing periods. No interpolation. Dates of month-level milestones are approximated at month start.",
+  "items": [
+    {
+      "id": "interval-status-3",
+      "after": "context_cards:CTX-004",
+      "from": "2023-10-01",
+      "through": "2023-11-30",
+      "heading": "Oct 2023 \u2013 Nov 2023",
+      "metrics": [
+        {
+          "source": "watch_sleep",
+          "title": "Watch-measured sleep",
+          "value": "7 h 47 min/night",
+          "coverage": "29 measured nights",
+          "link": "wearable.html#chart-sleep",
+          "domain": "sleep",
+          "numeric": 467.0
+        },
+        {
+          "source": "watch_deep",
+          "title": "Deep sleep",
+          "value": "1 h 02 min/night",
+          "coverage": "29 staged nights",
+          "link": "wearable.html#chart-sleep",
+          "domain": "sleep",
+          "numeric": 62.0
+        },
+        {
+          "source": "heart_rate",
+          "title": "Sampled heart rate",
+          "value": "80 bpm",
+          "coverage": "30 measured days",
+          "link": "wearable.html",
+          "domain": "cardiovascular",
+          "numeric": 79.75
+        },
+        {
+          "source": "resting_heart_rate",
+          "title": "Resting heart rate",
+          "value": "72 bpm",
+          "coverage": "30 measured days",
+          "link": "wearable.html",
+          "domain": "cardiovascular",
+          "numeric": 71.5
+        },
+        {
+          "source": "hrv_sdnn",
+          "title": "HRV \u00b7 SDNN",
+          "value": "31.2 ms",
+          "coverage": "30 measured days",
+          "link": "wearable.html",
+          "domain": "cardiovascular",
+          "numeric": 31.21985
+        },
+        {
+          "source": "sleeping_wrist_temperature",
+          "title": "Wrist skin temperature",
+          "value": "35.56 \u00b0C",
+          "coverage": "8 measured days",
+          "link": "wearable.html",
+          "domain": "cardiovascular",
+          "numeric": 35.5594
+        }
+      ],
+      "domains": [
+        {
+          "key": "function",
+          "label": "Function & symptoms",
+          "metrics": []
+        },
+        {
+          "key": "sleep",
+          "label": "Sleep",
+          "metrics": [
+            {
+              "source": "watch_sleep",
+              "title": "Watch-measured sleep",
+              "value": "7 h 47 min/night",
+              "coverage": "29 measured nights",
+              "link": "wearable.html#chart-sleep",
+              "domain": "sleep",
+              "numeric": 467.0
+            },
+            {
+              "source": "watch_deep",
+              "title": "Deep sleep",
+              "value": "1 h 02 min/night",
+              "coverage": "29 staged nights",
+              "link": "wearable.html#chart-sleep",
+              "domain": "sleep",
+              "numeric": 62.0
+            }
+          ]
+        },
+        {
+          "key": "cardiovascular",
+          "label": "Heart & HRV",
+          "metrics": [
+            {
+              "source": "heart_rate",
+              "title": "Sampled heart rate",
+              "value": "80 bpm",
+              "coverage": "30 measured days",
+              "link": "wearable.html",
+              "domain": "cardiovascular",
+              "numeric": 79.75
+            },
+            {
+              "source": "resting_heart_rate",
+              "title": "Resting heart rate",
+              "value": "72 bpm",
+              "coverage": "30 measured days",
+              "link": "wearable.html",
+              "domain": "cardiovascular",
+              "numeric": 71.5
+            },
+            {
+              "source": "hrv_sdnn",
+              "title": "HRV \u00b7 SDNN",
+              "value": "31.2 ms",
+              "coverage": "30 measured days",
+              "link": "wearable.html",
+              "domain": "cardiovascular",
+              "numeric": 31.21985
+            },
+            {
+              "source": "sleeping_wrist_temperature",
+              "title": "Wrist skin temperature",
+              "value": "35.56 \u00b0C",
+              "coverage": "8 measured days",
+              "link": "wearable.html",
+              "domain": "cardiovascular",
+              "numeric": 35.5594
+            }
+          ]
+        },
+        {
+          "key": "bowel",
+          "label": "Bowels",
+          "metrics": []
+        }
+      ]
+    },
+    {
+      "id": "interval-status-4",
+      "after": "context_cards:CTX-006",
+      "from": "2023-12-01",
+      "through": "2024-01-31",
+      "heading": "Dec 2023 \u2013 Jan 2024",
+      "metrics": [
+        {
+          "source": "watch_sleep",
+          "title": "Watch-measured sleep",
+          "value": "8 h 18 min/night",
+          "coverage": "59 measured nights",
+          "link": "wearable.html#chart-sleep",
+          "domain": "sleep",
+          "numeric": 498.0
+        },
+        {
+          "source": "watch_deep",
+          "title": "Deep sleep",
+          "value": "57 min/night",
+          "coverage": "59 staged nights",
+          "link": "wearable.html#chart-sleep",
+          "domain": "sleep",
+          "numeric": 57.0
+        },
+        {
+          "source": "heart_rate",
+          "title": "Sampled heart rate",
+          "value": "75 bpm",
+          "coverage": "62 measured days",
+          "link": "wearable.html",
+          "domain": "cardiovascular",
+          "numeric": 75.0
+        },
+        {
+          "source": "resting_heart_rate",
+          "title": "Resting heart rate",
+          "value": "69 bpm",
+          "coverage": "61 measured days",
+          "link": "wearable.html",
+          "domain": "cardiovascular",
+          "numeric": 69.0
+        },
+        {
+          "source": "hrv_sdnn",
+          "title": "HRV \u00b7 SDNN",
+          "value": "31.2 ms",
+          "coverage": "62 measured days",
+          "link": "wearable.html",
+          "domain": "cardiovascular",
+          "numeric": 31.1788
+        },
+        {
+          "source": "sleeping_wrist_temperature",
+          "title": "Wrist skin temperature",
+          "value": "35.87 \u00b0C",
+          "coverage": "55 measured days",
+          "link": "wearable.html",
+          "domain": "cardiovascular",
+          "numeric": 35.8741
+        }
+      ],
+      "domains": [
+        {
+          "key": "function",
+          "label": "Function & symptoms",
+          "metrics": []
+        },
+        {
+          "key": "sleep",
+          "label": "Sleep",
+          "metrics": [
+            {
+              "source": "watch_sleep",
+              "title": "Watch-measured sleep",
+              "value": "8 h 18 min/night",
+              "coverage": "59 measured nights",
+              "link": "wearable.html#chart-sleep",
+              "domain": "sleep",
+              "numeric": 498.0
+            },
+            {
+              "source": "watch_deep",
+              "title": "Deep sleep",
+              "value": "57 min/night",
+              "coverage": "59 staged nights",
+              "link": "wearable.html#chart-sleep",
+              "domain": "sleep",
+              "numeric": 57.0
+            }
+          ]
+        },
+        {
+          "key": "cardiovascular",
+          "label": "Heart & HRV",
+          "metrics": [
+            {
+              "source": "heart_rate",
+              "title": "Sampled heart rate",
+              "value": "75 bpm",
+              "coverage": "62 measured days",
+              "link": "wearable.html",
+              "domain": "cardiovascular",
+              "numeric": 75.0
+            },
+            {
+              "source": "resting_heart_rate",
+              "title": "Resting heart rate",
+              "value": "69 bpm",
+              "coverage": "61 measured days",
+              "link": "wearable.html",
+              "domain": "cardiovascular",
+              "numeric": 69.0
+            },
+            {
+              "source": "hrv_sdnn",
+              "title": "HRV \u00b7 SDNN",
+              "value": "31.2 ms",
+              "coverage": "62 measured days",
+              "link": "wearable.html",
+              "domain": "cardiovascular",
+              "numeric": 31.1788
+            },
+            {
+              "source": "sleeping_wrist_temperature",
+              "title": "Wrist skin temperature",
+              "value": "35.87 \u00b0C",
+              "coverage": "55 measured days",
+              "link": "wearable.html",
+              "domain": "cardiovascular",
+              "numeric": 35.8741
+            }
+          ]
+        },
+        {
+          "key": "bowel",
+          "label": "Bowels",
+          "metrics": []
+        }
+      ]
+    },
+    {
+      "id": "interval-status-5",
+      "after": "clinical_summary:maraviroc-atorvastatin",
+      "from": "2024-02-01",
+      "through": "2024-04-16",
+      "heading": "01 Feb 2024 \u2013 16 Apr 2024",
+      "metrics": [
+        {
+          "source": "watch_sleep",
+          "title": "Watch-measured sleep",
+          "value": "8 h 46 min/night",
+          "coverage": "74 measured nights",
+          "link": "wearable.html#chart-sleep",
+          "domain": "sleep",
+          "numeric": 525.5
+        },
+        {
+          "source": "watch_deep",
+          "title": "Deep sleep",
+          "value": "56 min/night",
+          "coverage": "74 staged nights",
+          "link": "wearable.html#chart-sleep",
+          "domain": "sleep",
+          "numeric": 56.0
+        },
+        {
+          "source": "heart_rate",
+          "title": "Sampled heart rate",
+          "value": "75 bpm",
+          "coverage": "76 measured days",
+          "link": "wearable.html",
+          "domain": "cardiovascular",
+          "numeric": 75.0
+        },
+        {
+          "source": "resting_heart_rate",
+          "title": "Resting heart rate",
+          "value": "70 bpm",
+          "coverage": "75 measured days",
+          "link": "wearable.html",
+          "domain": "cardiovascular",
+          "numeric": 70.0
+        },
+        {
+          "source": "hrv_sdnn",
+          "title": "HRV \u00b7 SDNN",
+          "value": "33.7 ms",
+          "coverage": "76 measured days",
+          "link": "wearable.html",
+          "domain": "cardiovascular",
+          "numeric": 33.7021
+        },
+        {
+          "source": "sleeping_wrist_temperature",
+          "title": "Wrist skin temperature",
+          "value": "36.02 \u00b0C",
+          "coverage": "60 measured days",
+          "link": "wearable.html",
+          "domain": "cardiovascular",
+          "numeric": 36.01545
+        }
+      ],
+      "domains": [
+        {
+          "key": "function",
+          "label": "Function & symptoms",
+          "metrics": []
+        },
+        {
+          "key": "sleep",
+          "label": "Sleep",
+          "metrics": [
+            {
+              "source": "watch_sleep",
+              "title": "Watch-measured sleep",
+              "value": "8 h 46 min/night",
+              "coverage": "74 measured nights",
+              "link": "wearable.html#chart-sleep",
+              "domain": "sleep",
+              "numeric": 525.5
+            },
+            {
+              "source": "watch_deep",
+              "title": "Deep sleep",
+              "value": "56 min/night",
+              "coverage": "74 staged nights",
+              "link": "wearable.html#chart-sleep",
+              "domain": "sleep",
+              "numeric": 56.0
+            }
+          ]
+        },
+        {
+          "key": "cardiovascular",
+          "label": "Heart & HRV",
+          "metrics": [
+            {
+              "source": "heart_rate",
+              "title": "Sampled heart rate",
+              "value": "75 bpm",
+              "coverage": "76 measured days",
+              "link": "wearable.html",
+              "domain": "cardiovascular",
+              "numeric": 75.0
+            },
+            {
+              "source": "resting_heart_rate",
+              "title": "Resting heart rate",
+              "value": "70 bpm",
+              "coverage": "75 measured days",
+              "link": "wearable.html",
+              "domain": "cardiovascular",
+              "numeric": 70.0
+            },
+            {
+              "source": "hrv_sdnn",
+              "title": "HRV \u00b7 SDNN",
+              "value": "33.7 ms",
+              "coverage": "76 measured days",
+              "link": "wearable.html",
+              "domain": "cardiovascular",
+              "numeric": 33.7021
+            },
+            {
+              "source": "sleeping_wrist_temperature",
+              "title": "Wrist skin temperature",
+              "value": "36.02 \u00b0C",
+              "coverage": "60 measured days",
+              "link": "wearable.html",
+              "domain": "cardiovascular",
+              "numeric": 36.01545
+            }
+          ]
+        },
+        {
+          "key": "bowel",
+          "label": "Bowels",
+          "metrics": []
+        }
+      ]
+    },
+    {
+      "id": "interval-status-6",
+      "after": "clinical_summary:liposomal-protocol",
+      "from": "2024-04-17",
+      "through": "2024-06-30",
+      "heading": "17 Apr 2024 \u2013 30 Jun 2024",
+      "metrics": [
+        {
+          "source": "score",
+          "title": "Overall daily rating",
+          "value": "3.00 / 10",
+          "coverage": "29 rated days",
+          "link": "scores.html",
+          "domain": "function",
+          "numeric": 3.0
+        },
+        {
+          "source": "watch_sleep",
+          "title": "Watch-measured sleep",
+          "value": "8 h 13 min/night",
+          "coverage": "72 measured nights",
+          "link": "wearable.html#chart-sleep",
+          "domain": "sleep",
+          "numeric": 493.0
+        },
+        {
+          "source": "watch_deep",
+          "title": "Deep sleep",
+          "value": "54 min/night",
+          "coverage": "72 staged nights",
+          "link": "wearable.html#chart-sleep",
+          "domain": "sleep",
+          "numeric": 53.5
+        },
+        {
+          "source": "heart_rate",
+          "title": "Sampled heart rate",
+          "value": "78 bpm",
+          "coverage": "75 measured days",
+          "link": "wearable.html",
+          "domain": "cardiovascular",
+          "numeric": 78.0
+        },
+        {
+          "source": "resting_heart_rate",
+          "title": "Resting heart rate",
+          "value": "70 bpm",
+          "coverage": "71 measured days",
+          "link": "wearable.html",
+          "domain": "cardiovascular",
+          "numeric": 70.0
+        },
+        {
+          "source": "hrv_sdnn",
+          "title": "HRV \u00b7 SDNN",
+          "value": "36.6 ms",
+          "coverage": "75 measured days",
+          "link": "wearable.html",
+          "domain": "cardiovascular",
+          "numeric": 36.58
+        },
+        {
+          "source": "sleeping_wrist_temperature",
+          "title": "Wrist skin temperature",
+          "value": "35.73 \u00b0C",
+          "coverage": "72 measured days",
+          "link": "wearable.html",
+          "domain": "cardiovascular",
+          "numeric": 35.732
+        }
+      ],
+      "domains": [
+        {
+          "key": "function",
+          "label": "Function & symptoms",
+          "metrics": [
+            {
+              "source": "score",
+              "title": "Overall daily rating",
+              "value": "3.00 / 10",
+              "coverage": "29 rated days",
+              "link": "scores.html",
+              "domain": "function",
+              "numeric": 3.0
+            }
+          ]
+        },
+        {
+          "key": "sleep",
+          "label": "Sleep",
+          "metrics": [
+            {
+              "source": "watch_sleep",
+              "title": "Watch-measured sleep",
+              "value": "8 h 13 min/night",
+              "coverage": "72 measured nights",
+              "link": "wearable.html#chart-sleep",
+              "domain": "sleep",
+              "numeric": 493.0
+            },
+            {
+              "source": "watch_deep",
+              "title": "Deep sleep",
+              "value": "54 min/night",
+              "coverage": "72 staged nights",
+              "link": "wearable.html#chart-sleep",
+              "domain": "sleep",
+              "numeric": 53.5
+            }
+          ]
+        },
+        {
+          "key": "cardiovascular",
+          "label": "Heart & HRV",
+          "metrics": [
+            {
+              "source": "heart_rate",
+              "title": "Sampled heart rate",
+              "value": "78 bpm",
+              "coverage": "75 measured days",
+              "link": "wearable.html",
+              "domain": "cardiovascular",
+              "numeric": 78.0
+            },
+            {
+              "source": "resting_heart_rate",
+              "title": "Resting heart rate",
+              "value": "70 bpm",
+              "coverage": "71 measured days",
+              "link": "wearable.html",
+              "domain": "cardiovascular",
+              "numeric": 70.0
+            },
+            {
+              "source": "hrv_sdnn",
+              "title": "HRV \u00b7 SDNN",
+              "value": "36.6 ms",
+              "coverage": "75 measured days",
+              "link": "wearable.html",
+              "domain": "cardiovascular",
+              "numeric": 36.58
+            },
+            {
+              "source": "sleeping_wrist_temperature",
+              "title": "Wrist skin temperature",
+              "value": "35.73 \u00b0C",
+              "coverage": "72 measured days",
+              "link": "wearable.html",
+              "domain": "cardiovascular",
+              "numeric": 35.732
+            }
+          ]
+        },
+        {
+          "key": "bowel",
+          "label": "Bowels",
+          "metrics": []
+        }
+      ]
+    },
+    {
+      "id": "interval-status-7",
+      "after": "context_cards:CTX-026",
+      "from": "2024-07-01",
+      "through": "2024-10-19",
+      "heading": "01 Jul 2024 \u2013 19 Oct 2024",
+      "metrics": [
+        {
+          "source": "score",
+          "title": "Overall daily rating",
+          "value": "4.00 / 10",
+          "coverage": "111 rated days",
+          "link": "scores.html",
+          "domain": "function",
+          "numeric": 4.0,
+          "change": {
+            "direction": "improvement",
+            "delta": "+1.00 points",
+            "comparison": "Change versus the immediately preceding observed interval; recording coverage differs"
+          }
+        },
+        {
+          "source": "watch_sleep",
+          "title": "Watch-measured sleep",
+          "value": "7 h 42 min/night",
+          "coverage": "109 measured nights",
+          "link": "wearable.html#chart-sleep",
+          "domain": "sleep",
+          "numeric": 461.5
+        },
+        {
+          "source": "watch_deep",
+          "title": "Deep sleep",
+          "value": "57 min/night",
+          "coverage": "109 staged nights",
+          "link": "wearable.html#chart-sleep",
+          "domain": "sleep",
+          "numeric": 57.0
+        },
+        {
+          "source": "heart_rate",
+          "title": "Sampled heart rate",
+          "value": "79 bpm",
+          "coverage": "111 measured days",
+          "link": "wearable.html",
+          "domain": "cardiovascular",
+          "numeric": 79.0
+        },
+        {
+          "source": "resting_heart_rate",
+          "title": "Resting heart rate",
+          "value": "71 bpm",
+          "coverage": "101 measured days",
+          "link": "wearable.html",
+          "domain": "cardiovascular",
+          "numeric": 71.0
+        },
+        {
+          "source": "hrv_sdnn",
+          "title": "HRV \u00b7 SDNN",
+          "value": "30.5 ms",
+          "coverage": "111 measured days",
+          "link": "wearable.html",
+          "domain": "cardiovascular",
+          "numeric": 30.4563
+        },
+        {
+          "source": "sleeping_wrist_temperature",
+          "title": "Wrist skin temperature",
+          "value": "35.55 \u00b0C",
+          "coverage": "109 measured days",
+          "link": "wearable.html",
+          "domain": "cardiovascular",
+          "numeric": 35.5464
+        }
+      ],
+      "domains": [
+        {
+          "key": "function",
+          "label": "Function & symptoms",
+          "metrics": [
+            {
+              "source": "score",
+              "title": "Overall daily rating",
+              "value": "4.00 / 10",
+              "coverage": "111 rated days",
+              "link": "scores.html",
+              "domain": "function",
+              "numeric": 4.0,
+              "change": {
+                "direction": "improvement",
+                "delta": "+1.00 points",
+                "comparison": "Change versus the immediately preceding observed interval; recording coverage differs"
+              }
+            }
+          ]
+        },
+        {
+          "key": "sleep",
+          "label": "Sleep",
+          "metrics": [
+            {
+              "source": "watch_sleep",
+              "title": "Watch-measured sleep",
+              "value": "7 h 42 min/night",
+              "coverage": "109 measured nights",
+              "link": "wearable.html#chart-sleep",
+              "domain": "sleep",
+              "numeric": 461.5
+            },
+            {
+              "source": "watch_deep",
+              "title": "Deep sleep",
+              "value": "57 min/night",
+              "coverage": "109 staged nights",
+              "link": "wearable.html#chart-sleep",
+              "domain": "sleep",
+              "numeric": 57.0
+            }
+          ]
+        },
+        {
+          "key": "cardiovascular",
+          "label": "Heart & HRV",
+          "metrics": [
+            {
+              "source": "heart_rate",
+              "title": "Sampled heart rate",
+              "value": "79 bpm",
+              "coverage": "111 measured days",
+              "link": "wearable.html",
+              "domain": "cardiovascular",
+              "numeric": 79.0
+            },
+            {
+              "source": "resting_heart_rate",
+              "title": "Resting heart rate",
+              "value": "71 bpm",
+              "coverage": "101 measured days",
+              "link": "wearable.html",
+              "domain": "cardiovascular",
+              "numeric": 71.0
+            },
+            {
+              "source": "hrv_sdnn",
+              "title": "HRV \u00b7 SDNN",
+              "value": "30.5 ms",
+              "coverage": "111 measured days",
+              "link": "wearable.html",
+              "domain": "cardiovascular",
+              "numeric": 30.4563
+            },
+            {
+              "source": "sleeping_wrist_temperature",
+              "title": "Wrist skin temperature",
+              "value": "35.55 \u00b0C",
+              "coverage": "109 measured days",
+              "link": "wearable.html",
+              "domain": "cardiovascular",
+              "numeric": 35.5464
+            }
+          ]
+        },
+        {
+          "key": "bowel",
+          "label": "Bowels",
+          "metrics": []
+        }
+      ]
+    },
+    {
+      "id": "interval-status-8",
+      "after": "context_cards:CTX-007",
+      "from": "2024-10-20",
+      "through": "2025-03-24",
+      "heading": "20 Oct 2024 \u2013 24 Mar 2025",
+      "metrics": [
+        {
+          "source": "score",
+          "title": "Overall daily rating",
+          "value": "2.00 / 10",
+          "coverage": "60 rated days",
+          "link": "scores.html",
+          "domain": "function",
+          "numeric": 2.0,
+          "change": {
+            "direction": "decline",
+            "delta": "-2.00 points",
+            "comparison": "Change versus the immediately preceding observed interval; recording coverage differs"
+          }
+        },
+        {
+          "source": "watch_sleep",
+          "title": "Watch-measured sleep",
+          "value": "7 h 46 min/night",
+          "coverage": "151 measured nights",
+          "link": "wearable.html#chart-sleep",
+          "domain": "sleep",
+          "numeric": 466.5
+        },
+        {
+          "source": "watch_deep",
+          "title": "Deep sleep",
+          "value": "1 h/night",
+          "coverage": "151 staged nights",
+          "link": "wearable.html#chart-sleep",
+          "domain": "sleep",
+          "numeric": 59.5
+        },
+        {
+          "source": "heart_rate",
+          "title": "Sampled heart rate",
+          "value": "79 bpm",
+          "coverage": "156 measured days",
+          "link": "wearable.html",
+          "domain": "cardiovascular",
+          "numeric": 79.0
+        },
+        {
+          "source": "resting_heart_rate",
+          "title": "Resting heart rate",
+          "value": "73 bpm",
+          "coverage": "153 measured days",
+          "link": "wearable.html",
+          "domain": "cardiovascular",
+          "numeric": 73.0
+        },
+        {
+          "source": "hrv_sdnn",
+          "title": "HRV \u00b7 SDNN",
+          "value": "31.7 ms",
+          "coverage": "156 measured days",
+          "link": "wearable.html",
+          "domain": "cardiovascular",
+          "numeric": 31.7056
+        },
+        {
+          "source": "sleeping_wrist_temperature",
+          "title": "Wrist skin temperature",
+          "value": "35.68 \u00b0C",
+          "coverage": "147 measured days",
+          "link": "wearable.html",
+          "domain": "cardiovascular",
+          "numeric": 35.6834
+        },
+        {
+          "source": "bowel",
+          "title": "Recorded bowel movements",
+          "value": "1.20 / diary day",
+          "coverage": "64 countable diary days",
+          "link": "bowels.html#bowel-chart",
+          "domain": "bowel",
+          "numeric": 1.203125
+        },
+        {
+          "source": "pem",
+          "title": "PEM-family documented days",
+          "value": "6.2 days / tracked week",
+          "coverage": "50 dates in 8 qualifying weeks (27 Jan 2025\u201323 Mar 2025); 22 complete weeks in interval. Mentions, not attack counts",
+          "link": "pem-patterns.html",
+          "domain": "function",
+          "numeric": 6.25
+        },
+        {
+          "source": "crash",
+          "title": "Crash-documented days",
+          "value": "4.8 days / tracked week",
+          "coverage": "38 dates in 8 qualifying weeks (27 Jan 2025\u201323 Mar 2025); 22 complete weeks in interval. Mentions, not attack counts",
+          "link": "symptoms.html#symptom:bbec37b1-1b89-58f4-aaf2-214943a25d60",
+          "domain": "function",
+          "numeric": 4.75
+        }
+      ],
+      "domains": [
+        {
+          "key": "function",
+          "label": "Function & symptoms",
+          "metrics": [
+            {
+              "source": "score",
+              "title": "Overall daily rating",
+              "value": "2.00 / 10",
+              "coverage": "60 rated days",
+              "link": "scores.html",
+              "domain": "function",
+              "numeric": 2.0,
+              "change": {
+                "direction": "decline",
+                "delta": "-2.00 points",
+                "comparison": "Change versus the immediately preceding observed interval; recording coverage differs"
+              }
+            },
+            {
+              "source": "pem",
+              "title": "PEM-family documented days",
+              "value": "6.2 days / tracked week",
+              "coverage": "50 dates in 8 qualifying weeks (27 Jan 2025\u201323 Mar 2025); 22 complete weeks in interval. Mentions, not attack counts",
+              "link": "pem-patterns.html",
+              "domain": "function",
+              "numeric": 6.25
+            },
+            {
+              "source": "crash",
+              "title": "Crash-documented days",
+              "value": "4.8 days / tracked week",
+              "coverage": "38 dates in 8 qualifying weeks (27 Jan 2025\u201323 Mar 2025); 22 complete weeks in interval. Mentions, not attack counts",
+              "link": "symptoms.html#symptom:bbec37b1-1b89-58f4-aaf2-214943a25d60",
+              "domain": "function",
+              "numeric": 4.75
+            }
+          ]
+        },
+        {
+          "key": "sleep",
+          "label": "Sleep",
+          "metrics": [
+            {
+              "source": "watch_sleep",
+              "title": "Watch-measured sleep",
+              "value": "7 h 46 min/night",
+              "coverage": "151 measured nights",
+              "link": "wearable.html#chart-sleep",
+              "domain": "sleep",
+              "numeric": 466.5
+            },
+            {
+              "source": "watch_deep",
+              "title": "Deep sleep",
+              "value": "1 h/night",
+              "coverage": "151 staged nights",
+              "link": "wearable.html#chart-sleep",
+              "domain": "sleep",
+              "numeric": 59.5
+            }
+          ]
+        },
+        {
+          "key": "cardiovascular",
+          "label": "Heart & HRV",
+          "metrics": [
+            {
+              "source": "heart_rate",
+              "title": "Sampled heart rate",
+              "value": "79 bpm",
+              "coverage": "156 measured days",
+              "link": "wearable.html",
+              "domain": "cardiovascular",
+              "numeric": 79.0
+            },
+            {
+              "source": "resting_heart_rate",
+              "title": "Resting heart rate",
+              "value": "73 bpm",
+              "coverage": "153 measured days",
+              "link": "wearable.html",
+              "domain": "cardiovascular",
+              "numeric": 73.0
+            },
+            {
+              "source": "hrv_sdnn",
+              "title": "HRV \u00b7 SDNN",
+              "value": "31.7 ms",
+              "coverage": "156 measured days",
+              "link": "wearable.html",
+              "domain": "cardiovascular",
+              "numeric": 31.7056
+            },
+            {
+              "source": "sleeping_wrist_temperature",
+              "title": "Wrist skin temperature",
+              "value": "35.68 \u00b0C",
+              "coverage": "147 measured days",
+              "link": "wearable.html",
+              "domain": "cardiovascular",
+              "numeric": 35.6834
+            }
+          ]
+        },
+        {
+          "key": "bowel",
+          "label": "Bowels",
+          "metrics": [
+            {
+              "source": "bowel",
+              "title": "Recorded bowel movements",
+              "value": "1.20 / diary day",
+              "coverage": "64 countable diary days",
+              "link": "bowels.html#bowel-chart",
+              "domain": "bowel",
+              "numeric": 1.203125
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "interval-status-9",
+      "after": "context_cards:CTX-013",
+      "from": "2025-03-25",
+      "through": "2025-04-07",
+      "heading": "25 Mar 2025 \u2013 07 Apr 2025",
+      "metrics": [
+        {
+          "source": "score",
+          "title": "Overall daily rating",
+          "value": "1.50 / 10",
+          "coverage": "11 rated days",
+          "link": "scores.html",
+          "domain": "function",
+          "numeric": 1.5,
+          "change": {
+            "direction": "decline",
+            "delta": "-0.50 points",
+            "comparison": "Change versus the immediately preceding observed interval; recording coverage differs"
+          }
+        },
+        {
+          "source": "watch_sleep",
+          "title": "Watch-measured sleep",
+          "value": "8 h 14 min/night",
+          "coverage": "13 measured nights",
+          "link": "wearable.html#chart-sleep",
+          "domain": "sleep",
+          "numeric": 494.0
+        },
+        {
+          "source": "watch_deep",
+          "title": "Deep sleep",
+          "value": "56 min/night",
+          "coverage": "13 staged nights",
+          "link": "wearable.html#chart-sleep",
+          "domain": "sleep",
+          "numeric": 56.0
+        },
+        {
+          "source": "heart_rate",
+          "title": "Sampled heart rate",
+          "value": "72 bpm",
+          "coverage": "14 measured days",
+          "link": "wearable.html",
+          "domain": "cardiovascular",
+          "numeric": 72.0
+        },
+        {
+          "source": "resting_heart_rate",
+          "title": "Resting heart rate",
+          "value": "71 bpm",
+          "coverage": "13 measured days",
+          "link": "wearable.html",
+          "domain": "cardiovascular",
+          "numeric": 71.0
+        },
+        {
+          "source": "hrv_sdnn",
+          "title": "HRV \u00b7 SDNN",
+          "value": "37.6 ms",
+          "coverage": "14 measured days",
+          "link": "wearable.html",
+          "domain": "cardiovascular",
+          "numeric": 37.638099999999994
+        },
+        {
+          "source": "sleeping_wrist_temperature",
+          "title": "Wrist skin temperature",
+          "value": "35.48 \u00b0C",
+          "coverage": "13 measured days",
+          "link": "wearable.html",
+          "domain": "cardiovascular",
+          "numeric": 35.4816
+        },
+        {
+          "source": "bowel",
+          "title": "Recorded bowel movements",
+          "value": "1.08 / diary day",
+          "coverage": "12 countable diary days",
+          "link": "bowels.html#bowel-chart",
+          "domain": "bowel",
+          "numeric": 1.0833333333333333
+        }
+      ],
+      "domains": [
+        {
+          "key": "function",
+          "label": "Function & symptoms",
+          "metrics": [
+            {
+              "source": "score",
+              "title": "Overall daily rating",
+              "value": "1.50 / 10",
+              "coverage": "11 rated days",
+              "link": "scores.html",
+              "domain": "function",
+              "numeric": 1.5,
+              "change": {
+                "direction": "decline",
+                "delta": "-0.50 points",
+                "comparison": "Change versus the immediately preceding observed interval; recording coverage differs"
+              }
+            }
+          ]
+        },
+        {
+          "key": "sleep",
+          "label": "Sleep",
+          "metrics": [
+            {
+              "source": "watch_sleep",
+              "title": "Watch-measured sleep",
+              "value": "8 h 14 min/night",
+              "coverage": "13 measured nights",
+              "link": "wearable.html#chart-sleep",
+              "domain": "sleep",
+              "numeric": 494.0
+            },
+            {
+              "source": "watch_deep",
+              "title": "Deep sleep",
+              "value": "56 min/night",
+              "coverage": "13 staged nights",
+              "link": "wearable.html#chart-sleep",
+              "domain": "sleep",
+              "numeric": 56.0
+            }
+          ]
+        },
+        {
+          "key": "cardiovascular",
+          "label": "Heart & HRV",
+          "metrics": [
+            {
+              "source": "heart_rate",
+              "title": "Sampled heart rate",
+              "value": "72 bpm",
+              "coverage": "14 measured days",
+              "link": "wearable.html",
+              "domain": "cardiovascular",
+              "numeric": 72.0
+            },
+            {
+              "source": "resting_heart_rate",
+              "title": "Resting heart rate",
+              "value": "71 bpm",
+              "coverage": "13 measured days",
+              "link": "wearable.html",
+              "domain": "cardiovascular",
+              "numeric": 71.0
+            },
+            {
+              "source": "hrv_sdnn",
+              "title": "HRV \u00b7 SDNN",
+              "value": "37.6 ms",
+              "coverage": "14 measured days",
+              "link": "wearable.html",
+              "domain": "cardiovascular",
+              "numeric": 37.638099999999994
+            },
+            {
+              "source": "sleeping_wrist_temperature",
+              "title": "Wrist skin temperature",
+              "value": "35.48 \u00b0C",
+              "coverage": "13 measured days",
+              "link": "wearable.html",
+              "domain": "cardiovascular",
+              "numeric": 35.4816
+            }
+          ]
+        },
+        {
+          "key": "bowel",
+          "label": "Bowels",
+          "metrics": [
+            {
+              "source": "bowel",
+              "title": "Recorded bowel movements",
+              "value": "1.08 / diary day",
+              "coverage": "12 countable diary days",
+              "link": "bowels.html#bowel-chart",
+              "domain": "bowel",
+              "numeric": 1.0833333333333333
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "interval-status-10",
+      "after": "clinical_summary:ivabradine-response",
+      "from": "2025-04-08",
+      "through": "2025-06-20",
+      "heading": "08 Apr 2025 \u2013 20 Jun 2025",
+      "metrics": [
+        {
+          "source": "score",
+          "title": "Overall daily rating",
+          "value": "1.70 / 10",
+          "coverage": "66 rated days",
+          "link": "scores.html",
+          "domain": "function",
+          "numeric": 1.7
+        },
+        {
+          "source": "watch_sleep",
+          "title": "Watch-measured sleep",
+          "value": "8 h 22 min/night",
+          "coverage": "74 measured nights",
+          "link": "wearable.html#chart-sleep",
+          "domain": "sleep",
+          "numeric": 502.25
+        },
+        {
+          "source": "watch_deep",
+          "title": "Deep sleep",
+          "value": "56 min/night",
+          "coverage": "74 staged nights",
+          "link": "wearable.html#chart-sleep",
+          "domain": "sleep",
+          "numeric": 56.25
+        },
+        {
+          "source": "heart_rate",
+          "title": "Sampled heart rate",
+          "value": "66 bpm",
+          "coverage": "74 measured days",
+          "link": "wearable.html",
+          "domain": "cardiovascular",
+          "numeric": 65.81909999999999
+        },
+        {
+          "source": "resting_heart_rate",
+          "title": "Resting heart rate",
+          "value": "62 bpm",
+          "coverage": "74 measured days",
+          "link": "wearable.html",
+          "domain": "cardiovascular",
+          "numeric": 62.0
+        },
+        {
+          "source": "hrv_sdnn",
+          "title": "HRV \u00b7 SDNN",
+          "value": "43.2 ms",
+          "coverage": "74 measured days",
+          "link": "wearable.html",
+          "domain": "cardiovascular",
+          "numeric": 43.21605
+        },
+        {
+          "source": "sleeping_wrist_temperature",
+          "title": "Wrist skin temperature",
+          "value": "35.40 \u00b0C",
+          "coverage": "74 measured days",
+          "link": "wearable.html",
+          "domain": "cardiovascular",
+          "numeric": 35.3951
+        },
+        {
+          "source": "bowel",
+          "title": "Recorded bowel movements",
+          "value": "0.77 / diary day",
+          "coverage": "65 countable diary days",
+          "link": "bowels.html#bowel-chart",
+          "domain": "bowel",
+          "numeric": 0.7692307692307693
+        },
+        {
+          "source": "pem",
+          "title": "PEM-family documented days",
+          "value": "6.0 days / tracked week",
+          "coverage": "48 dates in 8 qualifying weeks (14 Apr 2025\u201315 Jun 2025); 9 complete weeks in interval. Mentions, not attack counts",
+          "link": "pem-patterns.html",
+          "domain": "function",
+          "numeric": 6.0
+        },
+        {
+          "source": "crash",
+          "title": "Crash-documented days",
+          "value": "1.8 days / tracked week",
+          "coverage": "14 dates in 8 qualifying weeks (14 Apr 2025\u201315 Jun 2025); 9 complete weeks in interval. Mentions, not attack counts",
+          "link": "symptoms.html#symptom:bbec37b1-1b89-58f4-aaf2-214943a25d60",
+          "domain": "function",
+          "numeric": 1.75
+        }
+      ],
+      "domains": [
+        {
+          "key": "function",
+          "label": "Function & symptoms",
+          "metrics": [
+            {
+              "source": "score",
+              "title": "Overall daily rating",
+              "value": "1.70 / 10",
+              "coverage": "66 rated days",
+              "link": "scores.html",
+              "domain": "function",
+              "numeric": 1.7
+            },
+            {
+              "source": "pem",
+              "title": "PEM-family documented days",
+              "value": "6.0 days / tracked week",
+              "coverage": "48 dates in 8 qualifying weeks (14 Apr 2025\u201315 Jun 2025); 9 complete weeks in interval. Mentions, not attack counts",
+              "link": "pem-patterns.html",
+              "domain": "function",
+              "numeric": 6.0
+            },
+            {
+              "source": "crash",
+              "title": "Crash-documented days",
+              "value": "1.8 days / tracked week",
+              "coverage": "14 dates in 8 qualifying weeks (14 Apr 2025\u201315 Jun 2025); 9 complete weeks in interval. Mentions, not attack counts",
+              "link": "symptoms.html#symptom:bbec37b1-1b89-58f4-aaf2-214943a25d60",
+              "domain": "function",
+              "numeric": 1.75
+            }
+          ]
+        },
+        {
+          "key": "sleep",
+          "label": "Sleep",
+          "metrics": [
+            {
+              "source": "watch_sleep",
+              "title": "Watch-measured sleep",
+              "value": "8 h 22 min/night",
+              "coverage": "74 measured nights",
+              "link": "wearable.html#chart-sleep",
+              "domain": "sleep",
+              "numeric": 502.25
+            },
+            {
+              "source": "watch_deep",
+              "title": "Deep sleep",
+              "value": "56 min/night",
+              "coverage": "74 staged nights",
+              "link": "wearable.html#chart-sleep",
+              "domain": "sleep",
+              "numeric": 56.25
+            }
+          ]
+        },
+        {
+          "key": "cardiovascular",
+          "label": "Heart & HRV",
+          "metrics": [
+            {
+              "source": "heart_rate",
+              "title": "Sampled heart rate",
+              "value": "66 bpm",
+              "coverage": "74 measured days",
+              "link": "wearable.html",
+              "domain": "cardiovascular",
+              "numeric": 65.81909999999999
+            },
+            {
+              "source": "resting_heart_rate",
+              "title": "Resting heart rate",
+              "value": "62 bpm",
+              "coverage": "74 measured days",
+              "link": "wearable.html",
+              "domain": "cardiovascular",
+              "numeric": 62.0
+            },
+            {
+              "source": "hrv_sdnn",
+              "title": "HRV \u00b7 SDNN",
+              "value": "43.2 ms",
+              "coverage": "74 measured days",
+              "link": "wearable.html",
+              "domain": "cardiovascular",
+              "numeric": 43.21605
+            },
+            {
+              "source": "sleeping_wrist_temperature",
+              "title": "Wrist skin temperature",
+              "value": "35.40 \u00b0C",
+              "coverage": "74 measured days",
+              "link": "wearable.html",
+              "domain": "cardiovascular",
+              "numeric": 35.3951
+            }
+          ]
+        },
+        {
+          "key": "bowel",
+          "label": "Bowels",
+          "metrics": [
+            {
+              "source": "bowel",
+              "title": "Recorded bowel movements",
+              "value": "0.77 / diary day",
+              "coverage": "65 countable diary days",
+              "link": "bowels.html#bowel-chart",
+              "domain": "bowel",
+              "numeric": 0.7692307692307693
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "interval-status-11",
+      "after": "context_cards:CTX-014",
+      "from": "2025-06-21",
+      "through": "2025-06-30",
+      "heading": "21 Jun 2025 \u2013 30 Jun 2025",
+      "metrics": [
+        {
+          "source": "score",
+          "title": "Overall daily rating",
+          "value": "1.40 / 10",
+          "coverage": "10 rated days",
+          "link": "scores.html",
+          "domain": "function",
+          "numeric": 1.4
+        },
+        {
+          "source": "watch_sleep",
+          "title": "Watch-measured sleep",
+          "value": "7 h 32 min/night",
+          "coverage": "10 measured nights",
+          "link": "wearable.html#chart-sleep",
+          "domain": "sleep",
+          "numeric": 452.5
+        },
+        {
+          "source": "watch_deep",
+          "title": "Deep sleep",
+          "value": "58 min/night",
+          "coverage": "10 staged nights",
+          "link": "wearable.html#chart-sleep",
+          "domain": "sleep",
+          "numeric": 58.25
+        },
+        {
+          "source": "heart_rate",
+          "title": "Sampled heart rate",
+          "value": "64 bpm",
+          "coverage": "10 measured days",
+          "link": "wearable.html",
+          "domain": "cardiovascular",
+          "numeric": 64.0
+        },
+        {
+          "source": "resting_heart_rate",
+          "title": "Resting heart rate",
+          "value": "60 bpm",
+          "coverage": "10 measured days",
+          "link": "wearable.html",
+          "domain": "cardiovascular",
+          "numeric": 60.0
+        },
+        {
+          "source": "hrv_sdnn",
+          "title": "HRV \u00b7 SDNN",
+          "value": "39.2 ms",
+          "coverage": "10 measured days",
+          "link": "wearable.html",
+          "domain": "cardiovascular",
+          "numeric": 39.230000000000004
+        },
+        {
+          "source": "sleeping_wrist_temperature",
+          "title": "Wrist skin temperature",
+          "value": "35.28 \u00b0C",
+          "coverage": "8 measured days",
+          "link": "wearable.html",
+          "domain": "cardiovascular",
+          "numeric": 35.27765
+        },
+        {
+          "source": "bowel",
+          "title": "Recorded bowel movements",
+          "value": "0.67 / diary day",
+          "coverage": "9 countable diary days",
+          "link": "bowels.html#bowel-chart",
+          "domain": "bowel",
+          "numeric": 0.6666666666666666
+        },
+        {
+          "source": "crash",
+          "title": "Recurrent post-rapamycin crashes",
+          "value": "Daily crashes reported for ~10 days",
+          "coverage": "5 dates with an indexed crash mention; daily frequency reported retrospectively, not independently measured or a weekly estimate",
+          "link": "symptoms.html#symptom:bbec37b1-1b89-58f4-aaf2-214943a25d60",
+          "domain": "function",
+          "numeric": null
+        }
+      ],
+      "domains": [
+        {
+          "key": "function",
+          "label": "Function & symptoms",
+          "metrics": [
+            {
+              "source": "score",
+              "title": "Overall daily rating",
+              "value": "1.40 / 10",
+              "coverage": "10 rated days",
+              "link": "scores.html",
+              "domain": "function",
+              "numeric": 1.4
+            },
+            {
+              "source": "crash",
+              "title": "Recurrent post-rapamycin crashes",
+              "value": "Daily crashes reported for ~10 days",
+              "coverage": "5 dates with an indexed crash mention; daily frequency reported retrospectively, not independently measured or a weekly estimate",
+              "link": "symptoms.html#symptom:bbec37b1-1b89-58f4-aaf2-214943a25d60",
+              "domain": "function",
+              "numeric": null
+            }
+          ]
+        },
+        {
+          "key": "sleep",
+          "label": "Sleep",
+          "metrics": [
+            {
+              "source": "watch_sleep",
+              "title": "Watch-measured sleep",
+              "value": "7 h 32 min/night",
+              "coverage": "10 measured nights",
+              "link": "wearable.html#chart-sleep",
+              "domain": "sleep",
+              "numeric": 452.5
+            },
+            {
+              "source": "watch_deep",
+              "title": "Deep sleep",
+              "value": "58 min/night",
+              "coverage": "10 staged nights",
+              "link": "wearable.html#chart-sleep",
+              "domain": "sleep",
+              "numeric": 58.25
+            }
+          ]
+        },
+        {
+          "key": "cardiovascular",
+          "label": "Heart & HRV",
+          "metrics": [
+            {
+              "source": "heart_rate",
+              "title": "Sampled heart rate",
+              "value": "64 bpm",
+              "coverage": "10 measured days",
+              "link": "wearable.html",
+              "domain": "cardiovascular",
+              "numeric": 64.0
+            },
+            {
+              "source": "resting_heart_rate",
+              "title": "Resting heart rate",
+              "value": "60 bpm",
+              "coverage": "10 measured days",
+              "link": "wearable.html",
+              "domain": "cardiovascular",
+              "numeric": 60.0
+            },
+            {
+              "source": "hrv_sdnn",
+              "title": "HRV \u00b7 SDNN",
+              "value": "39.2 ms",
+              "coverage": "10 measured days",
+              "link": "wearable.html",
+              "domain": "cardiovascular",
+              "numeric": 39.230000000000004
+            },
+            {
+              "source": "sleeping_wrist_temperature",
+              "title": "Wrist skin temperature",
+              "value": "35.28 \u00b0C",
+              "coverage": "8 measured days",
+              "link": "wearable.html",
+              "domain": "cardiovascular",
+              "numeric": 35.27765
+            }
+          ]
+        },
+        {
+          "key": "bowel",
+          "label": "Bowels",
+          "metrics": [
+            {
+              "source": "bowel",
+              "title": "Recorded bowel movements",
+              "value": "0.67 / diary day",
+              "coverage": "9 countable diary days",
+              "link": "bowels.html#bowel-chart",
+              "domain": "bowel",
+              "numeric": 0.6666666666666666
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "interval-status-12",
+      "after": "context_cards:CTX-015",
+      "from": "2025-07-01",
+      "through": "2025-08-18",
+      "heading": "01 Jul 2025 \u2013 18 Aug 2025",
+      "metrics": [
+        {
+          "source": "score",
+          "title": "Overall daily rating",
+          "value": "1.70 / 10",
+          "coverage": "49 rated days",
+          "link": "scores.html",
+          "domain": "function",
+          "numeric": 1.7
+        },
+        {
+          "source": "watch_sleep",
+          "title": "Watch-measured sleep",
+          "value": "8 h 14 min/night",
+          "coverage": "48 measured nights",
+          "link": "wearable.html#chart-sleep",
+          "domain": "sleep",
+          "numeric": 494.25
+        },
+        {
+          "source": "watch_deep",
+          "title": "Deep sleep",
+          "value": "57 min/night",
+          "coverage": "48 staged nights",
+          "link": "wearable.html#chart-sleep",
+          "domain": "sleep",
+          "numeric": 57.25
+        },
+        {
+          "source": "heart_rate",
+          "title": "Sampled heart rate",
+          "value": "63 bpm",
+          "coverage": "49 measured days",
+          "link": "wearable.html",
+          "domain": "cardiovascular",
+          "numeric": 63.0
+        },
+        {
+          "source": "resting_heart_rate",
+          "title": "Resting heart rate",
+          "value": "58 bpm",
+          "coverage": "49 measured days",
+          "link": "wearable.html",
+          "domain": "cardiovascular",
+          "numeric": 58.0
+        },
+        {
+          "source": "hrv_sdnn",
+          "title": "HRV \u00b7 SDNN",
+          "value": "47.3 ms",
+          "coverage": "49 measured days",
+          "link": "wearable.html",
+          "domain": "cardiovascular",
+          "numeric": 47.3369
+        },
+        {
+          "source": "sleeping_wrist_temperature",
+          "title": "Wrist skin temperature",
+          "value": "35.38 \u00b0C",
+          "coverage": "46 measured days",
+          "link": "wearable.html",
+          "domain": "cardiovascular",
+          "numeric": 35.376000000000005
+        },
+        {
+          "source": "bowel",
+          "title": "Recorded bowel movements",
+          "value": "1.16 / diary day",
+          "coverage": "49 countable diary days",
+          "link": "bowels.html#bowel-chart",
+          "domain": "bowel",
+          "numeric": 1.163265306122449
+        },
+        {
+          "source": "pem",
+          "title": "PEM-family documented days",
+          "value": "4.8 days / tracked week",
+          "coverage": "29 dates in 6 qualifying weeks (07 Jul 2025\u201317 Aug 2025); 6 complete weeks in interval. Mentions, not attack counts",
+          "link": "pem-patterns.html",
+          "domain": "function",
+          "numeric": 4.833333333333333
+        },
+        {
+          "source": "crash",
+          "title": "Crash-documented days",
+          "value": "1.8 days / tracked week",
+          "coverage": "11 dates in 6 qualifying weeks (07 Jul 2025\u201317 Aug 2025); 6 complete weeks in interval. Mentions, not attack counts",
+          "link": "symptoms.html#symptom:bbec37b1-1b89-58f4-aaf2-214943a25d60",
+          "domain": "function",
+          "numeric": 1.8333333333333333
+        }
+      ],
+      "domains": [
+        {
+          "key": "function",
+          "label": "Function & symptoms",
+          "metrics": [
+            {
+              "source": "score",
+              "title": "Overall daily rating",
+              "value": "1.70 / 10",
+              "coverage": "49 rated days",
+              "link": "scores.html",
+              "domain": "function",
+              "numeric": 1.7
+            },
+            {
+              "source": "pem",
+              "title": "PEM-family documented days",
+              "value": "4.8 days / tracked week",
+              "coverage": "29 dates in 6 qualifying weeks (07 Jul 2025\u201317 Aug 2025); 6 complete weeks in interval. Mentions, not attack counts",
+              "link": "pem-patterns.html",
+              "domain": "function",
+              "numeric": 4.833333333333333
+            },
+            {
+              "source": "crash",
+              "title": "Crash-documented days",
+              "value": "1.8 days / tracked week",
+              "coverage": "11 dates in 6 qualifying weeks (07 Jul 2025\u201317 Aug 2025); 6 complete weeks in interval. Mentions, not attack counts",
+              "link": "symptoms.html#symptom:bbec37b1-1b89-58f4-aaf2-214943a25d60",
+              "domain": "function",
+              "numeric": 1.8333333333333333
+            }
+          ]
+        },
+        {
+          "key": "sleep",
+          "label": "Sleep",
+          "metrics": [
+            {
+              "source": "watch_sleep",
+              "title": "Watch-measured sleep",
+              "value": "8 h 14 min/night",
+              "coverage": "48 measured nights",
+              "link": "wearable.html#chart-sleep",
+              "domain": "sleep",
+              "numeric": 494.25
+            },
+            {
+              "source": "watch_deep",
+              "title": "Deep sleep",
+              "value": "57 min/night",
+              "coverage": "48 staged nights",
+              "link": "wearable.html#chart-sleep",
+              "domain": "sleep",
+              "numeric": 57.25
+            }
+          ]
+        },
+        {
+          "key": "cardiovascular",
+          "label": "Heart & HRV",
+          "metrics": [
+            {
+              "source": "heart_rate",
+              "title": "Sampled heart rate",
+              "value": "63 bpm",
+              "coverage": "49 measured days",
+              "link": "wearable.html",
+              "domain": "cardiovascular",
+              "numeric": 63.0
+            },
+            {
+              "source": "resting_heart_rate",
+              "title": "Resting heart rate",
+              "value": "58 bpm",
+              "coverage": "49 measured days",
+              "link": "wearable.html",
+              "domain": "cardiovascular",
+              "numeric": 58.0
+            },
+            {
+              "source": "hrv_sdnn",
+              "title": "HRV \u00b7 SDNN",
+              "value": "47.3 ms",
+              "coverage": "49 measured days",
+              "link": "wearable.html",
+              "domain": "cardiovascular",
+              "numeric": 47.3369
+            },
+            {
+              "source": "sleeping_wrist_temperature",
+              "title": "Wrist skin temperature",
+              "value": "35.38 \u00b0C",
+              "coverage": "46 measured days",
+              "link": "wearable.html",
+              "domain": "cardiovascular",
+              "numeric": 35.376000000000005
+            }
+          ]
+        },
+        {
+          "key": "bowel",
+          "label": "Bowels",
+          "metrics": [
+            {
+              "source": "bowel",
+              "title": "Recorded bowel movements",
+              "value": "1.16 / diary day",
+              "coverage": "49 countable diary days",
+              "link": "bowels.html#bowel-chart",
+              "domain": "bowel",
+              "numeric": 1.163265306122449
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "interval-status-13",
+      "after": "context_cards:CTX-016",
+      "from": "2025-08-19",
+      "through": "2025-08-31",
+      "heading": "19 Aug 2025 \u2013 31 Aug 2025",
+      "metrics": [
+        {
+          "source": "score",
+          "title": "Overall daily rating",
+          "value": "1.60 / 10",
+          "coverage": "13 rated days",
+          "link": "scores.html",
+          "domain": "function",
+          "numeric": 1.6
+        },
+        {
+          "source": "watch_sleep",
+          "title": "Watch-measured sleep",
+          "value": "7 h 14 min/night",
+          "coverage": "11 measured nights",
+          "link": "wearable.html#chart-sleep",
+          "domain": "sleep",
+          "numeric": 433.5
+        },
+        {
+          "source": "watch_deep",
+          "title": "Deep sleep",
+          "value": "50 min/night",
+          "coverage": "11 staged nights",
+          "link": "wearable.html#chart-sleep",
+          "domain": "sleep",
+          "numeric": 50.0
+        },
+        {
+          "source": "heart_rate",
+          "title": "Sampled heart rate",
+          "value": "63 bpm",
+          "coverage": "13 measured days",
+          "link": "wearable.html",
+          "domain": "cardiovascular",
+          "numeric": 63.0
+        },
+        {
+          "source": "resting_heart_rate",
+          "title": "Resting heart rate",
+          "value": "56 bpm",
+          "coverage": "12 measured days",
+          "link": "wearable.html",
+          "domain": "cardiovascular",
+          "numeric": 56.0
+        },
+        {
+          "source": "hrv_sdnn",
+          "title": "HRV \u00b7 SDNN",
+          "value": "52.9 ms",
+          "coverage": "13 measured days",
+          "link": "wearable.html",
+          "domain": "cardiovascular",
+          "numeric": 52.8678
+        },
+        {
+          "source": "sleeping_wrist_temperature",
+          "title": "Wrist skin temperature",
+          "value": "35.37 \u00b0C",
+          "coverage": "10 measured days",
+          "link": "wearable.html",
+          "domain": "cardiovascular",
+          "numeric": 35.36925
+        },
+        {
+          "source": "bowel",
+          "title": "Recorded bowel movements",
+          "value": "0.69 / diary day",
+          "coverage": "13 countable diary days",
+          "link": "bowels.html#bowel-chart",
+          "domain": "bowel",
+          "numeric": 0.6923076923076923
+        }
+      ],
+      "domains": [
+        {
+          "key": "function",
+          "label": "Function & symptoms",
+          "metrics": [
+            {
+              "source": "score",
+              "title": "Overall daily rating",
+              "value": "1.60 / 10",
+              "coverage": "13 rated days",
+              "link": "scores.html",
+              "domain": "function",
+              "numeric": 1.6
+            }
+          ]
+        },
+        {
+          "key": "sleep",
+          "label": "Sleep",
+          "metrics": [
+            {
+              "source": "watch_sleep",
+              "title": "Watch-measured sleep",
+              "value": "7 h 14 min/night",
+              "coverage": "11 measured nights",
+              "link": "wearable.html#chart-sleep",
+              "domain": "sleep",
+              "numeric": 433.5
+            },
+            {
+              "source": "watch_deep",
+              "title": "Deep sleep",
+              "value": "50 min/night",
+              "coverage": "11 staged nights",
+              "link": "wearable.html#chart-sleep",
+              "domain": "sleep",
+              "numeric": 50.0
+            }
+          ]
+        },
+        {
+          "key": "cardiovascular",
+          "label": "Heart & HRV",
+          "metrics": [
+            {
+              "source": "heart_rate",
+              "title": "Sampled heart rate",
+              "value": "63 bpm",
+              "coverage": "13 measured days",
+              "link": "wearable.html",
+              "domain": "cardiovascular",
+              "numeric": 63.0
+            },
+            {
+              "source": "resting_heart_rate",
+              "title": "Resting heart rate",
+              "value": "56 bpm",
+              "coverage": "12 measured days",
+              "link": "wearable.html",
+              "domain": "cardiovascular",
+              "numeric": 56.0
+            },
+            {
+              "source": "hrv_sdnn",
+              "title": "HRV \u00b7 SDNN",
+              "value": "52.9 ms",
+              "coverage": "13 measured days",
+              "link": "wearable.html",
+              "domain": "cardiovascular",
+              "numeric": 52.8678
+            },
+            {
+              "source": "sleeping_wrist_temperature",
+              "title": "Wrist skin temperature",
+              "value": "35.37 \u00b0C",
+              "coverage": "10 measured days",
+              "link": "wearable.html",
+              "domain": "cardiovascular",
+              "numeric": 35.36925
+            }
+          ]
+        },
+        {
+          "key": "bowel",
+          "label": "Bowels",
+          "metrics": [
+            {
+              "source": "bowel",
+              "title": "Recorded bowel movements",
+              "value": "0.69 / diary day",
+              "coverage": "13 countable diary days",
+              "link": "bowels.html#bowel-chart",
+              "domain": "bowel",
+              "numeric": 0.6923076923076923
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "interval-status-14",
+      "after": "clinical_summary:amatica-testing",
+      "from": "2025-09-01",
+      "through": "2025-10-31",
+      "heading": "Sep 2025 \u2013 Oct 2025",
+      "metrics": [
+        {
+          "source": "score",
+          "title": "Overall daily rating",
+          "value": "1.60 / 10",
+          "coverage": "58 rated days",
+          "link": "scores.html",
+          "domain": "function",
+          "numeric": 1.6
+        },
+        {
+          "source": "watch_sleep",
+          "title": "Watch-measured sleep",
+          "value": "8 h 31 min/night",
+          "coverage": "48 measured nights",
+          "link": "wearable.html#chart-sleep",
+          "domain": "sleep",
+          "numeric": 510.75
+        },
+        {
+          "source": "watch_deep",
+          "title": "Deep sleep",
+          "value": "1 h 01 min/night",
+          "coverage": "48 staged nights",
+          "link": "wearable.html#chart-sleep",
+          "domain": "sleep",
+          "numeric": 61.0
+        },
+        {
+          "source": "heart_rate",
+          "title": "Sampled heart rate",
+          "value": "58 bpm",
+          "coverage": "55 measured days",
+          "link": "wearable.html",
+          "domain": "cardiovascular",
+          "numeric": 58.0
+        },
+        {
+          "source": "resting_heart_rate",
+          "title": "Resting heart rate",
+          "value": "53 bpm",
+          "coverage": "48 measured days",
+          "link": "wearable.html",
+          "domain": "cardiovascular",
+          "numeric": 53.25
+        },
+        {
+          "source": "hrv_sdnn",
+          "title": "HRV \u00b7 SDNN",
+          "value": "53.9 ms",
+          "coverage": "54 measured days",
+          "link": "wearable.html",
+          "domain": "cardiovascular",
+          "numeric": 53.92475
+        },
+        {
+          "source": "sleeping_wrist_temperature",
+          "title": "Wrist skin temperature",
+          "value": "35.27 \u00b0C",
+          "coverage": "30 measured days",
+          "link": "wearable.html",
+          "domain": "cardiovascular",
+          "numeric": 35.268649999999994
+        },
+        {
+          "source": "bowel",
+          "title": "Recorded bowel movements",
+          "value": "0.76 / diary day",
+          "coverage": "59 countable diary days",
+          "link": "bowels.html#bowel-chart",
+          "domain": "bowel",
+          "numeric": 0.7627118644067796
+        },
+        {
+          "source": "pem",
+          "title": "PEM-family documented days",
+          "value": "6.4 days / tracked week",
+          "coverage": "51 dates in 8 qualifying weeks (01 Sep 2025\u201326 Oct 2025); 8 complete weeks in interval. Mentions, not attack counts",
+          "link": "pem-patterns.html",
+          "domain": "function",
+          "numeric": 6.375
+        },
+        {
+          "source": "crash",
+          "title": "Crash-documented days",
+          "value": "0.9 days / tracked week",
+          "coverage": "7 dates in 8 qualifying weeks (01 Sep 2025\u201326 Oct 2025); 8 complete weeks in interval. Mentions, not attack counts",
+          "link": "symptoms.html#symptom:bbec37b1-1b89-58f4-aaf2-214943a25d60",
+          "domain": "function",
+          "numeric": 0.875
+        }
+      ],
+      "domains": [
+        {
+          "key": "function",
+          "label": "Function & symptoms",
+          "metrics": [
+            {
+              "source": "score",
+              "title": "Overall daily rating",
+              "value": "1.60 / 10",
+              "coverage": "58 rated days",
+              "link": "scores.html",
+              "domain": "function",
+              "numeric": 1.6
+            },
+            {
+              "source": "pem",
+              "title": "PEM-family documented days",
+              "value": "6.4 days / tracked week",
+              "coverage": "51 dates in 8 qualifying weeks (01 Sep 2025\u201326 Oct 2025); 8 complete weeks in interval. Mentions, not attack counts",
+              "link": "pem-patterns.html",
+              "domain": "function",
+              "numeric": 6.375
+            },
+            {
+              "source": "crash",
+              "title": "Crash-documented days",
+              "value": "0.9 days / tracked week",
+              "coverage": "7 dates in 8 qualifying weeks (01 Sep 2025\u201326 Oct 2025); 8 complete weeks in interval. Mentions, not attack counts",
+              "link": "symptoms.html#symptom:bbec37b1-1b89-58f4-aaf2-214943a25d60",
+              "domain": "function",
+              "numeric": 0.875
+            }
+          ]
+        },
+        {
+          "key": "sleep",
+          "label": "Sleep",
+          "metrics": [
+            {
+              "source": "watch_sleep",
+              "title": "Watch-measured sleep",
+              "value": "8 h 31 min/night",
+              "coverage": "48 measured nights",
+              "link": "wearable.html#chart-sleep",
+              "domain": "sleep",
+              "numeric": 510.75
+            },
+            {
+              "source": "watch_deep",
+              "title": "Deep sleep",
+              "value": "1 h 01 min/night",
+              "coverage": "48 staged nights",
+              "link": "wearable.html#chart-sleep",
+              "domain": "sleep",
+              "numeric": 61.0
+            }
+          ]
+        },
+        {
+          "key": "cardiovascular",
+          "label": "Heart & HRV",
+          "metrics": [
+            {
+              "source": "heart_rate",
+              "title": "Sampled heart rate",
+              "value": "58 bpm",
+              "coverage": "55 measured days",
+              "link": "wearable.html",
+              "domain": "cardiovascular",
+              "numeric": 58.0
+            },
+            {
+              "source": "resting_heart_rate",
+              "title": "Resting heart rate",
+              "value": "53 bpm",
+              "coverage": "48 measured days",
+              "link": "wearable.html",
+              "domain": "cardiovascular",
+              "numeric": 53.25
+            },
+            {
+              "source": "hrv_sdnn",
+              "title": "HRV \u00b7 SDNN",
+              "value": "53.9 ms",
+              "coverage": "54 measured days",
+              "link": "wearable.html",
+              "domain": "cardiovascular",
+              "numeric": 53.92475
+            },
+            {
+              "source": "sleeping_wrist_temperature",
+              "title": "Wrist skin temperature",
+              "value": "35.27 \u00b0C",
+              "coverage": "30 measured days",
+              "link": "wearable.html",
+              "domain": "cardiovascular",
+              "numeric": 35.268649999999994
+            }
+          ]
+        },
+        {
+          "key": "bowel",
+          "label": "Bowels",
+          "metrics": [
+            {
+              "source": "bowel",
+              "title": "Recorded bowel movements",
+              "value": "0.76 / diary day",
+              "coverage": "59 countable diary days",
+              "link": "bowels.html#bowel-chart",
+              "domain": "bowel",
+              "numeric": 0.7627118644067796
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "interval-status-15",
+      "after": "context_cards:CTX-017",
+      "from": "2025-11-01",
+      "through": "2025-12-08",
+      "heading": "01 Nov 2025 \u2013 08 Dec 2025",
+      "metrics": [
+        {
+          "source": "score",
+          "title": "Overall daily rating",
+          "value": "1.60 / 10",
+          "coverage": "24 rated days",
+          "link": "scores.html",
+          "domain": "function",
+          "numeric": 1.6
+        },
+        {
+          "source": "watch_sleep",
+          "title": "Watch-measured sleep",
+          "value": "6 h 02 min/night",
+          "coverage": "4 measured nights",
+          "link": "wearable.html#chart-sleep",
+          "domain": "sleep",
+          "numeric": 362.25,
+          "change": {
+            "direction": "decline",
+            "delta": "-148 min/night",
+            "comparison": "Change versus the immediately preceding observed interval; recording coverage differs"
+          }
+        },
+        {
+          "source": "watch_deep",
+          "title": "Deep sleep",
+          "value": "51 min/night",
+          "coverage": "4 staged nights",
+          "link": "wearable.html#chart-sleep",
+          "domain": "sleep",
+          "numeric": 51.25
+        },
+        {
+          "source": "heart_rate",
+          "title": "Sampled heart rate",
+          "value": "69 bpm",
+          "coverage": "5 measured days",
+          "link": "wearable.html",
+          "domain": "cardiovascular",
+          "numeric": 69.0
+        },
+        {
+          "source": "hrv_sdnn",
+          "title": "HRV \u00b7 SDNN",
+          "value": "37.6 ms",
+          "coverage": "5 measured days",
+          "link": "wearable.html",
+          "domain": "cardiovascular",
+          "numeric": 37.6073
+        },
+        {
+          "source": "bowel",
+          "title": "Recorded bowel movements",
+          "value": "0.79 / diary day",
+          "coverage": "38 countable diary days",
+          "link": "bowels.html#bowel-chart",
+          "domain": "bowel",
+          "numeric": 0.7894736842105263
+        },
+        {
+          "source": "pem",
+          "title": "PEM-family documented days",
+          "value": "6.8 days / tracked week",
+          "coverage": "34 dates in 5 qualifying weeks (03 Nov 2025\u201307 Dec 2025); 5 complete weeks in interval. Mentions, not attack counts",
+          "link": "pem-patterns.html",
+          "domain": "function",
+          "numeric": 6.8
+        },
+        {
+          "source": "crash",
+          "title": "Crash-documented days",
+          "value": "0.8 days / tracked week",
+          "coverage": "4 dates in 5 qualifying weeks (03 Nov 2025\u201307 Dec 2025); 5 complete weeks in interval. Mentions, not attack counts",
+          "link": "symptoms.html#symptom:bbec37b1-1b89-58f4-aaf2-214943a25d60",
+          "domain": "function",
+          "numeric": 0.8
+        }
+      ],
+      "domains": [
+        {
+          "key": "function",
+          "label": "Function & symptoms",
+          "metrics": [
+            {
+              "source": "score",
+              "title": "Overall daily rating",
+              "value": "1.60 / 10",
+              "coverage": "24 rated days",
+              "link": "scores.html",
+              "domain": "function",
+              "numeric": 1.6
+            },
+            {
+              "source": "pem",
+              "title": "PEM-family documented days",
+              "value": "6.8 days / tracked week",
+              "coverage": "34 dates in 5 qualifying weeks (03 Nov 2025\u201307 Dec 2025); 5 complete weeks in interval. Mentions, not attack counts",
+              "link": "pem-patterns.html",
+              "domain": "function",
+              "numeric": 6.8
+            },
+            {
+              "source": "crash",
+              "title": "Crash-documented days",
+              "value": "0.8 days / tracked week",
+              "coverage": "4 dates in 5 qualifying weeks (03 Nov 2025\u201307 Dec 2025); 5 complete weeks in interval. Mentions, not attack counts",
+              "link": "symptoms.html#symptom:bbec37b1-1b89-58f4-aaf2-214943a25d60",
+              "domain": "function",
+              "numeric": 0.8
+            }
+          ]
+        },
+        {
+          "key": "sleep",
+          "label": "Sleep",
+          "metrics": [
+            {
+              "source": "watch_sleep",
+              "title": "Watch-measured sleep",
+              "value": "6 h 02 min/night",
+              "coverage": "4 measured nights",
+              "link": "wearable.html#chart-sleep",
+              "domain": "sleep",
+              "numeric": 362.25,
+              "change": {
+                "direction": "decline",
+                "delta": "-148 min/night",
+                "comparison": "Change versus the immediately preceding observed interval; recording coverage differs"
+              }
+            },
+            {
+              "source": "watch_deep",
+              "title": "Deep sleep",
+              "value": "51 min/night",
+              "coverage": "4 staged nights",
+              "link": "wearable.html#chart-sleep",
+              "domain": "sleep",
+              "numeric": 51.25
+            }
+          ]
+        },
+        {
+          "key": "cardiovascular",
+          "label": "Heart & HRV",
+          "metrics": [
+            {
+              "source": "heart_rate",
+              "title": "Sampled heart rate",
+              "value": "69 bpm",
+              "coverage": "5 measured days",
+              "link": "wearable.html",
+              "domain": "cardiovascular",
+              "numeric": 69.0
+            },
+            {
+              "source": "hrv_sdnn",
+              "title": "HRV \u00b7 SDNN",
+              "value": "37.6 ms",
+              "coverage": "5 measured days",
+              "link": "wearable.html",
+              "domain": "cardiovascular",
+              "numeric": 37.6073
+            }
+          ]
+        },
+        {
+          "key": "bowel",
+          "label": "Bowels",
+          "metrics": [
+            {
+              "source": "bowel",
+              "title": "Recorded bowel movements",
+              "value": "0.79 / diary day",
+              "coverage": "38 countable diary days",
+              "link": "bowels.html#bowel-chart",
+              "domain": "bowel",
+              "numeric": 0.7894736842105263
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "interval-status-16",
+      "after": "context_cards:CTX-027",
+      "from": "2025-12-09",
+      "through": "2026-05-31",
+      "heading": "09 Dec 2025 \u2013 31 May 2026",
+      "metrics": [
+        {
+          "source": "score",
+          "title": "Overall daily rating",
+          "value": "1.50 / 10",
+          "coverage": "148 rated days",
+          "link": "scores.html",
+          "domain": "function",
+          "numeric": 1.5
+        },
+        {
+          "source": "bowel",
+          "title": "Recorded bowel movements",
+          "value": "0.85 / diary day",
+          "coverage": "172 countable diary days",
+          "link": "bowels.html#bowel-chart",
+          "domain": "bowel",
+          "numeric": 0.8488372093023255
+        },
+        {
+          "source": "pem",
+          "title": "PEM-family documented days",
+          "value": "6.8 days / tracked week",
+          "coverage": "164 dates in 24 qualifying weeks (15 Dec 2025\u201331 May 2026); 24 complete weeks in interval. Mentions, not attack counts",
+          "link": "pem-patterns.html",
+          "domain": "function",
+          "numeric": 6.833333333333333
+        },
+        {
+          "source": "crash",
+          "title": "Crash-documented days",
+          "value": "2.3 days / tracked week",
+          "coverage": "56 dates in 24 qualifying weeks (15 Dec 2025\u201331 May 2026); 24 complete weeks in interval. Mentions, not attack counts",
+          "link": "symptoms.html#symptom:bbec37b1-1b89-58f4-aaf2-214943a25d60",
+          "domain": "function",
+          "numeric": 2.3333333333333335,
+          "change": {
+            "direction": "decline",
+            "delta": "+1.5 documented days/week",
+            "comparison": "Change versus the immediately preceding observed interval; recording coverage differs"
+          }
+        }
+      ],
+      "domains": [
+        {
+          "key": "function",
+          "label": "Function & symptoms",
+          "metrics": [
+            {
+              "source": "score",
+              "title": "Overall daily rating",
+              "value": "1.50 / 10",
+              "coverage": "148 rated days",
+              "link": "scores.html",
+              "domain": "function",
+              "numeric": 1.5
+            },
+            {
+              "source": "pem",
+              "title": "PEM-family documented days",
+              "value": "6.8 days / tracked week",
+              "coverage": "164 dates in 24 qualifying weeks (15 Dec 2025\u201331 May 2026); 24 complete weeks in interval. Mentions, not attack counts",
+              "link": "pem-patterns.html",
+              "domain": "function",
+              "numeric": 6.833333333333333
+            },
+            {
+              "source": "crash",
+              "title": "Crash-documented days",
+              "value": "2.3 days / tracked week",
+              "coverage": "56 dates in 24 qualifying weeks (15 Dec 2025\u201331 May 2026); 24 complete weeks in interval. Mentions, not attack counts",
+              "link": "symptoms.html#symptom:bbec37b1-1b89-58f4-aaf2-214943a25d60",
+              "domain": "function",
+              "numeric": 2.3333333333333335,
+              "change": {
+                "direction": "decline",
+                "delta": "+1.5 documented days/week",
+                "comparison": "Change versus the immediately preceding observed interval; recording coverage differs"
+              }
+            }
+          ]
+        },
+        {
+          "key": "sleep",
+          "label": "Sleep",
+          "metrics": []
+        },
+        {
+          "key": "cardiovascular",
+          "label": "Heart & HRV",
+          "metrics": []
+        },
+        {
+          "key": "bowel",
+          "label": "Bowels",
+          "metrics": [
+            {
+              "source": "bowel",
+              "title": "Recorded bowel movements",
+              "value": "0.85 / diary day",
+              "coverage": "172 countable diary days",
+              "link": "bowels.html#bowel-chart",
+              "domain": "bowel",
+              "numeric": 0.8488372093023255
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "interval-status-17",
+      "after": "context_cards:CTX-020",
+      "from": "2026-06-01",
+      "through": "2026-09-30",
+      "heading": "Jun 2026 \u2013 Sep 2026",
+      "metrics": [
+        {
+          "source": "score",
+          "title": "Overall daily rating",
+          "value": "1.60 / 10",
+          "coverage": "94 rated days",
+          "link": "scores.html",
+          "domain": "function",
+          "numeric": 1.6
+        },
+        {
+          "source": "bowel",
+          "title": "Recorded bowel movements",
+          "value": "0.60 / diary day",
+          "coverage": "121 countable diary days",
+          "link": "bowels.html#bowel-chart",
+          "domain": "bowel",
+          "numeric": 0.5950413223140496
+        },
+        {
+          "source": "pem",
+          "title": "PEM-family documented days",
+          "value": "5.1 days / tracked week",
+          "coverage": "87 dates in 17 qualifying weeks (01 Jun 2026\u201327 Sep 2026); 17 complete weeks in interval. Mentions, not attack counts",
+          "link": "pem-patterns.html",
+          "domain": "function",
+          "numeric": 5.117647058823529,
+          "change": {
+            "direction": "improvement",
+            "delta": "-1.7 documented days/week",
+            "comparison": "Change versus the immediately preceding observed interval; recording coverage differs"
+          }
+        },
+        {
+          "source": "crash",
+          "title": "Crash-documented days",
+          "value": "1.4 days / tracked week",
+          "coverage": "24 dates in 17 qualifying weeks (01 Jun 2026\u201327 Sep 2026); 17 complete weeks in interval. Mentions, not attack counts",
+          "link": "symptoms.html#symptom:bbec37b1-1b89-58f4-aaf2-214943a25d60",
+          "domain": "function",
+          "numeric": 1.411764705882353
+        }
+      ],
+      "domains": [
+        {
+          "key": "function",
+          "label": "Function & symptoms",
+          "metrics": [
+            {
+              "source": "score",
+              "title": "Overall daily rating",
+              "value": "1.60 / 10",
+              "coverage": "94 rated days",
+              "link": "scores.html",
+              "domain": "function",
+              "numeric": 1.6
+            },
+            {
+              "source": "pem",
+              "title": "PEM-family documented days",
+              "value": "5.1 days / tracked week",
+              "coverage": "87 dates in 17 qualifying weeks (01 Jun 2026\u201327 Sep 2026); 17 complete weeks in interval. Mentions, not attack counts",
+              "link": "pem-patterns.html",
+              "domain": "function",
+              "numeric": 5.117647058823529,
+              "change": {
+                "direction": "improvement",
+                "delta": "-1.7 documented days/week",
+                "comparison": "Change versus the immediately preceding observed interval; recording coverage differs"
+              }
+            },
+            {
+              "source": "crash",
+              "title": "Crash-documented days",
+              "value": "1.4 days / tracked week",
+              "coverage": "24 dates in 17 qualifying weeks (01 Jun 2026\u201327 Sep 2026); 17 complete weeks in interval. Mentions, not attack counts",
+              "link": "symptoms.html#symptom:bbec37b1-1b89-58f4-aaf2-214943a25d60",
+              "domain": "function",
+              "numeric": 1.411764705882353
+            }
+          ]
+        },
+        {
+          "key": "sleep",
+          "label": "Sleep",
+          "metrics": []
+        },
+        {
+          "key": "cardiovascular",
+          "label": "Heart & HRV",
+          "metrics": []
+        },
+        {
+          "key": "bowel",
+          "label": "Bowels",
+          "metrics": [
+            {
+              "source": "bowel",
+              "title": "Recorded bowel movements",
+              "value": "0.60 / diary day",
+              "coverage": "121 countable diary days",
+              "link": "bowels.html#bowel-chart",
+              "domain": "bowel",
+              "numeric": 0.5950413223140496
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "interval-status-18",
+      "after": "context_cards:CTX-021",
+      "from": "2026-10-01",
+      "through": "2026-11-16",
+      "heading": "01 Oct 2026 \u2013 16 Nov 2026",
+      "metrics": [
+        {
+          "source": "score",
+          "title": "Overall daily rating",
+          "value": "1.60 / 10",
+          "coverage": "37 rated days",
+          "link": "scores.html",
+          "domain": "function",
+          "numeric": 1.6
+        },
+        {
+          "source": "bowel",
+          "title": "Recorded bowel movements",
+          "value": "0.43 / diary day",
+          "coverage": "47 countable diary days",
+          "link": "bowels.html#bowel-chart",
+          "domain": "bowel",
+          "numeric": 0.425531914893617
+        },
+        {
+          "source": "pem",
+          "title": "PEM-family documented days",
+          "value": "4.5 days / tracked week",
+          "coverage": "27 dates in 6 qualifying weeks (05 Oct 2026\u201315 Nov 2026); 6 complete weeks in interval. Mentions, not attack counts",
+          "link": "pem-patterns.html",
+          "domain": "function",
+          "numeric": 4.5
+        },
+        {
+          "source": "crash",
+          "title": "Crash-documented days",
+          "value": "0.5 days / tracked week",
+          "coverage": "3 dates in 6 qualifying weeks (05 Oct 2026\u201315 Nov 2026); 6 complete weeks in interval. Mentions, not attack counts",
+          "link": "symptoms.html#symptom:bbec37b1-1b89-58f4-aaf2-214943a25d60",
+          "domain": "function",
+          "numeric": 0.5
+        }
+      ],
+      "domains": [
+        {
+          "key": "function",
+          "label": "Function & symptoms",
+          "metrics": [
+            {
+              "source": "score",
+              "title": "Overall daily rating",
+              "value": "1.60 / 10",
+              "coverage": "37 rated days",
+              "link": "scores.html",
+              "domain": "function",
+              "numeric": 1.6
+            },
+            {
+              "source": "pem",
+              "title": "PEM-family documented days",
+              "value": "4.5 days / tracked week",
+              "coverage": "27 dates in 6 qualifying weeks (05 Oct 2026\u201315 Nov 2026); 6 complete weeks in interval. Mentions, not attack counts",
+              "link": "pem-patterns.html",
+              "domain": "function",
+              "numeric": 4.5
+            },
+            {
+              "source": "crash",
+              "title": "Crash-documented days",
+              "value": "0.5 days / tracked week",
+              "coverage": "3 dates in 6 qualifying weeks (05 Oct 2026\u201315 Nov 2026); 6 complete weeks in interval. Mentions, not attack counts",
+              "link": "symptoms.html#symptom:bbec37b1-1b89-58f4-aaf2-214943a25d60",
+              "domain": "function",
+              "numeric": 0.5
+            }
+          ]
+        },
+        {
+          "key": "sleep",
+          "label": "Sleep",
+          "metrics": []
+        },
+        {
+          "key": "cardiovascular",
+          "label": "Heart & HRV",
+          "metrics": []
+        },
+        {
+          "key": "bowel",
+          "label": "Bowels",
+          "metrics": [
+            {
+              "source": "bowel",
+              "title": "Recorded bowel movements",
+              "value": "0.43 / diary day",
+              "coverage": "47 countable diary days",
+              "link": "bowels.html#bowel-chart",
+              "domain": "bowel",
+              "numeric": 0.425531914893617
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

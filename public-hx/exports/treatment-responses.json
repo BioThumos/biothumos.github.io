@@ -1,0 +1,4284 @@
+{
+  "association_labels": {
+    "joint": "Attribution uncertain across exposures",
+    "possible": "Possible association",
+    "reported": "Patient-reported"
+  },
+  "coexposure_labels": {
+    "alternative": "Alternative attribution",
+    "overlap": "Overlapping exposure",
+    "together": "Taken with"
+  },
+  "interpretation": "An empty list means no reviewed report is indexed. Multiple accounts may describe one episode. Reports describe patient experience and temporal associations.",
+  "items": [
+    {
+      "basis": "",
+      "intervention_id": "intervention:790ea079-1bc1-5af6-8c2a-ffde6bb95f53",
+      "reference": "pz_concept:intervention:790ea079-1bc1-5af6-8c2a-ffde6bb95f53",
+      "reviewed_worsening": [],
+      "title": "1-MNA",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:f09927bc-9fa3-5435-ba53-753c9ad0fb6d",
+      "reference": "pz_concept:intervention:f09927bc-9fa3-5435-ba53-753c9ad0fb6d",
+      "reviewed_worsening": [
+        {
+          "account": "The patient recalled a crash that he described as a “herx” reaction.",
+          "association": "reported",
+          "chronology_key": "response:S3:treatment_response:244",
+          "claim_link_id": "claim:6ef4b61b-d9c8-58bc-a699-ee3388a9693f",
+          "coexposures": [],
+          "course_id": null,
+          "event_date": null,
+          "intervention": "AHCC",
+          "intervention_id": "intervention:f09927bc-9fa3-5435-ba53-753c9ad0fb6d",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "historical_entries:S3:treatment_response:244"
+            }
+          ],
+          "record_id": "S3:treatment_response:244",
+          "report_date": null,
+          "source_table": "historical_entries",
+          "treatment_actions": []
+        }
+      ],
+      "title": "AHCC",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "Named investigational compound.",
+      "intervention_id": "intervention:b9b5c434-2f1d-5273-950d-52abaf4e1c88",
+      "reference": "https://www.firstatomtx.com/post/me-cfs",
+      "reviewed_worsening": [
+        {
+          "account": "Nape flare and wrist fatigue recalled after ASHA; the patient compared the response with a separate KL-1333 trial. Exact sequence uncertain.",
+          "association": "reported",
+          "chronology_key": "response:S1-F76373-1",
+          "claim_link_id": "claim:b69bb503-fea4-50f5-9aa8-197fcf357dcd",
+          "coexposures": [],
+          "course_id": null,
+          "event_date": null,
+          "intervention": "ASHA-091",
+          "intervention_id": "intervention:b9b5c434-2f1d-5273-950d-52abaf4e1c88",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "archive_findings:S1-F76373-1"
+            }
+          ],
+          "record_id": "S1-F76373-1",
+          "report_date": "2026-07-08",
+          "source_table": "archive_findings",
+          "treatment_actions": []
+        },
+        {
+          "account": "The patient tentatively attributed prolonged nape, brain and wrist symptoms to ASHA.",
+          "association": "reported",
+          "chronology_key": "response-evidence:diary_observations:S2-OBS-7044",
+          "claim_link_id": "claim:7581a85f-9c64-5cf6-b74e-dc47b3bc6c21",
+          "coexposures": [],
+          "course_id": "course:95847237-8af7-5dac-9c95-e2e13d24397f",
+          "event_date": "2026-06-17",
+          "intervention": "ASHA-091",
+          "intervention_id": "intervention:b9b5c434-2f1d-5273-950d-52abaf4e1c88",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "diary_observations:S2-OBS-7044"
+            }
+          ],
+          "record_id": "S2-OBS-7044",
+          "report_date": null,
+          "source_table": "diary_observations",
+          "treatment_actions": []
+        },
+        {
+          "account": "Patient reports nape clenching/pressure and wrist or central fatigue after several small trials, including KL1333 and ASHA-091. He recalled roughly 20–40 minutes for some reactions. Diary entries also document variation, concurrent cognitive exertion, changes in vehicle, and doses without the same response.",
+          "association": "reported",
+          "chronology_key": "context_cards:CTX-018",
+          "claim_link_id": "claim:8733940c-3b49-5da7-9c0d-222e699c90ab",
+          "coexposures": [],
+          "course_id": null,
+          "event_date": null,
+          "intervention": "ASHA-091",
+          "intervention_id": "intervention:b9b5c434-2f1d-5273-950d-52abaf4e1c88",
+          "patterns": [
+            {
+              "code": "recurrent",
+              "evidence": "context_cards:CTX-018"
+            },
+            {
+              "code": "variable",
+              "evidence": "context_cards:CTX-018"
+            },
+            {
+              "code": "outcome_unknown",
+              "evidence": "context_cards:CTX-018"
+            }
+          ],
+          "record_id": "CTX-018",
+          "report_date": null,
+          "source_table": "context_cards",
+          "treatment_actions": []
+        },
+        {
+          "account": "Nape pressure and wrist fatigue appeared within about half an hour. The reaction was stronger at 10 mg than at smaller doses. Afternoon sleep pressure and crashes also occurred.",
+          "association": "reported",
+          "chronology_key": "response:S3:treatment_response:277",
+          "claim_link_id": "claim:07ad37f4-5f31-5e7f-b888-feb4b52ca57d",
+          "coexposures": [],
+          "course_id": null,
+          "event_date": null,
+          "intervention": "ASHA-091",
+          "intervention_id": "intervention:b9b5c434-2f1d-5273-950d-52abaf4e1c88",
+          "patterns": [
+            {
+              "code": "dose_related",
+              "evidence": "historical_entries:S3:treatment_response:277"
+            },
+            {
+              "code": "recurrent",
+              "evidence": "historical_entries:S3:treatment_response:277"
+            },
+            {
+              "code": "variable",
+              "evidence": "historical_entries:S3:treatment_response:277"
+            },
+            {
+              "code": "outcome_unknown",
+              "evidence": "historical_entries:S3:treatment_response:277"
+            }
+          ],
+          "record_id": "S3:treatment_response:277",
+          "report_date": null,
+          "source_table": "historical_entries",
+          "treatment_actions": []
+        }
+      ],
+      "title": "ASHA-091",
+      "treatment_type": "drug"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:0353a227-b1f4-50ce-8c80-85d4ded24c00",
+      "reference": "pz_concept:intervention:0353a227-b1f4-50ce-8c80-85d4ded24c00",
+      "reviewed_worsening": [
+        {
+          "account": "Brief upper abdominal flare immediately after drinking acacia; low carbohydrate intake and PEM also recorded that day.",
+          "association": "possible",
+          "chronology_key": "response:S2-R-255",
+          "claim_link_id": "claim:7c6fd78c-e716-51f9-9af7-78d710b5b5fb",
+          "coexposures": [],
+          "course_id": null,
+          "event_date": "2025-06-21",
+          "intervention": "Acacia fibre",
+          "intervention_id": "intervention:0353a227-b1f4-50ce-8c80-85d4ded24c00",
+          "patterns": [
+            {
+              "code": "time_limited",
+              "evidence": "diary_responses:S2-R-255"
+            }
+          ],
+          "record_id": "S2-R-255",
+          "report_date": null,
+          "source_table": "diary_responses",
+          "treatment_actions": []
+        }
+      ],
+      "title": "Acacia fibre",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:20c2cc8f-582f-55b7-8402-5b522b810c04",
+      "reference": "pz_concept:intervention:20c2cc8f-582f-55b7-8402-5b522b810c04",
+      "reviewed_worsening": [],
+      "title": "Adenosyl B12",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:c69d51c0-7465-53ff-bad5-fe01b232faad",
+      "reference": "pz_concept:intervention:c69d51c0-7465-53ff-bad5-fe01b232faad",
+      "reviewed_worsening": [],
+      "title": "Albendazole",
+      "treatment_type": "drug"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:ed7efb4b-56a4-5d02-a103-65cccb95158f",
+      "reference": "pz_concept:intervention:ed7efb4b-56a4-5d02-a103-65cccb95158f",
+      "reviewed_worsening": [
+        {
+          "account": "In December the patient recalled heavy brain burning the day after taking the earlier alginite preparation. He reported that the burning became less intense after he stopped. He also identified several other triggers for burning.",
+          "association": "reported",
+          "chronology_key": "response-evidence:archive_messages:S1-M7992",
+          "claim_link_id": "claim:alginite-s1-7992",
+          "coexposures": [],
+          "course_id": null,
+          "event_date": null,
+          "intervention": "Alginite",
+          "intervention_id": "intervention:ed7efb4b-56a4-5d02-a103-65cccb95158f",
+          "patterns": [
+            {
+              "code": "eased_after_stopping",
+              "evidence": "archive_messages:S1-M7992; S1:8002; S5:627"
+            }
+          ],
+          "record_id": "S1-M7992",
+          "report_date": "2024-12-07",
+          "source_table": "archive_messages",
+          "treatment_actions": [
+            {
+              "code": "held",
+              "evidence": "archive_messages:S1-M7992; reviewed_exposure_accounts:EX-GI-001"
+            }
+          ]
+        },
+        {
+          "account": "After the July 4 increase from 5 to 7.5 mL, the patient described July 8 as better than the weekend, with fog recurring several times. He wondered whether a dose-related reaction was waning. Alginite was stopped July 10.",
+          "association": "possible",
+          "chronology_key": "response:S5-R-AL15-2",
+          "claim_link_id": "claim:eadb2016-2e51-5fc0-aff8-07088e31aea3",
+          "coexposures": [],
+          "course_id": "course:4a289d25-8c41-51aa-94be-f0f906db3cef",
+          "event_date": "2024-07-08",
+          "intervention": "Alginite",
+          "intervention_id": "intervention:ed7efb4b-56a4-5d02-a103-65cccb95158f",
+          "patterns": [
+            {
+              "code": "dose_related",
+              "evidence": "diary_responses:S5-R-AL15-2; intervention_events:S5-E-AN14-1"
+            }
+          ],
+          "record_id": "S5-R-AL15-2",
+          "report_date": "2024-07-08",
+          "source_table": "diary_responses",
+          "treatment_actions": []
+        },
+        {
+          "account": "Small black stools in the morning and evening were attributed to alginite. Severe abdominal pain preceded the evening stool and resolved afterward.",
+          "association": "reported",
+          "chronology_key": "response:S5-R-V15-3",
+          "claim_link_id": "claim:42d9384e-5e7a-517e-b68e-b3b54e3e7217",
+          "coexposures": [],
+          "course_id": null,
+          "event_date": "2024-06-22",
+          "intervention": "Alginite",
+          "intervention_id": "intervention:ed7efb4b-56a4-5d02-a103-65cccb95158f",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "diary_responses:S5-R-V15-3"
+            }
+          ],
+          "record_id": "S5-R-V15-3",
+          "report_date": "2024-06-22",
+          "source_table": "diary_responses",
+          "treatment_actions": []
+        }
+      ],
+      "title": "Alginite",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:a8c9abf5-7a89-5616-b72b-6da8fa61b76b",
+      "reference": "pz_concept:intervention:a8c9abf5-7a89-5616-b72b-6da8fa61b76b",
+      "reviewed_worsening": [],
+      "title": "Arterosil",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:7e1ea408-af99-5d0a-982e-3885189f5c9a",
+      "reference": "pz_concept:intervention:7e1ea408-af99-5d0a-982e-3885189f5c9a",
+      "reviewed_worsening": [
+        {
+          "account": "Stopped when patient suspected a contribution to worsening.",
+          "association": "possible",
+          "chronology_key": "response:S2-R-8029",
+          "claim_link_id": "claim:2944ac91-be77-5175-948f-562df5217812",
+          "coexposures": [],
+          "course_id": "course:24da4977-2e1f-52cb-8332-0f9511af8415",
+          "event_date": "2026-08-26",
+          "intervention": "Aspirin",
+          "intervention_id": "intervention:7e1ea408-af99-5d0a-982e-3885189f5c9a",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "diary_responses:S2-R-8029"
+            }
+          ],
+          "record_id": "S2-R-8029",
+          "report_date": null,
+          "source_table": "diary_responses",
+          "treatment_actions": [
+            {
+              "code": "held",
+              "evidence": "diary_responses:S2-R-8029"
+            }
+          ]
+        }
+      ],
+      "title": "Aspirin",
+      "treatment_type": "drug"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:d988904d-f17a-549e-af77-0dae8ad33b50",
+      "reference": "pz_concept:intervention:d988904d-f17a-549e-af77-0dae8ad33b50",
+      "reviewed_worsening": [
+        {
+          "account": "Taken with maraviroc for about two months during February–April 2024. The patient reported increased brain burning and tinnitus by the end of the regimen and stopped. He could not separate the effects of the two drugs.",
+          "association": "joint",
+          "chronology_key": "response:S3:treatment_response:232",
+          "claim_link_id": "claim:36e4ef46-f8eb-50fe-b541-0ac8a255f4a2",
+          "coexposures": [
+            {
+              "evidence": "historical_entries:S3:treatment_response:232",
+              "intervention_id": "intervention:1870ceab-069a-544a-b14a-dcaf381b156d",
+              "relation": "together",
+              "title": "Maraviroc"
+            }
+          ],
+          "course_id": "course:b94674dc-a828-5858-abb6-befe30591e37",
+          "event_date": null,
+          "intervention": "Atorvastatin",
+          "intervention_id": "intervention:d988904d-f17a-549e-af77-0dae8ad33b50",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "historical_entries:S3:treatment_response:232"
+            }
+          ],
+          "record_id": "S3:treatment_response:232",
+          "report_date": null,
+          "source_table": "historical_entries",
+          "treatment_actions": [
+            {
+              "code": "held",
+              "evidence": "historical_entries:S3:treatment_response:232"
+            }
+          ]
+        }
+      ],
+      "title": "Atorvastatin",
+      "treatment_type": "drug"
+    },
+    {
+      "basis": "Named in a timed diary entry.",
+      "intervention_id": "intervention:201a3745-367e-59f4-923a-db646b98ee7b",
+      "reference": "diary_observations:S2-OBS-5860",
+      "reviewed_worsening": [],
+      "title": "B vitamins (unspecified)",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "Pulsed electromagnetic field device.",
+      "intervention_id": "intervention:e9207121-4020-582d-901b-14266bbc7146",
+      "reference": "pz_catalog_disposition:intervention:e9207121-4020-582d-901b-14266bbc7146",
+      "reviewed_worsening": [],
+      "title": "BEMER",
+      "treatment_type": "non_drug"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:676ef01c-aa48-5154-bdab-836527b3a66e",
+      "reference": "pz_concept:intervention:676ef01c-aa48-5154-bdab-836527b3a66e",
+      "reviewed_worsening": [],
+      "title": "Bacopa",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:0c7e2040-6bf9-5577-9a66-395264290c80",
+      "reference": "pz_concept:intervention:0c7e2040-6bf9-5577-9a66-395264290c80",
+      "reviewed_worsening": [],
+      "title": "Berberine",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:9eb3430d-9e5a-5c9e-bfbf-a30383054e91",
+      "reference": "pz_concept:intervention:9eb3430d-9e5a-5c9e-bfbf-a30383054e91",
+      "reviewed_worsening": [],
+      "title": "Berberine HCl",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:fb15d627-61a4-5616-b14c-92ee978beb7b",
+      "reference": "pz_concept:intervention:fb15d627-61a4-5616-b14c-92ee978beb7b",
+      "reviewed_worsening": [],
+      "title": "Berberine phytosome",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:b3cffd95-ae11-5b1d-9342-a9e2f5c08f46",
+      "reference": "pz_concept:intervention:b3cffd95-ae11-5b1d-9342-a9e2f5c08f46",
+      "reviewed_worsening": [],
+      "title": "Beta-caryophyllene",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:d41171a7-77c9-598a-a5c1-1a0e6217660d",
+      "reference": "pz_concept:intervention:d41171a7-77c9-598a-a5c1-1a0e6217660d",
+      "reviewed_worsening": [
+        {
+          "account": "On December 31 a NeilMed rinse with boric acid and Betadine was followed by nasal pain extending to the back of the head. The account concerns the prepared rinse.",
+          "association": "joint",
+          "chronology_key": "response-evidence:historical_entries:S3:chronology:612",
+          "claim_link_id": "claim:40b51c1c-5ee0-5262-8129-be7346c8be2e",
+          "coexposures": [
+            {
+              "evidence": "historical_entries:S3:chronology:612",
+              "intervention_id": "intervention:a1e2cfca-e4aa-532c-8495-9e079762b8c8",
+              "relation": "together",
+              "title": "Boric acid"
+            },
+            {
+              "evidence": "historical_entries:S3:chronology:612",
+              "intervention_id": "intervention:8d7f9654-5ec4-5d4e-ab5e-50ebacf26088",
+              "relation": "together",
+              "title": "NeilMed"
+            }
+          ],
+          "course_id": null,
+          "event_date": null,
+          "intervention": "Betadine",
+          "intervention_id": "intervention:d41171a7-77c9-598a-a5c1-1a0e6217660d",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "historical_entries:S3:chronology:612"
+            }
+          ],
+          "record_id": "S3:chronology:612",
+          "report_date": null,
+          "source_table": "historical_entries",
+          "treatment_actions": []
+        }
+      ],
+      "title": "Betadine",
+      "treatment_type": "drug"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:a13ea008-f4c6-5dee-815e-aa7df649e106",
+      "reference": "pz_concept:intervention:a13ea008-f4c6-5dee-815e-aa7df649e106",
+      "reviewed_worsening": [],
+      "title": "Bezafibrate",
+      "treatment_type": "drug"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:ee824179-20cd-5023-98b9-9ca860592f79",
+      "reference": "pz_concept:intervention:ee824179-20cd-5023-98b9-9ca860592f79",
+      "reviewed_worsening": [
+        {
+          "account": "CNS fatigue became very strong the next afternoon, worse after a meal. Stopped the trial.",
+          "association": "joint",
+          "chronology_key": "response:S2-R-3550",
+          "claim_link_id": "claim:6d256720-908c-5340-91d5-9a6c1212ffc4",
+          "coexposures": [
+            {
+              "evidence": "context_cards:CTX-017",
+              "intervention_id": "intervention:8c44127d-11fb-5024-8f14-bb5c20b3def5",
+              "relation": "overlap",
+              "title": "Spore probiotic"
+            }
+          ],
+          "course_id": "course:d1746288-6ef4-54c7-b6d8-38e68ad26e60",
+          "event_date": "2025-12-01",
+          "intervention": "Bezisterim",
+          "intervention_id": "intervention:ee824179-20cd-5023-98b9-9ca860592f79",
+          "patterns": [
+            {
+              "code": "single_dose",
+              "evidence": "diary_responses:S2-R-3550; context_cards:CTX-017"
+            },
+            {
+              "code": "outcome_unknown",
+              "evidence": "diary_responses:S2-R-3550; context_cards:CTX-017"
+            }
+          ],
+          "record_id": "S2-R-3550",
+          "report_date": null,
+          "source_table": "diary_responses",
+          "treatment_actions": [
+            {
+              "code": "held",
+              "evidence": "diary_responses:S2-R-3550; context_cards:CTX-017"
+            }
+          ]
+        },
+        {
+          "account": "The patient recalled forehead and eye symptoms, increased sinus pressure and reduced screen tolerance. Nape and forearm fatigue persisted. Some symptoms began during the preceding spore probiotic trial.",
+          "association": "joint",
+          "chronology_key": "response:S3:treatment_response:226",
+          "claim_link_id": "claim:806ba4fc-50ea-5847-b87b-6147e335f2d4",
+          "coexposures": [
+            {
+              "evidence": "context_cards:CTX-017",
+              "intervention_id": "intervention:8c44127d-11fb-5024-8f14-bb5c20b3def5",
+              "relation": "overlap",
+              "title": "Spore probiotic"
+            }
+          ],
+          "course_id": "course:d1746288-6ef4-54c7-b6d8-38e68ad26e60",
+          "event_date": null,
+          "intervention": "Bezisterim",
+          "intervention_id": "intervention:ee824179-20cd-5023-98b9-9ca860592f79",
+          "patterns": [
+            {
+              "code": "persistent",
+              "evidence": "historical_entries:S3:treatment_response:226; context_cards:CTX-017"
+            },
+            {
+              "code": "single_dose",
+              "evidence": "historical_entries:S3:treatment_response:226; context_cards:CTX-017"
+            }
+          ],
+          "record_id": "S3:treatment_response:226",
+          "report_date": null,
+          "source_table": "historical_entries",
+          "treatment_actions": []
+        }
+      ],
+      "title": "Bezisterim",
+      "treatment_type": "drug"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:39efbf4d-6308-507c-ae4c-09e5c2a8a632",
+      "reference": "pz_concept:intervention:39efbf4d-6308-507c-ae4c-09e5c2a8a632",
+      "reviewed_worsening": [],
+      "title": "Bicarbonate",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:ab4fb279-3436-5075-9ff2-ce626322f84b",
+      "reference": "pz_concept:intervention:ab4fb279-3436-5075-9ff2-ce626322f84b",
+      "reviewed_worsening": [],
+      "title": "BioFisetin",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:a28d2bc3-dd8d-5d03-b97b-c93259939647",
+      "reference": "pz_concept:intervention:a28d2bc3-dd8d-5d03-b97b-c93259939647",
+      "reviewed_worsening": [],
+      "title": "Black cumin seed",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:4e3608cc-5b4c-5fa9-bcbe-cbc694f11784",
+      "reference": "pz_concept:intervention:4e3608cc-5b4c-5fa9-bcbe-cbc694f11784",
+      "reviewed_worsening": [],
+      "title": "Black garlic",
+      "treatment_type": "food_based"
+    },
+    {
+      "basis": "Ingredient of a compounded nasal rinse. Preparation and regulatory status are unspecified.",
+      "intervention_id": "intervention:a1e2cfca-e4aa-532c-8495-9e079762b8c8",
+      "reference": "pz_concept:intervention:a1e2cfca-e4aa-532c-8495-9e079762b8c8",
+      "reviewed_worsening": [
+        {
+          "account": "On December 31 a NeilMed rinse with boric acid and Betadine was followed by nasal pain extending to the back of the head. The account concerns the prepared rinse.",
+          "association": "joint",
+          "chronology_key": "response-evidence:historical_entries:S3:chronology:612",
+          "claim_link_id": "claim:b3606aa9-ed8f-500e-978f-1c9eb3779d55",
+          "coexposures": [
+            {
+              "evidence": "historical_entries:S3:chronology:612",
+              "intervention_id": "intervention:d41171a7-77c9-598a-a5c1-1a0e6217660d",
+              "relation": "together",
+              "title": "Betadine"
+            },
+            {
+              "evidence": "historical_entries:S3:chronology:612",
+              "intervention_id": "intervention:8d7f9654-5ec4-5d4e-ab5e-50ebacf26088",
+              "relation": "together",
+              "title": "NeilMed"
+            }
+          ],
+          "course_id": null,
+          "event_date": null,
+          "intervention": "Boric acid",
+          "intervention_id": "intervention:a1e2cfca-e4aa-532c-8495-9e079762b8c8",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "historical_entries:S3:chronology:612"
+            }
+          ],
+          "record_id": "S3:chronology:612",
+          "report_date": null,
+          "source_table": "historical_entries",
+          "treatment_actions": []
+        }
+      ],
+      "title": "Boric acid",
+      "treatment_type": "other"
+    },
+    {
+      "basis": "Experimental use of a food dye. Recorded separately from dietary supplements.",
+      "intervention_id": "intervention:d9f5ef53-ab29-5a64-a3ca-72a4af67faa1",
+      "reference": "pz_concept:intervention:d9f5ef53-ab29-5a64-a3ca-72a4af67faa1",
+      "reviewed_worsening": [
+        {
+          "account": "Initially described tolerating 0.05 mg twice daily after earlier reactions; hunger rebounded after stopping. Later again associated E133 with worsening. Dose-variable and temporally mixed reports.",
+          "association": "reported",
+          "chronology_key": "response:S1-F65365-1",
+          "claim_link_id": "claim:b7e0bb64-1e0c-54b6-bba9-acf453511412",
+          "coexposures": [],
+          "course_id": null,
+          "event_date": null,
+          "intervention": "Brilliant blue FCF",
+          "intervention_id": "intervention:d9f5ef53-ab29-5a64-a3ca-72a4af67faa1",
+          "patterns": [
+            {
+              "code": "variable",
+              "evidence": "archive_findings:S1-F65365-1"
+            },
+            {
+              "code": "outcome_unknown",
+              "evidence": "archive_findings:S1-F65365-1"
+            }
+          ],
+          "record_id": "S1-F65365-1",
+          "report_date": "2025-12-29",
+          "source_table": "archive_findings",
+          "treatment_actions": []
+        }
+      ],
+      "title": "Brilliant blue FCF",
+      "treatment_type": "other"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:83bd5b76-be9c-59c2-9d88-071b2a340359",
+      "reference": "pz_concept:intervention:83bd5b76-be9c-59c2-9d88-071b2a340359",
+      "reviewed_worsening": [],
+      "title": "Bromelain",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:bcb679d9-0e69-52e7-ac7a-ab40a4c1186c",
+      "reference": "pz_concept:intervention:bcb679d9-0e69-52e7-ac7a-ab40a4c1186c",
+      "reviewed_worsening": [],
+      "title": "Burdock root",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "CBD exposure with unspecified product. The record does not identify a prescription formulation.",
+      "intervention_id": "intervention:72f8d4af-da69-5951-b735-1a3c3bc6ab6c",
+      "reference": "pz_concept:intervention:72f8d4af-da69-5951-b735-1a3c3bc6ab6c",
+      "reviewed_worsening": [],
+      "title": "Cannabidiol",
+      "treatment_type": "other"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:3d606728-8e82-5c68-b1b1-3372d094c032",
+      "reference": "pz_concept:intervention:3d606728-8e82-5c68-b1b1-3372d094c032",
+      "reviewed_worsening": [],
+      "title": "Carnitine (acetyl form)",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:59d11350-8ed5-585b-a188-87437b38b620",
+      "reference": "pz_concept:intervention:59d11350-8ed5-585b-a188-87437b38b620",
+      "reviewed_worsening": [
+        {
+          "account": "Cat’s claw (species unspecified) was among the separately recalled exposures associated by the patient with a similar tingling sensation.",
+          "association": "reported",
+          "chronology_key": "response:S1-F60911-1",
+          "claim_link_id": "claim:ceb550a8-70f5-5947-baca-2341a4373370",
+          "coexposures": [],
+          "course_id": null,
+          "event_date": null,
+          "intervention": "Cat’s claw (species unspecified)",
+          "intervention_id": "intervention:59d11350-8ed5-585b-a188-87437b38b620",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "archive_findings:S1-F60911-1"
+            }
+          ],
+          "record_id": "S1-F60911-1",
+          "report_date": "2025-11-16",
+          "source_table": "archive_findings",
+          "treatment_actions": []
+        }
+      ],
+      "title": "Cat’s claw (species unspecified)",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "Named in a timed diary entry.",
+      "intervention_id": "intervention:93569cbe-a783-56e4-907c-915c1780ad64",
+      "reference": "diary_observations:S2-OBS-6149",
+      "reviewed_worsening": [],
+      "title": "Cellulose (test exposure)",
+      "treatment_type": "non_drug"
+    },
+    {
+      "basis": "Named in a timed diary entry.",
+      "intervention_id": "intervention:a8977b1f-ec96-50e7-9d88-7ccb28bba6c0",
+      "reference": "diary_observations:S2-OBS-5218",
+      "reviewed_worsening": [],
+      "title": "Cetirizine",
+      "treatment_type": "drug"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:4ac4fe9d-f60e-5768-8aa9-9a2d085ae50e",
+      "reference": "pz_concept:intervention:4ac4fe9d-f60e-5768-8aa9-9a2d085ae50e",
+      "reviewed_worsening": [],
+      "title": "Charcoal",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:4419fb51-9af3-5ab4-b395-17c44063aaa7",
+      "reference": "pz_concept:intervention:4419fb51-9af3-5ab4-b395-17c44063aaa7",
+      "reviewed_worsening": [],
+      "title": "Cistus incanus",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:00c1f173-050f-5aba-a976-84ad804938ed",
+      "reference": "pz_concept:intervention:00c1f173-050f-5aba-a976-84ad804938ed",
+      "reviewed_worsening": [],
+      "title": "Citrulline",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:7f41d593-2b57-5451-8839-00cdc99f521c",
+      "reference": "pz_concept:intervention:7f41d593-2b57-5451-8839-00cdc99f521c",
+      "reviewed_worsening": [],
+      "title": "Citrulline-malate",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:653006d0-ed7b-5da6-945e-a01c150a7a45",
+      "reference": "pz_concept:intervention:653006d0-ed7b-5da6-945e-a01c150a7a45",
+      "reviewed_worsening": [],
+      "title": "Clay minerals",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:b4e24ea5-3f09-58b3-a0f0-2f47d375394b",
+      "reference": "pz_concept:intervention:b4e24ea5-3f09-58b3-a0f0-2f47d375394b",
+      "reviewed_worsening": [
+        {
+          "account": "After first recorded dose: burning brain, fatigue without expected forced sleep, internal tremor. The patient explicitly questioned attribution and concurrent exertion. Dose fraction is internally inconsistent.",
+          "association": "possible",
+          "chronology_key": "response:S2-R-8715",
+          "claim_link_id": "claim:1e3e8bba-78a3-52f5-87ff-7df194998981",
+          "coexposures": [],
+          "course_id": null,
+          "event_date": "2026-10-19",
+          "intervention": "Clonazepam",
+          "intervention_id": "intervention:b4e24ea5-3f09-58b3-a0f0-2f47d375394b",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "diary_responses:S2-R-8715"
+            }
+          ],
+          "record_id": "S2-R-8715",
+          "report_date": null,
+          "source_table": "diary_responses",
+          "treatment_actions": []
+        },
+        {
+          "account": "Brain fatigue and burning followed the October 19 test. The patient suspected clonazepam and also considered exertion. They explicitly recorded that they did not crash into sleep.",
+          "association": "possible",
+          "chronology_key": "response:S2-R-8715",
+          "claim_link_id": "claim:6d948792-e25a-5748-abc7-290d17c879b7",
+          "coexposures": [],
+          "course_id": "course:3ba98885-dcca-5069-9437-22c1a7bc2930",
+          "event_date": "2026-10-19",
+          "intervention": "Clonazepam",
+          "intervention_id": "intervention:b4e24ea5-3f09-58b3-a0f0-2f47d375394b",
+          "patterns": [],
+          "record_id": "S2-R-8715",
+          "report_date": null,
+          "source_table": "diary_responses",
+          "treatment_actions": []
+        }
+      ],
+      "title": "Clonazepam",
+      "treatment_type": "drug"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:9d881286-e883-59f4-8e5e-7ca0465ade0b",
+      "reference": "pz_concept:intervention:9d881286-e883-59f4-8e5e-7ca0465ade0b",
+      "reviewed_worsening": [],
+      "title": "CoQ10",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "Oral nutritional product. The recorded use is nutritional supplementation.",
+      "intervention_id": "intervention:5742d79a-b0fc-51d0-9769-c6a8fb5931cc",
+      "reference": "pz_concept:intervention:5742d79a-b0fc-51d0-9769-c6a8fb5931cc",
+      "reviewed_worsening": [],
+      "title": "Collagen",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:e4efb12f-aabd-557c-943f-58382baf5952",
+      "reference": "pz_concept:intervention:e4efb12f-aabd-557c-943f-58382baf5952",
+      "reviewed_worsening": [],
+      "title": "Copper",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:f3b5ca75-48e9-5352-a841-93700bba4a90",
+      "reference": "pz_concept:intervention:f3b5ca75-48e9-5352-a841-93700bba4a90",
+      "reviewed_worsening": [],
+      "title": "Copper bisglycinate",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "Copper supplement. The May trial was initially recorded as sulfate. The product label is unavailable.",
+      "intervention_id": "intervention:40dec8c2-f445-5625-a581-134aa1931e43",
+      "reference": "S2:6691,6693,6734,6755",
+      "reviewed_worsening": [
+        {
+          "account": "The patient recalled a similar nape flare within half an hour and questioned the copper preparation name. The account gives no date or dose. Attribution is uncertain.",
+          "association": "possible",
+          "chronology_key": "response:S3:treatment_response:280",
+          "claim_link_id": "claim:a5ddc67f-5dfd-5075-bafd-c99b4adb2d3e",
+          "coexposures": [],
+          "course_id": null,
+          "event_date": null,
+          "intervention": "Copper sulfate",
+          "intervention_id": "intervention:40dec8c2-f445-5625-a581-134aa1931e43",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "historical_entries:S3:treatment_response:280"
+            }
+          ],
+          "record_id": "S3:treatment_response:280",
+          "report_date": null,
+          "source_table": "historical_entries",
+          "treatment_actions": []
+        }
+      ],
+      "title": "Copper sulfate",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:5f3df278-ddd3-5532-a8cd-975c2dc08603",
+      "reference": "pz_concept:intervention:5f3df278-ddd3-5532-a8cd-975c2dc08603",
+      "reviewed_worsening": [],
+      "title": "Cordyceps",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:c172ea0b-1e16-50f9-93cc-73dddbb95b8c",
+      "reference": "pz_concept:intervention:c172ea0b-1e16-50f9-93cc-73dddbb95b8c",
+      "reviewed_worsening": [],
+      "title": "CranRich",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:aef061b9-70ac-5461-9806-4df7cf00a77a",
+      "reference": "pz_concept:intervention:aef061b9-70ac-5461-9806-4df7cf00a77a",
+      "reviewed_worsening": [
+        {
+          "account": "The patient recalled a poisoned CNS sensation but identified the agent only as creatine or inosine. Which agent preceded it is unknown.",
+          "association": "joint",
+          "chronology_key": "response:S3:treatment_response:258",
+          "claim_link_id": "claim:a88ef84b-bad9-567a-9c72-9204ffe798d5",
+          "coexposures": [
+            {
+              "evidence": "historical_entries:S3:treatment_response:258",
+              "intervention_id": "intervention:362db25c-64c6-54e7-a9a3-14172b1a146a",
+              "relation": "alternative",
+              "title": "Inosine"
+            }
+          ],
+          "course_id": null,
+          "event_date": null,
+          "intervention": "Creatine",
+          "intervention_id": "intervention:aef061b9-70ac-5461-9806-4df7cf00a77a",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "historical_entries:S3:treatment_response:258"
+            }
+          ],
+          "record_id": "S3:treatment_response:258",
+          "report_date": null,
+          "source_table": "historical_entries",
+          "treatment_actions": []
+        }
+      ],
+      "title": "Creatine",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:77163fe9-d974-5685-ba53-c89eff1a5b8a",
+      "reference": "pz_concept:intervention:77163fe9-d974-5685-ba53-c89eff1a5b8a",
+      "reviewed_worsening": [],
+      "title": "D-larazotide",
+      "treatment_type": "peptide"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:883d63f2-c1c4-542f-a3b8-76d55e2d709b",
+      "reference": "pz_concept:intervention:883d63f2-c1c4-542f-a3b8-76d55e2d709b",
+      "reviewed_worsening": [],
+      "title": "D-ribose",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:6e878d3d-76df-5f61-bc15-1257500d3633",
+      "reference": "pz_concept:intervention:6e878d3d-76df-5f61-bc15-1257500d3633",
+      "reviewed_worsening": [],
+      "title": "DHM",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:2504ca83-5085-51dd-a842-20b5f25bd4f2",
+      "reference": "pz_concept:intervention:2504ca83-5085-51dd-a842-20b5f25bd4f2",
+      "reviewed_worsening": [],
+      "title": "Daridorexant",
+      "treatment_type": "drug"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:aef6ad12-ed5a-50de-8e7b-06d4e27a43b7",
+      "reference": "pz_concept:intervention:aef6ad12-ed5a-50de-8e7b-06d4e27a43b7",
+      "reviewed_worsening": [
+        {
+          "account": "Patient questioned whether the double dose was related to a crash and green stool; schedule changed.",
+          "association": "possible",
+          "chronology_key": "response:S2-R-8165",
+          "claim_link_id": "claim:159f49cf-b6ec-568e-947a-0bdd7373cf7a",
+          "coexposures": [],
+          "course_id": null,
+          "event_date": "2026-09-06",
+          "intervention": "Darvoni",
+          "intervention_id": "intervention:aef6ad12-ed5a-50de-8e7b-06d4e27a43b7",
+          "patterns": [
+            {
+              "code": "dose_related",
+              "evidence": "diary_responses:S2-R-8165"
+            },
+            {
+              "code": "outcome_unknown",
+              "evidence": "diary_responses:S2-R-8165"
+            }
+          ],
+          "record_id": "S2-R-8165",
+          "report_date": null,
+          "source_table": "diary_responses",
+          "treatment_actions": []
+        }
+      ],
+      "title": "Darvoni",
+      "treatment_type": "drug"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:2a5f80ef-581b-5208-9499-5b8271ad6db9",
+      "reference": "pz_concept:intervention:2a5f80ef-581b-5208-9499-5b8271ad6db9",
+      "reviewed_worsening": [
+        {
+          "account": "Brain burning grew more severe during the two-month course. The patient described marked cognitive impairment by the end of treatment.",
+          "association": "reported",
+          "chronology_key": "response:S3:treatment_response:238",
+          "claim_link_id": "claim:823feef7-6c81-5d23-bc36-55f6d2ae00bc",
+          "coexposures": [],
+          "course_id": "course:9f6044d9-9a71-5f6c-9789-571dbeade170",
+          "event_date": null,
+          "intervention": "Doxycycline",
+          "intervention_id": "intervention:2a5f80ef-581b-5208-9499-5b8271ad6db9",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "historical_entries:S3:treatment_response:238"
+            }
+          ],
+          "record_id": "S3:treatment_response:238",
+          "report_date": null,
+          "source_table": "historical_entries",
+          "treatment_actions": []
+        }
+      ],
+      "title": "Doxycycline",
+      "treatment_type": "drug"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:7edb8861-49ef-5551-a059-615eb51f883f",
+      "reference": "pz_concept:intervention:7edb8861-49ef-5551-a059-615eb51f883f",
+      "reviewed_worsening": [],
+      "title": "EGCG",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:ae1809ed-3301-52a0-9fdb-0b97035cd246",
+      "reference": "pz_concept:intervention:ae1809ed-3301-52a0-9fdb-0b97035cd246",
+      "reviewed_worsening": [],
+      "title": "Electrolyte drink",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:b7531a5b-ba5a-55e9-8a0f-9efc39f7119e",
+      "reference": "pz_concept:intervention:b7531a5b-ba5a-55e9-8a0f-9efc39f7119e",
+      "reviewed_worsening": [
+        {
+          "account": "Green stools started the day after initiation. The patient also considered a delayed effect of the earlier rapamycin dose.",
+          "association": "possible",
+          "chronology_key": "response:S3:treatment_response:217",
+          "claim_link_id": "claim:57237e1c-f2cd-5e1a-a541-3f85a5b36eeb",
+          "coexposures": [
+            {
+              "evidence": "historical_entries:S3:treatment_response:217",
+              "intervention_id": "intervention:d2791758-1a3d-5f28-b23b-b5ef705c0252",
+              "relation": "alternative",
+              "title": "Rapamycin"
+            }
+          ],
+          "course_id": null,
+          "event_date": null,
+          "intervention": "Ensitrelvir",
+          "intervention_id": "intervention:b7531a5b-ba5a-55e9-8a0f-9efc39f7119e",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "historical_entries:S3:treatment_response:217"
+            }
+          ],
+          "record_id": "S3:treatment_response:217",
+          "report_date": null,
+          "source_table": "historical_entries",
+          "treatment_actions": []
+        }
+      ],
+      "title": "Ensitrelvir",
+      "treatment_type": "drug"
+    },
+    {
+      "basis": "Oral adsorbent medical device.",
+      "intervention_id": "intervention:b83129aa-3081-52f5-9b69-8eb53c5e4725",
+      "reference": "https://enterosgel.hu/wp-content/uploads/2021/05/ce.pdf",
+      "reviewed_worsening": [
+        {
+          "account": "Restarted March 4. One spoon reportedly reduced abdominal bubbling; two spoons previously seemed irritating.",
+          "association": "reported",
+          "chronology_key": "response:S1-F70972-1",
+          "claim_link_id": "claim:26e08ebf-0740-50d3-88c9-2d94c5a5b0a1",
+          "coexposures": [],
+          "course_id": "course:195cec67-4ceb-5f59-a92e-e8d244ea1bc8",
+          "event_date": null,
+          "intervention": "Enterosgel",
+          "intervention_id": "intervention:b83129aa-3081-52f5-9b69-8eb53c5e4725",
+          "patterns": [
+            {
+              "code": "dose_related",
+              "evidence": "archive_findings:S1-F70972-1"
+            },
+            {
+              "code": "variable",
+              "evidence": "archive_findings:S1-F70972-1"
+            },
+            {
+              "code": "outcome_unknown",
+              "evidence": "archive_findings:S1-F70972-1"
+            }
+          ],
+          "record_id": "S1-F70972-1",
+          "report_date": "2026-03-04",
+          "source_table": "archive_findings",
+          "treatment_actions": []
+        }
+      ],
+      "title": "Enterosgel",
+      "treatment_type": "non_drug"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:6e0a13bd-1158-5fb5-b666-8f8b986e2ad0",
+      "reference": "pz_concept:intervention:6e0a13bd-1158-5fb5-b666-8f8b986e2ad0",
+      "reviewed_worsening": [],
+      "title": "Epitalon",
+      "treatment_type": "peptide"
+    },
+    {
+      "basis": "Terpene used in a nasal preparation. Product composition is unspecified.",
+      "intervention_id": "intervention:7571fe6e-3ff5-5b39-a715-70d980e8f19a",
+      "reference": "pz_concept:intervention:7571fe6e-3ff5-5b39-a715-70d980e8f19a",
+      "reviewed_worsening": [],
+      "title": "Eucalyptol",
+      "treatment_type": "other"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:4c58b49b-b0d4-5bf8-8c77-7bd9f0c665ff",
+      "reference": "pz_concept:intervention:4c58b49b-b0d4-5bf8-8c77-7bd9f0c665ff",
+      "reviewed_worsening": [],
+      "title": "Famotidine",
+      "treatment_type": "drug"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:42e319f7-8c08-5319-abe3-1636d6f09a1d",
+      "reference": "pz_concept:intervention:42e319f7-8c08-5319-abe3-1636d6f09a1d",
+      "reviewed_worsening": [
+        {
+          "account": "The patient attributed recurrent diarrhea to garlic and reported feeling warmer during the same trial.",
+          "association": "reported",
+          "chronology_key": "response-evidence:archive_findings:S1-F2-59964",
+          "claim_link_id": "claim:a9c22cb7-9e79-5479-ac31-e4aed436991d",
+          "coexposures": [],
+          "course_id": null,
+          "event_date": null,
+          "intervention": "Garlic",
+          "intervention_id": "intervention:42e319f7-8c08-5319-abe3-1636d6f09a1d",
+          "patterns": [
+            {
+              "code": "recurrent",
+              "evidence": "archive_findings:S1-F2-59964"
+            },
+            {
+              "code": "outcome_unknown",
+              "evidence": "archive_findings:S1-F2-59964"
+            }
+          ],
+          "record_id": "S1-F2-59964",
+          "report_date": "2025-11-04",
+          "source_table": "archive_findings",
+          "treatment_actions": []
+        },
+        {
+          "account": "Paused after more than 12 hours of gut gurgling, discomfort and burning; unsure whether garlic caused symptoms.",
+          "association": "possible",
+          "chronology_key": "response:S1-F59280-1",
+          "claim_link_id": "claim:73d08d77-ace5-5838-8687-5a84610892c0",
+          "coexposures": [],
+          "course_id": null,
+          "event_date": null,
+          "intervention": "Garlic",
+          "intervention_id": "intervention:42e319f7-8c08-5319-abe3-1636d6f09a1d",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "archive_findings:S1-F59280-1"
+            }
+          ],
+          "record_id": "S1-F59280-1",
+          "report_date": "2025-10-30",
+          "source_table": "archive_findings",
+          "treatment_actions": [
+            {
+              "code": "held",
+              "evidence": "archive_findings:S1-F59280-1"
+            }
+          ]
+        },
+        {
+          "account": "Marinated garlic stopped due to gut upset.",
+          "association": "possible",
+          "chronology_key": "response:S2-R-2965",
+          "claim_link_id": "claim:0b764632-5a15-579a-b6a4-ff39f19e495d",
+          "coexposures": [],
+          "course_id": "course:c6d3d795-37bf-5758-bf60-95d47ed6404e",
+          "event_date": "2025-10-29",
+          "intervention": "Garlic",
+          "intervention_id": "intervention:42e319f7-8c08-5319-abe3-1636d6f09a1d",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "diary_responses:S2-R-2965"
+            }
+          ],
+          "record_id": "S2-R-2965",
+          "report_date": null,
+          "source_table": "diary_responses",
+          "treatment_actions": [
+            {
+              "code": "held",
+              "evidence": "diary_responses:S2-R-2965"
+            }
+          ]
+        },
+        {
+          "account": "The patient reported mild skin prickling with garlic.",
+          "association": "reported",
+          "chronology_key": "response:S1-F6-6",
+          "claim_link_id": "claim:1d827c52-1582-58ec-bc33-f06057d4c991",
+          "coexposures": [],
+          "course_id": null,
+          "event_date": null,
+          "intervention": "Garlic",
+          "intervention_id": "intervention:42e319f7-8c08-5319-abe3-1636d6f09a1d",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "archive_findings:S1-F6-6"
+            }
+          ],
+          "record_id": "S1-F6-6",
+          "report_date": "2024-10-21",
+          "source_table": "archive_findings",
+          "treatment_actions": []
+        }
+      ],
+      "title": "Garlic",
+      "treatment_type": "food_based"
+    },
+    {
+      "basis": "Oral glutathione supplement. Glutathione is also a tripeptide.",
+      "intervention_id": "intervention:45bff719-d47e-568f-bc40-bbda18989d5b",
+      "reference": "pz_concept:intervention:45bff719-d47e-568f-bc40-bbda18989d5b",
+      "reviewed_worsening": [],
+      "title": "Glutathione",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "Branded oral glutathione supplement. Glutathione is also a tripeptide.",
+      "intervention_id": "intervention:e690ad16-1fa5-5965-8e8b-f1f24eeb307e",
+      "reference": "pz_concept:intervention:e690ad16-1fa5-5965-8e8b-f1f24eeb307e",
+      "reviewed_worsening": [],
+      "title": "Glutathione (Opitac)",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:48ef78ec-867f-5e5e-95ec-c23574784bf4",
+      "reference": "pz_concept:intervention:48ef78ec-867f-5e5e-95ec-c23574784bf4",
+      "reviewed_worsening": [],
+      "title": "Glycine",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:f46ccb39-8460-5396-81a9-e72c2e3198b4",
+      "reference": "pz_concept:intervention:f46ccb39-8460-5396-81a9-e72c2e3198b4",
+      "reviewed_worsening": [
+        {
+          "account": "Crash and corrosive tingling during overlapping trials. Patient could not separate the effects. Later recalled diarrhea beginning around this episode.",
+          "association": "joint",
+          "chronology_key": "response:S1-F48122-1",
+          "claim_link_id": "claim:2d8a8a85-10b3-53b3-960a-f70091100408",
+          "coexposures": [
+            {
+              "evidence": "reviewed_exposure_accounts:EX-GI-008",
+              "intervention_id": "intervention:10f09ca1-d141-5157-8f90-6a3b02ee7bb3",
+              "relation": "overlap",
+              "title": "SuperHMO"
+            }
+          ],
+          "course_id": null,
+          "event_date": null,
+          "intervention": "Gou teng",
+          "intervention_id": "intervention:f46ccb39-8460-5396-81a9-e72c2e3198b4",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "archive_findings:S1-F48122-1"
+            }
+          ],
+          "record_id": "S1-F48122-1",
+          "report_date": "2025-07-18",
+          "source_table": "archive_findings",
+          "treatment_actions": []
+        },
+        {
+          "account": "Tingling and abnormal stools were reported amid several exposures; no independent effect of gou teng was established.",
+          "association": "joint",
+          "chronology_key": "response:S2-R-649",
+          "claim_link_id": "claim:8fdf3605-5084-550c-a5ba-3e2bdd12b5f5",
+          "coexposures": [
+            {
+              "evidence": "reviewed_exposure_accounts:EX-GI-008",
+              "intervention_id": "intervention:10f09ca1-d141-5157-8f90-6a3b02ee7bb3",
+              "relation": "overlap",
+              "title": "SuperHMO"
+            }
+          ],
+          "course_id": null,
+          "event_date": "2025-07-16",
+          "intervention": "Gou teng",
+          "intervention_id": "intervention:f46ccb39-8460-5396-81a9-e72c2e3198b4",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "diary_responses:S2-R-649"
+            }
+          ],
+          "record_id": "S2-R-649",
+          "report_date": null,
+          "source_table": "diary_responses",
+          "treatment_actions": []
+        },
+        {
+          "account": "Green stools and diarrhea worsened substantially and had not fully stabilized by follow-up. The trials began close together.",
+          "association": "joint",
+          "chronology_key": "response:S3:treatment_response:219",
+          "claim_link_id": "claim:89c6ad55-92d2-52bc-b640-6789162043af",
+          "coexposures": [
+            {
+              "evidence": "reviewed_exposure_accounts:EX-GI-008",
+              "intervention_id": "intervention:10f09ca1-d141-5157-8f90-6a3b02ee7bb3",
+              "relation": "overlap",
+              "title": "SuperHMO"
+            }
+          ],
+          "course_id": "course:2aa044d5-773a-55fc-bb69-0b34eba58ef4",
+          "event_date": null,
+          "intervention": "Gou teng",
+          "intervention_id": "intervention:f46ccb39-8460-5396-81a9-e72c2e3198b4",
+          "patterns": [
+            {
+              "code": "persistent",
+              "evidence": "historical_entries:S3:treatment_response:219"
+            }
+          ],
+          "record_id": "S3:treatment_response:219",
+          "report_date": null,
+          "source_table": "historical_entries",
+          "treatment_actions": []
+        }
+      ],
+      "title": "Gou teng",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:df2a810a-af9d-5377-b50f-825936dfbdee",
+      "reference": "pz_concept:intervention:df2a810a-af9d-5377-b50f-825936dfbdee",
+      "reviewed_worsening": [],
+      "title": "H1 blocker (unspecified)",
+      "treatment_type": "drug"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:0d553746-ea8c-569c-b985-98747f95a834",
+      "reference": "pz_concept:intervention:0d553746-ea8c-569c-b985-98747f95a834",
+      "reviewed_worsening": [],
+      "title": "H2 blocker (unspecified)",
+      "treatment_type": "drug"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:feaba07c-dac8-5e99-968f-ddefb6bdfc0c",
+      "reference": "pz_concept:intervention:feaba07c-dac8-5e99-968f-ddefb6bdfc0c",
+      "reviewed_worsening": [],
+      "title": "Humic acid",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:5b8c8383-b81e-5d84-9813-96b1b93ffee7",
+      "reference": "pz_concept:intervention:5b8c8383-b81e-5d84-9813-96b1b93ffee7",
+      "reviewed_worsening": [],
+      "title": "Huperzine A",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:dc5b655c-1dab-5ac8-81dc-22a3ef282bd4",
+      "reference": "pz_concept:intervention:dc5b655c-1dab-5ac8-81dc-22a3ef282bd4",
+      "reviewed_worsening": [
+        {
+          "account": "Around 02:00 the patient reported an intense dazed crash and suspected imidazenil.",
+          "association": "possible",
+          "chronology_key": "response-evidence:diary_observations:S2-OBS-5834",
+          "claim_link_id": "PZ57-CLAIM-S2-OBS-5834",
+          "coexposures": [],
+          "course_id": "course:f8b51cc2-077d-5bad-8d5d-0b21baf7cb86",
+          "event_date": "2026-04-02",
+          "intervention": "Imidazenil",
+          "intervention_id": "intervention:dc5b655c-1dab-5ac8-81dc-22a3ef282bd4",
+          "patterns": [],
+          "record_id": "S2-OBS-5834",
+          "report_date": null,
+          "source_table": "diary_observations",
+          "treatment_actions": []
+        },
+        {
+          "account": "Mild itching followed the sublingual trial with DMSO. Cetirizine had been taken shortly beforehand.",
+          "association": "possible",
+          "chronology_key": "response:S2-R-5218",
+          "claim_link_id": "claim:25777ac3-225b-5291-b91a-1a34c36f9c90",
+          "coexposures": [],
+          "course_id": "course:41e6f848-a5f5-58b3-be0b-fee669f8a6bc",
+          "event_date": "2026-02-26",
+          "intervention": "Imidazenil",
+          "intervention_id": "intervention:dc5b655c-1dab-5ac8-81dc-22a3ef282bd4",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "diary_responses:S2-R-5218"
+            }
+          ],
+          "record_id": "S2-R-5218",
+          "report_date": null,
+          "source_table": "diary_responses",
+          "treatment_actions": []
+        }
+      ],
+      "title": "Imidazenil",
+      "treatment_type": "drug"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:362db25c-64c6-54e7-a9a3-14172b1a146a",
+      "reference": "pz_concept:intervention:362db25c-64c6-54e7-a9a3-14172b1a146a",
+      "reviewed_worsening": [
+        {
+          "account": "The patient recalled a poisoned CNS sensation but identified the agent only as creatine or inosine. Which agent preceded it is unknown.",
+          "association": "joint",
+          "chronology_key": "response:S3:treatment_response:258",
+          "claim_link_id": "claim:7a115d0c-37b0-563e-bc66-b6f121478c2a",
+          "coexposures": [
+            {
+              "evidence": "historical_entries:S3:treatment_response:258",
+              "intervention_id": "intervention:aef061b9-70ac-5461-9806-4df7cf00a77a",
+              "relation": "alternative",
+              "title": "Creatine"
+            }
+          ],
+          "course_id": null,
+          "event_date": null,
+          "intervention": "Inosine",
+          "intervention_id": "intervention:362db25c-64c6-54e7-a9a3-14172b1a146a",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "historical_entries:S3:treatment_response:258"
+            }
+          ],
+          "record_id": "S3:treatment_response:258",
+          "report_date": null,
+          "source_table": "historical_entries",
+          "treatment_actions": []
+        }
+      ],
+      "title": "Inosine",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:282047f8-c9d4-56f5-9007-384f559687cb",
+      "reference": "pz_concept:intervention:282047f8-c9d4-56f5-9007-384f559687cb",
+      "reviewed_worsening": [],
+      "title": "Inulin",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:6d5c1cd1-bbc6-5ec1-8a4c-b3d8e3bcd65a",
+      "reference": "pz_concept:intervention:6d5c1cd1-bbc6-5ec1-8a4c-b3d8e3bcd65a",
+      "reviewed_worsening": [
+        {
+          "account": "The patient reported one near-fainting episode on standing and a slower heart-rate rise shortly after starting ivabradine. The account does not establish a sustained decline.",
+          "association": "reported",
+          "chronology_key": "response-evidence:annotations:ANN-S1-32462",
+          "claim_link_id": "claim:313de84e-9961-574f-8890-a06c0829fd4c",
+          "coexposures": [],
+          "course_id": null,
+          "event_date": null,
+          "intervention": "Ivabradine",
+          "intervention_id": "intervention:6d5c1cd1-bbc6-5ec1-8a4c-b3d8e3bcd65a",
+          "patterns": [
+            {
+              "code": "single_episode",
+              "evidence": "annotations:ANN-S1-32462; archive_messages:S1-M32462; archive_messages:S1-M32464"
+            },
+            {
+              "code": "outcome_unknown",
+              "evidence": "annotations:ANN-S1-32462; archive_messages:S1-M32462; archive_messages:S1-M32464"
+            }
+          ],
+          "record_id": "ANN-S1-32462",
+          "report_date": "2025-04-09",
+          "source_table": "annotations",
+          "treatment_actions": []
+        }
+      ],
+      "title": "Ivabradine",
+      "treatment_type": "drug"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:93c2dda4-0d00-53ef-8837-e7926119666b",
+      "reference": "pz_concept:intervention:93c2dda4-0d00-53ef-8837-e7926119666b",
+      "reviewed_worsening": [
+        {
+          "account": "The patient attributed crashing that day to the KL-1333 increase.",
+          "association": "reported",
+          "chronology_key": "response-evidence:diary_observations:S2-OBS-6261",
+          "claim_link_id": "claim:3f02afdb-697b-5209-919a-c9d794910e73",
+          "coexposures": [],
+          "course_id": "course:a5840efa-3957-5202-98ac-0e903017f2a8",
+          "event_date": "2026-04-28",
+          "intervention": "KL-1333",
+          "intervention_id": "intervention:93c2dda4-0d00-53ef-8837-e7926119666b",
+          "patterns": [
+            {
+              "code": "dose_related",
+              "evidence": "diary_observations:S2-OBS-6261"
+            },
+            {
+              "code": "outcome_unknown",
+              "evidence": "diary_observations:S2-OBS-6261"
+            }
+          ],
+          "record_id": "S2-OBS-6261",
+          "report_date": null,
+          "source_table": "diary_observations",
+          "treatment_actions": []
+        },
+        {
+          "account": "Patient reports nape clenching/pressure and wrist or central fatigue after several small trials, including KL1333 and ASHA-091. He recalled roughly 20–40 minutes for some reactions. Diary entries also document variation, concurrent cognitive exertion, changes in vehicle, and doses without the same response.",
+          "association": "reported",
+          "chronology_key": "context_cards:CTX-018",
+          "claim_link_id": "claim:738e0407-f1c6-5762-a504-08758cb58ebd",
+          "coexposures": [],
+          "course_id": null,
+          "event_date": null,
+          "intervention": "KL-1333",
+          "intervention_id": "intervention:93c2dda4-0d00-53ef-8837-e7926119666b",
+          "patterns": [
+            {
+              "code": "recurrent",
+              "evidence": "context_cards:CTX-018"
+            },
+            {
+              "code": "variable",
+              "evidence": "context_cards:CTX-018"
+            },
+            {
+              "code": "outcome_unknown",
+              "evidence": "context_cards:CTX-018"
+            }
+          ],
+          "record_id": "CTX-018",
+          "report_date": null,
+          "source_table": "context_cards",
+          "treatment_actions": []
+        },
+        {
+          "account": "The patient recalled nape clenching, malaise and wrist fatigue about 15–20 minutes after a dose of 1 mg or less.",
+          "association": "reported",
+          "chronology_key": "response:S3:treatment_response:270",
+          "claim_link_id": "claim:da216e2f-5422-53d7-9bf7-a39637917e6d",
+          "coexposures": [],
+          "course_id": null,
+          "event_date": null,
+          "intervention": "KL-1333",
+          "intervention_id": "intervention:93c2dda4-0d00-53ef-8837-e7926119666b",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "historical_entries:S3:treatment_response:270"
+            }
+          ],
+          "record_id": "S3:treatment_response:270",
+          "report_date": null,
+          "source_table": "historical_entries",
+          "treatment_actions": []
+        }
+      ],
+      "title": "KL-1333",
+      "treatment_type": "drug"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:1dd4afe1-c223-5e32-8afd-7e920d130239",
+      "reference": "pz_concept:intervention:1dd4afe1-c223-5e32-8afd-7e920d130239",
+      "reviewed_worsening": [
+        {
+          "account": "Intense nausea and the urge to vomit followed the dose and subsided when he spat it out. He wondered whether the preparation had spoiled.",
+          "association": "possible",
+          "chronology_key": "response-evidence:archive_messages:S1-M72495",
+          "claim_link_id": "claim:11d0c051-1ad4-539e-936d-d40a9d6503f8",
+          "coexposures": [],
+          "course_id": "course:7818e72d-8bb6-529f-90b3-6ff87c19be74",
+          "event_date": null,
+          "intervention": "KPV",
+          "intervention_id": "intervention:1dd4afe1-c223-5e32-8afd-7e920d130239",
+          "patterns": [
+            {
+              "code": "single_episode",
+              "evidence": "archive_messages:S1-M72495; reviewed_exposure_accounts:EX-GI-017"
+            },
+            {
+              "code": "time_limited",
+              "evidence": "archive_messages:S1-M72495; reviewed_exposure_accounts:EX-GI-017"
+            }
+          ],
+          "record_id": "S1-M72495",
+          "report_date": "2026-03-19",
+          "source_table": "archive_messages",
+          "treatment_actions": []
+        },
+        {
+          "account": "The patient reported several days when brain burning began about 20 minutes after dosing. One episode lasted about five to six hours.",
+          "association": "reported",
+          "chronology_key": "response-evidence:archive_messages:S1-M13205",
+          "claim_link_id": "claim:3982c5b4-e3d7-5eb9-95d2-e81c794ff20f",
+          "coexposures": [],
+          "course_id": "course:8966c892-354d-5983-94aa-30f80d74f64a",
+          "event_date": null,
+          "intervention": "KPV",
+          "intervention_id": "intervention:1dd4afe1-c223-5e32-8afd-7e920d130239",
+          "patterns": [
+            {
+              "code": "recurrent",
+              "evidence": "archive_messages:S1-M13205"
+            },
+            {
+              "code": "time_limited",
+              "evidence": "archive_messages:S1-M13205"
+            }
+          ],
+          "record_id": "S1-M13205",
+          "report_date": "2025-01-16",
+          "source_table": "archive_messages",
+          "treatment_actions": []
+        }
+      ],
+      "title": "KPV",
+      "treatment_type": "peptide"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:a1d5b2af-e752-572b-b334-33c73c17a7f9",
+      "reference": "pz_concept:intervention:a1d5b2af-e752-572b-b334-33c73c17a7f9",
+      "reviewed_worsening": [],
+      "title": "L-arginine",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:042ee463-2347-595d-9bc0-edf52edf7a23",
+      "reference": "pz_concept:intervention:042ee463-2347-595d-9bc0-edf52edf7a23",
+      "reviewed_worsening": [],
+      "title": "L-carnitine",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:e0fc268e-a619-52a4-9b63-4bc8b904f06c",
+      "reference": "pz_concept:intervention:e0fc268e-a619-52a4-9b63-4bc8b904f06c",
+      "reviewed_worsening": [],
+      "title": "L-cysteine",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:77912497-a53f-5ffa-b7ce-7ec1d213e8f9",
+      "reference": "pz_concept:intervention:77912497-a53f-5ffa-b7ce-7ec1d213e8f9",
+      "reviewed_worsening": [
+        {
+          "account": "January L-ornithine was compared with the earlier LOLA trial. The higher LOLA doses and November symptoms belong to LOLA. The January history describes similar burning and a slowdown.",
+          "association": "possible",
+          "chronology_key": "response:S1-F6434-1",
+          "claim_link_id": "claim:aac54a7d-089a-5f08-a19d-64903cfa6625",
+          "coexposures": [],
+          "course_id": null,
+          "event_date": null,
+          "intervention": "L-ornithine",
+          "intervention_id": "intervention:77912497-a53f-5ffa-b7ce-7ec1d213e8f9",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "archive_findings:S1-F6434-1"
+            }
+          ],
+          "record_id": "S1-F6434-1",
+          "report_date": "2024-11-28",
+          "source_table": "archive_findings",
+          "treatment_actions": []
+        },
+        {
+          "account": "The January 3–12 L-ornithine trial was associated by the patient with burning and slowed cognition resembling the preceding LOLA experience.",
+          "association": "reported",
+          "chronology_key": "response-evidence:historical_entries:S3:chronology:616",
+          "claim_link_id": "claim:a1ddc460-99b0-5e47-8a56-8b0ed8984d96",
+          "coexposures": [],
+          "course_id": null,
+          "event_date": null,
+          "intervention": "L-ornithine",
+          "intervention_id": "intervention:77912497-a53f-5ffa-b7ce-7ec1d213e8f9",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "historical_entries:S3:chronology:616"
+            }
+          ],
+          "record_id": "S3:chronology:616",
+          "report_date": null,
+          "source_table": "historical_entries",
+          "treatment_actions": []
+        }
+      ],
+      "title": "L-ornithine",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "Indexed as an amino-acid supplement in this case.",
+      "intervention_id": "intervention:19763eb0-4443-5f5d-a349-2872010162d1",
+      "reference": "Reviewer classification, 2026-11-20",
+      "reviewed_worsening": [
+        {
+          "account": "During the November LOLA titration the patient reported fog, slowed visual perception and head burning or pressure. The contribution of LOLA remained uncertain.",
+          "association": "reported",
+          "chronology_key": "response:S1-F6434-1",
+          "claim_link_id": "claim:63b084e8-8307-54e4-8222-61807085f5e7",
+          "coexposures": [],
+          "course_id": null,
+          "event_date": null,
+          "intervention": "L-ornithine-L-aspartate",
+          "intervention_id": "intervention:19763eb0-4443-5f5d-a349-2872010162d1",
+          "patterns": [
+            {
+              "code": "dose_related",
+              "evidence": "archive_findings:S1-F6434-1; historical_entries:S3:treatment_response:235"
+            },
+            {
+              "code": "outcome_unknown",
+              "evidence": "archive_findings:S1-F6434-1; historical_entries:S3:treatment_response:235"
+            }
+          ],
+          "record_id": "S1-F6434-1",
+          "report_date": "2024-11-28",
+          "source_table": "archive_findings",
+          "treatment_actions": []
+        },
+        {
+          "account": "The patient reported that brain burning increased as he raised the dose, culminating in a severe crash. He was unsure whether his subsequent PEM was worse.",
+          "association": "reported",
+          "chronology_key": "response:S3:treatment_response:235",
+          "claim_link_id": "claim:ba51acee-2ba5-5aab-8f86-aeb5147f0263",
+          "coexposures": [],
+          "course_id": null,
+          "event_date": null,
+          "intervention": "L-ornithine-L-aspartate",
+          "intervention_id": "intervention:19763eb0-4443-5f5d-a349-2872010162d1",
+          "patterns": [
+            {
+              "code": "dose_related",
+              "evidence": "historical_entries:S3:treatment_response:235"
+            },
+            {
+              "code": "outcome_unknown",
+              "evidence": "historical_entries:S3:treatment_response:235"
+            }
+          ],
+          "record_id": "S3:treatment_response:235",
+          "report_date": null,
+          "source_table": "historical_entries",
+          "treatment_actions": []
+        }
+      ],
+      "title": "L-ornithine-L-aspartate",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:dbde5ff1-daa4-5e19-80d1-23092b2728d5",
+      "reference": "pz_concept:intervention:dbde5ff1-daa4-5e19-80d1-23092b2728d5",
+      "reviewed_worsening": [],
+      "title": "L-theanine",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:908a1f09-49b7-55f5-afe2-59eedacf1f5b",
+      "reference": "pz_concept:intervention:908a1f09-49b7-55f5-afe2-59eedacf1f5b",
+      "reviewed_worsening": [
+        {
+          "account": "L. reuteri (product unspecified) was among the separately recalled exposures associated by the patient with a similar tingling sensation.",
+          "association": "reported",
+          "chronology_key": "response:S1-F60911-1",
+          "claim_link_id": "claim:4c99916a-1e4a-5822-a497-3171df5f453a",
+          "coexposures": [],
+          "course_id": null,
+          "event_date": null,
+          "intervention": "L. reuteri",
+          "intervention_id": "intervention:908a1f09-49b7-55f5-afe2-59eedacf1f5b",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "archive_findings:S1-F60911-1"
+            }
+          ],
+          "record_id": "S1-F60911-1",
+          "report_date": "2025-11-16",
+          "source_table": "archive_findings",
+          "treatment_actions": []
+        }
+      ],
+      "title": "L. reuteri",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:7dde3892-53ed-5626-b172-88e5682734b6",
+      "reference": "pz_concept:intervention:7dde3892-53ed-5626-b172-88e5682734b6",
+      "reviewed_worsening": [],
+      "title": "Lactoferrin",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:6a367e0f-3e4b-57f4-a9b2-06b4b9595cdb",
+      "reference": "pz_concept:intervention:6a367e0f-3e4b-57f4-a9b2-06b4b9595cdb",
+      "reviewed_worsening": [],
+      "title": "Larazotide",
+      "treatment_type": "peptide"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:46ab8820-eaf0-56d4-9ff9-08e58bbd60cd",
+      "reference": "pz_concept:intervention:46ab8820-eaf0-56d4-9ff9-08e58bbd60cd",
+      "reviewed_worsening": [],
+      "title": "Ledifos",
+      "treatment_type": "drug"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:d3d2587c-b98a-5bbd-9d39-bbf31cd4d50b",
+      "reference": "pz_concept:intervention:d3d2587c-b98a-5bbd-9d39-bbf31cd4d50b",
+      "reviewed_worsening": [
+        {
+          "account": "The patient recalled increased tingling with “the mushroom extract.” Identification as Ganoderma is provisional. The history also names cordyceps and shiitake.",
+          "association": "joint",
+          "chronology_key": "response:S1-F60911-1",
+          "claim_link_id": "claim:ce6301a9-68bf-54a2-878d-e4b9e6b99311",
+          "coexposures": [],
+          "course_id": null,
+          "event_date": null,
+          "intervention": "Liposomal Ganoderma",
+          "intervention_id": "intervention:d3d2587c-b98a-5bbd-9d39-bbf31cd4d50b",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "archive_findings:S1-F60911-1"
+            }
+          ],
+          "record_id": "S1-F60911-1",
+          "report_date": "2025-11-16",
+          "source_table": "archive_findings",
+          "treatment_actions": []
+        }
+      ],
+      "title": "Liposomal Ganoderma",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:9e568003-bfc4-5ffa-af18-81f327e644a4",
+      "reference": "pz_concept:intervention:9e568003-bfc4-5ffa-af18-81f327e644a4",
+      "reviewed_worsening": [],
+      "title": "Liposomal NMN",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:070c1ac7-a53d-5490-bbf0-3b41ba2e9771",
+      "reference": "pz_concept:intervention:070c1ac7-a53d-5490-bbf0-3b41ba2e9771",
+      "reviewed_worsening": [
+        {
+          "account": "The June 6 diary records 10 mg lithium orotate at 02:30 and a mild post-intervention flare at 03:15. The retrospective history describes a milder nape flare within 45 minutes of lithium (S3:272–273). The timing matches, and the patient qualified the association. June 7 nape clenching is separately recorded.",
+          "association": "possible",
+          "chronology_key": "response-evidence:diary_observations:S2-OBS-6882",
+          "claim_link_id": "PZ57-CLAIM-S2-OBS-6882",
+          "coexposures": [],
+          "course_id": "course:5ca14bc3-968a-555c-9969-dc4c77bd96ae",
+          "event_date": "2026-06-06",
+          "intervention": "Lithium orotate",
+          "intervention_id": "intervention:070c1ac7-a53d-5490-bbf0-3b41ba2e9771",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "historical_entries:S3:treatment_response:272"
+            }
+          ],
+          "record_id": "S2-OBS-6882",
+          "report_date": null,
+          "source_table": "diary_observations",
+          "treatment_actions": []
+        }
+      ],
+      "title": "Lithium orotate",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:d63199b9-3208-503a-a3d1-3a25065eb2b7",
+      "reference": "pz_concept:intervention:d63199b9-3208-503a-a3d1-3a25065eb2b7",
+      "reviewed_worsening": [],
+      "title": "MCT oil",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:78b5614f-c3ad-56d6-8ce8-413c90e3fb6a",
+      "reference": "pz_concept:intervention:78b5614f-c3ad-56d6-8ce8-413c90e3fb6a",
+      "reviewed_worsening": [
+        {
+          "account": "The patient initially suspected magnesium during the first post-NADH crash. The clinician later identified deep muscle fatigue; individual effects of magnesium and NADH are unresolved.",
+          "association": "joint",
+          "chronology_key": "response:S5-R-EO15-2",
+          "claim_link_id": "claim:fe1a20ef-d097-5d63-afe9-3bad3e251330",
+          "coexposures": [
+            {
+              "evidence": "diary_responses:S5-R-EO15-2",
+              "intervention_id": "intervention:4863b7ca-16f3-5128-9034-cac865754888",
+              "relation": "overlap",
+              "title": "NC NADH-containing formulation (composition unverified)"
+            }
+          ],
+          "course_id": null,
+          "event_date": "2024-10-23",
+          "intervention": "Magnesium",
+          "intervention_id": "intervention:78b5614f-c3ad-56d6-8ce8-413c90e3fb6a",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "diary_responses:S5-R-EO15-2"
+            }
+          ],
+          "record_id": "S5-R-EO15-2",
+          "report_date": "2024-10-23",
+          "source_table": "diary_responses",
+          "treatment_actions": []
+        }
+      ],
+      "title": "Magnesium",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:089d2d33-d206-5989-8566-261529788191",
+      "reference": "pz_concept:intervention:089d2d33-d206-5989-8566-261529788191",
+      "reviewed_worsening": [],
+      "title": "Magnesium L-threonate",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:d66bda5d-f702-54a6-9da1-4b25dbca91e3",
+      "reference": "pz_concept:intervention:d66bda5d-f702-54a6-9da1-4b25dbca91e3",
+      "reviewed_worsening": [],
+      "title": "Magnesium acetyl-taurate",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:927dbd40-9110-52cb-9182-c6b59da6fb87",
+      "reference": "pz_concept:intervention:927dbd40-9110-52cb-9182-c6b59da6fb87",
+      "reviewed_worsening": [],
+      "title": "Magnesium bisglycinate",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:2e30e6fe-7f02-586c-9973-351e27e76dd9",
+      "reference": "pz_concept:intervention:2e30e6fe-7f02-586c-9973-351e27e76dd9",
+      "reviewed_worsening": [
+        {
+          "account": "Left subcostal pain after drinking magnesium. The patient questioned stomach bloating and spleen involvement. A separate severe pre-breakfast attack is also recorded in the same run-on text.",
+          "association": "possible",
+          "chronology_key": "response:S5-R-DZ15-1",
+          "claim_link_id": "claim:cac054cc-7822-5950-be3b-c9991251df2b",
+          "coexposures": [],
+          "course_id": null,
+          "event_date": "2024-10-08",
+          "intervention": "Magnesium drink",
+          "intervention_id": "intervention:2e30e6fe-7f02-586c-9973-351e27e76dd9",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "diary_responses:S5-R-DZ15-1"
+            }
+          ],
+          "record_id": "S5-R-DZ15-1",
+          "report_date": "2024-10-08",
+          "source_table": "diary_responses",
+          "treatment_actions": []
+        }
+      ],
+      "title": "Magnesium drink",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:4d09e3fe-ac5f-5ce8-9f52-76de3455db20",
+      "reference": "pz_concept:intervention:4d09e3fe-ac5f-5ce8-9f52-76de3455db20",
+      "reviewed_worsening": [],
+      "title": "Magnesium oxide",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "Magnosolv magnesium granules are a registered medicine in [location withheld].",
+      "intervention_id": "intervention:42d8eb8b-a907-5a11-beaf-50ca8e3909b3",
+      "reference": "[supplier location withheld]",
+      "reviewed_worsening": [],
+      "title": "Magnosolv",
+      "treatment_type": "drug"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:c1f89c00-7dce-5dcf-93ba-4c6ac2ee9ca4",
+      "reference": "pz_concept:intervention:c1f89c00-7dce-5dcf-93ba-4c6ac2ee9ca4",
+      "reviewed_worsening": [],
+      "title": "Mangiferin",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:1870ceab-069a-544a-b14a-dcaf381b156d",
+      "reference": "pz_concept:intervention:1870ceab-069a-544a-b14a-dcaf381b156d",
+      "reviewed_worsening": [
+        {
+          "account": "Taken with atorvastatin for about two months during February–April 2024. The patient reported increased brain burning and tinnitus by the end of the regimen and stopped. He could not separate the effects of the two drugs.",
+          "association": "joint",
+          "chronology_key": "response:S3:treatment_response:232",
+          "claim_link_id": "claim:3ec4f768-1f98-53e9-a678-58644b2f8e83",
+          "coexposures": [
+            {
+              "evidence": "historical_entries:S3:treatment_response:232",
+              "intervention_id": "intervention:d988904d-f17a-549e-af77-0dae8ad33b50",
+              "relation": "together",
+              "title": "Atorvastatin"
+            }
+          ],
+          "course_id": null,
+          "event_date": null,
+          "intervention": "Maraviroc",
+          "intervention_id": "intervention:1870ceab-069a-544a-b14a-dcaf381b156d",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "historical_entries:S3:treatment_response:232"
+            }
+          ],
+          "record_id": "S3:treatment_response:232",
+          "report_date": null,
+          "source_table": "historical_entries",
+          "treatment_actions": [
+            {
+              "code": "held",
+              "evidence": "historical_entries:S3:treatment_response:232"
+            }
+          ]
+        }
+      ],
+      "title": "Maraviroc",
+      "treatment_type": "drug"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:0cfaf5cd-3e21-5cf2-85df-ce4d2eb96dc0",
+      "reference": "pz_concept:intervention:0cfaf5cd-3e21-5cf2-85df-ce4d2eb96dc0",
+      "reviewed_worsening": [
+        {
+          "account": "Paused after more than 12 hours of gut gurgling, discomfort and burning; unsure whether garlic caused symptoms.",
+          "association": "possible",
+          "chronology_key": "response:S1-F59280-1",
+          "claim_link_id": "claim:f270a994-46d2-50e8-8ee1-711b950446dc",
+          "coexposures": [],
+          "course_id": null,
+          "event_date": null,
+          "intervention": "Marinated garlic",
+          "intervention_id": "intervention:0cfaf5cd-3e21-5cf2-85df-ce4d2eb96dc0",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "archive_findings:S1-F59280-1"
+            }
+          ],
+          "record_id": "S1-F59280-1",
+          "report_date": "2025-10-30",
+          "source_table": "archive_findings",
+          "treatment_actions": [
+            {
+              "code": "held",
+              "evidence": "archive_findings:S1-F59280-1"
+            }
+          ]
+        }
+      ],
+      "title": "Marinated garlic",
+      "treatment_type": "food_based"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:78c61d08-6fc6-5d75-9808-a136acfc292d",
+      "reference": "pz_concept:intervention:78c61d08-6fc6-5d75-9808-a136acfc292d",
+      "reviewed_worsening": [
+        {
+          "account": "Stopped chewing due to suspected abrasion of sensitive gums.",
+          "association": "possible",
+          "chronology_key": "response:S1-F24852-1",
+          "claim_link_id": "claim:8a7911b2-42c1-5951-92cb-2b56642b023e",
+          "coexposures": [],
+          "course_id": "course:3ae26059-e8a1-57dd-8610-e6f76d97d1c2",
+          "event_date": null,
+          "intervention": "Mastic gum",
+          "intervention_id": "intervention:78c61d08-6fc6-5d75-9808-a136acfc292d",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "archive_findings:S1-F24852-1"
+            }
+          ],
+          "record_id": "S1-F24852-1",
+          "report_date": "2025-03-02",
+          "source_table": "archive_findings",
+          "treatment_actions": [
+            {
+              "code": "held",
+              "evidence": "archive_findings:S1-F24852-1"
+            }
+          ]
+        }
+      ],
+      "title": "Mastic gum",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:80a90a79-4d64-528d-8065-45d7cc732c9a",
+      "reference": "pz_concept:intervention:80a90a79-4d64-528d-8065-45d7cc732c9a",
+      "reviewed_worsening": [],
+      "title": "Meldonium",
+      "treatment_type": "drug"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:27fc436d-77ed-5894-9da8-4d66951e65f7",
+      "reference": "pz_concept:intervention:27fc436d-77ed-5894-9da8-4d66951e65f7",
+      "reviewed_worsening": [
+        {
+          "account": "The patient reported pronounced heaviness and mild brain burning above 10 mg in a single dose. He reported tolerating two 10 mg doses spaced six hours apart.",
+          "association": "reported",
+          "chronology_key": "response:S3:treatment_response:247",
+          "claim_link_id": "claim:ba7d561a-2e0b-50e1-a490-834b5bbfe3cf",
+          "coexposures": [],
+          "course_id": null,
+          "event_date": null,
+          "intervention": "Memantine",
+          "intervention_id": "intervention:27fc436d-77ed-5894-9da8-4d66951e65f7",
+          "patterns": [
+            {
+              "code": "dose_related",
+              "evidence": "historical_entries:S3:treatment_response:247"
+            },
+            {
+              "code": "recurrent",
+              "evidence": "historical_entries:S3:treatment_response:247"
+            },
+            {
+              "code": "variable",
+              "evidence": "historical_entries:S3:treatment_response:247"
+            },
+            {
+              "code": "outcome_unknown",
+              "evidence": "historical_entries:S3:treatment_response:247"
+            }
+          ],
+          "record_id": "S3:treatment_response:247",
+          "report_date": null,
+          "source_table": "historical_entries",
+          "treatment_actions": []
+        },
+        {
+          "account": "He initially perceived benefit on 10 mg twice daily, then possible worsening. He considered natural symptom fluctuation.",
+          "association": "possible",
+          "chronology_key": "response:S3:treatment_response:321",
+          "claim_link_id": "claim:52fe57c1-5f4a-5a41-bd67-3ca1d50e1c4c",
+          "coexposures": [],
+          "course_id": null,
+          "event_date": null,
+          "intervention": "Memantine",
+          "intervention_id": "intervention:27fc436d-77ed-5894-9da8-4d66951e65f7",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "historical_entries:S3:treatment_response:321"
+            }
+          ],
+          "record_id": "S3:treatment_response:321",
+          "report_date": null,
+          "source_table": "historical_entries",
+          "treatment_actions": []
+        }
+      ],
+      "title": "Memantine",
+      "treatment_type": "drug"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:40cc4b10-8133-5b92-b4d5-18a4732c1d95",
+      "reference": "pz_concept:intervention:40cc4b10-8133-5b92-b4d5-18a4732c1d95",
+      "reviewed_worsening": [
+        {
+          "account": "Early metformin trial recalled without obvious benefit. The patient separately recalled worse sleep with metformin during the acute infection.",
+          "association": "reported",
+          "chronology_key": "response:S1-F3199-1",
+          "claim_link_id": "claim:0536f9dd-ca2c-572c-9a5e-95c2c02bd894",
+          "coexposures": [],
+          "course_id": null,
+          "event_date": null,
+          "intervention": "Metformin",
+          "intervention_id": "intervention:40cc4b10-8133-5b92-b4d5-18a4732c1d95",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "archive_findings:S1-F3199-1"
+            }
+          ],
+          "record_id": "S1-F3199-1",
+          "report_date": "2024-11-04",
+          "source_table": "archive_findings",
+          "treatment_actions": []
+        }
+      ],
+      "title": "Metformin",
+      "treatment_type": "drug"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:acd8e087-c307-5be4-b590-c40bc8395716",
+      "reference": "pz_concept:intervention:acd8e087-c307-5be4-b590-c40bc8395716",
+      "reviewed_worsening": [
+        {
+          "account": "Poisoned sensation in same minute as a 25 mcg dose. Patient explicitly considered coincidence and circadian symptoms.",
+          "association": "possible",
+          "chronology_key": "response:S1-F66294-1",
+          "claim_link_id": "claim:1c230897-9e3d-53af-b374-0094652d4eb9",
+          "coexposures": [],
+          "course_id": null,
+          "event_date": null,
+          "intervention": "Methylene blue",
+          "intervention_id": "intervention:acd8e087-c307-5be4-b590-c40bc8395716",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "archive_findings:S1-F66294-1"
+            }
+          ],
+          "record_id": "S1-F66294-1",
+          "report_date": "2026-01-08",
+          "source_table": "archive_findings",
+          "treatment_actions": []
+        },
+        {
+          "account": "Methylene blue was among the separately recalled exposures associated by the patient with a similar tingling sensation.",
+          "association": "reported",
+          "chronology_key": "response:S1-F60911-1",
+          "claim_link_id": "claim:303533f2-0f1b-53ca-841b-f172d6bbd500",
+          "coexposures": [],
+          "course_id": null,
+          "event_date": null,
+          "intervention": "Methylene blue",
+          "intervention_id": "intervention:acd8e087-c307-5be4-b590-c40bc8395716",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "archive_findings:S1-F60911-1"
+            }
+          ],
+          "record_id": "S1-F60911-1",
+          "report_date": "2025-11-16",
+          "source_table": "archive_findings",
+          "treatment_actions": []
+        },
+        {
+          "account": "The patient described stronger corrosive tingling even at a 1 mg dose.",
+          "association": "reported",
+          "chronology_key": "response:S3:treatment_response:260",
+          "claim_link_id": "claim:e990d946-3c49-5885-96ab-042e2f30632c",
+          "coexposures": [],
+          "course_id": null,
+          "event_date": null,
+          "intervention": "Methylene blue",
+          "intervention_id": "intervention:acd8e087-c307-5be4-b590-c40bc8395716",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "historical_entries:S3:treatment_response:260"
+            }
+          ],
+          "record_id": "S3:treatment_response:260",
+          "report_date": null,
+          "source_table": "historical_entries",
+          "treatment_actions": []
+        }
+      ],
+      "title": "Methylene blue",
+      "treatment_type": "drug"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:fc1b46d9-c0aa-5523-a6ca-83ca9ad00b7f",
+      "reference": "pz_concept:intervention:fc1b46d9-c0aa-5523-a6ca-83ca9ad00b7f",
+      "reviewed_worsening": [],
+      "title": "Methylfolate (5-MTHF)",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:7d354d20-3fd3-599e-9294-bc0809185808",
+      "reference": "pz_concept:intervention:7d354d20-3fd3-599e-9294-bc0809185808",
+      "reviewed_worsening": [],
+      "title": "Milk thistle",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:5f2fecaf-cc8f-557a-9e7b-c5606e312362",
+      "reference": "pz_concept:intervention:5f2fecaf-cc8f-557a-9e7b-c5606e312362",
+      "reviewed_worsening": [],
+      "title": "Modified citrus pectin",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "Hydrogen exposure, principally recorded as inhalation.",
+      "intervention_id": "intervention:159c2945-9c1d-50ff-8310-426c77130711",
+      "reference": "pz_concept:intervention:159c2945-9c1d-50ff-8310-426c77130711",
+      "reviewed_worsening": [],
+      "title": "Molecular hydrogen inhalation (150 mL/min)",
+      "treatment_type": "non_drug"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:251bf018-9605-5864-8423-1e6ac6021730",
+      "reference": "pz_concept:intervention:251bf018-9605-5864-8423-1e6ac6021730",
+      "reviewed_worsening": [],
+      "title": "Molybdenum",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:fab75fde-57d0-50d2-93ea-518c0c1120c1",
+      "reference": "pz_concept:intervention:fab75fde-57d0-50d2-93ea-518c0c1120c1",
+      "reviewed_worsening": [],
+      "title": "Molybdenum glycinate",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:4de3b2a1-c02d-561a-aad7-17e868c24172",
+      "reference": "pz_concept:intervention:4de3b2a1-c02d-561a-aad7-17e868c24172",
+      "reviewed_worsening": [],
+      "title": "Monolaurin",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:4035210f-9812-5e32-acea-bd98a68ca345",
+      "reference": "pz_concept:intervention:4035210f-9812-5e32-acea-bd98a68ca345",
+      "reviewed_worsening": [],
+      "title": "Myo-D-chiro",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:b01dd549-78ea-5b0d-b933-b70a71db5f0a",
+      "reference": "pz_concept:intervention:b01dd549-78ea-5b0d-b933-b70a71db5f0a",
+      "reviewed_worsening": [],
+      "title": "NAC",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:2f258c66-f534-54bb-8955-ed8f97328c81",
+      "reference": "pz_concept:intervention:2f258c66-f534-54bb-8955-ed8f97328c81",
+      "reviewed_worsening": [],
+      "title": "NAD+",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "NAD+ patch. The preparation is named, but its formulation status is unconfirmed.",
+      "intervention_id": "intervention:afc086dc-ade8-52b4-a817-a912f0c4e380",
+      "reference": "pz_concept:intervention:afc086dc-ade8-52b4-a817-a912f0c4e380",
+      "reviewed_worsening": [],
+      "title": "NAD+ patch",
+      "treatment_type": "other"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:45ee0a0b-7f22-58bc-b2d9-178c407273d2",
+      "reference": "pz_concept:intervention:45ee0a0b-7f22-58bc-b2d9-178c407273d2",
+      "reviewed_worsening": [
+        {
+          "account": "The patient described an intense, short PEM attack about two hours after higher doses of the liposomal NAD+ preparation.",
+          "association": "reported",
+          "chronology_key": "response:S3:treatment_response:251",
+          "claim_link_id": "claim:536fa785-2951-5803-9b61-0ef138ee6ac5",
+          "coexposures": [],
+          "course_id": null,
+          "event_date": null,
+          "intervention": "NAD+ solution",
+          "intervention_id": "intervention:45ee0a0b-7f22-58bc-b2d9-178c407273d2",
+          "patterns": [
+            {
+              "code": "dose_related",
+              "evidence": "historical_entries:S3:treatment_response:251"
+            },
+            {
+              "code": "time_limited",
+              "evidence": "historical_entries:S3:treatment_response:251"
+            }
+          ],
+          "record_id": "S3:treatment_response:251",
+          "report_date": null,
+          "source_table": "historical_entries",
+          "treatment_actions": []
+        }
+      ],
+      "title": "NAD+ solution",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:7f09e2d3-934c-5e93-9bbf-df0d7b8e6cd1",
+      "reference": "pz_concept:intervention:7f09e2d3-934c-5e93-9bbf-df0d7b8e6cd1",
+      "reviewed_worsening": [],
+      "title": "NC DEKA (vitamins D/E/K/A)",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:3e5d434a-db9f-5cc1-b684-0f9fed2cdb76",
+      "reference": "pz_concept:intervention:3e5d434a-db9f-5cc1-b684-0f9fed2cdb76",
+      "reviewed_worsening": [],
+      "title": "NC F2 (testosterone-support preparation)",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:191f76dc-f47d-526d-a303-5f8c82683d80",
+      "reference": "pz_concept:intervention:191f76dc-f47d-526d-a303-5f8c82683d80",
+      "reviewed_worsening": [],
+      "title": "NC GABA (experimental nanocarrier)",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:2630124d-474e-5495-b4dc-c6a3cece69d8",
+      "reference": "pz_concept:intervention:2630124d-474e-5495-b4dc-c6a3cece69d8",
+      "reviewed_worsening": [
+        {
+          "account": "Kender+ at 12:30 was followed by brain burning and headache from 1 to 4, with intoxication questioned. Cognitive activity also caused brief fog that day.",
+          "association": "possible",
+          "chronology_key": "response:S5-R-AD15-1",
+          "claim_link_id": "claim:a898f07a-e165-5769-91dd-58b9dd8406f3",
+          "coexposures": [],
+          "course_id": null,
+          "event_date": "2024-06-30",
+          "intervention": "NC Hemp+ (Kender+)",
+          "intervention_id": "intervention:2630124d-474e-5495-b4dc-c6a3cece69d8",
+          "patterns": [
+            {
+              "code": "time_limited",
+              "evidence": "diary_responses:S5-R-AD15-1"
+            }
+          ],
+          "record_id": "S5-R-AD15-1",
+          "report_date": "2024-06-30",
+          "source_table": "diary_responses",
+          "treatment_actions": []
+        },
+        {
+          "account": "Severe brain burning, dizziness and weakness with inability to move or speak for two hours followed 10 mL of Hemp+. The order of BEMER use was uncertain.",
+          "association": "joint",
+          "chronology_key": "response:S5-R-V15-1",
+          "claim_link_id": "claim:4a9f638b-44d4-518f-b975-aa28ce2d1aa1",
+          "coexposures": [
+            {
+              "evidence": "diary_responses:S5-R-V15-1",
+              "intervention_id": "intervention:e9207121-4020-582d-901b-14266bbc7146",
+              "relation": "overlap",
+              "title": "BEMER"
+            }
+          ],
+          "course_id": null,
+          "event_date": "2024-06-22",
+          "intervention": "NC Hemp+ (Kender+)",
+          "intervention_id": "intervention:2630124d-474e-5495-b4dc-c6a3cece69d8",
+          "patterns": [
+            {
+              "code": "time_limited",
+              "evidence": "diary_responses:S5-R-V15-1"
+            }
+          ],
+          "record_id": "S5-R-V15-1",
+          "report_date": "2024-06-22",
+          "source_table": "diary_responses",
+          "treatment_actions": []
+        }
+      ],
+      "title": "NC Hemp+ (Kender+)",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:4863b7ca-16f3-5128-9034-cac865754888",
+      "reference": "pz_concept:intervention:4863b7ca-16f3-5128-9034-cac865754888",
+      "reviewed_worsening": [
+        {
+          "account": "He felt weak, tranquilized and confined to bed. He questioned whether NADH or progression of his illness accounted for the change.",
+          "association": "possible",
+          "chronology_key": "response-evidence:archive_messages:S1-M2480",
+          "claim_link_id": "claim:77aea480-e0aa-514e-89cc-4ba4278f89c8",
+          "coexposures": [],
+          "course_id": "course:a070ea34-22cf-5ff7-a89b-0d5e45914b69",
+          "event_date": null,
+          "intervention": "NC NADH-containing formulation (composition unverified)",
+          "intervention_id": "intervention:4863b7ca-16f3-5128-9034-cac865754888",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "archive_messages:S1-M2480"
+            }
+          ],
+          "record_id": "S1-M2480",
+          "report_date": "2024-10-29",
+          "source_table": "archive_messages",
+          "treatment_actions": []
+        },
+        {
+          "account": "Marked weakness and confinement to bed on October 29 after the retrial. The diary also records possible overexertion.",
+          "association": "possible",
+          "chronology_key": "baseline_states:BL-08",
+          "claim_link_id": "claim:beb614e6-8a52-5ce8-b715-d8e40df50981",
+          "coexposures": [],
+          "course_id": "course:a070ea34-22cf-5ff7-a89b-0d5e45914b69",
+          "event_date": "2024-10-25",
+          "intervention": "NC NADH-containing formulation (composition unverified)",
+          "intervention_id": "intervention:4863b7ca-16f3-5128-9034-cac865754888",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "baseline_states:BL-08"
+            }
+          ],
+          "record_id": "BL-08",
+          "report_date": null,
+          "source_table": "baseline_states",
+          "treatment_actions": []
+        },
+        {
+          "account": "He described tingling spreading over about 30 minutes after dosing. He had felt better on the first day and was unsure of the overall effect.",
+          "association": "possible",
+          "chronology_key": "response-evidence:archive_messages:S1-M1658",
+          "claim_link_id": "claim:7b9150ae-0747-5f0d-8523-fbca21253fec",
+          "coexposures": [],
+          "course_id": "course:44b32159-76c8-55fe-ac48-80f6c4554167",
+          "event_date": null,
+          "intervention": "NC NADH-containing formulation (composition unverified)",
+          "intervention_id": "intervention:4863b7ca-16f3-5128-9034-cac865754888",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "archive_messages:S1-M1658"
+            }
+          ],
+          "record_id": "S1-M1658",
+          "report_date": "2024-10-25",
+          "source_table": "archive_messages",
+          "treatment_actions": []
+        },
+        {
+          "account": "First documented physical crash with new deep muscle fatigue on October 23, following the initial course.",
+          "association": "possible",
+          "chronology_key": "baseline_states:BL-07",
+          "claim_link_id": "claim:ce5370c7-ff21-52fc-bbe7-6805f92d9200",
+          "coexposures": [],
+          "course_id": "course:44b32159-76c8-55fe-ac48-80f6c4554167",
+          "event_date": "2024-10-23",
+          "intervention": "NC NADH-containing formulation (composition unverified)",
+          "intervention_id": "intervention:4863b7ca-16f3-5128-9034-cac865754888",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "baseline_states:BL-07"
+            }
+          ],
+          "record_id": "BL-07",
+          "report_date": null,
+          "source_table": "baseline_states",
+          "treatment_actions": []
+        },
+        {
+          "account": "New deep muscle fatigue was first documented on 23 October 2024, after the reviewed 20–21 October NADH course. The patient attributed the decline to NADH; concurrent magnesium was also considered.",
+          "association": "possible",
+          "chronology_key": "response:S5-R-EO15-1",
+          "claim_link_id": "claim:66bd9bcd-3764-5974-9d61-704b7bc7bdea",
+          "coexposures": [
+            {
+              "evidence": "diary_responses:S5-R-EO15-1",
+              "intervention_id": "intervention:78b5614f-c3ad-56d6-8ce8-413c90e3fb6a",
+              "relation": "overlap",
+              "title": "Magnesium"
+            }
+          ],
+          "course_id": null,
+          "event_date": "2024-10-23",
+          "intervention": "NC NADH-containing formulation (composition unverified)",
+          "intervention_id": "intervention:4863b7ca-16f3-5128-9034-cac865754888",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "diary_responses:S5-R-EO15-1"
+            }
+          ],
+          "record_id": "S5-R-EO15-1",
+          "report_date": "2024-10-23",
+          "source_table": "diary_responses",
+          "treatment_actions": []
+        },
+        {
+          "account": "The patient associated NADH with a new deep-muscle fatigue and a major decline in function. Courses were recorded on 20–21 and 25–28 October 2024. Cognitive crashes had occurred before NADH.",
+          "association": "reported",
+          "chronology_key": "response:S3:treatment_response:209",
+          "claim_link_id": "claim:dac6a125-9e63-5e5c-8988-588a50f2ea0e",
+          "coexposures": [],
+          "course_id": null,
+          "event_date": null,
+          "intervention": "NC NADH-containing formulation (composition unverified)",
+          "intervention_id": "intervention:4863b7ca-16f3-5128-9034-cac865754888",
+          "patterns": [
+            {
+              "code": "persistent",
+              "evidence": "historical_entries:S3:treatment_response:209; context_cards:CTX-007"
+            }
+          ],
+          "record_id": "S3:treatment_response:209",
+          "report_date": null,
+          "source_table": "historical_entries",
+          "treatment_actions": []
+        }
+      ],
+      "title": "NC NADH-containing formulation (composition unverified)",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:f37f339e-dff1-59a8-bc30-1afec480e46e",
+      "reference": "pz_concept:intervention:f37f339e-dff1-59a8-bc30-1afec480e46e",
+      "reviewed_worsening": [],
+      "title": "NC broccoli extract",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:d1018a98-9f74-5632-bf47-7aafb222bd79",
+      "reference": "pz_concept:intervention:d1018a98-9f74-5632-bf47-7aafb222bd79",
+      "reviewed_worsening": [],
+      "title": "NC curcumin",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:7d3cff26-e917-5056-905e-ddae615bdcfa",
+      "reference": "pz_concept:intervention:7d3cff26-e917-5056-905e-ddae615bdcfa",
+      "reviewed_worsening": [],
+      "title": "NC pectin",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:e7f4dc7c-979d-568d-8bba-10f1b4d97228",
+      "reference": "pz_concept:intervention:e7f4dc7c-979d-568d-8bba-10f1b4d97228",
+      "reviewed_worsening": [],
+      "title": "NC vitamin B complex",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:244cac24-6e37-5e4e-bad4-f0148e91f5ce",
+      "reference": "pz_concept:intervention:244cac24-6e37-5e4e-bad4-f0148e91f5ce",
+      "reviewed_worsening": [],
+      "title": "Na-R-ALA",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:4111d133-8836-5d2b-b71b-73915908de3d",
+      "reference": "pz_concept:intervention:4111d133-8836-5d2b-b71b-73915908de3d",
+      "reviewed_worsening": [],
+      "title": "Nattokinase/serraptase (enteric)",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "Nasal irrigation system.",
+      "intervention_id": "intervention:8d7f9654-5ec4-5d4e-ab5e-50ebacf26088",
+      "reference": "https://www.neilmed.com/usa/about-neilmed/",
+      "reviewed_worsening": [
+        {
+          "account": "On December 31 a NeilMed rinse with boric acid and Betadine was followed by nasal pain extending to the back of the head. The account concerns the prepared rinse.",
+          "association": "joint",
+          "chronology_key": "response-evidence:historical_entries:S3:chronology:612",
+          "claim_link_id": "claim:c74df490-a6cf-5bea-8bf1-0220477be786",
+          "coexposures": [
+            {
+              "evidence": "historical_entries:S3:chronology:612",
+              "intervention_id": "intervention:d41171a7-77c9-598a-a5c1-1a0e6217660d",
+              "relation": "together",
+              "title": "Betadine"
+            },
+            {
+              "evidence": "historical_entries:S3:chronology:612",
+              "intervention_id": "intervention:a1e2cfca-e4aa-532c-8495-9e079762b8c8",
+              "relation": "together",
+              "title": "Boric acid"
+            }
+          ],
+          "course_id": null,
+          "event_date": null,
+          "intervention": "NeilMed",
+          "intervention_id": "intervention:8d7f9654-5ec4-5d4e-ab5e-50ebacf26088",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "historical_entries:S3:chronology:612"
+            }
+          ],
+          "record_id": "S3:chronology:612",
+          "report_date": null,
+          "source_table": "historical_entries",
+          "treatment_actions": []
+        },
+        {
+          "account": "The patient reports trying NeilMed and suspects repeat winter rinses after NADH worsened symptoms. Precise dates, preparation and attribution are uncertain.",
+          "association": "possible",
+          "chronology_key": "response:S3:treatment_response:222",
+          "claim_link_id": "claim:ca4ec910-75ab-57b3-b499-98f3d51157ba",
+          "coexposures": [],
+          "course_id": null,
+          "event_date": null,
+          "intervention": "NeilMed",
+          "intervention_id": "intervention:8d7f9654-5ec4-5d4e-ab5e-50ebacf26088",
+          "patterns": [
+            {
+              "code": "recurrent",
+              "evidence": "historical_entries:S3:treatment_response:222"
+            },
+            {
+              "code": "outcome_unknown",
+              "evidence": "historical_entries:S3:treatment_response:222"
+            }
+          ],
+          "record_id": "S3:treatment_response:222",
+          "report_date": null,
+          "source_table": "historical_entries",
+          "treatment_actions": []
+        }
+      ],
+      "title": "NeilMed",
+      "treatment_type": "non_drug"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:ee6f5b64-7d50-5fcd-8c19-5e26dc8096f2",
+      "reference": "pz_concept:intervention:ee6f5b64-7d50-5fcd-8c19-5e26dc8096f2",
+      "reviewed_worsening": [],
+      "title": "Nicergoline",
+      "treatment_type": "drug"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:57e7dbce-39f5-555c-b7c8-4c4c4d8d9b26",
+      "reference": "pz_concept:intervention:57e7dbce-39f5-555c-b7c8-4c4c4d8d9b26",
+      "reviewed_worsening": [],
+      "title": "Nicotinamide mononucleotide",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:e3067b63-6c07-58f0-a72c-f1be554aa183",
+      "reference": "pz_concept:intervention:e3067b63-6c07-58f0-a72c-f1be554aa183",
+      "reviewed_worsening": [],
+      "title": "Nicotinamide riboside",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:8a56f798-596a-5cd9-9a78-1aad4a276b96",
+      "reference": "pz_concept:intervention:8a56f798-596a-5cd9-9a78-1aad4a276b96",
+      "reviewed_worsening": [
+        {
+          "account": "The patient reported one episode of marked sympathetic overactivation during several quarter-patch uses, when the NC cocktail was taken nearby. Spaced uses felt different. A later patch was suspected in solar-plexus and left-sided spasms, which eased after L-theanine. A one-third patch felt more noticeable than one-quarter.",
+          "association": "joint",
+          "chronology_key": "response-evidence:archive_findings:S1-F2-15467",
+          "claim_link_id": "claim:60660ffa-0e6a-5ab7-8560-ad6d85f19006",
+          "coexposures": [
+            {
+              "evidence": "archive_findings:S1-F2-15467",
+              "intervention_id": "intervention:cc6cfe6a-14cb-52a3-a120-eaabf2db47f2",
+              "relation": "overlap",
+              "title": "Liposomal regimen (aggregate)"
+            }
+          ],
+          "course_id": null,
+          "event_date": null,
+          "intervention": "Nicotine patch",
+          "intervention_id": "intervention:8a56f798-596a-5cd9-9a78-1aad4a276b96",
+          "patterns": [
+            {
+              "code": "variable",
+              "evidence": "archive_findings:S1-F2-15467"
+            },
+            {
+              "code": "outcome_unknown",
+              "evidence": "archive_messages:S1-M18649; archive_messages:S1-M18650"
+            }
+          ],
+          "record_id": "S1-F2-15467",
+          "report_date": "2025-01-31",
+          "source_table": "archive_findings",
+          "treatment_actions": []
+        }
+      ],
+      "title": "Nicotine patch",
+      "treatment_type": "drug"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:2458b930-5ff9-5ae8-a517-1c62a0cbc835",
+      "reference": "pz_concept:intervention:2458b930-5ff9-5ae8-a517-1c62a0cbc835",
+      "reviewed_worsening": [],
+      "title": "Omega-3",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:b40db75a-dfab-51d0-9878-e4634d880c24",
+      "reference": "pz_concept:intervention:b40db75a-dfab-51d0-9878-e4634d880c24",
+      "reviewed_worsening": [],
+      "title": "PEA/luteolin",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:9d877186-aa49-5c6f-abd8-599065739eee",
+      "reference": "pz_concept:intervention:9d877186-aa49-5c6f-abd8-599065739eee",
+      "reviewed_worsening": [],
+      "title": "PHGG",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:70fa29a4-45b3-5fe5-b56c-c46da7c12ae7",
+      "reference": "pz_concept:intervention:70fa29a4-45b3-5fe5-b56c-c46da7c12ae7",
+      "reviewed_worsening": [],
+      "title": "PQQ",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:b0e7bedb-a844-55b9-8911-349a6bd8eff0",
+      "reference": "pz_concept:intervention:b0e7bedb-a844-55b9-8911-349a6bd8eff0",
+      "reviewed_worsening": [],
+      "title": "Pectin",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:a81df5c5-0390-54ae-8c8d-97a2d957654e",
+      "reference": "pz_concept:intervention:a81df5c5-0390-54ae-8c8d-97a2d957654e",
+      "reviewed_worsening": [
+        {
+          "account": "Patient recalled feeling bad on it; check contemporaneous March trial before attributing a specific reaction.",
+          "association": "reported",
+          "chronology_key": "response:S1-F64636-1",
+          "claim_link_id": "claim:43c039ad-5ee2-5d74-a21d-60ff0841736d",
+          "coexposures": [],
+          "course_id": null,
+          "event_date": null,
+          "intervention": "Pentoxifylline",
+          "intervention_id": "intervention:a81df5c5-0390-54ae-8c8d-97a2d957654e",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "archive_findings:S1-F64636-1"
+            }
+          ],
+          "record_id": "S1-F64636-1",
+          "report_date": "2025-12-18",
+          "source_table": "archive_findings",
+          "treatment_actions": []
+        },
+        {
+          "account": "The patient recalled an unpleasant feeling of heaviness in his head.",
+          "association": "reported",
+          "chronology_key": "response:S3:treatment_response:242",
+          "claim_link_id": "claim:0ece795f-df10-545d-a7a4-0a4960141e9a",
+          "coexposures": [],
+          "course_id": null,
+          "event_date": null,
+          "intervention": "Pentoxifylline",
+          "intervention_id": "intervention:a81df5c5-0390-54ae-8c8d-97a2d957654e",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "historical_entries:S3:treatment_response:242"
+            }
+          ],
+          "record_id": "S3:treatment_response:242",
+          "report_date": null,
+          "source_table": "historical_entries",
+          "treatment_actions": []
+        }
+      ],
+      "title": "Pentoxifylline",
+      "treatment_type": "drug"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:fa7d47ec-1865-5a07-b9a4-b5b5cb8e4570",
+      "reference": "pz_concept:intervention:fa7d47ec-1865-5a07-b9a4-b5b5cb8e4570",
+      "reviewed_worsening": [],
+      "title": "Pfizer COVID-19 vaccine",
+      "treatment_type": "drug"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:2a05b43a-924f-537b-94d9-5b24be2ed6ac",
+      "reference": "pz_concept:intervention:2a05b43a-924f-537b-94d9-5b24be2ed6ac",
+      "reviewed_worsening": [
+        {
+          "account": "Paused because of suspected reaction described as herx. Prickling and poisoned PEM also documented.",
+          "association": "possible",
+          "chronology_key": "response:S2-R-2330",
+          "claim_link_id": "claim:02f66260-c5f9-5058-b680-82fbba9e6727",
+          "coexposures": [],
+          "course_id": null,
+          "event_date": "2025-09-28",
+          "intervention": "Phospholipid complex (phosphatidylcholine)",
+          "intervention_id": "intervention:2a05b43a-924f-537b-94d9-5b24be2ed6ac",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "diary_responses:S2-R-2330"
+            }
+          ],
+          "record_id": "S2-R-2330",
+          "report_date": null,
+          "source_table": "diary_responses",
+          "treatment_actions": [
+            {
+              "code": "held",
+              "evidence": "diary_responses:S2-R-2330"
+            }
+          ]
+        }
+      ],
+      "title": "Phospholipid complex (phosphatidylcholine)",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:fde13be9-cd08-5faf-a2e5-7d9a86d7de63",
+      "reference": "pz_concept:intervention:fde13be9-cd08-5faf-a2e5-7d9a86d7de63",
+      "reviewed_worsening": [
+        {
+          "account": "Patient associated anxiety and lowered hunger with telmisartan/potassium; no potassium measurement given in that passage. Stopped-day logged the following day.",
+          "association": "joint",
+          "chronology_key": "response:S2-R-672",
+          "claim_link_id": "claim:0a11c76e-0028-57d7-b265-89319b5553d3",
+          "coexposures": [
+            {
+              "evidence": "diary_responses:S2-R-672",
+              "intervention_id": "intervention:b1e1651a-770f-5e89-9ae2-d7dd7522e807",
+              "relation": "overlap",
+              "title": "Telmisartan"
+            }
+          ],
+          "course_id": null,
+          "event_date": "2025-07-17",
+          "intervention": "Potassium",
+          "intervention_id": "intervention:fde13be9-cd08-5faf-a2e5-7d9a86d7de63",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "diary_responses:S2-R-672"
+            }
+          ],
+          "record_id": "S2-R-672",
+          "report_date": null,
+          "source_table": "diary_responses",
+          "treatment_actions": []
+        },
+        {
+          "account": "Took telmisartan July 8, doubled dose by July 11, held with potassium July 12. No sleep improvement by July 15. Appetite changes during overlapping potassium exposure; anxiety recurred without telmisartan. The sleep/headache improvement elsewhere in the chat concerned someone else.",
+          "association": "joint",
+          "chronology_key": "response:S1-F45022-1",
+          "claim_link_id": "claim:fdf72803-9e9d-540d-a843-e988b763ad0c",
+          "coexposures": [
+            {
+              "evidence": "archive_findings:S1-F45022-1",
+              "intervention_id": "intervention:b1e1651a-770f-5e89-9ae2-d7dd7522e807",
+              "relation": "overlap",
+              "title": "Telmisartan"
+            }
+          ],
+          "course_id": null,
+          "event_date": null,
+          "intervention": "Potassium",
+          "intervention_id": "intervention:fde13be9-cd08-5faf-a2e5-7d9a86d7de63",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "archive_findings:S1-F45022-1"
+            }
+          ],
+          "record_id": "S1-F45022-1",
+          "report_date": "2025-07-08",
+          "source_table": "archive_findings",
+          "treatment_actions": []
+        }
+      ],
+      "title": "Potassium",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:53c2071d-7035-53de-91a8-ddee2d4c1613",
+      "reference": "pz_concept:intervention:53c2071d-7035-53de-91a8-ddee2d4c1613",
+      "reviewed_worsening": [],
+      "title": "Potassium chloride",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:cfa5263e-8acb-5fb8-9aa5-6842c3052508",
+      "reference": "pz_concept:intervention:cfa5263e-8acb-5fb8-9aa5-6842c3052508",
+      "reviewed_worsening": [],
+      "title": "Potassium malate",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:647be13b-3d7b-5175-8b5a-fa405decf12d",
+      "reference": "pz_concept:intervention:647be13b-3d7b-5175-8b5a-fa405decf12d",
+      "reviewed_worsening": [],
+      "title": "Probiotic (product unspecified)",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:854a227e-b94d-5159-abb6-fb4f9a1967c4",
+      "reference": "pz_concept:intervention:854a227e-b94d-5159-abb6-fb4f9a1967c4",
+      "reviewed_worsening": [],
+      "title": "ProdromeGlia plasmalogens",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:86037a32-6743-504f-b8b3-6bc00c7de86d",
+      "reference": "pz_concept:intervention:86037a32-6743-504f-b8b3-6bc00c7de86d",
+      "reviewed_worsening": [],
+      "title": "Quercetin",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:d2791758-1a3d-5f28-b23b-b5ef705c0252",
+      "reference": "pz_concept:intervention:d2791758-1a3d-5f28-b23b-b5ef705c0252",
+      "reviewed_worsening": [
+        {
+          "account": "Rapamycin was among the separately recalled exposures associated by the patient with a similar tingling sensation.",
+          "association": "reported",
+          "chronology_key": "response:S1-F60911-1",
+          "claim_link_id": "claim:34f61224-6c5d-548b-a0f6-0a3bc157aae9",
+          "coexposures": [],
+          "course_id": null,
+          "event_date": null,
+          "intervention": "Rapamycin",
+          "intervention_id": "intervention:d2791758-1a3d-5f28-b23b-b5ef705c0252",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "archive_findings:S1-F60911-1"
+            }
+          ],
+          "record_id": "S1-F60911-1",
+          "report_date": "2025-11-16",
+          "source_table": "archive_findings",
+          "treatment_actions": []
+        },
+        {
+          "account": "After one 0.5 mg dose he described roughly ten days of recurrent crashes. Brain burning and pressure returned, and CNS and upper-body fatigue still recurred at follow-up.",
+          "association": "reported",
+          "chronology_key": "response:S3:treatment_response:212",
+          "claim_link_id": "claim:d92f3839-e79f-5518-8a4c-297133da89b2",
+          "coexposures": [],
+          "course_id": "course:d96ec8ff-9dae-569d-b63e-3c4c095e0595",
+          "event_date": null,
+          "intervention": "Rapamycin",
+          "intervention_id": "intervention:d2791758-1a3d-5f28-b23b-b5ef705c0252",
+          "patterns": [
+            {
+              "code": "persistent",
+              "evidence": "historical_entries:S3:treatment_response:212; context_cards:CTX-014"
+            },
+            {
+              "code": "single_dose",
+              "evidence": "historical_entries:S3:treatment_response:212; context_cards:CTX-014"
+            }
+          ],
+          "record_id": "S3:treatment_response:212",
+          "report_date": null,
+          "source_table": "historical_entries",
+          "treatment_actions": []
+        }
+      ],
+      "title": "Rapamycin",
+      "treatment_type": "drug"
+    },
+    {
+      "basis": "The source identifies this product as a red sorghum bioflavonoid complex.",
+      "intervention_id": "intervention:b39d25a2-afc1-5440-a49f-a23b7a3155ef",
+      "reference": "S1:66651",
+      "reviewed_worsening": [
+        {
+          "account": "Stopped due to very bad crash the previous day.",
+          "association": "possible",
+          "chronology_key": "response:S2-R-5427",
+          "claim_link_id": "claim:461e849e-b338-5e19-ad83-5651bbef704d",
+          "coexposures": [],
+          "course_id": "course:bff11fcc-d97a-52e1-af0e-1c9c8f74c30e",
+          "event_date": "2026-03-11",
+          "intervention": "Redaxin",
+          "intervention_id": "intervention:b39d25a2-afc1-5440-a49f-a23b7a3155ef",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "diary_responses:S2-R-5427"
+            }
+          ],
+          "record_id": "S2-R-5427",
+          "report_date": null,
+          "source_table": "diary_responses",
+          "treatment_actions": [
+            {
+              "code": "held",
+              "evidence": "diary_responses:S2-R-5427"
+            }
+          ]
+        }
+      ],
+      "title": "Redaxin",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:50678056-797b-5d8b-ae7d-06b838546f87",
+      "reference": "pz_concept:intervention:50678056-797b-5d8b-ae7d-06b838546f87",
+      "reviewed_worsening": [],
+      "title": "Resveratrol",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:c23acd6d-bf3d-5066-994f-911b8c091093",
+      "reference": "pz_concept:intervention:c23acd6d-bf3d-5066-994f-911b8c091093",
+      "reviewed_worsening": [],
+      "title": "Rg3 nasal spray",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:1b8da3bd-64e8-5abd-9988-7326c9a71779",
+      "reference": "pz_concept:intervention:1b8da3bd-64e8-5abd-9988-7326c9a71779",
+      "reviewed_worsening": [],
+      "title": "Riboflavin (vitamin B2)",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:74ec198a-8b12-5e37-ba3e-12c10e477658",
+      "reference": "pz_concept:intervention:74ec198a-8b12-5e37-ba3e-12c10e477658",
+      "reviewed_worsening": [],
+      "title": "Rupatadine",
+      "treatment_type": "drug"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:06ac4dc5-f5f9-5ad3-b9a5-77249b2da23e",
+      "reference": "pz_concept:intervention:06ac4dc5-f5f9-5ad3-b9a5-77249b2da23e",
+      "reviewed_worsening": [],
+      "title": "Rutin",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "Oral glutathione derivative used as a dietary supplement.",
+      "intervention_id": "intervention:6796cb12-8e27-5863-990e-7e732a38b61d",
+      "reference": "pz_concept:intervention:6796cb12-8e27-5863-990e-7e732a38b61d",
+      "reviewed_worsening": [
+        {
+          "account": "Stopped because patient suspected exacerbation of sinus symptoms and poisoned PEM.",
+          "association": "possible",
+          "chronology_key": "response:S2-R-4758",
+          "claim_link_id": "claim:0f3e9d17-a178-5cb3-810b-a94477358da3",
+          "coexposures": [],
+          "course_id": "course:6274bf2b-0d9e-5910-99b9-2e13e6c1e287",
+          "event_date": "2026-01-30",
+          "intervention": "S-acetyl-L-glutathione",
+          "intervention_id": "intervention:6796cb12-8e27-5863-990e-7e732a38b61d",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "diary_responses:S2-R-4758"
+            }
+          ],
+          "record_id": "S2-R-4758",
+          "report_date": null,
+          "source_table": "diary_responses",
+          "treatment_actions": [
+            {
+              "code": "held",
+              "evidence": "diary_responses:S2-R-4758"
+            }
+          ]
+        },
+        {
+          "account": "He reported pulsing and unusual sensations resembling his usual evening PEM, now during the day, including at very small doses.",
+          "association": "reported",
+          "chronology_key": "response:S3:treatment_response:266",
+          "claim_link_id": "claim:df3bdf5b-3efd-5728-98e5-55eb1b13a1b1",
+          "coexposures": [],
+          "course_id": null,
+          "event_date": null,
+          "intervention": "S-acetyl-L-glutathione",
+          "intervention_id": "intervention:6796cb12-8e27-5863-990e-7e732a38b61d",
+          "patterns": [
+            {
+              "code": "recurrent",
+              "evidence": "historical_entries:S3:treatment_response:266"
+            },
+            {
+              "code": "outcome_unknown",
+              "evidence": "historical_entries:S3:treatment_response:266"
+            }
+          ],
+          "record_id": "S3:treatment_response:266",
+          "report_date": null,
+          "source_table": "historical_entries",
+          "treatment_actions": []
+        }
+      ],
+      "title": "S-acetyl-L-glutathione",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:afbde9a0-891e-5e9a-862b-dfd2860031b4",
+      "reference": "pz_concept:intervention:afbde9a0-891e-5e9a-862b-dfd2860031b4",
+      "reviewed_worsening": [],
+      "title": "SAMe",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:bba03e3f-ac74-5bbd-9822-86fcfe8c5388",
+      "reference": "pz_concept:intervention:bba03e3f-ac74-5bbd-9822-86fcfe8c5388",
+      "reviewed_worsening": [
+        {
+          "account": "Reported left upper abdominal pain appearing after SLU and persisting into the following day. Patient questioned whether bowel distension contributed. Organ attribution uncertain.",
+          "association": "possible",
+          "chronology_key": "response:S1-F57222-1",
+          "claim_link_id": "claim:7f54fac1-47e6-5578-ab8e-c5e3076e4353",
+          "coexposures": [],
+          "course_id": null,
+          "event_date": null,
+          "intervention": "SLU-PP-332",
+          "intervention_id": "intervention:bba03e3f-ac74-5bbd-9822-86fcfe8c5388",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "archive_findings:S1-F57222-1"
+            }
+          ],
+          "record_id": "S1-F57222-1",
+          "report_date": "2025-09-14",
+          "source_table": "archive_findings",
+          "treatment_actions": []
+        }
+      ],
+      "title": "SLU-PP-332",
+      "treatment_type": "drug"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:2995cbee-c9c2-57e3-ac0a-3744d36a0cfb",
+      "reference": "pz_concept:intervention:2995cbee-c9c2-57e3-ac0a-3744d36a0cfb",
+      "reviewed_worsening": [],
+      "title": "SS-31",
+      "treatment_type": "peptide"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:37713448-e2c0-5e36-84ac-7d18cd96c2e2",
+      "reference": "pz_concept:intervention:37713448-e2c0-5e36-84ac-7d18cd96c2e2",
+      "reviewed_worsening": [
+        {
+          "account": "After several hours without food, the patient reported dizziness and tingling easing after one teaspoon of salt. After the second teaspoon they described gut gurgling, brain burning/pressure and possible occipital headache.",
+          "association": "possible",
+          "chronology_key": "response-evidence:archive_findings:S1-F2-55688",
+          "claim_link_id": "claim:fa914882-0ee5-5953-9793-bd7cce71b669",
+          "coexposures": [],
+          "course_id": null,
+          "event_date": "2025-09-01",
+          "intervention": "Salt",
+          "intervention_id": "intervention:37713448-e2c0-5e36-84ac-7d18cd96c2e2",
+          "patterns": [
+            {
+              "code": "dose_related",
+              "evidence": "archive_findings:S1-F2-55688"
+            },
+            {
+              "code": "outcome_unknown",
+              "evidence": "archive_findings:S1-F2-55688"
+            }
+          ],
+          "record_id": "S1-F2-55688",
+          "report_date": "2025-09-01",
+          "source_table": "archive_findings",
+          "treatment_actions": []
+        }
+      ],
+      "title": "Salt",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "Mineral-water rinse used for irrigation.",
+      "intervention_id": "intervention:2162d7d2-fcc8-58a2-9207-54b5bb2d5a3c",
+      "reference": "pz_concept:intervention:2162d7d2-fcc8-58a2-9207-54b5bb2d5a3c",
+      "reviewed_worsening": [
+        {
+          "account": "Nasal pressure/burning became stronger after a rinse. A repeat rinse was followed by resolution, then recurrence half an hour later. Brain fog and marked distress coexisted after a tiring meeting.",
+          "association": "possible",
+          "chronology_key": "response:S5-R-S15-1",
+          "claim_link_id": "claim:d2e9845e-37f7-565e-a9a6-469978f08c7b",
+          "coexposures": [],
+          "course_id": null,
+          "event_date": "2024-06-19",
+          "intervention": "Salvus rinse",
+          "intervention_id": "intervention:2162d7d2-fcc8-58a2-9207-54b5bb2d5a3c",
+          "patterns": [
+            {
+              "code": "time_limited",
+              "evidence": "diary_responses:S5-R-S15-1"
+            }
+          ],
+          "record_id": "S5-R-S15-1",
+          "report_date": "2024-06-19",
+          "source_table": "diary_responses",
+          "treatment_actions": []
+        }
+      ],
+      "title": "Salvus rinse",
+      "treatment_type": "non_drug"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:d508eca9-1ade-5c0b-ab9d-5e81e6df9398",
+      "reference": "pz_concept:intervention:d508eca9-1ade-5c0b-ab9d-5e81e6df9398",
+      "reviewed_worsening": [
+        {
+          "account": "Reported improvement in burning  but increased libido, potentially increasing exposure to a known PEM trigger.",
+          "association": "reported",
+          "chronology_key": "response:S1-F42740-1",
+          "claim_link_id": "claim:7f75276b-d25d-530f-b731-f3dd893ce33f",
+          "coexposures": [],
+          "course_id": null,
+          "event_date": null,
+          "intervention": "Selegiline",
+          "intervention_id": "intervention:d508eca9-1ade-5c0b-ab9d-5e81e6df9398",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "archive_findings:S1-F42740-1"
+            }
+          ],
+          "record_id": "S1-F42740-1",
+          "report_date": "2025-06-25",
+          "source_table": "archive_findings",
+          "treatment_actions": []
+        },
+        {
+          "account": "He reported some improvement in brain burning and increased libido, which he associated with triggering PEM.",
+          "association": "reported",
+          "chronology_key": "response:S3:treatment_response:256",
+          "claim_link_id": "claim:4811b0dc-e389-534d-bf07-0c9925089ea4",
+          "coexposures": [],
+          "course_id": null,
+          "event_date": null,
+          "intervention": "Selegiline",
+          "intervention_id": "intervention:d508eca9-1ade-5c0b-ab9d-5e81e6df9398",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "historical_entries:S3:treatment_response:256"
+            }
+          ],
+          "record_id": "S3:treatment_response:256",
+          "report_date": null,
+          "source_table": "historical_entries",
+          "treatment_actions": []
+        }
+      ],
+      "title": "Selegiline",
+      "treatment_type": "drug"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:ad41147c-8a14-5664-8a32-8643b290b0b3",
+      "reference": "pz_concept:intervention:ad41147c-8a14-5664-8a32-8643b290b0b3",
+      "reviewed_worsening": [],
+      "title": "Shiitake",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:899772de-33cc-5dee-a7fc-710d35a9d8b6",
+      "reference": "pz_concept:intervention:899772de-33cc-5dee-a7fc-710d35a9d8b6",
+      "reviewed_worsening": [
+        {
+          "account": "SkQ1 was among the separately recalled exposures associated by the patient with a similar tingling sensation.",
+          "association": "reported",
+          "chronology_key": "response:S1-F60911-1",
+          "claim_link_id": "claim:f014c2fa-ba4e-53a3-a9a3-b0b9b7cf9a7a",
+          "coexposures": [],
+          "course_id": null,
+          "event_date": null,
+          "intervention": "SkQ1",
+          "intervention_id": "intervention:899772de-33cc-5dee-a7fc-710d35a9d8b6",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "archive_findings:S1-F60911-1"
+            }
+          ],
+          "record_id": "S1-F60911-1",
+          "report_date": "2025-11-16",
+          "source_table": "archive_findings",
+          "treatment_actions": []
+        },
+        {
+          "account": "PEM and sleep after the first timed dose; stopped after repeated crashes.",
+          "association": "reported",
+          "chronology_key": "response:S2-R-3011",
+          "claim_link_id": "claim:0a3fecaa-86a8-50c4-9acf-daf87a174406",
+          "coexposures": [],
+          "course_id": "course:693a230a-64ee-5862-90be-5c3d95be7991",
+          "event_date": "2025-11-01",
+          "intervention": "SkQ1",
+          "intervention_id": "intervention:899772de-33cc-5dee-a7fc-710d35a9d8b6",
+          "patterns": [
+            {
+              "code": "recurrent",
+              "evidence": "diary_responses:S2-R-3011"
+            },
+            {
+              "code": "outcome_unknown",
+              "evidence": "diary_responses:S2-R-3011"
+            }
+          ],
+          "record_id": "S2-R-3011",
+          "report_date": null,
+          "source_table": "diary_responses",
+          "treatment_actions": [
+            {
+              "code": "held",
+              "evidence": "diary_responses:S2-R-3011"
+            }
+          ]
+        },
+        {
+          "account": "The patient recalled unintentionally taking a higher first dose followed by a severe crash and sleep. Corrosive tingling and a poisoned PEM sensation also occurred at smaller doses.",
+          "association": "reported",
+          "chronology_key": "response:S3:treatment_response:262",
+          "claim_link_id": "claim:5ace0e18-3aaf-518b-9d73-f64cb6d2a1fd",
+          "coexposures": [],
+          "course_id": null,
+          "event_date": null,
+          "intervention": "SkQ1",
+          "intervention_id": "intervention:899772de-33cc-5dee-a7fc-710d35a9d8b6",
+          "patterns": [
+            {
+              "code": "dose_related",
+              "evidence": "historical_entries:S3:treatment_response:262"
+            },
+            {
+              "code": "recurrent",
+              "evidence": "historical_entries:S3:treatment_response:262"
+            },
+            {
+              "code": "variable",
+              "evidence": "historical_entries:S3:treatment_response:262"
+            },
+            {
+              "code": "outcome_unknown",
+              "evidence": "historical_entries:S3:treatment_response:262"
+            }
+          ],
+          "record_id": "S3:treatment_response:262",
+          "report_date": null,
+          "source_table": "historical_entries",
+          "treatment_actions": []
+        }
+      ],
+      "title": "SkQ1",
+      "treatment_type": "drug"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:069e35c9-4d9c-5fb7-bd42-55a1212e0bad",
+      "reference": "pz_concept:intervention:069e35c9-4d9c-5fb7-bd42-55a1212e0bad",
+      "reviewed_worsening": [],
+      "title": "Sofosbuvir",
+      "treatment_type": "drug"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:65a94162-e516-5a24-87f2-325defe1365c",
+      "reference": "pz_concept:intervention:65a94162-e516-5a24-87f2-325defe1365c",
+      "reviewed_worsening": [],
+      "title": "Specialized pro-resolving mediators (SPMs)",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:e527c8eb-6bd2-5121-9cb7-10d8838ea0e6",
+      "reference": "pz_concept:intervention:e527c8eb-6bd2-5121-9cb7-10d8838ea0e6",
+      "reviewed_worsening": [],
+      "title": "Spermidine",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:8c44127d-11fb-5024-8f14-bb5c20b3def5",
+      "reference": "pz_concept:intervention:8c44127d-11fb-5024-8f14-bb5c20b3def5",
+      "reviewed_worsening": [
+        {
+          "account": "On November 23 the patient reported noticeably worse stools on a very small dose of spore probiotic and little other change at that point.",
+          "association": "reported",
+          "chronology_key": "response-evidence:archive_findings:S1-F2-61824",
+          "claim_link_id": "claim:831a976a-1846-58f9-baa0-a3eea3f7d7f8",
+          "coexposures": [],
+          "course_id": null,
+          "event_date": "2025-11-23",
+          "intervention": "Spore probiotic",
+          "intervention_id": "intervention:8c44127d-11fb-5024-8f14-bb5c20b3def5",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "archive_findings:S1-F2-61824"
+            }
+          ],
+          "record_id": "S1-F2-61824",
+          "report_date": "2025-11-23",
+          "source_table": "archive_findings",
+          "treatment_actions": []
+        },
+        {
+          "account": "Strong fullness after a small meal with spore probiotic; distress, systemic corrosive tingling and abdominal pain followed. Patient also described overfilling with a second meal.",
+          "association": "possible",
+          "chronology_key": "response:S2-R-3375",
+          "claim_link_id": "claim:c3b68290-2f99-5c37-ae64-604718a1ddb0",
+          "coexposures": [],
+          "course_id": null,
+          "event_date": "2025-11-22",
+          "intervention": "Spore probiotic",
+          "intervention_id": "intervention:8c44127d-11fb-5024-8f14-bb5c20b3def5",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "diary_responses:S2-R-3375"
+            }
+          ],
+          "record_id": "S2-R-3375",
+          "report_date": null,
+          "source_table": "diary_responses",
+          "treatment_actions": []
+        },
+        {
+          "account": "PEM recorded after tiny first dose, later constipation/looser orange stools, helmet pressure and a slight dose rise. Symptoms and exertion varied, and dosing was interrupted.",
+          "association": "possible",
+          "chronology_key": "response:S2-R-3313",
+          "claim_link_id": "claim:89a31de0-49ea-552e-84ae-de664512d298",
+          "coexposures": [],
+          "course_id": "course:53f1f9de-6a4c-562b-b9fe-c22466b0b849",
+          "event_date": "2025-11-18",
+          "intervention": "Spore probiotic",
+          "intervention_id": "intervention:8c44127d-11fb-5024-8f14-bb5c20b3def5",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "diary_responses:S2-R-3313"
+            }
+          ],
+          "record_id": "S2-R-3313",
+          "report_date": null,
+          "source_table": "diary_responses",
+          "treatment_actions": []
+        },
+        {
+          "account": "Forehead and eye symptoms, nape and wrist fatigue, and reduced tolerance for screen use persisted after the overlapping trials. Symptoms began before the bezisterim dose. The patient could not separate the contributions of the probiotic and bezisterim.",
+          "association": "joint",
+          "chronology_key": "context_cards:CTX-017",
+          "claim_link_id": "claim:spore-ctx-017",
+          "coexposures": [
+            {
+              "evidence": "context_cards:CTX-017",
+              "intervention_id": "intervention:ee824179-20cd-5023-98b9-9ca860592f79",
+              "relation": "overlap",
+              "title": "Bezisterim"
+            }
+          ],
+          "course_id": null,
+          "event_date": "2025-11",
+          "intervention": "Spore probiotic",
+          "intervention_id": "intervention:8c44127d-11fb-5024-8f14-bb5c20b3def5",
+          "patterns": [
+            {
+              "code": "persistent",
+              "evidence": "context_cards:CTX-017; reviewed_exposure_accounts:EX-GI-014"
+            }
+          ],
+          "record_id": "CTX-017",
+          "report_date": null,
+          "source_table": "context_cards",
+          "treatment_actions": []
+        }
+      ],
+      "title": "Spore probiotic",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:10f09ca1-d141-5157-8f90-6a3b02ee7bb3",
+      "reference": "pz_concept:intervention:10f09ca1-d141-5157-8f90-6a3b02ee7bb3",
+      "reviewed_worsening": [
+        {
+          "account": "SuperHMO was among the separately recalled exposures associated by the patient with a similar tingling sensation.",
+          "association": "reported",
+          "chronology_key": "response:S1-F60911-1",
+          "claim_link_id": "claim:6428c986-ee3e-5664-9b83-003c0c3f2b08",
+          "coexposures": [],
+          "course_id": null,
+          "event_date": null,
+          "intervention": "SuperHMO",
+          "intervention_id": "intervention:10f09ca1-d141-5157-8f90-6a3b02ee7bb3",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "archive_findings:S1-F60911-1"
+            }
+          ],
+          "record_id": "S1-F60911-1",
+          "report_date": "2025-11-16",
+          "source_table": "archive_findings",
+          "treatment_actions": []
+        },
+        {
+          "account": "Crash and corrosive tingling during overlapping trials. Patient could not separate the effects. Later recalled diarrhea beginning around this episode.",
+          "association": "joint",
+          "chronology_key": "response:S1-F48122-1",
+          "claim_link_id": "claim:a417e077-bb65-5f6e-ba2b-868cfa6f1347",
+          "coexposures": [
+            {
+              "evidence": "reviewed_exposure_accounts:EX-GI-008",
+              "intervention_id": "intervention:f46ccb39-8460-5396-81a9-e72c2e3198b4",
+              "relation": "overlap",
+              "title": "Gou teng"
+            }
+          ],
+          "course_id": null,
+          "event_date": null,
+          "intervention": "SuperHMO",
+          "intervention_id": "intervention:10f09ca1-d141-5157-8f90-6a3b02ee7bb3",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "archive_findings:S1-F48122-1"
+            }
+          ],
+          "record_id": "S1-F48122-1",
+          "report_date": "2025-07-18",
+          "source_table": "archive_findings",
+          "treatment_actions": []
+        },
+        {
+          "account": "Tingling and abnormal stools were reported amid several exposures; no independent effect of SuperHMO was established.",
+          "association": "joint",
+          "chronology_key": "response:S2-R-649",
+          "claim_link_id": "claim:a8fa4943-2268-5863-893a-391cb9d74216",
+          "coexposures": [
+            {
+              "evidence": "reviewed_exposure_accounts:EX-GI-008",
+              "intervention_id": "intervention:f46ccb39-8460-5396-81a9-e72c2e3198b4",
+              "relation": "overlap",
+              "title": "Gou teng"
+            }
+          ],
+          "course_id": null,
+          "event_date": "2025-07-16",
+          "intervention": "SuperHMO",
+          "intervention_id": "intervention:10f09ca1-d141-5157-8f90-6a3b02ee7bb3",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "diary_responses:S2-R-649"
+            }
+          ],
+          "record_id": "S2-R-649",
+          "report_date": null,
+          "source_table": "diary_responses",
+          "treatment_actions": []
+        },
+        {
+          "account": "Green stools and diarrhea worsened substantially and had not fully stabilized by follow-up. The trials began close together.",
+          "association": "joint",
+          "chronology_key": "response:S3:treatment_response:219",
+          "claim_link_id": "claim:4946939b-0e99-5b23-afd2-61158afea4cd",
+          "coexposures": [
+            {
+              "evidence": "reviewed_exposure_accounts:EX-GI-008",
+              "intervention_id": "intervention:f46ccb39-8460-5396-81a9-e72c2e3198b4",
+              "relation": "overlap",
+              "title": "Gou teng"
+            }
+          ],
+          "course_id": "course:dfba55ec-5bf9-53d9-9415-cc51d7bd1715",
+          "event_date": null,
+          "intervention": "SuperHMO",
+          "intervention_id": "intervention:10f09ca1-d141-5157-8f90-6a3b02ee7bb3",
+          "patterns": [
+            {
+              "code": "persistent",
+              "evidence": "historical_entries:S3:treatment_response:219"
+            }
+          ],
+          "record_id": "S3:treatment_response:219",
+          "report_date": null,
+          "source_table": "historical_entries",
+          "treatment_actions": []
+        }
+      ],
+      "title": "SuperHMO",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:012875d9-9abc-57db-be80-d2f5300dd1e6",
+      "reference": "pz_concept:intervention:012875d9-9abc-57db-be80-d2f5300dd1e6",
+      "reviewed_worsening": [],
+      "title": "TMG",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:d30be0e6-0ecd-52cd-bffb-7d4d18650adf",
+      "reference": "pz_concept:intervention:d30be0e6-0ecd-52cd-bffb-7d4d18650adf",
+      "reviewed_worsening": [],
+      "title": "Taurine",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:b1e1651a-770f-5e89-9ae2-d7dd7522e807",
+      "reference": "pz_concept:intervention:b1e1651a-770f-5e89-9ae2-d7dd7522e807",
+      "reviewed_worsening": [
+        {
+          "account": "Patient associated anxiety and lowered hunger with telmisartan/potassium; no potassium measurement given in that passage. Stopped-day logged the following day.",
+          "association": "joint",
+          "chronology_key": "response:S2-R-672",
+          "claim_link_id": "claim:0e975fa6-b474-5e42-a1a5-30c0e4ea9e22",
+          "coexposures": [
+            {
+              "evidence": "diary_responses:S2-R-672",
+              "intervention_id": "intervention:fde13be9-cd08-5faf-a2e5-7d9a86d7de63",
+              "relation": "overlap",
+              "title": "Potassium"
+            }
+          ],
+          "course_id": null,
+          "event_date": "2025-07-17",
+          "intervention": "Telmisartan",
+          "intervention_id": "intervention:b1e1651a-770f-5e89-9ae2-d7dd7522e807",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "diary_responses:S2-R-672"
+            }
+          ],
+          "record_id": "S2-R-672",
+          "report_date": null,
+          "source_table": "diary_responses",
+          "treatment_actions": []
+        },
+        {
+          "account": "Took telmisartan July 8, doubled dose by July 11, held with potassium July 12. No sleep improvement by July 15. Appetite changes during overlapping potassium exposure; anxiety recurred without telmisartan. The sleep/headache improvement elsewhere in the chat concerned someone else.",
+          "association": "joint",
+          "chronology_key": "response:S1-F45022-1",
+          "claim_link_id": "claim:4353e33e-65cf-541a-80bf-fb02ab5d590f",
+          "coexposures": [
+            {
+              "evidence": "archive_findings:S1-F45022-1",
+              "intervention_id": "intervention:fde13be9-cd08-5faf-a2e5-7d9a86d7de63",
+              "relation": "overlap",
+              "title": "Potassium"
+            }
+          ],
+          "course_id": null,
+          "event_date": null,
+          "intervention": "Telmisartan",
+          "intervention_id": "intervention:b1e1651a-770f-5e89-9ae2-d7dd7522e807",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "archive_findings:S1-F45022-1"
+            }
+          ],
+          "record_id": "S1-F45022-1",
+          "report_date": "2025-07-08",
+          "source_table": "archive_findings",
+          "treatment_actions": []
+        }
+      ],
+      "title": "Telmisartan",
+      "treatment_type": "drug"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:d7ee65d3-fa00-574a-aa80-c1766d747a9d",
+      "reference": "pz_concept:intervention:d7ee65d3-fa00-574a-aa80-c1766d747a9d",
+      "reviewed_worsening": [
+        {
+          "account": "Fractional BID dosing and unintended increase; patient questioned whether stronger nape/neck pressure was associated.",
+          "association": "possible",
+          "chronology_key": "response:S2-R-8549",
+          "claim_link_id": "claim:bfc85c8c-0502-5731-b227-e6f79e1476f9",
+          "coexposures": [],
+          "course_id": "course:9bf09bae-e1d8-5d77-ae91-7375108f214c",
+          "event_date": "2026-10-06",
+          "intervention": "Thymogen",
+          "intervention_id": "intervention:d7ee65d3-fa00-574a-aa80-c1766d747a9d",
+          "patterns": [
+            {
+              "code": "dose_related",
+              "evidence": "diary_responses:S2-R-8549"
+            },
+            {
+              "code": "outcome_unknown",
+              "evidence": "diary_responses:S2-R-8549"
+            }
+          ],
+          "record_id": "S2-R-8549",
+          "report_date": null,
+          "source_table": "diary_responses",
+          "treatment_actions": []
+        }
+      ],
+      "title": "Thymogen",
+      "treatment_type": "peptide"
+    },
+    {
+      "basis": "Named in a timed diary entry.",
+      "intervention_id": "intervention:b611d400-b62d-53f0-9564-ebe78e301bfd",
+      "reference": "diary_observations:S2-OBS-7705",
+      "reviewed_worsening": [],
+      "title": "Thyroid gummy (mixed preparation)",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:028b1f6a-4e2d-5f34-848e-b736b1e9af64",
+      "reference": "pz_concept:intervention:028b1f6a-4e2d-5f34-848e-b736b1e9af64",
+      "reviewed_worsening": [],
+      "title": "Trace minerals",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:0ad7857f-4464-524f-ae03-6b718504c503",
+      "reference": "pz_concept:intervention:0ad7857f-4464-524f-ae03-6b718504c503",
+      "reviewed_worsening": [],
+      "title": "Urolithin A",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:b8fc143d-8d7c-5080-96ad-6af7dc851734",
+      "reference": "pz_concept:intervention:b8fc143d-8d7c-5080-96ad-6af7dc851734",
+      "reviewed_worsening": [
+        {
+          "account": "Severe brain symptoms and crash with first trial; patient held it to recover.",
+          "association": "possible",
+          "chronology_key": "response:S2-R-8064",
+          "claim_link_id": "claim:124c17db-d327-59fc-afc0-a375334b4dbc",
+          "coexposures": [],
+          "course_id": "course:2eb06d98-9661-555a-ac69-e03a339eb04a",
+          "event_date": "2026-08-29",
+          "intervention": "Velpanat",
+          "intervention_id": "intervention:b8fc143d-8d7c-5080-96ad-6af7dc851734",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "diary_responses:S2-R-8064"
+            }
+          ],
+          "record_id": "S2-R-8064",
+          "report_date": null,
+          "source_table": "diary_responses",
+          "treatment_actions": [
+            {
+              "code": "held",
+              "evidence": "diary_responses:S2-R-8064"
+            }
+          ]
+        }
+      ],
+      "title": "Velpanat",
+      "treatment_type": "drug"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:de2eae2e-e325-5112-91b8-bf172b0d51c2",
+      "reference": "pz_concept:intervention:de2eae2e-e325-5112-91b8-bf172b0d51c2",
+      "reviewed_worsening": [],
+      "title": "Velpatasvir",
+      "treatment_type": "drug"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:85f3c335-f1b0-5135-b6b7-665152f5da8d",
+      "reference": "pz_concept:intervention:85f3c335-f1b0-5135-b6b7-665152f5da8d",
+      "reviewed_worsening": [],
+      "title": "Vitamin A",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:8ef2412c-0f4d-5f8f-b050-0a2e9b39d8bf",
+      "reference": "pz_concept:intervention:8ef2412c-0f4d-5f8f-b050-0a2e9b39d8bf",
+      "reviewed_worsening": [],
+      "title": "Vitamin B12",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "Injectable vitamin preparation; classified separately from oral B12 supplements.",
+      "intervention_id": "intervention:357e36ab-9006-5f35-b2fc-b69946ef748e",
+      "reference": "pz_concept:intervention:357e36ab-9006-5f35-b2fc-b69946ef748e",
+      "reviewed_worsening": [
+        {
+          "account": "Full 1 mg dose recorded, followed by stopping injections due to a reported brain flare.",
+          "association": "reported",
+          "chronology_key": "response:S2-R-6721",
+          "claim_link_id": "claim:1c31f5c6-d1e5-5137-a0f6-e23d13c06ad0",
+          "coexposures": [],
+          "course_id": "course:c8360e41-550e-593e-865f-8269bd324079",
+          "event_date": "2026-05-25",
+          "intervention": "Vitamin B12 injection",
+          "intervention_id": "intervention:357e36ab-9006-5f35-b2fc-b69946ef748e",
+          "patterns": [
+            {
+              "code": "outcome_unknown",
+              "evidence": "diary_responses:S2-R-6721"
+            }
+          ],
+          "record_id": "S2-R-6721",
+          "report_date": null,
+          "source_table": "diary_responses",
+          "treatment_actions": [
+            {
+              "code": "held",
+              "evidence": "diary_responses:S2-R-6721"
+            }
+          ]
+        },
+        {
+          "account": "The patient recalled a nape flare within half an hour of a higher B12 injection dose. The units in the retrospective account conflict with the dosing diary.",
+          "association": "possible",
+          "chronology_key": "response:S3:treatment_response:274",
+          "claim_link_id": "claim:d97517ba-8a6c-512a-a837-bcdc5ebafc9a",
+          "coexposures": [],
+          "course_id": null,
+          "event_date": null,
+          "intervention": "Vitamin B12 injection",
+          "intervention_id": "intervention:357e36ab-9006-5f35-b2fc-b69946ef748e",
+          "patterns": [
+            {
+              "code": "dose_related",
+              "evidence": "historical_entries:S3:treatment_response:274"
+            },
+            {
+              "code": "outcome_unknown",
+              "evidence": "historical_entries:S3:treatment_response:274"
+            }
+          ],
+          "record_id": "S3:treatment_response:274",
+          "report_date": null,
+          "source_table": "historical_entries",
+          "treatment_actions": []
+        }
+      ],
+      "title": "Vitamin B12 injection",
+      "treatment_type": "drug"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:dc2952de-b829-5b31-a0b6-ffe6c49e4da3",
+      "reference": "pz_concept:intervention:dc2952de-b829-5b31-a0b6-ffe6c49e4da3",
+      "reviewed_worsening": [],
+      "title": "Vitamin B6",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:005035d9-8c64-5020-b4e8-384688528b07",
+      "reference": "pz_concept:intervention:005035d9-8c64-5020-b4e8-384688528b07",
+      "reviewed_worsening": [],
+      "title": "Vitamin B9",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:deae119a-83b0-5753-a4f6-61b2d62d35ae",
+      "reference": "pz_concept:intervention:deae119a-83b0-5753-a4f6-61b2d62d35ae",
+      "reviewed_worsening": [],
+      "title": "Vitamin C",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:aa0d654f-3fdb-5e1e-8e3c-0c3c459edf79",
+      "reference": "pz_concept:intervention:aa0d654f-3fdb-5e1e-8e3c-0c3c459edf79",
+      "reviewed_worsening": [],
+      "title": "Vitamin D",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:9744789e-f893-564e-99c4-cb78867ae958",
+      "reference": "pz_concept:intervention:9744789e-f893-564e-99c4-cb78867ae958",
+      "reviewed_worsening": [],
+      "title": "Vitamin D3/K2",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:53ac2aec-5bac-58ff-bbc8-4265bdd71b97",
+      "reference": "pz_concept:intervention:53ac2aec-5bac-58ff-bbc8-4265bdd71b97",
+      "reviewed_worsening": [],
+      "title": "Vitamin E",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:d00fa683-c348-50ce-bf67-c7395334b6e6",
+      "reference": "pz_concept:intervention:d00fa683-c348-50ce-bf67-c7395334b6e6",
+      "reviewed_worsening": [],
+      "title": "Vitamin K",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "Guided relaxation practice documented as yoga nidra.",
+      "intervention_id": "intervention:829c617c-31b4-5b4f-96f8-9cf289c12019",
+      "reference": "pz_catalog_disposition:intervention:829c617c-31b4-5b4f-96f8-9cf289c12019",
+      "reviewed_worsening": [],
+      "title": "Yoga nidra",
+      "treatment_type": "non_drug"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:8ab3457a-63be-5ff5-957d-6a9b1ebb0d23",
+      "reference": "pz_concept:intervention:8ab3457a-63be-5ff5-957d-6a9b1ebb0d23",
+      "reviewed_worsening": [],
+      "title": "Zinc",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:b30ce6bd-124f-5d6d-8010-251658565b77",
+      "reference": "pz_concept:intervention:b30ce6bd-124f-5d6d-8010-251658565b77",
+      "reviewed_worsening": [],
+      "title": "Zinc L-carnosine",
+      "treatment_type": "supplement"
+    },
+    {
+      "basis": "",
+      "intervention_id": "intervention:7ccec6a9-3af7-5cc6-bf94-1235af43da5d",
+      "reference": "pz_concept:intervention:7ccec6a9-3af7-5cc6-bf94-1235af43da5d",
+      "reviewed_worsening": [
+        {
+          "account": "Repeated nausea led to discontinuation.",
+          "association": "reported",
+          "chronology_key": "response:S1-F67011-1",
+          "claim_link_id": "claim:49c9bd8b-4992-5177-a574-1fedcfe26002",
+          "coexposures": [],
+          "course_id": "course:fa1a43d9-bed1-5ccc-ac87-87b58669ceda",
+          "event_date": null,
+          "intervention": "Zinc-containing minerals",
+          "intervention_id": "intervention:7ccec6a9-3af7-5cc6-bf94-1235af43da5d",
+          "patterns": [
+            {
+              "code": "recurrent",
+              "evidence": "archive_findings:S1-F67011-1"
+            },
+            {
+              "code": "outcome_unknown",
+              "evidence": "archive_findings:S1-F67011-1"
+            }
+          ],
+          "record_id": "S1-F67011-1",
+          "report_date": "2026-01-27",
+          "source_table": "archive_findings",
+          "treatment_actions": [
+            {
+              "code": "held",
+              "evidence": "archive_findings:S1-F67011-1"
+            }
+          ]
+        }
+      ],
+      "title": "Zinc-containing minerals",
+      "treatment_type": "supplement"
+    }
+  ],
+  "patterns": {
+    "dose_related": {
+      "code": "dose_related",
+      "dimension": "exposure",
+      "explanation": "The account specifically links worse symptoms to a higher dose.",
+      "label": "Worse at a higher dose"
+    },
+    "eased_after_stopping": {
+      "code": "eased_after_stopping",
+      "dimension": "outcome",
+      "explanation": "Symptoms became less intense after the patient stopped the intervention.",
+      "label": "Eased after stopping"
+    },
+    "eased_during_use": {
+      "code": "eased_during_use",
+      "dimension": "outcome",
+      "explanation": "Symptoms became less intense while the patient continued taking the intervention.",
+      "label": "Eased during continued use"
+    },
+    "outcome_unknown": {
+      "code": "outcome_unknown",
+      "dimension": "outcome",
+      "explanation": "The record describes worsening. Follow-up is missing or too unclear to tell whether symptoms returned to their previous level.",
+      "label": "Recovery unknown"
+    },
+    "permanent": {
+      "code": "permanent",
+      "dimension": "outcome",
+      "explanation": "The source explicitly describes a permanent decline from the earlier baseline.",
+      "label": "Reported permanent decline"
+    },
+    "persistent": {
+      "code": "persistent",
+      "dimension": "outcome",
+      "explanation": "Symptoms were still worse at the documented follow-up. Later recovery may be unknown.",
+      "label": "Persistent at follow-up"
+    },
+    "recurrent": {
+      "code": "recurrent",
+      "dimension": "exposure",
+      "explanation": "The patient described a similar worsening after more than one dose.",
+      "label": "Repeated with dosing"
+    },
+    "resolved_after_stopping": {
+      "code": "resolved_after_stopping",
+      "dimension": "outcome",
+      "explanation": "The reported symptom returned to its previous level after the patient stopped the intervention.",
+      "label": "Resolved after stopping"
+    },
+    "resolved_during_use": {
+      "code": "resolved_during_use",
+      "dimension": "outcome",
+      "explanation": "The reported symptom returned to its previous level while the patient continued taking the intervention.",
+      "label": "Resolved during continued use"
+    },
+    "single_dose": {
+      "code": "single_dose",
+      "dimension": "exposure",
+      "explanation": "The patient took one dose in this trial. Symptoms after that dose could be brief, prolonged or recurrent.",
+      "label": "One dose taken"
+    },
+    "single_episode": {
+      "code": "single_episode",
+      "dimension": "exposure",
+      "explanation": "This account describes one episode. Its duration and the number of doses taken are separate questions.",
+      "label": "One recorded episode"
+    },
+    "time_limited": {
+      "code": "time_limited",
+      "dimension": "outcome",
+      "explanation": "The report describes an episode that ended or gives its duration. The patient may have had other episodes.",
+      "label": "Episode ended"
+    },
+    "variable": {
+      "code": "variable",
+      "dimension": "exposure",
+      "explanation": "The patient described different responses on separate dosing occasions.",
+      "label": "Varied between doses"
+    }
+  },
+  "revision": "Revision 59",
+  "treatment_actions": {
+    "held": {
+      "code": "held",
+      "dimension": "action",
+      "explanation": "The record documents a skipped dose, a pause or discontinuation. Recovery is recorded separately.",
+      "label": "Dose held or treatment stopped"
+    }
+  },
+  "type_labels": {
+    "drug": "Drug",
+    "food_based": "Food-based treatment",
+    "non_drug": "Non-drug method",
+    "other": "Other or unclear preparation",
+    "peptide": "Peptide",
+    "supplement": "Supplement"
+  }
+}

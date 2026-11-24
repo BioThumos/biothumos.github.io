@@ -1,0 +1,14 @@
+{
+  "publication_mode": "public-aliased-preview",
+  "privacy_policy_version": 2,
+  "source_database_included": false,
+  "indexed_sensitive_activity_events_checked": 138,
+  "redacted_text_files": 1,
+  "audited_text_files": 2051,
+  "self_stimulation_sources_whole_line_redacted": 167,
+  "alias_counts_by_category": {
+    "legacy_activity_labels": 0,
+    "anatomical_detail": 0
+  },
+  "requires_human_privacy_review": true
+}

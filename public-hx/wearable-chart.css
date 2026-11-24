@@ -1,0 +1,58 @@
+.wear-chart{--wear-core:#a6b7d8;--wear-deep:#5279b9;--wear-rem:#65af9a;--wear-other:#8b9296;--wear-hr:#79c9ba;--wear-rest:#d3b184;--wear-single:#a0a9e6}
+.wear-chart{padding:clamp(.8rem,2vw,1.3rem)}
+.wear-toolbar,.wear-period,.wear-nav,.wear-jump,.wear-detail,.wear-legend{display:flex;align-items:center;flex-wrap:wrap;gap:.5rem}
+.wear-toolbar{justify-content:space-between;gap:.6rem;margin:.5rem 0 .9rem}
+.wear-period{gap:0;border:1px solid var(--line);border-radius:6px;overflow:hidden}
+.wear-period button{border:0;border-radius:0;cursor:pointer}
+.wear-period button[aria-pressed=true]{background:var(--button-fill);color:var(--button-text);font-weight:700}
+.wear-range{font-size:.8rem;color:var(--muted)}
+.wear-plot-card{margin:1.45rem 0 1.8rem;border-top:1px solid var(--line);padding-top:.8rem}
+.wear-plot-card>h3{font-size:1.04rem;margin:.1rem 0 .4rem}
+.wear-plot-card .wear-plot-note{font-size:.8rem;color:var(--muted);margin:.3rem 0}
+.wear-scroll{max-width:100%;overflow-x:auto;overflow-y:hidden;border:1px solid var(--line);border-radius:5px;
+  overscroll-behavior-inline:contain;-webkit-overflow-scrolling:touch;touch-action:pan-x pan-y;
+  scrollbar-width:thin;scrollbar-color:var(--muted) transparent;scroll-padding-inline:4rem}
+.wear-chart-plot{min-height:255px;width:max-content}
+.wear-chart-plot svg,.wear-intraday-plot svg{display:block;max-width:none}
+.wear-chart-plot text,.wear-intraday-plot text{font:11px var(--font);fill:var(--muted)}
+.wear-grid{stroke:var(--line);stroke-width:1}
+.wear-stage-core{fill:var(--wear-core);background:var(--wear-core)}
+.wear-stage-deep{fill:var(--wear-deep);background:var(--wear-deep)}
+.wear-stage-rem{fill:var(--wear-rem);background:var(--wear-rem)}
+.wear-stage-other{fill:var(--wear-other);background:var(--wear-other)}
+.wear-heart{stroke:var(--wear-hr);fill:var(--wear-hr);background:var(--wear-hr)}
+.wear-rest{stroke:var(--wear-rest);fill:var(--wear-rest);background:var(--wear-rest)}
+.wear-single{stroke:var(--wear-single);fill:var(--wear-single);background:var(--wear-single)}
+.wear-line{stroke-width:2;fill:none}
+.wear-chart-plot g[data-point]{cursor:pointer}
+.wear-chart-plot .wear-click-area{fill:transparent;stroke:transparent}
+.wear-chart-plot g[data-point]:hover .wear-click-area,.wear-chart-plot g[data-point]:focus-visible .wear-click-area{stroke:var(--focus);stroke-width:1.5}
+.wear-chart-plot g[data-point].wear-selected{filter:brightness(1.13)}
+.wear-legend{font-size:.78rem;color:var(--muted);gap:.35rem .9rem;margin:.4rem 0}
+.wear-legend>span{display:inline-flex;align-items:center;gap:.3rem}
+.wear-legend i{width:.72rem;height:.72rem;display:inline-block;border:1px solid #8886;border-radius:2px}
+.wear-detail{min-height:2.4rem;gap:.4rem 1rem;padding:.55rem 0;font-size:.83rem;border-bottom:1px solid var(--line)}
+.wear-detail span{color:var(--muted)}
+.wear-jump{margin:.3rem 0}
+.wear-method{font-size:.84rem;color:var(--muted);line-height:1.5}
+.wear-intraday-scroll{margin-top:.5rem}
+.wear-sample-point{cursor:crosshair;stroke-width:0;fill-opacity:.78}
+.wear-sample-point:hover,.wear-sample-point:focus-visible{stroke:var(--ink);stroke-width:1.5}
+.wear-nav button,.wear-jump button{cursor:pointer}
+@media(max-width:650px){.wear-toolbar{align-items:flex-start}.wear-plot-card{margin:1rem 0 1.35rem}.wear-period button{padding:.3rem .38rem}.wear-scroll{scrollbar-width:auto}}
+
+/* The aggregation selector remains accessible while scrolling through all plots. */
+.wear-chart .wear-toolbar{position:sticky;top:0;z-index:12;background:var(--paper);
+  border:1px solid var(--line);border-radius:6px;padding:.4rem .55rem;margin:.3rem 0 .65rem;
+  box-shadow:0 .2rem .45rem #0002}
+.wear-chart .wear-plot-card{scroll-margin-top:6rem}
+#wear-intraday-timetable{font-size:.82rem}
+@media(max-width:650px){.wear-chart .wear-toolbar{padding:.28rem .35rem;gap:.25rem;box-shadow:0 .13rem .35rem #0003}}
+
+.wear-alert-interval{fill:#e49f4a;fill-opacity:.23;stroke:#c67c24;stroke-width:1}
+.wear-alerts{border-top:1px solid var(--line);margin-top:1rem;padding-top:.7rem;font-size:.83rem}
+.wear-alerts h4{font-size:.9rem;margin:.2rem 0}
+.wear-alerts p{max-width:75ch;margin:.25rem 0;color:var(--muted)}
+.wear-alerts ul{display:flex;flex-wrap:wrap;gap:.25rem 1.2rem;padding-left:1.2rem}
+
+.wear-chart-plot svg .wear-value-label{fill:var(--ink);font-size:11px;font-weight:750;paint-order:stroke;stroke:var(--paper);stroke-width:2px;pointer-events:none}

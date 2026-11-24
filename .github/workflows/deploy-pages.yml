@@ -36,6 +36,12 @@ jobs:
       - name: Build site
         run: npx quartz build
 
+      - name: Verify reviewed public clinical site
+        run: test -f public-hx/PUBLIC_BUILD_MANIFEST.json && test -f public-hx/index.html
+
+      - name: Install clinical site under /hx/
+        run: bash scripts/install_quartz_hx.sh public-hx public
+
       - uses: actions/upload-pages-artifact@v3
         with:
           path: public

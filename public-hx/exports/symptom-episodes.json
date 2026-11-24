@@ -1,0 +1,315 @@
+{
+  "groups": [
+    {
+      "attribution_limit": "Retrospective patient and practitioner accounts; magnesium, disease fluctuation and exertion were also discussed. Timing does not prove NADH caused each symptom.",
+      "date_end": "2024-10-30",
+      "date_start": "2024-10-20",
+      "display_order": 1,
+      "group_id": "nadh-oct-2024",
+      "members": [
+        {
+          "group_id": "nadh-oct-2024",
+          "note": "A broader persistent post-exertional pattern was reported after the October decline. Earlier neurological exertional episodes predate NADH.",
+          "relationship": "persistent_pattern_reported",
+          "relationship_label": "Persistent pattern reported",
+          "source_ref": "context_cards:CTX-007; baseline_states:BL-S5-PRE-NADH",
+          "symptom_id": "symptom:d5710799-23f3-5a35-bd32-289763af0b59",
+          "symptom_title": "PEM / PEM-like state"
+        },
+        {
+          "group_id": "nadh-oct-2024",
+          "note": "Severe crashes existed in other forms earlier; the sustained lower threshold was reported after this period.",
+          "relationship": "persistent_pattern_reported",
+          "relationship_label": "Persistent pattern reported",
+          "source_ref": "pz_symptom_course_event:R20:crash:pattern_onset; context_cards:CTX-007",
+          "symptom_id": "symptom:bbec37b1-1b89-58f4-aaf2-214943a25d60",
+          "symptom_title": "Crash"
+        },
+        {
+          "group_id": "nadh-oct-2024",
+          "note": "Brain fatigue is part of the post-NADH PEM presentation. Its indexed descriptions include earlier fatigue/brain shutdown and later sleep-pressure crashes; this grouping does not assert first onset in October 2024 or establish NADH as the cause.",
+          "relationship": "persistent_pattern_reported",
+          "relationship_label": "Persistent pattern reported",
+          "source_ref": "diary_logs:S1-L15216; diary_fields:S1-L35409-FL2; diary_fields:S2-L00727-FL2; context_cards:CTX-007",
+          "symptom_id": "symptom:e9af0b77-fd32-5442-9d9c-6aa92d207d74",
+          "symptom_title": "Brain fatigue"
+        },
+        {
+          "group_id": "nadh-oct-2024",
+          "note": "First documented October 23. Unlike earlier limitations during brain burning, the later account describes muscle fatigue even without burning.",
+          "relationship": "new_pattern_reported",
+          "relationship_label": "New pattern reported",
+          "source_ref": "baseline_states:BL-07; context_cards:CTX-007",
+          "symptom_id": "symptom:09f7618a-821c-53c4-88ce-6f98964e72f2",
+          "symptom_title": "Paralysis (patient-described, after NADH)"
+        },
+        {
+          "group_id": "nadh-oct-2024",
+          "note": "Episodes of pathological sleep pressure were reported as part of the subsequent PEM presentation.",
+          "relationship": "persistent_pattern_reported",
+          "relationship_label": "Persistent pattern reported",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW; context_cards:CTX-007",
+          "symptom_id": "symptom:cd78cdf7-fe2c-5f54-afb6-13d8c889fe7f",
+          "symptom_title": "Sleep pressure"
+        },
+        {
+          "group_id": "nadh-oct-2024",
+          "note": "The practitioner places the ongoing episodic phenotype after these courses; earlier exertional worsening is documented.",
+          "relationship": "persistent_pattern_reported",
+          "relationship_label": "Persistent pattern reported",
+          "source_ref": "context_cards:CTX-007",
+          "symptom_id": "symptom:149a6bc9-5266-5996-b9a1-7b96de805ca5",
+          "symptom_title": "Feeling crashy"
+        },
+        {
+          "group_id": "nadh-oct-2024",
+          "note": "Later low-grade tingling and exertional flares were associated with the post-NADH symptom pattern.",
+          "relationship": "persistent_pattern_reported",
+          "relationship_label": "Persistent pattern reported",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW; context_cards:CTX-007",
+          "symptom_id": "symptom:50b80b74-96b8-527c-88cb-642962324051",
+          "symptom_title": "Deep internal tingling / pulsing"
+        },
+        {
+          "group_id": "nadh-oct-2024",
+          "note": "The practitioner recalls development with some delay; the onset interval is unknown.",
+          "relationship": "delayed_change_suspected",
+          "relationship_label": "Possible delayed onset",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW; context_cards:CTX-007",
+          "symptom_id": "symptom:c5ba84c7-ddcd-563b-8aa8-e95a3bffeee6",
+          "symptom_title": "Nape clenching / pressure"
+        },
+        {
+          "group_id": "nadh-oct-2024",
+          "note": "The patient described marked sound intolerance after the October decline.",
+          "relationship": "persistent_pattern_reported",
+          "relationship_label": "Persistent pattern reported",
+          "source_ref": "pz_symptom_course_event:R20:noise_sensitivity:pattern_onset; context_cards:CTX-007",
+          "symptom_id": "symptom:fcc1206c-92bb-5360-a7ee-bc925ec48a5d",
+          "symptom_title": "Sound intolerance"
+        },
+        {
+          "group_id": "nadh-oct-2024",
+          "note": "The patient described marked persistent light intolerance after the October decline.",
+          "relationship": "persistent_pattern_reported",
+          "relationship_label": "Persistent pattern reported",
+          "source_ref": "pz_symptom_course_event:R20:light_sensitivity:pattern_onset; context_cards:CTX-007",
+          "symptom_id": "symptom:85bb1a5d-2676-5826-b0b4-9e8f578eaae2",
+          "symptom_title": "Light intolerance"
+        },
+        {
+          "group_id": "nadh-oct-2024",
+          "note": "The practitioner dates the broader intolerance pattern to after the October decline; this is not a claim that each subsequent medicine caused a new syndrome.",
+          "relationship": "persistent_pattern_reported",
+          "relationship_label": "Persistent pattern reported",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW; context_cards:CTX-007",
+          "symptom_id": "symptom:4bf23004-267f-52a1-b73e-2d5ecb2e4fce",
+          "symptom_title": "Medication intolerance"
+        }
+      ],
+      "source_ref": "context_cards:CTX-007; baseline_states:BL-07; baseline_states:BL-S5-POST-NADH",
+      "summary": "Following the October 2024 NADH period, the patient described a change in the prominence and threshold of exertional symptoms, brain fatigue, severe crashes and sensory intolerances. Some neurological and exertional symptoms predated NADH; chronology alone does not establish causality.",
+      "title": "Following NADH · October 2024",
+      "trigger_concept_id": "intervention:4863b7ca-16f3-5128-9034-cac865754888",
+      "trigger_title": "NC NADH-containing formulation (composition unverified)",
+      "triggers": [
+        {
+          "first_documented_date": "2024-10-20",
+          "group_id": "nadh-oct-2024",
+          "interpretation": "Reported October courses and subsequent sustained change; magnesium and natural fluctuation remain possible confounders.",
+          "intervention_id": "intervention:4863b7ca-16f3-5128-9034-cac865754888",
+          "intervention_title": "NC NADH-containing formulation (composition unverified)",
+          "role": "primary_exposure",
+          "source_ref": "context_cards:CTX-007"
+        }
+      ]
+    },
+    {
+      "attribution_limit": "Rapamycin was not given repeatedly. Ensitrelvir began July 1, after the June neurological changes; green stool began July 2–6. Later diarrhea overlapped SuperHMO and Gou teng. These dates do not isolate any causal contributor.",
+      "date_end": "2025-07-18",
+      "date_start": "2025-06-21",
+      "display_order": 2,
+      "group_id": "rapamycin-jun-2025",
+      "members": [
+        {
+          "group_id": "rapamycin-jun-2025",
+          "note": "Burning returned after an approximately six-month relative lull; the patient suspected a connection.",
+          "relationship": "recurrence_reported",
+          "relationship_label": "Recurrence reported",
+          "source_ref": "historical_entries:S3:chronology:665; context_cards:CTX-014",
+          "symptom_id": "symptom:227a05a7-02e4-54ee-b742-71d823a9ccdb",
+          "symptom_title": "Brain burning"
+        },
+        {
+          "group_id": "rapamycin-jun-2025",
+          "note": "CNS and upper-body fatigue attacks became prominent around the single-dose trial and recurred subsequently.",
+          "relationship": "onset_suspected",
+          "relationship_label": "Possible onset after the episode",
+          "source_ref": "pz_symptom_course_event:R20:history:cns_fatigue:onset:S3:treatment_response:212; context_cards:CTX-014",
+          "symptom_id": "symptom:e9af0b77-fd32-5442-9d9c-6aa92d207d74",
+          "symptom_title": "Brain fatigue"
+        },
+        {
+          "group_id": "rapamycin-jun-2025",
+          "note": "The patient described unusually severe recurrent crashes in the following approximately ten days; prior crashes existed.",
+          "relationship": "acute_worsening_reported",
+          "relationship_label": "Acute worsening reported",
+          "source_ref": "context_cards:CTX-014",
+          "symptom_id": "symptom:bbec37b1-1b89-58f4-aaf2-214943a25d60",
+          "symptom_title": "Crash"
+        },
+        {
+          "group_id": "rapamycin-jun-2025",
+          "note": "Loose/diarrheal stools and worsening green diarrhea recurred later in July. More severe gastrointestinal changes overlapped SuperHMO and Gou teng; bowel instability was already present. This is a clinical sequence, not evidence that the June rapamycin dose caused diarrhea.",
+          "relationship": "possible_member",
+          "relationship_label": "Uncertain membership",
+          "source_ref": "historical_entries:S3:chronology:675; intervention_events:S2-L00645-E1; intervention_events:S3:T:675:2",
+          "symptom_id": "symptom:901b1855-444e-5edf-b6f5-3403c8f4f5a0",
+          "symptom_title": "Diarrhea"
+        },
+        {
+          "group_id": "rapamycin-jun-2025",
+          "note": "New green coloration recorded July 2–6, 2025, the day after ensitrelvir began and about eleven days after the June 21 single rapamycin dose. It was not documented as starting during the original rapamycin-associated crash. Causation cannot be assigned to one treatment.",
+          "relationship": "possible_member",
+          "relationship_label": "Uncertain membership",
+          "source_ref": "historical_entries:S3:chronology:671; intervention_events:S3:T:670:1; intervention_events:S2-L00260-E2",
+          "symptom_id": "symptom:93557d60-fe18-5369-af7b-8be48854f87e",
+          "symptom_title": "Green stool"
+        },
+        {
+          "group_id": "rapamycin-jun-2025",
+          "note": "Brain pressure returned during this period, with prior history and other explanations.",
+          "relationship": "recurrence_reported",
+          "relationship_label": "Recurrence reported",
+          "source_ref": "historical_entries:S3:chronology:665; context_cards:CTX-014",
+          "symptom_id": "symptom:f0c17843-c40a-5297-8253-f8dd864d7fb7",
+          "symptom_title": "Helmet sensation / intracranial pressure"
+        },
+        {
+          "group_id": "rapamycin-jun-2025",
+          "note": "New upper quadrant pain appears after the June rapamycin event and within the July course sequence (ensitrelvir, enterosorbents, SLU-PP-332). Specific causal contribution unestablished.",
+          "relationship": "delayed_change_suspected",
+          "relationship_label": "Possible delayed onset",
+          "source_ref": "S3:chronology:679;S2-L00807-E1",
+          "symptom_id": "symptom:061022e0-eaf6-5d48-97b6-a61386a380fe",
+          "symptom_title": "Upper abdominal pain or cramps (RUQ/LUQ)"
+        }
+      ],
+      "source_ref": "context_cards:CTX-014; historical_entries:S3:chronology:665; historical_entries:S3:chronology:671; historical_entries:S3:chronology:675",
+      "summary": "Severe recurrent CNS/upper-body crashes followed a single rapamycin dose on June 21. The subsequent July treatment sequence also includes newly green stool and episodes of diarrhea. These gastrointestinal manifestations were reported later, after ensitrelvir started and around additional gut-directed products.",
+      "title": "Rapamycin and subsequent treatments · June–July 2025",
+      "trigger_concept_id": "intervention:d2791758-1a3d-5f28-b23b-b5ef705c0252",
+      "trigger_title": "Rapamycin",
+      "triggers": [
+        {
+          "first_documented_date": "2025-06-21",
+          "group_id": "rapamycin-jun-2025",
+          "interpretation": "One 0.5 mg dose preceded acute crashes and CNS/upper-body fatigue; causality is a patient suspicion.",
+          "intervention_id": "intervention:d2791758-1a3d-5f28-b23b-b5ef705c0252",
+          "intervention_title": "Rapamycin",
+          "role": "primary_exposure",
+          "source_ref": "intervention_events:S2-L00260-E2; context_cards:CTX-014"
+        },
+        {
+          "first_documented_date": "2025-07-01",
+          "group_id": "rapamycin-jun-2025",
+          "interpretation": "Started ten days AFTER the rapamycin dose and after the acute CNS-fatigue onset; green stool first appeared July 2–6. Cannot explain the original June 21 crash.",
+          "intervention_id": "intervention:b7531a5b-ba5a-55e9-8a0f-9efc39f7119e",
+          "intervention_title": "Ensitrelvir",
+          "role": "subsequent_exposure",
+          "source_ref": "intervention_events:S3:T:670:1; historical_entries:S3:chronology:671"
+        },
+        {
+          "first_documented_date": "2025-07-13",
+          "group_id": "rapamycin-jun-2025",
+          "interpretation": "Later exposure during recurrent green/loose stool; exact first-day use and contribution are uncertain.",
+          "intervention_id": "intervention:10f09ca1-d141-5157-8f90-6a3b02ee7bb3",
+          "intervention_title": "SuperHMO",
+          "role": "subsequent_exposure",
+          "source_ref": "historical_entries:S3:chronology:675; intervention_events:S3:T:675:2"
+        },
+        {
+          "first_documented_date": "2025-07-15",
+          "group_id": "rapamycin-jun-2025",
+          "interpretation": "Started during later July gastrointestinal deterioration; independent effects cannot be separated from SuperHMO and prior symptoms.",
+          "intervention_id": "intervention:f46ccb39-8460-5396-81a9-e72c2e3198b4",
+          "intervention_title": "Gou teng",
+          "role": "subsequent_exposure",
+          "source_ref": "intervention_events:S2-L00645-E1; historical_entries:S3:chronology:675"
+        }
+      ]
+    },
+    {
+      "attribution_limit": "Neither treatment is a confirmed cause. The spore probiotic began November 18 and was restarted November 26; bezisterim was taken December 1. Wrist-specific onset is retrospective; an earlier nape-fatigue episode is documented.",
+      "date_end": "2025-12-19",
+      "date_start": "2025-11-18",
+      "display_order": 3,
+      "group_id": "bezisterim-dec-2025",
+      "members": [
+        {
+          "group_id": "bezisterim-dec-2025",
+          "note": "Brain fatigue was already reported before these treatments. In December 2025 the patient began describing a new heavy, later lactate-like brain sensation within the existing Brain fatigue pattern. This wording does not establish measured lactate or attribute the change to either exposure.",
+          "relationship": "preexisting_worsened",
+          "relationship_label": "Pre-existing symptom; possibly worsened",
+          "source_ref": "diary_observations:S2-OBS-3597; diary_observations:S2-OBS-4362; diary_observations:S2-OBS-4374; context_cards:CTX-017; baseline_states:BL-22",
+          "symptom_id": "symptom:e9af0b77-fd32-5442-9d9c-6aa92d207d74",
+          "symptom_title": "Brain fatigue"
+        },
+        {
+          "group_id": "bezisterim-dec-2025",
+          "note": "A nape/forearm fatigue episode was recorded February 5, 2025, well before both late-2025 treatments. In November–December the patient reported a more disabling or different recurrent nape pattern alongside wrist symptoms. This is a pattern worsening, not the first onset of nape fatigue.",
+          "relationship": "preexisting_worsened",
+          "relationship_label": "Pre-existing symptom; possibly worsened",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW; baseline_states:BL-22; archive_messages:S1-M69556",
+          "symptom_id": "symptom:3f12ab1d-4fe1-5fb0-a9e3-661b126990ca",
+          "symptom_title": "Nape fatigue"
+        },
+        {
+          "group_id": "bezisterim-dec-2025",
+          "note": "Wrist-specific fatigue was retrospectively dated to the November–December period. No comparable earlier wrist report was established. The spore-probiotic course preceded and overlapped the December 1 bezisterim dose; attribution is unresolved.",
+          "relationship": "onset_suspected",
+          "relationship_label": "Possible onset after the episode",
+          "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW; context_cards:CTX-017; archive_messages:S1-M69556",
+          "symptom_id": "symptom:ed31a629-6baf-539a-8fb5-51aa5b55aff1",
+          "symptom_title": "Wrist fatigue"
+        },
+        {
+          "group_id": "bezisterim-dec-2025",
+          "note": "The patient reported more noticeable sensations around or behind the eyes, alongside pre-existing facial/sinus pressure. This is a change in the existing pressure/sensation pattern, not proof of a new separate symptom or of causation by either treatment.",
+          "relationship": "possible_member",
+          "relationship_label": "Uncertain membership",
+          "source_ref": "diary_observations:S2-OBS-4572; diary_observations:S2-OBS-4748; baseline_states:BL-22; context_cards:CTX-017",
+          "symptom_id": "symptom:1d04fe0d-d290-561a-97ce-5ca208a86176",
+          "symptom_title": "Facial or sinus pressure"
+        }
+      ],
+      "source_ref": "context_cards:CTX-017; baseline_states:BL-22; archive_messages:S1-M16763; intervention_events:S2-L03457-E1; intervention_events:S2-L03554-E1",
+      "summary": "In the period encompassing the spore-probiotic trial and the December 1 bezisterim dose, the patient reported a new lactate-like quality of existing brain fatigue, a more prominent nape-fatigue presentation and wrist-specific fatigue. Facial/sinus pressure with behind-eye sensations was also described. The exposures overlapped and cannot be distinguished as the cause from these records.",
+      "title": "Bezisterim and spore probiotic · November–December 2025",
+      "trigger_concept_id": "intervention:ee824179-20cd-5023-98b9-9ca860592f79",
+      "trigger_title": "Bezisterim",
+      "triggers": [
+        {
+          "first_documented_date": "2025-11-18",
+          "group_id": "bezisterim-dec-2025",
+          "interpretation": "Started November 18 and was restarted November 26, before the December 1 bezisterim dose; symptoms and impaired function overlapped; causal attribution unresolved.",
+          "intervention_id": "intervention:8c44127d-11fb-5024-8f14-bb5c20b3def5",
+          "intervention_title": "Spore probiotic",
+          "role": "overlapping_exposure",
+          "source_ref": "intervention_events:S2-L03320-E1; intervention_events:S2-L03457-E1; context_cards:CTX-017"
+        },
+        {
+          "first_documented_date": "2025-12-01",
+          "group_id": "bezisterim-dec-2025",
+          "interpretation": "Single documented 10 mg dose December 1; overlapping spore-probiotic exposure prevents unique attribution of the later decline.",
+          "intervention_id": "intervention:ee824179-20cd-5023-98b9-9ca860592f79",
+          "intervention_title": "Bezisterim",
+          "role": "primary_exposure",
+          "source_ref": "intervention_events:S2-L03554-E1; context_cards:CTX-017"
+        }
+      ]
+    }
+  ],
+  "interpretation": "A symptom listed after an exposure is not necessarily caused by it. Each classification describes a patient or practitioner account, with uncertainty preserved.",
+  "revision": "Revision 59"
+}

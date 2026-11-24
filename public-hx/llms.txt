@@ -1,0 +1,37 @@
+# Clinical record
+
+Snapshot Revision 65. Last diary entry 2026-11-16.
+
+For a first visit, start with the patient summary. For a specific question, read the relevant dated week or course dossier and retain the source IDs when citing observations.
+
+- [Patient summary](exports/patient-summary.md) — Short introduction with dated evidence.
+- [Clinical overview](exports/clinical-overview.md) — Selected milestones with source references.
+- [Full chronology](exports/full-chronology.md) — Treatment actions, baseline changes, tests and other dated events.
+- [Latest diary week](weeks/2026-11-16.md) — Includes the last diary entry on 2026-11-16. For another date use the Monday of its week in the filename.
+- [Calendar intervals](exports/timetable-spans.json) — Timed spans with recorded or inferred boundaries and links to the underlying records.
+- [Current stack](exports/current-stack.json) — Reported doses, schedules and the date of the review.
+- [Recent diet](exports/current-diet.json) — Meals documented in the 30 calendar days ending at the latest diary date, with dated sources.
+- [Bowel frequency](exports/bowel-frequency.json) — Recorded movements, days with coverage and rate denominators.
+- [Symptom patterns and sensory descriptions](symptom-patterns.html) — Recurring PEM presentations and subjective sensations, organized by symptoms, locations and dates.
+- [Symptom quality links · structured](exports/symptom-qualifiers.json) — Stable source occurrence IDs, region, sensory quality, review confidence and compatible identity links.
+- [PEM subtype and PENE historical-cluster evidence](exports/symptom-phenotypes.json) — Preserves retrospective reports without inventing dated crashes.
+- [PEM-like state and phases](pem-patterns.html) — Patient-described warning, malaise, poisoned quality, severe crashes and independent sensory markers.
+- [PEM-like state · structured](exports/pem-state-markers.json) — Source-linked state-phase/quality markers, no inferred transitions or causality.
+- [PEM state reading guide](exports/pem-state-notes.md) — Compact phase/quality definitions with supporting source records.
+- [Symptom histories](exports/symptom-priorities.json) — Onset, recovery, current status, occurrence pattern, triggers, functional impact and supporting evidence.
+- [Reviewed symptom episode groups](exports/symptom-episodes.md) — Source-linked patterns following NADH, overlapping bezisterim and probiotic trials, and rapamycin; timing is not proof of causation.
+- [Symptom episode groups · structured](exports/symptom-episodes.json) — Stable symptom and intervention IDs, relationship labels, and supporting records.
+- [Editable symptom list](exports/symptom-list.md) — One bullet per current identity, with occurrence and dates.
+- [Symptom review answers](exports/symptom-review.md) — Dated diary examples, distinctions and decisions from the annotated symptom review.
+- [Treatment types and adverse responses](exports/treatment-responses.json) — Reviewed worsening, source and attribution for each intervention.
+- [Daily scores](exports/daily-scores.json) — Dated patient ratings.
+- [Laboratory results](exports/biomarkers.json) — Biomarker identities, individual results and available sample details.
+- [Symptoms](symptoms.html) — Patient descriptions and links to dated occurrences.
+- [Interventions](interventions.html) — Products, course histories and reported effects. Each course has a Markdown dossier.
+- [October 2024 NADH episode](courses/44b32159-76c8-55fe-ac48-80f6c4554167.json) — Course-specific evidence before, during and after the recorded administrations.
+
+All paths are relative to this file. For a private or offline copy, upload the relevant Markdown or JSON files to the recipient’s chosen tool.
+
+When accounts disagree on dates, consult the reconciliation and reviewed course. Original accounts are retained alongside the corrections.
+
+Reported effects and temporal associations retain their original attribution. A missing observation does not establish that a symptom was absent. Estimated meal lengths and symptom endpoints mark timetable conventions. They do not establish when eating finished or symptoms resolved.

@@ -1,0 +1,908 @@
+{
+  "as_of": "2026-11-16",
+  "basis": "Meal records in the 30 calendar days ending on the latest diary date.",
+  "items": [
+    {
+      "evidence": [
+        {
+          "clock": "16:45",
+          "date": "2026-11-16",
+          "page": "weeks/2026-11-16.html#entry-07997a0d0795f9a149a150",
+          "record_key": "diary_observations:S2-OBS-9102",
+          "role_basis": "diary meal label",
+          "wording": "16.45 eat lunch"
+        },
+        {
+          "clock": "20:30",
+          "date": "2026-11-15",
+          "page": "weeks/2026-11-09.html#entry-03b82125299a77ec6a594b",
+          "record_key": "diary_observations:S2-OBS-9095",
+          "role_basis": "diary meal label",
+          "wording": "20.30 eat lunch"
+        },
+        {
+          "clock": "14:15",
+          "date": "2026-11-15",
+          "page": "weeks/2026-11-09.html#entry-80b3e782472e0af922cdf9",
+          "record_key": "diary_observations:S2-OBS-9093",
+          "role_basis": "diary meal label",
+          "wording": "14.15 eat lunch"
+        },
+        {
+          "clock": "21:30",
+          "date": "2026-11-14",
+          "page": "weeks/2026-11-09.html#entry-6e531b64f97badc0137cec",
+          "record_key": "diary_observations:S2-OBS-9082",
+          "role_basis": "diary meal label",
+          "wording": "21:30 eat lunch"
+        },
+        {
+          "clock": "15:00",
+          "date": "2026-11-14",
+          "page": "weeks/2026-11-09.html#entry-4a3a371efdfeb34e116045",
+          "record_key": "diary_observations:S2-OBS-9079",
+          "role_basis": "diary meal label",
+          "wording": "15 eat lunch"
+        },
+        {
+          "clock": "21:00",
+          "date": "2026-11-13",
+          "page": "weeks/2026-11-09.html#entry-0156b188e63e4f101eacec",
+          "record_key": "diary_observations:S2-OBS-9065",
+          "role_basis": "diary meal label",
+          "wording": "21 eat lunch"
+        },
+        {
+          "clock": "15:30",
+          "date": "2026-11-13",
+          "page": "weeks/2026-11-09.html#entry-fbfdc534cfe75971968683",
+          "record_key": "diary_observations:S2-OBS-9061",
+          "role_basis": "diary meal label",
+          "wording": "15.30 eat lunch"
+        },
+        {
+          "clock": "22:00",
+          "date": "2026-11-12",
+          "page": "weeks/2026-11-09.html#entry-bf1aadcc0d6d2fb1f60e44",
+          "record_key": "diary_observations:S2-OBS-9051",
+          "role_basis": "diary meal label",
+          "wording": "22 eat lunch"
+        },
+        {
+          "clock": "14:55",
+          "date": "2026-11-12",
+          "page": "weeks/2026-11-09.html#entry-4291f722d3d16a5fee91f0",
+          "record_key": "diary_observations:S2-OBS-9049",
+          "role_basis": "diary meal label",
+          "wording": "14.55 eat duck leg + smaller portion of usual lunch"
+        },
+        {
+          "clock": "14:45",
+          "date": "2026-11-11",
+          "page": "weeks/2026-11-09.html#entry-f6b96fea100f6aa7e512db",
+          "record_key": "diary_observations:S2-OBS-9037",
+          "role_basis": "diary meal label",
+          "wording": "14.45 eat lunch + duck leg + baked apple"
+        },
+        {
+          "clock": "20:00",
+          "date": "2026-11-10",
+          "page": "weeks/2026-11-09.html#entry-1ced533cd061ba943fd7ca",
+          "record_key": "diary_observations:S2-OBS-9029",
+          "role_basis": "diary meal label",
+          "wording": "20 eat lunch (gummies with cooked quince juice); mild relief from symptoms but not complete as usual, so today’s pem is unusually strong"
+        },
+        {
+          "clock": "21:15",
+          "date": "2026-11-09",
+          "page": "weeks/2026-11-09.html#entry-c860e0828c3faeca4d281e",
+          "record_key": "diary_observations:S2-OBS-9017",
+          "role_basis": "diary meal label",
+          "wording": "21.15 eat lunch"
+        },
+        {
+          "clock": "15:30",
+          "date": "2026-11-09",
+          "page": "weeks/2026-11-09.html#entry-29f7a3622beba04942752b",
+          "record_key": "diary_observations:S2-OBS-9015",
+          "role_basis": "diary meal label",
+          "wording": "15.30 lunch without gummies"
+        },
+        {
+          "clock": "23:15",
+          "date": "2026-11-08",
+          "page": "weeks/2026-11-02.html#entry-c8a416021d398f5316eeb3",
+          "record_key": "diary_observations:S2-OBS-9008",
+          "role_basis": "diary meal label",
+          "wording": "23.15 eat lunch"
+        },
+        {
+          "clock": "18:00",
+          "date": "2026-11-08",
+          "page": "weeks/2026-11-02.html#entry-6b83222d51c5b7a65fa891",
+          "record_key": "diary_observations:S2-OBS-9004",
+          "role_basis": "diary meal label",
+          "wording": "18 eat lunch"
+        },
+        {
+          "clock": "23:30",
+          "date": "2026-11-07",
+          "page": "weeks/2026-11-02.html#entry-3a1b3e88a3d94361300a9a",
+          "record_key": "diary_observations:S2-OBS-8995",
+          "role_basis": "diary meal label",
+          "wording": "23.30 eat lunch"
+        },
+        {
+          "clock": "17:30",
+          "date": "2026-11-07",
+          "page": "weeks/2026-11-02.html#entry-bebcbd3b9eb39a03e7376f",
+          "record_key": "diary_observations:S2-OBS-8994",
+          "role_basis": "diary meal label",
+          "wording": "17.30 eat lunch"
+        },
+        {
+          "clock": "00:00",
+          "date": "2026-11-07",
+          "page": "weeks/2026-11-02.html#entry-753c3b9ec46dc52e33545e",
+          "record_key": "diary_observations:S2-OBS-8988",
+          "role_basis": "diary meal label",
+          "wording": "0 eat lunch"
+        },
+        {
+          "clock": "17:45",
+          "date": "2026-11-06",
+          "page": "weeks/2026-11-02.html#entry-1bb54b761a88d75b02a61a",
+          "record_key": "diary_observations:S2-OBS-8982",
+          "role_basis": "diary meal label",
+          "wording": "17.45 eat lunch"
+        },
+        {
+          "clock": "23:30",
+          "date": "2026-11-05",
+          "page": "weeks/2026-11-02.html#entry-16b34bfda9379699e7d391",
+          "record_key": "diary_observations:S2-OBS-8971",
+          "role_basis": "diary meal label",
+          "wording": "23.30 lunch"
+        },
+        {
+          "clock": "17:30",
+          "date": "2026-11-05",
+          "page": "weeks/2026-11-02.html#entry-ec2f0e9eefad982c3c20f1",
+          "record_key": "diary_observations:S2-OBS-8970",
+          "role_basis": "diary meal label",
+          "wording": "17.30 lunch"
+        },
+        {
+          "clock": "23:00",
+          "date": "2026-11-04",
+          "page": "weeks/2026-11-02.html#entry-357d46dd0247ce1cc6b669",
+          "record_key": "diary_observations:S2-OBS-8957",
+          "role_basis": "diary meal label",
+          "wording": "23 eat lunch"
+        },
+        {
+          "clock": "17:00",
+          "date": "2026-11-04",
+          "page": "weeks/2026-11-02.html#entry-35f2db5047a86c249b2d93",
+          "record_key": "diary_observations:S2-OBS-8950",
+          "role_basis": "diary meal label",
+          "wording": "17 eat lunch + quince"
+        },
+        {
+          "clock": "00:00",
+          "date": "2026-11-04",
+          "page": "weeks/2026-11-02.html#entry-24fd59cc8e6f4d978497b6",
+          "record_key": "diary_observations:S2-OBS-8944",
+          "role_basis": "diary meal label",
+          "wording": "0 eat lunch"
+        },
+        {
+          "clock": "17:00",
+          "date": "2026-11-03",
+          "page": "weeks/2026-11-02.html#entry-1c0c896eaa96aded8714de",
+          "record_key": "diary_observations:S2-OBS-8938",
+          "role_basis": "diary meal label",
+          "wording": "17 eat lunch + quince"
+        },
+        {
+          "clock": "00:30",
+          "date": "2026-11-03",
+          "page": "weeks/2026-11-02.html#entry-82cc503ee7346765621ce6",
+          "record_key": "diary_observations:S2-OBS-8929",
+          "role_basis": "diary meal label",
+          "wording": "0.30 lunch"
+        },
+        {
+          "clock": "18:55",
+          "date": "2026-11-02",
+          "page": "weeks/2026-11-02.html#entry-639691c3ab71a524648b55",
+          "record_key": "diary_observations:S2-OBS-8922",
+          "role_basis": "diary meal label",
+          "wording": "18.55 eat lunch, larger portion"
+        },
+        {
+          "clock": "00:30",
+          "date": "2026-11-02",
+          "page": "weeks/2026-11-02.html#entry-11d74e9fc0a9eea9819978",
+          "record_key": "diary_observations:S2-OBS-8915",
+          "role_basis": "diary meal label",
+          "wording": "0.30 eat lunch"
+        },
+        {
+          "clock": "18:20",
+          "date": "2026-11-01",
+          "page": "weeks/2026-10-26.html#entry-c3089950275a90593f0afa",
+          "record_key": "diary_observations:S2-OBS-8909",
+          "role_basis": "diary meal label",
+          "wording": "18.20 eat lunch, didn't stop this sudden new pem"
+        },
+        {
+          "clock": "00:00",
+          "date": "2026-11-01",
+          "page": "weeks/2026-10-26.html#entry-8121034ef313332a46b96b",
+          "record_key": "diary_observations:S2-OBS-8901",
+          "role_basis": "diary meal label",
+          "wording": "0 eat lunch"
+        },
+        {
+          "clock": "17:52",
+          "date": "2026-10-31",
+          "page": "weeks/2026-10-26.html#entry-870752f558126aa424511a",
+          "record_key": "diary_observations:S2-OBS-8896",
+          "role_basis": "diary meal label",
+          "wording": "17.52 eat lunch"
+        },
+        {
+          "clock": "23:30",
+          "date": "2026-10-30",
+          "page": "weeks/2026-10-26.html#entry-dda7056d9fa6a174d79fb4",
+          "record_key": "diary_observations:S2-OBS-8885",
+          "role_basis": "diary meal label",
+          "wording": "23.30 eat lunch"
+        },
+        {
+          "clock": "18:30",
+          "date": "2026-10-30",
+          "page": "weeks/2026-10-26.html#entry-029ae4ec7ff70941893cf8",
+          "record_key": "diary_observations:S2-OBS-8881",
+          "role_basis": "diary meal label",
+          "wording": "18.30 eat lunch minus veggies"
+        },
+        {
+          "clock": "00:30",
+          "date": "2026-10-30",
+          "page": "weeks/2026-10-26.html#entry-36e720addd4d37f87fe59a",
+          "record_key": "diary_observations:S2-OBS-8873",
+          "role_basis": "diary meal label",
+          "wording": "0.30 eat lunch + gummies maybe had honey? some gut pain"
+        },
+        {
+          "clock": "19:15",
+          "date": "2026-10-29",
+          "page": "weeks/2026-10-26.html#entry-f90f5e5ff7f6eb8c8aeb0e",
+          "record_key": "diary_observations:S2-OBS-8867",
+          "role_basis": "diary meal label",
+          "wording": "19.15 eat lunch without veggies and maybe smaller portion"
+        },
+        {
+          "clock": "23:00",
+          "date": "2026-10-28",
+          "page": "weeks/2026-10-26.html#entry-a0833030820a76ec5f4338",
+          "record_key": "diary_observations:S2-OBS-8855",
+          "role_basis": "diary meal label",
+          "wording": "23 eat lunch smaller portion"
+        },
+        {
+          "clock": "17:00",
+          "date": "2026-10-28",
+          "page": "weeks/2026-10-26.html#entry-2a61f2abcf5a123823ac57",
+          "record_key": "diary_observations:S2-OBS-8852",
+          "role_basis": "diary meal label",
+          "wording": "17 eat lunch"
+        },
+        {
+          "clock": "02:45",
+          "date": "2026-10-28",
+          "page": "weeks/2026-10-26.html#entry-f357d3938abad9a06ae1b8",
+          "record_key": "diary_observations:S2-OBS-8845",
+          "role_basis": "diary meal label",
+          "wording": "2.45 eat lunch"
+        },
+        {
+          "clock": "21:00",
+          "date": "2026-10-27",
+          "page": "weeks/2026-10-26.html#entry-13eee8188fe13e291980f3",
+          "record_key": "diary_observations:S2-OBS-8842",
+          "role_basis": "diary meal label",
+          "wording": "21 eat lunch"
+        },
+        {
+          "clock": "02:30",
+          "date": "2026-10-27",
+          "page": "weeks/2026-10-26.html#entry-de3371b313fbf5cfb25b8b",
+          "record_key": "diary_observations:S2-OBS-8834",
+          "role_basis": "diary meal label",
+          "wording": "2.30 eat lunch"
+        },
+        {
+          "clock": "03:45",
+          "date": "2026-10-26",
+          "page": "weeks/2026-10-26.html#entry-06397d0928283cb7e2cc6e",
+          "record_key": "diary_observations:S2-OBS-8818",
+          "role_basis": "diary meal label",
+          "wording": "3.45 eat lunch"
+        },
+        {
+          "clock": "21:45",
+          "date": "2026-10-25",
+          "page": "weeks/2026-10-19.html#entry-8fb4325f556c2d5558806f",
+          "record_key": "diary_observations:S2-OBS-8811",
+          "role_basis": "diary meal label",
+          "wording": "21.45 eat lunch + duck leg"
+        },
+        {
+          "clock": "01:00",
+          "date": "2026-10-25",
+          "page": "weeks/2026-10-19.html#entry-01b8f0f9859993959d8775",
+          "record_key": "diary_observations:S2-OBS-8802",
+          "role_basis": "diary meal label",
+          "wording": "1 eat lunch + bit of duck leg"
+        },
+        {
+          "clock": "19:40",
+          "date": "2026-10-24",
+          "page": "weeks/2026-10-19.html#entry-3dd03b2f3756111de06605",
+          "record_key": "diary_observations:S2-OBS-8798",
+          "role_basis": "diary meal label",
+          "wording": "19.40 eat lunch + bit of duck leg"
+        },
+        {
+          "clock": "02:00",
+          "date": "2026-10-24",
+          "page": "weeks/2026-10-19.html#entry-77f827c77be81a1c2d58ee",
+          "record_key": "diary_observations:S2-OBS-8792",
+          "role_basis": "diary meal label",
+          "wording": "2 eat lunch + quince"
+        },
+        {
+          "clock": "20:30",
+          "date": "2026-10-23",
+          "page": "weeks/2026-10-19.html#entry-d3a29ca27ab289c2a30754",
+          "record_key": "diary_observations:S2-OBS-8787",
+          "role_basis": "diary meal label",
+          "wording": "20.30 eat lunch + quince"
+        },
+        {
+          "clock": "02:30",
+          "date": "2026-10-23",
+          "page": "weeks/2026-10-19.html#entry-160c07de490d004a42331c",
+          "record_key": "diary_observations:S2-OBS-8777",
+          "role_basis": "diary meal label",
+          "wording": "2.30 eat lunch + quince"
+        },
+        {
+          "clock": "21:00",
+          "date": "2026-10-22",
+          "page": "weeks/2026-10-19.html#entry-93d08b16971cf2b97d0beb",
+          "record_key": "diary_observations:S2-OBS-8772",
+          "role_basis": "diary meal label",
+          "wording": "21 eat lunch + quince"
+        },
+        {
+          "clock": "03:00",
+          "date": "2026-10-22",
+          "page": "weeks/2026-10-19.html#entry-912631b79fea470177c9a7",
+          "record_key": "diary_observations:S2-OBS-8763",
+          "role_basis": "diary meal label",
+          "wording": "3 eat lunch (very little gummies this time)"
+        },
+        {
+          "clock": "22:00",
+          "date": "2026-10-21",
+          "page": "weeks/2026-10-19.html#entry-80c96511b6278d8f3e785b",
+          "record_key": "diary_observations:S2-OBS-8757",
+          "role_basis": "diary meal label",
+          "wording": "22 eat lunch"
+        },
+        {
+          "clock": "05:00",
+          "date": "2026-10-21",
+          "page": "weeks/2026-10-19.html#entry-668cbb602e30be918d3fb9",
+          "record_key": "diary_observations:S2-OBS-8749",
+          "role_basis": "diary meal label",
+          "wording": "5 eat lunch"
+        },
+        {
+          "clock": "23:00",
+          "date": "2026-10-20",
+          "page": "weeks/2026-10-19.html#entry-b5944b8a90ee2b5bdac64d",
+          "record_key": "diary_observations:S2-OBS-8742",
+          "role_basis": "diary meal label",
+          "wording": "23 eat lunch"
+        },
+        {
+          "clock": "04:00",
+          "date": "2026-10-20",
+          "page": "weeks/2026-10-19.html#entry-259def84292eb1eba117f4",
+          "record_key": "diary_observations:S2-OBS-8734",
+          "role_basis": "diary meal label",
+          "wording": "4 eat lunch"
+        },
+        {
+          "clock": "22:00",
+          "date": "2026-10-19",
+          "page": "weeks/2026-10-19.html#entry-14b8f34dfb089de946b8c6",
+          "record_key": "diary_observations:S2-OBS-8729",
+          "role_basis": "diary meal label",
+          "wording": "22 eat lunch + a few blueberries"
+        },
+        {
+          "clock": "06:25",
+          "date": "2026-10-19",
+          "page": "weeks/2026-10-19.html#entry-aaca12d0c4baa6ef4217a5",
+          "record_key": "diary_observations:S2-OBS-8719",
+          "role_basis": "diary meal label",
+          "wording": "6.25 eat lunch + blueberries"
+        },
+        {
+          "clock": "01:00",
+          "date": "2026-10-19",
+          "page": "weeks/2026-10-19.html#entry-7087608ba2594a438287a8",
+          "record_key": "diary_observations:S2-OBS-8714",
+          "role_basis": "diary meal label",
+          "wording": "1 eat lunch + blueberries"
+        },
+        {
+          "clock": "06:30",
+          "date": "2026-10-18",
+          "page": "weeks/2026-10-12.html#entry-39476443df8ce457eb18b4",
+          "record_key": "diary_observations:S2-OBS-8703",
+          "role_basis": "diary meal label",
+          "wording": "6.30 eat lunch + blueberries"
+        },
+        {
+          "clock": "00:00",
+          "date": "2026-10-18",
+          "page": "weeks/2026-10-12.html#entry-ced9e275095460d8bd0fa0",
+          "record_key": "diary_observations:S2-OBS-8699",
+          "role_basis": "diary meal label",
+          "wording": "0 eat lunch + little blueberries"
+        }
+      ],
+      "foods": "Usual lunch",
+      "id": "lunch and supper:usual lunch",
+      "last_recorded": "2026-11-16",
+      "meal_count": 58,
+      "meal_role": "Lunch and supper",
+      "recipe_reference": {
+        "as_of": "2026-11-16",
+        "description": "Rice, beef and vegetables, often with gummies",
+        "evidence": [
+          {
+            "date": "2026-10-13",
+            "page": "weeks/2026-10-12.html#entry-e851eb0d3e1558f45277e8",
+            "record_key": "diary_observations:S2-OBS-8631",
+            "wording": "11.30 eat lunch (referring to usual rice beef veggies gummies) + blueberries"
+          },
+          {
+            "date": "2026-10-26",
+            "page": "weeks/2026-10-26.html#entry-991f0ca03c533fbbd49a77",
+            "record_key": "diary_observations:S2-OBS-8822",
+            "wording": "16.30 eat bit of rice beef veggies + bit of cocorice"
+          },
+          {
+            "date": "2026-10-29",
+            "page": "weeks/2026-10-26.html#entry-f90f5e5ff7f6eb8c8aeb0e",
+            "record_key": "diary_observations:S2-OBS-8867",
+            "wording": "19.15 eat lunch without veggies and maybe smaller portion"
+          },
+          {
+            "date": "2026-11-09",
+            "page": "weeks/2026-11-09.html#entry-29f7a3622beba04942752b",
+            "record_key": "diary_observations:S2-OBS-9015",
+            "wording": "15.30 lunch without gummies"
+          },
+          {
+            "date": "2026-11-15",
+            "page": "weeks/2026-11-09.html#entry-80b3e782472e0af922cdf9",
+            "record_key": "diary_observations:S2-OBS-9093",
+            "wording": "14.15 eat lunch"
+          },
+          {
+            "date": "2026-11-15",
+            "page": "weeks/2026-11-09.html#entry-03b82125299a77ec6a594b",
+            "record_key": "diary_observations:S2-OBS-9095",
+            "wording": "20.30 eat lunch"
+          },
+          {
+            "date": "2026-11-16",
+            "page": "weeks/2026-11-16.html#entry-07997a0d0795f9a149a150",
+            "record_key": "diary_observations:S2-OBS-9102",
+            "wording": "16.45 eat lunch"
+          }
+        ]
+      },
+      "recorded_days": 30,
+      "variation_counts": {
+        "blueberries": 5,
+        "duck leg": 4,
+        "duck leg + baked apple": 1,
+        "gummies maybe had honey": 1,
+        "gummies with cooked quince juice": 1,
+        "minus veggies": 1,
+        "quince": 6,
+        "very little gummies this time": 1,
+        "without gummies": 1,
+        "without veggies and maybe smaller portion": 1
+      },
+      "variations": [
+        "quince",
+        "blueberries",
+        "duck leg",
+        "duck leg + baked apple",
+        "gummies maybe had honey",
+        "gummies with cooked quince juice",
+        "minus veggies",
+        "very little gummies this time",
+        "without gummies",
+        "without veggies and maybe smaller portion"
+      ]
+    },
+    {
+      "evidence": [
+        {
+          "clock": "11:30",
+          "date": "2026-11-16",
+          "page": "weeks/2026-11-16.html#entry-f156416a89cf45c9eb0985",
+          "record_key": "diary_observations:S2-OBS-9101",
+          "role_basis": "first documented main meal after waking",
+          "wording": "11.30 eat cocorice"
+        },
+        {
+          "clock": "08:30",
+          "date": "2026-11-15",
+          "page": "weeks/2026-11-09.html#entry-8e78c5874eec5ded68fce8",
+          "record_key": "diary_observations:S2-OBS-9090",
+          "role_basis": "first documented main meal after waking",
+          "wording": "8.30 eat cocorice"
+        },
+        {
+          "clock": "09:30",
+          "date": "2026-11-14",
+          "page": "weeks/2026-11-09.html#entry-584ec6f56ff9e52f3c1e98",
+          "record_key": "diary_observations:S2-OBS-9074",
+          "role_basis": "first documented main meal after waking",
+          "wording": "9.30 eat cocorice"
+        },
+        {
+          "clock": "10:00",
+          "date": "2026-11-13",
+          "page": "weeks/2026-11-09.html#entry-85f95a6a1e25ee31ddb68a",
+          "record_key": "diary_observations:S2-OBS-9060",
+          "role_basis": "first documented main meal after waking",
+          "wording": "10 eat cocorice"
+        },
+        {
+          "clock": "10:30",
+          "date": "2026-11-12",
+          "page": "weeks/2026-11-09.html#entry-9c4a4c36b5201eec8d7885",
+          "record_key": "diary_observations:S2-OBS-9045",
+          "role_basis": "first documented main meal after waking",
+          "wording": "10.30 eat cocorice"
+        },
+        {
+          "clock": "10:00",
+          "date": "2026-11-11",
+          "page": "weeks/2026-11-09.html#entry-189f3ba3cfcb81c8d7a323",
+          "record_key": "diary_observations:S2-OBS-9036",
+          "role_basis": "first documented main meal after waking",
+          "wording": "10 eat cocorice"
+        },
+        {
+          "clock": "14:15",
+          "date": "2026-11-10",
+          "page": "weeks/2026-11-09.html#entry-960bd8a3e6fe21230cc0b4",
+          "record_key": "diary_observations:S2-OBS-9027",
+          "role_basis": "first documented main meal after waking",
+          "wording": "14.15 eat small portion of lunch + small portion of cocorice; but eating is not cancelling the poisoned pem this time, it’s pretty strong, will likely crash hard"
+        },
+        {
+          "clock": "11:30",
+          "date": "2026-11-09",
+          "page": "weeks/2026-11-09.html#entry-0b8947ac7f72f3afb7e87d",
+          "record_key": "diary_observations:S2-OBS-9014",
+          "role_basis": "first documented main meal after waking",
+          "wording": "11.30 eat cocorice"
+        },
+        {
+          "clock": "13:42",
+          "date": "2026-11-08",
+          "page": "weeks/2026-11-02.html#entry-85c95eff3e1142c2c21945",
+          "record_key": "diary_observations:S2-OBS-9002",
+          "role_basis": "first documented main meal after waking",
+          "wording": "13.42 eat cocorice"
+        },
+        {
+          "clock": "13:00",
+          "date": "2026-11-07",
+          "page": "weeks/2026-11-02.html#entry-4644ba482961d94eb3cd1e",
+          "record_key": "diary_observations:S2-OBS-8992",
+          "role_basis": "first documented main meal after waking",
+          "wording": "13 eat cocorice"
+        },
+        {
+          "clock": "13:30",
+          "date": "2026-11-06",
+          "page": "weeks/2026-11-02.html#entry-6010c64b1f41a7e5923807",
+          "record_key": "diary_observations:S2-OBS-8979",
+          "role_basis": "first documented main meal after waking",
+          "wording": "13.30 eat cocorice"
+        },
+        {
+          "clock": "12:15",
+          "date": "2026-11-05",
+          "page": "weeks/2026-11-02.html#entry-2bef8fbadef576c57631e0",
+          "record_key": "diary_observations:S2-OBS-8966",
+          "role_basis": "first documented main meal after waking",
+          "wording": "12.15 eat coco rice"
+        },
+        {
+          "clock": "12:30",
+          "date": "2026-11-04",
+          "page": "weeks/2026-11-02.html#entry-e4c24ec46b8136397e7154",
+          "record_key": "diary_observations:S2-OBS-8948",
+          "role_basis": "first documented main meal after waking",
+          "wording": "12.30 cocorice"
+        },
+        {
+          "clock": "12:15",
+          "date": "2026-11-03",
+          "page": "weeks/2026-11-02.html#entry-24e9cde6398cfa6cc78900",
+          "record_key": "diary_observations:S2-OBS-8935",
+          "role_basis": "first documented main meal after waking",
+          "wording": "12.15 eat cocorice"
+        },
+        {
+          "clock": "13:30",
+          "date": "2026-11-02",
+          "page": "weeks/2026-11-02.html#entry-bf11647fa0f82a7c0da5b4",
+          "record_key": "diary_observations:S2-OBS-8919",
+          "role_basis": "first documented main meal after waking",
+          "wording": "13.30 eat cocoricd"
+        },
+        {
+          "clock": "14:15",
+          "date": "2026-11-01",
+          "page": "weeks/2026-10-26.html#entry-aa22f52c91fac6f99a73ba",
+          "record_key": "diary_observations:S2-OBS-8905",
+          "role_basis": "first documented main meal after waking",
+          "wording": "14.15 eat cocorice, smaller portion"
+        },
+        {
+          "clock": "13:15",
+          "date": "2026-10-31",
+          "page": "weeks/2026-10-26.html#entry-10268f370a01616e529c26",
+          "record_key": "diary_observations:S2-OBS-8893",
+          "role_basis": "first documented main meal after waking",
+          "wording": "13.15 eat cocorice"
+        },
+        {
+          "clock": "14:00",
+          "date": "2026-10-30",
+          "page": "weeks/2026-10-26.html#entry-39ff0c20605607c1841a31",
+          "record_key": "diary_observations:S2-OBS-8878",
+          "role_basis": "first documented main meal after waking",
+          "wording": "14 eat cocorice"
+        },
+        {
+          "clock": "13:50",
+          "date": "2026-10-29",
+          "page": "weeks/2026-10-26.html#entry-47da6144e3a9447d919634",
+          "record_key": "diary_observations:S2-OBS-8864",
+          "role_basis": "first documented main meal after waking",
+          "wording": "13.50 eat cocorice"
+        },
+        {
+          "clock": "13:30",
+          "date": "2026-10-28",
+          "page": "weeks/2026-10-26.html#entry-fdcacc87a9b6c17fb9cc5f",
+          "record_key": "diary_observations:S2-OBS-8850",
+          "role_basis": "first documented main meal after waking",
+          "wording": "13.30 eat cocorice, kinda large portion"
+        },
+        {
+          "clock": "15:45",
+          "date": "2026-10-27",
+          "page": "weeks/2026-10-26.html#entry-f855366bfaf441ead6c577",
+          "record_key": "diary_observations:S2-OBS-8838",
+          "role_basis": "first documented main meal after waking",
+          "wording": "15.45 eat cocorice"
+        },
+        {
+          "clock": "21:00",
+          "date": "2026-10-26",
+          "page": "weeks/2026-10-26.html#entry-eac64d7c9c0fbc72cab7ec",
+          "record_key": "diary_observations:S2-OBS-8827",
+          "role_basis": "habitual breakfast dish, role inferred from repeated records",
+          "wording": "21 eat cocorice + gummies"
+        },
+        {
+          "clock": "16:30",
+          "date": "2026-10-26",
+          "page": "weeks/2026-10-26.html#entry-991f0ca03c533fbbd49a77",
+          "record_key": "diary_observations:S2-OBS-8822",
+          "role_basis": "first documented main meal after waking",
+          "wording": "16.30 eat bit of rice beef veggies + bit of cocorice"
+        },
+        {
+          "clock": "16:50",
+          "date": "2026-10-25",
+          "page": "weeks/2026-10-19.html#entry-0ebfb3aed9e738f7e7ac74",
+          "record_key": "diary_observations:S2-OBS-8808",
+          "role_basis": "first documented main meal after waking",
+          "wording": "16.50 eat cocorice"
+        },
+        {
+          "clock": "14:40",
+          "date": "2026-10-24",
+          "page": "weeks/2026-10-19.html#entry-b47283ce91f0ee5416a265",
+          "record_key": "diary_observations:S2-OBS-8796",
+          "role_basis": "first documented main meal after waking",
+          "wording": "14.40 eat cocorice"
+        },
+        {
+          "clock": "16:30",
+          "date": "2026-10-23",
+          "page": "weeks/2026-10-19.html#entry-ac94d30cc47ff2e68e01db",
+          "record_key": "diary_observations:S2-OBS-8785",
+          "role_basis": "first documented main meal after waking",
+          "wording": "16.30 eat cocorice"
+        },
+        {
+          "clock": "16:00",
+          "date": "2026-10-22",
+          "page": "weeks/2026-10-19.html#entry-e18b89949cab3c1fec1b1b",
+          "record_key": "diary_observations:S2-OBS-8768",
+          "role_basis": "first documented main meal after waking",
+          "wording": "16 eat cocorice"
+        },
+        {
+          "clock": "17:45",
+          "date": "2026-10-21",
+          "page": "weeks/2026-10-19.html#entry-96300ac9e8b76ad02a3374",
+          "record_key": "diary_observations:S2-OBS-8754",
+          "role_basis": "first documented main meal after waking",
+          "wording": "17.45 eat cocorice"
+        },
+        {
+          "clock": "18:00",
+          "date": "2026-10-20",
+          "page": "weeks/2026-10-19.html#entry-c176436fc7c3c67dbb84da",
+          "record_key": "diary_observations:S2-OBS-8741",
+          "role_basis": "first documented main meal after waking",
+          "wording": "18 eat cocorice"
+        },
+        {
+          "clock": "18:30",
+          "date": "2026-10-19",
+          "page": "weeks/2026-10-19.html#entry-afbd9a50fa2a5563cdad83",
+          "record_key": "diary_observations:S2-OBS-8725",
+          "role_basis": "first documented main meal after waking",
+          "wording": "18.30 eat cocorice"
+        },
+        {
+          "clock": "20:00",
+          "date": "2026-10-18",
+          "page": "weeks/2026-10-12.html#entry-dad805628bf0070c464fef",
+          "record_key": "diary_observations:S2-OBS-8707",
+          "role_basis": "first documented main meal after waking",
+          "wording": "20 eat cocorice"
+        }
+      ],
+      "foods": "Cocorice",
+      "id": "breakfast:cocorice",
+      "last_recorded": "2026-11-16",
+      "meal_count": 31,
+      "meal_role": "Breakfast",
+      "recipe_reference": {
+        "as_of": "2026-11-16",
+        "description": "Coconut-milk rice porridge",
+        "evidence": [
+          {
+            "date": "2026-06-05",
+            "page": "weeks/2026-06-01.html#entry-b5f4616807ab5ec01fd72e",
+            "record_key": "diary_observations:S2-OBS-6877",
+            "wording": "hungrier much more quickly today. wonder if it correlates with paler stool, some RUQ/LUQ pain (pancreas/bile?) caused by more fat from cocorice breakfasts (coconut milk rice porridge)?"
+          },
+          {
+            "date": "2026-08-06",
+            "page": "weeks/2026-08-03.html#entry-f0c6cf7cf4d5b1f141d6fa",
+            "record_key": "diary_observations:S2-OBS-7758",
+            "wording": "9.10 eat cocorice, seems more fatty (more coconut milk/fat) than usual"
+          },
+          {
+            "date": "2026-11-14",
+            "page": "weeks/2026-11-09.html#entry-584ec6f56ff9e52f3c1e98",
+            "record_key": "diary_observations:S2-OBS-9074",
+            "wording": "9.30 eat cocorice"
+          },
+          {
+            "date": "2026-11-15",
+            "page": "weeks/2026-11-09.html#entry-8e78c5874eec5ded68fce8",
+            "record_key": "diary_observations:S2-OBS-9090",
+            "wording": "8.30 eat cocorice"
+          },
+          {
+            "date": "2026-11-16",
+            "page": "weeks/2026-11-16.html#entry-f156416a89cf45c9eb0985",
+            "record_key": "diary_observations:S2-OBS-9101",
+            "wording": "11.30 eat cocorice"
+          }
+        ]
+      },
+      "recorded_days": 30,
+      "variation_counts": {
+        "gummies": 1,
+        "lunch": 1,
+        "rice beef veggies": 1
+      },
+      "variations": [
+        "gummies",
+        "lunch",
+        "rice beef veggies"
+      ]
+    },
+    {
+      "evidence": [
+        {
+          "clock": "02:30",
+          "date": "2026-11-05",
+          "page": "weeks/2026-11-02.html#entry-d3c33ce0e5090a9d0f2e6a",
+          "record_key": "diary_observations:S2-OBS-8962",
+          "role_basis": "diary field or snack description",
+          "wording": "2.30 eat bit of gummies + quince"
+        },
+        {
+          "clock": "05:35",
+          "date": "2026-10-23",
+          "page": "weeks/2026-10-19.html#entry-70741af1b6b907855ad85c",
+          "record_key": "diary_observations:S2-OBS-8780",
+          "role_basis": "diary field or snack description",
+          "wording": "5.35 eat a bit of gummies + quince"
+        }
+      ],
+      "foods": "Gummies + quince",
+      "id": "snack:gummies + quince",
+      "last_recorded": "2026-11-05",
+      "meal_count": 2,
+      "meal_role": "Snack",
+      "recorded_days": 2,
+      "variation_counts": {},
+      "variations": []
+    },
+    {
+      "evidence": [
+        {
+          "clock": "23:00",
+          "date": "2026-11-11",
+          "page": "weeks/2026-11-09.html#entry-f224b3801c5c50fed64e98",
+          "record_key": "diary_observations:S2-OBS-9040",
+          "role_basis": "meal role unspecified",
+          "wording": "23 eat duck leg with skin + rice + gummies"
+        }
+      ],
+      "foods": "Duck leg with skin + rice + gummies",
+      "id": "other meal:duck leg with skin + rice + gummies",
+      "last_recorded": "2026-11-11",
+      "meal_count": 1,
+      "meal_role": "Other meal",
+      "recorded_days": 1,
+      "variation_counts": {},
+      "variations": []
+    }
+  ],
+  "latest_diary": "2026-11-16",
+  "ranking": "Documented meal occasions; distinct dates shown separately. Snacks are listed separately.",
+  "revision_id": "Revision 65",
+  "window_start": "2026-10-18"
+}

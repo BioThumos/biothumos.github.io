@@ -1,0 +1,989 @@
+{
+  "revision_id": "Revision 65",
+  "name": "Evening-type sensory waves / tingling",
+  "patient_report": "Recurs near-daily, including without identified exertion; named after the 2024 NADH period, precise first occurrence uncertain.",
+  "records_are": "Explicit diary mentions; no negative evidence assigned to dates without mention and no independent crash counts.",
+  "first_explicit_diary_date": "2025-08-27",
+  "classification": "Recurring sensory pattern, not automatically exertion-triggered PEM.",
+  "associated_exposure_reports": [
+    {
+      "related_id": "intervention:6796cb12-8e27-5863-990e-7e732a38b61d",
+      "relation": "Reported recurrence during treatment trial",
+      "note": "The patient described a return/intensification of the familiar evening-type pulsing/tingling while taking S-acetyl-L-glutathione in January 2026. Some accounts are tentative. Prominent sinus/retro-orbital pressure was documented, but sinus pressure began before SAG. Neither the shared sensory pattern nor treatment causation is proven.",
+      "source_ref": "archive_messages:S1-M67218; S1-M67177; S1-M69426; S1-M69457; S1-M67437; diary_observations:S2-OBS-4694; S2-OBS-4699"
+    }
+  ],
+  "associated_source_evidence": [
+    {
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-4694",
+      "evidence_role": "associated_pressure",
+      "source_role": "patient_diary",
+      "reported_at": "2026-01-28",
+      "basis": "Severe sinus and eye pressure documented on January 28; not independently classified as this symptom."
+    },
+    {
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-4699",
+      "evidence_role": "possible_same_pattern",
+      "source_role": "patient_diary",
+      "reported_at": "2026-01-28",
+      "basis": "Strong tingling described as possibly evening PEM; source explicitly expresses doubt."
+    },
+    {
+      "source_table": "archive_messages",
+      "source_id": "S1-M67177",
+      "evidence_role": "timing_caveat",
+      "source_role": "patient_sender",
+      "reported_at": "2026-01-28T01:31:52+01:00",
+      "basis": "Sinus pressure was already present before SAG; SAG cannot be inferred to have initiated it."
+    },
+    {
+      "source_table": "archive_messages",
+      "source_id": "S1-M67218",
+      "evidence_role": "similarity_after_SAG",
+      "source_role": "patient_sender",
+      "reported_at": "2026-01-28T16:05:03+01:00",
+      "basis": "Patient compares intense mostly non-painful tingling/pulsing to earlier evening PEM and is unsure whether it is identical."
+    },
+    {
+      "source_table": "archive_messages",
+      "source_id": "S1-M67437",
+      "evidence_role": "associated_region",
+      "source_role": "patient_sender",
+      "reported_at": "2026-01-30T02:00:17+01:00",
+      "basis": "Patient reported stronger limb/spinal pulsing after starting SAG, sometimes without obvious PEM."
+    },
+    {
+      "source_table": "archive_messages",
+      "source_id": "S1-M67440",
+      "evidence_role": "recurrence_history",
+      "source_role": "patient_sender",
+      "reported_at": "2026-01-30T02:17:54+01:00",
+      "basis": "Patient recognized a return of earlier tingling/pulsing and separately noted newer eye sensations."
+    },
+    {
+      "source_table": "archive_messages",
+      "source_id": "S1-M69426",
+      "evidence_role": "distinguishing_phenomenology",
+      "source_role": "patient_sender",
+      "reported_at": "2026-02-14T21:38:57+01:00",
+      "basis": "Patient contrasts SAG-related deep non-painful pulsing with dull post-bezisterim lactate-like pain/pressure."
+    },
+    {
+      "source_table": "archive_messages",
+      "source_id": "S1-M69457",
+      "evidence_role": "same_patient_described_pattern",
+      "source_role": "patient_sender",
+      "reported_at": "2026-02-14T21:46:48+01:00",
+      "basis": "Patient says evening PEM had faded and SAG brought the pattern back."
+    },
+    {
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-6291",
+      "evidence_role": "cross_treatment_similarity",
+      "source_role": "patient_diary",
+      "reported_at": "2026-04-30",
+      "basis": "Forehead/retro-orbital cold pulsing, compared by patient to evening PEM and glutathione treatment."
+    },
+    {
+      "source_table": "archive_messages",
+      "source_id": "S1-M75811",
+      "evidence_role": "cross_treatment_similarity",
+      "source_role": "patient_sender",
+      "reported_at": "2026-04-30T19:37:42+02:00",
+      "basis": "Similar evening/SAG/GSH-style pulsing after another treatment, especially behind the eyes/forehead and spreading to the body; causation uncertain."
+    },
+    {
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-6312",
+      "evidence_role": "same_patient_described_pattern",
+      "source_role": "patient_diary",
+      "reported_at": "2026-05-01",
+      "basis": "Patient labels the continued forehead/retro-orbital pulsing as what was formerly called evening PEM."
+    },
+    {
+      "source_table": "archive_messages",
+      "source_id": "S1-M75826",
+      "evidence_role": "duration_recollection",
+      "source_role": "patient_sender",
+      "reported_at": "2026-05-01T10:34:24+02:00",
+      "basis": "Patient says SAG-associated pulsing persisted for several days, compared with a later treatment-associated episode."
+    },
+    {
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-6427",
+      "evidence_role": "possible_SAG_temporal_link",
+      "source_role": "patient_diary",
+      "reported_at": "2026-05-07",
+      "basis": "Unusual pulsing after a SAG dose; attribution uncertain. Other sensitive material remains in the original diary."
+    }
+  ],
+  "sag_caveat": "Sinus/eye pressure was co-reported and sometimes strong, but sinus pressure started before SAG. Pattern resemblance is patient-reported, and no causal mechanism is established.",
+  "references": [
+    {
+      "occurrence_id": "event:eecd3c3f-7c87-5004-aea9-341910250402",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-1478",
+      "diary_date": "2025-08-27",
+      "wording": "21 evening pem",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:fb908745-5634-56ea-a48d-12c794299eef",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-1651",
+      "diary_date": "2025-09-01",
+      "wording": "19.15 evening pem",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:e1ae0e26-e66a-5f5e-aa87-57f981cf2ec8",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-1784",
+      "diary_date": "2025-09-06",
+      "wording": "18- evening pem",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:94fa25c0-6950-5a3f-804e-33ae3caf3101",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-4257",
+      "diary_date": "2026-01-07",
+      "wording": "11- evening PEM",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:41cf6409-32ff-58be-af28-673c74e64606",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-4321",
+      "diary_date": "2026-01-10",
+      "wording": "10.40- evening pem maybe",
+      "assertion": "uncertain",
+      "count_class": "uncertain"
+    },
+    {
+      "occurrence_id": "event:347e94d4-58be-5270-b439-dd64da9ac0f7",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-4390",
+      "diary_date": "2026-01-13",
+      "wording": "12.30- evening pem",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:3f6c5947-9772-5229-9bfa-17be37f2aebd",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-4408",
+      "diary_date": "2026-01-14",
+      "wording": "8- evening pem",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:563f090a-248c-567e-b9e1-681cc441bbeb",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-4410",
+      "diary_date": "2026-01-14",
+      "wording": "8.50- evening pem, sleep pressure starting",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:5421e923-1267-54f5-b043-d3632e7b9ba1",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-4431",
+      "diary_date": "2026-01-15",
+      "wording": "9.30- evening pem",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:799dc76c-1341-5243-8a58-d201b9a6386d",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-4566",
+      "diary_date": "2026-01-22",
+      "wording": "6.20- pemy, evening pem maybe",
+      "assertion": "uncertain",
+      "count_class": "uncertain"
+    },
+    {
+      "occurrence_id": "event:dd6e2958-7060-51e2-9953-4dc0c700b9f6",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-4699",
+      "diary_date": "2026-01-28",
+      "wording": "7- strong tingling or evening pem, intense but not painful or poisoned as usual, haven't had this in a while so feels different",
+      "assertion": "uncertain",
+      "count_class": "uncertain"
+    },
+    {
+      "occurrence_id": "event:abd0f397-a60d-5252-818c-a508dec77a3b",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-4720",
+      "diary_date": "2026-01-29",
+      "wording": "2- evening pem tingling/pulsing again",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:b7a3e975-38f5-50c6-9c78-c09f547948a5",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-4722",
+      "diary_date": "2026-01-29",
+      "wording": "3- evening pem getting pretty strong, some sleep pressure too",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:d38cde94-e8f2-5a7b-8649-086e997577d7",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-4744",
+      "diary_date": "2026-01-30",
+      "wording": "5.20- evening pem, pusling tingling becoming more intense",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:6cc9fd7f-e213-5af1-af3b-75c9174c4eac",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-4999",
+      "diary_date": "2026-02-13",
+      "wording": "20.40- evening pem kicks in",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:6ec00497-e4f4-5565-a924-1f729a9a3f99",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-5014",
+      "diary_date": "2026-02-14",
+      "wording": "19.45-22.40 evening pem",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:43664714-66aa-5e89-b61b-eb00ef786aca",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-5017",
+      "diary_date": "2026-02-14",
+      "wording": "23.30- evening pem again, milder",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:5595b3cc-be3a-5dfb-9a1e-72ed193c917c",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-5032",
+      "diary_date": "2026-02-15",
+      "wording": "21.40- evening pem",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:e5d25bac-dfc2-5f81-b56b-5f8473b4a636",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-5056",
+      "diary_date": "2026-02-16",
+      "wording": "23.10- evening PEM",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:3b60a958-1498-598a-88c8-3b72639ac98c",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-5102",
+      "diary_date": "2026-02-18",
+      "wording": "21.40- evening pem aggressive tingling and chest buzzing",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:115c9935-8bba-5d28-8e30-7405ab9b896c",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-5133",
+      "diary_date": "2026-02-20",
+      "wording": "21.40- sleep pressure maybe, or evening pem, a bit ambiguous",
+      "assertion": "uncertain",
+      "count_class": "uncertain"
+    },
+    {
+      "occurrence_id": "event:2824be99-2758-51e8-a0ff-bfe472ced6a6",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-5206",
+      "diary_date": "2026-02-25",
+      "wording": "13.30- evening pem",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:5992a0e3-a7d8-566c-bd7f-fa643d5120c3",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-5249",
+      "diary_date": "2026-02-27",
+      "wording": "19- evening PEM",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:8a83df7e-6a7a-5cf3-8a1a-f75a97fa59bf",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-5318",
+      "diary_date": "2026-03-04",
+      "wording": "11.40-22 evening pem",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:f167085b-9ea7-503a-8a97-de24c4a48b7a",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-5319",
+      "diary_date": "2026-03-04",
+      "wording": "12.40 eat rice beef veggies, gummies → doesn’t cancel evening pem",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:2c30cef7-ccaf-53b0-a104-ca545328383d",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-5337",
+      "diary_date": "2026-03-05",
+      "wording": "14.40- evening pem mixed with PESE → very strange that it's hitting so early",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:c5462065-da00-5b3c-9e39-aa32eecd956e",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-5351",
+      "diary_date": "2026-03-06",
+      "wording": "9.50- “evening” PEM (reductive stress? same feeling as when doing glutathione)",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:5ad235f7-962f-5324-91ce-412e160ecc64",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-5385",
+      "diary_date": "2026-03-08",
+      "wording": "12.30- evening pem or something",
+      "assertion": "uncertain",
+      "count_class": "uncertain"
+    },
+    {
+      "occurrence_id": "event:e4e17ba1-cb66-5e19-9912-11ec14be3ec3",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-5400",
+      "diary_date": "2026-03-09",
+      "wording": "10.30- evening pem mild",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:7bb22a4d-9450-5601-9a27-4626f59bfae0",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-5404",
+      "diary_date": "2026-03-09",
+      "wording": "16- evening pem, sleep pressure",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:4d03ab20-0d48-59b2-96de-d761c8ff86da",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-5438",
+      "diary_date": "2026-03-11",
+      "wording": "9.40- poisoned tingling getting a bit stronger or maybe evening pem; also some internal tremors",
+      "assertion": "uncertain",
+      "count_class": "uncertain"
+    },
+    {
+      "occurrence_id": "event:acff4d51-6b2c-5e0a-861f-eb53ac987ae9",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-5495",
+      "diary_date": "2026-03-14",
+      "wording": "10.20-17 evening pem, temple sendation right side",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:41b3ceed-5005-5500-8238-55a1dfe4f4aa",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-5529",
+      "diary_date": "2026-03-16",
+      "wording": "11- evening pem",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:ae22fde7-42f3-5883-bc31-4b6df621f51a",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-5678",
+      "diary_date": "2026-03-24",
+      "wording": "8.30- evening pem mild",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:a72b4808-16a2-5ad1-8c5c-c22f1eb57a78",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-5717",
+      "diary_date": "2026-03-26",
+      "wording": "7.30- evening pem and sleep pressure",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:7908c797-c7ab-5e74-b166-85d8f415e12b",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-5784",
+      "diary_date": "2026-03-30",
+      "wording": "8.30- evening pem, sleep pressure",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:2e42f9a0-39a5-5dbf-acb5-3b9a86ff6387",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-5788",
+      "diary_date": "2026-03-30",
+      "wording": "12-14 evening pem → aborted by getting excited over something",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:3f753f9f-ecc7-5ed0-ae16-4302633d00e4",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-5913",
+      "diary_date": "2026-04-07",
+      "wording": "2- evening pemyness",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:b4d89c16-c581-53b8-b1f6-3aa42c498802",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-5926",
+      "diary_date": "2026-04-08",
+      "wording": "3- evening pem, mild",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:3f934ffe-cc58-561d-a9f2-2e51319202a3",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-5938",
+      "diary_date": "2026-04-09",
+      "wording": "0.45- bit pemy, evening pem maybe",
+      "assertion": "uncertain",
+      "count_class": "uncertain"
+    },
+    {
+      "occurrence_id": "event:70124313-db9d-5006-a1e4-cb8157d72d21",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-5940",
+      "diary_date": "2026-04-09",
+      "wording": "1.30- evening pem",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:d30190ce-38d6-53b9-a427-f4a98c460c14",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-5942",
+      "diary_date": "2026-04-09",
+      "wording": "3- evening pem continues",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:5a2be769-328d-59e5-b9d5-035b66675ec2",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-5956",
+      "diary_date": "2026-04-10",
+      "wording": "1- pemy / evening pem",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:570eb740-888a-5a86-a425-c2bc1b9cb654",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-5966",
+      "diary_date": "2026-04-10",
+      "wording": "23- evening pem, tingling in legs from chatting too much?",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:ced09342-5126-5558-9848-0e5dd4ef54ed",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-5970",
+      "diary_date": "2026-04-11",
+      "wording": "1- evening pem continues",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:d9cd1e72-9089-5505-85da-6059fd82acb8",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-6006",
+      "diary_date": "2026-04-14",
+      "wording": "0.30- evening pem",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:7c464854-3e43-56a9-af13-3f56de00c31c",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-6022",
+      "diary_date": "2026-04-14",
+      "wording": "23.30- evening pem",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:a2fee514-165d-5d8e-a3d5-9ad48b865c37",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-6048",
+      "diary_date": "2026-04-16",
+      "wording": "22.30- evening pem",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:0347be6a-4e51-5b1a-ba36-f2735d1caa7c",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-6143",
+      "diary_date": "2026-04-22",
+      "wording": "1.30- stronger evening pem",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:86f26d2c-6921-5797-8efd-79716cbdb4ad",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-6157",
+      "diary_date": "2026-04-22",
+      "wording": "22-23.30 evening pemyness",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:4338ad7a-89fe-574b-9d95-ff6939b9fa54",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-6196",
+      "diary_date": "2026-04-24",
+      "wording": "18.15-20 evening pemyness",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:1d21c5c3-deca-5fef-863d-38acc5a2687b",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-6240",
+      "diary_date": "2026-04-27",
+      "wording": "11.20- evening pem maybe, sleep pressure",
+      "assertion": "uncertain",
+      "count_class": "uncertain"
+    },
+    {
+      "occurrence_id": "event:02929e0d-01c1-59e0-857b-c675a5b6ed0a",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-6278",
+      "diary_date": "2026-04-29",
+      "wording": "20- evening pem, more intense sleep pressure (first time in a while i think)",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:dcc5506e-e18b-556d-857e-34231e54534b",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-6291",
+      "diary_date": "2026-04-30",
+      "wording": "9.30- tingling getting stronger. Actually feels a bit more like evening pem or when i took glutathione; forehead pressure - especially behind eyes - cold pulsing sensation also becoming stronger. This is a different reaction from the previous days of KL - maybe the mct oil changed it or is it just the cumulative effect kicking in (since KL is slow to build up in the blood)? Notable is that i had a different taste in my mouth compared to the bitter and sweet taste i get during poisoned post-sexual PEM crashes. It was more like the taste of being thirsty or unsatisfied after a meal.",
+      "assertion": "uncertain",
+      "count_class": "uncertain"
+    },
+    {
+      "occurrence_id": "event:cd8126b0-58ce-5576-87e6-4a4acab2cca0",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-6301",
+      "diary_date": "2026-04-30",
+      "wording": "20.30- pulsing \"evening PEM\" again",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:cbcb1b69-a82f-50ae-8344-236f19128d89",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-6312",
+      "diary_date": "2026-05-01",
+      "wording": "8- mild peminess and pulsing (\"evening PEM\" as previously called) continue, especially behind eyes and in forehead",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:090b79ea-7824-59ae-981d-507802998450",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-6321",
+      "diary_date": "2026-05-01",
+      "wording": "20.10- evening pem",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:4699d94f-da85-5b70-a6a9-a4b9d248df48",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-6341",
+      "diary_date": "2026-05-02",
+      "wording": "21- pemy, evening pem maybe",
+      "assertion": "uncertain",
+      "count_class": "uncertain"
+    },
+    {
+      "occurrence_id": "event:9a209f3c-82fd-5c72-8cb1-739588754366",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-6397",
+      "diary_date": "2026-05-05",
+      "wording": "14.50- evening peminess",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:e83dc206-de09-53cd-b24c-3d36cba0a586",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-6408",
+      "diary_date": "2026-05-06",
+      "wording": "18- evening peminess, mild poisoned feeling still",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:29386990-a9de-5732-bf8e-06b571925662",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-6536",
+      "diary_date": "2026-05-14",
+      "wording": "13.20- bit pemy, evening pem like pulsing, stronger sinus pressure/eye sensation",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:0bb7f8b5-e98c-5409-a67d-3f9be93abcb6",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-6571",
+      "diary_date": "2026-05-16",
+      "wording": "15- evening pem",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:763927e7-ee8d-5f58-928d-1c314bfffe1f",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-6588",
+      "diary_date": "2026-05-17",
+      "wording": "18- some evening pem",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:159429c1-1f35-5697-a61b-940d3d2166d4",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-6591",
+      "diary_date": "2026-05-17",
+      "wording": "20.30 strong evening pem and some sleep pressure",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:58c18fd0-0105-5dad-9070-85872a906526",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-6626",
+      "diary_date": "2026-05-19",
+      "wording": "13.30- evening pem",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:710b2827-a7cc-5527-beec-5d656babc8c5",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-6675",
+      "diary_date": "2026-05-22",
+      "wording": "20- some evening pem",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:1bb2e28c-c267-5573-87b3-f17a8c658746",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-6700",
+      "diary_date": "2026-05-24",
+      "wording": "11- pemy mild poisoned evening pem like tingling some wrist fatigue",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:21895104-3337-55fe-902a-ea477a831945",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-6768",
+      "diary_date": "2026-05-29",
+      "wording": "12- evening pem tingling",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:862c7909-5428-50ad-b99e-fa89fcae3481",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-6781",
+      "diary_date": "2026-05-30",
+      "wording": "12.30- pemy bit like evening pem but it's too early",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:529c5c16-c84c-5913-81be-89277d07a0b6",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-6875",
+      "diary_date": "2026-06-05",
+      "wording": "11.10- evening pem",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:096df859-8f0d-5410-9674-c58c82653c69",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-6890",
+      "diary_date": "2026-06-06",
+      "wording": "14- evening pem",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:c1eac236-80cc-5b3f-b2fa-9059d3cb97cb",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-6907",
+      "diary_date": "2026-06-07",
+      "wording": "17- evening pem",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:d25fc209-f733-5deb-ba65-d7e13d967d19",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-6917",
+      "diary_date": "2026-06-08",
+      "wording": "2-4 crash poisoned evening pem mix strange",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:8d8cbee4-df7c-51b2-98ba-674748459853",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-6967",
+      "diary_date": "2026-06-11",
+      "wording": "10.30- evening pem",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:51cde115-a41b-51ef-8cbe-d73fd5d5ae91",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-6993",
+      "diary_date": "2026-06-13",
+      "wording": "14-16 evening pem",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:207a318b-e3cb-522e-820b-d951ecda133f",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-7156",
+      "diary_date": "2026-06-25",
+      "wording": "8.45- evening pem",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:497b264f-e5b9-5ebb-a5af-ce420fe71544",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-7303",
+      "diary_date": "2026-07-05",
+      "wording": "12.20- sleep pressure evening pem",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:b9b2929d-fa57-5c0f-ae58-4c6427b9be3c",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-7339",
+      "diary_date": "2026-07-07",
+      "wording": "2.25- evening pem",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:e0fd82ef-c6c7-56cf-b1fa-0b3068b58917",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-7430",
+      "diary_date": "2026-07-12",
+      "wording": "5.50- sleep pressure evening pem",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:ede6bcd0-41fd-5298-abc7-7460d2ef93b8",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-7586",
+      "diary_date": "2026-07-22",
+      "wording": "2.15-2.40 mild blackout or maybe strong evening pem",
+      "assertion": "uncertain",
+      "count_class": "uncertain"
+    },
+    {
+      "occurrence_id": "event:ba533936-48e3-5c9d-9e6b-55c061818c01",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-7916",
+      "diary_date": "2026-08-18",
+      "wording": "18- “evening pem” (similar to what i feel after morning meals once i start getting hungry, but i’m not hungry, just ate), pretty strong today for no apparent reason. it usually starts much later",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:482be189-7a25-5446-b916-4d76440edfac",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-7930",
+      "diary_date": "2026-08-19",
+      "wording": "20 evening peminess starting",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:bf8edcc0-7d5f-506c-9e24-fa3ff61df437",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-8010",
+      "diary_date": "2026-08-25",
+      "wording": "22- evening pem",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:da1bb646-874c-56cd-9fcc-d1e3ea0a889f",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-8150",
+      "diary_date": "2026-09-05",
+      "wording": "19- evening pem, sleep pressure",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:43881235-75ad-5e99-81bf-38b019a7b7f9",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-8157",
+      "diary_date": "2026-09-06",
+      "wording": "12.15- evening pem like state - from blueberries?",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:2da92e19-4f9b-5462-9799-cecf134b8e0e",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-8251",
+      "diary_date": "2026-09-13",
+      "wording": "18- evening pem, mild sleep pressure",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:6b5e5ec8-1f25-5848-80c4-4cec24be9c0d",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-8407",
+      "diary_date": "2026-09-26",
+      "wording": "16- evening tingling",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:5bb90935-1231-5127-be48-352d6a31ce8f",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-8531",
+      "diary_date": "2026-10-05",
+      "wording": "14- evening tingling, some sleep pressure",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:d4211631-749e-5001-b151-7fd9c2c36cec",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-8597",
+      "diary_date": "2026-10-10",
+      "wording": "14- pretty strong evening pulsing",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:6efac445-fb05-57b9-9466-6ccd278177fc",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-8609",
+      "diary_date": "2026-10-11",
+      "wording": "evening pulsing but also a bit wired, some emotional excitement (cried) due to trauma memories",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:6af62c73-658d-5e51-a8f1-3344ec318f36",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-8619",
+      "diary_date": "2026-10-12",
+      "wording": "12- evening pulsing/tingling already, bit early today",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:25be9b3f-f46c-5b3b-9a72-d0e49327a58a",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-8750",
+      "diary_date": "2026-10-21",
+      "wording": "5.35- evening tingling",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:cf3ccb2d-2e35-5a13-ac65-3589eed706e4",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-8764",
+      "diary_date": "2026-10-22",
+      "wording": "3.40- pretty strong evening symptoms/tingling",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:23451868-c939-53f1-8b31-ecc011a4ddb2",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-8778",
+      "diary_date": "2026-10-23",
+      "wording": "3- evening symptoms",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:88731ad1-77a0-5d82-bced-3208ce4267f9",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-9052",
+      "diary_date": "2026-11-12",
+      "wording": "22.45-0 stronger evening peminess",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:856eb9cd-cd32-5554-8ecb-887ea4830038",
+      "source_table": "diary_observations",
+      "source_id": "S2-OBS-9066",
+      "diary_date": "2026-11-13",
+      "wording": "21.30- evening peminess",
+      "assertion": "positive_observation",
+      "count_class": "observed_state"
+    }
+  ]
+}

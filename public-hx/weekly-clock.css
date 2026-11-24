@@ -1,0 +1,246 @@
+/* Shared rows align all seven civil days even when change summaries differ in length. */
+.wk-wrap{--wc-hour:max(2rem,var(--wc-label-hour,0px));--wc-head:14.25rem;--wc-axis:3.5rem;--wc-rule:#657970;--wc-half:#354940;--wc-grid-bg:#17211f}
+[data-theme=light] .wk-wrap{--wc-rule:#879c90;--wc-half:#ced9d1;--wc-grid-bg:#f8fbf8}
+.shell .wk-wrap{overflow:visible;max-height:none;scrollbar-gutter:auto;isolation:isolate;position:relative;scroll-padding:var(--wc-head) .4rem .8rem 3.8rem;border-radius:7px;outline-offset:2px}
+.shell .wk-grid{display:grid;grid-template-columns:var(--wc-axis) repeat(7,minmax(0,1fr));grid-template-rows:var(--wc-head) auto calc(24 * var(--wc-hour)) auto;width:100%;min-width:0;align-items:stretch}
+.shell .wk-grid>.wk-day,.wc-axis{display:grid;grid-row:1 / span 4;grid-template-rows:subgrid;align-self:stretch;padding:0;gap:0}
+.shell .wk-grid>.wk-day{width:100%;min-width:0;border:0;border-left:2px solid var(--wc-rule);background:var(--canvas)}
+.shell .wk-day>.wk-day-head{box-sizing:border-box;position:sticky;top:0;z-index:4;height:var(--wc-head);min-width:0;min-height:0;padding:.55rem .62rem;margin:0;overflow:hidden;border-bottom:2px solid var(--wc-rule)}
+.shell .wk-day-head>h2{margin:0;font:600 .82rem/1.25 var(--font)}
+.shell .wk-day-head>time{font-size:1.12rem}.shell .wk-day .wk-rating{margin:.16rem 0 .2rem}.shell .wk-day .wk-rating span{font-weight:600}
+.shell .wk-sleep{min-width:0;margin:.25rem 0 0;padding-top:.2rem}.wk-sleep>[id]{scroll-margin:var(--wc-head)}
+.shell .wk-day .wk-sleep .wk-source-trigger{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;white-space:normal;line-height:1.25;overflow-wrap:anywhere}
+.wc-change-slot{align-self:stretch;background:var(--canvas);min-width:0;overflow:visible}
+.wc-change-slot:empty{height:0}.wc-change-slot>.wk-block.wk-changes{margin:.28rem;border:0;background:none}
+.wc-axis{position:sticky;left:0;z-index:5;align-items:stretch;background:var(--canvas);color:var(--muted);border-right:1px solid var(--wc-rule)}
+.wc-axis>div:first-child{position:sticky;top:0;background:var(--canvas);z-index:1;border-bottom:2px solid var(--wc-rule)}
+.wc-axis-track,.wc-track{position:relative;height:calc(24 * var(--wc-hour));border-bottom:1px solid var(--wc-rule);
+ background:repeating-linear-gradient(to bottom,var(--wc-rule) 0 1px,transparent 1px calc(var(--wc-hour)/2),var(--wc-half) calc(var(--wc-hour)/2) calc(var(--wc-hour)/2 + 1px),transparent calc(var(--wc-hour)/2 + 1px) var(--wc-hour)),var(--wc-grid-bg)}
+.wc-axis-track>span{position:absolute;top:calc(var(--h) * var(--wc-hour));left:.32rem;padding:.05rem .16rem;font:600 .7rem/1.45 var(--font);font-variant-numeric:tabular-nums;color:var(--ink);background:var(--wc-grid-bg)}
+.wc-axis-track>span:last-child{transform:translateY(-100%)}
+.wk-day .wc-track article.wc-event{position:absolute;box-sizing:border-box;top:calc(var(--top) * var(--wc-hour) / 60);left:calc(var(--lane) * 100% / var(--lanes));width:calc(100% / var(--lanes));height:calc(var(--height) * var(--wc-hour) / 60);border:0;line-height:1.1;padding:0 .16rem 0 .2rem;scroll-margin-block:var(--wc-head) 1rem}
+.wk-day .wc-event .wc-duration{position:absolute;top:calc(var(--shift) * var(--wc-hour) / 60);left:.22rem;right:.24rem;height:calc(var(--span) * var(--wc-hour) / 60);box-sizing:border-box;background:var(--wc-bg);border:1px solid var(--wc-edge);border-left:3px solid var(--wc-edge);border-radius:3px;pointer-events:none}
+.wc-duration.wc-sleep{background:repeating-linear-gradient(135deg,transparent 0 9px,#ffffff07 9px 11px),var(--wc-bg)}
+.wk-day .wc-event .wc-clock-button{display:block;position:relative;z-index:1;min-height:0;max-width:100%;height:100%;align-content:start;overflow:hidden;border-radius:3px;background:transparent;cursor:pointer;color:var(--ink);padding:0 .24rem;line-height:1.05}
+.wk-day .wc-event time{display:table;border-radius:2px;padding:0 .2rem;background:var(--wc-grid-bg);color:var(--ink);font:650 .76rem/1.2 var(--font);font-variant-numeric:tabular-nums}
+.wk-source-trigger:hover .wc-tags,.wk-source-trigger:focus-visible .wc-tags{text-decoration:none}
+.wc-tags{display:flex;align-items:flex-start;justify-content:flex-start;gap:.12rem .15rem;flex-wrap:wrap;text-align:left}
+.wc-chip,.wc-duration{--wc-bg:#2c3834;--wc-edge:#758981;--wc-text:#e1eae5}
+.wc-chip{display:inline-flex;max-width:100%;font:600 .875rem/1.18 var(--font);color:var(--wc-text);border:1px solid var(--wc-edge);border-radius:4px;background:var(--wc-bg);padding:.08rem .28rem;overflow-wrap:anywhere}
+.wc-pem{--wc-bg:#572d34;--wc-edge:#d2848c;--wc-text:#ffe1e2}
+.wc-sleep{--wc-bg:#19334c;--wc-edge:#709bbd;--wc-text:#dceeff}
+.wc-wake,.wc-meal{--wc-bg:#253e30;--wc-edge:#78a783;--wc-text:#d9efdc}
+.wc-treatment,.wc-change{--wc-bg:#303754;--wc-edge:#93a3c6;--wc-text:#e4eaff}
+.wc-symptom{--wc-bg:#3f324b;--wc-edge:#aa90b5;--wc-text:#f3e5fb}
+.wc-activity{--wc-bg:#453c27;--wc-edge:#bba169;--wc-text:#f4e8c6}
+.wc-bowel{--wc-bg:#403427;--wc-edge:#b89873;--wc-text:#f0dfca}
+.wc-test,.wc-context{--wc-bg:#28403d;--wc-edge:#82a9a5;--wc-text:#d9f0ee}
+[data-theme=light] .wc-chip,[data-theme=light] .wc-duration{--wc-bg:#e7eeea;--wc-edge:#70877a;--wc-text:#22332b}
+[data-theme=light] .wc-pem{--wc-bg:#f7dce0;--wc-edge:#ad5d67;--wc-text:#631b2a}
+[data-theme=light] .wc-sleep{--wc-bg:#d6e5f3;--wc-edge:#688cab;--wc-text:#193a58}
+[data-theme=light] .wc-wake,[data-theme=light] .wc-meal{--wc-bg:#dfede0;--wc-text:#214a2a}
+[data-theme=light] .wc-treatment,[data-theme=light] .wc-change{--wc-bg:#dfe5f5;--wc-text:#253c66}
+[data-theme=light] .wc-symptom{--wc-bg:#ede3f2;--wc-text:#452954}
+[data-theme=light] .wc-activity,[data-theme=light] .wc-bowel{--wc-bg:#f0e8d7;--wc-text:#4d381e}
+.wc-legend{display:flex;align-items:center;flex-wrap:wrap;gap:.3rem .45rem;margin:.65rem 0}.wc-legend>span:last-child{color:var(--muted);font-size:.81rem}
+.wc-untimed{padding:.25rem .45rem .6rem;min-width:0}
+.wk-wrap .wk-source-trigger,.wk-posted .wk-source-trigger,.wk-bound .wk-source-trigger{cursor:pointer}
+.wc-definition-links{display:block;margin:.45rem 0}
+@media print{.shell .wk-wrap{max-height:none}.wk-day .wc-event .wk-source-trigger{display:block!important}.wc-legend{display:none}}
+.wk-day .wc-event .wc-clock-button{display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-start;gap:.03rem}
+.wk-day .wc-event .wc-tags{width:100%}
+.wk-day .wc-event .wc-point{position:absolute;top:calc(var(--shift) * var(--wc-hour) / 60);left:.13rem;transform:translateY(-1px);height:.33rem;width:.33rem;border-radius:50%;background:var(--ink);z-index:1;pointer-events:none}
+.wk-day .wc-event:not([data-end-minute]){height:auto}
+.wk-day .wc-event:not([data-end-minute]) .wc-clock-button{height:auto;min-height:1.75rem;padding-left:.43rem;overflow:visible}
+.wk-day .wc-track .wc-event[data-label-above]>.wc-clock-button{position:absolute;top:calc(var(--shift) * var(--wc-hour) / 60);width:calc(100% - .4rem);height:auto;transform:translateY(-100%);overflow:visible}
+.wk-day .wc-event:target>.wc-clock-button{outline:2px solid var(--focus);outline-offset:-1px;border-radius:3px}
+
+/* Bands retain clock geometry even when two co-timed labels need separate lines. */
+.wk-day .wc-track[data-wc-ready] .wc-event{left:0;width:100%;pointer-events:none}
+.wk-day .wc-track[data-wc-ready] .wc-duration{
+  left:calc(var(--band-lane,0) * 100% / var(--band-count,1) + .14rem);
+  right:calc(100% - (var(--band-lane,0) + 1) * 100% / var(--band-count,1) + .14rem);
+  pointer-events:auto;cursor:pointer
+}
+.wk-day .wc-track[data-wc-ready] .wc-duration.wc-estimated{border-bottom-style:dashed}
+.wk-day .wc-track[data-wc-ready] .wc-event .wc-clock-button{
+  position:absolute;top:var(--label-offset,0);left:.52rem;width:calc(100% - .65rem);
+  height:auto;min-height:0;max-width:100%;padding:0;overflow:visible;
+  transform:none;pointer-events:auto
+}
+.wk-day .wc-track[data-wc-ready] .wc-event>.pz-edit-actions{
+  position:absolute;top:calc(var(--label-offset,0px) + var(--label-height,0px) + 2px);
+  left:.52rem;right:.12rem;z-index:2;margin:0;pointer-events:auto
+}
+.wk-day .wc-track[data-wc-ready] .wc-event[data-wc-moved]::before{
+  content:"";position:absolute;left:.18rem;top:var(--leader-y);height:var(--leader-height);
+  border-left:1px dotted var(--muted);pointer-events:none
+}
+.wc-timing-note{color:var(--ink);padding:.35rem .55rem;background:var(--tint);border-left:2px solid var(--accent)}
+#wc-sleep-tooltip{position:fixed;z-index:7;width:max-content;max-width:min(25rem,calc(100vw - 16px));padding:.55rem .75rem;border:1px solid var(--control-line);border-radius:5px;background:var(--paper);color:var(--ink);box-shadow:0 .25rem .8rem #0005;font-size:.9rem;line-height:1.4;overflow-wrap:anywhere;pointer-events:none}
+.wc-controls{display:flex;align-items:center;justify-content:space-between;gap:.6rem 1rem;flex-wrap:wrap}
+.wc-view{display:flex;align-items:center;gap:.5rem;font-size:.86rem;color:var(--muted)}
+.wc-view select{font-size:.9rem;color:var(--ink);max-width:12rem}
+@media (min-width:68rem){.shell:has(.wk-wrap){width:min(108rem,calc(100% - 3rem))}}
+@media (max-width:67.99rem){.shell .wk-grid{width:calc(var(--wc-axis) + 7 * (100% - var(--wc-axis)) / 3)}}
+@media (max-width:39.99rem){.shell .wk-grid{width:calc(var(--wc-axis) + 7 * (100% - var(--wc-axis)))}.wk-wrap{--wc-axis:3rem}.wc-legend{gap:.3rem}}
+.shell .wk-wrap[data-single-day] .wk-grid{width:calc(var(--wc-axis) + 7 * (100% - var(--wc-axis)))}
+@media print{.shell .wk-grid,.shell .wk-wrap[data-single-day] .wk-grid{width:100%}}
+
+/* The page owns vertical movement. Only layouts with offscreen days pan horizontally. */
+@media(max-width:67.99rem){
+  .shell .wk-wrap{overflow-x:auto;overflow-y:hidden}
+  .shell .wk-day>.wk-day-head,.wc-axis>div:first-child{position:relative;top:auto;transform:translateY(var(--pinned-y,0px))}
+}
+.shell .wk-wrap[data-single-day]{overflow-x:auto;overflow-y:hidden}
+.shell .wk-wrap[data-single-day] .wk-day-head,.wk-wrap[data-single-day] .wc-axis>div:first-child{
+  position:relative;top:auto;transform:translateY(var(--pinned-y,0px))
+}
+.wc-sleep-line{display:flex;align-items:baseline;justify-content:space-between;gap:.2rem}
+.wc-sleep-line strong{font-size:.76rem;color:var(--muted)}
+.shell .wk-day .wc-sleep-line .wc-sleep-duration{
+  display:inline-block;width:auto;white-space:normal;text-align:right;font:650 .83rem/1.2 var(--font);
+  color:var(--ink);font-variant-numeric:tabular-nums;text-decoration:underline dotted var(--control-line);text-underline-offset:.17em
+}
+.wk-day .wc-track[data-wc-ready] .wc-clock-button{display:block;line-height:1.22}
+.wk-day .wc-track[data-wc-ready] .wc-clock-button time{display:inline-block;margin-inline-end:.16rem}
+.wk-day .wc-track[data-wc-ready] .wc-clock-button .wc-tags{display:inline}
+.wk-day .wc-track[data-wc-ready] .wc-clock-button .wc-chip{display:inline-block;vertical-align:baseline;margin:.03rem .13rem .03rem 0}
+@media print{.shell .wk-wrap,.shell .wk-wrap[data-single-day]{overflow:visible}.shell .wk-day>.wk-day-head,.wc-axis>div:first-child{position:static;transform:none}}
+
+/* Reveal the precise time without resizing the label or opening its source panel. */
+.wk-day .wc-track .wc-event .wc-clock-button time,
+.wk-day .wc-track[data-wc-ready] .wc-event .wc-clock-button time{
+  display:none;position:absolute;bottom:100%;left:0;z-index:3;white-space:nowrap;
+  background:var(--paper);border:1px solid var(--control-line);padding:.12rem .3rem;
+  box-shadow:0 .15rem .4rem #0004;pointer-events:none
+}
+.wk-day .wc-track .wc-event:has(.wc-clock-button:focus-visible),
+.wk-day .wc-track .wc-event:has(.wc-clock-button:hover,.wc-duration:hover){z-index:3}
+.wk-day .wc-track .wc-event .wc-clock-button:focus-visible time{display:block}
+.wk-day .wc-track[data-wc-ready] .wc-event .wc-clock-button{width:max-content;max-width:calc(100% - .65rem)}
+@media(hover:hover){
+  .wk-day .wc-track .wc-event .wc-clock-button:hover time,
+  .wk-day .wc-track .wc-event .wc-duration:hover~.wc-clock-button time{display:block}
+
+}
+@media print{
+  .wk-day .wc-track .wc-event .wc-clock-button time,.wk-day .wc-track[data-wc-ready] .wc-event .wc-clock-button time{
+    display:inline;position:static;border:0;padding:0 .15rem;box-shadow:none
+  }
+}
+
+/* Midnight continuations have no preceding clock row for a tooltip. Give symptom
+   continuations a compact, persistent range, and reveal other midnight times below. */
+.wk-day .wc-track .wc-event[data-minute="0"] .wc-clock-button time{bottom:auto;top:100%}
+.wk-day .wc-track .wc-event .wc-clock-button time.wc-continued-time{
+  display:inline-block;position:static;background:var(--wc-grid-bg);color:var(--ink);
+  padding:0 .12rem;margin-inline-end:.16rem;border:0;box-shadow:none
+}
+
+.wk-sleep-forward:not(:target){display:none}
+
+.wc-chip.wc-state{font-size:.79em;font-weight:550;border:1px solid var(--control-line);background:var(--tint);color:var(--muted);padding:.02rem .25rem}
+
+/* Wearable measurements belong to the expandable changes row, not the clipped,
+   fixed-height sticky date header. Native <details> works with or without JS. */
+.shell .wc-change-slot>.wk-watch-summary{
+  position:relative;z-index:2;display:block;margin:0;
+  padding:.13rem .35rem;border:1px solid var(--control-line);border-radius:5px;
+  background:var(--paper);font-size:.72rem;overflow:visible
+}
+.shell .wc-change-slot>.wk-watch-summary>summary{cursor:pointer;font-weight:650;overflow-wrap:anywhere}
+.shell .wc-change-slot>.wk-watch-summary[open]{padding-bottom:.5rem}
+.shell .wc-change-slot>.wk-watch-summary dl{display:grid;grid-template-columns:1fr;gap:.1rem;margin:.4rem 0}
+.shell .wc-change-slot>.wk-watch-summary dt{color:var(--muted)}
+.shell .wc-change-slot>.wk-watch-summary dd{margin:0 0 .3rem;text-align:left;overflow-wrap:anywhere}
+.shell .wc-change-slot>.wk-watch-summary small{display:block;color:var(--muted)}
+.shell .wk-day>.wc-change-slot:has(.wk-watch-summary){min-width:0}
+
+/* Regimen and watch disclosures share a compact second grid row. Longer
+   treatment changes no longer inflate every other day's empty cell. */
+.shell .wc-change-slot{display:flex;flex-direction:column;align-content:stretch;gap:.17rem;
+  padding:.2rem .28rem .3rem;min-width:0;align-self:start}
+.shell .wc-change-slot>details{box-sizing:border-box;display:block;margin:0;width:100%;
+  min-width:0;padding:.13rem .35rem;border:1px solid var(--control-line);
+  border-radius:5px;background:var(--paper);font-size:.72rem}
+.shell .wc-change-slot>details>summary{font-weight:650;cursor:pointer;line-height:1.24;overflow-wrap:anywhere}
+.shell .wc-change-slot>details[open]{padding-bottom:.38rem}
+.shell .wc-change-slot .wk-regimen-content{line-height:1.35;overflow-wrap:anywhere;padding:.35rem .05rem .1rem}
+.shell .wc-change-slot .wk-regimen-content ul{margin:.3rem 0 .55rem;padding-left:1rem}
+.shell .wc-change-slot .wk-regimen-content li{margin:.25rem 0;overflow-wrap:anywhere}
+.shell .wc-change-slot .wk-regimen-content small{display:block;color:var(--muted);font-size:.68rem}
+.shell .wc-change-slot .wk-regimen-content strong{font-size:.75rem}
+.shell .wc-change-slot .wk-regimen-content p{margin:.35rem 0}
+.shell .wc-change-slot .wk-regimen-caveat{color:var(--muted);font-size:.7rem}
+.shell .wc-change-slot .wk-missed-regimen{border-left:2px solid var(--accent);padding-left:.35rem;margin-bottom:.55rem}
+.shell .wc-change-slot .wk-regimen-uncertain{margin:.4rem 0}
+.shell .wc-change-slot .wk-day-changes .wk-block{padding:0;margin:.3rem 0 0;border:0}
+.shell .wc-change-slot .wk-day-changes article{padding:.24rem 0;border-top:1px solid var(--line)}
+.shell .wc-change-slot>.wk-watch-summary dl{display:block;margin:.4rem 0}
+.shell .wc-change-slot>.wk-watch-summary dt{margin:.2rem 0 0}
+.shell .wc-change-slot>.wk-watch-summary dd{margin:0 0 .26rem}
+.wk-sleep-stages{font-size:.67rem;line-height:1.26;margin-top:.28rem}
+.wk-stage-bar{display:flex;overflow:hidden;width:100%;height:.3rem;border-radius:.25rem;background:var(--line)}
+.wk-stage-bar>span{height:100%;display:block}
+.wk-stage-core{background:#a6b7d8}.wk-stage-deep{background:#5279b9}
+.wk-stage-rem{background:#65af9a}.wk-stage-other{background:#8b9296}
+.wk-stage-names{margin-top:.18rem;overflow-wrap:anywhere}
+.wk-stage-names>span{white-space:normal}
+
+/* Compact sleep source and stage labels avoid splitting words or clipping. */
+.shell .wk-day .wc-sleep-line{justify-content:flex-start;flex-wrap:wrap;gap:.14rem .32rem;align-items:baseline}
+.shell .wk-day .wc-sleep-line .wc-watch-sleep{white-space:nowrap;font-size:.83rem;font-weight:650}
+.shell .wk-day .wc-sleep-line .wk-watch-context{white-space:nowrap;font-size:.72rem}
+.wk-sleep-stages .wk-stage-names{display:flex;flex-wrap:wrap;gap:.06rem .37rem;font-size:.68rem;line-height:1.25}
+.wk-sleep-stages .wk-stage-names>span{white-space:nowrap}
+
+/* Consistent sleep and daily-score layout: stages share the same vertical position. */
+.shell .wk-day>.wk-day-head{display:flex;flex-direction:column;align-items:stretch}
+.shell .wk-day-head>.wk-sleep{order:1;min-height:6.6rem;margin:.35rem 0 0;padding-top:.35rem;border-top:1px solid var(--control-line)}
+.shell .wk-day-head>.wk-rating,.shell .wk-day-head>.wk-rating-wrap{order:2;margin-top:auto}
+.shell .wk-day-head>.wk-rating-wrap .wk-rating{margin:.1rem 0}
+.shell .wk-day-head>.wk-sleep .wk-sleep-preview{margin-top:.3rem}
+/* Time-aligned Watch stages on the actual 24-hour clock; gaps are not filled. */
+/* Watch sleep stages fill the full day column, behind selectable diary entries.
+   No interval, missing stage, or time gap is interpolated. */
+.wk-day .wc-track{isolation:isolate}
+.wk-day .wc-track .wc-event{z-index:1}
+.wk-day .wc-track .wc-stage-range{--wc-stage-color:#8b9296;position:absolute;z-index:0;
+  top:calc(var(--stage-top) * var(--wc-hour)/60);
+  height:calc(var(--stage-length) * var(--wc-hour)/60);
+  left:0;right:0;min-height:1px;
+  background:color-mix(in srgb,var(--wc-stage-color) 72%,var(--wc-grid-bg));
+  pointer-events:auto;cursor:help}
+.wk-day .wc-track .wc-stage-range.wc-stage-core{--wc-stage-color:#a6b7d8}
+.wk-day .wc-track .wc-stage-range.wc-stage-deep{--wc-stage-color:#5279b9}
+.wk-day .wc-track .wc-stage-range.wc-stage-rem{--wc-stage-color:#65af9a}
+.wk-day .wc-track .wc-stage-range.wc-stage-awake{--wc-stage-color:#cfb58b}
+.wk-day .wc-track .wc-stage-range.wc-stage-unspecified{--wc-stage-color:#8b9296}
+.wk-day .wc-stage-range:hover{filter:brightness(1.12);outline:1px solid var(--ink);outline-offset:-1px}
+.wk-day .wc-event.wc-watch-conflict{opacity:.75}
+.wk-day .wc-event.wc-watch-conflict .wc-clock-button{border-bottom:1px dashed var(--wc-edge,#aaa)}
+.wc-watch-key{display:inline-flex;gap:.3rem;align-items:center;font-size:.77rem;color:var(--muted)}
+.wc-watch-key i{display:inline-block;width:.62rem;height:.62rem;border-radius:2px}
+@media print{.wc-stage-range{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
+
+/* Measured stage summary reference bands (approximate; not diagnostic). */
+.wk-sleep-stages .wk-stage-names{align-items:center}
+.wk-stage-value{border-radius:4px;padding:.07rem .2rem;border:1px solid transparent;font-weight:650}
+.wk-stage-grade-low{color:#ffb2bc;background:#542a33;border-color:#a35764}
+.wk-stage-grade-borderline{color:#ffdb8c;background:#4b3a22;border-color:#9c7a3c}
+.wk-stage-grade-typical{color:#a7ebc1;background:#254332;border-color:#527c64}
+.wk-stage-grade-neutral{color:var(--muted);background:var(--tint)}
+:root[data-theme="light"] .wk-stage-grade-low{color:#9d2534;background:#fce6e8;border-color:#cd8490}
+:root[data-theme="light"] .wk-stage-grade-borderline{color:#855610;background:#fff3d9;border-color:#c7a261}
+:root[data-theme="light"] .wk-stage-grade-typical{color:#207045;background:#e6f5e9;border-color:#79ab8e}
+
+.wc-stage-key{font-size:.69rem;color:var(--muted);margin:-.15rem 0 .7rem;max-width:94ch}
+.wc-stage-key summary{cursor:pointer;text-decoration:underline;text-underline-offset:2px}
+.wc-stage-key p{margin:.35rem 0 .5rem;line-height:1.5}
+
+/* Revision 54: dynamic shared header height. At narrow widths sleep stage
+   badges/subjective notes wrap; auto-size the whole seven-day header row so
+   the daily score remains below the sleep description without overlap. */
+.shell .wk-grid{grid-template-rows:minmax(var(--wc-head),max-content) auto calc(24 * var(--wc-hour)) auto}
+.shell .wk-day>.wk-day-head{height:auto;min-height:var(--wc-head);overflow:visible}
