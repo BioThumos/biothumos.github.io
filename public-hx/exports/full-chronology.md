@@ -10964,6 +10964,26 @@ S2:9005-9043 · 19- pretty strong nape pressure after watching a few minutes of 
 22.58 BM very constipated
 23.10- sudden strong burning CNS and forehead, not stopped by meal interestingly […]
 
+## 2026-11-25 · Genetic Genie Detox Profile
+
+Test
+
+Consumer genotype annotation; vendor classifications do not establish pathogenicity, enzyme activity, metabolizer phenotype or a diagnosis. Collection date and underlying assay are not documented. Vendor notation is retained as reported.
+
+Report date only · consumer genotype annotation
+
+Source: reports:report:513c897e57d98de9433573018f36230a · report:513c897e57d98de9433573018f36230a
+
+## 2026-11-25 · Genetic Genie Methylation Profile
+
+Test
+
+Consumer genotype annotation; vendor classifications do not establish pathogenicity, enzyme activity, metabolizer phenotype or a diagnosis. Collection date and underlying assay are not documented. Vendor notation is retained as reported.
+
+Report date only · consumer genotype annotation
+
+Source: reports:report:a7e6f09fe5eee1f572acb5703912d17d · report:a7e6f09fe5eee1f572acb5703912d17d
+
 ## Date unrecorded · D-ribose
 
 Action

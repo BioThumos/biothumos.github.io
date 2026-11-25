@@ -8,6 +8,8 @@ author_followers: 6286
 ---
 # Tweets by Zedzies (@Zedzies)
 
+![[reference/tweets/posts/Zedzies - The choline IVs dont seem to work, although do app]]
+
 ![[reference/tweets/posts/Zedzies - Mito damage is primarily membranecardiolipin dama]]
 
 ![[reference/tweets/posts/Zedzies - Hundreds of millions wasted on ivermectin meme res]]
