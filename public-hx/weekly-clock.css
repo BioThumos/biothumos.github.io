@@ -56,24 +56,31 @@
 .wk-day .wc-event:target>.wc-clock-button{outline:2px solid var(--focus);outline-offset:-1px;border-radius:3px}
 
 /* Bands retain clock geometry even when two co-timed labels need separate lines. */
-.wk-day .wc-track[data-wc-ready] .wc-event{left:0;width:100%;pointer-events:none}
+.wk-day .wc-track[data-wc-ready] .wc-event{
+  left:0;width:100%;pointer-events:none;
+  --wc-area-start:0%;--wc-area-size:100%;
+  --wc-band-size:calc(var(--wc-area-size) / var(--band-count,1));
+  --wc-band-start:calc(var(--wc-area-start) + var(--band-lane,0) * var(--wc-band-size));
+  --wc-label-left:calc(var(--wc-band-start) + .28rem);
+  --wc-label-max:calc(var(--wc-band-size) - .42rem)
+}
 .wk-day .wc-track[data-wc-ready] .wc-duration{
-  left:calc(var(--band-lane,0) * 100% / var(--band-count,1) + .14rem);
-  right:calc(100% - (var(--band-lane,0) + 1) * 100% / var(--band-count,1) + .14rem);
+  left:calc(var(--wc-band-start) + .14rem);
+  right:calc(100% - var(--wc-band-start) - var(--wc-band-size) + .14rem);
   pointer-events:auto;cursor:pointer
 }
 .wk-day .wc-track[data-wc-ready] .wc-duration.wc-estimated{border-bottom-style:dashed}
 .wk-day .wc-track[data-wc-ready] .wc-event .wc-clock-button{
-  position:absolute;top:var(--label-offset,0);left:.52rem;width:calc(100% - .65rem);
-  height:auto;min-height:0;max-width:100%;padding:0;overflow:visible;
+  position:absolute;top:var(--label-offset,0);left:var(--wc-label-left);width:max-content;
+  height:auto;min-height:0;max-width:var(--wc-label-max);padding:0;overflow:visible;
   transform:none;pointer-events:auto
 }
 .wk-day .wc-track[data-wc-ready] .wc-event>.pz-edit-actions{
   position:absolute;top:calc(var(--label-offset,0px) + var(--label-height,0px) + 2px);
-  left:.52rem;right:.12rem;z-index:2;margin:0;pointer-events:auto
+  left:var(--wc-label-left);width:var(--wc-label-max);z-index:2;margin:0;pointer-events:auto
 }
 .wk-day .wc-track[data-wc-ready] .wc-event[data-wc-moved]::before{
-  content:"";position:absolute;left:.18rem;top:var(--leader-y);height:var(--leader-height);
+  content:"";position:absolute;left:calc(var(--wc-band-start) + .18rem);top:var(--leader-y);height:var(--leader-height);
   border-left:1px dotted var(--muted);pointer-events:none
 }
 .wc-timing-note{color:var(--ink);padding:.35rem .55rem;background:var(--tint);border-left:2px solid var(--accent)}
@@ -129,7 +136,11 @@
 .wk-day .wc-track .wc-event:has(.wc-clock-button:focus-visible),
 .wk-day .wc-track .wc-event:has(.wc-clock-button:hover,.wc-duration:hover){z-index:3}
 .wk-day .wc-track .wc-event .wc-clock-button:focus-visible time{display:block}
-.wk-day .wc-track[data-wc-ready] .wc-event .wc-clock-button{width:max-content;max-width:calc(100% - .65rem)}
+.wk-day .wc-track[data-wc-ready] .wc-event .wc-clock-button{width:max-content;max-width:var(--wc-label-max)}
+/* Keep point labels at the day edge. Duration labels start on their own stripe. */
+.wk-day .wc-track[data-wc-ready] .wc-event:not([data-end-minute]){--wc-label-left:calc(var(--wc-area-start) + .52rem);--wc-label-max:calc(var(--wc-area-size) - .65rem)}
+.wk-day .wc-track[data-wc-ready] .wc-event[data-wc-narrow] .wc-chip{font-size:.76rem;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden}
+
 @media(hover:hover){
   .wk-day .wc-track .wc-event .wc-clock-button:hover time,
   .wk-day .wc-track .wc-event .wc-duration:hover~.wc-clock-button time{display:block}
@@ -259,9 +270,12 @@
 /* Crowded-day fallback: put sleep geometry in a separate rail, and show
    exact clock labels instead of implying that displaced activity happened asleep. */
 .wk-day .wc-track[data-wc-ready][data-wc-sleep-rail] .wc-duration.wc-sleep{left:.12rem;right:84%}
-.wk-day .wc-track[data-wc-ready][data-wc-sleep-rail] .wc-event .wc-clock-button{left:18%;max-width:81%}
+.wk-day .wc-track[data-wc-ready][data-wc-sleep-rail] .wc-event{--wc-area-start:18%;--wc-area-size:82%}
+.wk-day .wc-track[data-wc-ready][data-wc-sleep-rail] .wc-event:has(.wc-duration.wc-sleep){--wc-label-left:18%;--wc-label-max:81%}
+.wk-day .wc-track[data-wc-ready][data-wc-sleep-rail] .wc-event:has(.wc-duration.wc-sleep)[data-wc-moved]::before{left:16%}
+.wk-day .wc-track[data-wc-ready][data-wc-sleep-rail] .wc-event .wc-point{left:calc(var(--wc-area-start) + .13rem)}
 .wk-day .wc-track[data-wc-ready][data-wc-sleep-rail] .wc-event .wc-clock-button time{display:block;position:static;box-shadow:none;border:0;background:transparent;padding:0;font-size:.72rem}
-.wk-day .wc-track[data-wc-ready][data-wc-sleep-rail] .wc-event>.pz-edit-actions{left:18%}
+
 .wk-day .wc-track[data-wc-sleep-rail] .wc-stage-range{right:84%}
 
 /* R72: shared, content-driven header row. No reserved space for absent metrics. */

@@ -1,6 +1,6 @@
 # Bezafibrate · course dossier
 
-Revision: Revision 83
+Revision: Revision 85
 course:ddf84379-c3cd-5b4c-b702-eb2f4eef6cf6
 documented_course
 2025-06-12 · Supply exhausted 2025-07-11 · S3 dates first dose to June 11. On June 11 the plan was to begin the following day; June 12 diary and contemporaneous patient confirmation of taking it with food agree. No clear benefit reported.

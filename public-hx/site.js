@@ -186,3 +186,84 @@ for (const panel of document.querySelectorAll('.record-directory .c-member > .re
   };
   document.querySelectorAll('input[type=search]').forEach(makeClearable);
 })();
+
+// Stable record/section permalinks. Keep labels, record identities and URLs independent
+// of locale, sort order and display filters. Never add controls to raw evidence.
+(() => {
+  const selector='details.bm-report-card[id],details.bm-card[id],details.bm-panel[id],details.bm-section[id],details.c-entry[id],details.ba-group[id],article.entry[id],section[id]:not(.wk-day),article.bm-rna-report[id],article.qual-card[id],.track[id]';
+  const excluded='[data-record-source],.record-source,.record-source-body,.wk-evidence,template,#wk-source-panel';
+  const hash=id=>'#'+encodeURIComponent(id);
+  const target=()=>{try{return document.getElementById(decodeURIComponent(location.hash.slice(1)));}catch{return null;}};
+  function link(id) {
+    const a=document.createElement('a');a.className='section-permalink';a.href=hash(id);
+    a.setAttribute('aria-label','Link to this section');a.title='Link to this section';
+    a.innerHTML='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true" focusable="false"><path d="M10 13a4 4 0 0 0 6 0l4-4a4 4 0 0 0-6-6l-2 2M14 11a4 4 0 0 0-6 0l-4 4a4 4 0 0 0 6 6l2-2"/></svg>';
+    window.pzLocalize?.translate(a);
+    return a;
+  }
+  function syncLocaleLinks(){
+    for(const a of document.querySelectorAll('.pz-locale-flag')){
+      const u=new URL(a.href);u.hash=location.hash;a.href=u.href;
+    }
+  }
+  function mark(id){
+    if(!id || target()?.id===id)return;
+    // Updating a disclosure's URL must not cause a second toggle or scroll jump.
+    try{history.pushState(history.state,'',hash(id));syncLocaleLinks();}
+    catch{location.hash=hash(id);}
+  }
+  function decorate(container,heading){
+    if(!heading || container.closest(excluded)||heading.querySelector(':scope > .section-permalink, :scope > .record-heading-text > .section-permalink'))return;
+    const host=heading.querySelector(':scope > .record-heading-text')||heading;
+    // Keep the link adjacent to the name and ahead of secondary metadata.
+    if(container.matches('.bm-report-card') && heading.matches('summary')){
+      heading.querySelector('strong')?.after(link(container.id));return;
+    }
+    host.appendChild(link(container.id));
+  }
+  function install(root=document){
+    const nodes=[...(root.matches?.(selector)?[root]:[]),...root.querySelectorAll(selector)];
+    for(const node of nodes){
+      const heading=node.matches('details')?node.querySelector(':scope > summary'):
+        node.querySelector(':scope > h2,:scope > h3,:scope > header > h2,:scope > header > h3,:scope > .side > strong');
+      decorate(node,heading);
+    }
+    for(const node of root.querySelectorAll('main h1[id], main h2[id], main h3[id]')){
+      if(node.closest(excluded)||node.closest('.wk-day')||node.parentElement.id && node.parentElement.matches(selector)||node.closest('.c-sorted-group'))continue;
+      if(!node.querySelector('.section-permalink'))decorate(node,node);
+    }
+  }
+  function reveal(){
+    const t=target();if(!t)return;
+    syncLocaleLinks();
+    // Other page-specific handlers clear filters, select the appropriate tab,
+    // and navigate the weekly horizontal timetable. Do not override them.
+    if(t.closest('.wk-day,#bm-marker-view,#bm-report-view,.record-directory,.year-group'))return;
+    for(let n=t;n;n=n.parentElement){if(n.tagName==='DETAILS'&&!n.closest(excluded))n.open=true;}
+    if(t.matches(selector)||t.matches('h1,h2,h3'))requestAnimationFrame(()=>t.scrollIntoView({block:'start',inline:'nearest'}));
+  }
+  window.pzPermalink={link,install,mark};
+  document.addEventListener('DOMContentLoaded',()=>{
+    install();reveal();
+    // Native summary clicks (including keyboard activation) set a shareable URL
+    // only when opening a clinical record, not on programmatic expansion.
+    document.addEventListener('click',e=>{
+      const a=e.target.closest('a.section-permalink');
+      if(a){
+        if(e.button!==0||e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;
+        if(target()?.id===decodeURIComponent(a.hash.slice(1))){
+          // Same-hash clicks should still reveal a subsequently collapsed card.
+          e.preventDefault();window.dispatchEvent(new Event('hashchange'));
+        }
+        return;
+      }
+      if(e.target.closest('a,button,input,select,label'))return;
+      const summary=e.target.closest('summary');const detail=summary?.parentElement;
+      if(detail?.matches(selector)&&!detail.open&&!detail.closest(excluded)){
+        // Let the default disclosure activation happen first.
+        requestAnimationFrame(()=>{if(detail.open)mark(detail.id);});
+      }
+    });
+    addEventListener('hashchange',reveal);addEventListener('popstate',syncLocaleLinks);
+  });
+})();

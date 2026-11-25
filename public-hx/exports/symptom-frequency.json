@@ -1,5 +1,5 @@
 {
-  "revision_id": "Revision 83",
+  "revision_id": "Revision 85",
   "description": "Documented positive diary-day rate, not a true episode rate. The calculation incorporates the time-indexed symptom occurrences AND positive structured daily assessments. An episode mentioned more than once on one diary day counts once. Sleep pressure includes separately identified inferred sleep-crash dates; direct counts are exported separately. Negative, ambiguous and merely rated assessments do not assert presence. Persistently present symptoms are ranked at the top. No lifetime weekly rate is displayed for resolved, mostly-resolved, persistently present or historically underdocumented symptoms. Neurological patterns, crash presentations and sensory descriptions have no separate frequency; they can overlap with their parent symptoms. Persistent symptoms are ranked above episodic ones.",
   "symptoms": [
     {

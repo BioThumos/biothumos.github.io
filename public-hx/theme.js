@@ -24,7 +24,11 @@
   function apply(theme) {
     root.dataset.theme = theme;
     const control = document.getElementById('theme-toggle');
-    if (control) control.setAttribute('aria-checked', String(theme === 'dark'));
+    if (control) {
+      const label = theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode';
+      control.setAttribute('aria-label', label);
+      control.title = label;
+    }
   }
   document.addEventListener('DOMContentLoaded', () => {
     const control = document.getElementById('theme-toggle');

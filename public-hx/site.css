@@ -21,7 +21,7 @@
     --mark-baseline:#b4a069; --mark-episode:#ba8d88; --mark-milestone:#75ad97;
   }
 }
-html{background:var(--canvas)}
+html{background:var(--canvas);-webkit-text-size-adjust:100%;text-size-adjust:100%}
 *{box-sizing:border-box}
 body{margin:0;color:var(--ink);background:var(--canvas);font:15px/1.6 var(--font);overflow-wrap:anywhere}
 a{color:var(--accent);text-underline-offset:.18em}a:hover{text-decoration:underline}a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:3px solid var(--focus);outline-offset:3px}
@@ -55,12 +55,12 @@ main .wk-nav button,main .wk-export button{background:var(--button-fill);color:v
 main .wk-nav button:hover,main .wk-export button:hover{background:var(--button-hover)}
 main .wk-day:target{background:var(--tint)}
 input::placeholder{color:var(--muted);opacity:1}
-.theme-toggle{margin-inline-start:auto;align-self:center;white-space:nowrap;gap:.55rem;padding:.45rem .5rem;background:none;color:#e2eee8;border:0;font-size:.82rem}
+.theme-toggle{margin-inline-start:auto;align-self:center;flex:none;width:2.4rem;height:2.4rem;padding:.45rem;background:none;color:#e2eee8;border:1px solid #ffffff32;border-radius:6px}
 .theme-toggle:hover{background:#ffffff0f}
-.switch-track{display:inline-flex;align-items:center;width:1.9rem;height:1.1rem;padding:2px;border:1px solid #b6c8bc;background:transparent;border-radius:1rem}
-.switch-track:before{content:"";display:block;width:.7rem;height:.7rem;border-radius:50%;background:#e1e9e3}
-.theme-toggle[aria-checked="true"] .switch-track{justify-content:flex-end;background:#a3d4bc;border-color:#a3d4bc}
-.theme-toggle[aria-checked="true"] .switch-track:before{background:#153228}
+.theme-toggle[hidden]{display:none}
+.theme-toggle svg{width:1.35rem;height:1.35rem;flex:none}
+.theme-toggle .theme-moon,[data-theme="light"] .theme-toggle .theme-sun{display:none}
+[data-theme="light"] .theme-toggle .theme-moon{display:block}
 @media(max-width:800px){
   .mast-inner{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:1px 10px}
   .mast nav{grid-column:1/-1;grid-row:2}
@@ -539,3 +539,18 @@ details.c-entry[open] + .record-worsening-preview {display:none}
 .current-stack .regimen-table thead{background:var(--paper)}
 .current-stack .regimen-table tbody tr:last-child :is(th,td){border-bottom:0}
 .current-stack{margin-bottom:1.5rem;scroll-margin-top:1rem}
+
+/* Timeline headers share the production shell; the charts may use the wider viewport. */
+.hero:has(+.timeline-switch){align-items:flex-start}
+.hero:has(+.timeline-switch)>div:first-child{min-width:0}
+.trends-heading.shell{min-height:0;padding-bottom:0}
+.trends-shell,.trends-charts{min-width:0;max-width:100%}
+
+/* Compact links to existing clinical identities; do not alter heading text or layout. */
+.section-permalink{display:inline-flex;align-items:center;justify-content:center;vertical-align:middle;width:1.35rem;height:1.35rem;margin-inline-start:.35rem;color:var(--muted);opacity:.68;border-radius:.2rem;text-decoration:none;flex:none;line-height:1}
+.section-permalink svg{width:.9rem;height:.9rem;pointer-events:none}
+.section-permalink:hover,.section-permalink:focus-visible{opacity:1;color:var(--accent);outline:1px solid var(--accent)}
+.section-permalink:focus-visible{outline-offset:2px}
+@media print{.section-permalink{display:none!important}}
+
+.wk-event-permalink{width:auto;height:auto;gap:.35rem;margin:0 0 .5rem;opacity:1;font-size:.82rem}

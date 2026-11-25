@@ -1,6 +1,6 @@
 # Rupatadine · course dossier
 
-Revision: Revision 83
+Revision: Revision 85
 course:pz67-rupatadine-in-use-by-2026-10-16
 documented_course
 In use by 2026-10-16 · Ongoing at review · Rupatadine is called an existing evening medication in the 2026-10-16 diary (that evening was skipped; taking it the following morning was planned). The 2026-11-20 complete stack confirms continued use. Exact restart unknown. A separate extra dose on 2026-08-18 does not prove continuity from August.

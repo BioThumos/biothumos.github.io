@@ -1,6 +1,6 @@
 # Methylene blue · course dossier
 
-Revision: Revision 83
+Revision: Revision 85
 course:bd1c957a-ea0c-5f32-9feb-d662c8cf89ed
 documented_course
 2025-10-21 · Stopped 2025-11-01 · Span from evidence of start/use to recorded stop, pause or depletion; individual days may have been skipped.

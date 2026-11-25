@@ -87,6 +87,16 @@
         }
         body.appendChild(section);
       }
+      // Keep the chart itself unchanged; expose the event's stable link in the popup.
+      const record = trigger.closest('[id^="entry-"]') ||
+        (trigger.previousElementSibling?.id.startsWith('entry-') ? trigger.previousElementSibling : null);
+      if (record && window.pzPermalink) {
+        const link = window.pzPermalink.link(record.id);
+        link.classList.add('wk-event-permalink');
+        const text = document.createElement('span');text.textContent = 'Link to this record';
+        link.appendChild(text);link.title = 'Link to this record';link.setAttribute('aria-label','Link to this record');
+        body.prepend(link);
+      }
       window.pzLocalize?.translate(panel);
       panel.hidden = false; panel.scrollTop = 0; place();
     }
@@ -198,9 +208,9 @@
     });
     // Only overlapping durations share band width; nearby point labels use
     // their own placement and need not narrow an otherwise solitary span.
-    function layoutBands() {
-    for (const track of tracks) {
+    function layoutBands(track, sleepRail=false) {
       const intervals=Array.from(track.querySelectorAll('.wc-event[data-end-minute]:not([hidden])'))
+        .filter(item=>!sleepRail || !item.querySelector('.wc-duration.wc-sleep'))
         .sort((a,b)=>Number(a.dataset.minute)-Number(b.dataset.minute));
       let ends=[], cluster=[];
       function finish() {
@@ -219,7 +229,17 @@
         cluster.push([item,lane]);
       }
       finish();
-    }
+      // Extreme crowding uses compact labels; the existing title and detail
+      // popup retain the complete text. Normal labels wrap within their lane.
+      for(const item of track.querySelectorAll('.wc-event:not([hidden])')) {
+        const band=item.querySelector('.wc-duration');
+        const narrow=!!band && !(sleepRail&&band.classList.contains('wc-sleep')) && band.getBoundingClientRect().width<46;
+        item.toggleAttribute('data-wc-narrow',narrow);
+        const button=item.querySelector('.wc-clock-button');
+        // Preserve a readable complete tooltip even if the lane clips the chip.
+        if(narrow){const text=button.getAttribute('aria-label');if(button.title!==text)button.title=text;}
+        else button.removeAttribute('title');
+      }
     }
     const modeControl=document.querySelector('[data-wc-mode]');
     const filterPanel=document.querySelector('[data-wc-filters]');
@@ -255,7 +275,7 @@
         event.hidden=(mode==='clinical'&&!!event.dataset.wcParent)||
           (mode==='custom'&&((chips.length>0&&!visible)||(routine&&!routine.checked&&event.dataset.wcRoutine==='true')));
       }
-      layoutBands();schedule();
+      schedule();
       if(persist)try{localStorage.setItem(savedKey,JSON.stringify({mode,excluded:[...boxes].filter(([,b])=>!b.checked).map(([name])=>name),routine:routine?.checked!==false}));}catch{}
     }
     if(modeControl){modeControl.closest('.wc-display-controls').hidden=false;modeControl.addEventListener('change',()=>applyMode());}
@@ -269,6 +289,7 @@
         if (!track.clientWidth || !track.clientHeight) return [];
         track.dataset.wcReady = '';
         track.removeAttribute('data-wc-sleep-rail');
+        layoutBands(track);
         return Array.from(track.querySelectorAll(':scope > .wc-event:not([hidden])')).map(el => {
           const labelHeight=el.querySelector('.wc-clock-button').getBoundingClientRect().height;
           const edit=el.querySelector(':scope > .pz-edit-actions');
@@ -304,6 +325,7 @@
       for (const [i,track] of tracks.entries()) {
         track.toggleAttribute('data-wc-sleep-rail',fallback[i]);
         if(fallback[i]) {
+          layoutBands(track,true);
           for (const item of daily[i]) {
             const h=item.el.querySelector('.wc-clock-button').getBoundingClientRect().height;
             const edit=item.el.querySelector(':scope > .pz-edit-actions');
@@ -362,7 +384,8 @@
         leftDay().id.slice(4) : 'week';
     }
     function revealEntry() {
-      const entry = document.getElementById(location.hash.slice(1));
+      let id;try{id=decodeURIComponent(location.hash.slice(1));}catch{return;}
+      const entry = document.getElementById(id);
       const day = entry?.closest('.wk-day');
       if (!day) return;
       // Deep links must reveal original events even if Clinical/Custom hides them.
@@ -436,7 +459,7 @@
       for(const day of days)observer.observe(day.querySelector('.wk-day-head'));
     } else window.addEventListener('resize', schedule);
     const changes = new MutationObserver(schedule);
-    for (const track of tracks) changes.observe(track,{childList:true,subtree:true});
+    for (const track of tracks) changes.observe(track,{childList:true,subtree:true,characterData:true});
     document.fonts?.ready.then(schedule);
     revealEntry();
     addEventListener('hashchange', revealEntry);
