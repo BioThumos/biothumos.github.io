@@ -9,11 +9,11 @@ Independently tracked features: deep internal tingling/pulsing, light and sound 
 
 ## Phase and quality markers (source-linked occurrence rows, not attacks)
 
-- Crash vulnerability: 30. Warning state described as “crashy”; may abort.
-- PEM-like state: 1009. Active state or patient PEM wording.
+- Crash vulnerability: 32. Warning state described as “crashy”; may abort.
+- PEM-like state: 1017. Active state or patient PEM wording.
 - Crash: 237. Explicit patient-described severe event.
-- Poisoned quality: 281. Patient-described malaise quality; may occur without a full crash.
-- Malaise quality: 41. General sick/unwell quality; exertional attribution not always established.
+- Poisoned quality: 283. Patient-described malaise quality; may occur without a full crash.
+- Malaise quality: 44. General sick/unwell quality; exertional attribution not always established.
 
 ## Sensory features supported by patient accounts
 
@@ -24,6 +24,8 @@ Independently tracked features: deep internal tingling/pulsing, light and sound 
 - Sharp head pain from noise: Patient reports sharp head pain from noise during severe episodes. Source: historical_entries:S3:symptom:023.
 - Sound intolerance: Diary explicitly co-reports PEM and light/sound sensitivity. Source: diary_observations:S2-OBS-1065.
 - Sound intolerance: Patient describes sound intolerance at baseline and severe exacerbation during crashes. Source: historical_entries:S3:symptom:023.
+- Spinal shivering from bright light: 16-18 tingling and malaise/crashiness intensifying; bright screen is causing intermittent spine shudders; some cns fatigue/“lactate brain” as well; think i overdid it in the past ~2 days Source: diary_observations:R70-OBS-066.
+- Spinal shivering from bright light: 16- some occipital headache, shuddering a bit from light, so i know pem baseline is getting a bit worse. overextending myself again Source: diary_observations:R70-OBS-083.
 - Spinal shivering from bright light: Patient reports spine shivering in response to bright/white light during severe PEM/crashes. No separate timed episode is inferred. Source: historical_entries:S3:symptom:023.
 
 Each marker retains its original occurrence ID in `pem-state-markers.json`. The original diary wording and timestamps remain in the native source records.

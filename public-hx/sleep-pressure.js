@@ -1,0 +1,1 @@
+const b=document.getElementById('pressure-include'),n=document.getElementById('pressure-day-count'),r=document.getElementById('pressure-inferred');b?.addEventListener('change',()=>{n.textContent=b.checked?n.dataset.combined:n.dataset.direct;r.hidden=!b.checked;});

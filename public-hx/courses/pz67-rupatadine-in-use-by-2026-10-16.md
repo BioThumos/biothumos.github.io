@@ -1,6 +1,6 @@
 # Rupatadine · course dossier
 
-Revision: Revision 69
+Revision: Revision 79
 course:pz67-rupatadine-in-use-by-2026-10-16
 documented_course
 In use by 2026-10-16 · Ongoing at review · Rupatadine is called an existing evening medication in the 2026-10-16 diary (that evening was skipped; taking it the following morning was planned). The 2026-11-20 complete stack confirms continued use. Exact restart unknown. A separate extra dose on 2026-08-18 does not prove continuity from August.
@@ -17,7 +17,8 @@ No linked record at this scope.
 
 ## Actions and doses
 
-No linked record at this scope.
+- 2026-11-16 · Missed · changes skip evening antivirals + rupatadine due to crash
+  Source · 2026-11-16 · missed · changes skip evening antivirals + rupatadine due to crash · explicit diary date; evening · omission_or_hold · primary · S2-R71-20261116:10–10 · [intervention_events:R71-A-016-2]
 
 ## Course timing evidence
 
@@ -41,6 +42,7 @@ No linked record at this scope.
 - [diary_logs:S2-L07869] · 2026-08-15 · 0.30- mild poisoned feeling, overworked + chatted at same time 2-3 pretty strong libido surge (no emission) 2.30- stronger poisoned state 5 eat rice beef veggies gummies Sexual activity 10 eat gummies 11 BM small BM 12- start shaking, trembling, idk 13.30 sleep 1.8 Wired all day after about 12 hours of intermittent computer work. The patient also considered prolonged arousal as a contributor. · inferred_from_clock_rollover
 - [diary_logs:S2-L08042] · 2026-08-28 · 5 wake with usual brain symptoms 6 BM slightly green tinged, very soft 6.50 eat cocorice 7.20- brain is not well, corrosive lactate brain type of thing 7.50 take velpanat / sofosbuvir/velpatasvir (TODO what’s the full name)? 11.40 eat rice beef veggies gummies 12.15- pretty strong peminess 14.30- brain fatigue, just crazy symptoms, idk what’s going on 17.40 eat rice beef veggies gummies 18.25- strong brain pem/corrosive feeling returns already 23.45 sleep 1.5 lots of twitching today in random places (ab, back) sleep continues to be short and poor changes start velpanat · inferred_from_clock_rollover
 - [diary_logs:S2-L08070] · 2026-08-30 · 2 wake 3- strong burning tingling in legs, some in brain and arms 6 eat cocorice, smaller portion than usual 6.15 upper ab pain flare 7- pemy, corrosive tingling, background level 8.45 getting hungry 9.45 eat rice beef veggies 11.20- brain crash again - could this be due to perhaps food gone bad? 18 eat rice beef veggies 20.30- leg shaking, overworked 22 BM 23.45 sleep 1.6 changes stop velpanat today due to bad crash yesterday to recover, might continue with darvoni instead · inferred_from_clock_rollover
+- [intervention_events:R71-A-016-2] · 2026-11-16 · reported 2026-11-16 · Rupatadine · missed · changes skip evening antivirals + rupatadine due to crash · explicit diary date; evening · omission_or_hold · primary
 - [source_lines:S2:7869] · 0.30- mild poisoned feeling, overworked + chatted at same time
 - [source_lines:S2:7870] · 2-3 pretty strong libido surge (no emission)
 - [source_lines:S2:7871] · 2.30- stronger poisoned state

@@ -11,7 +11,7 @@ This clinical guide separates distinct recurring patterns from general symptoms,
 ## Recurring evening-type sensory waves / tingling
 
 Historically called “evening PEM”, later “evening pulsing/tingling”. Patient reports this as a recurring near-daily sensation, including low-intensity days not entered in the diary. Not always in the evening, and not necessarily following exertion. Patient places the onset after the late-2024 NADH period, without a confirmed first date. First explicit named diary observation: 2025-08-27; archived reference by February 2025.
-The 96 explicitly matched diary observations are evidence examples, not 96 distinct attacks or a true occurrence rate. Eleven conservatively marked ambiguous observations do not assert positive presence.
+The 103 indexed diary observations are evidence examples, not distinct attacks or a true occurrence rate. Ambiguous observations do not assert positive presence.
 
 **SAG-linked recurrence:** During the January 2026 S-acetyl-L-glutathione trial, the patient experienced deep mostly non-painful pulsing/tingling similar to an earlier evening pattern (initially tentative: S1-M67218; later explicit: S1-M69457). The response also included prominent sinus/retro-orbital pressure, but sinus pressure began before SAG (S1-M67177). A similar forehead/eye pulsing presentation was described during a different treatment trial in April (S1-M75811; S2-OBS-6291). Do not treat SAG as proven causal or count another symptom. The patient contrasted this pulsing with the post-bezisterim dull lactate-like quality (S1-M69426).
 

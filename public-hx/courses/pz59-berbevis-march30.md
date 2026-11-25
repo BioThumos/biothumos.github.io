@@ -1,6 +1,6 @@
 # Berberine phytosome · course dossier
 
-Revision: Revision 69
+Revision: Revision 79
 course:pz59-berbevis-march30
 documented_course
 2025-03-30 · Recorded window ends 2025-04-29 · Berbevis/phytosome was reported again March 30 after an HCl-only interval. A morning and evening regimen was described April 22; April 29 documents reducing the dose. These bound verified observations. The date this supply ended is unknown. September phytosome depletion is a separate record.
@@ -22,7 +22,8 @@ No linked record at this scope.
 
 ## Actions and doses
 
-No linked record at this scope.
+- 2025-04-17 · Dose taken · 1 capsule at breakfast and dinner
+  Source · 2025-04-17 · dose_taken · 1 capsule at breakfast and dinner · consecutive_sequence_aligned_to_dated_posts · reported_use · primary · S1:34665–34665 · [intervention_events:PZ73-S1-L34652-FL9-fb15d627]
 
 ## Course timing evidence
 
@@ -73,6 +74,7 @@ No linked record at this scope.
 - [diary_logs:S1-L34652] · 2025-04-17 · reported 2025-04-18T11:37:47+02:00 · update#93: - rating (1-10): 1.9 - sleep (following day): again too late (but prob because i woke up quite late previous day); slept mostly all the way thru, but deep sleep continues to be poor (can feel i'm not as rested) - PEM: less morning calf tingling than usual, but some here and there during the day; evening pem from 6-7 (more then previous day) - narcolepsy: - burns/pressures: am burns; brain shutdown feeling around 12-1pm (2h post meal?); a few more times but less severe - tinnitus: stronger (in correlation with burns) - POTS: - stool: - gut pain: rhs flare multiple times from midday; - hunger: not hungry after waking; ate full portion breakf.; hunger spike at night (didn’t eat) - activity: on phone all day, not needing as much rest anymore - cold/heat: it's getting quite warm now (24-25C room) so this is less relevant - changes: forgot nicotine; skip 2nd ivabradine & memantine; only 1 cap berbevis for breakfast/dinner; 20mg ss31 · consecutive_sequence_aligned_to_dated_posts · 2025-04-18T11:37:47+02:00
 - [diary_logs:S1-L35258] · 2025-04-21 · reported 2025-04-22T10:14:14+02:00 · update#97: - rating (1-10): 2 - sleep (following day): very bad. couldn’t really fall asleep till 2am or so. hunger spike and wired feeling, likely took memantine too late - PEM: mild AM pem; mild at one point in PM; tingling in evening, but not too bad - narcolepsy: - burns/pressures: some AM burns; - tinnitus: - POTS: - stool: no stool again (since eating more duck, less lentils) - gut pain: rhs flare midday - hunger: mostly low but bad hunger spike at midnight - activity: - cold/heat: suddenly very warm outside (25C in room), starting to be too warm - changes: only 1 berbevis cap at dinner (possibly led to hunger spike) · consecutive_sequence_aligned_to_dated_posts · 2025-04-22T10:14:14+02:00
 - [diary_logs:S1-L36967] · 2025-04-28 · reported 2025-05-05T15:52:33+02:00 · update#104: - rating (1-10): 1.4 - sleep (following day): - PEM: morning pem; mildly pemy all day on/off; bad evening crash (moderate) - narcolepsy: - burns/pressures: - tinnitus: - POTS: - stool: i forgot but think none - gut pain: - hunger: 4 meals, def hungrier, need to go back to higher berbevis dose - activity: - cold/heat: - depression: strong during crash - changes: start 2x1g myo-d-chiro; · consecutive_sequence_aligned_to_dated_posts · 2025-05-05T15:52:33+02:00
+- [intervention_events:PZ73-S1-L34652-FL9-fb15d627] · 2025-04-17 · reported 2025-04-18T11:37:47+02:00 · Berberine phytosome · dose_taken · 1 capsule at breakfast and dinner · consecutive_sequence_aligned_to_dated_posts · reported_use · primary
 - [s1_quote_context:S1-M30023#1] · reported 2025-03-28T17:22:12+01:00 · unverified; see linked parent where identified
 - [s1_quote_context:S1-M30031#1] · reported 2025-03-28T17:27:46+01:00 · unverified; see linked parent where identified
 - [s1_quote_context:S1-M30035#1] · reported 2025-03-28T17:31:09+01:00 · unverified; see linked parent where identified

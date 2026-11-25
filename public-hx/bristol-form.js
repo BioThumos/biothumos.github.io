@@ -13,7 +13,7 @@
   const format=d=>new Date(d+'T00:00:00Z').toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric',timeZone:'UTC'});
   const records=packet.records.filter(r=>r.chart_eligible);
   const first=packet.bounds[0],last=packet.bounds[1];
-  const axis=60,dayWidth=12,height=286,top=29,bottom=248;
+  const axis=12,dayWidth=12,height=286,top=29,bottom=248;
   if(!first){info.textContent='No Bristol-form descriptions support a charted result.';return;}
   const firstMs=stamp(first),lastMs=stamp(last);
   const elapsed=r=>Math.round((stamp(r.date)-firstMs)/DAY);
@@ -21,6 +21,16 @@
   const width=Math.max(360,axis+Math.round((lastMs-firstMs)/DAY+1)*dayWidth+42);
   const y=n=>bottom-(n-1)*(bottom-top)/6;
   function el(parent,tag,props={},text){const x=document.createElementNS(ns,tag);Object.entries(props).forEach(([k,v])=>x.setAttribute(k,v));if(text!==undefined)x.textContent=text;parent.appendChild(x);return x;}
+  // Fixed scale is outside the horizontally scrolling plot, so all dates retain their y-axis.
+  const fixed=$('bristol-axis');
+  if(fixed){
+    const scale=el(fixed,'svg',{width:44,height,viewBox:`0 0 44 ${height}`,role:'img','aria-label':'Bristol scale, types 1 through 7'});
+    el(scale,'line',{x1:43,x2:43,y1:top,y2:bottom,class:'bristol-axis-line'});
+    for(let n=1;n<=7;n++){
+      el(scale,'line',{x1:36,x2:43,y1:y(n),y2:y(n),class:'bristol-axis-line'});
+      el(scale,'text',{x:30,y:y(n)+4,'text-anchor':'end',class:'bristol-axis-label'},String(n));
+    }
+  }
   function show(r){
     const range=r.low===r.high?'Type '+r.low:'Types '+r.low+'–'+r.high;
     const confidence=r.origin==='recorded'?'directly recorded':r.confidence+'-confidence retrospective estimate';
@@ -37,7 +47,6 @@
     const svg=el(plot,'svg',{width,height,viewBox:`0 0 ${width} ${height}`,role:'img','aria-label':'Bristol stool form types 1–7; hollow markers are estimates, vertical lines represent ranges'});
     for(let n=1;n<=7;n++){
       el(svg,'line',{x1:axis-9,x2:width-12,y1:y(n),y2:y(n),class:'bristol-grid'});
-      el(svg,'text',{x:axis-16,y:y(n)+4,'text-anchor':'end',class:'bristol-axis-label'},String(n));
     }
     let month=first.slice(0,7)+'-01';
     while(month<=last){
@@ -53,9 +62,9 @@
       const group=el(svg,'g',{class:'bristol-point',tabindex:'0',role:'button',
         'aria-label':format(r.date)+': '+(r.low===r.high?'type '+r.low:'types '+r.low+' through '+r.high)+'; '+(r.origin==='recorded'?'directly recorded':r.confidence+' confidence inferred')});
       if(r.low!==r.high){
-        el(group,'line',{x1:x,y1:y(r.low),x2:x,y2:y(r.high),class:'bristol-range'});
-        el(group,'line',{x1:x-4,y1:y(r.low),x2:x+4,y2:y(r.low),class:'bristol-range'});
-        el(group,'line',{x1:x-4,y1:y(r.high),x2:x+4,y2:y(r.high),class:'bristol-range'});
+        el(group,'line',{x1:x,y1:y(r.low),x2:x,y2:y(r.high),class:r.origin==='recorded'?'bristol-recorded-range':'bristol-range'});
+        el(group,'line',{x1:x-4,y1:y(r.low),x2:x+4,y2:y(r.low),class:r.origin==='recorded'?'bristol-recorded-range':'bristol-range'});
+        el(group,'line',{x1:x-4,y1:y(r.high),x2:x+4,y2:y(r.high),class:r.origin==='recorded'?'bristol-recorded-range':'bristol-range'});
       }
       el(group,'circle',{cx:x,cy:y((r.low+r.high)/2),r:5,
         class:r.origin==='recorded'?'bristol-recorded-dot':r.confidence==='low'?'bristol-low-dot':'bristol-estimate-dot'});
@@ -65,7 +74,7 @@
       group.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();show(r);}});
     });
     const total=vis.length;
-    if(!total){info.textContent='No directly recorded Bristol types are available. Enable retrospective estimates to view qualified inferences.';}
+    if(!total){info.textContent='No stool-form assessments match the selected filters.';}
     else info.textContent=total+' plotted stool-form assessments. Select a marker to see its source and uncertainty.';
     scroll.scrollLeft=old;
     nav();

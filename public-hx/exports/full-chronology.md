@@ -1,12 +1,12 @@
 # Event chronology
 
-Revision Revision 69 · Snapshot 2026-11-23
+Revision Revision 79 · Snapshot 2026-11-23
 
 ## 2021-06 · Vaccination and surgery
 
 Milestone
 
-Two Pfizer doses reported in June 2021. Appendectomy reportedly followed the second dose by two weeks.
+Two Pfizer doses in June 2021; appendectomy reportedly 2 weeks after the second.
 
 month · patient report
 
@@ -40,7 +40,7 @@ Source: reports:S4-R01 · S4-R01
 
 Milestone
 
-Patient reports a positive SARS-CoV-2 test in May 2023, likely the third infection, with about six weeks of symptoms. Intermittent feverish or sick spells followed that summer.
+Positive SARS-CoV-2 test in May 2023 (likely third infection); symptoms for about 6 weeks, followed by intermittent feverish episodes that summer.
 
 month range · patient report
 
@@ -68,19 +68,28 @@ S3:406–411 · 2023
 May:
 * COVID positive infection, most likely the 3rd infection […]
 
-## 2023-09 · Musty indoor air and air-conditioner fault with temporary throat symptoms
+## 2023-09 – 2023-10 · Transient throat and breathing symptoms: suspected mold exposure and possible COVID reinfection
 
 Milestone
 
-In September 2023, musty air and a malfunctioning air conditioner coincided with throat and breathing symptoms. Symptoms reportedly resolved following repairs. Mold exposure was suspected, not demonstrated as the cause.
+Musty indoor air and faulty air conditioning coincided with throat and breathing symptoms, resolving after repairs. Suspected mold exposure. Possible COVID reinfection around October 2023: indeterminate (presumptive positive) PCR, followed by a reported negative PCR.
 
 month · patient report
 
-Source: context_cards:CTX-005 · S3:412-416
+Source: context_cards:CTX-005 · S3:412-419, S1:230, S1:10830-10831, S1:20233-20236
 
-S3:412-416 · Sept:
+S3:412-419 · Sept:
 * moving into new flat in tropical/equatorial climate
 * flat has high humidity and mouldy-smelling air → respiratory symptoms, feeling of suffocation, extreme discomfort in throat […]
+
+S1:230 · regarding the timeline, i'm not actually sure if I caught covid in Sept after moving into the new flat as the PCR test came back as "presumptive positive" and discussion with the lab tech suggested it was either very low viral load or false positive, so result is indeterminate. it could well be that my May infection had already set me up for LC, given some weird summer episodes, and all it took was a stressful time (new job, move to new country etc) and mycotoxin exposure to trigger it full force. mycotoxins are potent immune suppressors after all.
+
+S1:10830-10831 · it's still unclear to me if i had an actual covid infx in sept as i had a "presumptive positive" test (ie low but not enough viral load detected), but that could be a tiny infx or just remnants of viral persistence from the May infx
+He recalled feverishness, sore throat, brain fog and a presumptive positive test during a five-day illness. He then tested negative and briefly resumed work and exercise.
+
+S1:20233-20236 · it was in oct 2023
+i only received a partial positive but they couldn't tell conclusively. i suspect i wasn't even infected and it was just remaining virus from my previous may infx, at which point i hadn't tested.
+Hmm. mAbs are likely less effective […]
 
 ## 2023-09 · * suspected mold exposure, but no proof
 
@@ -106,7 +115,7 @@ Source: context:context:a1cdd74c-56a1-59a8-8ee4-86bc97b2fe74 · historical_entri
 
 Milestone
 
-Feverishness, sore throat, cognitive slowing and weakness recurred at roughly two-week intervals. A faint/partial positive test was reported. The third spell persisted, with severe cognitive dysfunction, panic, fragmented sleep and paresthesias. By December he required family help to return home.
+Feverishness, sore throat, cognitive slowing and weakness recurred about every 2 weeks. Third episode persisted with severe cognitive dysfunction, panic, fragmented sleep and paresthesias. Needed family assistance to return home by December.
 
 month range · patient report
 
@@ -388,7 +397,7 @@ Source: reports:S4-R03 · S4-R03
 
 Milestone
 
-Nicergoline was started after a neurological consultation. The patient reported rapid improvement in brain fog and brain burning, but the effect waned within approximately two months.
+Rapid relief of brain fog and brain burning after starting nicergoline; benefit waned within about 2 months.
 
 month range · patient report
 
@@ -506,7 +515,7 @@ Source: reports:S4-R06 · S4-R06
 
 Milestone
 
-During an approximately two-month course of maraviroc plus atorvastatin (Dr Bruce Patterson’s proposed Long COVID protocol), the patient reported worsening brain burning and tinnitus without improvement. Exact start and stop dates are retrospective.
+About 2 months of maraviroc plus atorvastatin (Patterson Long COVID protocol): worsened brain burning and tinnitus, no benefit.
 
 Patient retrospective report · approximate months
 
@@ -610,7 +619,7 @@ Source: reports:S4-R09 · S4-R09
 
 Milestone
 
-The patient retrospectively confirmed that the multi-ingredient NC protocol began on 17 April 2024. Reported components included B complex, DEKA, vitamin C, curcumin, CBD, cordyceps, ganoderma, shiitake, pectin, broccoli and antioxidants; one inulin/probiotic product started alongside the regimen. Fatigue and energy reportedly improved almost immediately to approximately the pre-maraviroc baseline, then plateaued. This was not a return to pre-illness health. Exact doses and individual component introduction dates remain uncertain.
+NC protocol plus inulin/probiotic: B complex, DEKA, vitamin C, curcumin, CBD, cordyceps, ganoderma, shiitake, pectin, broccoli and antioxidants. Rapid improvement in fatigue and energy to approximately pre-maraviroc baseline, then plateau.
 
 2024 tracker date with retrospective patient clarification
 
@@ -1176,11 +1185,11 @@ Source: response:S5-R-AD15-2 · S5:441-441
 
 S5:441-441 · Notes: Woke at 9 and had breakfast around 10:30. Brief brain fog after 30 minutes of a call. Kender+ at 12:30. Brain burning and headache from 1 to 4, with possible intoxication questioned. Lunch around 16. Brain fog decreased after BEMER. Brief brain fog at 6:45 after studying. Fairly well in the evening. [AD15]
 
-## 2024-07 – 2025-03 · Multiple Borrelia tests
+## 2024-07 – 2025-03 · Discordant Borrelia test results
 
 Milestone
 
-July 2024 IgG ELISA strongly positive and IgG line blot positive with negative IgM; separate real-time PCR negative. Later patient history describes a negative specialist Western blot in March 2025. Preserve method, time and origin. A two-month doxycycline course was reportedly unhelpful.
+July 2024: strongly positive Borrelia IgG ELISA, positive IgG line blot, negative IgM and PCR. March 2025: reportedly negative specialist Western blot. Doxycycline for 2 months without reported benefit.
 
 month range · original report and patient recollection
 
@@ -2404,11 +2413,11 @@ Specimen collection · clinical laboratory report
 
 Source: reports:S4-R18 · S4-R18
 
-## 2024-10-20 – 2024-10-30 · NADH-associated severe baseline decline and onset of physical PEM
+## 2024-10-20 – 2024-10-30 · NADH-associated severe baseline decline and onset of physical and neurological PEM
 
 Milestone
 
-During two NADH exposure periods (20–21 and 25–28 October 2024), the patient developed a previously unfamiliar, profound deep-muscle fatigue and physical post-exertional deterioration. A major crash was documented on 23 October; marked weakness and inability to get out of bed recurred on 29 October. The patient described a severe step down in functional baseline—from being able to leave home at times to frequently remaining in bed—and a new, persistent PEM and sensory-intolerance pattern. Neurological exertional exacerbations with brain burning had existed beforehand. There was partial improvement in November, but the subsequent baseline remained substantially impaired. The exposure is temporally associated with the decline; a sole cause cannot be established from these reports.
+After NADH on 20–21 and 25–28 October 2024: new profound deep-muscle fatigue and physical PEM, severe crash on 23 October, unable to get out of bed on 29 October. Previously able to leave home intermittently; thereafter frequently bedbound, with persistent PEM and sensory intolerance. Partial recovery in November, but markedly lower baseline. Brain burning/PENE predated NADH; neurological PEM was new.
 
 day range · Reviewer-corrected intake dates; tracker, patient and clinician accounts of symptoms
 
@@ -3096,6 +3105,15 @@ Course actions
 - 2025-03-01 · Dose change · double to 2 x 500 mcg
   Source · 2025-03-01 · dose_change · double to 2 x 500 mcg · consecutive_sequence_aligned_to_dated_posts · reported_change · primary · S1:24792–24806 · [intervention_events:S1-C24792-1]
 
+- 2025-03-04 · Missed · evening
+  Source · 2025-03-04 · missed · evening · consecutive_sequence_aligned_to_dated_posts · omission_or_hold · primary · S1:25547–25547 · [intervention_events:PZ73-S1-L25533-FL13-1dd4afe1]
+
+- 2025-03-09 · Missed · evening
+  Source · 2025-03-09 · missed · evening · consecutive_sequence_aligned_to_dated_posts · omission_or_hold · primary · S1:27004–27004 · [intervention_events:PZ73-S1-L26990-FL13-1dd4afe1]
+
+- 2025-03-17 · Dose taken · 2× before lunch (accidental)
+  Source · 2025-03-17 · dose_taken · 2× before lunch (accidental) · consecutive_sequence_aligned_to_dated_posts · reported_use · primary · S1:28141–28141 · [intervention_events:PZ73-S1-L28128-FL10-1dd4afe1]
+
 ## 2024-12-31 · NeilMed · Reported use
 
 Action
@@ -3167,6 +3185,9 @@ Course actions
 - 2025-02-11 · Missed · Missed with the evening regimen on 2025-02-11, as listed in the diary.
   Source · 2025-02-11 · missed · Missed with the evening regimen on 2025-02-11, as listed in the diary. · consecutive_sequence_aligned_to_dated_posts · omission_or_hold · primary · S1:19430–19443 · [intervention_events:PZ14-S1-C19430-1-Rupatadine]
 
+- 2025-02-25 · Missed · evening
+  Source · 2025-02-25 · missed · evening · consecutive_sequence_aligned_to_dated_posts · omission_or_hold · primary · S1:23477–23477 · [intervention_events:PZ73-S1-L23463-FL13-74ec198a]
+
 - 2025-05-18 · Ran out · a few days earlier
   Source · 2025-05-18 · ran_out · a few days earlier · consecutive_sequence_aligned_to_dated_posts · omission_or_hold · primary · S1:38733–38747 · [intervention_events:S1-C38733-1]
 
@@ -3230,11 +3251,17 @@ Course actions
 - 2025-01-25 · Reported use · 6 g before sleep · Curated extraction from archive_messages:S1-M14027
   Source · 2025-01-25 · reported_use · 6 g before sleep · Curated extraction from archive_messages:S1-M14027 · contemporaneous patient report · reported_use · primary · S1:14027–14027 · [intervention_events:PZ-REVIEW-S1-M14027-48ef78ec]
 
+- 2025-01-26 · Missed · before sleep
+  Source · 2025-01-26 · missed · before sleep · reconstructed_from_neighboring_chat_and_log_sequence · omission_or_hold · primary · S1:14452–14452 · [intervention_events:PZ73-S1-L14441-FL10-48ef78ec]
+
 - 2025-02-11 · Missed · Missed with the evening regimen on 2025-02-11, as listed in the diary.
   Source · 2025-02-11 · missed · Missed with the evening regimen on 2025-02-11, as listed in the diary. · consecutive_sequence_aligned_to_dated_posts · omission_or_hold · primary · S1:19430–19443 · [intervention_events:PZ14-S1-C19430-1-Glycine]
 
 - 2025-02-22 · Dose increase · 9 g instead of 6 g
   Source · 2025-02-22 · dose_increase · 9 g instead of 6 g · consecutive_sequence_aligned_to_dated_posts · reported_change · primary · S1:23041–23055 · [intervention_events:S1-C23041-3]
+
+- 2025-03-04 · Missed · evening
+  Source · 2025-03-04 · missed · evening · consecutive_sequence_aligned_to_dated_posts · omission_or_hold · primary · S1:25547–25547 · [intervention_events:PZ73-S1-L25533-FL13-48ef78ec]
 
 ## 2025-01-09 · Stopped 2025-02-13 · L-carnitine
 
@@ -3310,6 +3337,8 @@ Source: unassigned-actions:intervention:8a56f798-596a-5cd9-9a78-1aad4a276b96:202
 
 - 2025-01-10 · Dose taken · 1/4 patch
 
+- 2025-04-17 · Missed
+
 - 2025-08-28 06:30 · Patch removal · 6.30 take off nicotine patch to lower shpincter of oddi tone
 
 ## Recorded 2025-01-10 – 2025-03-03 · L-cysteine
@@ -3323,6 +3352,8 @@ Action
 Source: unassigned-actions:intervention:e0fc268e-a619-52a4-9b63-4bc8b904f06c:2025
 
 - 2025-01-10 · Hold
+
+- 2025-01-25 · Missed
 
 - 2025-02-15 · Missed
 
@@ -3353,6 +3384,26 @@ Source: response:S1-F13723-1 · S1:13723-13723, S1:14085-14085
 S1:13723-13723 · i did have a surge of energy last night after taking the third dose of carnitine. i wonder if that was a fluke or something. made me go to bed at 2am. i didn't feel anything after my morning dose, still having some PEM from the little sleep and the overdrive last night.
 
 S1:14085-14085 · so i'd say even if not a full solution, given that i'm on the verge of crashing now, carnitine definitely has some kind of effect. however, i think it's limited for 2-3h with about 1h delay after taking it.
+
+## Recorded 2025-01-26 – 2025-11-25 · Magnesium
+
+Action
+
+
+
+
+
+Source: unassigned-actions:intervention:78b5614f-c3ad-56d6-8ce8-413c90e3fb6a:2025
+
+- 2025-01-26 · Missed · before sleep
+
+- 2025-02-11 · Missed · Missed with the evening regimen on 2025-02-11, as listed in the diary.
+
+- 2025-11-05 · Miss
+
+- 2025-11-23 · Miss
+
+- 2025-11-25 · Miss
 
 ## Start unknown · Reported end 2025-01-27 · NC Hemp+ (Kender+)
 
@@ -3398,6 +3449,12 @@ Course actions
 - 2025-01-30 · Start · 500 mg with dinner
   Source · 2025-01-30 · start · 500 mg with dinner · consecutive_sequence_aligned_to_dated_posts · reported_use · primary · S1:15447–15460 · [intervention_events:S1-C15447-1]
 
+- 2025-03-09 · Missed · evening
+  Source · 2025-03-09 · missed · evening · consecutive_sequence_aligned_to_dated_posts · omission_or_hold · primary · S1:27004–27004 · [intervention_events:PZ73-S1-L26990-FL13-0c7e2040]
+
+- 2025-03-17 · Dose taken · 1 capsule at dinner
+  Source · 2025-03-17 · dose_taken · 1 capsule at dinner · consecutive_sequence_aligned_to_dated_posts · reported_use · primary · S1:28141–28141 · [intervention_events:PZ73-S1-L28128-FL10-0c7e2040]
+
 ## Recorded 2025-01-31 – 2025-06-16 · Berberine
 
 Action
@@ -3442,6 +3499,15 @@ Course actions
 - 2025-02-01 · Start · 1/4–1/3 patch
   Source · 2025-02-01 · start · 1/4–1/3 patch · day · reported_use · primary · S3:623–623 · [intervention_events:S3:T:623:1]
 
+- 2025-02-02 · Dose taken · 1/4 patch, 06:00–16:30
+  Source · 2025-02-02 · dose_taken · 1/4 patch, 06:00–16:30 · consecutive_sequence_aligned_to_dated_posts · reported_use · primary · S1:16180–16180 · [intervention_events:PZ73-S1-L16168-FL11-8a56f798]
+
+- 2025-02-09 · Timing · late removal
+  Source · 2025-02-09 · timing · late removal · consecutive_sequence_aligned_to_dated_posts · reported_change · primary · S1:18667–18667 · [intervention_events:PZ73-S1-L18655-FL11-8a56f798]
+
+- 2025-02-10 · Timing · forgot to remove patch
+  Source · 2025-02-10 · timing · forgot to remove patch · consecutive_sequence_aligned_to_dated_posts · reported_change · primary · S1:19063–19063 · [intervention_events:PZ73-S1-L19050-FL12-8a56f798]
+
 - 2025-02-12 · Missed
   Source · 2025-02-12 · missed · consecutive_sequence_aligned_to_dated_posts · omission_or_hold · primary · S1:19644–19659 · [intervention_events:S1-C19644-1]
 
@@ -3451,8 +3517,14 @@ Course actions
 - 2025-02-26 · Dose increase · 1/3 patch instead of 1/4
   Source · 2025-02-26 · dose_increase · 1/3 patch instead of 1/4 · consecutive_sequence_aligned_to_dated_posts · reported_change · primary · S1:23737–23751 · [intervention_events:S1-C23737-2]
 
+- 2025-03-04 · Missed
+  Source · 2025-03-04 · missed · consecutive_sequence_aligned_to_dated_posts · omission_or_hold · primary · S1:25547–25547 · [intervention_events:PZ73-S1-L25533-FL13-8a56f798]
+
 - 2025-03-08 · Dose taken · 2/3 patch
   Source · 2025-03-08 · dose_taken · 2/3 patch · consecutive_sequence_aligned_to_dated_posts · reported_use · primary · S1:26226–26239 · [intervention_events:S1-C26226-1]
+
+- 2025-03-09 · Dose taken · 1/2 patch
+  Source · 2025-03-09 · dose_taken · 1/2 patch · consecutive_sequence_aligned_to_dated_posts · reported_use · primary · S1:27004–27004 · [intervention_events:PZ73-S1-L26990-FL13-8a56f798]
 
 ## 2025-02-05 – 2025-02-25 · Conversation and writing triggered major crashes
 
@@ -3485,6 +3557,15 @@ Course actions
 - 2025-02-06 · Start
   Source · 2025-02-06 · start · consecutive_sequence_aligned_to_dated_posts · reported_use · primary · S1:17608–17620 · [intervention_events:S1-C17608-1] | 2025-02-06 · start · day · reported_use · corroborating · S3:624–624 · [intervention_events:S3:T:624:1]
 
+- 2025-02-07 · Dose taken · morning
+  Source · 2025-02-07 · dose_taken · morning · consecutive_sequence_aligned_to_dated_posts · reported_use · primary · S1:17868–17868 · [intervention_events:PZ73-S1-L17856-FL11-65a94162]
+
+- 2025-03-19 · Missed · second dose
+  Source · 2025-03-19 · missed · second dose · consecutive_sequence_aligned_to_dated_posts · omission_or_hold · primary · S1:28727–28727 · [intervention_events:PZ73-S1-L28714-FL10-65a94162]
+
+- 2025-03-21 · Missed · evening
+  Source · 2025-03-21 · missed · evening · consecutive_sequence_aligned_to_dated_posts · omission_or_hold · primary · S1:29718–29718 · [intervention_events:PZ73-S1-L29705-FL9-65a94162]
+
 - 2025-03-30 · Restart
   Source · 2025-03-30 · restart · previous_day_reporting_convention · reported_use · primary · S1:30213–30226 · [intervention_events:S1-C30213-2]
 
@@ -3502,6 +3583,18 @@ S1:18314–18326 · update#26:
 - rating (1-10): 2
 - sleep (following day): bit tired […]
 
+## 2025-02-09 · L-theanine · Dose taken
+
+Action
+
+evening
+
+reported use · consecutive sequence aligned to dated posts
+
+Source: intervention_events:PZ73-S1-L18655-FL11-dbde5ff1 · S1:18667–18667
+
+S1:18667–18667 · - changes: started moly 150mcg; forgot to take off patch in time; l-theanine evening
+
 ## 2025-02-09 · Hospital interruption by 2025-03-25 · Molybdenum
 
 Intervention
@@ -3517,24 +3610,6 @@ Course actions
 - 2025-02-09 · Start · 150 mcg
   Source · 2025-02-09 · start · 150 mcg · consecutive_sequence_aligned_to_dated_posts · reported_use · primary · S1:18655–18669 · [intervention_events:S1-C18655-1] | 2025-02-09 · start · 150 mcg · day · source_account · corroborating · S3:625–625 · [intervention_events:S3:T:625:1]
 
-## Recorded 2025-02-11 – 2025-11-25 · Magnesium
-
-Action
-
-
-
-
-
-Source: unassigned-actions:intervention:78b5614f-c3ad-56d6-8ce8-413c90e3fb6a:2025
-
-- 2025-02-11 · Missed · Missed with the evening regimen on 2025-02-11, as listed in the diary.
-
-- 2025-11-05 · Miss
-
-- 2025-11-23 · Miss
-
-- 2025-11-25 · Miss
-
 ## Recorded 2025-02-11 – 2025-03-10 · Quercetin
 
 Action
@@ -3546,6 +3621,8 @@ Action
 Source: unassigned-actions:intervention:86037a32-6743-504f-b8b3-6bc00c7de86d:2025
 
 - 2025-02-11 · Missed · Missed with the evening regimen on 2025-02-11, as listed in the diary.
+
+- 2025-03-09 · Missed · evening
 
 - 2025-03-10 · Formulation change · replaced by NC formulation
 
@@ -3952,6 +4029,9 @@ Course actions
 - 2025-03-04 · Start · 1 evening dose
   Source · 2025-03-04 · start · 1 evening dose · consecutive_sequence_aligned_to_dated_posts · reported_use · primary · S1:25533–25547 · [intervention_events:S1-C25533-1]
 
+- 2025-03-09 · Missed
+  Source · 2025-03-09 · missed · consecutive_sequence_aligned_to_dated_posts · omission_or_hold · primary · S1:27004–27004 · [intervention_events:PZ73-S1-L26990-FL13-b40db75a]
+
 - 2025-03-10 · Stop
   Source · 2025-03-10 · stop · consecutive_sequence_aligned_to_dated_posts · reported_boundary · primary · S1:27005–27018 · [intervention_events:S1-C27005-3]
 
@@ -4012,19 +4092,45 @@ Course actions
 - 2025-03-06 · Start · The March 6 source records NC broccoli and NC curcumin together. The patient confirms two separate interventions and tentatively estimates about one month for each, into early April. Individual doses and final days are unknown.
   Source · 2025-03-06 · start · The March 6 source records NC broccoli and NC curcumin together. The patient confirms two separate interventions and tentatively estimates about one month for each, into early April. Individual doses and final days are unknown. · consecutive_sequence_aligned_to_dated_posts · reported_use · primary · S1:25848–25862 · [intervention_events:PZ57-S1-C25848-CURCUMIN]
 
-## 2025-03-11 · Clay minerals · Dose increase
+## Recorded 2025-03-11 – 2025-03-13 · Huperzine A
 
 Action
 
-1 tsp
 
-reported change · consecutive sequence aligned to dated posts
 
-Source: intervention_events:S1-C27019-2 · S1:27019–27032
 
-S1:27019–27032 · update#57:
-- rating (1-10): 2
-- sleep (following day): woke again due to bladder pressure, could have slept longer […]
+
+Source: unassigned-actions:intervention:5b8c8383-b81e-5d84-9813-96b1b93ffee7:2025
+
+- 2025-03-11 · Missed
+
+- 2025-03-13 · Dose decrease · 200 mcg
+
+## Recorded 2025-03-11 – 2025-03-17 · Clay minerals
+
+Action
+
+
+
+
+
+Source: unassigned-actions:intervention:653006d0-ed7b-5da6-945e-a01c150a7a45:2025
+
+- 2025-03-11 · Dose increase · 1 tsp
+
+- 2025-03-17 · Missed
+
+## Recorded 2025-03-11 · PEA/luteolin
+
+Action
+
+
+
+
+
+Source: unassigned-actions:intervention:b40db75a-dfab-51d0-9878-e4634d880c24:2025
+
+- 2025-03-11 · Missed
 
 ## 2025-03-11 · Off by 2025-04-21 · DHM
 
@@ -4100,20 +4206,6 @@ Course actions
 
 - 2025-03-12 · Start
   Source · 2025-03-12 · start · consecutive_sequence_aligned_to_dated_posts · reported_use · primary · S1:27364–27377 · [intervention_events:S1-C27364-2]
-
-## 2025-03-13 · Huperzine A · Dose decrease
-
-Action
-
-200 mcg
-
-reported change · consecutive sequence aligned to dated posts
-
-Source: intervention_events:S1-C27378-1 · S1:27378–27391
-
-S1:27378–27391 · update#59:
-- rating (1-10): 2
-- sleep (following day): continue to wake up early due to bladder, bit harder time falling asleep despite sleep pressure […]
 
 ## 2025-03-14 · Estimated end 2025-04-14 · Mangiferin
 
@@ -4211,7 +4303,7 @@ Source: course:c78530b3-df04-52f9-8b44-5041c9a09bc2 · archive_messages:S1-M3010
 
 Milestone
 
-In hospital March 25 and home March 28. The patient reports MRI and neurophysiology testing, interruption of supplements and reduced activity in hospital. He described prolonged instability and a shift from moderate pre-admission to near-severe after discharge. Symptoms fluctuated, with partial relief on some days.
+Neurology admission 25–28 March: MRI and neurophysiology testing; supplements interrupted and activity reduced. Prolonged post-discharge deterioration from moderate to near-severe illness.
 
 mixed precision · patient report
 
@@ -4330,6 +4422,12 @@ Course actions
 - 2025-03-29 · Restart
   Source · 2025-03-29 · restart · previous_day_reporting_convention · reported_use · primary · S1:30182–30195 · [intervention_events:S1-C30182-5]
 
+- 2025-03-31 · Missed · evening
+  Source · 2025-03-31 · missed · evening · previous_day_reporting_convention · omission_or_hold · primary · S1:30416–30416 · [intervention_events:PZ73-S1-L30403-FL6-089d2d33]
+
+- 2025-04-20 · Missed · evening
+  Source · 2025-04-20 · missed · evening · consecutive_sequence_aligned_to_dated_posts · omission_or_hold · primary · S1:35081–35081 · [intervention_events:PZ73-S1-L35068-FL4-089d2d33]
+
 - 2025-08-07 · Dose
   Source · 2025-08-07 · dose · inferred diary day · reported_use · primary · S2:1023–1023 · [intervention_events:S2-L01023-E3]
 
@@ -4386,6 +4484,15 @@ Course actions
 
 - 2025-03-29 · Restart
   Source · 2025-03-29 · restart · previous_day_reporting_convention · reported_use · primary · S1:30182–30195 · [intervention_events:S1-C30182-4]
+
+- 2025-03-31 · Missed · evening
+  Source · 2025-03-31 · missed · evening · previous_day_reporting_convention · omission_or_hold · primary · S1:30416–30416 · [intervention_events:PZ73-S1-L30403-FL6-48ef78ec]
+
+- 2025-04-20 · Missed · evening
+  Source · 2025-04-20 · missed · evening · consecutive_sequence_aligned_to_dated_posts · omission_or_hold · primary · S1:35081–35081 · [intervention_events:PZ73-S1-L35068-FL4-48ef78ec]
+
+- 2025-04-23 · Missed
+  Source · 2025-04-23 · missed · consecutive_sequence_aligned_to_dated_posts · omission_or_hold · primary · S1:35885–35885 · [intervention_events:PZ73-S1-L35871-FL6-48ef78ec]
 
 - 2025-07-29 · Miss
   Source · 2025-07-29 · miss · inferred diary day · omission_or_hold · primary · S2:869–869 · [intervention_events:S2-L00869-E5]
@@ -4462,6 +4569,11 @@ Berbevis/phytosome was reported again March 30 after an HCl-only interval. A mor
 documented course
 
 Source: course:pz59-berbevis-march30 · archive_messages:S1-M30165
+
+Course actions
+
+- 2025-04-17 · Dose taken · 1 capsule at breakfast and dinner
+  Source · 2025-04-17 · dose_taken · 1 capsule at breakfast and dinner · consecutive_sequence_aligned_to_dated_posts · reported_use · primary · S1:34665–34665 · [intervention_events:PZ73-S1-L34652-FL9-fb15d627]
 
 ## 2025-03-31 · Stopped 2025-04-24 · SS-31
 
@@ -4547,6 +4659,9 @@ Course actions
 - 2025-04-01 · Restart
   Source · 2025-04-01 · restart · previous_day_reporting_convention · reported_use · primary · S1:30599–30612 · [intervention_events:S1-C30599-2]
 
+- 2025-04-11 · Missed
+  Source · 2025-04-11 · missed · consecutive_sequence_aligned_to_dated_posts · omission_or_hold · primary · S1:33258–33258 · [intervention_events:PZ73-S1-L33245-FL7-00c1f173]
+
 - 2025-05-31 · Ran out
   Source · 2025-05-31 · ran_out · day_anchored_to_June_4_and_May_28_spermidine_report · omission_or_hold · primary · S1:40606–40620 · [intervention_events:S1-C40606-1]
 
@@ -4593,6 +4708,15 @@ Course actions
 
 - 2025-04-02 · Restart · 4 capsules
   Source · 2025-04-02 · restart · 4 capsules · consecutive_sequence_aligned_to_dated_posts · reported_use · primary · S1:31115–31128 · [intervention_events:S1-C31115-2]
+
+- 2025-04-06 · Missed
+  Source · 2025-04-06 · missed · consecutive_sequence_aligned_to_dated_posts · omission_or_hold · primary · S1:32256–32256 · [intervention_events:PZ73-S1-L32243-FL9-854a227e]
+
+- 2025-04-07 · Missed
+  Source · 2025-04-07 · missed · consecutive_sequence_aligned_to_dated_posts · omission_or_hold · primary · S1:32272–32272 · [intervention_events:PZ73-S1-L32259-FL7-854a227e]
+
+- 2025-04-11 · Missed
+  Source · 2025-04-11 · missed · consecutive_sequence_aligned_to_dated_posts · omission_or_hold · primary · S1:33258–33258 · [intervention_events:PZ73-S1-L33245-FL7-854a227e]
 
 - 2025-04-25 · Ran out
   Source · 2025-04-25 · ran_out · consecutive_sequence_aligned_to_dated_posts · omission_or_hold · primary · S1:35901–35915 · [intervention_events:S1-C35901-2]
@@ -4657,7 +4781,7 @@ Source: course:pz59-zinc-picolinate-apr7 · archive_messages:S1-M31673
 
 Milestone
 
-Ivabradine 5 mg twice daily was started around 8–9 April 2025 for orthostatic tachycardia. The patient reported a lower standing heart rate by 9 April (at one point approximately 90 bpm) and about 10 bpm lower heart rate on 10 April. A later retrospective account estimated reductions of about 10 bpm at rest and 15–20 bpm standing. This was a modest heart-rate benefit; no clear improvement in the broader illness was reported. Treatment was temporarily interrupted in April, then restarted on 23 April; subsequent uninterrupted exposure cannot be established from these records.
+Ivabradine 5 mg twice daily for orthostatic tachycardia: reported heart-rate reduction of about 10 bpm at rest and 15–20 bpm standing; no clear broader clinical improvement. Temporarily paused in April, restarted 23 April.
 
 Patient-reported treatment response · approximately dated start
 
@@ -4737,6 +4861,9 @@ Course actions
 
 - 2025-04-09 · Missed · lunch
   Source · 2025-04-09 · missed · lunch · consecutive_sequence_aligned_to_dated_posts · omission_or_hold · primary · S1:32705–32720 · [intervention_events:S1-C32705-2]
+
+- 2025-04-11 · Missed · second dose
+  Source · 2025-04-11 · missed · second dose · consecutive_sequence_aligned_to_dated_posts · omission_or_hold · primary · S1:33258–33258 · [intervention_events:PZ73-S1-L33245-FL7-6d5c1cd1]
 
 - 2025-04-17 · Held · 2nd dose
   Source · 2025-04-17 · held · 2nd dose · consecutive_sequence_aligned_to_dated_posts · omission_or_hold · primary · S1:34652–34665 · [intervention_events:S1-C34652-2]
@@ -5220,11 +5347,11 @@ Course actions
 - 2025-06-23 · Stop
   Source · 2025-06-23 · stop · inferred diary day · reported_boundary · primary · S2:291–291 · [intervention_events:S2-L00291-E1]
 
-## 2025-06-21 · Recurrent severe crashes after a single rapamycin dose
+## 2025-06-21 · Recurrent severe crashes after one rapamycin dose
 
 Milestone
 
-A single 0.5 mg rapamycin dose on 21 June 2025 was followed by a sequence of severe CNS and upper-body fatigue episodes and crashes over approximately ten days. This represents recurrent episodes after one administration, not repeated dosing or one continuous ten-day attack. The temporal association does not establish causation.
+Single 0.5 mg rapamycin dose on 21 June 2025, followed by recurrent severe CNS and upper-body fatigue crashes over about 10 days.
 
 day onset approximate duration · patient report
 
@@ -5445,15 +5572,15 @@ Course actions
 - 2025-06-27 · Start · 560 mg
   Source · 2025-06-27 · start · 560 mg · inferred diary day · reported_use · primary · S2:353–353 · [intervention_events:S2-L00353-E1]
 
-## 2025-07 – 2025-09 · Green stools and GI disturbance following July treatment changes
+## 2025-07 – 2025-09 · Green stools, GI symptoms and dietary response
 
 Milestone
 
-Green stool appeared shortly after ensitrelvir began on 1 July 2025. Further episodes of green diarrhea, abdominal symptoms and systemic tingling developed amid overlapping trials of Gou teng, SuperHMO and changes in diet. Attribution to ensitrelvir remains uncertain, particularly given the preceding rapamycin-associated deterioration and several overlapping interventions. A restricted, low-fat diet and later GI improvement were documented. The patient retrospectively suspected that PEA/luteolin and the concurrent GI-stabilization/dietary regimen contributed to improving the green stools; multiple interventions overlapped, so that response is not attributable to one product.
+Green stools after starting ensitrelvir on 1 July 2025; recurrent green diarrhea, upper abdominal pain and systemic tingling during Gou teng/SuperHMO trials and dietary changes. Transient stool-color improvement with modified citrus pectin, Enterosgel, activated charcoal, KPV and fat restriction; later abdominal pain largely resolved on a very low-fat diet. Patient also suspected benefit from PEA/luteolin; individual effects uncertain.
 
 month range · patient report
 
-Source: context_cards:CTX-015 · S3:669-687, S3:714-731, S1:47443, S1:48122, S1:51567, S4-R21 p2, S4-R22 pp1-2
+Source: context_cards:CTX-015 · S3:669-687, S3:714-731, S1:47443, S1:48122, S1:51567, S4-R21 p2, S4-R22 pp1-2, PZ57-COURSE-REVIEW:353-359, S3:728-731
 
 S3:669-687 · Jul:
 * 1: ▶️ ensitrelvir
@@ -5468,6 +5595,10 @@ S1:47443 · i actually can't remember ifni took the 2 caps today too but i think
 S1:48122 · do you think it's possible to figure out purely theoretically which of superHMO and gou teng gave me this intense herx?
 
 S1:51567 · If you recall with gou teng it was a similar pattern. Periodically repeating every day with crashes starting in the afternoon and intensifying for a few days before slowly dying down. What could explain this?
+
+S3:728-731 · * 22: stop all fat consumption, only eat boiled rice, boiled egg whites, a bit of carrot/apple salad
+Sept:
+* liver and pancreas markers within normal range again, pain mostly disappeared […]
 
 ## 2025-07 · Off by 2025-08-20 · KPV
 
@@ -6351,11 +6482,11 @@ Course actions
 - 2025-08-21 · Stopped / paused
   Source · 2025-08-21 · stop · inferred diary day · reported_boundary · primary · S2:1320–1320 · [intervention_events:S2-L01320-E1] | 2025-08-21 · pause · day · source_account · corroborating · S3:727–727 · [intervention_events:S3:T:727:1]
 
-## 2025-08-19 – 2025-09-04 · Liver and pancreatic enzymes normalized after earlier elevations
+## 2025-08-19 – 2025-09-04 · Liver and pancreatic enzyme normalization
 
 Milestone
 
-Following the green-stool and abdominal-symptom period, repeat testing on 4 September 2025 showed normalization of the previously elevated ALT, amylase and lipase: ALT 80 → 40 U/L, amylase 113 → 62 U/L and lipase 156 → 25 U/L between 19 August and 4 September. AST was at the laboratory upper limit (50 U/L) on 19 August and fell to 29 U/L. The patient suspected that a contemporaneous GI-stabilization regimen, possibly including PEA/luteolin, helped the green-stool symptoms. This temporal overlap does not establish that the regimen normalized the enzymes or caused the prior abnormalities.
+19 August → 4 September 2025 (U/L): ALT 80 → 40; AST 50 → 29; amylase 113 → 62; lipase 156 → 25.
 
 day range · original lab reports
 
@@ -6566,11 +6697,11 @@ Source: intervention_events:S3:T:731:1 · intervention_events:S3:T:731:1, S3:731
 
 S3:731–731 · * slowly reintroducing fat (half an egg yolk with each meal), but still only eating plain rice + egg whites
 
-## 2025-09-01 · Amatica blood draw and subsequent research-test results
+## 2025-09-01 · Amatica research tests
 
 Milestone
 
-A mobile nurse completed the Amatica blood draw at approximately 06:00 on 1 September 2025. The patient described being fasting and experiencing hunger-related tingling before collection. Partial research-panel results were received on 1 October, with a second batch on 15 October; the supplied laboratory report is dated 20 November 2025. RNA-seq results were reported available on 14 March 2026, but the RNA export does not confirm that its sample was collected on 1 September. Research ranges and gene-expression findings are exploratory, not validated diagnoses.
+Amatica blood draw on 1 September 2025; 31-marker protein panel (November 2025) and RNA sequencing results (March 2026). Exploratory research findings.
 
 Diary and contemporaneous patient account; transcriptomic sample linkage unverified
 
@@ -7187,7 +7318,7 @@ S1:59280-59282 · so anyway, as for next steps: I have started the marinated gar
 
 Milestone
 
-A spore probiotic was tried November 18 onward and restarted November 26; a single bezisterim dose followed on December 1. The new wrist-specific fatigue pattern was retrospectively dated to this period. Nape fatigue had been reported by February 5, 2025, and a different deep muscle-fatigue episode occurred after NADH in October 2024; the late-2025 nape syndrome was described as more prominent. Behind-eye and lactate-like forehead symptoms and a lower functional threshold were also reported. Either treatment, other exposures or disease fluctuation may contribute; the cause is unresolved.
+New wrist-specific fatigue after spore probiotic trials (18 and 26 November) and a single bezisterim dose (1 December). Increased nape fatigue, retro-orbital and lactate-like forehead symptoms; lower exertional threshold. Nape fatigue predated this period; trigger uncertain.
 
 month range · patient report
 
@@ -7484,7 +7615,7 @@ Source: context:context:a9876131-de3b-5596-a11a-87a3b397491c · diary_observatio
 
 Milestone
 
-On the December 9, 2025 sample the lab reported 0.3 pg/mL, “SPIKE NEGATIVE”, against a stated pre-pandemic limit of 2.8 pg/mL. The report identifies this as a novel, unaccredited research assay for compassionate use. The result belongs to this specimen and assay.
+9 December 2025: spike protein 0.3 pg/mL, reported negative (reference limit 2.8 pg/mL); unaccredited research assay; treat result with reservations.
 
 day · original research report
 
@@ -8382,7 +8513,7 @@ Source: response:S2-R-5427 · S2:5427-5427
 
 S2:5427-5427 · Changes stop redaxin due to very bad crash yesterday
 
-## Recorded 2026-03-12 – 2026-11-04 · Aspirin
+## Recorded 2026-03-12 – 2026-11-23 · Aspirin
 
 Action
 
@@ -8431,6 +8562,12 @@ Source: unassigned-actions:intervention:7e1ea408-af99-5d0a-982e-3885189f5c9a:202
 - 2026-10-28 03:15 · Administration · 500 mg · 3.15 take aspirin 500mg
 
 - 2026-11-04 21:30 · Administration · 21.30 take aspirin
+
+- 2026-11-20 21:15 · Administration · 500 mg · 21.15 take aspirin 500mg
+
+- 2026-11-21 21:45 · Administration · 500 mg · 21.45 take aspirin 500mg
+
+- 2026-11-23 18:15 · Administration · 500 mg · 18.15 take aspirin 500mg
 
 ## Recorded 2026-03-14 – 2026-03-18 · KPV
 
@@ -9012,15 +9149,15 @@ Source: response:S2-R-6721 · S2:6721-6734
 S2:6721-6734 · changes: start mg oxide again (400mg); bump b12 injection to full dose (1mg)
 sleep a bit fragmented […]
 
-## 2026-06 – 2026-11 · Hepatitis C antiviral courses: Ledifos, Velpanat and Darvoni
+## 2026-06 – 2026-11 · Hepatitis C antivirals repurposed for suspected chronic COVID: Ledifos, Velpanat, Darvoni
 
 Milestone
 
-Ledifos, Velpanat and Darvoni were taken in separate courses with interruptions and switches. One Velpanat exposure was followed by rapid brain discomfort, a severe crash and sleep, prompting a pause. The patient subsequently completed approximately two months of Darvoni and reported that Velpanat was tolerated when resumed after Darvoni ran out. Responses varied by period; the initial adverse episode did not mean every later Velpanat dose was intolerable.
+Ledifos, Velpanat and Darvoni trialed for suspected chronic COVID. Severe crash with brain discomfort and sleep after initial Velpanat and after a double Darvoni dose. Single-dose Darvoni reportedly tolerated for about 2 months, followed by tolerated Velpanat after switching back.
 
 reconstructed month range · patient report
 
-Source: context_cards:CTX-020 · S2:7219, S2:7661, S2:8057-8084, S2:8106-8112, S2:8925
+Source: context_cards:CTX-020 · S2:7219, S2:7661, S2:8057-8084, S2:8106-8112, S2:8925, S2:8165-8181
 
 S2:7219 · changes start ledifos at 1 pill for now
 
@@ -9033,6 +9170,9 @@ S2:8106-8112 · changes start darvoni (might tolerate better than velpanat)
 9 wake […]
 
 S2:8925 · changes ran out of darvoni, switching to velpanat to try again
+
+S2:8165-8181 · changes double darvoni dose as experiment
+2.20 wake with nape burning […]
 
 ## 2026-06-06 · Estimated end 2026-06-06 to 2026-06-07 · Lithium orotate
 
@@ -9680,7 +9820,7 @@ Source: context:context:b870b1dd-99cf-573f-8e65-dfee6dbfc601 · diary_observatio
 
 Milestone
 
-The later diary documents two actual administrations, whereas earlier chat only discussed a possible trial. About one hour after the first, the patient described fatigue and burning, while also reporting exertion above baseline. The second produced a different symptom pattern and he questioned the attribution. The written fraction and calculated first dose differ; preserve the original wording.
+Two clonazepam microdose trials: fatigue and brain burning about an hour after the first, with concurrent above-baseline exertion; milder burning/PEM after the second without the same fatigue or sleep pressure. Possible intolerance; attribution uncertain. First dose uncertain.
 
 reconstructed month · patient report
 
@@ -9733,6 +9873,11 @@ Rupatadine is called an existing evening medication in the 2026-10-16 diary (tha
 documented course
 
 Source: course:pz67-rupatadine-in-use-by-2026-10-16 · diary_logs:S2-L08664
+
+Course actions
+
+- 2026-11-16 · Missed · changes skip evening antivirals + rupatadine due to crash
+  Source · 2026-11-16 · missed · changes skip evening antivirals + rupatadine due to crash · explicit diary date; evening · omission_or_hold · primary · S2-R71-20261116:10–10 · [intervention_events:R71-A-016-2]
 
 ## 2026-10-19 · Last dose 2026-10-19 · Clonazepam
 
@@ -9809,6 +9954,9 @@ Course actions
 
 - 2026-11-02 · Switch reported · Source describes switching to re-try; actual ingestion at this transition was not separately recorded.
   Source · 2026-11-02 · switch_reported · Source describes switching to re-try; actual ingestion at this transition was not separately recorded. · inferred diary day · reported_change · primary · S2:8925–8925 · [intervention_events:S2-L08925-E2]
+
+- 2026-11-16 · Missed · changes skip evening antivirals + rupatadine due to crash
+  Source · 2026-11-16 · missed · changes skip evening antivirals + rupatadine due to crash · explicit diary date; evening · omission_or_hold · primary · S2-R71-20261116:10–10 · [intervention_events:R71-A-016-1]
 
 ## 2026-11-08 – 2026-11-16 · Late-diary speech and sensory flares, with activity still variable
 
@@ -11022,14 +11170,26 @@ Could identify PYGM data on local inspection and remained uncertain why the anal
 
 ## Latest symptom documentation
 
-**2026-11-16** · `diary_logs:S2-L09099`
+**2026-11-23** · `diary_logs:R70-D-2026-11-23`
 
+> 0.06 BM b3 pale orange, semi floating
 > 2.30 sleep
-> 10.30 wake
-> 11.30 eat cocorice
-> 16.45 eat lunch
-> 17.30- peminess, strong corrosive tingling, some cns fatigue maybe
-> 20? crash into sleep
+> 9.15 wake
+> 9.15- mild fatigue: wrist nape brain; feel internal hammering/wiredness
+> 9.50-10.20 eat cocorice
+> 10.30- mild fatigue (wrist brain) continues
+> 14- nape clenching after speaking a few words to granny. no changes in neck posture; it was propped up as before.
+> 14.15 eat lunch + quince gummies
+> 15- pemy again, stronger tingling, some nape flare
+> 15.30- brain fatigue starting. i’m guessing this is due to a combination of exceeding overexentending yesterday, poor sleep, and the exertion and some speaking earlier today.
+> 15.50- pem/malaise/brain fatigue intensifying. think i’ll crash soon. it’s a sudden state change, everything is significantly worse, as if some dial was sharply adjusted. tingling is now slower and more burn-y, bit like lactate. brain slowed down, also burny. everything feels more fragile too, as in, i can feel that any sudden movement or effort would be punished more harshly, or that my brain and body would fall apart. brainstem and nape area more tender, pulsing with mild pain from the inside. sinus sensations and mild pressures more tender also. or perhaps i’m more sensitized and feel them stronger. some fatigue in wrists and triceps right now; besides the cns.
+> 17.45- pem receded a bit now.
+> 17.45-18.30 getting sudden strong back of head pain. weird kind of headache
+> 18.15 take aspirin 500mg
+> 19- wrist, nape, brain fatigue stronger again
+> 21 eat lunch
+> 22- still midly fatigue-y (wrist, nape, brain), but it’s not as intense now
+> 1.6
 
 ## Recent symptoms in the patient’s words
 
@@ -11092,6 +11252,11 @@ Earlier dated assertions
 
 ### Treatment changes documented in the preceding 30 days
 
+- 2026-11-23 · Aspirin · administration 500 mg [`intervention_events:R70-A-105`]
+- 2026-11-21 · Aspirin · administration 500 mg [`intervention_events:R70-A-072`]
+- 2026-11-20 · Aspirin · administration 500 mg [`intervention_events:R70-A-053`]
+- 2026-11-16 · Velpanat · missed [`intervention_events:R71-A-016-1`]
+- 2026-11-16 · Rupatadine · missed [`intervention_events:R71-A-016-2`]
 - 2026-11-04 · Aspirin · administration [`intervention_events:PZ57-S2-8956-7e1ea408`]
 - 2026-11-03 · Thymogen · ran_out [`intervention_events:S2-L08942-E1`]
 - 2026-11-02 · Darvoni · ran_out [`intervention_events:S2-L08925-E1`]

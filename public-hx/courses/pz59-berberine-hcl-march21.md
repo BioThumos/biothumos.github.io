@@ -1,6 +1,6 @@
 # Berberine HCl · course dossier
 
-Revision: Revision 69
+Revision: Revision 79
 course:pz59-berberine-hcl-march21
 documented_course
 2025-03-21 · Hospital interruption by 2025-03-25 · Berberine HCl was introduced in the March 21 switch. On March 22 the patient reported 0.275 g Berbevis plus 1 g HCl twice daily. The March 25 diary reports stopping supplements in hospital.

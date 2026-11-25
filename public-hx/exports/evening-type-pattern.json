@@ -1,5 +1,5 @@
 {
-  "revision_id": "Revision 69",
+  "revision_id": "Revision 79",
   "name": "Evening-type sensory waves / tingling",
   "patient_report": "Recurs near-daily, including without identified exertion; named after the 2024 NADH period, precise first occurrence uncertain.",
   "records_are": "Explicit diary mentions; no negative evidence assigned to dates without mention and no independent crash counts.",
@@ -984,6 +984,69 @@
       "wording": "21.30- evening peminess",
       "assertion": "positive_observation",
       "count_class": "observed_state"
+    },
+    {
+      "occurrence_id": "event:2cfee964-17bf-5281-b811-01697df5c7af",
+      "source_table": "diary_observations",
+      "source_id": "R70-OBS-018",
+      "diary_date": "2026-11-18",
+      "wording": "13.30- evening pulsing/peminess",
+      "assertion": "active",
+      "count_class": "documented_segment"
+    },
+    {
+      "occurrence_id": "event:d2c9ebda-5aba-5242-b961-f031fb27d8ad",
+      "source_table": "diary_observations",
+      "source_id": "R70-OBS-020",
+      "diary_date": "2026-11-18",
+      "wording": "20- strong evening pusling/tingling/sinus tingling",
+      "assertion": "active",
+      "count_class": "documented_segment"
+    },
+    {
+      "occurrence_id": "event:b55cfd25-ad8c-5713-a435-136d24988c51",
+      "source_table": "diary_observations",
+      "source_id": "R70-OBS-031",
+      "diary_date": "2026-11-19",
+      "wording": "16- evening pulsing/tingling/sinus",
+      "assertion": "active",
+      "count_class": "documented_segment"
+    },
+    {
+      "occurrence_id": "event:d8b62836-3fb9-5dbe-9743-29176d5a4e55",
+      "source_table": "diary_observations",
+      "source_id": "R70-OBS-034",
+      "diary_date": "2026-11-19",
+      "wording": "19.15- evening pulsing/tingling continues stronger",
+      "assertion": "continuing",
+      "count_class": "continuing_or_partial"
+    },
+    {
+      "occurrence_id": "event:d54d89d3-6a16-54cf-ad2a-ebff3b680016",
+      "source_table": "diary_observations",
+      "source_id": "R70-OBS-054",
+      "diary_date": "2026-11-20",
+      "wording": "21.30 evening peminess/pulsing",
+      "assertion": "active",
+      "count_class": "documented_segment"
+    },
+    {
+      "occurrence_id": "event:50001446-a5e8-5fa7-b933-fad46c1e753a",
+      "source_table": "diary_observations",
+      "source_id": "R70-OBS-069",
+      "diary_date": "2026-11-21",
+      "wording": "19.30- evening symptoms, pulsing, stronger forehead pressure",
+      "assertion": "active",
+      "count_class": "documented_segment"
+    },
+    {
+      "occurrence_id": "event:b95c8142-6791-5f10-80a1-bab12b796ec8",
+      "source_table": "diary_observations",
+      "source_id": "R70-OBS-086",
+      "diary_date": "2026-11-22",
+      "wording": "21- evening peminess",
+      "assertion": "active",
+      "count_class": "documented_segment"
     }
   ]
 }

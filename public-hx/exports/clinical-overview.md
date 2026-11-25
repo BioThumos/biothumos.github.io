@@ -1,6 +1,6 @@
 # Clinical overview
 
-Revision Revision 69 · Snapshot 2026-11-23
+Revision Revision 79 · Snapshot 2026-11-23
 
 ## Patient overview
 
@@ -49,7 +49,7 @@ Reviewed 2026-11-23
 
 Milestone
 
-Two Pfizer doses reported in June 2021. Appendectomy reportedly followed the second dose by two weeks.
+Two Pfizer doses in June 2021; appendectomy reportedly 2 weeks after the second.
 
 month · patient report
 
@@ -61,7 +61,7 @@ S3:7 · * 2x Pfizer June 2021, appendectomy 2w after 2nd jab
 
 Milestone
 
-Patient reports a positive SARS-CoV-2 test in May 2023, likely the third infection, with about six weeks of symptoms. Intermittent feverish or sick spells followed that summer.
+Positive SARS-CoV-2 test in May 2023 (likely third infection); symptoms for about 6 weeks, followed by intermittent feverish episodes that summer.
 
 month range · patient report
 
@@ -75,25 +75,34 @@ S3:406-411 · 2023
 May:
 * COVID positive infection, most likely the 3rd infection […]
 
-## 2023-09 · Musty indoor air and air-conditioner fault with temporary throat symptoms
+## 2023-09 – 2023-10 · Transient throat and breathing symptoms: suspected mold exposure and possible COVID reinfection
 
 Milestone
 
-In September 2023, musty air and a malfunctioning air conditioner coincided with throat and breathing symptoms. Symptoms reportedly resolved following repairs. Mold exposure was suspected, not demonstrated as the cause.
+Musty indoor air and faulty air conditioning coincided with throat and breathing symptoms, resolving after repairs. Suspected mold exposure. Possible COVID reinfection around October 2023: indeterminate (presumptive positive) PCR, followed by a reported negative PCR.
 
 month · patient report
 
-Source: context_cards:CTX-005 · S3:412-416
+Source: context_cards:CTX-005 · S3:412-419, S1:230, S1:10830-10831, S1:20233-20236
 
-S3:412-416 · Sept:
+S3:412-419 · Sept:
 * moving into new flat in tropical/equatorial climate
 * flat has high humidity and mouldy-smelling air → respiratory symptoms, feeling of suffocation, extreme discomfort in throat […]
+
+S1:230 · regarding the timeline, i'm not actually sure if I caught covid in Sept after moving into the new flat as the PCR test came back as "presumptive positive" and discussion with the lab tech suggested it was either very low viral load or false positive, so result is indeterminate. it could well be that my May infection had already set me up for LC, given some weird summer episodes, and all it took was a stressful time (new job, move to new country etc) and mycotoxin exposure to trigger it full force. mycotoxins are potent immune suppressors after all.
+
+S1:10830-10831 · it's still unclear to me if i had an actual covid infx in sept as i had a "presumptive positive" test (ie low but not enough viral load detected), but that could be a tiny infx or just remnants of viral persistence from the May infx
+He recalled feverishness, sore throat, brain fog and a presumptive positive test during a five-day illness. He then tested negative and briefly resumed work and exercise.
+
+S1:20233-20236 · it was in oct 2023
+i only received a partial positive but they couldn't tell conclusively. i suspect i wasn't even infected and it was just remaining virus from my previous may infx, at which point i hadn't tested.
+Hmm. mAbs are likely less effective […]
 
 ## 2023-10 – 2023-12 · Relapsing illness became persistent
 
 Milestone
 
-Feverishness, sore throat, cognitive slowing and weakness recurred at roughly two-week intervals. A faint/partial positive test was reported. The third spell persisted, with severe cognitive dysfunction, panic, fragmented sleep and paresthesias. By December he required family help to return home.
+Feverishness, sore throat, cognitive slowing and weakness recurred about every 2 weeks. Third episode persisted with severe cognitive dysfunction, panic, fragmented sleep and paresthesias. Needed family assistance to return home by December.
 
 month range · patient report
 
@@ -110,7 +119,7 @@ S3:438-444 · Dec:
 
 Milestone
 
-Nicergoline was started after a neurological consultation. The patient reported rapid improvement in brain fog and brain burning, but the effect waned within approximately two months.
+Rapid relief of brain fog and brain burning after starting nicergoline; benefit waned within about 2 months.
 
 month range · patient report
 
@@ -127,7 +136,7 @@ S3:456-457 · * by now, nicergoline lost effectiveness → eNOS uncoupling?
 
 Milestone
 
-During an approximately two-month course of maraviroc plus atorvastatin (Dr Bruce Patterson’s proposed Long COVID protocol), the patient reported worsening brain burning and tinnitus without improvement. Exact start and stop dates are retrospective.
+About 2 months of maraviroc plus atorvastatin (Patterson Long COVID protocol): worsened brain burning and tinnitus, no benefit.
 
 Patient retrospective report · approximate months
 
@@ -141,7 +150,7 @@ S3:450-461 · * consultation with clinical team → they suspect long COVID and 
 
 Milestone
 
-The patient retrospectively confirmed that the multi-ingredient NC protocol began on 17 April 2024. Reported components included B complex, DEKA, vitamin C, curcumin, CBD, cordyceps, ganoderma, shiitake, pectin, broccoli and antioxidants; one inulin/probiotic product started alongside the regimen. Fatigue and energy reportedly improved almost immediately to approximately the pre-maraviroc baseline, then plateaued. This was not a return to pre-illness health. Exact doses and individual component introduction dates remain uncertain.
+NC protocol plus inulin/probiotic: B complex, DEKA, vitamin C, curcumin, CBD, cordyceps, ganoderma, shiitake, pectin, broccoli and antioxidants. Rapid improvement in fatigue and energy to approximately pre-maraviroc baseline, then plateau.
 
 2024 tracker date with retrospective patient clarification
 
@@ -153,11 +162,11 @@ S3:472-486 · May:
 * start liposomal long COVID protocol: vitamins A/B/C/D/E/K, quercetin, CBD, curcumin, cordyceps, ganoderma, shiitake, pectin, broccoli, antioxidants, inulin+probiotics
 * immediate improvement in fatigue/energy levels almost immediately → regained pre-Maraviroc baseline, but improvement plateaud shortly thereafter […]
 
-## 2024-07 – 2025-03 · Multiple Borrelia tests
+## 2024-07 – 2025-03 · Discordant Borrelia test results
 
 Milestone
 
-July 2024 IgG ELISA strongly positive and IgG line blot positive with negative IgM; separate real-time PCR negative. Later patient history describes a negative specialist Western blot in March 2025. Preserve method, time and origin. A two-month doxycycline course was reportedly unhelpful.
+July 2024: strongly positive Borrelia IgG ELISA, positive IgG line blot, negative IgM and PCR. March 2025: reportedly negative specialist Western blot. Doxycycline for 2 months without reported benefit.
 
 month range · original report and patient recollection
 
@@ -169,11 +178,11 @@ S3:239-241 · * was put on it for 2 months due to Lyme suspicion after positive 
 
 S3:657 · * Lyme test: a Lyme specialist tested via Western blot → Borrelia negative
 
-## 2024-10-20 – 2024-10-30 · NADH-associated severe baseline decline and onset of physical PEM
+## 2024-10-20 – 2024-10-30 · NADH-associated severe baseline decline and onset of physical and neurological PEM
 
 Milestone
 
-During two NADH exposure periods (20–21 and 25–28 October 2024), the patient developed a previously unfamiliar, profound deep-muscle fatigue and physical post-exertional deterioration. A major crash was documented on 23 October; marked weakness and inability to get out of bed recurred on 29 October. The patient described a severe step down in functional baseline—from being able to leave home at times to frequently remaining in bed—and a new, persistent PEM and sensory-intolerance pattern. Neurological exertional exacerbations with brain burning had existed beforehand. There was partial improvement in November, but the subsequent baseline remained substantially impaired. The exposure is temporally associated with the decline; a sole cause cannot be established from these reports.
+After NADH on 20–21 and 25–28 October 2024: new profound deep-muscle fatigue and physical PEM, severe crash on 23 October, unable to get out of bed on 29 October. Previously able to leave home intermittently; thereafter frequently bedbound, with persistent PEM and sensory intolerance. Partial recovery in November, but markedly lower baseline. Brain burning/PENE predated NADH; neurological PEM was new.
 
 day range · Reviewer-corrected intake dates; tracker, patient and clinician accounts of symptoms
 
@@ -219,7 +228,7 @@ S3:symptom:013 · * Post Exertional Malaise (PEM):
 
 Milestone
 
-In hospital March 25 and home March 28. The patient reports MRI and neurophysiology testing, interruption of supplements and reduced activity in hospital. He described prolonged instability and a shift from moderate pre-admission to near-severe after discharge. Symptoms fluctuated, with partial relief on some days.
+Neurology admission 25–28 March: MRI and neurophysiology testing; supplements interrupted and activity reduced. Prolonged post-discharge deterioration from moderate to near-severe illness.
 
 mixed precision · patient report
 
@@ -250,7 +259,7 @@ S3:657-660 · * Lyme test: a Lyme specialist tested via Western blot → Borreli
 
 Milestone
 
-Ivabradine 5 mg twice daily was started around 8–9 April 2025 for orthostatic tachycardia. The patient reported a lower standing heart rate by 9 April (at one point approximately 90 bpm) and about 10 bpm lower heart rate on 10 April. A later retrospective account estimated reductions of about 10 bpm at rest and 15–20 bpm standing. This was a modest heart-rate benefit; no clear improvement in the broader illness was reported. Treatment was temporarily interrupted in April, then restarted on 23 April; subsequent uninterrupted exposure cannot be established from these records.
+Ivabradine 5 mg twice daily for orthostatic tachycardia: reported heart-rate reduction of about 10 bpm at rest and 15–20 bpm standing; no clear broader clinical improvement. Temporarily paused in April, restarted 23 April.
 
 Patient-reported treatment response · approximately dated start
 
@@ -292,11 +301,11 @@ still lots of mucus upon waking
 
 S3:203 · * ivabradine 2x5mg: reduction in HR, 10bpm resting, 15-20bpm standing, no other improvements
 
-## 2025-06-21 · Recurrent severe crashes after a single rapamycin dose
+## 2025-06-21 · Recurrent severe crashes after one rapamycin dose
 
 Milestone
 
-A single 0.5 mg rapamycin dose on 21 June 2025 was followed by a sequence of severe CNS and upper-body fatigue episodes and crashes over approximately ten days. This represents recurrent episodes after one administration, not repeated dosing or one continuous ten-day attack. The temporal association does not establish causation.
+Single 0.5 mg rapamycin dose on 21 June 2025, followed by recurrent severe CNS and upper-body fatigue crashes over about 10 days.
 
 day onset approximate duration · patient report
 
@@ -318,15 +327,15 @@ oh i did actually get tingling at first […]
 
 S1:42316 · On June 22 he recalled sudden intense upper abdominal pain, lasting about a minute, a few hours after starting rapamycin and before the previous day’s crash. He distinguished the location from his usual right-sided flares.
 
-## 2025-07 – 2025-09 · Green stools and GI disturbance following July treatment changes
+## 2025-07 – 2025-09 · Green stools, GI symptoms and dietary response
 
 Milestone
 
-Green stool appeared shortly after ensitrelvir began on 1 July 2025. Further episodes of green diarrhea, abdominal symptoms and systemic tingling developed amid overlapping trials of Gou teng, SuperHMO and changes in diet. Attribution to ensitrelvir remains uncertain, particularly given the preceding rapamycin-associated deterioration and several overlapping interventions. A restricted, low-fat diet and later GI improvement were documented. The patient retrospectively suspected that PEA/luteolin and the concurrent GI-stabilization/dietary regimen contributed to improving the green stools; multiple interventions overlapped, so that response is not attributable to one product.
+Green stools after starting ensitrelvir on 1 July 2025; recurrent green diarrhea, upper abdominal pain and systemic tingling during Gou teng/SuperHMO trials and dietary changes. Transient stool-color improvement with modified citrus pectin, Enterosgel, activated charcoal, KPV and fat restriction; later abdominal pain largely resolved on a very low-fat diet. Patient also suspected benefit from PEA/luteolin; individual effects uncertain.
 
 month range · patient report
 
-Source: context_cards:CTX-015 · S3:669-687, S3:714-731, S1:47443, S1:48122, S1:51567, S4-R21 p2, S4-R22 pp1-2
+Source: context_cards:CTX-015 · S3:669-687, S3:714-731, S1:47443, S1:48122, S1:51567, S4-R21 p2, S4-R22 pp1-2, PZ57-COURSE-REVIEW:353-359, S3:728-731
 
 S3:669-687 · Jul:
 * 1: ▶️ ensitrelvir
@@ -342,21 +351,25 @@ S1:48122 · do you think it's possible to figure out purely theoretically which 
 
 S1:51567 · If you recall with gou teng it was a similar pattern. Periodically repeating every day with crashes starting in the afternoon and intensifying for a few days before slowly dying down. What could explain this?
 
-## 2025-08-19 – 2025-09-04 · Liver and pancreatic enzymes normalized after earlier elevations
+S3:728-731 · * 22: stop all fat consumption, only eat boiled rice, boiled egg whites, a bit of carrot/apple salad
+Sept:
+* liver and pancreas markers within normal range again, pain mostly disappeared […]
+
+## 2025-08-19 – 2025-09-04 · Liver and pancreatic enzyme normalization
 
 Milestone
 
-Following the green-stool and abdominal-symptom period, repeat testing on 4 September 2025 showed normalization of the previously elevated ALT, amylase and lipase: ALT 80 → 40 U/L, amylase 113 → 62 U/L and lipase 156 → 25 U/L between 19 August and 4 September. AST was at the laboratory upper limit (50 U/L) on 19 August and fell to 29 U/L. The patient suspected that a contemporaneous GI-stabilization regimen, possibly including PEA/luteolin, helped the green-stool symptoms. This temporal overlap does not establish that the regimen normalized the enzymes or caused the prior abnormalities.
+19 August → 4 September 2025 (U/L): ALT 80 → 40; AST 50 → 29; amylase 113 → 62; lipase 156 → 25.
 
 day range · original lab reports
 
 Source: context_cards:CTX-016 · S4-R21 p2, S4-R22 pp1-2
 
-## 2025-09-01 · Amatica blood draw and subsequent research-test results
+## 2025-09-01 · Amatica research tests
 
 Milestone
 
-A mobile nurse completed the Amatica blood draw at approximately 06:00 on 1 September 2025. The patient described being fasting and experiencing hunger-related tingling before collection. Partial research-panel results were received on 1 October, with a second batch on 15 October; the supplied laboratory report is dated 20 November 2025. RNA-seq results were reported available on 14 March 2026, but the RNA export does not confirm that its sample was collected on 1 September. Research ranges and gene-expression findings are exploratory, not validated diagnoses.
+Amatica blood draw on 1 September 2025; 31-marker protein panel (November 2025) and RNA sequencing results (March 2026). Exploratory research findings.
 
 Diary and contemporaneous patient account; transcriptomic sample linkage unverified
 
@@ -374,7 +387,7 @@ S1-M71986 · oh RNAseq result is out
 
 Milestone
 
-A spore probiotic was tried November 18 onward and restarted November 26; a single bezisterim dose followed on December 1. The new wrist-specific fatigue pattern was retrospectively dated to this period. Nape fatigue had been reported by February 5, 2025, and a different deep muscle-fatigue episode occurred after NADH in October 2024; the late-2025 nape syndrome was described as more prominent. Behind-eye and lactate-like forehead symptoms and a lower functional threshold were also reported. Either treatment, other exposures or disease fluctuation may contribute; the cause is unresolved.
+New wrist-specific fatigue after spore probiotic trials (18 and 26 November) and a single bezisterim dose (1 December). Increased nape fatigue, retro-orbital and lactate-like forehead symptoms; lower exertional threshold. Nape fatigue predated this period; trigger uncertain.
 
 month range · patient report
 
@@ -401,21 +414,21 @@ S1:64140 · Even outside a crash, standing up to use the toilet brought on nape 
 
 Milestone
 
-On the December 9, 2025 sample the lab reported 0.3 pg/mL, “SPIKE NEGATIVE”, against a stated pre-pandemic limit of 2.8 pg/mL. The report identifies this as a novel, unaccredited research assay for compassionate use. The result belongs to this specimen and assay.
+9 December 2025: spike protein 0.3 pg/mL, reported negative (reference limit 2.8 pg/mL); unaccredited research assay; treat result with reservations.
 
 day · original research report
 
 Source: context_cards:CTX-027 · S4-R27 p1
 
-## 2026-06 – 2026-11 · Hepatitis C antiviral courses: Ledifos, Velpanat and Darvoni
+## 2026-06 – 2026-11 · Hepatitis C antivirals repurposed for suspected chronic COVID: Ledifos, Velpanat, Darvoni
 
 Milestone
 
-Ledifos, Velpanat and Darvoni were taken in separate courses with interruptions and switches. One Velpanat exposure was followed by rapid brain discomfort, a severe crash and sleep, prompting a pause. The patient subsequently completed approximately two months of Darvoni and reported that Velpanat was tolerated when resumed after Darvoni ran out. Responses varied by period; the initial adverse episode did not mean every later Velpanat dose was intolerable.
+Ledifos, Velpanat and Darvoni trialed for suspected chronic COVID. Severe crash with brain discomfort and sleep after initial Velpanat and after a double Darvoni dose. Single-dose Darvoni reportedly tolerated for about 2 months, followed by tolerated Velpanat after switching back.
 
 reconstructed month range · patient report
 
-Source: context_cards:CTX-020 · S2:7219, S2:7661, S2:8057-8084, S2:8106-8112, S2:8925
+Source: context_cards:CTX-020 · S2:7219, S2:7661, S2:8057-8084, S2:8106-8112, S2:8925, S2:8165-8181
 
 S2:7219 · changes start ledifos at 1 pill for now
 
@@ -429,11 +442,14 @@ S2:8106-8112 · changes start darvoni (might tolerate better than velpanat)
 
 S2:8925 · changes ran out of darvoni, switching to velpanat to try again
 
+S2:8165-8181 · changes double darvoni dose as experiment
+2.20 wake with nape burning […]
+
 ## 2026-10 · Clonazepam microdose trials
 
 Milestone
 
-The later diary documents two actual administrations, whereas earlier chat only discussed a possible trial. About one hour after the first, the patient described fatigue and burning, while also reporting exertion above baseline. The second produced a different symptom pattern and he questioned the attribution. The written fraction and calculated first dose differ; preserve the original wording.
+Two clonazepam microdose trials: fatigue and brain burning about an hour after the first, with concurrent above-baseline exertion; milder burning/PEM after the second without the same fatigue or sleep pressure. Possible intolerance; attribution uncertain. First dose uncertain.
 
 reconstructed month · patient report
 
@@ -452,14 +468,26 @@ S2:8823-8839 · have baseline nape symptoms and some tingling, but will try micr
 
 ## Latest symptom documentation
 
-**2026-11-16** · `diary_logs:S2-L09099`
+**2026-11-23** · `diary_logs:R70-D-2026-11-23`
 
+> 0.06 BM b3 pale orange, semi floating
 > 2.30 sleep
-> 10.30 wake
-> 11.30 eat cocorice
-> 16.45 eat lunch
-> 17.30- peminess, strong corrosive tingling, some cns fatigue maybe
-> 20? crash into sleep
+> 9.15 wake
+> 9.15- mild fatigue: wrist nape brain; feel internal hammering/wiredness
+> 9.50-10.20 eat cocorice
+> 10.30- mild fatigue (wrist brain) continues
+> 14- nape clenching after speaking a few words to granny. no changes in neck posture; it was propped up as before.
+> 14.15 eat lunch + quince gummies
+> 15- pemy again, stronger tingling, some nape flare
+> 15.30- brain fatigue starting. i’m guessing this is due to a combination of exceeding overexentending yesterday, poor sleep, and the exertion and some speaking earlier today.
+> 15.50- pem/malaise/brain fatigue intensifying. think i’ll crash soon. it’s a sudden state change, everything is significantly worse, as if some dial was sharply adjusted. tingling is now slower and more burn-y, bit like lactate. brain slowed down, also burny. everything feels more fragile too, as in, i can feel that any sudden movement or effort would be punished more harshly, or that my brain and body would fall apart. brainstem and nape area more tender, pulsing with mild pain from the inside. sinus sensations and mild pressures more tender also. or perhaps i’m more sensitized and feel them stronger. some fatigue in wrists and triceps right now; besides the cns.
+> 17.45- pem receded a bit now.
+> 17.45-18.30 getting sudden strong back of head pain. weird kind of headache
+> 18.15 take aspirin 500mg
+> 19- wrist, nape, brain fatigue stronger again
+> 21 eat lunch
+> 22- still midly fatigue-y (wrist, nape, brain), but it’s not as intense now
+> 1.6
 
 ## Recent symptoms in the patient’s words
 
@@ -522,6 +550,11 @@ Earlier dated assertions
 
 ### Treatment changes documented in the preceding 30 days
 
+- 2026-11-23 · Aspirin · administration 500 mg [`intervention_events:R70-A-105`]
+- 2026-11-21 · Aspirin · administration 500 mg [`intervention_events:R70-A-072`]
+- 2026-11-20 · Aspirin · administration 500 mg [`intervention_events:R70-A-053`]
+- 2026-11-16 · Velpanat · missed [`intervention_events:R71-A-016-1`]
+- 2026-11-16 · Rupatadine · missed [`intervention_events:R71-A-016-2`]
 - 2026-11-04 · Aspirin · administration [`intervention_events:PZ57-S2-8956-7e1ea408`]
 - 2026-11-03 · Thymogen · ran_out [`intervention_events:S2-L08942-E1`]
 - 2026-11-02 · Darvoni · ran_out [`intervention_events:S2-L08925-E1`]

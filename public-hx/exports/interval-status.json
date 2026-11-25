@@ -2612,44 +2612,44 @@
       "id": "interval-status-18",
       "after": "context_cards:CTX-021",
       "from": "2026-10-01",
-      "through": "2026-11-16",
-      "heading": "01 Oct 2026 \u2013 16 Nov 2026",
+      "through": "2026-11-23",
+      "heading": "01 Oct 2026 \u2013 23 Nov 2026",
       "metrics": [
         {
           "source": "score",
           "title": "Overall daily rating",
-          "value": "1.60 / 10",
-          "coverage": "37 rated days",
+          "value": "1.65 / 10",
+          "coverage": "44 rated days",
           "link": "scores.html",
           "domain": "function",
-          "numeric": 1.6
+          "numeric": 1.65
         },
         {
           "source": "bowel",
           "title": "Recorded bowel movements",
-          "value": "0.43 / diary day",
-          "coverage": "47 countable diary days",
+          "value": "0.44 / diary day",
+          "coverage": "54 countable diary days",
           "link": "bowels.html#bowel-chart",
           "domain": "bowel",
-          "numeric": 0.425531914893617
+          "numeric": 0.4444444444444444
         },
         {
           "source": "pem",
           "title": "PEM-family documented days",
-          "value": "4.5 days / tracked week",
-          "coverage": "27 dates in 6 qualifying weeks (05 Oct 2026\u201315 Nov 2026); 6 complete weeks in interval. Mentions, not attack counts",
+          "value": "4.4 days / tracked week",
+          "coverage": "31 dates in 7 qualifying weeks (05 Oct 2026\u201322 Nov 2026); 7 complete weeks in interval. Mentions, not attack counts",
           "link": "pem-patterns.html",
           "domain": "function",
-          "numeric": 4.5
+          "numeric": 4.428571428571429
         },
         {
           "source": "crash",
           "title": "Crash-documented days",
-          "value": "0.5 days / tracked week",
-          "coverage": "3 dates in 6 qualifying weeks (05 Oct 2026\u201315 Nov 2026); 6 complete weeks in interval. Mentions, not attack counts",
+          "value": "0.6 days / tracked week",
+          "coverage": "4 dates in 7 qualifying weeks (05 Oct 2026\u201322 Nov 2026); 7 complete weeks in interval. Mentions, not attack counts",
           "link": "symptoms.html#symptom:bbec37b1-1b89-58f4-aaf2-214943a25d60",
           "domain": "function",
-          "numeric": 0.5
+          "numeric": 0.5714285714285714
         }
       ],
       "domains": [
@@ -2660,29 +2660,29 @@
             {
               "source": "score",
               "title": "Overall daily rating",
-              "value": "1.60 / 10",
-              "coverage": "37 rated days",
+              "value": "1.65 / 10",
+              "coverage": "44 rated days",
               "link": "scores.html",
               "domain": "function",
-              "numeric": 1.6
+              "numeric": 1.65
             },
             {
               "source": "pem",
               "title": "PEM-family documented days",
-              "value": "4.5 days / tracked week",
-              "coverage": "27 dates in 6 qualifying weeks (05 Oct 2026\u201315 Nov 2026); 6 complete weeks in interval. Mentions, not attack counts",
+              "value": "4.4 days / tracked week",
+              "coverage": "31 dates in 7 qualifying weeks (05 Oct 2026\u201322 Nov 2026); 7 complete weeks in interval. Mentions, not attack counts",
               "link": "pem-patterns.html",
               "domain": "function",
-              "numeric": 4.5
+              "numeric": 4.428571428571429
             },
             {
               "source": "crash",
               "title": "Crash-documented days",
-              "value": "0.5 days / tracked week",
-              "coverage": "3 dates in 6 qualifying weeks (05 Oct 2026\u201315 Nov 2026); 6 complete weeks in interval. Mentions, not attack counts",
+              "value": "0.6 days / tracked week",
+              "coverage": "4 dates in 7 qualifying weeks (05 Oct 2026\u201322 Nov 2026); 7 complete weeks in interval. Mentions, not attack counts",
               "link": "symptoms.html#symptom:bbec37b1-1b89-58f4-aaf2-214943a25d60",
               "domain": "function",
-              "numeric": 0.5
+              "numeric": 0.5714285714285714
             }
           ]
         },
@@ -2703,11 +2703,11 @@
             {
               "source": "bowel",
               "title": "Recorded bowel movements",
-              "value": "0.43 / diary day",
-              "coverage": "47 countable diary days",
+              "value": "0.44 / diary day",
+              "coverage": "54 countable diary days",
               "link": "bowels.html#bowel-chart",
               "domain": "bowel",
-              "numeric": 0.425531914893617
+              "numeric": 0.4444444444444444
             }
           ]
         }

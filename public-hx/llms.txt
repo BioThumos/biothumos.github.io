@@ -1,13 +1,13 @@
 # Clinical record
 
-Snapshot Revision 69. Last diary entry 2026-11-16.
+Snapshot Revision 79. Last diary entry 2026-11-23.
 
 For a first visit, start with the patient summary. For a specific question, read the relevant dated week or course dossier and retain the source IDs when citing observations.
 
 - [Patient summary](exports/patient-summary.md) — Short introduction with dated evidence.
 - [Clinical overview](exports/clinical-overview.md) — Selected milestones with source references.
 - [Full chronology](exports/full-chronology.md) — Treatment actions, baseline changes, tests and other dated events.
-- [Latest diary week](weeks/2026-11-16.md) — Includes the last diary entry on 2026-11-16. For another date use the Monday of its week in the filename.
+- [Latest diary week](weeks/2026-11-23.md) — Includes the last diary entry on 2026-11-23. For another date use the Monday of its week in the filename.
 - [Calendar intervals](exports/timetable-spans.json) — Timed spans with recorded or inferred boundaries and links to the underlying records.
 - [Current stack](exports/current-stack.json) — Reported doses, schedules and the date of the review.
 - [Recent diet](exports/current-diet.json) — Meals documented in the 30 calendar days ending at the latest diary date, with dated sources.

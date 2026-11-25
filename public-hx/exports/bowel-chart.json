@@ -1,7 +1,7 @@
 {
   "bounds": [
     "2024-06-02",
-    "2026-11-16"
+    "2026-11-23"
   ],
   "periods": {
     "day": [
@@ -9772,6 +9772,90 @@
         "implied_zero_days": 1,
         "untracked_days": 0,
         "uncertain_days": 0
+      },
+      {
+        "date": "2026-11-17",
+        "mean": 1.0,
+        "observed_mean": 1.0,
+        "status": "observed",
+        "total": 1,
+        "countable_days": 1,
+        "diary_days": 1,
+        "implied_zero_days": 0,
+        "untracked_days": 0,
+        "uncertain_days": 0
+      },
+      {
+        "date": "2026-11-18",
+        "mean": 0.0,
+        "observed_mean": 0.0,
+        "status": "observed",
+        "total": 0,
+        "countable_days": 1,
+        "diary_days": 1,
+        "implied_zero_days": 1,
+        "untracked_days": 0,
+        "uncertain_days": 0
+      },
+      {
+        "date": "2026-11-19",
+        "mean": 1.0,
+        "observed_mean": 1.0,
+        "status": "observed",
+        "total": 1,
+        "countable_days": 1,
+        "diary_days": 1,
+        "implied_zero_days": 0,
+        "untracked_days": 0,
+        "uncertain_days": 0
+      },
+      {
+        "date": "2026-11-20",
+        "mean": 0.0,
+        "observed_mean": 0.0,
+        "status": "observed",
+        "total": 0,
+        "countable_days": 1,
+        "diary_days": 1,
+        "implied_zero_days": 1,
+        "untracked_days": 0,
+        "uncertain_days": 0
+      },
+      {
+        "date": "2026-11-21",
+        "mean": 0.0,
+        "observed_mean": 0.0,
+        "status": "observed",
+        "total": 0,
+        "countable_days": 1,
+        "diary_days": 1,
+        "implied_zero_days": 1,
+        "untracked_days": 0,
+        "uncertain_days": 0
+      },
+      {
+        "date": "2026-11-22",
+        "mean": 1.0,
+        "observed_mean": 1.0,
+        "status": "observed",
+        "total": 1,
+        "countable_days": 1,
+        "diary_days": 1,
+        "implied_zero_days": 0,
+        "untracked_days": 0,
+        "uncertain_days": 0
+      },
+      {
+        "date": "2026-11-23",
+        "mean": 1.0,
+        "observed_mean": 1.0,
+        "status": "observed",
+        "total": 1,
+        "countable_days": 1,
+        "diary_days": 1,
+        "implied_zero_days": 0,
+        "untracked_days": 0,
+        "uncertain_days": 0
       }
     ],
     "week": [
@@ -11217,13 +11301,25 @@
       },
       {
         "date": "2026-11-16",
+        "mean": 0.4286,
+        "observed_mean": 0.4286,
+        "status": "observed",
+        "total": 3,
+        "countable_days": 7,
+        "diary_days": 7,
+        "implied_zero_days": 4,
+        "untracked_days": 0,
+        "uncertain_days": 0
+      },
+      {
+        "date": "2026-11-23",
         "mean": null,
-        "observed_mean": 0.0,
+        "observed_mean": 1.0,
         "status": "insufficient_coverage",
-        "total": 0,
+        "total": 1,
         "countable_days": 1,
         "diary_days": 1,
-        "implied_zero_days": 1,
+        "implied_zero_days": 0,
         "untracked_days": 0,
         "uncertain_days": 0
       }
@@ -11555,13 +11651,13 @@
       },
       {
         "date": "2026-11-01",
-        "mean": 0.4375,
-        "observed_mean": 0.4375,
+        "mean": 0.4783,
+        "observed_mean": 0.4783,
         "status": "observed",
-        "total": 7,
-        "countable_days": 16,
-        "diary_days": 16,
-        "implied_zero_days": 9,
+        "total": 11,
+        "countable_days": 23,
+        "diary_days": 23,
+        "implied_zero_days": 12,
         "untracked_days": 0,
         "uncertain_days": 0
       }
@@ -11593,13 +11689,13 @@
       },
       {
         "date": "2026-01-01",
-        "mean": 0.673,
-        "observed_mean": 0.673,
+        "mean": 0.6708,
+        "observed_mean": 0.6708,
         "status": "observed",
-        "total": 214,
-        "countable_days": 318,
-        "diary_days": 320,
-        "implied_zero_days": 126,
+        "total": 218,
+        "countable_days": 325,
+        "diary_days": 327,
+        "implied_zero_days": 129,
         "untracked_days": 0,
         "uncertain_days": 2
       }

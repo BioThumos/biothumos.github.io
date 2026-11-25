@@ -3,13 +3,14 @@
   "privacy_policy_version": 2,
   "source_database_included": false,
   "indexed_sensitive_activity_events_checked": 138,
-  "redacted_text_files": 334,
-  "audited_text_files": 2057,
+  "redacted_text_files": 337,
+  "audited_text_files": 2059,
   "self_stimulation_sources_whole_line_redacted": 167,
   "alias_counts_by_category": {
-    "legacy_activity_labels": 125,
-    "anatomical_detail": 48,
-    "intimate_source_snippets_scrubbed": 991
+    "legacy_activity_labels": 126,
+    "anatomical_detail": 52,
+    "intimate_source_snippets_scrubbed": 997
   },
-  "requires_human_privacy_review": true
+  "requires_human_privacy_review": true,
+  "localization_asset_audited": true
 }

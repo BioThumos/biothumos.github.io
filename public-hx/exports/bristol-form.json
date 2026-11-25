@@ -1,17 +1,17 @@
 {
-  "revision": "Revision 69",
+  "revision": "Revision 79",
   "scale": "Bristol Stool Form Scale",
   "method": "Source-anchored retrospective text interpretations and low-confidence consistency proxies. A patient/reviewer-suggested type (e.g., mildly constipated -> type 3) is not a directly observed or clinically validated morphology score. Softness, constipation, and perceived normality may justify broad low-confidence ranges but not a confirmed exact Bristol type. Color and frequency alone are insufficient. Negated/hypothetical events are excluded. Multi-movement summaries are not copied to every movement; overlapping daily and individually clocked evidence is withheld from the plot.",
   "bounds": [
     "2025-01-25",
-    "2026-11-14"
+    "2026-11-23"
   ],
   "counts": {
-    "all_inferred": 332,
-    "inferred_chartable": 295,
+    "all_inferred": 333,
+    "inferred_chartable": 296,
     "moderate_high_chartable": 57,
-    "low_chartable": 238,
-    "recorded_chartable": 0,
+    "low_chartable": 239,
+    "recorded_chartable": 3,
     "daily_unassigned_or_duplicate": 37
   },
   "records": [
@@ -5656,6 +5656,74 @@
       "movement_number": 1,
       "rationale": "Reviewer proposed type 4 for “fairly normal solid”; shape/texture insufficient for a measured BSFS type.",
       "method": "descriptor-proxy-v2/r69",
+      "chart_eligible": true,
+      "excluded_reason": null
+    },
+    {
+      "id": "bristol:23267a79-c7d7-5516-a671-a2e44f86940d",
+      "bowel_record": "bowel:R70-OBS-004",
+      "date": "2026-11-17",
+      "source_table": "diary_observations",
+      "source_key": "R70-OBS-004",
+      "origin": "inferred",
+      "low": 3,
+      "high": 4,
+      "confidence": "low",
+      "scope": "individual",
+      "movement_number": 1,
+      "rationale": "Otherwise normal; low-confidence consistency proxy, not a specified morphology.",
+      "method": "descriptor-proxy-v2/r70",
+      "chart_eligible": true,
+      "excluded_reason": null
+    },
+    {
+      "id": "reported:bowel:R70-OBS-029:2–3",
+      "bowel_record": "bowel:R70-OBS-029",
+      "date": "2026-11-19",
+      "source_table": "diary_observations",
+      "source_key": "R70-OBS-029",
+      "origin": "recorded",
+      "low": 2,
+      "high": 3,
+      "confidence": "direct",
+      "scope": "individual",
+      "movement_number": 1,
+      "rationale": "Explicit Bristol notation in original source",
+      "method": "verbatim source notation",
+      "chart_eligible": true,
+      "excluded_reason": null
+    },
+    {
+      "id": "reported:bowel:R70-OBS-078:3–4",
+      "bowel_record": "bowel:R70-OBS-078",
+      "date": "2026-11-22",
+      "source_table": "diary_observations",
+      "source_key": "R70-OBS-078",
+      "origin": "recorded",
+      "low": 3,
+      "high": 4,
+      "confidence": "direct",
+      "scope": "individual",
+      "movement_number": 1,
+      "rationale": "Explicit Bristol notation in original source",
+      "method": "verbatim source notation",
+      "chart_eligible": true,
+      "excluded_reason": null
+    },
+    {
+      "id": "reported:bowel:R70-OBS-092:3",
+      "bowel_record": "bowel:R70-OBS-092",
+      "date": "2026-11-23",
+      "source_table": "diary_observations",
+      "source_key": "R70-OBS-092",
+      "origin": "recorded",
+      "low": 3,
+      "high": 3,
+      "confidence": "direct",
+      "scope": "individual",
+      "movement_number": 1,
+      "rationale": "Explicit Bristol notation in original source",
+      "method": "verbatim source notation",
       "chart_eligible": true,
       "excluded_reason": null
     }

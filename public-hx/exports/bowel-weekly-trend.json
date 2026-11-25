@@ -2,14 +2,6 @@
   "method": "Bowel counts as in v_pz_bowel_daily_frequency; zero by omission only in later systematic S1/S2 diaries; 2024 historical untracked days and conflict/uncertain excluded.",
   "last_twelve_complete_weeks": [
     {
-      "week": "2026-08-24",
-      "days": 7,
-      "countable_days": 7,
-      "movements": 6,
-      "assumed_zero_days": 2,
-      "per_diary_day": 0.857
-    },
-    {
       "week": "2026-08-31",
       "days": 7,
       "countable_days": 7,
@@ -96,8 +88,16 @@
       "movements": 3,
       "assumed_zero_days": 4,
       "per_diary_day": 0.429
+    },
+    {
+      "week": "2026-11-16",
+      "days": 7,
+      "countable_days": 7,
+      "movements": 3,
+      "assumed_zero_days": 4,
+      "per_diary_day": 0.429
     }
   ],
-  "previous_four_week_mean": 0.39285714285714285,
-  "latest_four_week_mean": 0.4642857142857143
+  "previous_four_week_mean": 0.42857142857142855,
+  "latest_four_week_mean": 0.42857142857142855
 }

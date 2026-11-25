@@ -1,5 +1,5 @@
 {
-  "revision_id": "Revision 69",
+  "revision_id": "Revision 79",
   "scale": {
     "1": "Low",
     "2": "Very disabling",
@@ -2949,6 +2949,13 @@
           "note": "The practitioner identifies episodes of pathological sleep pressure with the post-NADH PEM pattern.",
           "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW; context_cards:CTX-007",
           "title": "NC NADH-containing formulation (composition unverified)"
+        },
+        {
+          "related_id": "symptom:4314bbd0-2994-5709-825f-72cc5067bd95",
+          "relation": "Related presentation",
+          "note": "Sleep crashes may imply sleep pressure. Inferred dates are counted separately from explicitly described sleep pressure.",
+          "source_ref": "Patient-confirmed mapping; reviewed diary sources",
+          "title": "Crash into sleep"
         }
       ]
     },

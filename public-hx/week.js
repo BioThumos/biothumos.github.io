@@ -47,27 +47,47 @@
         previous.focus({preventScroll:true});
       }
     }
-    function show(trigger) {
+    function show(trigger, selectedChip) {
       if (active === trigger) return;
       dismiss();
       active = trigger; active.setAttribute('aria-expanded','true');
       body.replaceChildren();
-      const clock = trigger.querySelector('time');
-      if (clock) {
-        const heading = document.createElement('strong');
-        heading.textContent = clock.textContent;
-        body.appendChild(heading);
+      const event = trigger.closest('.wc-event');
+      const compact = event?.closest('.wk-wrap')?.dataset.wcMode === 'clinical';
+      const memberIds = compact ? (event?.dataset.wcMembers || '').split(' ').filter(Boolean) : [];
+      const title = selectedChip?.dataset.identity && !compact ? selectedChip.textContent :
+        compact && event ? event.dataset.wcCompactTitle : trigger.dataset.wkTitle;
+      panel.querySelector('#wk-source-heading').textContent = title || trigger.textContent.trim() || 'Clinical record';
+      const triggers = [trigger,...memberIds.map(id=>document.getElementById(id)?.querySelector('.wc-clock-button')).filter(Boolean)];
+      const seen = new Set();
+      for (const item of triggers) {
+        const section = document.createElement('div');
+        section.className='wc-popup-report';
+        const clock = item.querySelector('time');
+        if (clock) {
+          const heading = document.createElement('strong');
+          heading.textContent = clock.textContent;
+          section.appendChild(heading);
+        }
+        const tags = item.querySelector('.wc-full-tags');
+        if (tags) {
+          const copy=tags.cloneNode(true);copy.classList.remove('wc-full-tags');copy.hidden=false;
+          for(const chip of copy.querySelectorAll('.wc-chip'))chip.hidden=false;
+          section.appendChild(copy);
+        }
+        if (item.dataset.timingNote) {
+          const note = document.createElement('p');
+          note.className = 'wc-timing-note';
+          note.textContent = item.dataset.timingNote;
+          section.appendChild(note);
+        }
+        for (const id of item.dataset.wkSource.split(' ')) {
+          const tpl = document.getElementById(id);
+          if (tpl && !seen.has(id)) { section.appendChild(tpl.content.cloneNode(true)); seen.add(id); }
+        }
+        body.appendChild(section);
       }
-      if (trigger.dataset.timingNote) {
-        const note = document.createElement('p');
-        note.className = 'wc-timing-note';
-        note.textContent = trigger.dataset.timingNote;
-        body.appendChild(note);
-      }
-      for (const id of trigger.dataset.wkSource.split(' ')) {
-        const tpl = document.getElementById(id);
-        if (tpl) body.appendChild(tpl.content.cloneNode(true));
-      }
+      window.pzLocalize?.translate(panel);
       panel.hidden = false; panel.scrollTop = 0; place();
     }
     document.addEventListener('click', e => {
@@ -75,7 +95,7 @@
         e.target.closest('.wc-duration')?.parentElement.querySelector('.wc-clock-button');
       if (trigger) {
         if (trigger === active) { dismiss(); return; }
-        show(trigger);
+        show(trigger, e.target.closest('.wc-chip'));
         closeButton.focus({preventScroll:true});
       } else if (e.target === closeButton) dismiss(true);
       else if (!panel.contains(e.target)) dismiss();
@@ -107,7 +127,7 @@
   });
   // Pool overlapping labels and distribute the displacement across the group.
   // Marker dots and duration bands always remain at their recorded coordinates.
-  function placeLabels(items, trackHeight) {
+  function placeLabels(items, lower, upper) {
     let used = 0;
     const blocks = [];
     for (const item of items) {
@@ -124,7 +144,7 @@
     }
     let index = 0;
     for (const block of blocks) {
-      const origin = Math.max(0, Math.min(trackHeight-used, block.sum/block.count));
+      const origin = Math.max(lower, Math.min(upper-used, block.sum/block.count));
       for (let n=0; n<block.count; n++) {
         const item = items[index++];
         const y = item.offset+origin;
@@ -178,8 +198,9 @@
     });
     // Only overlapping durations share band width; nearby point labels use
     // their own placement and need not narrow an otherwise solitary span.
+    function layoutBands() {
     for (const track of tracks) {
-      const intervals=Array.from(track.querySelectorAll('.wc-event[data-end-minute]'))
+      const intervals=Array.from(track.querySelectorAll('.wc-event[data-end-minute]:not([hidden])'))
         .sort((a,b)=>Number(a.dataset.minute)-Number(b.dataset.minute));
       let ends=[], cluster=[];
       function finish() {
@@ -199,13 +220,56 @@
       }
       finish();
     }
+    }
+    const modeControl=document.querySelector('[data-wc-mode]');
+    const filterPanel=document.querySelector('[data-wc-filters]');
+    const options=document.querySelector('[data-wc-options]');
+    const routine=document.querySelector('[data-wc-routine]');
+    const allEvents=Array.from(scroller.querySelectorAll('.wc-event'));
+    const untimed=Array.from(scroller.querySelectorAll('.wc-untimed article:has(.wc-chip)'));
+    const filterable=[...allEvents,...untimed];
+    const families=new Set();
+    const savedKey='pz-week-view-v1';
+    let saved={};try{saved=JSON.parse(localStorage.getItem(savedKey)||'{}')}catch{}
+    for(const item of filterable){
+      const chips=item.querySelectorAll('.wc-full-tags .wc-chip, .wc-plain-button .wc-chip');
+      for(const c of chips)if(c.dataset.wcFamily)families.add(c.dataset.wcFamily);
+    }
+    const boxes=new Map();
+    if(options)for(const name of [...families].sort()){
+      const label=document.createElement('label'), input=document.createElement('input');
+      input.type='checkbox';input.checked=!Array.isArray(saved.excluded)||!saved.excluded.includes(name);
+      label.append(input,document.createTextNode(' '+name));options.append(label);boxes.set(name,input);
+    }
+    if(routine)routine.checked=saved.routine!==false;
+    if(modeControl)modeControl.value=['clinical','detailed','custom'].includes(saved.mode)?saved.mode:'clinical';
+    function applyMode(persist=true) {
+      const mode=modeControl?.value||'clinical';scroller.dataset.wcMode=mode;
+      if(filterPanel)filterPanel.hidden=mode!=='custom';
+      for(const event of filterable){
+        const full=event.querySelector('.wc-full-tags'),compact=event.querySelector('.wc-compact-tags');
+        if(full)full.hidden=mode==='clinical';if(compact)compact.hidden=mode!=='clinical';
+        const chips=event.querySelectorAll('.wc-full-tags .wc-chip, .wc-plain-button .wc-chip');
+        let visible=0;
+        for(const c of chips){c.hidden=mode==='custom'&&boxes.get(c.dataset.wcFamily)?.checked===false;if(!c.hidden)visible++;}
+        event.hidden=(mode==='clinical'&&!!event.dataset.wcParent)||
+          (mode==='custom'&&((chips.length>0&&!visible)||(routine&&!routine.checked&&event.dataset.wcRoutine==='true')));
+      }
+      layoutBands();schedule();
+      if(persist)try{localStorage.setItem(savedKey,JSON.stringify({mode,excluded:[...boxes].filter(([,b])=>!b.checked).map(([name])=>name),routine:routine?.checked!==false}));}catch{}
+    }
+    if(modeControl){modeControl.closest('.wc-display-controls').hidden=false;modeControl.addEventListener('change',()=>applyMode());}
+    if(filterPanel)filterPanel.addEventListener('change',()=>applyMode());
     let frame = 0;
     function measureLabels() {
       frame = 0;
+      const headerHeight=days[0]?.querySelector('.wk-day-head')?.getBoundingClientRect().height;
+      if(headerHeight)scroller.style.setProperty('--wc-head',Math.ceil(headerHeight)+'px');
       const daily = tracks.map(track => {
         if (!track.clientWidth || !track.clientHeight) return [];
         track.dataset.wcReady = '';
-        return Array.from(track.querySelectorAll(':scope > .wc-event')).map(el => {
+        track.removeAttribute('data-wc-sleep-rail');
+        return Array.from(track.querySelectorAll(':scope > .wc-event:not([hidden])')).map(el => {
           const labelHeight=el.querySelector('.wc-clock-button').getBoundingClientRect().height;
           const edit=el.querySelector(':scope > .pz-edit-actions');
           if (edit) el.style.setProperty('--label-height',labelHeight+'px');
@@ -213,17 +277,52 @@
             height:labelHeight+(edit ? edit.getBoundingClientRect().height+2 : 0)+3};
         }).sort((a,b) => a.minute-b.minute);
       });
-      // If a whole day cannot fit its labels, increase the shared hour spacing,
-      // so all seven dates still align to the same time axis.
-      const needed = Math.max(...daily.map(items => items.reduce((n,item) => n+item.height,0)));
-      scroller.style.setProperty('--wc-label-hour', Math.ceil((needed+2)/24)+'px');
-      for (const [index, items] of daily.entries()) {
-        const height = tracks[index].clientHeight;
+      // Treat sleep windows as packing boundaries. A wake/activity chip must
+      // not be pushed into a preceding sleep window merely to avoid collision.
+      const regions = tracks.map((track,index) => {
+        const bands = Array.from(track.querySelectorAll('.wc-event[data-end-minute]:not([hidden]):has(.wc-duration.wc-sleep)'))
+          .map(el => [Number(el.dataset.minute),Number(el.dataset.endMinute)])
+          .filter(([a,b])=>Number.isFinite(a)&&b>a).sort((a,b)=>a[0]-b[0]);
+        const merged=[];
+        for (const [a,b] of bands) {
+          if (merged.length && a<=merged.at(-1)[1]) merged.at(-1)[1]=Math.max(b,merged.at(-1)[1]);
+          else merged.push([a,b]);
+        }
+        const edges=[0,...merged.flat(),1440].filter(x=>x>=0&&x<=1440);
+        const segments=[...new Set(edges)].sort((a,b)=>a-b);
+        return segments.slice(0,-1).map((a,j)=>{
+          const b=segments[j+1], items=daily[index].filter(item=>item.minute>=a&&(item.minute<b||b===1440&&item.minute===b));
+          return {a,b,items,needed:items.reduce((sum,item)=>sum+item.height,0)};
+        });
+      });
+      // Extremely short waking gaps can contain several multi-line labels.
+      // Do not create a many-screen-high hour to fit those cases: separate
+      // the sleep bands into a narrow rail, and expose the actual clock on
+      // each chip in that day's crowded layout instead.
+      const density = r => (r.needed+2)*60/(r.b-r.a);
+      const fallback=regions.map((rs,i)=>rs.some(r=>density(r)>180));
+      for (const [i,track] of tracks.entries()) {
+        track.toggleAttribute('data-wc-sleep-rail',fallback[i]);
+        if(fallback[i]) {
+          for (const item of daily[i]) {
+            const h=item.el.querySelector('.wc-clock-button').getBoundingClientRect().height;
+            const edit=item.el.querySelector(':scope > .pz-edit-actions');
+            if(edit)item.el.style.setProperty('--label-height',h+'px');
+            item.height=h+(edit?edit.getBoundingClientRect().height+2:0)+3;
+          }
+        }
+      }
+      const needed = Math.max(0,...regions.map((rs,i)=>fallback[i] ?
+        (daily[i].reduce((n,item)=>n+item.height,0)+2)/24 : Math.max(0,...rs.map(density))));
+      scroller.style.setProperty('--wc-label-hour',Math.ceil(needed)+'px');
+      for (const [index,items] of daily.entries()) {
+        const height=tracks[index].clientHeight;
         for (const item of items) {
           item.at=item.minute*height/1440;
           item.top=Number(item.el.style.getPropertyValue('--top'))*height/1440;
         }
-        placeLabels(items,height);
+        if(fallback[index]) placeLabels(items,0,height);
+        else for(const r of regions[index])placeLabels(r.items,r.a*height/1440,r.b*height/1440);
       }
     }
     function schedule() {
@@ -266,6 +365,8 @@
       const entry = document.getElementById(location.hash.slice(1));
       const day = entry?.closest('.wk-day');
       if (!day) return;
+      // Deep links must reveal original events even if Clinical/Custom hides them.
+      if(entry.closest('.wc-event[hidden], .wc-untimed article[hidden]') && modeControl){modeControl.value='detailed';applyMode(false);}
       scrollToDay(day);
       if (entry !== day) entry.scrollIntoView({block:'center',inline:'nearest'});
       updateView();
@@ -327,10 +428,12 @@
     }
     window.addEventListener('scroll', placePreview, true);
     window.addEventListener('resize', placePreview);
+    applyMode(false);
     measureLabels();
     if (window.ResizeObserver) {
       const observer = new ResizeObserver(schedule);
       for (const track of tracks) observer.observe(track);
+      for(const day of days)observer.observe(day.querySelector('.wk-day-head'));
     } else window.addEventListener('resize', schedule);
     const changes = new MutationObserver(schedule);
     for (const track of tracks) changes.observe(track,{childList:true,subtree:true});

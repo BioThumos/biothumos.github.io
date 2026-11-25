@@ -2,13 +2,6 @@
   "method": "Positive symptom-day evidence and privacy-filtered high-exertion descriptions on diary-covered dates only. Missing mentions do not establish absence. Overlap is permitted. Exertion records are incomplete and not a measured exposure or causal predictor.",
   "last_twelve_complete_weeks": [
     {
-      "week": "2026-08-24",
-      "diary_days": 7,
-      "pem_days": 7,
-      "crash_days": 3,
-      "high_exertion_mention_days": 0
-    },
-    {
       "week": "2026-08-31",
       "diary_days": 7,
       "pem_days": 6,
@@ -84,6 +77,13 @@
       "pem_days": 6,
       "crash_days": 1,
       "high_exertion_mention_days": 3
+    },
+    {
+      "week": "2026-11-16",
+      "diary_days": 7,
+      "pem_days": 5,
+      "crash_days": 1,
+      "high_exertion_mention_days": 4
     }
   ]
 }

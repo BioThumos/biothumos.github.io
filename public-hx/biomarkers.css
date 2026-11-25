@@ -46,9 +46,6 @@
 @media(max-width:640px){.bm-report-card ul{columns:1;max-height:17rem}}
 
 /* Two complementary clinical browsing modes, with stable report and result anchors. */
-.bm-view-tabs{display:inline-flex;gap:.4rem;margin:.2rem 0 1rem}
-.bm-view-tabs button{font:inherit;color:var(--ink);padding:.45rem .85rem;border:1px solid var(--control-line);border-radius:.5rem;background:var(--paper);cursor:pointer}
-.bm-view-tabs button[aria-selected="true"]{background:var(--tint);border-color:var(--accent);font-weight:700}
 #bm-marker-view[hidden],#bm-report-view[hidden]{display:none!important}
 .bm-rna-entry{display:grid;gap:.25rem;min-height:68px;padding:.7rem .85rem;border:1px solid var(--line);border-radius:.45rem;margin:.3rem 0 .6rem}
 .bm-rna-entry span{font-size:.85rem;color:var(--muted)}
