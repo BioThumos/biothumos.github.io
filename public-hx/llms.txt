@@ -1,6 +1,6 @@
 # Clinical record
 
-Snapshot Revision 80. Last diary entry 2026-11-23.
+Snapshot Revision 81. Last diary entry 2026-11-23.
 
 For a first visit, start with the patient summary. For a specific question, read the relevant dated week or course dossier and retain the source IDs when citing observations.
 
