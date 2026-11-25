@@ -1,6 +1,6 @@
 # Event chronology
 
-Revision Revision 81 · Snapshot 2026-11-25
+Revision Revision 82 · Snapshot 2026-11-25
 
 ## 2021-06 · Vaccination and surgery
 
@@ -358,6 +358,200 @@ Source: course:fd64467d-c13d-52b7-a76f-219dac1e5b85 · pz_history_exposure:histo
 
 S3:427 · * started all sorts of supplements but only MCT oil helped → got me out of the stupor
 
+## Treatment context (response date unknown): 2023-10 – 2023-11 · lactoferrin
+
+Response
+
+* lactoferrin
+
+no clear benefit · undated retrospective history · patient retrospective
+
+Source: response:S3:treatment_response:299 · S3:299-299, S3:427–428
+
+S3:299-299 · * lactoferrin
+
+S3:427–428 · * started all sorts of supplements but only MCT oil helped → got me out of the stupor
+* no effect from: lactoferrin, L-arginine, NMN/NR, EGCG, CoQ10/PQQ, aspirin, H1/H2 blockers, black cumin seed, NAC, ALCAR, TMG, resveratrol, berberine, metformin, quercetin (phytosome), omega-3 (high dose), black garlic
+
+## Treatment context (response date unknown): 2023-10 – 2023-11 · L-arginine
+
+Response
+
+* L-arginine
+
+no clear benefit · undated retrospective history · patient retrospective
+
+Source: response:S3:treatment_response:300 · S3:300-300, S3:427–428
+
+S3:300-300 · * L-arginine
+
+S3:427–428 · * started all sorts of supplements but only MCT oil helped → got me out of the stupor
+* no effect from: lactoferrin, L-arginine, NMN/NR, EGCG, CoQ10/PQQ, aspirin, H1/H2 blockers, black cumin seed, NAC, ALCAR, TMG, resveratrol, berberine, metformin, quercetin (phytosome), omega-3 (high dose), black garlic
+
+## Treatment context (response date unknown): 2023-10 – 2023-11 · EGCG
+
+Response
+
+* EGCG
+
+no clear benefit · undated retrospective history · patient retrospective
+
+Source: response:S3:treatment_response:302 · S3:302-302, S3:427–428
+
+S3:302-302 · * EGCG
+
+S3:427–428 · * started all sorts of supplements but only MCT oil helped → got me out of the stupor
+* no effect from: lactoferrin, L-arginine, NMN/NR, EGCG, CoQ10/PQQ, aspirin, H1/H2 blockers, black cumin seed, NAC, ALCAR, TMG, resveratrol, berberine, metformin, quercetin (phytosome), omega-3 (high dose), black garlic
+
+## Treatment context (response date unknown): 2023-10 – 2023-11 · CoQ10
+
+Response
+
+* CoQ10
+
+no clear benefit · undated retrospective history · patient retrospective
+
+Source: response:S3:treatment_response:303 · S3:303-303, S3:427–428
+
+S3:303-303 · * CoQ10
+
+S3:427–428 · * started all sorts of supplements but only MCT oil helped → got me out of the stupor
+* no effect from: lactoferrin, L-arginine, NMN/NR, EGCG, CoQ10/PQQ, aspirin, H1/H2 blockers, black cumin seed, NAC, ALCAR, TMG, resveratrol, berberine, metformin, quercetin (phytosome), omega-3 (high dose), black garlic
+
+## Treatment context (response date unknown): 2023-10 – 2023-11 · PQQ
+
+Response
+
+* PQQ
+
+no clear benefit · undated retrospective history · patient retrospective
+
+Source: response:S3:treatment_response:304 · S3:304-304, S3:427–428
+
+S3:304-304 · * PQQ
+
+S3:427–428 · * started all sorts of supplements but only MCT oil helped → got me out of the stupor
+* no effect from: lactoferrin, L-arginine, NMN/NR, EGCG, CoQ10/PQQ, aspirin, H1/H2 blockers, black cumin seed, NAC, ALCAR, TMG, resveratrol, berberine, metformin, quercetin (phytosome), omega-3 (high dose), black garlic
+
+## Treatment context (response date unknown): 2023-10 – 2023-11 · black cumin seed
+
+Response
+
+* black cumin seed
+
+no clear benefit · undated retrospective history · patient retrospective
+
+Source: response:S3:treatment_response:307 · S3:307-307, S3:427–428
+
+S3:307-307 · * black cumin seed
+
+S3:427–428 · * started all sorts of supplements but only MCT oil helped → got me out of the stupor
+* no effect from: lactoferrin, L-arginine, NMN/NR, EGCG, CoQ10/PQQ, aspirin, H1/H2 blockers, black cumin seed, NAC, ALCAR, TMG, resveratrol, berberine, metformin, quercetin (phytosome), omega-3 (high dose), black garlic
+
+## Treatment context (response date unknown): 2023-10 – 2023-11 · NAC
+
+Response
+
+* NAC
+
+no clear benefit · undated retrospective history · patient retrospective
+
+Source: response:S3:treatment_response:308 · S3:308-308, S3:427–428
+
+S3:308-308 · * NAC
+
+S3:427–428 · * started all sorts of supplements but only MCT oil helped → got me out of the stupor
+* no effect from: lactoferrin, L-arginine, NMN/NR, EGCG, CoQ10/PQQ, aspirin, H1/H2 blockers, black cumin seed, NAC, ALCAR, TMG, resveratrol, berberine, metformin, quercetin (phytosome), omega-3 (high dose), black garlic
+
+## Treatment context (response date unknown): 2023-10 – 2023-11 · ALCAR
+
+Response
+
+* ALCAR
+
+no clear benefit · undated retrospective history · patient retrospective
+
+Source: response:S3:treatment_response:309 · S3:309-309, S3:427–428
+
+S3:309-309 · * ALCAR
+
+S3:427–428 · * started all sorts of supplements but only MCT oil helped → got me out of the stupor
+* no effect from: lactoferrin, L-arginine, NMN/NR, EGCG, CoQ10/PQQ, aspirin, H1/H2 blockers, black cumin seed, NAC, ALCAR, TMG, resveratrol, berberine, metformin, quercetin (phytosome), omega-3 (high dose), black garlic
+
+## Treatment context (response date unknown): 2023-10 – 2023-11 · TMG
+
+Response
+
+* TMG
+
+no clear benefit · undated retrospective history · patient retrospective
+
+Source: response:S3:treatment_response:310 · S3:310-310, S3:427–428
+
+S3:310-310 · * TMG
+
+S3:427–428 · * started all sorts of supplements but only MCT oil helped → got me out of the stupor
+* no effect from: lactoferrin, L-arginine, NMN/NR, EGCG, CoQ10/PQQ, aspirin, H1/H2 blockers, black cumin seed, NAC, ALCAR, TMG, resveratrol, berberine, metformin, quercetin (phytosome), omega-3 (high dose), black garlic
+
+## Treatment context (response date unknown): 2023-10 – 2023-11 · resveratrol
+
+Response
+
+* resveratrol
+
+no clear benefit · undated retrospective history · patient retrospective
+
+Source: response:S3:treatment_response:311 · S3:311-311, S3:427–428
+
+S3:311-311 · * resveratrol
+
+S3:427–428 · * started all sorts of supplements but only MCT oil helped → got me out of the stupor
+* no effect from: lactoferrin, L-arginine, NMN/NR, EGCG, CoQ10/PQQ, aspirin, H1/H2 blockers, black cumin seed, NAC, ALCAR, TMG, resveratrol, berberine, metformin, quercetin (phytosome), omega-3 (high dose), black garlic
+
+## Treatment context (response date unknown): 2023-10 – 2023-11 · metformin
+
+Response
+
+* metformin
+
+no clear benefit · undated retrospective history · patient retrospective
+
+Source: response:S3:treatment_response:312 · S3:312-312, S3:420–420
+
+S3:312-312 · * metformin
+
+S3:420–420 · * take small dose Metformin, as it was shown to decrease Long COVID likelihood (I think 2x500mg/day)
+
+## Treatment context (response date unknown): 2023-10 – 2023-11 · quercetin (phytosome, liposomes)
+
+Response
+
+* quercetin (phytosome, liposomes)
+
+no clear benefit · undated retrospective history · patient retrospective
+
+Source: response:S3:treatment_response:313 · S3:313-313, S3:427–428
+
+S3:313-313 · * quercetin (phytosome, liposomes)
+
+S3:427–428 · * started all sorts of supplements but only MCT oil helped → got me out of the stupor
+* no effect from: lactoferrin, L-arginine, NMN/NR, EGCG, CoQ10/PQQ, aspirin, H1/H2 blockers, black cumin seed, NAC, ALCAR, TMG, resveratrol, berberine, metformin, quercetin (phytosome), omega-3 (high dose), black garlic
+
+## Treatment context (response date unknown): 2023-10 – 2023-11; 2025-07-09 · Reported end 2025-07-16; 2025-10-28 · Stopped 2025-10-29 · black garlic
+
+Response
+
+* black garlic
+
+no clear benefit · undated retrospective history · patient retrospective
+
+Source: response:S3:treatment_response:315 · S3:315-315, S3:427–428, course:f1b690d9-8c39-5e42-a460-71e58846d4ed, course:c6d3d795-37bf-5758-bf60-95d47ed6404e
+
+S3:315-315 · * black garlic
+
+S3:427–428 · * started all sorts of supplements but only MCT oil helped → got me out of the stupor
+* no effect from: lactoferrin, L-arginine, NMN/NR, EGCG, CoQ10/PQQ, aspirin, H1/H2 blockers, black cumin seed, NAC, ALCAR, TMG, resveratrol, berberine, metformin, quercetin (phytosome), omega-3 (high dose), black garlic
+
 ## 2023-10-27 · Fitness profile: CBC, chemistry, hormones and vitamins
 
 Test
@@ -440,6 +634,18 @@ Course actions
 
 - 2023-12 · Reported use
   Source · 2023-12 · reported_use · month · reported_use · primary · S3:444–444 · [intervention_events:S3:T:444:1]
+
+## Treatment context (response date unknown): 2023-12 · Estimated end 2024-02 · nicergoline
+
+Response
+
+* nicergoline: this was before developing PEM, helped w brain fog and burns at first, petered out in 2 months → stopped
+
+some benefit · undated retrospective history · patient retrospective
+
+Source: response:S3:treatment_response:197 · S3:197-197, course:1c730219-a633-57aa-b86a-307d0c519d65
+
+S3:197-197 · * nicergoline: this was before developing PEM, helped w brain fog and burns at first, petered out in 2 months → stopped
 
 ## 2023-12-03 · MRI brain without contrast
 
@@ -584,6 +790,22 @@ Course actions
 
 - 2024-02 – 2024-04 · Reported course · Atorvastatin taken during the joint regimen; dose unspecified.
   Source · 2024-02 · through 2024-04 · reported_course · Atorvastatin taken during the joint regimen; dose unspecified. · month_range · reported_use · primary · S3:459–459 · [intervention_events:action:815e379a-a3bb-5783-a6c4-cb9328beb354]
+
+## Treatment context (response date unknown): 2024-02 · Recorded window ends 2024-04 · specialist protocol (maraviroc+atorvastatin)
+
+Response
+
+Taken with maraviroc for about two months during February–April 2024. The patient reported increased brain burning and tinnitus by the end of the regimen and stopped. He could not separate the effects of the two drugs. Taken with atorvastatin for about two months during February–April 2024. The patient reported increased brain burning and tinnitus by the end of the regimen and stopped. He could not separate the effects of the two drugs.
+
+attributed temporary worsening · undated retrospective history · patient retrospective · Attribution uncertain across exposures
+
+Source: response:S3:treatment_response:232 · S3:232-234, * specialist protocol (maraviroc+atorvastatin)
+* by end of 2 months felt stronger brain burns, tinnitus
+* had to stop, course:4045ba33-383a-5433-8671-d9fb9a3316d1, course:b94674dc-a828-5858-abb6-befe30591e37
+
+S3:232-234 · * specialist protocol (maraviroc+atorvastatin)
+* by end of 2 months felt stronger brain burns, tinnitus
+* had to stop
 
 ## 2024-02-22 · Liver panel
 
@@ -1763,6 +1985,23 @@ Investigation
 
 Source: context:context:b6311a2a-b470-5794-aa0d-518510fa5444 · intervention_events:S5-E-BB14-1
 
+## Treatment context (response date unknown): 2024-07-24 · Stopped 2024-09-22 · doxycycline
+
+Response
+
+Brain burning grew more severe during the two-month course. The patient described marked cognitive impairment by the end of treatment.
+
+attributed temporary worsening · undated retrospective history · patient retrospective · Patient-reported
+
+Source: response:S3:treatment_response:238 · S3:238-241, * doxycycline
+* was put on it for 2 months due to Lyme suspicion after positive IgG test
+* no improvement at all, instead brain burns got more severe, was barely "in there" by the end of the cure
+* doxycycline can slow lymphatic drainage → lymphatic issues may play a role in brain burns, course:9f6044d9-9a71-5f6c-9789-571dbeade170
+
+S3:238-241 · * doxycycline
+* was put on it for 2 months due to Lyme suspicion after positive IgG test
+* no improvement at all, instead brain burns got more severe, was barely "in there" by the end of the cure […]
+
 ## 2024-07-24 · Repeat Borrelia serum ELISA
 
 Test
@@ -2489,6 +2728,24 @@ Course actions
 - 2024-10-25 · Pause · Retrospective date uncertain · See Q-014. Transcribed date remains accessible in this source record.
   Source · 2024-10-25 · pause · See Q-014. Transcribed date remains accessible in this source record. · day · source_account · retrospective_timing_uncertain · S3:505–505 · [intervention_events:S3:T:505:1]
 
+## Treatment context (response date unknown): 2024-10-20 · Last dose 2024-10-21; 2024-10-25 · Last dose 2024-10-28 · NADH
+
+Response
+
+The patient associated NADH with a new deep-muscle fatigue and a major decline in function. Courses were recorded on 20–21 and 25–28 October 2024. Cognitive crashes had occurred before NADH.
+
+attributed persistent worsening · undated retrospective history · patient retrospective · Patient-reported
+
+Source: response:S3:treatment_response:209 · S3:209-211, Q-S5-NADH-START, * NADH
+* developed PEM from it, had a massive crash only after 3 days of supplementing (never had such a crash before)
+* likely due to upset NAD+/NADH balance and uncovering existing complex I dysfunction, course:44b32159-76c8-55fe-ac48-80f6c4554167, course:a070ea34-22cf-5ff7-a89b-0d5e45914b69
+
+S3:209-211 · * NADH
+* developed PEM from it, had a massive crash only after 3 days of supplementing (never had such a crash before)
+* likely due to upset NAD+/NADH balance and uncovering existing complex I dysfunction
+
+Q-S5-NADH-START · The reviewer specifies October 20–21 and October 25–28, 2024, inclusive. The tracker records an evening start October 21 and recalls a dose October 22. The retrospective history gives later dates. These accounts disagree on exposure timing. Previous reconstruction: The S5 calendar diary dates NADH initiation to the evening of October 21, 2024, excess NADH to October 22, and the first documented physical crash to October 23. Magnesium followed NADH by about five hours. The exact onset across the night of October 22–23 is unresolved. S6 clarifies phenotype. Retrospective reports supply additional symptoms. Magnesium poisoning was a patient hypothesis. Exact dose and mechanism remain uncertain. S3:symptom:013 separately describes later CNS shutdown without muscle fatigue. S5 does not name a restart. S1-M1899 supports an inferred October 25 night restart. The later S3 account places it October 28–29. An October 23 all-lipo hold does not specify NADH.
+
 ## 2024-10-20 · BEMER
 
 Response
@@ -2642,6 +2899,18 @@ things that have helped: […]
 
 S1:65-71 · the only issues i encountered after eating cheese and other fermented products was slight bloating, so some leaky gut/MCAS/new food allergies have to be there
 and yes, H1+H2 blockers did nothing for my neurological symptoms. […]
+
+## Treatment context (response date unknown): Off by 2024-10-21; 2024-12-27 · Off by 2025-03-29; 2025-03-29 · Stopped 2025-04-06; 2025-07 · Off by 2025-08-20; 2026-03-14 · Estimated end 2026-04-14 · KPV peptide, oral
+
+Response
+
+* KPV peptide, oral: more or less fixed constipation, went from 1-2x bowel movements per week to 1-2x per day
+
+some benefit · undated retrospective history · patient retrospective
+
+Source: response:S3:treatment_response:196 · S3:196-196, course:5c6972f8-f974-5e54-9a8b-28a587a1baf5, course:8966c892-354d-5983-94aa-30f80d74f64a, course:7818e72d-8bb6-529f-90b3-6ff87c19be74, course:11a7e1ee-b31f-5cb5-9270-438599487ba8, course:2904f98c-76ad-5d23-aa9a-bc89786561fd
+
+S3:196-196 · * KPV peptide, oral: more or less fixed constipation, went from 1-2x bowel movements per week to 1-2x per day
 
 ## 2024-10-22 · Water/electrolyte fasting; nicergoline
 
@@ -3000,6 +3269,22 @@ Course actions
 - 2024-11-27 · Start · titration up to 3 x 4 g/day
   Source · 2024-11-27 · start · titration up to 3 x 4 g/day · day · reported_use · primary · S3:593–593 · [intervention_events:S3:T:593:1]
 
+## Treatment context (response date unknown): 2024-11-27 · Off by 2024-12-01 · L-ornithine-L-aspartate
+
+Response
+
+The patient reported that brain burning increased as he raised the dose, culminating in a severe crash. He was unsure whether his subsequent PEM was worse.
+
+attributed temporary worsening · undated retrospective history · patient retrospective · Patient-reported
+
+Source: response:S3:treatment_response:235 · S3:235-237, * L-ornithine-L-aspartate ?
+* as dose went up, brain burns linearly increased in severity, up to a point when I crashed hard → PEM possibly got worse afterwards
+* suggests brain burns are related to glutamine buildup/osmotic swelling, course:66f50a5b-eaa3-592c-8c01-14f9b722a02e
+
+S3:235-237 · * L-ornithine-L-aspartate ?
+* as dose went up, brain burns linearly increased in severity, up to a point when I crashed hard → PEM possibly got worse afterwards
+* suggests brain burns are related to glutamine buildup/osmotic swelling
+
 ## 2024-11-27 · Biomesight 16S V4 stool microbiome
 
 Test
@@ -3126,6 +3411,33 @@ Source: intervention_events:S3:T:612:1 · S3:612–612
 
 S3:612–612 · * 31: NeilMed + boric acid + betadine sinus rinses, incredibly painful jolt from nose to back of head (note that back of head pain didn’t start here)
 
+## 2024-12-31 · Betadine / Boric acid / NeilMed
+
+Response
+
+On December 31 a NeilMed rinse with boric acid and Betadine was followed by nasal pain extending to the back of the head. The account concerns the prepared rinse.
+
+Attribution uncertain across exposures
+
+Source: response-evidence:historical_entries:S3:chronology:612 · historical_entries:S3:chronology:612, claim:40b51c1c-5ee0-5262-8129-be7346c8be2e, claim:b3606aa9-ed8f-500e-978f-1c9eb3779d55, claim:c74df490-a6cf-5bea-8bf1-0220477be786
+
+## Treatment context (response date unknown): 2024-12-31; 2025-02-20 · Stopped 2025-02-21 · various sinus rinses, nasal sprays
+
+Response
+
+The patient reports trying NeilMed and suspects repeat winter rinses after NADH worsened symptoms. Precise dates, preparation and attribution are uncertain.
+
+attributed persistent worsening · undated retrospective history · patient retrospective · Possible association
+
+Source: response:S3:treatment_response:222 · S3:222-225, * various sinus rinses, nasal sprays ?
+* anything slightly antimicrobial in nose resulted in massive pain going from nose all the way to back of head, followed by violent herx PEM crashes
+* tried: NeilMed rinses, eucalyptol terpenes, antiviral prophylactic nasal sprays (even the gentlest one made sinuses hurt like hell)
+* repeat NeilMed rinses after NADH likely caused extreme worsening in the winter, intervention_events:S3:T:612:1, course:481c79d8-c140-5084-ad58-bb526b415dd8
+
+S3:222-225 · * various sinus rinses, nasal sprays ?
+* anything slightly antimicrobial in nose resulted in massive pain going from nose all the way to back of head, followed by violent herx PEM crashes
+* tried: NeilMed rinses, eucalyptol terpenes, antiviral prophylactic nasal sprays (even the gentlest one made sinuses hurt like hell) […]
+
 ## 2025-01-03 – 2025-01-12 · Selected activities became possible during better windows
 
 Baseline
@@ -3197,6 +3509,28 @@ Course actions
 - 2025-07-11 · Ran out
   Source · 2025-07-11 · ran_out · inferred diary day · omission_or_hold · primary · S2:579–579 · [intervention_events:S2-L00579-E5]
 
+## 2025-01-03 – 2025-01-12 · L-ornithine
+
+Response
+
+The January 3–12 L-ornithine trial was associated by the patient with burning and slowed cognition resembling the preceding LOLA experience.
+
+Patient-reported
+
+Source: response-evidence:historical_entries:S3:chronology:616 · historical_entries:S3:chronology:616, claim:a1ddc460-99b0-5e47-8a56-8b0ed8984d96
+
+## Treatment context (response date unknown): 2025-01-03 · Supply exhausted 2025-07-11; In use by 2025-07-20 · Supply exhausted 2025-08-11; 2025-08-21 · Reported end 2025-12-19; In use by 2026-10-16 · Ongoing at review · rupatadine 10mg
+
+Response
+
+* rupatadine 10mg: helped with sudden anger outbursts, likely calming MCAS
+
+some benefit · undated retrospective history · patient retrospective
+
+Source: response:S3:treatment_response:204 · S3:204-204, course:74d6aeb5-fc24-577f-bb7f-b1d9194c40a9, course:12d343a3-e968-53d5-a42c-5c81d4bdaa0c, course:2a96366c-8b27-50f7-bd57-f3b7df4c2204, course:pz67-rupatadine-in-use-by-2026-10-16
+
+S3:204-204 · * rupatadine 10mg: helped with sudden anger outbursts, likely calming MCAS
+
 ## 2025-01-08 · Reported end 2025-03-13 · Arterosil
 
 Intervention
@@ -3232,6 +3566,18 @@ Course actions
 
 - 2025-01-08 · Start · 2 x 250–500 mg
   Source · 2025-01-08 · start · 2 x 250–500 mg · day · reported_use · primary · S3:619–619 · [intervention_events:S3:T:619:1]
+
+## Treatment context (response date unknown): 2025-01-08 · Reported end 2025-03-13 · Arterosil
+
+Response
+
+* Arterosil: mild improvement in cold extremities
+
+some benefit · undated retrospective history · patient retrospective
+
+Source: response:S3:treatment_response:198 · S3:198-198, course:8c636a83-7482-53d6-826d-2e6a3c964b69
+
+S3:198-198 · * Arterosil: mild improvement in cold extremities
 
 ## In use by 2025-01-09 · Hospital interruption by 2025-03-25 · Glycine
 
@@ -3310,6 +3656,18 @@ S1:12108-12114 · update#1:
 S1:12434-12457 · update#3:
 - skipping non-NC L-cysteine to see reaction to burns
 - didn't get the burns so far from L-ornithine (been more than 30m). also didn't take L-cysteine yet, so maybe the burns were caused by that? […]
+
+## Treatment context (response date unknown): In use by 2025-01-09 · Hospital interruption by 2025-03-25; 2025-02-22 · Hospital interruption by 2025-03-25; 2025-02-25 · Intermittent use; 2025-03-29 · Stopped 2025-08-06; 2025-03-29 · Supply exhausted 2025-08-30; 2025-08-24 · Estimated end 2025-10-26; 2025-09-12 · Estimated depletion in summer 2026; 2026-07-09 · Intermittent use · Magtein + glycine + L-theanine
+
+Response
+
+* Magtein + glycine + L-theanine: improved sleep slightly
+
+some benefit · undated retrospective history · patient retrospective
+
+Source: response:S3:treatment_response:205 · S3:205-205, course:51108ae7-c760-5aa6-9b83-e5760c4f8587, course:594be1d6-1907-56b4-80ff-4d98451cf176, course:5976e02c-8945-5844-b123-b94b67e74f05, course:61181b9c-90b5-51a1-b612-7c2e4a04e020, course:1bace627-1098-5544-a889-97fb97965b1f, course:b18276f0-d233-5c69-b121-6044de8ec4df, course:7c72146b-04d5-5b08-97c7-270bbd0b42bc, course:92a56ae9-69e0-589d-9026-317b41a6dd28
+
+S3:205-205 · * Magtein + glycine + L-theanine: improved sleep slightly
 
 ## 2025-01-10 · NC vitamin B complex · Dose taken
 
@@ -3455,6 +3813,18 @@ Course actions
 - 2025-03-17 · Dose taken · 1 capsule at dinner
   Source · 2025-03-17 · dose_taken · 1 capsule at dinner · consecutive_sequence_aligned_to_dated_posts · reported_use · primary · S1:28141–28141 · [intervention_events:PZ73-S1-L28128-FL10-0c7e2040]
 
+## Treatment context (response date unknown): 2025-01-30 · Switched formulations 2025-03-21; Reported end 2025-10-11 · berberine (0.5g pythosome + 4g HCl)
+
+Response
+
+* berberine (0.5g pythosome + 4g HCl): massively helped sudden hunger spikes and glucose crashes
+
+some benefit · undated retrospective history · patient retrospective
+
+Source: response:S3:treatment_response:199 · S3:199-199, course:6087aa3f-a7ae-5db3-9d68-e13c248a1673, course:2252d3ff-8e45-5736-8d4e-ae1d16698a9d
+
+S3:199-199 · * berberine (0.5g pythosome + 4g HCl): massively helped sudden hunger spikes and glucose crashes
+
 ## Recorded 2025-01-31 – 2025-06-16 · Berberine
 
 Action
@@ -3525,6 +3895,18 @@ Course actions
 
 - 2025-03-09 · Dose taken · 1/2 patch
   Source · 2025-03-09 · dose_taken · 1/2 patch · consecutive_sequence_aligned_to_dated_posts · reported_use · primary · S1:27004–27004 · [intervention_events:PZ73-S1-L26990-FL13-8a56f798]
+
+## Treatment context (response date unknown): 2025-02-01 · Off by 2025-03-19; In use by 2025-03-23 · Off by 2025-06-02; In use by 2025-06-27 · Stopped 2025-08-28 · nicotine patch (1/2)
+
+Response
+
+* nicotine patch (1/2): helps w PEM/energy a little → stopped
+
+some benefit · undated retrospective history · patient retrospective
+
+Source: response:S3:treatment_response:195 · S3:195-195, course:8719f0ea-39fb-5ea2-91af-c63eec24e40c, course:0eb7330a-27a7-55df-a6fc-dd75cdc971b0, course:c78530b3-df04-52f9-8b44-5041c9a09bc2
+
+S3:195-195 · * nicotine patch (1/2): helps w PEM/energy a little → stopped
 
 ## 2025-02-05 – 2025-02-25 · Conversation and writing triggered major crashes
 
@@ -3708,6 +4090,18 @@ Course actions
 - 2025-02-14 · Start
   Source · 2025-02-14 · start · consecutive_sequence_aligned_to_dated_posts · reported_use · primary · S1:20272–20286 · [intervention_events:S1-C20272-2]
 
+## Treatment context (response date unknown): 2025-02-14 · Reported end 2025-02-14; 2025-09-08 · Stopped 2025-10-09 · meldonium
+
+Response
+
+* meldonium
+
+no clear benefit · undated retrospective history · patient retrospective
+
+Source: response:S3:treatment_response:292 · S3:292-292, course:6f768519-cb19-5343-9f53-ad19b347825a, course:f6b0b188-ac00-558b-9ba5-d17ee4d490ee
+
+S3:292-292 · * meldonium
+
 ## Recorded 2025-02-15 – 2025-02-17 · NC GABA (experimental nanocarrier)
 
 Action
@@ -3742,6 +4136,18 @@ Course actions
 
 - 2025-02-18 · Stop
   Source · 2025-02-18 · stop · consecutive_sequence_aligned_to_dated_posts · reported_boundary · primary · S1:21635–21649 · [intervention_events:S1-C21635-1]
+
+## Treatment context (response date unknown): 2025-02-15 · Stopped 2025-02-17 · GABA
+
+Response
+
+* GABA
+
+no clear benefit · undated retrospective history · patient retrospective
+
+Source: response:S3:treatment_response:319 · S3:319-319, course:690b705f-e8f8-53f4-b2a9-c2771690f0dd
+
+S3:319-319 · * GABA
 
 ## 2025-02-20 · Stopped 2025-02-21 · Eucalyptol
 
@@ -3822,6 +4228,18 @@ Course actions
 - 2025-03-10 · Stop
   Source · 2025-03-10 · stop · consecutive_sequence_aligned_to_dated_posts · reported_boundary · primary · S1:27005–27018 · [intervention_events:S1-C27005-1]
 
+## Treatment context (response date unknown): 2025-02-24 · Stopped 2025-03-10 · lazatotide
+
+Response
+
+* lazatotide
+
+no clear benefit · undated retrospective history · patient retrospective
+
+Source: response:S3:treatment_response:318 · S3:318-318, course:7f107046-8249-5699-b6ac-c88b0e13ac13
+
+S3:318-318 · * lazatotide
+
 ## 2025-02-25 · Intermittent use · L-theanine
 
 Intervention
@@ -3863,6 +4281,18 @@ Course actions
 
 - 2025-02-27 · Start · 2 capsules / 2 capsules (900 mg) · Source accounts give different dosing details
   Source · 2025-02-27 · start · 2 capsules · consecutive_sequence_aligned_to_dated_posts · reported_use · primary · S1:24039–24053 · [intervention_events:S1-C24039-1] | 2025-02-27 · start · 2 capsules (900 mg) · day · source_account · corroborating · S3:651–651 · [intervention_events:S3:T:651:1]
+
+## Treatment context (response date unknown): 2025-02-27 · Hospital interruption by 2025-03-25; 2025-04-02 · Supply exhausted 2025-04-25 · plasmalogens 4 caps
+
+Response
+
+* plasmalogens 4 caps
+
+no clear benefit · undated retrospective history · patient retrospective
+
+Source: response:S3:treatment_response:320 · S3:320-320, course:a2631582-7678-5c56-b7ca-f5cbd207846a, course:aae1c13f-6162-5c2d-8d4c-1e3c332a9a5e
+
+S3:320-320 · * plasmalogens 4 caps
 
 ## Recorded 2025-02-28 · ProdromeGlia plasmalogens
 
@@ -3992,6 +4422,18 @@ Course actions
 - 2025-03-10 · Stop
   Source · 2025-03-10 · stop · consecutive_sequence_aligned_to_dated_posts · reported_boundary · primary · S1:27005–27018 · [intervention_events:S1-C27005-2]
 
+## Treatment context (response date unknown): 2025-03-01 · Stopped 2025-03-10 · huperzine A
+
+Response
+
+* huperzine A
+
+no clear benefit · undated retrospective history · patient retrospective
+
+Source: response:S3:treatment_response:293 · S3:293-293, course:7d44d9f0-54a3-587e-bccf-7a5dea635687
+
+S3:293-293 · * huperzine A
+
 ## Start unknown · Off by 2025-03-02 · Mastic gum
 
 Intervention
@@ -4034,6 +4476,18 @@ Course actions
 
 - 2025-03-10 · Stop
   Source · 2025-03-10 · stop · consecutive_sequence_aligned_to_dated_posts · reported_boundary · primary · S1:27005–27018 · [intervention_events:S1-C27005-3]
+
+## Treatment context (response date unknown): 2025-03-04 · Stopped 2025-03-10; 2025-03-30 · Intermittent use; In use by 2025-07-20 · Intermittent use · PEA/LUT
+
+Response
+
+* PEA/LUT
+
+no clear benefit · undated retrospective history · patient retrospective
+
+Source: response:S3:treatment_response:294 · S3:294-294, course:183acef1-e435-508e-b7eb-c6eb79920861, course:f961acc0-f047-5b80-b3e1-cb6a12d9c664, course:73f69fa8-80cd-5bbb-8e8e-cc9c2fc52b31
+
+S3:294-294 · * PEA/LUT
 
 ## Recorded 2025-03-05 · CranRich
 
@@ -4092,6 +4546,30 @@ Course actions
 - 2025-03-06 · Start · The March 6 source records NC broccoli and NC curcumin together. The patient confirms two separate interventions and tentatively estimates about one month for each, into early April. Individual doses and final days are unknown.
   Source · 2025-03-06 · start · The March 6 source records NC broccoli and NC curcumin together. The patient confirms two separate interventions and tentatively estimates about one month for each, into early April. Individual doses and final days are unknown. · consecutive_sequence_aligned_to_dated_posts · reported_use · primary · S1:25848–25862 · [intervention_events:PZ57-S1-C25848-CURCUMIN]
 
+## Treatment context (response date unknown): Stopped 2025-03-06 · clinical grade liposomal vitamins
+
+Response
+
+* clinical grade liposomal vitamins: raised baseline somewhat → stopped out of safety as they may enhance drug absorption too much
+
+some benefit · undated retrospective history · patient retrospective
+
+Source: response:S3:treatment_response:200 · S3:200-200, course:eb75422c-9b53-5cb9-8372-ef358fc29356
+
+S3:200-200 · * clinical grade liposomal vitamins: raised baseline somewhat → stopped out of safety as they may enhance drug absorption too much
+
+## Treatment context (response date unknown): 2025-03-06 · Estimated end 2025-04-06 · bio fisetin
+
+Response
+
+* bio fisetin
+
+no clear benefit · undated retrospective history · patient retrospective
+
+Source: response:S3:treatment_response:316 · S3:316-316, course:3659a7af-bcb9-507a-8bd8-64a8302aa81d
+
+S3:316-316 · * bio fisetin
+
 ## Recorded 2025-03-11 – 2025-03-13 · Huperzine A
 
 Action
@@ -4146,6 +4624,18 @@ Course actions
 
 - 2025-03-11 · Start · 1 capsule
   Source · 2025-03-11 · start · 1 capsule · consecutive_sequence_aligned_to_dated_posts · reported_use · primary · S1:27019–27032 · [intervention_events:S1-C27019-1]
+
+## Treatment context (response date unknown): 2025-03-11 · Off by 2025-04-21; Stopped 2025-04-22 · DHM
+
+Response
+
+* DHM
+
+no clear benefit · undated retrospective history · patient retrospective
+
+Source: response:S3:treatment_response:295 · S3:295-295, course:859faff3-2aab-53b8-87aa-3b3b5a7f429d, course:7bfa8407-934c-5e9c-b48c-bc937e296123
+
+S3:295-295 · * DHM
 
 ## 2025-03-12 · DHM · Dose increase
 
@@ -4207,6 +4697,18 @@ Course actions
 - 2025-03-12 · Start
   Source · 2025-03-12 · start · consecutive_sequence_aligned_to_dated_posts · reported_use · primary · S1:27364–27377 · [intervention_events:S1-C27364-2]
 
+## Treatment context (response date unknown): 2025-03-12 · Hospital interruption by 2025-03-25; In use by 2025-04-02 · Supply exhausted 2025-08-02 · acacia fiber 3x3g
+
+Response
+
+* acacia fiber 3x3g: to target H2S species, made bowel movements smoother → changes were minor, stopped
+
+some benefit · undated retrospective history · patient retrospective
+
+Source: response:S3:treatment_response:202 · S3:202-202, course:e1f20d37-4216-5927-be04-fac3fd506c32, course:0300e233-10eb-5810-b1fb-4c2792e1f985
+
+S3:202-202 · * acacia fiber 3x3g: to target H2S species, made bowel movements smoother → changes were minor, stopped
+
 ## 2025-03-14 · Estimated end 2025-04-14 · Mangiferin
 
 Intervention
@@ -4225,6 +4727,18 @@ Course actions
 - 2025-03-31 · Restart
   Source · 2025-03-31 · restart · previous_day_reporting_convention · reported_use · primary · S1:30403–30416 · [intervention_events:S1-C30403-2]
 
+## Treatment context (response date unknown): 2025-03-14 · Estimated end 2025-04-14 · mangiferin
+
+Response
+
+* mangiferin
+
+no clear benefit · undated retrospective history · patient retrospective
+
+Source: response:S3:treatment_response:296 · S3:296-296, course:ef44b932-6433-5eee-a2ad-3fc3f4cb8d71
+
+S3:296-296 · * mangiferin
+
 ## 2025-03-19 · Reported end 2025-03-19 · Pentoxifylline
 
 Intervention
@@ -4239,6 +4753,20 @@ Course actions
 
 - 2025-03-19 · Start · 11:30
   Source · 2025-03-19 · start · 11:30 · consecutive_sequence_aligned_to_dated_posts · reported_use · primary · S1:28714–28727 · [intervention_events:S1-C28714-2]
+
+## Treatment context (response date unknown): 2025-03-19 · Reported end 2025-03-19 · pentoxifylline
+
+Response
+
+The patient recalled an unpleasant feeling of heaviness in his head.
+
+attributed temporary worsening · undated retrospective history · patient retrospective · Patient-reported
+
+Source: response:S3:treatment_response:242 · S3:242-243, * pentoxifylline
+* strange unpleasant heaviness in brain, course:4542e986-ae4f-5f61-ac81-8e6764741268
+
+S3:242-243 · * pentoxifylline
+* strange unpleasant heaviness in brain
 
 ## 2025-03-20 · Citrulline · Dose taken
 
@@ -4288,6 +4816,18 @@ Berbevis phytosome was introduced in the March 21 switch. On March 22 the patien
 documented course
 
 Source: course:pz59-berbevis-march21 · intervention_events:S1-C29705-2
+
+## Treatment context (response date unknown): In use by 2025-03-21 · Estimated end 2025-04-21 · 1-MNA (on its own without NAD+)
+
+Response
+
+* 1-MNA (on its own without NAD+)
+
+no clear benefit · undated retrospective history · patient retrospective
+
+Source: response:S3:treatment_response:291 · S3:291-291, course:pz57-1mna-march
+
+S3:291-291 · * 1-MNA (on its own without NAD+)
 
 ## In use by 2025-03-23 · Off by 2025-06-02 · Nicotine patch
 
@@ -4530,6 +5070,18 @@ Course actions
 - Date unknown · Reported schedule · 2–4 softgels daily · Patient's retrospective description of the schedule used during this course. Individual administration dates are unknown.
   Source · reported_schedule · 2–4 softgels daily · Patient's retrospective description of the schedule used during this course. Individual administration dates are unknown. · Retrospective course-level schedule · reported_schedule · patient_report · PZ57-COURSE-REVIEW:345–351 · [intervention_events:PZ57-KRILL-OIL-SCHEDULE]
 
+## Treatment context (response date unknown): 2025-03-29 · Estimated end 2025-07 · omega-3 (high dose)
+
+Response
+
+* omega-3 (high dose)
+
+no clear benefit · undated retrospective history · patient retrospective
+
+Source: response:S3:treatment_response:314 · S3:314-314, course:fc27a15d-b43f-5394-9bc4-49641d4ceeb9
+
+S3:314-314 · * omega-3 (high dose)
+
 ## 2025-03-30 · Intermittent use · PEA/luteolin
 
 Intervention
@@ -4644,6 +5196,18 @@ Course actions
 - 2025-04-24 · Stop
   Source · 2025-04-24 · stop · consecutive_sequence_aligned_to_dated_posts · reported_boundary · primary · S1:35886–35900 · [intervention_events:S1-C35886-1]
 
+## Treatment context (response date unknown): 2025-03-31 · Stopped 2025-04-24 · SS31 peptide 0.5-30mg/day
+
+Response
+
+* SS31 peptide 0.5-30mg/day
+
+no clear benefit · undated retrospective history · patient retrospective
+
+Source: response:S3:treatment_response:289 · S3:289-289, course:52d5fecc-9cdc-5821-809b-15e037443e12
+
+S3:289-289 · * SS31 peptide 0.5-30mg/day
+
 ## 2025-04-01 · Reported end 2025-05-31 · Citrulline
 
 Intervention
@@ -4738,6 +5302,18 @@ Course actions
 
 - Date unknown · Reported schedule · 1–2 sprays per nostril per application, 3–4 applications daily · Patient's retrospective description of the schedule used during this course. Individual administration dates are unknown.
   Source · reported_schedule · 1–2 sprays per nostril per application, 3–4 applications daily · Patient's retrospective description of the schedule used during this course. Individual administration dates are unknown. · Retrospective course-level schedule · reported_schedule · patient_report · PZ57-COURSE-REVIEW:377–383 · [intervention_events:PZ57-RG3-SCHEDULE]
+
+## Treatment context (response date unknown): 2025-04-03 · Estimated end 2025-04-14 to 2025-04-17 · Rg3 nasal spray
+
+Response
+
+* Rg3 nasal spray: reduced PEM for 1-2h → stopped because frequent dosing was unaffordable
+
+some benefit · undated retrospective history · patient retrospective
+
+Source: response:S3:treatment_response:194 · S3:194-194, course:3ccad727-bfa3-57a3-9109-c2370ef73c31
+
+S3:194-194 · * Rg3 nasal spray: reduced PEM for 1-2h → stopped because frequent dosing was unaffordable
 
 ## 2025-04-04 · Rg3 nasal spray · Dose taken
 
@@ -4874,6 +5450,18 @@ Course actions
 - 2025-05-31 · Held · 2nd dose
   Source · 2025-05-31 · held · 2nd dose · day_anchored_to_June_4_and_May_28_spermidine_report · omission_or_hold · primary · S1:40606–40620 · [intervention_events:S1-C40606-2]
 
+## Treatment context (response date unknown): 2025-04-08 · Ongoing at review · ivabradine 2x5mg
+
+Response
+
+* ivabradine 2x5mg: reduction in HR, 10bpm resting, 15-20bpm standing, no other improvements
+
+some benefit · undated retrospective history · patient retrospective
+
+Source: response:S3:treatment_response:203 · S3:203-203, course:665ec725-8ce1-565a-b72e-479f93f2cc34
+
+S3:203-203 · * ivabradine 2x5mg: reduction in HR, 10bpm resting, 15-20bpm standing, no other improvements
+
 ## 2025-04-09 · Ivabradine
 
 Response
@@ -4947,6 +5535,35 @@ Course actions
 - 2025-05-02 · Dose taken · 10 mg
   Source · 2025-05-02 · dose_taken · 10 mg · consecutive_sequence_aligned_to_dated_posts · reported_use · primary · S1:37017–37031 · [intervention_events:S1-C37017-2]
 
+## Treatment context (response date unknown): 2025-04-15 · Off by 2025-05-03 · high dose memantine
+
+Response
+
+The patient reported pronounced heaviness and mild brain burning above 10 mg in a single dose. He reported tolerating two 10 mg doses spaced six hours apart.
+
+attributed temporary worsening · undated retrospective history · patient retrospective · Patient-reported
+
+Source: response:S3:treatment_response:247 · S3:247-250, * high dose memantine
+* when taking more than 10mg at a time, intense heaviness (fatigue?) and mild burns appear in brain
+* suspected glutamine buildup from blocking glutamate activity
+* no issues when taken 2x10mg 6h apart, course:44c6d6b6-7a07-5f35-8221-508dbac9bb35
+
+S3:247-250 · * high dose memantine
+* when taking more than 10mg at a time, intense heaviness (fatigue?) and mild burns appear in brain
+* suspected glutamine buildup from blocking glutamate activity […]
+
+## Treatment context (response date unknown): 2025-04-15 · Off by 2025-05-03 · memantine 2x10mg
+
+Response
+
+He initially perceived benefit on 10 mg twice daily, then possible worsening. He considered natural symptom fluctuation.
+
+no clear benefit · undated retrospective history · patient retrospective · Possible association
+
+Source: response:S3:treatment_response:321 · S3:321-321, * memantine 2x10mg: at first seemed to help but then seemed to get worse, unclear, could have been just natural ebb and flow of disease, course:44c6d6b6-7a07-5f35-8221-508dbac9bb35
+
+S3:321-321 · * memantine 2x10mg: at first seemed to help but then seemed to get worse, unclear, could have been just natural ebb and flow of disease
+
 ## Start unknown · Stopped 2025-04-22 · DHM
 
 Intervention
@@ -5013,6 +5630,22 @@ S1:35704-35704 · i'm doing pretty okay today, so far, same for yesterday and da
 S1:36550-36550 · the reason i don't think memantine is working or maybe the dose is too low is because i am still just as sensitive to sensory stimuli (sounds and light mainly). if this is indeed glutamate excitotoxicity, i'd expect dampening to improve the sensitivity
 
 S1:38771-38771 · at what point can we conclude memantine is not working? i'm ready to say now but it's not been weeks yet
+
+## Treatment context (response date unknown): 2025-04-25 · Stopped 2025-04-27 · AHCC
+
+Response
+
+The patient recalled a crash that he described as a “herx” reaction.
+
+attributed temporary worsening · undated retrospective history · patient retrospective · Patient-reported
+
+Source: response:S3:treatment_response:244 · S3:244-246, * AHCC
+* mild NK cell stimulant
+* herxed from it → it seems like anything that increases immune function causes massive herx crashes, course:316a7a55-1bca-510a-8b5b-dbccf028e733
+
+S3:244-246 · * AHCC
+* mild NK cell stimulant
+* herxed from it → it seems like anything that increases immune function causes massive herx crashes
 
 ## 2025-04-26 · AHCC / mushroom extract
 
@@ -5091,6 +5724,22 @@ Source: unassigned-actions:intervention:45ee0a0b-7f22-58bc-b2d9-178c407273d2:202
 - 2025-05-03 · Dose taken · 2 x 5 mL
 
 - 2025-05-07 · Dose decrease · 4 mL
+
+## Treatment context (response date unknown): 2025-05-01; 2025-05-02; 2025-05-03; 2025-05-07 · high dose NAD+
+
+Response
+
+The patient described an intense, short PEM attack about two hours after higher doses of the liposomal NAD+ preparation.
+
+attributed temporary worsening · undated retrospective history · patient retrospective · Patient-reported
+
+Source: response:S3:treatment_response:251 · S3:251-253, * high dose NAD+
+* when taking higher doses, 2h after consumption, feeling intense but short PEM attack, sudden shutdown, as if pinned to couch, unable to move for ~30m
+* this is with a liposomal formula → NAD+ should enter cells without setting off extracellular danger signals, intervention_events:S1-C37002-1, intervention_events:S1-C37017-1, intervention_events:S1-C37032-1, intervention_events:S1-C37526-1
+
+S3:251-253 · * high dose NAD+
+* when taking higher doses, 2h after consumption, feeling intense but short PEM attack, sudden shutdown, as if pinned to couch, unable to move for ~30m
+* this is with a liposomal formula → NAD+ should enter cells without setting off extracellular danger signals
 
 ## 2025-05-09 · Absent from scheduled regimen on 2026-11-20 · historical end unknown · Memantine
 
@@ -5266,6 +5915,18 @@ Course actions
 - 2025-06-17 · Decrease · 25 mg
   Source · 2025-06-17 · decrease · 25 mg · inferred diary day · reported_change · primary · S2:200–200 · [intervention_events:S2-L00200-E1]
 
+## Treatment context (response date unknown): In use by 2025-06-06 · Off by 2025-07-10 · daridorexant
+
+Response
+
+* daridorexant: possibly helped falling asleep faster but didn’t improve maintenance insomnia → stopped
+
+some benefit · undated retrospective history · patient retrospective
+
+Source: response:S3:treatment_response:206 · S3:206-206, course:09acd9c8-c1b3-5f59-9e37-c6879db3af66
+
+S3:206-206 · * daridorexant: possibly helped falling asleep faster but didn’t improve maintenance insomnia → stopped
+
 ## Recorded 2025-06-07 – 2025-06-13 · Spermidine
 
 Action
@@ -5305,6 +5966,30 @@ Course actions
 - 2025-07-11 · Ran out · 400 mg XR
   Source · 2025-07-11 · ran_out · inferred diary day · omission_or_hold · primary · S2:579–579 · [intervention_events:S2-L00579-E4] | 2025-07-11 · stop · 400 mg XR · day · source_account · corroborating · S3:674–674 · [intervention_events:S3:T:674:1]
 
+## Treatment context (response date unknown): 2025-06-12 · Supply exhausted 2025-07-11 · bezafibrate 400mg XR
+
+Response
+
+* bezafibrate 400mg XR
+
+no clear benefit · undated retrospective history · patient retrospective
+
+Source: response:S3:treatment_response:285 · S3:285-285, course:ddf84379-c3cd-5b4c-b702-eb2f4eef6cf6
+
+S3:285-285 · * bezafibrate 400mg XR
+
+## Treatment context (response date unknown): 2025-06-12 · Supply exhausted 2025-07-11 · bezafibrate
+
+Response
+
+* bezafibrate
+
+no clear benefit · undated retrospective history · patient retrospective
+
+Source: response:S3:treatment_response:290 · S3:290-290, course:ddf84379-c3cd-5b4c-b702-eb2f4eef6cf6
+
+S3:290-290 · * bezafibrate
+
 ## 2025-06-16 · Stopped 2025-07-16 · Selegiline
 
 Intervention
@@ -5322,6 +6007,20 @@ Course actions
 
 - 2025-07-16 · Stop
   Source · 2025-07-16 · stop · inferred diary day · reported_boundary · primary · S2:661–661 · [intervention_events:S2-L00661-E1]
+
+## Treatment context (response date unknown): 2025-06-16 · Stopped 2025-07-16 · selegiline
+
+Response
+
+He reported some improvement in brain burning and increased libido, which he associated with triggering PEM.
+
+attributed temporary worsening · undated retrospective history · patient retrospective · Patient-reported
+
+Source: response:S3:treatment_response:256 · S3:256-257, * selegiline
+* minor improvement in brain burns but much higher libido, causing PEM, course:ffccdd39-abb2-5f31-8415-76c759e1057f
+
+S3:256-257 · * selegiline
+* minor improvement in brain burns but much higher libido, causing PEM
 
 ## 2025-06-19 (earlier use documented 2025-06-18) · Stopped 2025-06-23 · Cistus incanus
 
@@ -5472,6 +6171,38 @@ Source: response:S2-R-255 · S2:255-260
 S2:255-260 · *  gut pain: upper ab flare immediately after drinking acacia , lasted a minute or so
 *  hunger: high. didn't eat much carbs first 2 meals (just eggs and lentils), was pretty lethargic all morning and by 3pm was so sugar starved went into crash, so still sugar dependent despite beza (not eating enough fats for keto i think)
 *  activity: […]
+
+## Treatment context (response date unknown): 2025-06-21 · Last dose 2025-06-21 · rapamycin 0.5mg (one-time)
+
+Response
+
+After one 0.5 mg dose he described roughly ten days of recurrent crashes. Brain burning and pressure returned, and CNS and upper-body fatigue still recurred at follow-up.
+
+attributed persistent worsening · undated retrospective history · patient retrospective · Patient-reported
+
+Source: response:S3:treatment_response:212 · S3:212-216, * rapamycin 0.5mg (one-time)
+* terrible 10-day long recurrent herx-crash-loop
+* the worst crashes by far I’ve ever had → developed CNS+upper body fatigue during it, this still sometimes happens (hadn’t had fatigue before it)
+* brain burns and pressures reappeared after half a year of hiatus → suggests rebound neuro-inflammation
+* likely primed liver/bile issues (rapa known to cause NAFLD in some cases), course:d96ec8ff-9dae-569d-b63e-3c4c095e0595
+
+S3:212-216 · * rapamycin 0.5mg (one-time)
+* terrible 10-day long recurrent herx-crash-loop
+* the worst crashes by far I’ve ever had → developed CNS+upper body fatigue during it, this still sometimes happens (hadn’t had fatigue before it) […]
+
+## Treatment context (response date unknown): 2025-06-21 · Last dose 2025-06-21; 2025-07-01 · Reported end 2025-07-30 · ensitrelvir
+
+Response
+
+Green stools started the day after initiation. The patient also considered a delayed effect of the earlier rapamycin dose.
+
+attributed persistent worsening · undated retrospective history · patient retrospective · Possible association
+
+Source: response:S3:treatment_response:217 · S3:217-218, * ensitrelvir ?
+* green stools started 1d after starting ensi, possible link (but could be delayed effect of rapa too), course:b54e987f-623b-5a6b-9e8a-5bf3a58dd77b, course:d96ec8ff-9dae-569d-b63e-3c4c095e0595
+
+S3:217-218 · * ensitrelvir ?
+* green stools started 1d after starting ensi, possible link (but could be delayed effect of rapa too)
 
 ## 2025-06-24 · Ivabradine · Uncertain dose
 
@@ -5837,6 +6568,22 @@ Course actions
 - 2025-07-16 · Dose · 2 caps
   Source · 2025-07-16 · dose · 2 caps · inferred diary day · reported_use · primary · S2:661–661 · [intervention_events:S2-L00661-E3]
 
+## Treatment context (response date unknown): 2025-07-13 · Reported end 2025-07-17; 2025-07-15 · Reported end 2025-07-17 · cat’s claw/gou teng + superHMO
+
+Response
+
+Green stools and diarrhea worsened substantially and had not fully stabilized by follow-up. The trials began close together.
+
+attributed persistent worsening · undated retrospective history · patient retrospective · Attribution uncertain across exposures
+
+Source: response:S3:treatment_response:219 · S3:219-221, * cat’s claw/gou teng + superHMO ?
+* green stool and diarrhea situation became much worse and haven’t been able to fully stabilize it since then
+* unclear which of the two caused it as they were sadly roughly started together, possibly both, course:2aa044d5-773a-55fc-bb69-0b34eba58ef4, course:dfba55ec-5bf9-53d9-9415-cc51d7bd1715
+
+S3:219-221 · * cat’s claw/gou teng + superHMO ?
+* green stool and diarrhea situation became much worse and haven’t been able to fully stabilize it since then
+* unclear which of the two caused it as they were sadly roughly started together, possibly both
+
 ## 2025-07-15 – 2025-07-31 · Recurrent systemic flares and reduced speech tolerance
 
 Baseline
@@ -6000,6 +6747,18 @@ Course actions
 
 - 2025-07-20 · Dose
   Source · 2025-07-20 · dose · inferred diary day · reported_use · primary · S2:725–725 · [intervention_events:S2-L00725-E2]
+
+## Treatment context (response date unknown): 2025-07-20; 2025-07-30 · H1/H2 blockers
+
+Response
+
+* H1/H2 blockers
+
+no clear benefit · undated retrospective history · patient retrospective
+
+Source: response:S3:treatment_response:306 · S3:306-306, intervention_events:S2-L00725-E1, intervention_events:S2-L00879-E2, intervention_events:S2-L00879-E3
+
+S3:306-306 · * H1/H2 blockers
 
 ## 2025-07-21 · Stopped 2025-08-21 · Na-R-ALA
 
@@ -6171,6 +6930,20 @@ reported use · inferred diary day
 Source: intervention_events:S2-L00869-E1 · S2:869–869
 
 S2:869–869 · *  changes: 40mg famotidine for suspected acid reflux; pause SLU- for now; lower ado-b12 back to 1 cap; forget evening enterosgel and glycine and other supps (fell asleep); eat xylitol based jam
+
+## Treatment context (response date unknown): 2025-07-29 · Recorded window ends 2025-07-31 · xylitol
+
+Response
+
+* xylitol ?
+* bad herx reaction
+
+attributed temporary worsening · undated retrospective history · patient retrospective
+
+Source: response:S3:treatment_response:254 · S3:254-255, course:44416647-bd6a-5249-a540-c8fe4df8afcf
+
+S3:254-255 · * xylitol ?
+* bad herx reaction
 
 ## 2025-07-30 · H2 blocker (unspecified) · Dose
 
@@ -7096,6 +7869,18 @@ Course actions
 - 2025-09-28 · Pause
   Source · 2025-09-28 · pause · inferred diary day · omission_or_hold · primary · S2:2330–2330 · [intervention_events:S2-L02330-E1]
 
+## Treatment context (response date unknown): 2025-09-26 · Reported end 2025-09-28; 2025-10-11 · Reported end 2026-01-03 · Bodybio PC phosphatydilcholine
+
+Response
+
+* Bodybio PC phosphatydilcholine
+
+no clear benefit · undated retrospective history · patient retrospective
+
+Source: response:S3:treatment_response:288 · S3:288-288, course:2700d15c-cb18-5a8d-9bcc-bb1eae9c453b, course:fc50526d-0aab-5aaf-b75d-5ef3ef269060
+
+S3:288-288 · * Bodybio PC phosphatydilcholine
+
 ## 2025-09-28 · BodyBio PC
 
 Response
@@ -7239,6 +8024,20 @@ Course actions
 
 - 2025-11-01 · Stop
   Source · 2025-11-01 · stop · inferred diary day · reported_boundary · primary · S2:3027–3027 · [intervention_events:S2-L03027-E2]
+
+## Treatment context (response date unknown): 2025-10-21 · Stopped 2025-11-01; 2026-01-06 · Reported end 2026-01-12 · methylene blue/MB
+
+Response
+
+The patient described stronger corrosive tingling even at a 1 mg dose.
+
+attributed temporary worsening · undated retrospective history · patient retrospective · Patient-reported
+
+Source: response:S3:treatment_response:260 · S3:260-261, * methylene blue/MB
+* even at 1mg felt stronger corrosive/herxy tingling (likely not herx, but that’s usually when I have a similar sensation), course:bd1c957a-ea0c-5f32-9feb-d662c8cf89ed, course:5400f759-cf6f-5b10-baa8-35e1b6024648
+
+S3:260-261 · * methylene blue/MB
+* even at 1mg felt stronger corrosive/herxy tingling (likely not herx, but that’s usually when I have a similar sensation)
 
 ## 2025-10-24 · MicroGenDX urine qPCR and NGS
 
@@ -7393,6 +8192,23 @@ Source: response:S2-R-3011 · S2:3011-3124
 
 S2:3011-3124 · 0.40 SkQ1 first dose 0.8ml (0.4mg)
 1.20- pem again, then bad crash, fell asleep […]
+
+## Treatment context (response date unknown): 2025-11-01 · Stopped 2025-11-07 · SkQ1
+
+Response
+
+The patient recalled unintentionally taking a higher first dose followed by a severe crash and sleep. Corrosive tingling and a poisoned PEM sensation also occurred at smaller doses.
+
+attributed temporary worsening · undated retrospective history · patient retrospective · Patient-reported
+
+Source: response:S3:treatment_response:262 · S3:262-265, * SkQ1
+* accidentally overdosed to 1.6mg first time I tried (instead of 0.4mg) and had a strong CNS crash → fell asleep within an hour
+* but smaller doses (0.4mg) also resulted in increased corrosive tingling and poisoned PEM feeling
+* reasons are unclear: possible mitochondrial memV drop, or unmasking complex IV breakage and ROS generation or RET flow, course:693a230a-64ee-5862-90be-5c3d95be7991
+
+S3:262-265 · * SkQ1
+* accidentally overdosed to 1.6mg first time I tried (instead of 0.4mg) and had a strong CNS crash → fell asleep within an hour
+* but smaller doses (0.4mg) also resulted in increased corrosive tingling and poisoned PEM feeling […]
 
 ## 2025-11-04 – 2025-11-21 · More laptop tolerance with dimming, red filter and pacing
 
@@ -7590,6 +8406,25 @@ Source: response:S2-R-3550 · S2:3550-3569
 
 S2:3550-3569 · 21.40 eat rice beef + spore pbx + bezisterim
 22.30- helmet, sinus pressures […]
+
+## Treatment context (response date unknown): 2025-12-01 · Off by 2025-12-02 · bezisterim
+
+Response
+
+The patient recalled forehead and eye symptoms, increased sinus pressure and reduced screen tolerance. Nape and forearm fatigue persisted. Some symptoms began during the preceding spore probiotic trial.
+
+attributed persistent worsening · undated retrospective history · patient retrospective · Attribution uncertain across exposures
+
+Source: response:S3:treatment_response:226 · S3:226-229, Q-005, * bezisterim
+* strange type of brain PEM (“lactate brain”) and behind eye sensations + heightened sinus pressures appeared the day after
+* nape and wrist/forearm fatigue has been developing since then
+* baseline drastically lowered (was on computer/phone pretty much all day before it, now start getting this brain/forehead PEM after a few hours), course:d1746288-6ef4-54c7-b6d8-38e68ad26e60
+
+S3:226-229 · * bezisterim
+* strange type of brain PEM (“lactate brain”) and behind eye sensations + heightened sinus pressures appeared the day after
+* nape and wrist/forearm fatigue has been developing since then […]
+
+Q-005 · Preserve both exposure timelines and symptoms that preceded and followed their overlap. Patient retrospectively attributed persistent decline to bezisterim, but questioned the contributions of the probiotic and exertion in contemporary messages. Do not assign a single cause.
 
 ## 2025-12-02 – 2025-12-19 · Afternoon crashes after bezisterim/probiotic exposure
 
@@ -8004,6 +8839,18 @@ Course actions
 - 2026-03-31 · Stop
   Source · 2026-03-31 · stop · inferred diary day · reported_boundary · primary · S2:5811–5811 · [intervention_events:S2-L05811-E2]
 
+## Treatment context (response date unknown): 2026-01-22 · Stopped 2026-03-31 · D-larazotide
+
+Response
+
+* D-larazotide
+
+no clear benefit · undated retrospective history · patient retrospective
+
+Source: response:S3:treatment_response:287 · S3:287-287, course:cc92f604-5b8f-509e-a2c3-c47e79dead5f
+
+S3:287-287 · * D-larazotide
+
 ## 2026-01-24 – 2026-01-30 · S-acetyl-glutathione trial with symptomatic worsening
 
 Episode
@@ -8054,6 +8901,23 @@ Course actions
 
 - 2026-01-30 · Stop
   Source · 2026-01-30 · stop · inferred diary day · reported_boundary · primary · S2:4758–4758 · [intervention_events:S2-L04758-E1]
+
+## Treatment context (response date unknown): 2026-01-24 · Stopped 2026-01-30; 2026-05-07 · Estimated end 2026-05-20 · S-acetyl-glutathione 25-50mg, taken in morning
+
+Response
+
+He reported pulsing and unusual sensations resembling his usual evening PEM, now during the day, including at very small doses.
+
+attributed temporary worsening · undated retrospective history · patient retrospective · Patient-reported
+
+Source: response:S3:treatment_response:266 · S3:266-269, * S-acetyl-glutathione 25-50mg, taken in morning
+* “evening pem” like pulsing and strange sensations (reductive stress??) but all day
+* similar in evening
+* effects present even at microdoses, course:6274bf2b-0d9e-5910-99b9-2e13e6c1e287, course:5148a3fc-7540-503a-b451-c1d0b0476f5e
+
+S3:266-269 · * S-acetyl-glutathione 25-50mg, taken in morning
+* “evening pem” like pulsing and strange sensations (reductive stress??) but all day
+* similar in evening […]
 
 ## 2026-01-25 · Ivabradine · Dose
 
@@ -8808,6 +9672,30 @@ Course actions
 - 2026-04-19 18:27 · Administration · tiny test dose, probably <1 mg · Vehicle: cellulose
   Source · 2026-04-19 · administration · tiny test dose, probably <1 mg · 18.27 · vehicle: cellulose · inferred diary day · reported_use · primary · S2:6099–6099 · [intervention_events:CUR-S2-ADM-6099] | 18.27 take kl1333 tiny test dose (<1mg probably) with cellulose [diary_observations:S2-OBS-6099]
 
+## Treatment context (response date unknown): 2026-04-19 · Last dose 2026-04-19; 2026-04-24 · Off by 2026-05-04; 2026-06-15 · Last dose 2026-06-17 · ASHA-091 / KL-1333
+
+Response
+
+Patient reports nape clenching/pressure and wrist or central fatigue after several small trials, including KL1333 and ASHA-091. He recalled roughly 20–40 minutes for some reactions. Diary entries also document variation, concurrent cognitive exertion, changes in vehicle, and doses without the same response.
+
+Patient-reported
+
+Source: context_cards:CTX-018 · context_cards:CTX-018, claim:738e0407-f1c6-5762-a504-08758cb58ebd, claim:8733940c-3b49-5da7-9c0d-222e699c90ab, course:95847237-8af7-5dac-9c95-e2e13d24397f, course:e984f27a-8d8a-55ae-a8c5-498c4aacd719, course:a5840efa-3957-5202-98ac-0e903017f2a8
+
+## Treatment context (response date unknown): 2026-04-19 · Last dose 2026-04-19; 2026-04-24 · Off by 2026-05-04 · KL1333 ≤1mg
+
+Response
+
+The patient recalled nape clenching, malaise and wrist fatigue about 15–20 minutes after a dose of 1 mg or less.
+
+attributed temporary worsening · undated retrospective history · patient retrospective · Patient-reported
+
+Source: response:S3:treatment_response:270 · S3:270-271, * KL1333 ≤1mg
+* after 15-20m: nape clenching, overall malaise, wrist fatigue → seems like systemic danger response leading to brain stem flare, course:e984f27a-8d8a-55ae-a8c5-498c4aacd719, course:a5840efa-3957-5202-98ac-0e903017f2a8
+
+S3:270-271 · * KL1333 ≤1mg
+* after 15-20m: nape clenching, overall malaise, wrist fatigue → seems like systemic danger response leading to brain stem flare
+
 ## Start unknown · Reported end 2026-04-20 · Electrolyte drink
 
 Intervention
@@ -9094,6 +9982,20 @@ Course actions
 - 2026-05-28 · Miss
   Source · 2026-05-28 · miss · inferred diary day · omission_or_hold · primary · S2:6755–6755 · [intervention_events:S2-L06755-E1]
 
+## Treatment context (response date unknown): 2026-05-23 · Estimated end 2026-05-28 · copper sulfite
+
+Response
+
+The patient recalled a similar nape flare within half an hour and questioned the copper preparation name. The account gives no date or dose. Attribution is uncertain.
+
+attributed temporary worsening · undated retrospective history · patient retrospective · Possible association
+
+Source: response:S3:treatment_response:280 · S3:280-281, * copper sulfite ?
+* similar nape flare within half an hour, course:af29af36-2277-5108-acdc-02420c3ea365
+
+S3:280-281 · * copper sulfite ?
+* similar nape flare within half an hour
+
 ## 2026-05-24 · Stopped 2026-05-26 · Vitamin B12 injection
 
 Intervention
@@ -9117,6 +10019,24 @@ Course actions
 
 - 2026-05-26 · Stop
   Source · 2026-05-26 · stop · inferred diary day · reported_boundary · primary · S2:6734–6734 · [intervention_events:S2-L06734-E1]
+
+## Treatment context (response date unknown): 2026-05-24 · Stopped 2026-05-26 · hydroxy-b12 injections
+
+Response
+
+The patient recalled a nape flare within half an hour of a higher B12 injection dose. The units in the retrospective account conflict with the dosing diary.
+
+attributed temporary worsening · undated retrospective history · patient retrospective · Possible association
+
+Source: response:S3:treatment_response:274 · S3:274-276, Q-004, * hydroxy-b12 injections ?
+* 500mg no response
+* 1g nape flare similar to KL within half an hour, course:c8360e41-550e-593e-865f-8269bd324079
+
+S3:274-276 · * hydroxy-b12 injections ?
+* 500mg no response
+* 1g nape flare similar to KL within half an hour
+
+Q-004 · Diary documents a half dose then explicitly 1 mg injection, corroborated by the 1 mg change note. Earlier high-level history says 500 mg then 1 g. Units are discrepant by roughly 1,000-fold for the full dose. Formulation/strength has not been independently verified.
 
 ## 2026-05-25 · Stopped 2026-05-30 · Magnesium oxide
 
@@ -9202,6 +10122,20 @@ Possible association
 
 Source: response-evidence:diary_observations:S2-OBS-6882 · diary_observations:S2-OBS-6882, PZ57-CLAIM-S2-OBS-6882
 
+## Related treatment record: 2026-06-06 · lithium orotate
+
+Response
+
+* lithium orotate ?
+* similar nape flare, milder, within 45m
+
+attributed temporary worsening · undated retrospective history · patient retrospective
+
+Source: response:S3:treatment_response:272 · S3:272-273, intervention_events:PZ57-ADM-6881
+
+S3:272-273 · * lithium orotate ?
+* similar nape flare, milder, within 45m
+
 ## 2026-06-08 · Ongoing at review · Copper bisglycinate
 
 Intervention
@@ -9246,6 +10180,22 @@ Course actions
 
 - 2026-06-17 01:33 · Administration · about 10 mg
   Source · 2026-06-17 · administration · about 10 mg · 1.33 · inferred diary day · reported_use · primary · S2:7043–7043 · [intervention_events:CUR-S2-ADM-7043] | 1.33 take ASHA about 10mg [diary_observations:S2-OBS-7043]
+
+## Treatment context (response date unknown): 2026-06-15 · Last dose 2026-06-17 · ASHA-091
+
+Response
+
+Nape pressure and wrist fatigue appeared within about half an hour. The reaction was stronger at 10 mg than at smaller doses. Afternoon sleep pressure and crashes also occurred.
+
+attributed temporary worsening · undated retrospective history · patient retrospective · Patient-reported
+
+Source: response:S3:treatment_response:277 · S3:277-279, * ASHA-091
+* strong nape flare and wrist fatigue at 10mg, milder at smaller doses, within half an hour
+* brain fatigue / sleep pressure crashes in the afternoon, course:95847237-8af7-5dac-9c95-e2e13d24397f
+
+S3:277-279 · * ASHA-091
+* strong nape flare and wrist fatigue at 10mg, milder at smaller doses, within half an hour
+* brain fatigue / sleep pressure crashes in the afternoon
 
 ## 2026-06-17 · ASHA-091
 
@@ -9531,6 +10481,18 @@ Course actions
 
 - 2026-08-26 · Stop
   Source · 2026-08-26 · stop · inferred diary day · reported_boundary · primary · S2:8029–8029 · [intervention_events:S2-L08029-E1]
+
+## Treatment context (response date unknown): 2026-08-17 · Stopped 2026-08-26 · aspirin
+
+Response
+
+* aspirin
+
+no clear benefit · undated retrospective history · patient retrospective
+
+Source: response:S3:treatment_response:305 · S3:305-305, course:24da4977-2e1f-52cb-8332-0f9511af8415
+
+S3:305-305 · * aspirin
 
 ## Recorded 2026-08-18 – 2026-10-16 · Rupatadine
 
@@ -10081,120 +11043,6 @@ Course actions
 - Date unknown · Restart · 1.4 g
   Source · restart · 1.4 g · ambiguous_one_day_within_anchored_block · reported_use · primary · S1:40488–40502 · [intervention_events:S1-C40488-1]
 
-## Event date unknown · ASHA-091 / KL-1333
-
-Response
-
-Patient reports nape clenching/pressure and wrist or central fatigue after several small trials, including KL1333 and ASHA-091. He recalled roughly 20–40 minutes for some reactions. Diary entries also document variation, concurrent cognitive exertion, changes in vehicle, and doses without the same response.
-
-Patient-reported
-
-Source: context_cards:CTX-018 · context_cards:CTX-018, claim:738e0407-f1c6-5762-a504-08758cb58ebd, claim:8733940c-3b49-5da7-9c0d-222e699c90ab
-
-## Event date unknown · Betadine / Boric acid / NeilMed
-
-Response
-
-On December 31 a NeilMed rinse with boric acid and Betadine was followed by nasal pain extending to the back of the head. The account concerns the prepared rinse.
-
-Attribution uncertain across exposures
-
-Source: response-evidence:historical_entries:S3:chronology:612 · historical_entries:S3:chronology:612, claim:40b51c1c-5ee0-5262-8129-be7346c8be2e, claim:b3606aa9-ed8f-500e-978f-1c9eb3779d55, claim:c74df490-a6cf-5bea-8bf1-0220477be786
-
-## Event date unknown · L-ornithine
-
-Response
-
-The January 3–12 L-ornithine trial was associated by the patient with burning and slowed cognition resembling the preceding LOLA experience.
-
-Patient-reported
-
-Source: response-evidence:historical_entries:S3:chronology:616 · historical_entries:S3:chronology:616, claim:a1ddc460-99b0-5e47-8a56-8b0ed8984d96
-
-## Event date unknown · Rg3 nasal spray
-
-Response
-
-* Rg3 nasal spray: reduced PEM for 1-2h → stopped because frequent dosing was unaffordable
-
-some benefit · undated retrospective history · patient retrospective
-
-Source: response:S3:treatment_response:194 · S3:194-194
-
-S3:194-194 · * Rg3 nasal spray: reduced PEM for 1-2h → stopped because frequent dosing was unaffordable
-
-## Event date unknown · nicotine patch (1/2)
-
-Response
-
-* nicotine patch (1/2): helps w PEM/energy a little → stopped
-
-some benefit · undated retrospective history · patient retrospective
-
-Source: response:S3:treatment_response:195 · S3:195-195
-
-S3:195-195 · * nicotine patch (1/2): helps w PEM/energy a little → stopped
-
-## Event date unknown · KPV peptide, oral
-
-Response
-
-* KPV peptide, oral: more or less fixed constipation, went from 1-2x bowel movements per week to 1-2x per day
-
-some benefit · undated retrospective history · patient retrospective
-
-Source: response:S3:treatment_response:196 · S3:196-196
-
-S3:196-196 · * KPV peptide, oral: more or less fixed constipation, went from 1-2x bowel movements per week to 1-2x per day
-
-## Event date unknown · nicergoline
-
-Response
-
-* nicergoline: this was before developing PEM, helped w brain fog and burns at first, petered out in 2 months → stopped
-
-some benefit · undated retrospective history · patient retrospective
-
-Source: response:S3:treatment_response:197 · S3:197-197
-
-S3:197-197 · * nicergoline: this was before developing PEM, helped w brain fog and burns at first, petered out in 2 months → stopped
-
-## Event date unknown · Arterosil
-
-Response
-
-* Arterosil: mild improvement in cold extremities
-
-some benefit · undated retrospective history · patient retrospective
-
-Source: response:S3:treatment_response:198 · S3:198-198
-
-S3:198-198 · * Arterosil: mild improvement in cold extremities
-
-## Event date unknown · berberine (0.5g pythosome + 4g HCl)
-
-Response
-
-* berberine (0.5g pythosome + 4g HCl): massively helped sudden hunger spikes and glucose crashes
-
-some benefit · undated retrospective history · patient retrospective
-
-Source: response:S3:treatment_response:199 · S3:199-199
-
-S3:199-199 · * berberine (0.5g pythosome + 4g HCl): massively helped sudden hunger spikes and glucose crashes
-
-## Event date unknown · clinical grade liposomal vitamins
-
-Response
-
-* clinical grade liposomal vitamins: raised baseline somewhat → stopped out of safety as they may enhance drug absorption too much
-
-some benefit · undated retrospective history · patient retrospective
-
-Source: response:S3:treatment_response:200 · S3:200-200
-
-S3:200-200 · * clinical grade liposomal vitamins: raised baseline somewhat → stopped out of safety as they may enhance drug absorption too much
-
 ## Event date unknown · diet
 
 Response
@@ -10206,308 +11054,6 @@ some benefit · undated retrospective history · patient retrospective
 Source: response:S3:treatment_response:201 · S3:201-201
 
 S3:201-201 · * diet: histamine-free, sulfur-free, oxalate-free
-
-## Event date unknown · acacia fiber 3x3g
-
-Response
-
-* acacia fiber 3x3g: to target H2S species, made bowel movements smoother → changes were minor, stopped
-
-some benefit · undated retrospective history · patient retrospective
-
-Source: response:S3:treatment_response:202 · S3:202-202
-
-S3:202-202 · * acacia fiber 3x3g: to target H2S species, made bowel movements smoother → changes were minor, stopped
-
-## Event date unknown · ivabradine 2x5mg
-
-Response
-
-* ivabradine 2x5mg: reduction in HR, 10bpm resting, 15-20bpm standing, no other improvements
-
-some benefit · undated retrospective history · patient retrospective
-
-Source: response:S3:treatment_response:203 · S3:203-203
-
-S3:203-203 · * ivabradine 2x5mg: reduction in HR, 10bpm resting, 15-20bpm standing, no other improvements
-
-## Event date unknown · rupatadine 10mg
-
-Response
-
-* rupatadine 10mg: helped with sudden anger outbursts, likely calming MCAS
-
-some benefit · undated retrospective history · patient retrospective
-
-Source: response:S3:treatment_response:204 · S3:204-204
-
-S3:204-204 · * rupatadine 10mg: helped with sudden anger outbursts, likely calming MCAS
-
-## Event date unknown · Magtein + glycine + L-theanine
-
-Response
-
-* Magtein + glycine + L-theanine: improved sleep slightly
-
-some benefit · undated retrospective history · patient retrospective
-
-Source: response:S3:treatment_response:205 · S3:205-205
-
-S3:205-205 · * Magtein + glycine + L-theanine: improved sleep slightly
-
-## Event date unknown · daridorexant
-
-Response
-
-* daridorexant: possibly helped falling asleep faster but didn’t improve maintenance insomnia → stopped
-
-some benefit · undated retrospective history · patient retrospective
-
-Source: response:S3:treatment_response:206 · S3:206-206
-
-S3:206-206 · * daridorexant: possibly helped falling asleep faster but didn’t improve maintenance insomnia → stopped
-
-## Event date unknown · NADH
-
-Response
-
-The patient associated NADH with a new deep-muscle fatigue and a major decline in function. Courses were recorded on 20–21 and 25–28 October 2024. Cognitive crashes had occurred before NADH.
-
-attributed persistent worsening · undated retrospective history · patient retrospective · Patient-reported
-
-Source: response:S3:treatment_response:209 · S3:209-211, Q-S5-NADH-START, * NADH
-* developed PEM from it, had a massive crash only after 3 days of supplementing (never had such a crash before)
-* likely due to upset NAD+/NADH balance and uncovering existing complex I dysfunction
-
-S3:209-211 · * NADH
-* developed PEM from it, had a massive crash only after 3 days of supplementing (never had such a crash before)
-* likely due to upset NAD+/NADH balance and uncovering existing complex I dysfunction
-
-Q-S5-NADH-START · The reviewer specifies October 20–21 and October 25–28, 2024, inclusive. The tracker records an evening start October 21 and recalls a dose October 22. The retrospective history gives later dates. These accounts disagree on exposure timing. Previous reconstruction: The S5 calendar diary dates NADH initiation to the evening of October 21, 2024, excess NADH to October 22, and the first documented physical crash to October 23. Magnesium followed NADH by about five hours. The exact onset across the night of October 22–23 is unresolved. S6 clarifies phenotype. Retrospective reports supply additional symptoms. Magnesium poisoning was a patient hypothesis. Exact dose and mechanism remain uncertain. S3:symptom:013 separately describes later CNS shutdown without muscle fatigue. S5 does not name a restart. S1-M1899 supports an inferred October 25 night restart. The later S3 account places it October 28–29. An October 23 all-lipo hold does not specify NADH.
-
-## Event date unknown · rapamycin 0.5mg (one-time)
-
-Response
-
-After one 0.5 mg dose he described roughly ten days of recurrent crashes. Brain burning and pressure returned, and CNS and upper-body fatigue still recurred at follow-up.
-
-attributed persistent worsening · undated retrospective history · patient retrospective · Patient-reported
-
-Source: response:S3:treatment_response:212 · S3:212-216, * rapamycin 0.5mg (one-time)
-* terrible 10-day long recurrent herx-crash-loop
-* the worst crashes by far I’ve ever had → developed CNS+upper body fatigue during it, this still sometimes happens (hadn’t had fatigue before it)
-* brain burns and pressures reappeared after half a year of hiatus → suggests rebound neuro-inflammation
-* likely primed liver/bile issues (rapa known to cause NAFLD in some cases)
-
-S3:212-216 · * rapamycin 0.5mg (one-time)
-* terrible 10-day long recurrent herx-crash-loop
-* the worst crashes by far I’ve ever had → developed CNS+upper body fatigue during it, this still sometimes happens (hadn’t had fatigue before it) […]
-
-## Event date unknown · ensitrelvir
-
-Response
-
-Green stools started the day after initiation. The patient also considered a delayed effect of the earlier rapamycin dose.
-
-attributed persistent worsening · undated retrospective history · patient retrospective · Possible association
-
-Source: response:S3:treatment_response:217 · S3:217-218, * ensitrelvir ?
-* green stools started 1d after starting ensi, possible link (but could be delayed effect of rapa too)
-
-S3:217-218 · * ensitrelvir ?
-* green stools started 1d after starting ensi, possible link (but could be delayed effect of rapa too)
-
-## Event date unknown · cat’s claw/gou teng + superHMO
-
-Response
-
-Green stools and diarrhea worsened substantially and had not fully stabilized by follow-up. The trials began close together.
-
-attributed persistent worsening · undated retrospective history · patient retrospective · Attribution uncertain across exposures
-
-Source: response:S3:treatment_response:219 · S3:219-221, * cat’s claw/gou teng + superHMO ?
-* green stool and diarrhea situation became much worse and haven’t been able to fully stabilize it since then
-* unclear which of the two caused it as they were sadly roughly started together, possibly both
-
-S3:219-221 · * cat’s claw/gou teng + superHMO ?
-* green stool and diarrhea situation became much worse and haven’t been able to fully stabilize it since then
-* unclear which of the two caused it as they were sadly roughly started together, possibly both
-
-## Event date unknown · various sinus rinses, nasal sprays
-
-Response
-
-The patient reports trying NeilMed and suspects repeat winter rinses after NADH worsened symptoms. Precise dates, preparation and attribution are uncertain.
-
-attributed persistent worsening · undated retrospective history · patient retrospective · Possible association
-
-Source: response:S3:treatment_response:222 · S3:222-225, * various sinus rinses, nasal sprays ?
-* anything slightly antimicrobial in nose resulted in massive pain going from nose all the way to back of head, followed by violent herx PEM crashes
-* tried: NeilMed rinses, eucalyptol terpenes, antiviral prophylactic nasal sprays (even the gentlest one made sinuses hurt like hell)
-* repeat NeilMed rinses after NADH likely caused extreme worsening in the winter
-
-S3:222-225 · * various sinus rinses, nasal sprays ?
-* anything slightly antimicrobial in nose resulted in massive pain going from nose all the way to back of head, followed by violent herx PEM crashes
-* tried: NeilMed rinses, eucalyptol terpenes, antiviral prophylactic nasal sprays (even the gentlest one made sinuses hurt like hell) […]
-
-## Event date unknown · bezisterim
-
-Response
-
-The patient recalled forehead and eye symptoms, increased sinus pressure and reduced screen tolerance. Nape and forearm fatigue persisted. Some symptoms began during the preceding spore probiotic trial.
-
-attributed persistent worsening · undated retrospective history · patient retrospective · Attribution uncertain across exposures
-
-Source: response:S3:treatment_response:226 · S3:226-229, Q-005, * bezisterim
-* strange type of brain PEM (“lactate brain”) and behind eye sensations + heightened sinus pressures appeared the day after
-* nape and wrist/forearm fatigue has been developing since then
-* baseline drastically lowered (was on computer/phone pretty much all day before it, now start getting this brain/forehead PEM after a few hours)
-
-S3:226-229 · * bezisterim
-* strange type of brain PEM (“lactate brain”) and behind eye sensations + heightened sinus pressures appeared the day after
-* nape and wrist/forearm fatigue has been developing since then […]
-
-Q-005 · Preserve both exposure timelines and symptoms that preceded and followed their overlap. Patient retrospectively attributed persistent decline to bezisterim, but questioned the contributions of the probiotic and exertion in contemporary messages. Do not assign a single cause.
-
-## Event date unknown · specialist protocol (maraviroc+atorvastatin)
-
-Response
-
-Taken with maraviroc for about two months during February–April 2024. The patient reported increased brain burning and tinnitus by the end of the regimen and stopped. He could not separate the effects of the two drugs. Taken with atorvastatin for about two months during February–April 2024. The patient reported increased brain burning and tinnitus by the end of the regimen and stopped. He could not separate the effects of the two drugs.
-
-attributed temporary worsening · undated retrospective history · patient retrospective · Attribution uncertain across exposures
-
-Source: response:S3:treatment_response:232 · S3:232-234, * specialist protocol (maraviroc+atorvastatin)
-* by end of 2 months felt stronger brain burns, tinnitus
-* had to stop
-
-S3:232-234 · * specialist protocol (maraviroc+atorvastatin)
-* by end of 2 months felt stronger brain burns, tinnitus
-* had to stop
-
-## Event date unknown · L-ornithine-L-aspartate
-
-Response
-
-The patient reported that brain burning increased as he raised the dose, culminating in a severe crash. He was unsure whether his subsequent PEM was worse.
-
-attributed temporary worsening · undated retrospective history · patient retrospective · Patient-reported
-
-Source: response:S3:treatment_response:235 · S3:235-237, * L-ornithine-L-aspartate ?
-* as dose went up, brain burns linearly increased in severity, up to a point when I crashed hard → PEM possibly got worse afterwards
-* suggests brain burns are related to glutamine buildup/osmotic swelling
-
-S3:235-237 · * L-ornithine-L-aspartate ?
-* as dose went up, brain burns linearly increased in severity, up to a point when I crashed hard → PEM possibly got worse afterwards
-* suggests brain burns are related to glutamine buildup/osmotic swelling
-
-## Event date unknown · doxycycline
-
-Response
-
-Brain burning grew more severe during the two-month course. The patient described marked cognitive impairment by the end of treatment.
-
-attributed temporary worsening · undated retrospective history · patient retrospective · Patient-reported
-
-Source: response:S3:treatment_response:238 · S3:238-241, * doxycycline
-* was put on it for 2 months due to Lyme suspicion after positive IgG test
-* no improvement at all, instead brain burns got more severe, was barely "in there" by the end of the cure
-* doxycycline can slow lymphatic drainage → lymphatic issues may play a role in brain burns
-
-S3:238-241 · * doxycycline
-* was put on it for 2 months due to Lyme suspicion after positive IgG test
-* no improvement at all, instead brain burns got more severe, was barely "in there" by the end of the cure […]
-
-## Event date unknown · pentoxifylline
-
-Response
-
-The patient recalled an unpleasant feeling of heaviness in his head.
-
-attributed temporary worsening · undated retrospective history · patient retrospective · Patient-reported
-
-Source: response:S3:treatment_response:242 · S3:242-243, * pentoxifylline
-* strange unpleasant heaviness in brain
-
-S3:242-243 · * pentoxifylline
-* strange unpleasant heaviness in brain
-
-## Event date unknown · AHCC
-
-Response
-
-The patient recalled a crash that he described as a “herx” reaction.
-
-attributed temporary worsening · undated retrospective history · patient retrospective · Patient-reported
-
-Source: response:S3:treatment_response:244 · S3:244-246, * AHCC
-* mild NK cell stimulant
-* herxed from it → it seems like anything that increases immune function causes massive herx crashes
-
-S3:244-246 · * AHCC
-* mild NK cell stimulant
-* herxed from it → it seems like anything that increases immune function causes massive herx crashes
-
-## Event date unknown · high dose memantine
-
-Response
-
-The patient reported pronounced heaviness and mild brain burning above 10 mg in a single dose. He reported tolerating two 10 mg doses spaced six hours apart.
-
-attributed temporary worsening · undated retrospective history · patient retrospective · Patient-reported
-
-Source: response:S3:treatment_response:247 · S3:247-250, * high dose memantine
-* when taking more than 10mg at a time, intense heaviness (fatigue?) and mild burns appear in brain
-* suspected glutamine buildup from blocking glutamate activity
-* no issues when taken 2x10mg 6h apart
-
-S3:247-250 · * high dose memantine
-* when taking more than 10mg at a time, intense heaviness (fatigue?) and mild burns appear in brain
-* suspected glutamine buildup from blocking glutamate activity […]
-
-## Event date unknown · high dose NAD+
-
-Response
-
-The patient described an intense, short PEM attack about two hours after higher doses of the liposomal NAD+ preparation.
-
-attributed temporary worsening · undated retrospective history · patient retrospective · Patient-reported
-
-Source: response:S3:treatment_response:251 · S3:251-253, * high dose NAD+
-* when taking higher doses, 2h after consumption, feeling intense but short PEM attack, sudden shutdown, as if pinned to couch, unable to move for ~30m
-* this is with a liposomal formula → NAD+ should enter cells without setting off extracellular danger signals
-
-S3:251-253 · * high dose NAD+
-* when taking higher doses, 2h after consumption, feeling intense but short PEM attack, sudden shutdown, as if pinned to couch, unable to move for ~30m
-* this is with a liposomal formula → NAD+ should enter cells without setting off extracellular danger signals
-
-## Event date unknown · xylitol
-
-Response
-
-* xylitol ?
-* bad herx reaction
-
-attributed temporary worsening · undated retrospective history · patient retrospective
-
-Source: response:S3:treatment_response:254 · S3:254-255
-
-S3:254-255 · * xylitol ?
-* bad herx reaction
-
-## Event date unknown · selegiline
-
-Response
-
-He reported some improvement in brain burning and increased libido, which he associated with triggering PEM.
-
-attributed temporary worsening · undated retrospective history · patient retrospective · Patient-reported
-
-Source: response:S3:treatment_response:256 · S3:256-257, * selegiline
-* minor improvement in brain burns but much higher libido, causing PEM
-
-S3:256-257 · * selegiline
-* minor improvement in brain burns but much higher libido, causing PEM
 
 ## Event date unknown · creatine or inosine
 
@@ -10523,130 +11069,6 @@ Source: response:S3:treatment_response:258 · S3:258-259, * creatine or inosine
 S3:258-259 · * creatine or inosine
 * strange intense poisoned CNS feeling → XO pathway or uric acid related issue?
 
-## Event date unknown · methylene blue/MB
-
-Response
-
-The patient described stronger corrosive tingling even at a 1 mg dose.
-
-attributed temporary worsening · undated retrospective history · patient retrospective · Patient-reported
-
-Source: response:S3:treatment_response:260 · S3:260-261, * methylene blue/MB
-* even at 1mg felt stronger corrosive/herxy tingling (likely not herx, but that’s usually when I have a similar sensation)
-
-S3:260-261 · * methylene blue/MB
-* even at 1mg felt stronger corrosive/herxy tingling (likely not herx, but that’s usually when I have a similar sensation)
-
-## Event date unknown · SkQ1
-
-Response
-
-The patient recalled unintentionally taking a higher first dose followed by a severe crash and sleep. Corrosive tingling and a poisoned PEM sensation also occurred at smaller doses.
-
-attributed temporary worsening · undated retrospective history · patient retrospective · Patient-reported
-
-Source: response:S3:treatment_response:262 · S3:262-265, * SkQ1
-* accidentally overdosed to 1.6mg first time I tried (instead of 0.4mg) and had a strong CNS crash → fell asleep within an hour
-* but smaller doses (0.4mg) also resulted in increased corrosive tingling and poisoned PEM feeling
-* reasons are unclear: possible mitochondrial memV drop, or unmasking complex IV breakage and ROS generation or RET flow
-
-S3:262-265 · * SkQ1
-* accidentally overdosed to 1.6mg first time I tried (instead of 0.4mg) and had a strong CNS crash → fell asleep within an hour
-* but smaller doses (0.4mg) also resulted in increased corrosive tingling and poisoned PEM feeling […]
-
-## Event date unknown · S-acetyl-glutathione 25-50mg, taken in morning
-
-Response
-
-He reported pulsing and unusual sensations resembling his usual evening PEM, now during the day, including at very small doses.
-
-attributed temporary worsening · undated retrospective history · patient retrospective · Patient-reported
-
-Source: response:S3:treatment_response:266 · S3:266-269, * S-acetyl-glutathione 25-50mg, taken in morning
-* “evening pem” like pulsing and strange sensations (reductive stress??) but all day
-* similar in evening
-* effects present even at microdoses
-
-S3:266-269 · * S-acetyl-glutathione 25-50mg, taken in morning
-* “evening pem” like pulsing and strange sensations (reductive stress??) but all day
-* similar in evening […]
-
-## Event date unknown · KL1333 ≤1mg
-
-Response
-
-The patient recalled nape clenching, malaise and wrist fatigue about 15–20 minutes after a dose of 1 mg or less.
-
-attributed temporary worsening · undated retrospective history · patient retrospective · Patient-reported
-
-Source: response:S3:treatment_response:270 · S3:270-271, * KL1333 ≤1mg
-* after 15-20m: nape clenching, overall malaise, wrist fatigue → seems like systemic danger response leading to brain stem flare
-
-S3:270-271 · * KL1333 ≤1mg
-* after 15-20m: nape clenching, overall malaise, wrist fatigue → seems like systemic danger response leading to brain stem flare
-
-## Event date unknown · lithium orotate
-
-Response
-
-* lithium orotate ?
-* similar nape flare, milder, within 45m
-
-attributed temporary worsening · undated retrospective history · patient retrospective
-
-Source: response:S3:treatment_response:272 · S3:272-273
-
-S3:272-273 · * lithium orotate ?
-* similar nape flare, milder, within 45m
-
-## Event date unknown · hydroxy-b12 injections
-
-Response
-
-The patient recalled a nape flare within half an hour of a higher B12 injection dose. The units in the retrospective account conflict with the dosing diary.
-
-attributed temporary worsening · undated retrospective history · patient retrospective · Possible association
-
-Source: response:S3:treatment_response:274 · S3:274-276, Q-004, * hydroxy-b12 injections ?
-* 500mg no response
-* 1g nape flare similar to KL within half an hour
-
-S3:274-276 · * hydroxy-b12 injections ?
-* 500mg no response
-* 1g nape flare similar to KL within half an hour
-
-Q-004 · Diary documents a half dose then explicitly 1 mg injection, corroborated by the 1 mg change note. Earlier high-level history says 500 mg then 1 g. Units are discrepant by roughly 1,000-fold for the full dose. Formulation/strength has not been independently verified.
-
-## Event date unknown · ASHA-091
-
-Response
-
-Nape pressure and wrist fatigue appeared within about half an hour. The reaction was stronger at 10 mg than at smaller doses. Afternoon sleep pressure and crashes also occurred.
-
-attributed temporary worsening · undated retrospective history · patient retrospective · Patient-reported
-
-Source: response:S3:treatment_response:277 · S3:277-279, * ASHA-091
-* strong nape flare and wrist fatigue at 10mg, milder at smaller doses, within half an hour
-* brain fatigue / sleep pressure crashes in the afternoon
-
-S3:277-279 · * ASHA-091
-* strong nape flare and wrist fatigue at 10mg, milder at smaller doses, within half an hour
-* brain fatigue / sleep pressure crashes in the afternoon
-
-## Event date unknown · copper sulfite
-
-Response
-
-The patient recalled a similar nape flare within half an hour and questioned the copper preparation name. The account gives no date or dose. Attribution is uncertain.
-
-attributed temporary worsening · undated retrospective history · patient retrospective · Possible association
-
-Source: response:S3:treatment_response:280 · S3:280-281, * copper sulfite ?
-* similar nape flare within half an hour
-
-S3:280-281 · * copper sulfite ?
-* similar nape flare within half an hour
-
 ## Event date unknown · molecular hydrogen inhalation 150ml/min
 
 Response
@@ -10659,18 +11081,6 @@ Source: response:S3:treatment_response:284 · S3:284-284
 
 S3:284-284 · * molecular hydrogen inhalation 150ml/min
 
-## Event date unknown · bezafibrate 400mg XR
-
-Response
-
-* bezafibrate 400mg XR
-
-no clear benefit · undated retrospective history · patient retrospective
-
-Source: response:S3:treatment_response:285 · S3:285-285
-
-S3:285-285 · * bezafibrate 400mg XR
-
 ## Event date unknown · NAD+
 
 Response
@@ -10682,126 +11092,6 @@ no clear benefit · undated retrospective history · patient retrospective
 Source: response:S3:treatment_response:286 · S3:286-286
 
 S3:286-286 · * NAD+
-
-## Event date unknown · D-larazotide
-
-Response
-
-* D-larazotide
-
-no clear benefit · undated retrospective history · patient retrospective
-
-Source: response:S3:treatment_response:287 · S3:287-287
-
-S3:287-287 · * D-larazotide
-
-## Event date unknown · Bodybio PC phosphatydilcholine
-
-Response
-
-* Bodybio PC phosphatydilcholine
-
-no clear benefit · undated retrospective history · patient retrospective
-
-Source: response:S3:treatment_response:288 · S3:288-288
-
-S3:288-288 · * Bodybio PC phosphatydilcholine
-
-## Event date unknown · SS31 peptide 0.5-30mg/day
-
-Response
-
-* SS31 peptide 0.5-30mg/day
-
-no clear benefit · undated retrospective history · patient retrospective
-
-Source: response:S3:treatment_response:289 · S3:289-289
-
-S3:289-289 · * SS31 peptide 0.5-30mg/day
-
-## Event date unknown · bezafibrate
-
-Response
-
-* bezafibrate
-
-no clear benefit · undated retrospective history · patient retrospective
-
-Source: response:S3:treatment_response:290 · S3:290-290
-
-S3:290-290 · * bezafibrate
-
-## Event date unknown · 1-MNA (on its own without NAD+)
-
-Response
-
-* 1-MNA (on its own without NAD+)
-
-no clear benefit · undated retrospective history · patient retrospective
-
-Source: response:S3:treatment_response:291 · S3:291-291
-
-S3:291-291 · * 1-MNA (on its own without NAD+)
-
-## Event date unknown · meldonium
-
-Response
-
-* meldonium
-
-no clear benefit · undated retrospective history · patient retrospective
-
-Source: response:S3:treatment_response:292 · S3:292-292
-
-S3:292-292 · * meldonium
-
-## Event date unknown · huperzine A
-
-Response
-
-* huperzine A
-
-no clear benefit · undated retrospective history · patient retrospective
-
-Source: response:S3:treatment_response:293 · S3:293-293
-
-S3:293-293 · * huperzine A
-
-## Event date unknown · PEA/LUT
-
-Response
-
-* PEA/LUT
-
-no clear benefit · undated retrospective history · patient retrospective
-
-Source: response:S3:treatment_response:294 · S3:294-294
-
-S3:294-294 · * PEA/LUT
-
-## Event date unknown · DHM
-
-Response
-
-* DHM
-
-no clear benefit · undated retrospective history · patient retrospective
-
-Source: response:S3:treatment_response:295 · S3:295-295
-
-S3:295-295 · * DHM
-
-## Event date unknown · mangiferin
-
-Response
-
-* mangiferin
-
-no clear benefit · undated retrospective history · patient retrospective
-
-Source: response:S3:treatment_response:296 · S3:296-296
-
-S3:296-296 · * mangiferin
 
 ## Event date unknown · ketogenic diet
 
@@ -10827,30 +11117,6 @@ Source: response:S3:treatment_response:298 · S3:298-298
 
 S3:298-298 · * nattokinase/serraptase (enteric)
 
-## Event date unknown · lactoferrin
-
-Response
-
-* lactoferrin
-
-no clear benefit · undated retrospective history · patient retrospective
-
-Source: response:S3:treatment_response:299 · S3:299-299
-
-S3:299-299 · * lactoferrin
-
-## Event date unknown · L-arginine
-
-Response
-
-* L-arginine
-
-no clear benefit · undated retrospective history · patient retrospective
-
-Source: response:S3:treatment_response:300 · S3:300-300
-
-S3:300-300 · * L-arginine
-
 ## Event date unknown · NMN/NR
 
 Response
@@ -10863,186 +11129,6 @@ Source: response:S3:treatment_response:301 · S3:301-301
 
 S3:301-301 · * NMN/NR
 
-## Event date unknown · EGCG
-
-Response
-
-* EGCG
-
-no clear benefit · undated retrospective history · patient retrospective
-
-Source: response:S3:treatment_response:302 · S3:302-302
-
-S3:302-302 · * EGCG
-
-## Event date unknown · CoQ10
-
-Response
-
-* CoQ10
-
-no clear benefit · undated retrospective history · patient retrospective
-
-Source: response:S3:treatment_response:303 · S3:303-303
-
-S3:303-303 · * CoQ10
-
-## Event date unknown · PQQ
-
-Response
-
-* PQQ
-
-no clear benefit · undated retrospective history · patient retrospective
-
-Source: response:S3:treatment_response:304 · S3:304-304
-
-S3:304-304 · * PQQ
-
-## Event date unknown · aspirin
-
-Response
-
-* aspirin
-
-no clear benefit · undated retrospective history · patient retrospective
-
-Source: response:S3:treatment_response:305 · S3:305-305
-
-S3:305-305 · * aspirin
-
-## Event date unknown · H1/H2 blockers
-
-Response
-
-* H1/H2 blockers
-
-no clear benefit · undated retrospective history · patient retrospective
-
-Source: response:S3:treatment_response:306 · S3:306-306
-
-S3:306-306 · * H1/H2 blockers
-
-## Event date unknown · black cumin seed
-
-Response
-
-* black cumin seed
-
-no clear benefit · undated retrospective history · patient retrospective
-
-Source: response:S3:treatment_response:307 · S3:307-307
-
-S3:307-307 · * black cumin seed
-
-## Event date unknown · NAC
-
-Response
-
-* NAC
-
-no clear benefit · undated retrospective history · patient retrospective
-
-Source: response:S3:treatment_response:308 · S3:308-308
-
-S3:308-308 · * NAC
-
-## Event date unknown · ALCAR
-
-Response
-
-* ALCAR
-
-no clear benefit · undated retrospective history · patient retrospective
-
-Source: response:S3:treatment_response:309 · S3:309-309
-
-S3:309-309 · * ALCAR
-
-## Event date unknown · TMG
-
-Response
-
-* TMG
-
-no clear benefit · undated retrospective history · patient retrospective
-
-Source: response:S3:treatment_response:310 · S3:310-310
-
-S3:310-310 · * TMG
-
-## Event date unknown · resveratrol
-
-Response
-
-* resveratrol
-
-no clear benefit · undated retrospective history · patient retrospective
-
-Source: response:S3:treatment_response:311 · S3:311-311
-
-S3:311-311 · * resveratrol
-
-## Event date unknown · metformin
-
-Response
-
-* metformin
-
-no clear benefit · undated retrospective history · patient retrospective
-
-Source: response:S3:treatment_response:312 · S3:312-312
-
-S3:312-312 · * metformin
-
-## Event date unknown · quercetin (phytosome, liposomes)
-
-Response
-
-* quercetin (phytosome, liposomes)
-
-no clear benefit · undated retrospective history · patient retrospective
-
-Source: response:S3:treatment_response:313 · S3:313-313
-
-S3:313-313 · * quercetin (phytosome, liposomes)
-
-## Event date unknown · omega-3 (high dose)
-
-Response
-
-* omega-3 (high dose)
-
-no clear benefit · undated retrospective history · patient retrospective
-
-Source: response:S3:treatment_response:314 · S3:314-314
-
-S3:314-314 · * omega-3 (high dose)
-
-## Event date unknown · black garlic
-
-Response
-
-* black garlic
-
-no clear benefit · undated retrospective history · patient retrospective
-
-Source: response:S3:treatment_response:315 · S3:315-315
-
-S3:315-315 · * black garlic
-
-## Event date unknown · bio fisetin
-
-Response
-
-* bio fisetin
-
-no clear benefit · undated retrospective history · patient retrospective
-
-Source: response:S3:treatment_response:316 · S3:316-316
-
-S3:316-316 · * bio fisetin
-
 ## Event date unknown · citrulline-malate
 
 Response
@@ -11054,54 +11140,6 @@ no clear benefit · undated retrospective history · patient retrospective
 Source: response:S3:treatment_response:317 · S3:317-317
 
 S3:317-317 · * citrulline-malate
-
-## Event date unknown · lazatotide
-
-Response
-
-* lazatotide
-
-no clear benefit · undated retrospective history · patient retrospective
-
-Source: response:S3:treatment_response:318 · S3:318-318
-
-S3:318-318 · * lazatotide
-
-## Event date unknown · GABA
-
-Response
-
-* GABA
-
-no clear benefit · undated retrospective history · patient retrospective
-
-Source: response:S3:treatment_response:319 · S3:319-319
-
-S3:319-319 · * GABA
-
-## Event date unknown · plasmalogens 4 caps
-
-Response
-
-* plasmalogens 4 caps
-
-no clear benefit · undated retrospective history · patient retrospective
-
-Source: response:S3:treatment_response:320 · S3:320-320
-
-S3:320-320 · * plasmalogens 4 caps
-
-## Event date unknown · memantine 2x10mg
-
-Response
-
-He initially perceived benefit on 10 mg twice daily, then possible worsening. He considered natural symptom fluctuation.
-
-no clear benefit · undated retrospective history · patient retrospective · Possible association
-
-Source: response:S3:treatment_response:321 · S3:321-321, * memantine 2x10mg: at first seemed to help but then seemed to get worse, unclear, could have been just natural ebb and flow of disease
-
-S3:321-321 · * memantine 2x10mg: at first seemed to help but then seemed to get worse, unclear, could have been just natural ebb and flow of disease
 
 ## Event date unknown · Specialist Borrelia Western blot
 

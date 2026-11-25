@@ -1,6 +1,6 @@
 # Berberine phytosome · course dossier
 
-Revision: Revision 81
+Revision: Revision 82
 course:pz59-berbevis-march30
 documented_course
 2025-03-30 · Recorded window ends 2025-04-29 · Berbevis/phytosome was reported again March 30 after an HCl-only interval. A morning and evening regimen was described April 22; April 29 documents reducing the dose. These bound verified observations. The date this supply ended is unknown. September phytosome depletion is a separate record.

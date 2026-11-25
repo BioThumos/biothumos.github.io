@@ -52,3 +52,9 @@
 .bm-rna-report{padding:.75rem .5rem}.bm-rna-report h3{margin:.25rem 0}
 .bm-report-directory h2{margin:.4rem 0}.bm-report-directory>p{color:var(--muted);font-size:.86rem}
 .bm-report-card[open],.bm-report-card:target{border-left:3px solid var(--accent);padding-left:.65rem}
+
+.bm-vendor-notes,.bm-allergy-section{margin:.75rem 0;padding:.55rem .75rem;border:1px solid var(--control-line);border-radius:.45rem}
+.bm-vendor-page{border-top:1px solid var(--line);padding:.55rem 0}
+.bm-vendor-text{font-size:.85rem;white-space:pre-wrap;overflow-wrap:anywhere;max-height:35rem;overflow:auto;padding:.5rem .65rem;background:var(--tint);border-radius:.3rem}
+.bm-report-card ul.bm-allergy-positive{max-height:none;columns:2}
+@media(max-width:620px){.bm-report-card ul.bm-allergy-positive{columns:1}}

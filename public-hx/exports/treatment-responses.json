@@ -42,6 +42,7 @@
           ],
           "record_id": "S3:treatment_response:244",
           "report_date": null,
+          "response_date_label": "Treatment context (response date unknown): 2025-04-25 · Stopped 2025-04-27",
           "source_table": "historical_entries",
           "treatment_actions": []
         }
@@ -72,6 +73,7 @@
           ],
           "record_id": "S1-F76373-1",
           "report_date": "2026-07-08",
+          "response_date_label": "",
           "source_table": "archive_findings",
           "treatment_actions": []
         },
@@ -93,6 +95,7 @@
           ],
           "record_id": "S2-OBS-7044",
           "report_date": null,
+          "response_date_label": "2026-06-17",
           "source_table": "diary_observations",
           "treatment_actions": []
         },
@@ -122,6 +125,7 @@
           ],
           "record_id": "CTX-018",
           "report_date": null,
+          "response_date_label": "Treatment context (response date unknown): 2026-04-19 · Last dose 2026-04-19; 2026-04-24 · Off by 2026-05-04; 2026-06-15 · Last dose 2026-06-17",
           "source_table": "context_cards",
           "treatment_actions": []
         },
@@ -155,6 +159,7 @@
           ],
           "record_id": "S3:treatment_response:277",
           "report_date": null,
+          "response_date_label": "Treatment context (response date unknown): 2026-06-15 · Last dose 2026-06-17",
           "source_table": "historical_entries",
           "treatment_actions": []
         }
@@ -185,6 +190,7 @@
           ],
           "record_id": "S2-R-255",
           "report_date": null,
+          "response_date_label": "2025-06-21",
           "source_table": "diary_responses",
           "treatment_actions": []
         }
@@ -231,6 +237,7 @@
           ],
           "record_id": "S1-M7992",
           "report_date": "2024-12-07",
+          "response_date_label": "",
           "source_table": "archive_messages",
           "treatment_actions": [
             {
@@ -257,6 +264,7 @@
           ],
           "record_id": "S5-R-AL15-2",
           "report_date": "2024-07-08",
+          "response_date_label": "2024-07-08",
           "source_table": "diary_responses",
           "treatment_actions": []
         },
@@ -278,6 +286,7 @@
           ],
           "record_id": "S5-R-V15-3",
           "report_date": "2024-06-22",
+          "response_date_label": "2024-06-22",
           "source_table": "diary_responses",
           "treatment_actions": []
         }
@@ -316,6 +325,7 @@
           ],
           "record_id": "S2-R-8029",
           "report_date": null,
+          "response_date_label": "2026-08-26",
           "source_table": "diary_responses",
           "treatment_actions": [
             {
@@ -358,6 +368,7 @@
           ],
           "record_id": "S3:treatment_response:232",
           "report_date": null,
+          "response_date_label": "Treatment context (response date unknown): 2024-02 · Recorded window ends 2024-04",
           "source_table": "historical_entries",
           "treatment_actions": [
             {
@@ -462,6 +473,7 @@
           ],
           "record_id": "S3:chronology:612",
           "report_date": null,
+          "response_date_label": "2024-12-31",
           "source_table": "historical_entries",
           "treatment_actions": []
         }
@@ -511,6 +523,7 @@
           ],
           "record_id": "S2-R-3550",
           "report_date": null,
+          "response_date_label": "2025-12-01",
           "source_table": "diary_responses",
           "treatment_actions": [
             {
@@ -548,6 +561,7 @@
           ],
           "record_id": "S3:treatment_response:226",
           "report_date": null,
+          "response_date_label": "Treatment context (response date unknown): 2025-12-01 · Off by 2025-12-02",
           "source_table": "historical_entries",
           "treatment_actions": []
         }
@@ -623,6 +637,7 @@
           ],
           "record_id": "S3:chronology:612",
           "report_date": null,
+          "response_date_label": "2024-12-31",
           "source_table": "historical_entries",
           "treatment_actions": []
         }
@@ -657,6 +672,7 @@
           ],
           "record_id": "S1-F65365-1",
           "report_date": "2025-12-29",
+          "response_date_label": "",
           "source_table": "archive_findings",
           "treatment_actions": []
         }
@@ -719,6 +735,7 @@
           ],
           "record_id": "S1-F60911-1",
           "report_date": "2025-11-16",
+          "response_date_label": "",
           "source_table": "archive_findings",
           "treatment_actions": []
         }
@@ -805,6 +822,7 @@
           ],
           "record_id": "S2-R-8715",
           "report_date": null,
+          "response_date_label": "2026-10-19",
           "source_table": "diary_responses",
           "treatment_actions": []
         },
@@ -821,6 +839,7 @@
           "patterns": [],
           "record_id": "S2-R-8715",
           "report_date": null,
+          "response_date_label": "2026-10-19",
           "source_table": "diary_responses",
           "treatment_actions": []
         }
@@ -883,6 +902,7 @@
           ],
           "record_id": "S3:treatment_response:280",
           "report_date": null,
+          "response_date_label": "Treatment context (response date unknown): 2026-05-23 · Estimated end 2026-05-28",
           "source_table": "historical_entries",
           "treatment_actions": []
         }
@@ -936,6 +956,7 @@
           ],
           "record_id": "S3:treatment_response:258",
           "report_date": null,
+          "response_date_label": "",
           "source_table": "historical_entries",
           "treatment_actions": []
         }
@@ -1002,6 +1023,7 @@
           ],
           "record_id": "S2-R-8165",
           "report_date": null,
+          "response_date_label": "2026-09-06",
           "source_table": "diary_responses",
           "treatment_actions": []
         }
@@ -1032,6 +1054,7 @@
           ],
           "record_id": "S3:treatment_response:238",
           "report_date": null,
+          "response_date_label": "Treatment context (response date unknown): 2024-07-24 · Stopped 2024-09-22",
           "source_table": "historical_entries",
           "treatment_actions": []
         }
@@ -1085,6 +1108,7 @@
           ],
           "record_id": "S3:treatment_response:217",
           "report_date": null,
+          "response_date_label": "Treatment context (response date unknown): 2025-06-21 · Last dose 2025-06-21; 2025-07-01 · Reported end 2025-07-30",
           "source_table": "historical_entries",
           "treatment_actions": []
         }
@@ -1123,6 +1147,7 @@
           ],
           "record_id": "S1-F70972-1",
           "report_date": "2026-03-04",
+          "response_date_label": "",
           "source_table": "archive_findings",
           "treatment_actions": []
         }
@@ -1181,6 +1206,7 @@
           ],
           "record_id": "S1-F2-59964",
           "report_date": "2025-11-04",
+          "response_date_label": "",
           "source_table": "archive_findings",
           "treatment_actions": []
         },
@@ -1202,6 +1228,7 @@
           ],
           "record_id": "S1-F59280-1",
           "report_date": "2025-10-30",
+          "response_date_label": "",
           "source_table": "archive_findings",
           "treatment_actions": [
             {
@@ -1228,6 +1255,7 @@
           ],
           "record_id": "S2-R-2965",
           "report_date": null,
+          "response_date_label": "2025-10-29",
           "source_table": "diary_responses",
           "treatment_actions": [
             {
@@ -1254,6 +1282,7 @@
           ],
           "record_id": "S1-F6-6",
           "report_date": "2024-10-21",
+          "response_date_label": "",
           "source_table": "archive_findings",
           "treatment_actions": []
         }
@@ -1315,6 +1344,7 @@
           ],
           "record_id": "S1-F48122-1",
           "report_date": "2025-07-18",
+          "response_date_label": "",
           "source_table": "archive_findings",
           "treatment_actions": []
         },
@@ -1343,6 +1373,7 @@
           ],
           "record_id": "S2-R-649",
           "report_date": null,
+          "response_date_label": "2025-07-16",
           "source_table": "diary_responses",
           "treatment_actions": []
         },
@@ -1371,6 +1402,7 @@
           ],
           "record_id": "S3:treatment_response:219",
           "report_date": null,
+          "response_date_label": "Treatment context (response date unknown): 2025-07-13 · Reported end 2025-07-17; 2025-07-15 · Reported end 2025-07-17",
           "source_table": "historical_entries",
           "treatment_actions": []
         }
@@ -1428,6 +1460,7 @@
           "patterns": [],
           "record_id": "S2-OBS-5834",
           "report_date": null,
+          "response_date_label": "2026-04-02",
           "source_table": "diary_observations",
           "treatment_actions": []
         },
@@ -1449,6 +1482,7 @@
           ],
           "record_id": "S2-R-5218",
           "report_date": null,
+          "response_date_label": "2026-02-26",
           "source_table": "diary_responses",
           "treatment_actions": []
         }
@@ -1486,6 +1520,7 @@
           ],
           "record_id": "S3:treatment_response:258",
           "report_date": null,
+          "response_date_label": "",
           "source_table": "historical_entries",
           "treatment_actions": []
         }
@@ -1528,6 +1563,7 @@
           ],
           "record_id": "ANN-S1-32462",
           "report_date": "2025-04-09",
+          "response_date_label": "",
           "source_table": "annotations",
           "treatment_actions": []
         }
@@ -1562,6 +1598,7 @@
           ],
           "record_id": "S2-OBS-6261",
           "report_date": null,
+          "response_date_label": "2026-04-28",
           "source_table": "diary_observations",
           "treatment_actions": []
         },
@@ -1591,6 +1628,7 @@
           ],
           "record_id": "CTX-018",
           "report_date": null,
+          "response_date_label": "Treatment context (response date unknown): 2026-04-19 · Last dose 2026-04-19; 2026-04-24 · Off by 2026-05-04; 2026-06-15 · Last dose 2026-06-17",
           "source_table": "context_cards",
           "treatment_actions": []
         },
@@ -1612,6 +1650,7 @@
           ],
           "record_id": "S3:treatment_response:270",
           "report_date": null,
+          "response_date_label": "Treatment context (response date unknown): 2026-04-19 · Last dose 2026-04-19; 2026-04-24 · Off by 2026-05-04",
           "source_table": "historical_entries",
           "treatment_actions": []
         }
@@ -1646,6 +1685,7 @@
           ],
           "record_id": "S1-M72495",
           "report_date": "2026-03-19",
+          "response_date_label": "",
           "source_table": "archive_messages",
           "treatment_actions": []
         },
@@ -1671,6 +1711,7 @@
           ],
           "record_id": "S1-M13205",
           "report_date": "2025-01-16",
+          "response_date_label": "",
           "source_table": "archive_messages",
           "treatment_actions": []
         }
@@ -1725,6 +1766,7 @@
           ],
           "record_id": "S1-F6434-1",
           "report_date": "2024-11-28",
+          "response_date_label": "",
           "source_table": "archive_findings",
           "treatment_actions": []
         },
@@ -1746,6 +1788,7 @@
           ],
           "record_id": "S3:chronology:616",
           "report_date": null,
+          "response_date_label": "2025-01-03 – 2025-01-12",
           "source_table": "historical_entries",
           "treatment_actions": []
         }
@@ -1780,6 +1823,7 @@
           ],
           "record_id": "S1-F6434-1",
           "report_date": "2024-11-28",
+          "response_date_label": "",
           "source_table": "archive_findings",
           "treatment_actions": []
         },
@@ -1805,6 +1849,7 @@
           ],
           "record_id": "S3:treatment_response:235",
           "report_date": null,
+          "response_date_label": "Treatment context (response date unknown): 2024-11-27 · Off by 2024-12-01",
           "source_table": "historical_entries",
           "treatment_actions": []
         }
@@ -1843,6 +1888,7 @@
           ],
           "record_id": "S1-F60911-1",
           "report_date": "2025-11-16",
+          "response_date_label": "",
           "source_table": "archive_findings",
           "treatment_actions": []
         }
@@ -1897,6 +1943,7 @@
           ],
           "record_id": "S1-F60911-1",
           "report_date": "2025-11-16",
+          "response_date_label": "",
           "source_table": "archive_findings",
           "treatment_actions": []
         }
@@ -1935,6 +1982,7 @@
           ],
           "record_id": "S2-OBS-6882",
           "report_date": null,
+          "response_date_label": "2026-06-06",
           "source_table": "diary_observations",
           "treatment_actions": []
         }
@@ -1980,6 +2028,7 @@
           ],
           "record_id": "S5-R-EO15-2",
           "report_date": "2024-10-23",
+          "response_date_label": "2024-10-23",
           "source_table": "diary_responses",
           "treatment_actions": []
         }
@@ -2034,6 +2083,7 @@
           ],
           "record_id": "S5-R-DZ15-1",
           "report_date": "2024-10-08",
+          "response_date_label": "2024-10-08",
           "source_table": "diary_responses",
           "treatment_actions": []
         }
@@ -2095,6 +2145,7 @@
           ],
           "record_id": "S3:treatment_response:232",
           "report_date": null,
+          "response_date_label": "Treatment context (response date unknown): 2024-02 · Recorded window ends 2024-04",
           "source_table": "historical_entries",
           "treatment_actions": [
             {
@@ -2130,6 +2181,7 @@
           ],
           "record_id": "S1-F59280-1",
           "report_date": "2025-10-30",
+          "response_date_label": "",
           "source_table": "archive_findings",
           "treatment_actions": [
             {
@@ -2165,6 +2217,7 @@
           ],
           "record_id": "S1-F24852-1",
           "report_date": "2025-03-02",
+          "response_date_label": "",
           "source_table": "archive_findings",
           "treatment_actions": [
             {
@@ -2220,6 +2273,7 @@
           ],
           "record_id": "S3:treatment_response:247",
           "report_date": null,
+          "response_date_label": "Treatment context (response date unknown): 2025-04-15 · Off by 2025-05-03",
           "source_table": "historical_entries",
           "treatment_actions": []
         },
@@ -2241,6 +2295,7 @@
           ],
           "record_id": "S3:treatment_response:321",
           "report_date": null,
+          "response_date_label": "Treatment context (response date unknown): 2025-04-15 · Off by 2025-05-03",
           "source_table": "historical_entries",
           "treatment_actions": []
         }
@@ -2271,6 +2326,7 @@
           ],
           "record_id": "S1-F3199-1",
           "report_date": "2024-11-04",
+          "response_date_label": "",
           "source_table": "archive_findings",
           "treatment_actions": []
         }
@@ -2301,6 +2357,7 @@
           ],
           "record_id": "S1-F66294-1",
           "report_date": "2026-01-08",
+          "response_date_label": "",
           "source_table": "archive_findings",
           "treatment_actions": []
         },
@@ -2322,6 +2379,7 @@
           ],
           "record_id": "S1-F60911-1",
           "report_date": "2025-11-16",
+          "response_date_label": "",
           "source_table": "archive_findings",
           "treatment_actions": []
         },
@@ -2343,6 +2401,7 @@
           ],
           "record_id": "S3:treatment_response:260",
           "report_date": null,
+          "response_date_label": "Treatment context (response date unknown): 2025-10-21 · Stopped 2025-11-01; 2026-01-06 · Reported end 2026-01-12",
           "source_table": "historical_entries",
           "treatment_actions": []
         }
@@ -2465,6 +2524,7 @@
           ],
           "record_id": "S3:treatment_response:251",
           "report_date": null,
+          "response_date_label": "Treatment context (response date unknown): 2025-05-01; 2025-05-02; 2025-05-03; 2025-05-07",
           "source_table": "historical_entries",
           "treatment_actions": []
         }
@@ -2519,6 +2579,7 @@
           ],
           "record_id": "S5-R-AD15-1",
           "report_date": "2024-06-30",
+          "response_date_label": "2024-06-30",
           "source_table": "diary_responses",
           "treatment_actions": []
         },
@@ -2547,6 +2608,7 @@
           ],
           "record_id": "S5-R-V15-1",
           "report_date": "2024-06-22",
+          "response_date_label": "2024-06-22",
           "source_table": "diary_responses",
           "treatment_actions": []
         }
@@ -2577,6 +2639,7 @@
           ],
           "record_id": "S1-M2480",
           "report_date": "2024-10-29",
+          "response_date_label": "",
           "source_table": "archive_messages",
           "treatment_actions": []
         },
@@ -2598,6 +2661,7 @@
           ],
           "record_id": "BL-08",
           "report_date": null,
+          "response_date_label": "2024-10-25",
           "source_table": "baseline_states",
           "treatment_actions": []
         },
@@ -2619,6 +2683,7 @@
           ],
           "record_id": "S1-M1658",
           "report_date": "2024-10-25",
+          "response_date_label": "",
           "source_table": "archive_messages",
           "treatment_actions": []
         },
@@ -2640,6 +2705,7 @@
           ],
           "record_id": "BL-07",
           "report_date": null,
+          "response_date_label": "2024-10-23",
           "source_table": "baseline_states",
           "treatment_actions": []
         },
@@ -2668,6 +2734,7 @@
           ],
           "record_id": "S5-R-EO15-1",
           "report_date": "2024-10-23",
+          "response_date_label": "2024-10-23",
           "source_table": "diary_responses",
           "treatment_actions": []
         },
@@ -2689,6 +2756,7 @@
           ],
           "record_id": "S3:treatment_response:209",
           "report_date": null,
+          "response_date_label": "Treatment context (response date unknown): 2024-10-20 · Last dose 2024-10-21; 2024-10-25 · Last dose 2024-10-28",
           "source_table": "historical_entries",
           "treatment_actions": []
         }
@@ -2780,6 +2848,7 @@
           ],
           "record_id": "S3:chronology:612",
           "report_date": null,
+          "response_date_label": "2024-12-31",
           "source_table": "historical_entries",
           "treatment_actions": []
         },
@@ -2805,6 +2874,7 @@
           ],
           "record_id": "S3:treatment_response:222",
           "report_date": null,
+          "response_date_label": "Treatment context (response date unknown): 2024-12-31; 2025-02-20 · Stopped 2025-02-21",
           "source_table": "historical_entries",
           "treatment_actions": []
         }
@@ -2870,6 +2940,7 @@
           ],
           "record_id": "S1-F2-15467",
           "report_date": "2025-01-31",
+          "response_date_label": "",
           "source_table": "archive_findings",
           "treatment_actions": []
         }
@@ -2940,6 +3011,7 @@
           ],
           "record_id": "S1-F64636-1",
           "report_date": "2025-12-18",
+          "response_date_label": "",
           "source_table": "archive_findings",
           "treatment_actions": []
         },
@@ -2961,6 +3033,7 @@
           ],
           "record_id": "S3:treatment_response:242",
           "report_date": null,
+          "response_date_label": "Treatment context (response date unknown): 2025-03-19 · Reported end 2025-03-19",
           "source_table": "historical_entries",
           "treatment_actions": []
         }
@@ -2999,6 +3072,7 @@
           ],
           "record_id": "S2-R-2330",
           "report_date": null,
+          "response_date_label": "2025-09-28",
           "source_table": "diary_responses",
           "treatment_actions": [
             {
@@ -3041,6 +3115,7 @@
           ],
           "record_id": "S2-R-672",
           "report_date": null,
+          "response_date_label": "2025-07-17",
           "source_table": "diary_responses",
           "treatment_actions": []
         },
@@ -3069,6 +3144,7 @@
           ],
           "record_id": "S1-F45022-1",
           "report_date": "2025-07-08",
+          "response_date_label": "",
           "source_table": "archive_findings",
           "treatment_actions": []
         }
@@ -3139,6 +3215,7 @@
           ],
           "record_id": "S1-F60911-1",
           "report_date": "2025-11-16",
+          "response_date_label": "",
           "source_table": "archive_findings",
           "treatment_actions": []
         },
@@ -3164,6 +3241,7 @@
           ],
           "record_id": "S3:treatment_response:212",
           "report_date": null,
+          "response_date_label": "Treatment context (response date unknown): 2025-06-21 · Last dose 2025-06-21",
           "source_table": "historical_entries",
           "treatment_actions": []
         }
@@ -3194,6 +3272,7 @@
           ],
           "record_id": "S2-R-5427",
           "report_date": null,
+          "response_date_label": "2026-03-11",
           "source_table": "diary_responses",
           "treatment_actions": [
             {
@@ -3269,6 +3348,7 @@
           ],
           "record_id": "S2-R-4758",
           "report_date": null,
+          "response_date_label": "2026-01-30",
           "source_table": "diary_responses",
           "treatment_actions": [
             {
@@ -3299,6 +3379,7 @@
           ],
           "record_id": "S3:treatment_response:266",
           "report_date": null,
+          "response_date_label": "Treatment context (response date unknown): 2026-01-24 · Stopped 2026-01-30; 2026-05-07 · Estimated end 2026-05-20",
           "source_table": "historical_entries",
           "treatment_actions": []
         }
@@ -3337,6 +3418,7 @@
           ],
           "record_id": "S1-F57222-1",
           "report_date": "2025-09-14",
+          "response_date_label": "",
           "source_table": "archive_findings",
           "treatment_actions": []
         }
@@ -3379,6 +3461,7 @@
           ],
           "record_id": "S1-F2-55688",
           "report_date": "2025-09-01",
+          "response_date_label": "2025-09-01",
           "source_table": "archive_findings",
           "treatment_actions": []
         }
@@ -3409,6 +3492,7 @@
           ],
           "record_id": "S5-R-S15-1",
           "report_date": "2024-06-19",
+          "response_date_label": "2024-06-19",
           "source_table": "diary_responses",
           "treatment_actions": []
         }
@@ -3439,6 +3523,7 @@
           ],
           "record_id": "S1-F42740-1",
           "report_date": "2025-06-25",
+          "response_date_label": "",
           "source_table": "archive_findings",
           "treatment_actions": []
         },
@@ -3460,6 +3545,7 @@
           ],
           "record_id": "S3:treatment_response:256",
           "report_date": null,
+          "response_date_label": "Treatment context (response date unknown): 2025-06-16 · Stopped 2025-07-16",
           "source_table": "historical_entries",
           "treatment_actions": []
         }
@@ -3498,6 +3584,7 @@
           ],
           "record_id": "S1-F60911-1",
           "report_date": "2025-11-16",
+          "response_date_label": "",
           "source_table": "archive_findings",
           "treatment_actions": []
         },
@@ -3523,6 +3610,7 @@
           ],
           "record_id": "S2-R-3011",
           "report_date": null,
+          "response_date_label": "2025-11-01",
           "source_table": "diary_responses",
           "treatment_actions": [
             {
@@ -3561,6 +3649,7 @@
           ],
           "record_id": "S3:treatment_response:262",
           "report_date": null,
+          "response_date_label": "Treatment context (response date unknown): 2025-11-01 · Stopped 2025-11-07",
           "source_table": "historical_entries",
           "treatment_actions": []
         }
@@ -3615,6 +3704,7 @@
           ],
           "record_id": "S1-F2-61824",
           "report_date": "2025-11-23",
+          "response_date_label": "2025-11-23",
           "source_table": "archive_findings",
           "treatment_actions": []
         },
@@ -3636,6 +3726,7 @@
           ],
           "record_id": "S2-R-3375",
           "report_date": null,
+          "response_date_label": "2025-11-22",
           "source_table": "diary_responses",
           "treatment_actions": []
         },
@@ -3657,6 +3748,7 @@
           ],
           "record_id": "S2-R-3313",
           "report_date": null,
+          "response_date_label": "2025-11-18",
           "source_table": "diary_responses",
           "treatment_actions": []
         },
@@ -3685,6 +3777,7 @@
           ],
           "record_id": "CTX-017",
           "report_date": null,
+          "response_date_label": "2025-11",
           "source_table": "context_cards",
           "treatment_actions": []
         }
@@ -3715,6 +3808,7 @@
           ],
           "record_id": "S1-F60911-1",
           "report_date": "2025-11-16",
+          "response_date_label": "",
           "source_table": "archive_findings",
           "treatment_actions": []
         },
@@ -3743,6 +3837,7 @@
           ],
           "record_id": "S1-F48122-1",
           "report_date": "2025-07-18",
+          "response_date_label": "",
           "source_table": "archive_findings",
           "treatment_actions": []
         },
@@ -3771,6 +3866,7 @@
           ],
           "record_id": "S2-R-649",
           "report_date": null,
+          "response_date_label": "2025-07-16",
           "source_table": "diary_responses",
           "treatment_actions": []
         },
@@ -3799,6 +3895,7 @@
           ],
           "record_id": "S3:treatment_response:219",
           "report_date": null,
+          "response_date_label": "Treatment context (response date unknown): 2025-07-13 · Reported end 2025-07-17; 2025-07-15 · Reported end 2025-07-17",
           "source_table": "historical_entries",
           "treatment_actions": []
         }
@@ -3852,6 +3949,7 @@
           ],
           "record_id": "S2-R-672",
           "report_date": null,
+          "response_date_label": "2025-07-17",
           "source_table": "diary_responses",
           "treatment_actions": []
         },
@@ -3880,6 +3978,7 @@
           ],
           "record_id": "S1-F45022-1",
           "report_date": "2025-07-08",
+          "response_date_label": "",
           "source_table": "archive_findings",
           "treatment_actions": []
         }
@@ -3914,6 +4013,7 @@
           ],
           "record_id": "S2-R-8549",
           "report_date": null,
+          "response_date_label": "2026-10-06",
           "source_table": "diary_responses",
           "treatment_actions": []
         }
@@ -3968,6 +4068,7 @@
           ],
           "record_id": "S2-R-8064",
           "report_date": null,
+          "response_date_label": "2026-08-29",
           "source_table": "diary_responses",
           "treatment_actions": [
             {
@@ -4027,6 +4128,7 @@
           ],
           "record_id": "S2-R-6721",
           "report_date": null,
+          "response_date_label": "2026-05-25",
           "source_table": "diary_responses",
           "treatment_actions": [
             {
@@ -4057,6 +4159,7 @@
           ],
           "record_id": "S3:treatment_response:274",
           "report_date": null,
+          "response_date_label": "Treatment context (response date unknown): 2026-05-24 · Stopped 2026-05-26",
           "source_table": "historical_entries",
           "treatment_actions": []
         }
@@ -4171,6 +4274,7 @@
           ],
           "record_id": "S1-F67011-1",
           "report_date": "2026-01-27",
+          "response_date_label": "",
           "source_table": "archive_findings",
           "treatment_actions": [
             {
