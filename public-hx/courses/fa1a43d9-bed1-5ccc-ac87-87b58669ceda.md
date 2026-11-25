@@ -1,6 +1,6 @@
 # Zinc-containing minerals · course dossier
 
-Revision: Revision 79
+Revision: Revision 80
 course:fa1a43d9-bed1-5ccc-ac87-87b58669ceda
 documented_course
 Start unknown · Off by 2026-01-27 · Patient had stopped zinc-containing minerals by January 27 because of recurrent nausea. The product and last dose are unspecified. Stopped by 2026-01-27. Exact final dose date unknown.
