@@ -1,6 +1,6 @@
 # Adenosyl B12 · course dossier
 
-Revision: Revision 82
+Revision: Revision 83
 course:6fc75e7f-06dc-53dc-bfe2-63d6a0ffcb32
 documented_course
 2025-12-10 · Off by 2026-10-21 · Patient review associates the October 21 B12 depletion with this earlier adenosyl B12 course. Course is closed by that date, not a witnessed last dose. The October diary did not identify the preparation; later unspecified-form B12 use does not demonstrate uninterrupted adenosyl dosing.

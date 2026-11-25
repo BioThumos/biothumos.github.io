@@ -518,7 +518,6 @@ details.c-entry[open] + .record-worsening-preview {display:none}
 .pz-locale-flag[aria-current=true]{border-color:#b8e9d7;opacity:1;background:#ffffff12}
 .pz-locale-flag:focus-visible{outline:2px solid #fff;outline-offset:2px}
 .pz-locale-flag:hover{opacity:1}
-.locale-preview-note{font-size:.78rem;margin:.25rem 0 .6rem;color:var(--muted)}
 .wk-change-source{margin-top:.25rem}.wk-change-source button{font-size:.8rem;color:var(--muted)}
 @media(max-width:800px){.mast .mast-inner:has(.pz-locales){grid-template-columns:minmax(0,1fr) auto auto auto;column-gap:.25rem}.mast .pz-locales{grid-column:4;grid-row:1}.pz-locale-flag{width:2rem;height:1.8rem;padding:.15rem}.pz-locale-flag svg{width:1.45rem;height:.87rem}}
 

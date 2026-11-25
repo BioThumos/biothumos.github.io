@@ -1,6 +1,6 @@
 # Event chronology
 
-Revision Revision 82 · Snapshot 2026-11-25
+Revision Revision 83 · Snapshot 2026-11-25
 
 ## 2021-06 · Vaccination and surgery
 
@@ -882,7 +882,7 @@ Source: reports:S4-R10 · S4-R10
 
 Test
 
-Repeated formatting, date and unit-conversion notes in the source do not increment the count.
+
 
 Specimen collection · clinical laboratory report
 
@@ -7603,7 +7603,7 @@ Source: context:context:9487039d-e3bf-5e4b-93e9-5feafe8c07dc · intervention_eve
 
 Test
 
-Printed flag and displayed reference interval are independently retained.
+
 
 Specimen collection · clinical laboratory report
 

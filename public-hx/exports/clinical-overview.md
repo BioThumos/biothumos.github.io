@@ -1,6 +1,6 @@
 # Clinical overview
 
-Revision Revision 82 · Snapshot 2026-11-25
+Revision Revision 83 · Snapshot 2026-11-25
 
 ## Patient overview
 

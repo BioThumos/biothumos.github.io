@@ -57,9 +57,22 @@
       sortedGroup.hidden = count === 0;
       if (sortedCount) sortedCount.textContent = count;
     }
+    // Both language names and recorded aliases are searchable in either locale.
+    // Normalize accents and punctuation, but keep matching inside one name rather
+    // than accidentally concatenating unrelated aliases. Never match diary prose.
+    const folded = v => String(v || "").normalize("NFKD").replace(/\p{M}/gu, "").toLowerCase()
+      .replace(/[^\p{L}\p{N}]+/gu, " ").trim();
+    const compact = v => folded(v).replace(/ /g, "");
+    function nameMatches(entry, q) {
+      if (!q) return true;
+      const names = JSON.parse(entry.dataset.searchNames || "[]");
+      const candidates = [...names, ...names.map(n => window.PZ_HU?.[n]),
+        entry.querySelector(".record-name")?.textContent, entry.dataset.terms];
+      return candidates.some(n => n && (folded(n).includes(q) || compact(n).includes(q.replace(/ /g, ""))));
+    }
     function filter() {
       let count = 0;
-      const q = dirFind.value.toLocaleLowerCase().trim();
+      const q = folded(dirFind.value);
       if (patternHelp && patternHelp.dataset.pattern !== pattern.value) {
         patternHelp.dataset.pattern = pattern.value;
         const selected = pattern.selectedOptions[0];
@@ -79,7 +92,7 @@
               !report.dataset.responsePatterns.split(" ").includes(selectedPattern));
             if (!report.hidden) hasPattern = true;
           }
-          const excluded = !entry.dataset.terms.toLocaleLowerCase().includes(q) ||
+          const excluded = !nameMatches(entry, q) ||
               (groupFilter.value && !groups.includes(groupFilter.value)) ||
               (episode?.value && !episodes.includes(episode.value)) ||
               (type?.value && member.dataset.txType !== type.value) ||

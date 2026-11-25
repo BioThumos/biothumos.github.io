@@ -1,6 +1,6 @@
 # NC Hemp+ (Kender+) · course dossier
 
-Revision: Revision 82
+Revision: Revision 83
 course:aa833e86-a1e2-58c9-b3fe-c42cab1bdbaf
 documented_course
 Start unknown · Reported end 2024-07-02 · Explicit tracker boundaries. Brief missed doses stay within the course. Start date unknown. End denotes the reported stop/pause or supply boundary, with final dose time unstated.

@@ -8,7 +8,7 @@
   "self_stimulation_sources_whole_line_redacted": 167,
   "alias_counts_by_category": {
     "legacy_activity_labels": 126,
-    "anatomical_detail": 52,
+    "anatomical_detail": 53,
     "intimate_source_snippets_scrubbed": 997
   },
   "requires_human_privacy_review": true,

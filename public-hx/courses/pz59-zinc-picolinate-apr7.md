@@ -1,6 +1,6 @@
 # Zinc · course dossier
 
-Revision: Revision 82
+Revision: Revision 83
 course:pz59-zinc-picolinate-apr7
 documented_course
 Start unknown · Use documented 2025-04-07 · course dates unknown · On April 7 the patient specifically reported taking zinc picolinate. Its start, schedule and final dose were not stated. This is a separate observation after the March hospital interruption.
