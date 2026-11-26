@@ -10,7 +10,3 @@ See all knowledge entries in the left sidebar.
 * [Long COVID Prevention Protocol](Chronic-Illness/covid-protocol)
 * [Peptide Guide](./Peptide/guide)
 * [Interventions](./Interventions/index)
-
-## Patient-specific data
-
-- [Medical history](./hx/index.html)
