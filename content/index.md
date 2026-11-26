@@ -8,5 +8,5 @@ See all knowledge entries in the left sidebar.
 ## Highlights
 
 * [Long COVID Prevention Protocol](Chronic-Illness/covid-protocol)
-* [Peptide Guide](./Peptide/guide)
+* [Peptide Guide](peptide-guide.md)
 * [Interventions](./Interventions/index)
