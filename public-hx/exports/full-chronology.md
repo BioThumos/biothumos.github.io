@@ -1,6 +1,6 @@
 # Event chronology
 
-Revision Revision 87 · Snapshot 2026-11-25
+Revision Revision 90 · Snapshot 2026-11-26
 
 ## 2021-06 · Vaccination and surgery
 
@@ -24,6 +24,8 @@ reported use · month
 
 Source: intervention_events:S3:T:7:1 · S3:7–7
 
+- [Intervention](../treatment-fa7d47ec-1865-5a07-b9a4-b5b5cb8e4570.html)
+
 S3:7–7 · * 2x Pfizer June 2021, appendectomy 2w after 2nd jab
 
 ## 2023-01-11 · Multiplex specific IgE and total IgE
@@ -35,6 +37,8 @@ Specific IgE measures sensitization. Clinical allergy requires concordant histor
 Specimen collection · clinical laboratory report
 
 Source: reports:S4-R01 · S4-R01
+
+- [Biomarker results](../biomarkers.html#report-S4-R01)
 
 ## 2023-05 – 2023-09 · Confirmed infection and six-week recovery
 
@@ -101,6 +105,8 @@ Suspected exposure in the housing account. Causation is uncertain.
 
 Source: context:context:9857bf5e-d40f-5ae8-8cb2-1e4130563472 · historical_entries:S3:chronology:416
 
+- [Environmental exposure record](../exposures.html#context:9857bf5e-d40f-5ae8-8cb2-1e4130563472)
+
 ## 2023-09 · * flat has high humidity and mouldy-smelling air → respiratory symptoms, feeling of suffocation, extreme discomfort in throat
 
 Environmental exposure
@@ -110,6 +116,8 @@ Suspected exposure in the housing account. Causation is uncertain.
 
 
 Source: context:context:a1cdd74c-56a1-59a8-8ee4-86bc97b2fe74 · historical_entries:S3:chronology:414
+
+- [Environmental exposure record](../exposures.html#context:a1cdd74c-56a1-59a8-8ee4-86bc97b2fe74)
 
 ## 2023-10 – 2023-12 · Relapsing illness became persistent
 
@@ -158,6 +166,10 @@ Retrospective window · exact treatment dates unknown
 
 Source: course:03836aab-ab12-5c3a-9084-5f3b6bdc63e4 · pz_history_exposure:history:163ff99f-d973-5d4b-b02b-e15e72a7368e, S3:427, historical_entries:S3:chronology:427
 
+- [Course detail](../courses/03836aab-ab12-5c3a-9084-5f3b6bdc63e4.html)
+
+- [Intervention](../treatment-7e1ea408-af99-5d0a-982e-3885189f5c9a.html)
+
 S3:427 · * started all sorts of supplements but only MCT oil helped → got me out of the stupor
 
 ## Recorded within 2023-10 – 2023-11 · Berberine
@@ -169,6 +181,10 @@ Reported Berberine use during the October–November 2023 illness window; indivi
 Retrospective window · exact treatment dates unknown
 
 Source: course:07a9bbcf-63a9-5d19-b5a3-11386efaa9c7 · pz_history_exposure:history:9d27b274-e743-545f-990d-bb681ec624a7, S3:427, historical_entries:S3:chronology:427
+
+- [Course detail](../courses/07a9bbcf-63a9-5d19-b5a3-11386efaa9c7.html)
+
+- [Intervention](../treatment-0c7e2040-6bf9-5577-9a66-395264290c80.html)
 
 S3:427 · * started all sorts of supplements but only MCT oil helped → got me out of the stupor
 
@@ -182,6 +198,10 @@ Retrospective window · exact treatment dates unknown
 
 Source: course:0e452fcd-76a5-5dcb-ab4d-51a59dfb15c3 · pz_history_exposure:history:fc2f725d-4a37-57f0-95e6-972ec2243c28, S3:427, historical_entries:S3:chronology:427
 
+- [Course detail](../courses/0e452fcd-76a5-5dcb-ab4d-51a59dfb15c3.html)
+
+- [Intervention](../treatment-a28d2bc3-dd8d-5d03-b97b-c93259939647.html)
+
 S3:427 · * started all sorts of supplements but only MCT oil helped → got me out of the stupor
 
 ## Recorded within 2023-10 – 2023-11 · Omega-3
@@ -193,6 +213,10 @@ Reported Omega-3 use during the October–November 2023 illness window; individu
 Retrospective window · exact treatment dates unknown
 
 Source: course:1c2f8894-8b61-523f-99b3-261dfa9d3e5c · pz_history_exposure:history:49462d66-a7c6-5276-a1ac-0973ceeb4475, S3:427, historical_entries:S3:chronology:427
+
+- [Course detail](../courses/1c2f8894-8b61-523f-99b3-261dfa9d3e5c.html)
+
+- [Intervention](../treatment-2458b930-5ff9-5ae8-a517-1c62a0cbc835.html)
 
 S3:427 · * started all sorts of supplements but only MCT oil helped → got me out of the stupor
 
@@ -206,6 +230,10 @@ Retrospective window · exact treatment dates unknown
 
 Source: course:21e99006-3925-5e97-920f-9a78e9dfd119 · pz_history_exposure:history:497c7d16-d00d-53f7-9612-0a740b39f3b4, S3:427, historical_entries:S3:chronology:427
 
+- [Course detail](../courses/21e99006-3925-5e97-920f-9a78e9dfd119.html)
+
+- [Intervention](../treatment-86037a32-6743-504f-b8b3-6bc00c7de86d.html)
+
 S3:427 · * started all sorts of supplements but only MCT oil helped → got me out of the stupor
 
 ## Recorded within 2023-10 – 2023-11 · TMG
@@ -217,6 +245,10 @@ Reported TMG use during the October–November 2023 illness window; individual d
 Retrospective window · exact treatment dates unknown
 
 Source: course:2b09b050-3deb-5215-ab9c-38b077da2980 · pz_history_exposure:history:4b6dbf75-4f7d-5709-997e-4683513706e4, S3:427, historical_entries:S3:chronology:427
+
+- [Course detail](../courses/2b09b050-3deb-5215-ab9c-38b077da2980.html)
+
+- [Intervention](../treatment-012875d9-9abc-57db-be80-d2f5300dd1e6.html)
 
 S3:427 · * started all sorts of supplements but only MCT oil helped → got me out of the stupor
 
@@ -230,6 +262,10 @@ Retrospective window · exact treatment dates unknown
 
 Source: course:55e01892-8323-52c1-8f9b-de626f14d77a · pz_history_exposure:history:145105c0-d75e-5ee1-ac54-ae3204b69847, S3:427, historical_entries:S3:chronology:427
 
+- [Course detail](../courses/55e01892-8323-52c1-8f9b-de626f14d77a.html)
+
+- [Intervention](../treatment-a1d5b2af-e752-572b-b334-33c73c17a7f9.html)
+
 S3:427 · * started all sorts of supplements but only MCT oil helped → got me out of the stupor
 
 ## In use by 2023-10 · Absent from scheduled regimen on 2026-11-20 · historical end unknown · MCT oil
@@ -241,6 +277,10 @@ Reported MCT oil use during the October–November 2023 illness window; individu
 exposure period
 
 Source: course:5766adbb-972a-5d5a-afe6-6ad5be1368ff · pz_history_exposure:history:e2991360-3edc-5319-a526-aa47182f5905, historical_entries:S3:chronology:427
+
+- [Course detail](../courses/5766adbb-972a-5d5a-afe6-6ad5be1368ff.html)
+
+- [Intervention](../treatment-d63199b9-3208-503a-a3d1-3a25065eb2b7.html)
 
 Course actions
 
@@ -257,6 +297,10 @@ Retrospective window · exact treatment dates unknown
 
 Source: course:5efb2359-24dd-53f7-b486-1a101f8f0a09 · pz_history_exposure:history:0e25a9b2-d4a7-5b43-9ef0-bf2ce122a39e, S3:427, historical_entries:S3:chronology:427
 
+- [Course detail](../courses/5efb2359-24dd-53f7-b486-1a101f8f0a09.html)
+
+- [Intervention](../treatment-7edb8861-49ef-5551-a059-615eb51f883f.html)
+
 S3:427 · * started all sorts of supplements but only MCT oil helped → got me out of the stupor
 
 ## Recorded within 2023-10 – 2023-11 · CoQ10
@@ -268,6 +312,10 @@ Reported CoQ10 use during the October–November 2023 illness window; individual
 Retrospective window · exact treatment dates unknown
 
 Source: course:600bb383-bbdd-580d-b9bb-f40c0ddb8556 · pz_history_exposure:history:d6d95df2-a649-5851-9545-5517d54aa72e, S3:427, historical_entries:S3:chronology:427
+
+- [Course detail](../courses/600bb383-bbdd-580d-b9bb-f40c0ddb8556.html)
+
+- [Intervention](../treatment-9d881286-e883-59f4-8e5e-7ca0465ade0b.html)
 
 S3:427 · * started all sorts of supplements but only MCT oil helped → got me out of the stupor
 
@@ -281,6 +329,10 @@ Retrospective window · exact treatment dates unknown
 
 Source: course:7c94950e-7352-5804-b17f-479f81c51a75 · pz_history_exposure:history:838af9dd-6df3-531a-8b45-0a0de339569b, S3:427, historical_entries:S3:chronology:427
 
+- [Course detail](../courses/7c94950e-7352-5804-b17f-479f81c51a75.html)
+
+- [Intervention](../treatment-7dde3892-53ed-5626-b172-88e5682734b6.html)
+
 S3:427 · * started all sorts of supplements but only MCT oil helped → got me out of the stupor
 
 ## Recorded within 2023-10 – 2023-11 · Resveratrol
@@ -292,6 +344,10 @@ Reported resveratrol use during the October–November 2023 illness window; indi
 Retrospective window · exact treatment dates unknown
 
 Source: course:8a44c445-c0e5-53cf-94d4-51e27b494fd3 · pz_history_exposure:history:2bcea7f3-8903-5169-88b0-36bc50b1a002, S3:427, historical_entries:S3:chronology:427
+
+- [Course detail](../courses/8a44c445-c0e5-53cf-94d4-51e27b494fd3.html)
+
+- [Intervention](../treatment-50678056-797b-5d8b-ae7d-06b838546f87.html)
 
 S3:427 · * started all sorts of supplements but only MCT oil helped → got me out of the stupor
 
@@ -305,6 +361,10 @@ Retrospective window · exact treatment dates unknown
 
 Source: course:ac0dda40-aa03-53cd-805a-63331b903df9 · pz_history_exposure:history:0fd6449d-ea72-540d-af69-d5594b79ea5f, S3:427, historical_entries:S3:chronology:427
 
+- [Course detail](../courses/ac0dda40-aa03-53cd-805a-63331b903df9.html)
+
+- [Intervention](../treatment-70fa29a4-45b3-5fe5-b56c-c46da7c12ae7.html)
+
 S3:427 · * started all sorts of supplements but only MCT oil helped → got me out of the stupor
 
 ## Recorded within 2023-10 – 2023-11 · Carnitine (acetyl form)
@@ -317,6 +377,10 @@ Retrospective window · exact treatment dates unknown
 
 Source: course:d00b24d9-9535-5f6e-b397-d97c12995a15 · pz_history_exposure:history:db89c718-da74-5f92-8e0a-43194709041a, S3:427, historical_entries:S3:chronology:427
 
+- [Course detail](../courses/d00b24d9-9535-5f6e-b397-d97c12995a15.html)
+
+- [Intervention](../treatment-3d606728-8e82-5c68-b1b1-3372d094c032.html)
+
 S3:427 · * started all sorts of supplements but only MCT oil helped → got me out of the stupor
 
 ## In use by 2023-10 · Absent from scheduled regimen on 2026-11-20 · historical end unknown · Metformin
@@ -328,6 +392,10 @@ The patient recalls a small metformin dose during October–November 2023, possi
 exposure period
 
 Source: course:deb1206a-f1a2-520f-8eba-6a188f9fc84c · pz_history_exposure:history:08fc4a78-48b3-511e-b9e3-b972181bdbb7, historical_entries:S3:chronology:427
+
+- [Course detail](../courses/deb1206a-f1a2-520f-8eba-6a188f9fc84c.html)
+
+- [Intervention](../treatment-40cc4b10-8133-5b92-b4d5-18a4732c1d95.html)
 
 Course actions
 
@@ -344,6 +412,10 @@ Retrospective window · exact treatment dates unknown
 
 Source: course:fcfd3c41-24a2-59c6-b0b2-b829388988fd · pz_history_exposure:history:ed58aac0-341a-5766-98d9-3b39d8b9af5c, S3:427, historical_entries:S3:chronology:427
 
+- [Course detail](../courses/fcfd3c41-24a2-59c6-b0b2-b829388988fd.html)
+
+- [Intervention](../treatment-4e3608cc-5b4c-5fa9-bcbe-cbc694f11784.html)
+
 S3:427 · * started all sorts of supplements but only MCT oil helped → got me out of the stupor
 
 ## Recorded within 2023-10 – 2023-11 · NAC
@@ -356,6 +428,10 @@ Retrospective window · exact treatment dates unknown
 
 Source: course:fd64467d-c13d-52b7-a76f-219dac1e5b85 · pz_history_exposure:history:f856928c-1e7f-56bb-a2c6-747be6ecb43a, S3:427, historical_entries:S3:chronology:427
 
+- [Course detail](../courses/fd64467d-c13d-52b7-a76f-219dac1e5b85.html)
+
+- [Intervention](../treatment-b01dd549-78ea-5b0d-b933-b70a71db5f0a.html)
+
 S3:427 · * started all sorts of supplements but only MCT oil helped → got me out of the stupor
 
 ## Treatment context (response date unknown): 2023-10 – 2023-11 · lactoferrin
@@ -367,6 +443,8 @@ Response
 no clear benefit · undated retrospective history · patient retrospective
 
 Source: response:S3:treatment_response:299 · S3:299-299, S3:427–428
+
+- [Intervention](../treatment-7dde3892-53ed-5626-b172-88e5682734b6.html)
 
 S3:299-299 · * lactoferrin
 
@@ -383,6 +461,8 @@ no clear benefit · undated retrospective history · patient retrospective
 
 Source: response:S3:treatment_response:300 · S3:300-300, S3:427–428
 
+- [Intervention](../treatment-a1d5b2af-e752-572b-b334-33c73c17a7f9.html)
+
 S3:300-300 · * L-arginine
 
 S3:427–428 · * started all sorts of supplements but only MCT oil helped → got me out of the stupor
@@ -397,6 +477,8 @@ Response
 no clear benefit · undated retrospective history · patient retrospective
 
 Source: response:S3:treatment_response:302 · S3:302-302, S3:427–428
+
+- [Intervention](../treatment-7edb8861-49ef-5551-a059-615eb51f883f.html)
 
 S3:302-302 · * EGCG
 
@@ -413,6 +495,8 @@ no clear benefit · undated retrospective history · patient retrospective
 
 Source: response:S3:treatment_response:303 · S3:303-303, S3:427–428
 
+- [Intervention](../treatment-9d881286-e883-59f4-8e5e-7ca0465ade0b.html)
+
 S3:303-303 · * CoQ10
 
 S3:427–428 · * started all sorts of supplements but only MCT oil helped → got me out of the stupor
@@ -427,6 +511,8 @@ Response
 no clear benefit · undated retrospective history · patient retrospective
 
 Source: response:S3:treatment_response:304 · S3:304-304, S3:427–428
+
+- [Intervention](../treatment-70fa29a4-45b3-5fe5-b56c-c46da7c12ae7.html)
 
 S3:304-304 · * PQQ
 
@@ -443,6 +529,8 @@ no clear benefit · undated retrospective history · patient retrospective
 
 Source: response:S3:treatment_response:307 · S3:307-307, S3:427–428
 
+- [Intervention](../treatment-a28d2bc3-dd8d-5d03-b97b-c93259939647.html)
+
 S3:307-307 · * black cumin seed
 
 S3:427–428 · * started all sorts of supplements but only MCT oil helped → got me out of the stupor
@@ -457,6 +545,8 @@ Response
 no clear benefit · undated retrospective history · patient retrospective
 
 Source: response:S3:treatment_response:308 · S3:308-308, S3:427–428
+
+- [Intervention](../treatment-b01dd549-78ea-5b0d-b933-b70a71db5f0a.html)
 
 S3:308-308 · * NAC
 
@@ -473,6 +563,8 @@ no clear benefit · undated retrospective history · patient retrospective
 
 Source: response:S3:treatment_response:309 · S3:309-309, S3:427–428
 
+- [Intervention](../treatment-3d606728-8e82-5c68-b1b1-3372d094c032.html)
+
 S3:309-309 · * ALCAR
 
 S3:427–428 · * started all sorts of supplements but only MCT oil helped → got me out of the stupor
@@ -487,6 +579,8 @@ Response
 no clear benefit · undated retrospective history · patient retrospective
 
 Source: response:S3:treatment_response:310 · S3:310-310, S3:427–428
+
+- [Intervention](../treatment-012875d9-9abc-57db-be80-d2f5300dd1e6.html)
 
 S3:310-310 · * TMG
 
@@ -503,6 +597,8 @@ no clear benefit · undated retrospective history · patient retrospective
 
 Source: response:S3:treatment_response:311 · S3:311-311, S3:427–428
 
+- [Intervention](../treatment-50678056-797b-5d8b-ae7d-06b838546f87.html)
+
 S3:311-311 · * resveratrol
 
 S3:427–428 · * started all sorts of supplements but only MCT oil helped → got me out of the stupor
@@ -518,6 +614,8 @@ no clear benefit · undated retrospective history · patient retrospective
 
 Source: response:S3:treatment_response:312 · S3:312-312, S3:420–420
 
+- [Intervention](../treatment-40cc4b10-8133-5b92-b4d5-18a4732c1d95.html)
+
 S3:312-312 · * metformin
 
 S3:420–420 · * take small dose Metformin, as it was shown to decrease Long COVID likelihood (I think 2x500mg/day)
@@ -531,6 +629,8 @@ Response
 no clear benefit · undated retrospective history · patient retrospective
 
 Source: response:S3:treatment_response:313 · S3:313-313, S3:427–428
+
+- [Intervention](../treatment-86037a32-6743-504f-b8b3-6bc00c7de86d.html)
 
 S3:313-313 · * quercetin (phytosome, liposomes)
 
@@ -547,6 +647,10 @@ no clear benefit · undated retrospective history · patient retrospective
 
 Source: response:S3:treatment_response:315 · S3:315-315, S3:427–428, course:f1b690d9-8c39-5e42-a460-71e58846d4ed, course:c6d3d795-37bf-5758-bf60-95d47ed6404e
 
+- [Intervention](../treatment-42e319f7-8c08-5319-abe3-1636d6f09a1d.html)
+
+- [Intervention](../treatment-4e3608cc-5b4c-5fa9-bcbe-cbc694f11784.html)
+
 S3:315-315 · * black garlic
 
 S3:427–428 · * started all sorts of supplements but only MCT oil helped → got me out of the stupor
@@ -562,6 +666,8 @@ Specimen collection · clinical laboratory report
 
 Source: reports:S4-R02 · S4-R02
 
+- [Biomarker results](../biomarkers.html#report-S4-R02)
+
 ## 2023-11 · Last dose 2023-11 · Tolerin
 
 Intervention
@@ -571,6 +677,10 @@ One reported Tolerin injection; retrospectively placed around 2023-11. Month is 
 documented course
 
 Source: course:8c8e76fe-e008-56a5-8066-dc22bdf94324 · intervention_events:PZ60-TOLERIN-1
+
+- [Course detail](../courses/8c8e76fe-e008-56a5-8066-dc22bdf94324.html)
+
+- [Intervention](../treatment-08d3ae75-f418-5faa-8d96-81cc3580f43f.html)
 
 Recorded dosing
 
@@ -586,6 +696,8 @@ Sample collected 10:23. The report gives separate before-10:00 and after-17:00 i
 Specimen collection · clinical laboratory report
 
 Source: reports:S4-R03 · S4-R03
+
+- [Biomarker results](../biomarkers.html#report-S4-R03)
 
 ## 2023-12 – 2024-02 · Initial relief with nicergoline, followed by waning benefit
 
@@ -627,6 +739,10 @@ documented course
 
 Source: course:1c730219-a633-57aa-b86a-307d0c519d65 · historical_entries:S3:chronology:444, historical_entries:S3:treatment_response:197
 
+- [Course detail](../courses/1c730219-a633-57aa-b86a-307d0c519d65.html)
+
+- [Intervention](../treatment-ee6f5b64-7d50-5fcd-8c19-5e26dc8096f2.html)
+
 Course actions
 
 - 2023-12 · Prescribed · Proposed · administration unconfirmed
@@ -645,6 +761,10 @@ some benefit · undated retrospective history · patient retrospective
 
 Source: response:S3:treatment_response:197 · S3:197-197, course:1c730219-a633-57aa-b86a-307d0c519d65
 
+- [Course detail](../courses/1c730219-a633-57aa-b86a-307d0c519d65.html)
+
+- [Intervention](../treatment-ee6f5b64-7d50-5fcd-8c19-5e26dc8096f2.html)
+
 S3:197-197 · * nicergoline: this was before developing PEM, helped w brain fog and burns at first, petered out in 2 months → stopped
 
 ## 2023-12-03 · MRI brain without contrast
@@ -657,6 +777,8 @@ Examination date · clinical imaging
 
 Source: reports:S4-R04 · S4-R04
 
+- [Biomarker results](../biomarkers.html#report-S4-R04)
+
 ## 2023-12-12 · Cytokine assay panel for immune profile
 
 Test
@@ -666,6 +788,8 @@ Patient project describes the cytokine panel as experimental/beta. The source la
 Specimen collection · exploratory panel
 
 Source: reports:S4-R05 · S4-R05
+
+- [Biomarker results](../biomarkers.html#report-S4-R05)
 
 ## 2024 · Abdominal ultrasound: right renal stone
 
@@ -690,6 +814,10 @@ month
 
 Source: intervention_events:S3:T:451:1 · intervention_events:S3:T:451:1, S3:451–451
 
+- [Diet history](../diet.html#intervention:5dde6bfa-b97a-5e1a-a9b3-3f3262c07ba8)
+
+- [Course detail](../courses/ae00f9de-7f5e-5bfb-afa8-9669ea637827.html)
+
 S3:451–451 · * 1 week water fast + nicergoline → some temporary symptom relief
 
 ## 2024-01 · Last dose 2024-01 · Tolerin
@@ -701,6 +829,10 @@ One reported Tolerin injection; retrospectively placed around 2024-01. Month is 
 documented course
 
 Source: course:0acd6969-c5b3-5e3e-99c8-bf206fa85692 · intervention_events:PZ60-TOLERIN-2
+
+- [Course detail](../courses/0acd6969-c5b3-5e3e-99c8-bf206fa85692.html)
+
+- [Intervention](../treatment-08d3ae75-f418-5faa-8d96-81cc3580f43f.html)
 
 Recorded dosing
 
@@ -716,6 +848,8 @@ Urine semiquantitative ELISA, laboratory-developed, not FDA-cleared or approved 
 Specimen collection · specialty assay
 
 Source: reports:S4-R06 · S4-R06
+
+- [Biomarker results](../biomarkers.html#report-S4-R06)
 
 ## 2024-02 – 2024-04 · Maraviroc plus atorvastatin (Patterson protocol): worsened brain burning and tinnitus
 
@@ -759,6 +893,10 @@ month range
 
 Source: intervention_events:S3:T:461:1 · intervention_events:S3:T:461:1, S3:461–461
 
+- [Diet history](../diet.html#intervention:5dde6bfa-b97a-5e1a-a9b3-3f3262c07ba8)
+
+- [Course detail](../courses/e73fa88f-2409-5824-8a86-cb7a5bd1d938.html)
+
 S3:461–461 · * after stopping maraviroc, 1 week water fast → no symptom relief this time
 
 ## 2024-02 · Recorded window ends 2024-04 · Maraviroc
@@ -770,6 +908,10 @@ Source-reported range. Month bounds indicate approximate placement of the course
 documented course
 
 Source: course:4045ba33-383a-5433-8671-d9fb9a3316d1 · treatment_intervals:S3:T:459:1-I, historical_entries:S3:treatment_response:232
+
+- [Course detail](../courses/4045ba33-383a-5433-8671-d9fb9a3316d1.html)
+
+- [Intervention](../treatment-1870ceab-069a-544a-b14a-dcaf381b156d.html)
 
 Course actions
 
@@ -785,6 +927,10 @@ Co-administered for about two months in the February–April 2024 window. The pa
 documented course
 
 Source: course:b94674dc-a828-5858-abb6-befe30591e37 · historical_entries:S3:chronology:459, historical_entries:S3:treatment_response:232
+
+- [Course detail](../courses/b94674dc-a828-5858-abb6-befe30591e37.html)
+
+- [Intervention](../treatment-d988904d-f17a-549e-af77-0dae8ad33b50.html)
 
 Course actions
 
@@ -803,6 +949,14 @@ Source: response:S3:treatment_response:232 · S3:232-234, * specialist protocol 
 * by end of 2 months felt stronger brain burns, tinnitus
 * had to stop, course:4045ba33-383a-5433-8671-d9fb9a3316d1, course:b94674dc-a828-5858-abb6-befe30591e37
 
+- [Course detail](../courses/4045ba33-383a-5433-8671-d9fb9a3316d1.html)
+
+- [Course detail](../courses/b94674dc-a828-5858-abb6-befe30591e37.html)
+
+- [Intervention](../treatment-1870ceab-069a-544a-b14a-dcaf381b156d.html)
+
+- [Intervention](../treatment-d988904d-f17a-549e-af77-0dae8ad33b50.html)
+
 S3:232-234 · * specialist protocol (maraviroc+atorvastatin)
 * by end of 2 months felt stronger brain burns, tinnitus
 * had to stop
@@ -817,6 +971,8 @@ Specimen collection · clinical laboratory report
 
 Source: reports:S4-R07 · S4-R07
 
+- [Biomarker results](../biomarkers.html#report-S4-R07)
+
 ## 2024-03-11 · EBV antibody serology
 
 Test
@@ -827,6 +983,8 @@ Specimen collection · clinical laboratory report
 
 Source: reports:S4-R08 · S4-R08
 
+- [Biomarker results](../biomarkers.html#report-S4-R08)
+
 ## 2024-03-11 · EBV DNA RT-PCR
 
 Test
@@ -836,6 +994,8 @@ No viral-load number was printed.
 Specimen collection · clinical laboratory report
 
 Source: reports:S4-R09 · S4-R09
+
+- [Biomarker results](../biomarkers.html#report-S4-R09)
 
 ## 2024-04-17 · NC protocol: rapid partial recovery after maraviroc
 
@@ -863,6 +1023,10 @@ documented course
 
 Source: course:93b6d95c-c17b-579d-9bb4-4dfe2997a757 · intervention_events:PZ54-E-INULIN-2024-04-17
 
+- [Course detail](../courses/93b6d95c-c17b-579d-9bb4-4dfe2997a757.html)
+
+- [Intervention](../treatment-282047f8-c9d4-56f5-9007-384f559687cb.html)
+
 Course actions
 
 - 2024-04-17 · Start · One inulin/probiotic product started alongside the NC protocol. The brand and exact final dose are unknown.
@@ -878,6 +1042,8 @@ Report date only · specialty assay
 
 Source: reports:S4-R10 · S4-R10
 
+- [Biomarker results](../biomarkers.html#report-S4-R10)
+
 ## 2024-05-08 · Broad blood and urine panel
 
 Test
@@ -887,6 +1053,8 @@ Test
 Specimen collection · clinical laboratory report
 
 Source: reports:S4-R11 · S4-R11
+
+- [Biomarker results](../biomarkers.html#report-S4-R11)
 
 ## 2024-06-02 – 2024-10-20 · Neurological/PENE variability leading up to NADH
 
@@ -920,6 +1088,8 @@ adverse · dated diary account, see wording for timing · temporal association; 
 
 Source: response:S5-R-J15-1 · S5:116-116
 
+- [Diet history](../diet.html#intervention:7fa75238-7b04-5cec-8e8e-925199cb6373)
+
 S5:116-116 · Notes: A severe attack after lunch containing Szomor steak. It took three hours to resolve. [J15]
 
 ## 2024-06-11 · New foods recorded · quail eggs and a different sheep curd cheese
@@ -931,6 +1101,8 @@ New foods were quail eggs and a different type of sheep curd cheese. Steak in th
 explicit calendar day; time if stated in note
 
 Source: intervention_events:S5-E-K23-1 · intervention_events:S5-E-K23-1, S5:133–133
+
+- [Diet history](../diet.html#intervention:7864ad0e-8fc1-5186-8e9f-b84a4feb5e89)
 
 S5:133–133 · Food (earlier combined format): New foods were quail eggs and a different type of sheep curd cheese. Steak in the evening. [K23]
 
@@ -944,6 +1116,8 @@ uncertain · dated diary account, see wording for timing · patient reported; un
 
 Source: response:S5-R-K15-1 · S5:130-130
 
+- [Diet history](../diet.html#intervention:db880ffc-63c0-57b8-8e8c-4e3a70c1ac79)
+
 S5:130-130 · Notes: I did not eat steak at noon but had a headache. I did not have brain fog like yesterday. There was no problem after steak in the evening. [K15]
 
 ## 2024-06-12 · Dinner, unspecified
@@ -955,6 +1129,8 @@ Brain fog after dinner. Brain burning and a pre-lunch attack also occurred earli
 adverse · dated diary account, see wording for timing · temporal association; unconfirmed · Report dated 2024-06-12
 
 Source: response:S5-R-L15-1 · S5:146-146
+
+- [Diet history](../diet.html#intervention:0ea669f5-d286-5dcb-8e43-26fecb455298)
 
 S5:146-146 · Notes: Two good hours, then a bad brain-fog attack in the morning/before lunch. Brain burning began halfway through a call. The weather was cool. Brain fog after dinner. [L15]
 
@@ -968,6 +1144,8 @@ adverse · dated diary account, see wording for timing · temporal association; 
 
 Source: response:S5-R-M15-1 · S5:161-161
 
+- [Diet history](../diet.html#intervention:1c1088e5-e12e-52fc-9467-efd9ba7da412)
+
 S5:161-161 · Notes: A good day with a few milder brain-burning episodes. The first was brief after breakfast of curd cheese, egg yolk and fruit. Other episodes followed one hour of work and then a meeting. The episode after the meeting lasted a little longer but was not very severe. It was a cooler day and the freezing sensation in the hands and feet was stronger than usual. [M15]
 
 ## 2024-06-14 · New foods recorded · duck leg, garlic, baked apple and red cabbage
@@ -979,6 +1157,8 @@ New foods were duck leg, 1–2 days after slaughter and delivered while warm, ga
 explicit calendar day; time if stated in note
 
 Source: intervention_events:S5-E-N23-1 · intervention_events:S5-E-N23-1, S5:181–181
+
+- [Diet history](../diet.html#intervention:7864ad0e-8fc1-5186-8e9f-b84a4feb5e89)
 
 S5:181–181 · Food (earlier combined format): New foods were duck leg, 1–2 days after slaughter and delivered while warm, garlic, baked apple and red cabbage. [N23]
 
@@ -992,6 +1172,8 @@ adverse · dated diary account, see wording for timing · patient hypothesis; un
 
 Source: response:S5-R-N15-1 · S5:177-177
 
+- [Diet history](../diet.html#intervention:fb6d124a-409a-59cc-8ce7-eb71b475de3a)
+
 S5:177-177 · Notes: A severe brain-burning/pressure attack began half an hour after lunch and a walk. It later improved a little without fully clearing, then recurred in the evening before eating. Could the duck have caused it? The walk was only a little longer than usual and symptoms began exactly half an hour afterward. The morning had been good. [N15]
 
 ## 2024-06-15 · Sheep's-milk curd cheese and fruit
@@ -1003,6 +1185,8 @@ Mild brain fog and weakness after lunch. The clinician identified the pre-NADH c
 adverse · dated diary account, see wording for timing · temporal association; unconfirmed · Report dated 2024-06-15
 
 Source: response:S5-R-O15-1 · S5:194-194, Q-NADH-PHENOTYPE
+
+- [Diet history](../diet.html#intervention:27eadd70-0c15-5387-989a-75811be26322)
 
 S5:194-194 · Notes: Secretions and nose blowing in the morning, which I wondered might be a histamine reaction from yesterday. Better afterward. Mild brain fog and weakness after lunch of sheep's-milk curd cheese and fruit. Brain fog again after egg yolk and blueberries in the evening. [O15]
 
@@ -1018,6 +1202,8 @@ adverse · dated diary account, see wording for timing · temporal association; 
 
 Source: response:S5-R-O15-2 · S5:194-194
 
+- [Diet history](../diet.html#intervention:6ab003e6-3f32-570c-8527-c344b07da9a6)
+
 S5:194-194 · Notes: Secretions and nose blowing in the morning, which I wondered might be a histamine reaction from yesterday. Better afterward. Mild brain fog and weakness after lunch of sheep's-milk curd cheese and fruit. Brain fog again after egg yolk and blueberries in the evening. [O15]
 
 ## 2024-06-16 · Histamine-conscious diet
@@ -1029,6 +1215,8 @@ A better day without strong brain fog and with work possible. The patient had be
 beneficial · dated diary account, see wording for timing · temporal association; unconfirmed · Report dated 2024-06-16
 
 Source: response:S5-R-P15-1 · S5:211-211
+
+- [Diet history](../diet.html#intervention:a6345548-1621-5cc5-bc3d-db856ecb48d1)
 
 S5:211-211 · Notes: A better day. I paid attention to histamine and did not have strong brain fog. I was able to work. Mild brain fog for a few hours after steak that had been three days old before being frozen. [P15]
 
@@ -1042,6 +1230,8 @@ adverse · dated diary account, see wording for timing · temporal association; 
 
 Source: response:S5-R-P15-2 · S5:211-211
 
+- [Diet history](../diet.html#intervention:b8f90738-3bd8-51f8-83f2-8502828c203a)
+
 S5:211-211 · Notes: A better day. I paid attention to histamine and did not have strong brain fog. I was able to work. Mild brain fog for a few hours after steak that had been three days old before being frozen. [P15]
 
 ## 2024-06-18 · Molecular hydrogen (oral H₂ supplement; formulation unverified) · Reported use
@@ -1053,6 +1243,8 @@ reggeli 2x ebed 2x · The history separately mentions molecular hydrogen inhalat
 reported use · explicit calendar day; time if stated in note
 
 Source: intervention_events:S5-E-R22-1 · S5:248–248
+
+- [Intervention](../interventions.html#intervention:2998630f-419f-54e7-91a7-a10b71671cf5)
 
 S5:248–248 · H2 (route and units unspecified): H2 recorded as 2 times at breakfast and 2 times at lunch. The cell does not give units, route or session duration. [R22]
 
@@ -1066,6 +1258,10 @@ documented course
 
 Source: course:78f69c86-159c-5316-b8c8-eed178b97b22 · intervention_events:S5-E-AA22-1
 
+- [Course detail](../courses/78f69c86-159c-5316-b8c8-eed178b97b22.html)
+
+- [Intervention](../interventions.html#intervention:2998630f-419f-54e7-91a7-a10b71671cf5)
+
 ## 2024-06-18 · H2
 
 Response
@@ -1075,6 +1271,8 @@ Marked energy and enjoyment of work, with difficulty stopping work, tentatively 
 beneficial · dated diary account, see wording for timing · patient hypothesis; unconfirmed · Report dated 2024-06-18
 
 Source: response:S5-R-R15-1 · S5:244-244
+
+- [Intervention](../treatment-159c2945-9c1d-50ff-8310-426c77130711.html)
 
 S5:244-244 · Notes: I had a great deal of energy, probably because of H2. I could hardly stop working and finally enjoyed the cognitive work. [R15]
 
@@ -1088,6 +1286,8 @@ reported use · explicit narrative date or previous-day recollection
 
 Source: intervention_events:S5-E-NARRATIVE-S15-4 · S5:262–262
 
+- [Intervention](../treatment-2162d7d2-fcc8-58a2-9207-54b5bb2d5a3c.html)
+
 S5:262–262 · Notes: A meeting about BEMER tired me. Shortly afterward there was a Salvus rinse and brain fog. Nasal pressure/burning increased after Salvus. After another Salvus rinse it disappeared, then returned half an hour later. Very severe depressed mood, self-hatred and despair. [S15]
 
 ## 2024-06-19 · Molecular hydrogen (oral H₂ supplement; formulation unverified) · Reported use
@@ -1099,6 +1299,8 @@ reggeli 2x ebed 1x · The history separately mentions molecular hydrogen inhalat
 reported use · explicit calendar day; time if stated in note
 
 Source: intervention_events:S5-E-S22-1 · S5:265–265
+
+- [Intervention](../interventions.html#intervention:2998630f-419f-54e7-91a7-a10b71671cf5)
 
 S5:265–265 · H2 (route and units unspecified): H2 recorded as 2 times at breakfast and 1 time at lunch. The cell does not give units, route or session duration. [S22]
 
@@ -1112,6 +1314,8 @@ mixed · dated diary account, see wording for timing · patient reported; unconf
 
 Source: response:S5-R-S15-1 · S5:262-262
 
+- [Intervention](../treatment-2162d7d2-fcc8-58a2-9207-54b5bb2d5a3c.html)
+
 S5:262-262 · Notes: A meeting about BEMER tired me. Shortly afterward there was a Salvus rinse and brain fog. Nasal pressure/burning increased after Salvus. After another Salvus rinse it disappeared, then returned half an hour later. Very severe depressed mood, self-hatred and despair. [S15]
 
 ## 2024-06-20 · Molecular hydrogen (oral H₂ supplement; formulation unverified) · Reported use
@@ -1123,6 +1327,8 @@ reggeli 2x ebed 1x · The history separately mentions molecular hydrogen inhalat
 reported use · explicit calendar day; time if stated in note
 
 Source: intervention_events:S5-E-T22-1 · S5:283–283
+
+- [Intervention](../interventions.html#intervention:2998630f-419f-54e7-91a7-a10b71671cf5)
 
 S5:283–283 · H2 (route and units unspecified): H2 recorded as 2 times at breakfast and 1 time at lunch. The cell does not give units, route or session duration. [T22]
 
@@ -1136,6 +1342,8 @@ reported use · explicit calendar day; time if stated in note
 
 Source: intervention_events:S5-E-U22-1 · S5:299–299
 
+- [Intervention](../interventions.html#intervention:2998630f-419f-54e7-91a7-a10b71671cf5)
+
 S5:299–299 · H2 (route and units unspecified): H2 recorded as 2 times plus 1 time. The cell does not give units, route or session duration. [U22]
 
 ## In use by 2024-06-21 · Stopped 2024-07-10 · Alginite
@@ -1147,6 +1355,10 @@ Explicit tracker boundaries. Brief missed doses stay within the course. Start da
 documented course
 
 Source: course:4a289d25-8c41-51aa-94be-f0f906db3cef · treatment_intervals:S5-I-alginite-1, diary_responses:S5-R-V15-3, diary_responses:S5-R-AL15-2
+
+- [Course detail](../courses/4a289d25-8c41-51aa-94be-f0f906db3cef.html)
+
+- [Intervention](../treatment-ed7efb4b-56a4-5d02-a103-65cccb95158f.html)
 
 Course actions
 
@@ -1169,6 +1381,8 @@ reported use · explicit calendar day; time if stated in note
 
 Source: intervention_events:S5-E-V22-1 · S5:314–314
 
+- [Intervention](../interventions.html#intervention:2998630f-419f-54e7-91a7-a10b71671cf5)
+
 S5:314–314 · H2 (route and units unspecified): H2 recorded as 2 times. The cell does not give units, route or session duration. [V22]
 
 ## Recorded 2024-06-22 – 2024-07-01 · NC Hemp+ (Kender+)
@@ -1180,6 +1394,8 @@ Action
 
 
 Source: unassigned-actions:intervention:2630124d-474e-5495-b4dc-c6a3cece69d8:2024
+
+- [Intervention](../treatment-2630124d-474e-5495-b4dc-c6a3cece69d8.html)
 
 - 2024-06-22 · Reported use · 10 mL · Taken around 1 as written. BEMER timing before or after this was uncertain. No meridiem imposed.
 
@@ -1199,6 +1415,8 @@ adverse · dated diary account, see wording for timing · temporal association; 
 
 Source: response:S5-R-V15-1 · S5:313-313, Q-NADH-PHENOTYPE, 10 mL around 1 was followed around 4 by severe brain burning, dizziness and weakness with inability to move or speak for two hours. The clinician identified the pre-NADH crashes as neurological PENE or brain-burning episodes. Pain could limit movement or speech. The diary also contains generic lack-of-strength ratings. The distinctive deep muscle fatigue and physical PEM first appeared after NADH.
 
+- [Intervention](../treatment-2630124d-474e-5495-b4dc-c6a3cece69d8.html)
+
 S5:313-313 · Notes: Around 1, I took 10 mL Kender+ and possibly used BEMER before or afterward. A few hours later, around 4, I had terrible brain burning, dizziness and weakness. I hypothesized that THC had been synthesized from the hemp. This was the patient's hypothesis. The episode lasted two hours and I could not move or speak. A small amount of black stool in the morning and evening was attributed by the patient to alginite. Strong abdominal pain before the evening bowel movement resolved afterward. [V15]
 
 Q-NADH-PHENOTYPE · The clinician identified the pre-NADH crashes as neurological PENE or brain-burning episodes. Pain could limit movement or speech. The diary also contains generic lack-of-strength ratings. The distinctive deep muscle fatigue and physical PEM first appeared after NADH. The clinician identifies the October 23 “magnesium poisoning” entry as new deep muscle fatigue. The October 25 account describes progressive sleepiness and weakness, unusually good sleep, near-paralysis the next day, muscle cramps, and tingling without the usual pains. On November 2 the patient explicitly contrasted prior movement limitation during brain burning with fatigue now felt directly in the muscles, including when the brain burning was absent. S6 clarifies phenotype. Retrospective reports supply additional symptoms. Magnesium poisoning was a patient hypothesis. Exact dose and mechanism remain uncertain. S3:symptom:013 separately describes later CNS shutdown without muscle fatigue.
@@ -1213,6 +1431,8 @@ uncertain · dated diary account, see wording for timing · temporal association
 
 Source: response:S5-R-V15-2 · S5:313-313
 
+- [Intervention](../treatment-e9207121-4020-582d-901b-14266bbc7146.html)
+
 S5:313-313 · Notes: Around 1, I took 10 mL Kender+ and possibly used BEMER before or afterward. A few hours later, around 4, I had terrible brain burning, dizziness and weakness. I hypothesized that THC had been synthesized from the hemp. This was the patient's hypothesis. The episode lasted two hours and I could not move or speak. A small amount of black stool in the morning and evening was attributed by the patient to alginite. Strong abdominal pain before the evening bowel movement resolved afterward. [V15]
 
 ## 2024-06-22 · Alginite
@@ -1224,6 +1444,10 @@ Small black stools in the morning and evening were attributed to alginite. Sever
 adverse · dated diary account, see wording for timing · patient reported; unconfirmed · Report dated 2024-06-22 · Patient-reported
 
 Source: response:S5-R-V15-3 · S5:313-313
+
+- [Course detail](../courses/4a289d25-8c41-51aa-94be-f0f906db3cef.html)
+
+- [Intervention](../treatment-ed7efb4b-56a4-5d02-a103-65cccb95158f.html)
 
 S5:313-313 · Notes: Around 1, I took 10 mL Kender+ and possibly used BEMER before or afterward. A few hours later, around 4, I had terrible brain burning, dizziness and weakness. I hypothesized that THC had been synthesized from the hemp. This was the patient's hypothesis. The episode lasted two hours and I could not move or speak. A small amount of black stool in the morning and evening was attributed by the patient to alginite. Strong abdominal pain before the evening bowel movement resolved afterward. [V15]
 
@@ -1237,6 +1461,8 @@ mixed · dated diary account, see wording for timing · temporal association; un
 
 Source: response:S5-R-W15-1 · S5:329-329
 
+- [Intervention](../regimens.html#intervention:73fe6343-8b3b-5dfe-96e0-5c7aadbc44f8)
+
 S5:329-329 · Notes: A break from the treatment course. Tired with minimal dizziness all day, but general well-being was good. Mild brain fog after one hour of evening work. Fasting through breakfast may have helped. [W15]
 
 ## 2024-06-23 · Skipping breakfast/fasting
@@ -1248,6 +1474,8 @@ The patient thought the breakfast fast might have helped general well-being.
 beneficial · dated diary account, see wording for timing · patient hypothesis; unconfirmed · Report dated 2024-06-23
 
 Source: response:S5-R-W15-2 · S5:329-329
+
+- [Diet history](../diet.html#intervention:ded87313-6001-5534-874a-8d6d83540063)
 
 S5:329-329 · Notes: A break from the treatment course. Tired with minimal dizziness all day, but general well-being was good. Mild brain fog after one hour of evening work. Fasting through breakfast may have helped. [W15]
 
@@ -1261,6 +1489,8 @@ adverse · dated diary account, see wording for timing · temporal association; 
 
 Source: response:S5-R-X15-1 · S5:344-344
 
+- [Intervention](../diary-context.html#intervention:36fbe26b-a67d-5275-8cc8-806ea1ad25fc)
+
 S5:344-344 · Notes: I felt well during the day. Moderately severe brain fog lasted two hours after an afternoon walk and shower. Could histamine in the meat have been responsible? Steak from the same cuts had caused no problems on preceding days. I did not consider today's activity strenuous. Brief brain burning about one hour after dinner, with goat-cheese histamine questioned. [X15]
 
 ## 2024-06-24 · Steak/meat histamine
@@ -1272,6 +1502,8 @@ Meat histamine was questioned during a two-hour brain-fog episode, although the 
 uncertain · dated diary account, see wording for timing · patient hypothesis; unconfirmed · Report dated 2024-06-24
 
 Source: response:S5-R-X15-2 · S5:344-344
+
+- [Diet history](../diet.html#intervention:5f90229d-46ef-5133-a72b-6238ccfadbf7)
 
 S5:344-344 · Notes: I felt well during the day. Moderately severe brain fog lasted two hours after an afternoon walk and shower. Could histamine in the meat have been responsible? Steak from the same cuts had caused no problems on preceding days. I did not consider today's activity strenuous. Brief brain burning about one hour after dinner, with goat-cheese histamine questioned. [X15]
 
@@ -1285,6 +1517,8 @@ adverse · dated diary account, see wording for timing · patient hypothesis; un
 
 Source: response:S5-R-X15-3 · S5:344-344
 
+- [Diet history](../diet.html#intervention:9fc73d79-175c-50f8-af1b-dc83610a4ed0)
+
 S5:344-344 · Notes: I felt well during the day. Moderately severe brain fog lasted two hours after an afternoon walk and shower. Could histamine in the meat have been responsible? Steak from the same cuts had caused no problems on preceding days. I did not consider today's activity strenuous. Brief brain burning about one hour after dinner, with goat-cheese histamine questioned. [X15]
 
 ## 2024-06-25 · Molecular hydrogen (oral H₂ supplement; formulation unverified) · Reported use
@@ -1296,6 +1530,8 @@ Action
 reported use · explicit calendar day; time if stated in note
 
 Source: intervention_events:S5-E-Y22-1 · S5:360–360
+
+- [Intervention](../interventions.html#intervention:2998630f-419f-54e7-91a7-a10b71671cf5)
 
 S5:360–360 · H2 (route and units unspecified): H2 recorded as 2 plus 1. The cell does not give units, route or session duration. [Y22]
 
@@ -1309,6 +1545,8 @@ reported use · explicit calendar day; time if stated in note
 
 Source: intervention_events:S5-E-Z22-1 · S5:375–375
 
+- [Intervention](../interventions.html#intervention:2998630f-419f-54e7-91a7-a10b71671cf5)
+
 S5:375–375 · H2 (route and units unspecified): H2 recorded as 2 plus 1. The cell does not give units, route or session duration. [Z22]
 
 ## 2024-06-27 · Molecular hydrogen (oral H₂ supplement; formulation unverified) · Reported use
@@ -1320,6 +1558,8 @@ Action
 reported use · explicit calendar day; time if stated in note
 
 Source: intervention_events:S5-E-AA22-1 · S5:390–390
+
+- [Intervention](../interventions.html#intervention:2998630f-419f-54e7-91a7-a10b71671cf5)
 
 S5:390–390 · H2 (route and units unspecified): H2 recorded as 2 plus 1. The cell does not give units, route or session duration. [AA22]
 
@@ -1333,6 +1573,8 @@ reported use · explicit calendar day; time if stated in note
 
 Source: intervention_events:S5-E-AB22-1 · S5:407–407
 
+- [Intervention](../interventions.html#intervention:2998630f-419f-54e7-91a7-a10b71671cf5)
+
 S5:407–407 · H2 (route and units unspecified): H2 recorded as 2 plus 1. The cell does not give units, route or session duration. [AB22]
 
 ## 2024-06-28 · BEMER
@@ -1344,6 +1586,8 @@ Helped brain burning during the day's prolonged episodes.
 beneficial · dated diary account, see wording for timing · patient reported; unconfirmed · Report dated 2024-06-28
 
 Source: response:S5-R-AB15-1 · S5:404-404
+
+- [Intervention](../treatment-e9207121-4020-582d-901b-14266bbc7146.html)
 
 S5:404-404 · Notes: Poor sleep with repeated awakenings. Breakfast at 11. Strong brain burning from 12:30 to 4. Lunch around 4:30. Brain burning from 4:50 to 7:30. BEMER helped the brain burning. Dinner around 8 with fewer eggs, followed by less intense burning. [AB15]
 
@@ -1357,6 +1601,8 @@ beneficial · dated diary account, see wording for timing · temporal associatio
 
 Source: response:S5-R-AB15-2 · S5:404-404
 
+- [Diet history](../diet.html#intervention:98b3c93d-9b02-501e-890b-17f070c38402)
+
 S5:404-404 · Notes: Poor sleep with repeated awakenings. Breakfast at 11. Strong brain burning from 12:30 to 4. Lunch around 4:30. Brain burning from 4:50 to 7:30. BEMER helped the brain burning. Dinner around 8 with fewer eggs, followed by less intense burning. [AB15]
 
 ## 2024-06-29 · Molecular hydrogen (oral H₂ supplement; formulation unverified) · Reported use
@@ -1368,6 +1614,8 @@ Action
 reported use · explicit calendar day; time if stated in note
 
 Source: intervention_events:S5-E-AC22-1 · S5:428–428
+
+- [Intervention](../interventions.html#intervention:2998630f-419f-54e7-91a7-a10b71671cf5)
 
 S5:428–428 · H2 (route and units unspecified): H2 recorded as 2 plus 1. The cell does not give units, route or session duration. [AC22]
 
@@ -1381,6 +1629,8 @@ reported use · explicit calendar day; time if stated in note
 
 Source: intervention_events:S5-E-AD22-1 · S5:445–445
 
+- [Intervention](../interventions.html#intervention:2998630f-419f-54e7-91a7-a10b71671cf5)
+
 S5:445–445 · H2 (route and units unspecified): H2 recorded as 2 plus 1. The cell does not give units, route or session duration. [AD22]
 
 ## 2024-06-30 · Kender+
@@ -1392,6 +1642,8 @@ Kender+ at 12:30 was followed by brain burning and headache from 1 to 4, with in
 adverse · dated diary account, see wording for timing · patient hypothesis; unconfirmed · Report dated 2024-06-30 · Possible association
 
 Source: response:S5-R-AD15-1 · S5:441-441
+
+- [Intervention](../treatment-2630124d-474e-5495-b4dc-c6a3cece69d8.html)
 
 S5:441-441 · Notes: Woke at 9 and had breakfast around 10:30. Brief brain fog after 30 minutes of a call. Kender+ at 12:30. Brain burning and headache from 1 to 4, with possible intoxication questioned. Lunch around 16. Brain fog decreased after BEMER. Brief brain fog at 6:45 after studying. Fairly well in the evening. [AD15]
 
@@ -1405,6 +1657,8 @@ beneficial · dated diary account, see wording for timing · patient reported; u
 
 Source: response:S5-R-AD15-2 · S5:441-441
 
+- [Intervention](../treatment-e9207121-4020-582d-901b-14266bbc7146.html)
+
 S5:441-441 · Notes: Woke at 9 and had breakfast around 10:30. Brief brain fog after 30 minutes of a call. Kender+ at 12:30. Brain burning and headache from 1 to 4, with possible intoxication questioned. Lunch around 16. Brain fog decreased after BEMER. Brief brain fog at 6:45 after studying. Fairly well in the evening. [AD15]
 
 ## 2024-07 – 2025-03 · Discordant Borrelia test results
@@ -1416,6 +1670,12 @@ July 2024: strongly positive Borrelia IgG ELISA, positive IgG line blot, negativ
 month range · original report and patient recollection
 
 Source: context_cards:CTX-026 · S4-R12 p1, S4-R13 p1, S4-R14 p1, S3:239-241, S3:657
+
+- [Borrelia IgG and IgM serology](../biomarkers.html#report-S4-R13)
+
+- [Repeat Borrelia ELISA](../biomarkers.html#report-S4-R14)
+
+- [Borrelia PCR](../biomarkers.html#report-S4-R12)
 
 S3:239-241 · * was put on it for 2 months due to Lyme suspicion after positive IgG test
 * no improvement at all, instead brain burns got more severe, was barely "in there" by the end of the cure
@@ -1451,6 +1711,8 @@ reported use · explicit calendar day; time if stated in note
 
 Source: intervention_events:S5-E-AE22-1 · S5:463–463
 
+- [Intervention](../interventions.html#intervention:2998630f-419f-54e7-91a7-a10b71671cf5)
+
 S5:463–463 · H2 (route and units unspecified): H2 recorded as 2 plus 1. The cell does not give units, route or session duration. [AE22]
 
 ## 2024-07-01 · BEMER
@@ -1462,6 +1724,8 @@ Brain fog after repeated calls resolved after BEMER. Another episode followed wa
 beneficial · dated diary account, see wording for timing · patient reported; unconfirmed · Report dated 2024-07-01
 
 Source: response:S5-R-AE15-1 · S5:459-459
+
+- [Intervention](../treatment-e9207121-4020-582d-901b-14266bbc7146.html)
 
 S5:459-459 · Notes: Woke at 10, breakfast at 11:30–12. A little brain fog around 13:20 after a call. Brain fog again after another call at 14:20 and after a further call. It resolved after BEMER. Lunch at 17. Brain fog at 17:30 after walking and taking out the rubbish. [AE15]
 
@@ -1475,6 +1739,8 @@ reported use · explicit calendar day; time if stated in note
 
 Source: intervention_events:S5-E-AF22-1 · S5:482–482
 
+- [Intervention](../interventions.html#intervention:2998630f-419f-54e7-91a7-a10b71671cf5)
+
 S5:482–482 · H2 (route and units unspecified): H2 recorded as 2 plus 1. The cell does not give units, route or session duration. [AF22]
 
 ## Start unknown · Reported end 2024-07-02 · NC Hemp+ (Kender+)
@@ -1486,6 +1752,10 @@ Explicit tracker boundaries. Brief missed doses stay within the course. Start da
 documented course
 
 Source: course:aa833e86-a1e2-58c9-b3fe-c42cab1bdbaf · treatment_intervals:S5-I-kender-1
+
+- [Course detail](../courses/aa833e86-a1e2-58c9-b3fe-c42cab1bdbaf.html)
+
+- [Intervention](../treatment-2630124d-474e-5495-b4dc-c6a3cece69d8.html)
 
 Course actions
 
@@ -1502,6 +1772,8 @@ beneficial · dated diary account, see wording for timing · patient reported; u
 
 Source: response:S5-R-AF15-1 · S5:477-477
 
+- [Intervention](../treatment-e9207121-4020-582d-901b-14266bbc7146.html)
+
 S5:477-477 · Notes: Breakfast at 10:30. A little brain burning at 11, which resolved after BEMER. Fairly well during the day, with BEMER and liver-area BEMER use. Lunch at 17, then a walk and brain burning that BEMER relieved. A little brain fog at 7 after 30 minutes of work and again at 8, relieved by BEMER. Dinner at 9 and a little brain fog at 9:30. [AF15]
 
 ## 2024-07-02 · Meals, unspecified
@@ -1513,6 +1785,8 @@ Burning after lunch was confounded by a walk. Mild brain fog occurred after dinn
 adverse · dated diary account, see wording for timing · temporal association; unconfirmed · Report dated 2024-07-02
 
 Source: response:S5-R-AF15-2 · S5:477-477
+
+- [Diet history](../diet.html#intervention:c41c7d94-de29-55bf-a635-fadd1cbcc5b5)
 
 S5:477-477 · Notes: Breakfast at 10:30. A little brain burning at 11, which resolved after BEMER. Fairly well during the day, with BEMER and liver-area BEMER use. Lunch at 17, then a walk and brain burning that BEMER relieved. A little brain fog at 7 after 30 minutes of work and again at 8, relieved by BEMER. Dinner at 9 and a little brain fog at 9:30. [AF15]
 
@@ -1526,6 +1800,8 @@ reported use · explicit calendar day; time if stated in note
 
 Source: intervention_events:S5-E-AG22-1 · S5:502–502
 
+- [Intervention](../interventions.html#intervention:2998630f-419f-54e7-91a7-a10b71671cf5)
+
 S5:502–502 · H2 (route and units unspecified): H2 recorded as 2. The cell does not give units, route or session duration. [AG22]
 
 ## 2024-07-03 · BEMER
@@ -1537,6 +1813,8 @@ Brain fog after a hospital visit and later at home resolved after BEMER. A separ
 beneficial · dated diary account, see wording for timing · patient reported; unconfirmed · Report dated 2024-07-03
 
 Source: response:S5-R-AG15-1 · S5:496-496
+
+- [Intervention](../treatment-e9207121-4020-582d-901b-14266bbc7146.html)
 
 S5:496-496 · Notes: Woke at 8. Brain fog at 10:30 after a hospital visit, resolving after BEMER. Home by 2 with a little brain fog, again resolving after BEMER. Mild brain fog during conversation with a family member improved spontaneously. A call at 4 with a little brain fog. Mild brain fog at 17:30 and at 18. Dinner at 9 with a mild headache, then mild brain burning at 9:30 and 10:30. I will stop Kender+ for a while. [AG15]
 
@@ -1550,6 +1828,8 @@ adverse · dated diary account, see wording for timing · temporal association; 
 
 Source: response:S5-R-AG15-2 · S5:496-496
 
+- [Diet history](../diet.html#intervention:0ea669f5-d286-5dcb-8e43-26fecb455298)
+
 S5:496-496 · Notes: Woke at 8. Brain fog at 10:30 after a hospital visit, resolving after BEMER. Home by 2 with a little brain fog, again resolving after BEMER. Mild brain fog during conversation with a family member improved spontaneously. A call at 4 with a little brain fog. Mild brain fog at 17:30 and at 18. Dinner at 9 with a mild headache, then mild brain burning at 9:30 and 10:30. I will stop Kender+ for a while. [AG15]
 
 ## 2024-07-03 · Borrelia blood PCR
@@ -1562,6 +1842,8 @@ Specimen collection · clinical laboratory report
 
 Source: reports:S4-R12 · S4-R12
 
+- [Biomarker results](../biomarkers.html#report-S4-R12)
+
 ## 2024-07-03 · Borrelia serum ELISA and line blot
 
 Test
@@ -1572,6 +1854,8 @@ Specimen collection · clinical laboratory report
 
 Source: reports:S4-R13 · S4-R13
 
+- [Biomarker results](../biomarkers.html#report-S4-R13)
+
 ## 2024-07-04 · Molecular hydrogen (oral H₂ supplement; formulation unverified) · Reported use
 
 Action
@@ -1581,6 +1865,8 @@ Action
 reported use · explicit calendar day; time if stated in note
 
 Source: intervention_events:S5-E-AH22-1 · S5:521–521
+
+- [Intervention](../interventions.html#intervention:2998630f-419f-54e7-91a7-a10b71671cf5)
 
 S5:521–521 · H2 (route and units unspecified): H2 recorded as 2. The cell does not give units, route or session duration. [AH22]
 
@@ -1593,6 +1879,8 @@ Action
 
 
 Source: unassigned-actions:intervention:e7f4dc7c-979d-568d-8bba-10f1b4d97228:2024
+
+- [Intervention](../treatment-e7f4dc7c-979d-568d-8bba-10f1b4d97228.html)
 
 - 2024-07-04 · Reported use · 5 mL · Afternoon administration. Identity is unspecified.
 
@@ -1608,6 +1896,8 @@ beneficial · dated diary account, see wording for timing · patient reported; u
 
 Source: response:S5-R-AH15-1 · S5:516-516
 
+- [Intervention](../treatment-e9207121-4020-582d-901b-14266bbc7146.html)
+
 S5:516-516 · Notes: Woke at 10. Breakfast at 11:30, then a call and mild brain fog that resolved after BEMER. Brain fog after one hour of work improved with BEMER without resolving fully. Lunch at 15:50. Stronger brain fog at 16:30 resolved with BEMER using a scarf around the forehead. Brain fog after a 40-minute meeting. Brain fog from 18 to 18:30 after walking, an errand and social contact, then resolution after BEMER. Dinner at 21. Mild brain fog at 21:30 and 22:30, then brain burning at 23. [AH15]
 
 ## 2024-07-04 · Lunch, unspecified
@@ -1619,6 +1909,8 @@ Stronger brain fog at 16:30 after the 15:50 lunch, relieved with forehead BEMER.
 adverse · dated diary account, see wording for timing · temporal association; unconfirmed · Report dated 2024-07-04
 
 Source: response:S5-R-AH15-2 · S5:516-516
+
+- [Diet history](../diet.html#intervention:5b55ae41-8ec0-5c43-9ef4-5b14f7442446)
 
 S5:516-516 · Notes: Woke at 10. Breakfast at 11:30, then a call and mild brain fog that resolved after BEMER. Brain fog after one hour of work improved with BEMER without resolving fully. Lunch at 15:50. Stronger brain fog at 16:30 resolved with BEMER using a scarf around the forehead. Brain fog after a 40-minute meeting. Brain fog from 18 to 18:30 after walking, an errand and social contact, then resolution after BEMER. Dinner at 21. Mild brain fog at 21:30 and 22:30, then brain burning at 23. [AH15]
 
@@ -1632,6 +1924,8 @@ reported use · explicit calendar day; time if stated in note
 
 Source: intervention_events:S5-E-AI22-1 · S5:540–540
 
+- [Intervention](../interventions.html#intervention:2998630f-419f-54e7-91a7-a10b71671cf5)
+
 S5:540–540 · H2 (route and units unspecified): H2 recorded as 2. The cell does not give units, route or session duration. [AI22]
 
 ## Recorded 2024-07-05 – 2024-07-09 · BEMER
@@ -1643,6 +1937,8 @@ Action
 
 
 Source: unassigned-actions:intervention:e9207121-4020-582d-901b-14266bbc7146:2024
+
+- [Intervention](../treatment-e9207121-4020-582d-901b-14266bbc7146.html)
 
 - 2024-07-05 · Dose change · Setting i3 recorded. Previous setting is unspecified.
 
@@ -1660,6 +1956,8 @@ mixed · dated diary account, see wording for timing · patient reported; unconf
 
 Source: response:S5-R-AI15-1 · S5:535-535
 
+- [Intervention](../treatment-e9207121-4020-582d-901b-14266bbc7146.html)
+
 S5:535-535 · Notes: Stronger brain fog at 9:30. BEMER p3 helped a little without resolving it. Brain fog again at 11 and at noon. BEMER helped, but strong brain burning returned at 12:30 and resolved with the head-scarf BEMER application. Conversation with a repair technician was accompanied by brain fog from 1:30 to 4. Head-scarf BEMER did not help then, but another BEMER session helped. Repeated dull throbbing pain in the liver region throughout the day. Brain fog from 17:30 to 18.X, where the endpoint is incompletely written. BEMER helped little. Brain fog from 20 onward, with no endpoint recorded. [AI15]
 
 ## 2024-07-06 · Molecular hydrogen (oral H₂ supplement; formulation unverified) · Reported use
@@ -1671,6 +1969,8 @@ Action
 reported use · explicit calendar day; time if stated in note
 
 Source: intervention_events:S5-E-AJ22-1 · S5:558–558
+
+- [Intervention](../interventions.html#intervention:2998630f-419f-54e7-91a7-a10b71671cf5)
 
 S5:558–558 · H2 (route and units unspecified): H2 recorded as 2 plus 1. The cell does not give units, route or session duration. [AJ22]
 
@@ -1684,6 +1984,8 @@ mixed · dated diary account, see wording for timing · patient reported; unconf
 
 Source: response:S5-R-AJ15-1 · S5:554-554
 
+- [Intervention](../treatment-e9207121-4020-582d-901b-14266bbc7146.html)
+
 S5:554-554 · Notes: Brain fog from 11:45 onward and BEMER i3 did not help. Brain fog at 14:25 and again at 14:45, improving after BEMER. Brain fog at 16:45 after lunch, again better after BEMER. Continuous pain under the right ribs, sometimes also under the left ribs. Brain fog at 17:50. Some foggier moments during a visitor's stay, but tolerable. [AJ15]
 
 ## 2024-07-06 · Lunch, unspecified
@@ -1695,6 +1997,8 @@ Brain fog at 16:45 after lunch improved following BEMER. Earlier fog and persist
 adverse · dated diary account, see wording for timing · temporal association; unconfirmed · Report dated 2024-07-06
 
 Source: response:S5-R-AJ15-2 · S5:554-554
+
+- [Diet history](../diet.html#intervention:5b55ae41-8ec0-5c43-9ef4-5b14f7442446)
 
 S5:554-554 · Notes: Brain fog from 11:45 onward and BEMER i3 did not help. Brain fog at 14:25 and again at 14:45, improving after BEMER. Brain fog at 16:45 after lunch, again better after BEMER. Continuous pain under the right ribs, sometimes also under the left ribs. Brain fog at 17:50. Some foggier moments during a visitor's stay, but tolerable. [AJ15]
 
@@ -1708,6 +2012,8 @@ reported use · explicit calendar day; time if stated in note
 
 Source: intervention_events:S5-E-AK22-1 · S5:578–578
 
+- [Intervention](../interventions.html#intervention:2998630f-419f-54e7-91a7-a10b71671cf5)
+
 S5:578–578 · H2 (route and units unspecified): H2 recorded as 2 plus 1. The cell does not give units, route or session duration. [AK22]
 
 ## 2024-07-07 · BEMER
@@ -1719,6 +2025,8 @@ Slightly helped noon brain fog while dizziness persisted. Resolved stronger 14�
 beneficial · dated diary account, see wording for timing · patient reported; unconfirmed · Report dated 2024-07-07
 
 Source: response:S5-R-AK15-1 · S5:572-572
+
+- [Intervention](../treatment-e9207121-4020-582d-901b-14266bbc7146.html)
 
 S5:572-572 · Notes: Brain fog at 12. BEMER helped slightly but dizziness persisted. Brain fog/pressure at 13. Stronger symptoms from 14 to 14:30 resolved with BEMER. Brain fog around 17:30 improved after BEMER but quickly returned around 18. Several milder episodes also occurred in the evening. Overall not a very severe day, but not a good one. [AK15]
 
@@ -1732,6 +2040,8 @@ reported use · explicit calendar day; time if stated in note
 
 Source: intervention_events:S5-E-AL22-1 · S5:596–596
 
+- [Intervention](../interventions.html#intervention:2998630f-419f-54e7-91a7-a10b71671cf5)
+
 S5:596–596 · H2 (route and units unspecified): H2 recorded as 2 plus 1. The cell does not give units, route or session duration. [AL22]
 
 ## 2024-07-08 · BEMER
@@ -1743,6 +2053,8 @@ Slightly improved the 13:00 episode and helped fog after lunch/music. Symptoms r
 beneficial · dated diary account, see wording for timing · patient reported; unconfirmed · Report dated 2024-07-08
 
 Source: response:S5-R-AL15-1 · S5:592-592
+
+- [Intervention](../treatment-e9207121-4020-582d-901b-14266bbc7146.html)
 
 S5:592-592 · Notes: I woke already foggy. Brain fog at 13 improved slightly with BEMER, then was stronger at 14:30. Brain fog again at 3:20. Brain fog after lunch while listening to music improved with BEMER. Brain fog at 6:45 after emotionally absorbing writing and music. Brain fog at 22 after work. Overall better than the weekend and similar to the better days of the preceding week. My hypothesis was a 'herx' reaction to increased alginite followed by its waning over the weekend. [AL15]
 
@@ -1756,6 +2068,10 @@ adverse · dated diary account, see wording for timing · patient hypothesis; un
 
 Source: response:S5-R-AL15-2 · S5:592-592, The patient hypothesized that increased alginite caused a 'herx' reaction and that this reaction waned over the weekend. The day was better than the weekend, with multiple cognitive and meal-related triggers.
 
+- [Course detail](../courses/4a289d25-8c41-51aa-94be-f0f906db3cef.html)
+
+- [Intervention](../treatment-ed7efb4b-56a4-5d02-a103-65cccb95158f.html)
+
 S5:592-592 · Notes: I woke already foggy. Brain fog at 13 improved slightly with BEMER, then was stronger at 14:30. Brain fog again at 3:20. Brain fog after lunch while listening to music improved with BEMER. Brain fog at 6:45 after emotionally absorbing writing and music. Brain fog at 22 after work. Overall better than the weekend and similar to the better days of the preceding week. My hypothesis was a 'herx' reaction to increased alginite followed by its waning over the weekend. [AL15]
 
 ## 2024-07-08 · Lunch and music exposure
@@ -1767,6 +2083,8 @@ Brain fog after lunch while listening to music improved with BEMER. The food and
 adverse · dated diary account, see wording for timing · temporal association; unconfirmed · Report dated 2024-07-08
 
 Source: response:S5-R-AL15-3 · S5:592-592
+
+- [Diet history](../diet.html#intervention:8ecc4b32-8d1d-5e17-b6c8-1d04f9dcbaac)
 
 S5:592-592 · Notes: I woke already foggy. Brain fog at 13 improved slightly with BEMER, then was stronger at 14:30. Brain fog again at 3:20. Brain fog after lunch while listening to music improved with BEMER. Brain fog at 6:45 after emotionally absorbing writing and music. Brain fog at 22 after work. Overall better than the weekend and similar to the better days of the preceding week. My hypothesis was a 'herx' reaction to increased alginite followed by its waning over the weekend. [AL15]
 
@@ -1780,6 +2098,8 @@ reported use · explicit calendar day; time if stated in note
 
 Source: intervention_events:S5-E-AM22-1 · S5:614–614
 
+- [Intervention](../interventions.html#intervention:2998630f-419f-54e7-91a7-a10b71671cf5)
+
 S5:614–614 · H2 (route and units unspecified): H2 recorded as 2 plus 1. The cell does not give units, route or session duration. [AM22]
 
 ## 2024-07-09 · BEMER
@@ -1791,6 +2111,8 @@ Relieved breakfast-associated brain fog and reduced later fog, but forehead/sinu
 mixed · dated diary account, see wording for timing · patient reported; unconfirmed · Report dated 2024-07-09
 
 Source: response:S5-R-AM15-1 · S5:610-610
+
+- [Intervention](../treatment-e9207121-4020-582d-901b-14266bbc7146.html)
 
 S5:610-610 · Notes: Mild brain fog after breakfast resolved with BEMER. Brain fog and sinus pressure around 12:40. BEMER reduced the fog but did not reduce the forehead pressure. Slight dizziness and brain fog after taking out the rubbish following lunch. BEMER helped the fog but the pressure persisted. An unusual day with forehead/sinus pressure and some brain fog throughout, while I could still do substantial productive work and my mood was good. [AM15]
 
@@ -1804,6 +2126,8 @@ adverse · dated diary account, see wording for timing · temporal association; 
 
 Source: response:S5-R-AM15-2 · S5:610-610
 
+- [Diet history](../diet.html#intervention:bf74c2e6-1077-5d21-86b3-1d58d1d9b7ad)
+
 S5:610-610 · Notes: Mild brain fog after breakfast resolved with BEMER. Brain fog and sinus pressure around 12:40. BEMER reduced the fog but did not reduce the forehead pressure. Slight dizziness and brain fog after taking out the rubbish following lunch. BEMER helped the fog but the pressure persisted. An unusual day with forehead/sinus pressure and some brain fog throughout, while I could still do substantial productive work and my mood was good. [AM15]
 
 ## 2024-07-10 · BEMER
@@ -1815,6 +2139,8 @@ Repeated slight improvement in brain fog, followed by prompt recurrence with con
 beneficial · dated diary account, see wording for timing · patient reported; unconfirmed · Report dated 2024-07-10
 
 Source: response:S5-R-AN15-1 · S5:628-628
+
+- [Intervention](../treatment-e9207121-4020-582d-901b-14266bbc7146.html)
 
 S5:628-628 · Notes: Mild brain fog after breakfast worsened with emailing and improved after BEMER. Mild brain fog around 2:30 after work improved with BEMER but returned quickly with intense concentration. Brain fog again at 3:45, slightly better with BEMER. This differed from the usual pressure from above and seemed to radiate upward from the sinuses. It ended around 4:45 after lunch, then returned from 5 onward with a sensation described as hardness around the eyes. [AN15]
 
@@ -1828,6 +2154,8 @@ adverse · dated diary account, see wording for timing · temporal association; 
 
 Source: response:S5-R-AN15-2 · S5:628-628
 
+- [Diet history](../diet.html#intervention:bf74c2e6-1077-5d21-86b3-1d58d1d9b7ad)
+
 S5:628-628 · Notes: Mild brain fog after breakfast worsened with emailing and improved after BEMER. Mild brain fog around 2:30 after work improved with BEMER but returned quickly with intense concentration. Brain fog again at 3:45, slightly better with BEMER. This differed from the usual pressure from above and seemed to radiate upward from the sinuses. It ended around 4:45 after lunch, then returned from 5 onward with a sensation described as hardness around the eyes. [AN15]
 
 ## 2024-07-10 · Lunch, unspecified
@@ -1839,6 +2167,8 @@ A brain fog episode ended around 4:45 after lunch, then returned from 5 onward. 
 uncertain · dated diary account, see wording for timing · temporal association; unconfirmed · Report dated 2024-07-10
 
 Source: response:S5-R-AN15-3 · S5:628-628
+
+- [Diet history](../diet.html#intervention:5b55ae41-8ec0-5c43-9ef4-5b14f7442446)
 
 S5:628-628 · Notes: Mild brain fog after breakfast worsened with emailing and improved after BEMER. Mild brain fog around 2:30 after work improved with BEMER but returned quickly with intense concentration. Brain fog again at 3:45, slightly better with BEMER. This differed from the usual pressure from above and seemed to radiate upward from the sinuses. It ended around 4:45 after lunch, then returned from 5 onward with a sensation described as hardness around the eyes. [AN15]
 
@@ -1852,6 +2182,8 @@ mixed · dated diary account, see wording for timing · patient reported; unconf
 
 Source: response:S5-R-AO15-1 · S5:644-644
 
+- [Intervention](../treatment-e9207121-4020-582d-901b-14266bbc7146.html)
+
 S5:644-644 · Notes: Brain fog around 10:30 after waking. Slightly better after breakfast, and BEMER helped. Brain fog with burning eyes and facial pressure around 1:30 after 40 minutes of work. BEMER did not help the facial pressure. Nose/forehead burning all day. Brain fog at 17, helped by BEMER. Brain fog after dinner at 9:20 in the evening, again helped by BEMER. [AO15]
 
 ## 2024-07-11 · Breakfast, unspecified
@@ -1863,6 +2195,8 @@ Slight improvement after breakfast in brain fog that had started after waking. B
 beneficial · dated diary account, see wording for timing · temporal association; unconfirmed · Report dated 2024-07-11
 
 Source: response:S5-R-AO15-2 · S5:644-644
+
+- [Diet history](../diet.html#intervention:bf74c2e6-1077-5d21-86b3-1d58d1d9b7ad)
 
 S5:644-644 · Notes: Brain fog around 10:30 after waking. Slightly better after breakfast, and BEMER helped. Brain fog with burning eyes and facial pressure around 1:30 after 40 minutes of work. BEMER did not help the facial pressure. Nose/forehead burning all day. Brain fog at 17, helped by BEMER. Brain fog after dinner at 9:20 in the evening, again helped by BEMER. [AO15]
 
@@ -1876,6 +2210,8 @@ adverse · dated diary account, see wording for timing · temporal association; 
 
 Source: response:S5-R-AO15-3 · S5:644-644
 
+- [Diet history](../diet.html#intervention:0ea669f5-d286-5dcb-8e43-26fecb455298)
+
 S5:644-644 · Notes: Brain fog around 10:30 after waking. Slightly better after breakfast, and BEMER helped. Brain fog with burning eyes and facial pressure around 1:30 after 40 minutes of work. BEMER did not help the facial pressure. Nose/forehead burning all day. Brain fog at 17, helped by BEMER. Brain fog after dinner at 9:20 in the evening, again helped by BEMER. [AO15]
 
 ## 2024-07-12 · Magnosolv · Dose change
@@ -1888,6 +2224,8 @@ reported change · explicit calendar day; time if stated in note
 
 Source: intervention_events:S5-E-AP14-1 · S5:660–660
 
+- [Intervention](../treatment-42d8eb8b-a907-5a11-beaf-50ca8e3909b3.html)
+
 S5:660–660 · changes: Magnosolv once daily because the supply was running low. [AP14]
 
 ## Recorded 2024-07-18 – 2024-09-03 · Collagen
@@ -1899,6 +2237,8 @@ Action
 
 
 Source: unassigned-actions:intervention:5742d79a-b0fc-51d0-9769-c6a8fb5931cc:2024
+
+- [Intervention](../treatment-5742d79a-b0fc-51d0-9769-c6a8fb5931cc.html)
 
 - 2024-07-18 · Missed · Dose omitted.
 
@@ -1913,6 +2253,10 @@ Explicit tracker boundaries. Brief missed doses stay within the course. Start da
 documented course
 
 Source: course:8070d875-739c-5801-9254-b593168d94d1 · treatment_intervals:S5-I-deka-1
+
+- [Course detail](../courses/8070d875-739c-5801-9254-b593168d94d1.html)
+
+- [Intervention](../treatment-7f09e2d3-934c-5e93-9bbf-df0d7b8e6cd1.html)
 
 Course actions
 
@@ -1929,6 +2273,8 @@ Action
 
 Source: unassigned-actions:intervention:9d881286-e883-59f4-8e5e-7ca0465ade0b:2024
 
+- [Intervention](../treatment-9d881286-e883-59f4-8e5e-7ca0465ade0b.html)
+
 - 2024-07-21 · Missed · Absent from the afternoon cocktail. A longer discontinuation is not established.
 
 - 2024-07-22 · Missed · Absent from the morning cocktail.
@@ -1942,6 +2288,10 @@ Explicit tracker boundaries. Brief missed doses stay within the course. End deno
 documented course
 
 Source: course:31db9357-b5bd-500d-99dd-13e2fe62c44b · treatment_intervals:S5-I-humic-acid-1
+
+- [Course detail](../courses/31db9357-b5bd-500d-99dd-13e2fe62c44b.html)
+
+- [Intervention](../treatment-feaba07c-dac8-5e99-968f-ddefb6bdfc0c.html)
 
 Course actions
 
@@ -1960,6 +2310,10 @@ Started evening July 24; stop recorded September 22. A brief missed dose does no
 documented course
 
 Source: course:9f6044d9-9a71-5f6c-9789-571dbeade170 · treatment_intervals:S3:T:485:1-I, historical_entries:S3:treatment_response:238
+
+- [Course detail](../courses/9f6044d9-9a71-5f6c-9789-571dbeade170.html)
+
+- [Intervention](../treatment-2a5f80ef-581b-5208-9499-5b8271ad6db9.html)
 
 Course actions
 
@@ -1985,6 +2339,8 @@ Investigation
 
 Source: context:context:b6311a2a-b470-5794-aa0d-518510fa5444 · intervention_events:S5-E-BB14-1
 
+- [Investigation record](../investigations.html#context:b6311a2a-b470-5794-aa0d-518510fa5444)
+
 ## Treatment context (response date unknown): 2024-07-24 · Stopped 2024-09-22 · doxycycline
 
 Response
@@ -1997,6 +2353,10 @@ Source: response:S3:treatment_response:238 · S3:238-241, * doxycycline
 * was put on it for 2 months due to Lyme suspicion after positive IgG test
 * no improvement at all, instead brain burns got more severe, was barely "in there" by the end of the cure
 * doxycycline can slow lymphatic drainage → lymphatic issues may play a role in brain burns, course:9f6044d9-9a71-5f6c-9789-571dbeade170
+
+- [Course detail](../courses/9f6044d9-9a71-5f6c-9789-571dbeade170.html)
+
+- [Intervention](../treatment-2a5f80ef-581b-5208-9499-5b8271ad6db9.html)
 
 S3:238-241 · * doxycycline
 * was put on it for 2 months due to Lyme suspicion after positive IgG test
@@ -2011,6 +2371,8 @@ Report describes findings as essentially unchanged from prior specimen, with lim
 Specimen collection · clinical laboratory report
 
 Source: reports:S4-R14 · S4-R14
+
+- [Biomarker results](../biomarkers.html#report-S4-R14)
 
 ## 2024-07-28 · Short outing (2–3 hours)
 
@@ -2032,6 +2394,8 @@ Investigation
 
 Source: context:context:b2e6ae81-1e81-5461-9ba6-cf00f33c59bc · intervention_events:S5-E-BG14-1
 
+- [Investigation record](../investigations.html#context:b2e6ae81-1e81-5461-9ba6-cf00f33c59bc)
+
 ## Start unknown · Stopped 2024-07-31 · NC curcumin
 
 Intervention
@@ -2041,6 +2405,10 @@ Explicit tracker boundaries. Brief missed doses stay within the course. Start da
 documented course
 
 Source: course:0977160d-ceaa-5047-af05-f5afff26ad95 · treatment_intervals:S5-I-turmeri-1
+
+- [Course detail](../courses/0977160d-ceaa-5047-af05-f5afff26ad95.html)
+
+- [Intervention](../treatment-d1018a98-9f74-5632-bf47-7aafb222bd79.html)
 
 Course actions
 
@@ -2056,6 +2424,10 @@ The patient recalls that F2 probably stopped with the other NC preparations on O
 documented course
 
 Source: course:e0810802-3d11-5f02-8ece-8b0f19a94c3b · treatment_intervals:S5-I-f2-unidentified-preparation-1
+
+- [Course detail](../courses/e0810802-3d11-5f02-8ece-8b0f19a94c3b.html)
+
+- [Intervention](../treatment-3e5d434a-db9f-5cc1-b684-0f9fed2cdb76.html)
 
 Course actions
 
@@ -2074,6 +2446,8 @@ Action
 
 
 Source: unassigned-actions:intervention:3e5d434a-db9f-5cc1-b684-0f9fed2cdb76:2024
+
+- [Intervention](../treatment-3e5d434a-db9f-5cc1-b684-0f9fed2cdb76.html)
 
 - 2024-08-01 · Missed · Accidental missed dose.
 
@@ -2094,6 +2468,8 @@ Action
 
 
 Source: unassigned-actions:intervention:647be13b-3d7b-5175-8b5a-fa405decf12d:2024
+
+- [Intervention](../treatment-647be13b-3d7b-5175-8b5a-fa405decf12d.html)
 
 - 2024-08-03 · Missed · Morning dose omitted.
 
@@ -2121,6 +2497,10 @@ documented course
 
 Source: course:b953c7e9-b9af-56d2-9bb6-cef5a9370d01 · treatment_intervals:S5-I-humic-acid-2
 
+- [Course detail](../courses/b953c7e9-b9af-56d2-9bb6-cef5a9370d01.html)
+
+- [Intervention](../treatment-feaba07c-dac8-5e99-968f-ddefb6bdfc0c.html)
+
 Course actions
 
 - 2024-08-03 · Restart · 5 mL · Start recorded after the July 24 stop.
@@ -2136,6 +2516,8 @@ reported change · explicit calendar day; time if stated in note
 
 Source: intervention_events:S5-E-BO14-1 · S5:1014–1014
 
+- [Intervention](../treatment-d3d2587c-b98a-5bbd-9d39-bbf31cd4d50b.html)
+
 S5:1014–1014 · changes: Ganoderma also taken in the afternoon, 10 mL. [BO14]
 
 ## 2024-08-10 · Carrot supply exhausted
@@ -2147,6 +2529,10 @@ Food supply exhausted.
 explicit calendar day; time if stated in note
 
 Source: intervention_events:S5-E-BS14-3 · intervention_events:S5-E-BS14-3, S5:1068–1068
+
+- [Diet history](../diet.html#intervention:8dfec19b-4ffa-54e8-91af-c5f374aec21f)
+
+- [Course detail](../courses/b61d9e69-5b62-593c-afd2-2e57cdaf98c7.html)
 
 S5:1068–1068 · changes: Probiotic missed. Plan to restart liposomal broccoli. Carrot supply exhausted. [BS14]
 
@@ -2160,6 +2546,8 @@ explicit calendar day; time if stated in note
 
 Source: intervention_events:S5-E-BU14-1 · intervention_events:S5-E-BU14-1, S5:1098–1098
 
+- [Diet history](../diet.html#intervention:8dfec19b-4ffa-54e8-91af-c5f374aec21f)
+
 S5:1098–1098 · changes: Carrot resumed. Pectin ran out at lunch. Probiotic missed. Liposomal broccoli stopped. [BU14]
 
 ## Start unknown · Stopped 2024-08-12 · NC broccoli extract
@@ -2171,6 +2559,10 @@ Explicit tracker boundaries. Brief missed doses stay within the course. Start da
 course fragment
 
 Source: course:b2c7057c-e118-5324-8626-15d4b305c094 · treatment_intervals:S5-I-liposomal-broccoli-1
+
+- [Course detail](../courses/b2c7057c-e118-5324-8626-15d4b305c094.html)
+
+- [Intervention](../treatment-f37f339e-dff1-59a8-bc30-1afec480e46e.html)
 
 Course actions
 
@@ -2187,6 +2579,10 @@ course fragment
 
 Source: course:f3bfaec0-930f-5f90-9d5e-e4b5b3053bb8 · treatment_intervals:S5-I-pectin-1
 
+- [Course detail](../courses/f3bfaec0-930f-5f90-9d5e-e4b5b3053bb8.html)
+
+- [Intervention](../treatment-7d3cff26-e917-5056-905e-ddae615bdcfa.html)
+
 Course actions
 
 - 2024-08-12 · Stop · Supply exhausted at lunch. Final ingestion time is unspecified.
@@ -2202,6 +2598,8 @@ explicit calendar day; time if stated in note
 
 Source: intervention_events:S5-E-BW14-2 · intervention_events:S5-E-BW14-2, S5:1128–1128
 
+- [Diet history](../diet.html#intervention:b22b8065-d314-523b-ab5b-bf4d0ae76eee)
+
 S5:1128–1128 · changes: Pectin resumed at lunch. Carbohydrate, specifically sweet potato, added to lunch. [BW14]
 
 ## 2024-08-14 · Off by 2024-09-24 · NC pectin
@@ -2213,6 +2611,10 @@ The August 14 course has no dated final dose. The tracker records another start 
 documented course
 
 Source: course:af945523-6ea6-50dc-a898-a26ecca7ea04 · treatment_intervals:S5-I-pectin-2
+
+- [Course detail](../courses/af945523-6ea6-50dc-a898-a26ecca7ea04.html)
+
+- [Intervention](../treatment-7d3cff26-e917-5056-905e-ddae615bdcfa.html)
 
 Course actions
 
@@ -2229,6 +2631,8 @@ beneficial · dated diary account, see wording for timing · patient reported; u
 
 Source: response:S5-R-BW15-1 · S5:1129-1129
 
+- [Diet history](../diet.html#intervention:3ffcb4f9-b5f8-57c5-9e2a-82ab7a269895)
+
 S5:1129-1129 · Notes: I feel a little better after a carbohydrate-containing lunch. Until now daily intake had been 1,000–1,500 kcal, which I regarded as too little. [BW15]
 
 ## 2024-08-15 · Off by 2024-10-23 · NC broccoli extract
@@ -2240,6 +2644,10 @@ Patient reports all historical liposomal preparations omitted/stopped by 23 Octo
 documented course
 
 Source: course:a9e44a7f-c831-51c1-ab58-d60e767a8dac · treatment_intervals:S5-I-liposomal-broccoli-2
+
+- [Course detail](../courses/a9e44a7f-c831-51c1-ab58-d60e767a8dac.html)
+
+- [Intervention](../treatment-f37f339e-dff1-59a8-bc30-1afec480e46e.html)
 
 Course actions
 
@@ -2256,6 +2664,8 @@ adverse · dated diary account, see wording for timing · patient reported; unco
 
 Source: response:S5-R-CA15-1 · S5:1187-1187
 
+- [Intervention](../regimens.html#intervention:cc6cfe6a-14cb-52a3-a120-eaabf2db47f2)
+
 S5:1187-1187 · Notes: Brutal facial pressure again today, 5–10 minutes after the morning cocktail. It seemed to have occurred yesterday and the day before as well. I questioned a 'herx' reaction. This symptom was said to have begun after the lipo treatment course. [CA15]
 
 ## 2024-08-23 · Lipo preparations
@@ -2267,6 +2677,8 @@ Excess energy and inability to fall asleep until after 5, compared with around 2
 adverse · dated diary account, see wording for timing · patient reported; unconfirmed · Report dated 2024-08-23
 
 Source: response:S5-R-CF15-1 · S5:1258-1258
+
+- [Intervention](../regimens.html#intervention:cc6cfe6a-14cb-52a3-a120-eaabf2db47f2)
 
 S5:1258-1258 · Notes: In the preceding days I had fallen asleep around 2. After the lipo preparations I could not get to sleep and only managed after 5. I had too much energy. [CF15]
 
@@ -2280,6 +2692,8 @@ Asthma symptoms returned while substantial mould was again observed on the refri
 
 Source: context:context:bbac916c-425f-58e2-9c9d-88278324bc38 · diary_responses:S5-R-CG15-1
 
+- [Environmental exposure record](../exposures.html#context:bbac916c-425f-58e2-9c9d-88278324bc38)
+
 ## 2024-08-24 · Mould exposure
 
 Response
@@ -2289,6 +2703,8 @@ Asthma symptoms returned while substantial mould was again observed on the refri
 uncertain · dated diary account, see wording for timing · temporal association; unconfirmed · Report dated 2024-08-24
 
 Source: response:S5-R-CG15-1 · S5:1273-1273
+
+- [Intervention](../exposures.html#intervention:49dfcc4b-c867-5105-9607-bd983f063365)
 
 S5:1273-1273 · Notes: Asthma symptoms returned. There was again a lot of mould on the refrigerator. [CG15]
 
@@ -2302,6 +2718,8 @@ adverse · Response documented on diary date after the earlier exposure stated i
 
 Source: response:S5-R-CJ15-1 · S5:1314-1314
 
+- [Intervention](../diary-context.html#intervention:2edd09b5-ab5d-5415-bb5f-f444808517f9)
+
 S5:1314-1314 · Notes: A family member visited yesterday and there was conversation/an argument. I suspect a next-day 'hangover' from that activity. Quite strong brain burning. [CJ15]
 
 ## Recorded 2024-08-28 – 2024-09-22 · Quercetin
@@ -2313,6 +2731,8 @@ Action
 
 
 Source: unassigned-actions:intervention:86037a32-6743-504f-b8b3-6bc00c7de86d:2024
+
+- [Intervention](../treatment-86037a32-6743-504f-b8b3-6bc00c7de86d.html)
 
 - 2024-08-28 · Missed · Afternoon dose omitted because supply had run out. Restart date remains open.
 
@@ -2330,6 +2750,8 @@ Environmental exposure
 
 Source: context:context:f263f19a-dca8-58bd-b109-185fbe7abae7 · intervention_events:S5-E-CO14-1
 
+- [Environmental exposure record](../exposures.html#context:f263f19a-dca8-58bd-b109-185fbe7abae7)
+
 ## 2024-09-05 · Medical examination · procedure · Named location removed. Examination type is unspecified.
 
 Investigation
@@ -2339,6 +2761,8 @@ Investigation
 
 
 Source: context:context:85001ece-f57e-514e-bfef-ae3ee436511a · intervention_events:S5-E-CS14-1
+
+- [Investigation record](../investigations.html#context:85001ece-f57e-514e-bfef-ae3ee436511a)
 
 ## 2024-09-08 · Sexual activity
 
@@ -2372,6 +2796,10 @@ documented course
 
 Source: course:b6079763-1e32-5c48-a40b-9d643486bfb6 · treatment_intervals:S5-I-monolaurin-1
 
+- [Course detail](../courses/b6079763-1e32-5c48-a40b-9d643486bfb6.html)
+
+- [Intervention](../treatment-4de3b2a1-c02d-561a-aad7-17e868c24172.html)
+
 Course actions
 
 - 2024-09-15 · Start · Explicit start entry.
@@ -2386,6 +2814,8 @@ Terrible brain burning after washing the hair.
 adverse · dated diary account, see wording for timing · temporal association; unconfirmed · Report dated 2024-09-17
 
 Source: response:S5-R-DE15-1 · S5:1588-1588
+
+- [Intervention](../diary-context.html#intervention:cd3dd747-f113-58bf-b7b1-281d41cdafaa)
 
 S5:1588-1588 · Notes: Terrible brain burning after washing my hair. [DE15]
 
@@ -2421,6 +2851,8 @@ adverse · dated diary account, see wording for timing · temporal association; 
 
 Source: response:S5-R-DF15-2 · S5:1601-1601
 
+- [Diet history](../diet.html#intervention:9e5eed65-4d9a-5e96-ab4c-1b48c84558bd)
+
 S5:1601-1601 · Sexual activity
 
 ## 2024-09-19 · Meal, unspecified
@@ -2432,6 +2864,8 @@ Strong brain fog again after eating, helped by one hour of BEMER.
 adverse · dated diary account, see wording for timing · temporal association; unconfirmed · Report dated 2024-09-19
 
 Source: response:S5-R-DG15-1 · S5:1616-1616
+
+- [Diet history](../diet.html#intervention:c41c7d94-de29-55bf-a635-fadd1cbcc5b5)
 
 S5:1616-1616 · Notes: Strong brain fog again after eating. One hour of BEMER helped. [DG15]
 
@@ -2445,6 +2879,8 @@ beneficial · dated diary account, see wording for timing · patient reported; u
 
 Source: response:S5-R-DG15-2 · S5:1616-1616
 
+- [Intervention](../treatment-e9207121-4020-582d-901b-14266bbc7146.html)
+
 S5:1616-1616 · Notes: Strong brain fog again after eating. One hour of BEMER helped. [DG15]
 
 ## 2024-09-24 · Stopped 2024-09-30 · NC pectin
@@ -2456,6 +2892,10 @@ Explicit tracker boundaries. Brief missed doses stay within the course. End deno
 documented course
 
 Source: course:fd089d7c-4c76-5125-808d-8aebcee7286a · treatment_intervals:S5-I-pectin-3
+
+- [Course detail](../courses/fd089d7c-4c76-5125-808d-8aebcee7286a.html)
+
+- [Intervention](../treatment-7d3cff26-e917-5056-905e-ddae615bdcfa.html)
 
 Course actions
 
@@ -2478,6 +2918,8 @@ Action
 
 Source: unassigned-actions:intervention:78b5614f-c3ad-56d6-8ce8-413c90e3fb6a:2024
 
+- [Intervention](../treatment-78b5614f-c3ad-56d6-8ce8-413c90e3fb6a.html)
+
 - 2024-09-29 · Reported use · Evening dose recorded. Dose and formulation unspecified.
 
 - 2024-10-22 · Reported use · October 23 recalls magnesium five hours after NADH taken on October 22. The event date is anchored to that NADH exposure; whether the magnesium dose crossed midnight is unstated. Quantity and formulation unstated.
@@ -2492,6 +2934,8 @@ adverse · dated diary account, see wording for timing · patient hypothesis; un
 
 Source: response:S5-R-DZ15-1 · S5:1869-1869
 
+- [Intervention](../treatment-2e30e6fe-7f02-586c-9973-351e27e76dd9.html)
+
 S5:1869-1869 · Notes: A terrible attack in the morning before breakfast. Pain under the left ribs after drinking magnesium. The patient questioned stomach bloating and possible spleen involvement. The original text runs these statements together and includes 'one and a half hours' at their junction, with its timing reference unclear. [DZ15]
 
 ## 2024-10-09 · Started beetroot juice
@@ -2503,6 +2947,8 @@ Explicit start of dietary exposure.
 explicit calendar day; time if stated in note
 
 Source: intervention_events:S5-E-EA14-2 · intervention_events:S5-E-EA14-2, S5:1882–1882
+
+- [Diet history](../diet.html#intervention:61862fb7-75cf-5d58-b4e7-2c4614f342f7)
 
 S5:1882–1882 · changes: Blood draw in the morning. Beetroot juice started. [EA14]
 
@@ -2516,6 +2962,8 @@ Investigation
 
 Source: context:context:482f2246-f757-5710-b20f-a903b5e587b6 · intervention_events:S5-E-EA14-1
 
+- [Investigation record](../investigations.html#context:482f2246-f757-5710-b20f-a903b5e587b6)
+
 ## 2024-10-09 · Blood draw
 
 Investigation
@@ -2526,6 +2974,8 @@ Initially tolerated well with maximum pulse 112. Pulse later reached 125 during 
 
 Source: context:context:e4179017-54a5-5e52-83e2-433ee910b294 · diary_responses:S5-R-EA15-1
 
+- [Investigation record](../investigations.html#context:e4179017-54a5-5e52-83e2-433ee910b294)
+
 ## 2024-10-09 · Blood draw
 
 Response
@@ -2535,6 +2985,8 @@ Initially tolerated well with maximum pulse 112. Pulse later reached 125 during 
 mixed · dated diary account, see wording for timing · temporal association; unconfirmed · Report dated 2024-10-09
 
 Source: response:S5-R-EA15-1 · S5:1883-1883, Q-NADH-PHENOTYPE
+
+- [Intervention](../investigations.html#intervention:c10a7993-415d-56d2-9bfa-8a942b5c93ca)
 
 S5:1883-1883 · Notes: The day started well. I felt well during the blood draw and my maximum pulse was 112. Afterward, during breakfast and other activities, it was 125. A crash occurred around 3. [EA15]
 
@@ -2550,6 +3002,8 @@ Specimen collection · clinical laboratory report
 
 Source: reports:S4-R15 · S4-R15
 
+- [Biomarker results](../biomarkers.html#report-S4-R15)
+
 ## 2024-10-09 · Complement, immunoglobulins, ANA and ENA
 
 Test
@@ -2559,6 +3013,8 @@ ANA result is by ELISA; threshold belongs to this assay. Thresholds and test met
 Specimen collection · clinical laboratory report
 
 Source: reports:S4-R16 · S4-R16
+
+- [Biomarker results](../biomarkers.html#report-S4-R16)
 
 ## 2024-10-09 · Cellular immune status and NK functional assay
 
@@ -2570,6 +3026,8 @@ Specimen collection · specialty clinical panel
 
 Source: reports:S4-R17 · S4-R17
 
+- [Biomarker results](../biomarkers.html#report-S4-R17)
+
 ## 2024-10-10 · Hair washing/hot shower
 
 Response
@@ -2579,6 +3037,8 @@ After evening hair washing the patient felt terrible, with queasiness, nausea an
 adverse · dated diary account, see wording for timing · temporal association; unconfirmed · Report dated 2024-10-10
 
 Source: response:S5-R-EB15-1 · S5:1897-1897
+
+- [Intervention](../diary-context.html#intervention:1717043c-f741-5a33-a30d-42076d1f85ce)
 
 S5:1897-1897 · Notes: A better day, though I was dizzy/foggy during the day. After washing my hair in the evening I felt terrible, with queasiness, nausea and an unusual sensation throughout the body. I could not fall asleep until 3. [EB15]
 
@@ -2592,6 +3052,8 @@ adverse · Response documented on diary date after the earlier exposure stated i
 
 Source: response:S5-R-ED15-1 · S5:1925-1925
 
+- [Intervention](../diary-context.html#intervention:77ed3730-d701-5eb2-bd69-4ff37e30eec6)
+
 S5:1925-1925 · Notes: Another worse day. Probably lingering effects of the hot shower, in the patient's interpretation. [ED15]
 
 ## 2024-10-15 · Cool shower
@@ -2603,6 +3065,8 @@ After an early-evening cool shower, 15 minutes of well-being were followed by a 
 mixed · dated diary account, see wording for timing · temporal association; unconfirmed · Report dated 2024-10-15
 
 Source: response:S5-R-EG15-1 · S5:1965-1965, Q-NADH-PHENOTYPE
+
+- [Intervention](../diary-context.html#intervention:6816bbbe-2bb6-5620-a223-ab71d8b7645e)
 
 S5:1965-1965 · Notes: Worse throughout the day. After a cool shower in the early evening there were 15 minutes of well-being, followed by a sudden crash and terrible brain fog for a few hours. [EG15]
 
@@ -2618,6 +3082,8 @@ Investigation
 
 Source: context:context:1f070533-e133-5fe3-9d31-58f97a69ea36 · intervention_events:S5-E-EJ14-1
 
+- [Investigation record](../investigations.html#context:1f070533-e133-5fe3-9d31-58f97a69ea36)
+
 ## 2024-10-18 · Blood draw
 
 Investigation
@@ -2628,6 +3094,8 @@ Morning blood draw was tolerated with only mild dizziness. A more severe afterno
 
 Source: context:context:f05cf2cd-832d-5229-9196-125c693dec08 · diary_responses:S5-R-EJ15-1
 
+- [Investigation record](../investigations.html#context:f05cf2cd-832d-5229-9196-125c693dec08)
+
 ## 2024-10-18 · Blood draw
 
 Response
@@ -2637,6 +3105,8 @@ Morning blood draw was tolerated with only mild dizziness. A more severe afterno
 mixed · dated diary account, see wording for timing · temporal association; unconfirmed · Report dated 2024-10-18
 
 Source: response:S5-R-EJ15-1 · S5:2004-2004, Q-NADH-PHENOTYPE
+
+- [Intervention](../investigations.html#intervention:c10a7993-415d-56d2-9bfa-8a942b5c93ca)
 
 S5:2004-2004 · Notes: Tolerated the morning blood draw well with only a little dizziness. A more severe crash occurred in the afternoon. Better again in the evening. [EJ15]
 
@@ -2652,6 +3122,8 @@ Specimen collection · clinical laboratory report
 
 Source: reports:S4-R18 · S4-R18
 
+- [Biomarker results](../biomarkers.html#report-S4-R18)
+
 ## 2024-10-20 – 2024-10-30 · NADH-associated severe baseline decline and onset of physical and neurological PEM
 
 Milestone
@@ -2661,6 +3133,10 @@ After NADH on 20–21 and 25–28 October 2024: new profound deep-muscle fatigue
 day range · Reviewer-corrected intake dates; tracker, patient and clinician accounts of symptoms
 
 Source: context_cards:CTX-007 · S6-CLIN-001, S5-C-EM14, S5-C-EO15, S5-C-EU15, S1-M1617, S1-M2711, S1-M2714, S1-M2480, S1-M2509, S3:symptom:013, PZ-R14-TX:1
+
+- [First NADH course](../courses/44b32159-76c8-55fe-ac48-80f6c4554167.html)
+
+- [NADH restart](../courses/a070ea34-22cf-5ff7-a89b-0d5e45914b69.html)
 
 S6-CLIN-001 · this one should be the source of truth for the nadh sequence. since the other data points are later retellings.
 pre-nadh "crashes" were purely neurological, ie PENE, brain burns, etc.
@@ -2708,6 +3184,10 @@ documented course
 
 Source: course:44b32159-76c8-55fe-ac48-80f6c4554167 · treatment_intervals:NADH-I-initial, archive_messages:S1-M1658, annotations:S6-ANN-EO15, diary_responses:S5-R-EO15-1, baseline_states:BL-07, archive_messages:S1-M1617
 
+- [Course detail](../courses/44b32159-76c8-55fe-ac48-80f6c4554167.html)
+
+- [Intervention](../treatment-4863b7ca-16f3-5128-9034-cac865754888.html)
+
 Course actions
 
 - 2024-10-20 · Start · Inclusive date supplied in the reviewer correction.
@@ -2740,6 +3220,8 @@ Source: response:S3:treatment_response:209 · S3:209-211, Q-S5-NADH-START, * NAD
 * developed PEM from it, had a massive crash only after 3 days of supplementing (never had such a crash before)
 * likely due to upset NAD+/NADH balance and uncovering existing complex I dysfunction, course:44b32159-76c8-55fe-ac48-80f6c4554167, course:a070ea34-22cf-5ff7-a89b-0d5e45914b69
 
+- [Intervention](../treatment-4863b7ca-16f3-5128-9034-cac865754888.html)
+
 S3:209-211 · * NADH
 * developed PEM from it, had a massive crash only after 3 days of supplementing (never had such a crash before)
 * likely due to upset NAD+/NADH balance and uncovering existing complex I dysfunction
@@ -2755,6 +3237,8 @@ More BEMER use on a day with a small afternoon crash and a good evening. A direc
 uncertain · dated diary account, see wording for timing · temporal association; unconfirmed · Report dated 2024-10-20
 
 Source: response:S5-R-EL15-1 · S5:2030-2030, Q-NADH-PHENOTYPE
+
+- [Intervention](../treatment-e9207121-4020-582d-901b-14266bbc7146.html)
 
 S5:2030-2030 · Notes: One smaller crash in the afternoon, well in the evening. More BEMER use. [EL15]
 
@@ -2789,6 +3273,10 @@ documented course
 
 Source: course:2904f98c-76ad-5d23-aa9a-bc89786561fd · archive_messages:S1-M6, archive_findings:S1-F6-5
 
+- [Course detail](../courses/2904f98c-76ad-5d23-aa9a-bc89786561fd.html)
+
+- [Intervention](../treatment-1dd4afe1-c223-5e32-8afd-7e920d130239.html)
+
 ## 2024-10-21 · BPC-157; Epitalon
 
 Response
@@ -2798,6 +3286,10 @@ Patient uncertain whether prior BPC-157 was actually used; recalled no benefit. 
 Report date only · see original report times; event can precede report · patient report · Report dated 2024-10-21
 
 Source: response:S1-F142-1 · S1:142-142, S1:8160-8160
+
+- [Intervention](../regimens.html#intervention:09b3e3ab-dc8f-5794-b5f2-85cd6cf0a185)
+
+- [Intervention](../treatment-6e0a13bd-1158-5fb5-b666-8f8b986e2ad0.html)
 
 S1:8160-8160 · KPV capsules relieved constipation while he took them for several days. He recalled no benefit from an Epithalon nasal spray.
 
@@ -2811,6 +3303,8 @@ Report date only · see original report times; event can precede report · patie
 
 Source: response:S1-F253-1 · S1:253-253
 
+- [Intervention](../treatment-06ac4dc5-f5f9-5ad3-b9a5-77249b2da23e.html)
+
 S1:253-253 · tried rutin too, unfortunately nothing :/
 
 ## 2024-10-21 · Nicergoline
@@ -2822,6 +3316,8 @@ Transient partial reduction of fog and brain burning for several hours after dos
 Report date only · see original report times; event can precede report · patient report · Report dated 2024-10-21
 
 Source: response:S1-F6-1 · S1:6-18, S1:5192-5192
+
+- [Intervention](../treatment-ee6f5b64-7d50-5fcd-8c19-5e26dc8096f2.html)
 
 S1:6-18 · At the first discussion he reported persistent severe brain fog and brain burning. Nicergoline initially helped for roughly six weeks and the benefit faded. He associated MCT oil and possibly monolaurin with greater activity. He described less colonic pain and constipation on his probiotic and pectin regimen and still experienced occasional symptoms. Lighter meals helped; steak or other heavy meals often preceded brain burning.
 things that have helped: […]
@@ -2838,6 +3334,10 @@ Report date only · see original report times; event can precede report · patie
 
 Source: response:S1-F6-2 · S1:6-18
 
+- [Intervention](../treatment-4de3b2a1-c02d-561a-aad7-17e868c24172.html)
+
+- [Intervention](../treatment-d63199b9-3208-503a-a3d1-3a25065eb2b7.html)
+
 S1:6-18 · At the first discussion he reported persistent severe brain fog and brain burning. Nicergoline initially helped for roughly six weeks and the benefit faded. He associated MCT oil and possibly monolaurin with greater activity. He described less colonic pain and constipation on his probiotic and pectin regimen and still experienced occasional symptoms. Lighter meals helped; steak or other heavy meals often preceded brain burning.
 things that have helped: […]
 
@@ -2850,6 +3350,8 @@ Subjective improvement in baseline energy; severe brain fog and burning persiste
 Report date only · see original report times; event can precede report · patient report · Report dated 2024-10-21
 
 Source: response:S1-F6-3 · S1:6-18
+
+- [Intervention](../regimens.html#intervention:2e8d476f-6057-5ed0-a717-1d94e2293d33)
 
 S1:6-18 · At the first discussion he reported persistent severe brain fog and brain burning. Nicergoline initially helped for roughly six weeks and the benefit faded. He associated MCT oil and possibly monolaurin with greater activity. He described less colonic pain and constipation on his probiotic and pectin regimen and still experienced occasional symptoms. Lighter meals helped; steak or other heavy meals often preceded brain burning.
 things that have helped: […]
@@ -2864,6 +3366,10 @@ Report date only · see original report times; event can precede report · patie
 
 Source: response:S1-F6-4 · S1:6-18
 
+- [Intervention](../treatment-647be13b-3d7b-5175-8b5a-fa405decf12d.html)
+
+- [Intervention](../treatment-7d3cff26-e917-5056-905e-ddae615bdcfa.html)
+
 S1:6-18 · At the first discussion he reported persistent severe brain fog and brain burning. Nicergoline initially helped for roughly six weeks and the benefit faded. He associated MCT oil and possibly monolaurin with greater activity. He described less colonic pain and constipation on his probiotic and pectin regimen and still experienced occasional symptoms. Lighter meals helped; steak or other heavy meals often preceded brain burning.
 things that have helped: […]
 
@@ -2876,6 +3382,10 @@ Reported rapid improvement of constipation and gut pain during prior capsule tri
 Report date only · see original report times; event can precede report · patient report · Report dated 2024-10-21
 
 Source: response:S1-F6-5 · S1:6-18, S1:8160-8160, S1:9403-9403
+
+- [Course detail](../courses/2904f98c-76ad-5d23-aa9a-bc89786561fd.html)
+
+- [Intervention](../treatment-1dd4afe1-c223-5e32-8afd-7e920d130239.html)
 
 S1:6-18 · At the first discussion he reported persistent severe brain fog and brain burning. Nicergoline initially helped for roughly six weeks and the benefit faded. He associated MCT oil and possibly monolaurin with greater activity. He described less colonic pain and constipation on his probiotic and pectin regimen and still experienced occasional symptoms. Lighter meals helped; steak or other heavy meals often preceded brain burning.
 things that have helped: […]
@@ -2894,6 +3404,14 @@ Report date only · see original report times; event can precede report · patie
 
 Source: response:S1-F6-6 · S1:6-18, S1:65-71, S1:198-198, Lighter meals helped; energy-intensive meals such as steak often preceded brain burning. Cheese/fermented foods caused slight bloating. H1/H2 blockers did not relieve neurological symptoms in the early trial. Reported mild skin prickling with garlic.
 
+- [Diet history](../diet.html#intervention:c8ecfe36-50ba-5c58-838f-dec9eb50dbd5)
+
+- [Intervention](../treatment-0d553746-ea8c-569c-b985-98747f95a834.html)
+
+- [Intervention](../treatment-42e319f7-8c08-5319-abe3-1636d6f09a1d.html)
+
+- [Intervention](../treatment-df2a810a-af9d-5377-b50f-825936dfbdee.html)
+
 S1:6-18 · At the first discussion he reported persistent severe brain fog and brain burning. Nicergoline initially helped for roughly six weeks and the benefit faded. He associated MCT oil and possibly monolaurin with greater activity. He described less colonic pain and constipation on his probiotic and pectin regimen and still experienced occasional symptoms. Lighter meals helped; steak or other heavy meals often preceded brain burning.
 things that have helped: […]
 
@@ -2910,6 +3428,8 @@ some benefit · undated retrospective history · patient retrospective
 
 Source: response:S3:treatment_response:196 · S3:196-196, course:5c6972f8-f974-5e54-9a8b-28a587a1baf5, course:8966c892-354d-5983-94aa-30f80d74f64a, course:7818e72d-8bb6-529f-90b3-6ff87c19be74, course:11a7e1ee-b31f-5cb5-9270-438599487ba8, course:2904f98c-76ad-5d23-aa9a-bc89786561fd
 
+- [Intervention](../treatment-1dd4afe1-c223-5e32-8afd-7e920d130239.html)
+
 S3:196-196 · * KPV peptide, oral: more or less fixed constipation, went from 1-2x bowel movements per week to 1-2x per day
 
 ## 2024-10-22 · Water/electrolyte fasting; nicergoline
@@ -2921,6 +3441,10 @@ Temporary improvement during two week-long fasts, stronger when taking nicergoli
 Report date only · see original report times; event can precede report · patient report · Report dated 2024-10-22
 
 Source: response:S1-F428-1 · S1:428-428
+
+- [Diet history](../diet.html#intervention:5dde6bfa-b97a-5e1a-a9b3-3f3262c07ba8)
+
+- [Intervention](../treatment-ee6f5b64-7d50-5fcd-8c19-5e26dc8096f2.html)
 
 S1:428-428 · Recalled two weeklong water-and-electrolyte fasts. The first, during nicergoline use, brought substantial temporary improvement; improvement was much milder on the second fast without nicergoline.
 
@@ -3047,6 +3571,10 @@ adverse · First documented on October 23; onset across October 22–23 unresolv
 
 Source: response:S5-R-EO15-1 · S5:2071-2071, Q-NADH-PHENOTYPE, The S5 calendar diary dates NADH initiation to the evening of October 21, 2024, excess NADH to October 22, and the first documented physical crash to October 23. Magnesium followed NADH by about five hours. The exact onset across the night of October 22–23 is unresolved. The clinician identifies the October 23 “magnesium poisoning” entry as new deep muscle fatigue. The October 25 account describes progressive sleepiness and weakness, unusually good sleep, near-paralysis the next day, muscle cramps, and tingling without the usual pains. On November 2 the patient explicitly contrasted prior movement limitation during brain burning with fatigue now felt directly in the muscles, including when the brain burning was absent.
 
+- [Course detail](../courses/44b32159-76c8-55fe-ac48-80f6c4554167.html)
+
+- [Intervention](../treatment-4863b7ca-16f3-5128-9034-cac865754888.html)
+
 S5:2071-2071 · Notes: The patient suspected magnesium poisoning. He reported drinking too much NADH the preceding day, then magnesium five hours later, after which 'this happened'. The note does not specify the event's symptoms. Otherwise he slept fairly well. [EO15]
 
 Q-NADH-PHENOTYPE · The clinician identified the pre-NADH crashes as neurological PENE or brain-burning episodes. Pain could limit movement or speech. The diary also contains generic lack-of-strength ratings. The distinctive deep muscle fatigue and physical PEM first appeared after NADH. The clinician identifies the October 23 “magnesium poisoning” entry as new deep muscle fatigue. The October 25 account describes progressive sleepiness and weakness, unusually good sleep, near-paralysis the next day, muscle cramps, and tingling without the usual pains. On November 2 the patient explicitly contrasted prior movement limitation during brain burning with fatigue now felt directly in the muscles, including when the brain burning was absent. S6 clarifies phenotype. Retrospective reports supply additional symptoms. Magnesium poisoning was a patient hypothesis. Exact dose and mechanism remain uncertain. S3:symptom:013 separately describes later CNS shutdown without muscle fatigue.
@@ -3060,6 +3588,8 @@ The patient initially suspected magnesium during the first post-NADH crash. The 
 adverse · First documented on October 23; onset across October 22–23 unresolved. · patient hypothesis; unconfirmed · Report dated 2024-10-23 · Attribution uncertain across exposures
 
 Source: response:S5-R-EO15-2 · S5:2071-2071, Q-NADH-PHENOTYPE, The S5 calendar diary dates NADH initiation to the evening of October 21, 2024, excess NADH to October 22, and the first documented physical crash to October 23. Magnesium followed NADH by about five hours. The exact onset across the night of October 22–23 is unresolved. The clinician identifies the October 23 “magnesium poisoning” entry as new deep muscle fatigue. The October 25 account describes progressive sleepiness and weakness, unusually good sleep, near-paralysis the next day, muscle cramps, and tingling without the usual pains. On November 2 the patient explicitly contrasted prior movement limitation during brain burning with fatigue now felt directly in the muscles, including when the brain burning was absent.
+
+- [Intervention](../treatment-78b5614f-c3ad-56d6-8ce8-413c90e3fb6a.html)
 
 S5:2071-2071 · Notes: The patient suspected magnesium poisoning. He reported drinking too much NADH the preceding day, then magnesium five hours later, after which 'this happened'. The note does not specify the event's symptoms. Otherwise he slept fairly well. [EO15]
 
@@ -3108,6 +3638,10 @@ documented course
 
 Source: course:a070ea34-22cf-5ff7-a89b-0d5e45914b69 · treatment_intervals:NADH-I-retrial, archive_messages:S1-M2480, archive_messages:S1-M1899, baseline_states:BL-08, annotations:S6-ANN-EU15, archive_messages:S1-M2509
 
+- [Course detail](../courses/a070ea34-22cf-5ff7-a89b-0d5e45914b69.html)
+
+- [Intervention](../treatment-4863b7ca-16f3-5128-9034-cac865754888.html)
+
 Course actions
 
 - 2024-10-25 · Restart · Restart reported the following evening; time and quantity unrecorded.
@@ -3135,6 +3669,8 @@ Report date only · Possible association
 
 Source: response-evidence:archive_messages:S1-M1658 · archive_messages:S1-M1658, claim:7b9150ae-0747-5f0d-8523-fbca21253fec
 
+- [NC NADH-containing formulation (composition unverified)](../treatment-4863b7ca-16f3-5128-9034-cac865754888.html)
+
 ## 2024-10-26 · Potato, egg and beetroot meal left out in the afternoon
 
 Response
@@ -3144,6 +3680,8 @@ Rash reaction and abdominal pain followed the usual meal that had been left out.
 adverse · dated diary account, see wording for timing · temporal association; unconfirmed · Report dated 2024-10-26
 
 Source: response:S5-R-ER15-1 · S5:2113-2113
+
+- [Diet history](../diet.html#intervention:f5e7fb85-30cb-56cf-863e-6a4d5a2cf9ed)
 
 S5:2113-2113 · Notes: A difficult start in the morning with dizziness/brain fog, but it cleared by the afternoon and the day was fairly good. My hands and feet were not cold. However, I had a rash reaction and abdominal pain after the usual potato, egg and beetroot meal, which I had left out during the afternoon. [ER15]
 
@@ -3167,6 +3705,8 @@ Report date only · Possible association
 
 Source: response-evidence:archive_messages:S1-M2480 · archive_messages:S1-M2480, claim:77aea480-e0aa-514e-89cc-4ba4278f89c8
 
+- [NC NADH-containing formulation (composition unverified)](../treatment-4863b7ca-16f3-5128-9034-cac865754888.html)
+
 ## 2024-10-29 · Previous-evening overexertion
 
 Response
@@ -3176,6 +3716,8 @@ On October 29 he woke with numb or weak arms, especially around the shoulders an
 adverse · Response documented on diary date after the earlier exposure stated in the account. · patient hypothesis; unconfirmed · Report dated 2024-10-29
 
 Source: response:S5-R-EU15-1 · S5:2141-2141, Q-NADH-PHENOTYPE
+
+- [Intervention](../index.html)
 
 S5:2141-2141 · Notes: Numb/weak arms after waking, especially the shoulders and hands. I could get up after one hour. Worse today, probably because I overdid things last evening, in the patient's interpretation. [EU15]
 
@@ -3205,6 +3747,10 @@ Early metformin trial recalled without obvious benefit. The patient separately r
 Report date only · see original report times; event can precede report · patient report · Report dated 2024-11-04 · Patient-reported
 
 Source: response:S1-F3199-1 · S1:3199-3199, S1:15728-15728, Early trials recalled as providing no obvious benefit. Separately recalled worse sleep soon after metformin during the acute infection, limiting dose escalation.
+
+- [Intervention](../treatment-0c7e2040-6bf9-5577-9a66-395264290c80.html)
+
+- [Intervention](../treatment-40cc4b10-8133-5b92-b4d5-18a4732c1d95.html)
 
 S1:3199-3199 · i may still have some berberine
 
@@ -3254,6 +3800,8 @@ Specimen collection · specialty assay
 
 Source: reports:S4-R20 · S4-R20
 
+- [Biomarker results](../biomarkers.html#report-S4-R20)
+
 ## 2024-11-27 · Off by 2024-12-01 · L-ornithine-L-aspartate
 
 Intervention
@@ -3263,6 +3811,10 @@ On December 1, 2024 the patient said the LOLA experiment had already stopped. De
 documented course
 
 Source: course:66f50a5b-eaa3-592c-8c01-14f9b722a02e · treatment_intervals:EARLY-I-S3:T:593:1
+
+- [Course detail](../courses/66f50a5b-eaa3-592c-8c01-14f9b722a02e.html)
+
+- [Intervention](../treatment-19763eb0-4443-5f5d-a349-2872010162d1.html)
 
 Course actions
 
@@ -3281,6 +3833,8 @@ Source: response:S3:treatment_response:235 · S3:235-237, * L-ornithine-L-aspart
 * as dose went up, brain burns linearly increased in severity, up to a point when I crashed hard → PEM possibly got worse afterwards
 * suggests brain burns are related to glutamine buildup/osmotic swelling, course:66f50a5b-eaa3-592c-8c01-14f9b722a02e
 
+- [Intervention](../treatment-19763eb0-4443-5f5d-a349-2872010162d1.html)
+
 S3:235-237 · * L-ornithine-L-aspartate ?
 * as dose went up, brain burns linearly increased in severity, up to a point when I crashed hard → PEM possibly got worse afterwards
 * suggests brain burns are related to glutamine buildup/osmotic swelling
@@ -3295,6 +3849,8 @@ Specimen collection · commercial microbiome profile
 
 Source: reports:S4-R19 · S4-R19
 
+- [Biomarker results](../biomarkers.html#report-S4-R19)
+
 ## 2024-11-28 · LOLA; L-ornithine
 
 Response
@@ -3304,6 +3860,10 @@ During the November LOLA titration the patient reported fog, slowed visual perce
 Report date only · see original report times; event can precede report · patient report · Report dated 2024-11-28 · Patient-reported · Possible association
 
 Source: response:S1-F6434-1 · S1:6434-6434, S1:7028-7028, S1:11516-11516, S1:37260-37260, At higher reported LOLA doses, severe fog, delayed visual perception and head burning/pressure. Symptoms could precede morning dosing. Reported stopping by Dec 1; later considered its contribution less certain than the NADH episode.
+
+- [Intervention](../treatment-19763eb0-4443-5f5d-a349-2872010162d1.html)
+
+- [Intervention](../treatment-77912497-a53f-5ffa-b7ce-7ec1d213e8f9.html)
 
 S1:6434-6434 · have been having strong brain fog/burns since i woke up. not sure if related to LOLA (at 3x1.5g of each now). it's a strong dizziness/slow-mo/fog. i move my eyes and vision is laggy/delayed. some burn/pressure behind eyes/frontal cortex and in band around head. [to be clear, it started well before i took my first LOLA today]
 
@@ -3323,6 +3883,8 @@ Report date only · Patient-reported
 
 Source: response-evidence:archive_messages:S1-M7992 · archive_messages:S1-M7992, claim:alginite-s1-7992
 
+- [Alginite](../treatment-ed7efb4b-56a4-5d02-a103-65cccb95158f.html)
+
 ## 2024-12-07 · Epitalon
 
 Response
@@ -3332,6 +3894,8 @@ Recalled no benefit from nasal spray.
 Report date only · see original report times; event can precede report · patient report · Report dated 2024-12-07
 
 Source: response:S1-F8160-1 · S1:8160-8160, S1:8190-8190
+
+- [Intervention](../treatment-6e0a13bd-1158-5fb5-b666-8f8b986e2ad0.html)
 
 S1:8160-8160 · KPV capsules relieved constipation while he took them for several days. He recalled no benefit from an Epithalon nasal spray.
 
@@ -3379,6 +3943,10 @@ documented course
 
 Source: course:8966c892-354d-5983-94aa-30f80d74f64a · treatment_intervals:EARLY-I-S3:T:611:1, archive_messages:S1-M13205, archive_messages:S1-M10616
 
+- [Course detail](../courses/8966c892-354d-5983-94aa-30f80d74f64a.html)
+
+- [Intervention](../treatment-1dd4afe1-c223-5e32-8afd-7e920d130239.html)
+
 Course actions
 
 - 2024-12-27 · Start
@@ -3409,6 +3977,8 @@ reported use · day
 
 Source: intervention_events:S3:T:612:1 · S3:612–612
 
+- [Intervention](../treatment-8d7f9654-5ec4-5d4e-ab5e-50ebacf26088.html)
+
 S3:612–612 · * 31: NeilMed + boric acid + betadine sinus rinses, incredibly painful jolt from nose to back of head (note that back of head pain didn’t start here)
 
 ## 2024-12-31 · Betadine / Boric acid / NeilMed
@@ -3420,6 +3990,12 @@ On December 31 a NeilMed rinse with boric acid and Betadine was followed by nasa
 Attribution uncertain across exposures
 
 Source: response-evidence:historical_entries:S3:chronology:612 · historical_entries:S3:chronology:612, claim:40b51c1c-5ee0-5262-8129-be7346c8be2e, claim:b3606aa9-ed8f-500e-978f-1c9eb3779d55, claim:c74df490-a6cf-5bea-8bf1-0220477be786
+
+- [Betadine](../treatment-d41171a7-77c9-598a-a5c1-1a0e6217660d.html)
+
+- [Boric acid](../treatment-a1e2cfca-e4aa-532c-8495-9e079762b8c8.html)
+
+- [NeilMed](../treatment-8d7f9654-5ec4-5d4e-ab5e-50ebacf26088.html)
 
 ## Treatment context (response date unknown): 2024-12-31; 2025-02-20 · Stopped 2025-02-21 · various sinus rinses, nasal sprays
 
@@ -3433,6 +4009,12 @@ Source: response:S3:treatment_response:222 · S3:222-225, * various sinus rinses
 * anything slightly antimicrobial in nose resulted in massive pain going from nose all the way to back of head, followed by violent herx PEM crashes
 * tried: NeilMed rinses, eucalyptol terpenes, antiviral prophylactic nasal sprays (even the gentlest one made sinuses hurt like hell)
 * repeat NeilMed rinses after NADH likely caused extreme worsening in the winter, intervention_events:S3:T:612:1, course:481c79d8-c140-5084-ad58-bb526b415dd8
+
+- [Intervention](../regimens.html#intervention:6393b8c2-841d-520f-a578-763d2789363a)
+
+- [Intervention](../treatment-7571fe6e-3ff5-5b39-a715-70d980e8f19a.html)
+
+- [Intervention](../treatment-8d7f9654-5ec4-5d4e-ab5e-50ebacf26088.html)
 
 S3:222-225 · * various sinus rinses, nasal sprays ?
 * anything slightly antimicrobial in nose resulted in massive pain going from nose all the way to back of head, followed by violent herx PEM crashes
@@ -3468,6 +4050,10 @@ documented course
 
 Source: course:41557d2d-c52f-5211-9795-33d352c0d841 · treatment_intervals:S3:T:616:1-I
 
+- [Course detail](../courses/41557d2d-c52f-5211-9795-33d352c0d841.html)
+
+- [Intervention](../treatment-77912497-a53f-5ffa-b7ce-7ec1d213e8f9.html)
+
 Course actions
 
 - 2025-01-03 – 2025-01-12 · Reported course
@@ -3485,6 +4071,10 @@ January start, short May interruption and restart, confirmed July 10 use and Jul
 documented course
 
 Source: course:74d6aeb5-fc24-577f-bb7f-b1d9194c40a9 · treatment_intervals:EARLY-I-S3:T:615:1
+
+- [Course detail](../courses/74d6aeb5-fc24-577f-bb7f-b1d9194c40a9.html)
+
+- [Intervention](../treatment-74ec198a-8b12-5e37-ba3e-12c10e477658.html)
 
 Course actions
 
@@ -3519,6 +4109,8 @@ Patient-reported
 
 Source: response-evidence:historical_entries:S3:chronology:616 · historical_entries:S3:chronology:616, claim:a1ddc460-99b0-5e47-8a56-8b0ed8984d96
 
+- [L-ornithine](../treatment-77912497-a53f-5ffa-b7ce-7ec1d213e8f9.html)
+
 ## Treatment context (response date unknown): 2025-01-03 · Supply exhausted 2025-07-11; In use by 2025-07-20 · Supply exhausted 2025-08-11; 2025-08-21 · Reported end 2025-12-19; In use by 2026-10-16 · Ongoing at review · rupatadine 10mg
 
 Response
@@ -3528,6 +4120,8 @@ Response
 some benefit · undated retrospective history · patient retrospective
 
 Source: response:S3:treatment_response:204 · S3:204-204, course:74d6aeb5-fc24-577f-bb7f-b1d9194c40a9, course:12d343a3-e968-53d5-a42c-5c81d4bdaa0c, course:2a96366c-8b27-50f7-bd57-f3b7df4c2204, course:pz67-rupatadine-in-use-by-2026-10-16
+
+- [Intervention](../treatment-74ec198a-8b12-5e37-ba3e-12c10e477658.html)
 
 S3:204-204 · * rupatadine 10mg: helped with sudden anger outbursts, likely calming MCAS
 
@@ -3540,6 +4134,10 @@ Dated reported start and stop. Unrecorded interruptions are possible.
 documented course
 
 Source: course:8c636a83-7482-53d6-826d-2e6a3c964b69 · treatment_intervals:EARLY-I-S3:T:618:1
+
+- [Course detail](../courses/8c636a83-7482-53d6-826d-2e6a3c964b69.html)
+
+- [Intervention](../treatment-a8c9abf5-7a89-5616-b72b-6da8fa61b76b.html)
 
 Course actions
 
@@ -3562,6 +4160,10 @@ documented course
 
 Source: course:96d6cecd-250d-5066-87ec-221140b39aee · treatment_intervals:EARLY-I-S3:T:619:1
 
+- [Course detail](../courses/96d6cecd-250d-5066-87ec-221140b39aee.html)
+
+- [Intervention](../treatment-45bff719-d47e-568f-bc40-bbda18989d5b.html)
+
 Course actions
 
 - 2025-01-08 · Start · 2 x 250–500 mg
@@ -3577,6 +4179,8 @@ some benefit · undated retrospective history · patient retrospective
 
 Source: response:S3:treatment_response:198 · S3:198-198, course:8c636a83-7482-53d6-826d-2e6a3c964b69
 
+- [Intervention](../treatment-a8c9abf5-7a89-5616-b72b-6da8fa61b76b.html)
+
 S3:198-198 · * Arterosil: mild improvement in cold extremities
 
 ## In use by 2025-01-09 · Hospital interruption by 2025-03-25 · Glycine
@@ -3588,6 +4192,10 @@ First recorded 3 g dose January 9, with earlier use recalled January 25. The Mar
 documented course
 
 Source: course:92a56ae9-69e0-589d-9026-317b41a6dd28 · archive_messages:S1-M12242
+
+- [Course detail](../courses/92a56ae9-69e0-589d-9026-317b41a6dd28.html)
+
+- [Intervention](../treatment-48ef78ec-867f-5e5e-95ec-c23574784bf4.html)
 
 Course actions
 
@@ -3619,6 +4227,10 @@ documented course
 
 Source: course:af734740-7545-53af-9e9f-00fc2921f613 · treatment_intervals:HIST-I-620-626
 
+- [Course detail](../courses/af734740-7545-53af-9e9f-00fc2921f613.html)
+
+- [Intervention](../treatment-042ee463-2347-595d-9bc0-edf52edf7a23.html)
+
 Course actions
 
 - 2025-01-09 · Start · 3 x 4.5 g
@@ -3649,6 +4261,10 @@ Report date only · see original report times; event can precede report · patie
 
 Source: response:S1-F12108-1 · S1:12108-12114, S1:12434-12457
 
+- [Intervention](../treatment-45bff719-d47e-568f-bc40-bbda18989d5b.html)
+
+- [Intervention](../treatment-9d881286-e883-59f4-8e5e-7ca0465ade0b.html)
+
 S1:12108-12114 · update#1:
 - low BP in the morning (all day? haven't measured), cold feet/hands all day
 - continued on with L-ornithine as my appt tmrw got pushed out by 2w […]
@@ -3667,6 +4283,12 @@ some benefit · undated retrospective history · patient retrospective
 
 Source: response:S3:treatment_response:205 · S3:205-205, course:51108ae7-c760-5aa6-9b83-e5760c4f8587, course:594be1d6-1907-56b4-80ff-4d98451cf176, course:5976e02c-8945-5844-b123-b94b67e74f05, course:61181b9c-90b5-51a1-b612-7c2e4a04e020, course:1bace627-1098-5544-a889-97fb97965b1f, course:b18276f0-d233-5c69-b121-6044de8ec4df, course:7c72146b-04d5-5b08-97c7-270bbd0b42bc, course:92a56ae9-69e0-589d-9026-317b41a6dd28
 
+- [Intervention](../treatment-089d2d33-d206-5989-8566-261529788191.html)
+
+- [Intervention](../treatment-48ef78ec-867f-5e5e-95ec-c23574784bf4.html)
+
+- [Intervention](../treatment-dbde5ff1-daa4-5e19-80d1-23092b2728d5.html)
+
 S3:205-205 · * Magtein + glycine + L-theanine: improved sleep slightly
 
 ## 2025-01-10 · NC vitamin B complex · Dose taken
@@ -3678,6 +4300,8 @@ small dose
 reported use · same day inferred from wording and chat
 
 Source: intervention_events:S1-C12434-3 · S1:12434–12457
+
+- [Intervention](../treatment-e7f4dc7c-979d-568d-8bba-10f1b4d97228.html)
 
 S1:12434–12457 · update#3:
 - skipping non-NC L-cysteine to see reaction to burns
@@ -3692,6 +4316,8 @@ Action
 
 
 Source: unassigned-actions:intervention:8a56f798-596a-5cd9-9a78-1aad4a276b96:2025
+
+- [Intervention](../treatment-8a56f798-596a-5cd9-9a78-1aad4a276b96.html)
 
 - 2025-01-10 · Dose taken · 1/4 patch
 
@@ -3708,6 +4334,8 @@ Action
 
 
 Source: unassigned-actions:intervention:e0fc268e-a619-52a4-9b63-4bc8b904f06c:2025
+
+- [Intervention](../treatment-e0fc268e-a619-52a4-9b63-4bc8b904f06c.html)
 
 - 2025-01-10 · Hold
 
@@ -3729,6 +4357,8 @@ Report date only · Patient-reported
 
 Source: response-evidence:archive_messages:S1-M13205 · archive_messages:S1-M13205, claim:3982c5b4-e3d7-5eb9-95d2-e81c794ff20f
 
+- [KPV](../treatment-1dd4afe1-c223-5e32-8afd-7e920d130239.html)
+
 ## 2025-01-23 · Carnitine
 
 Response
@@ -3738,6 +4368,8 @@ Reported brief energy surges after some doses; estimated onset about an hour and
 Report date only · see original report times; event can precede report · patient report · Report dated 2025-01-23
 
 Source: response:S1-F13723-1 · S1:13723-13723, S1:14085-14085
+
+- [Intervention](../treatment-042ee463-2347-595d-9bc0-edf52edf7a23.html)
 
 S1:13723-13723 · i did have a surge of energy last night after taking the third dose of carnitine. i wonder if that was a fluke or something. made me go to bed at 2am. i didn't feel anything after my morning dose, still having some PEM from the little sleep and the overdrive last night.
 
@@ -3752,6 +4384,8 @@ Action
 
 
 Source: unassigned-actions:intervention:78b5614f-c3ad-56d6-8ce8-413c90e3fb6a:2025
+
+- [Intervention](../treatment-78b5614f-c3ad-56d6-8ce8-413c90e3fb6a.html)
 
 - 2025-01-26 · Missed · before sleep
 
@@ -3773,6 +4407,10 @@ documented course
 
 Source: course:26b3ff47-672c-5816-8501-d518a0e630ee · treatment_intervals:EARLY-I-S1-C14733-1
 
+- [Course detail](../courses/26b3ff47-672c-5816-8501-d518a0e630ee.html)
+
+- [Intervention](../treatment-2630124d-474e-5495-b4dc-c6a3cece69d8.html)
+
 Course actions
 
 - 2025-01-27 · Ran out
@@ -3788,6 +4426,8 @@ reported change · consecutive sequence aligned to dated posts
 
 Source: intervention_events:S1-C15216-1 · S1:15216–15233
 
+- [Intervention](../treatment-2630124d-474e-5495-b4dc-c6a3cece69d8.html)
+
 S1:15216–15233 · update#16: [NB: switching to sending stats of sleep that follows the day instead of preceding it (so last night instead of last-last night), so including both here]
 - how i felt waking up: woke too early, not rested
 - PEM: unsure if evening crash was PEM or burns, see below […]
@@ -3801,6 +4441,10 @@ Generic berberine was recorded January 30; the brand was unspecified then. The M
 documented course
 
 Source: course:6087aa3f-a7ae-5db3-9d68-e13c248a1673 · treatment_intervals:EARLY-I-S1-C15447-1
+
+- [Course detail](../courses/6087aa3f-a7ae-5db3-9d68-e13c248a1673.html)
+
+- [Intervention](../treatment-0c7e2040-6bf9-5577-9a66-395264290c80.html)
 
 Course actions
 
@@ -3823,6 +4467,8 @@ some benefit · undated retrospective history · patient retrospective
 
 Source: response:S3:treatment_response:199 · S3:199-199, course:6087aa3f-a7ae-5db3-9d68-e13c248a1673, course:2252d3ff-8e45-5736-8d4e-ae1d16698a9d
 
+- [Intervention](../treatment-0c7e2040-6bf9-5577-9a66-395264290c80.html)
+
 S3:199-199 · * berberine (0.5g pythosome + 4g HCl): massively helped sudden hunger spikes and glucose crashes
 
 ## Recorded 2025-01-31 – 2025-06-16 · Berberine
@@ -3834,6 +4480,8 @@ Action
 
 
 Source: unassigned-actions:intervention:0c7e2040-6bf9-5577-9a66-395264290c80:2025
+
+- [Intervention](../treatment-0c7e2040-6bf9-5577-9a66-395264290c80.html)
 
 - 2025-01-31 · Dose taken · 500 mg twice daily
 
@@ -3851,6 +4499,8 @@ Report date only · Attribution uncertain across exposures
 
 Source: response-evidence:archive_findings:S1-F2-15467 · archive_findings:S1-F2-15467, claim:60660ffa-0e6a-5ab7-8560-ad6d85f19006
 
+- [Nicotine patch](../treatment-8a56f798-596a-5cd9-9a78-1aad4a276b96.html)
+
 ## 2025-02-01 · Off by 2025-03-19 · Nicotine patch
 
 Intervention
@@ -3860,6 +4510,10 @@ February patch supply had run out by March 19. Nicotine was used again by March 
 documented course
 
 Source: course:8719f0ea-39fb-5ea2-91af-c63eec24e40c · treatment_intervals:EARLY-I-S3:T:623:1
+
+- [Course detail](../courses/8719f0ea-39fb-5ea2-91af-c63eec24e40c.html)
+
+- [Intervention](../treatment-8a56f798-596a-5cd9-9a78-1aad4a276b96.html)
 
 Course actions
 
@@ -3906,6 +4560,8 @@ some benefit · undated retrospective history · patient retrospective
 
 Source: response:S3:treatment_response:195 · S3:195-195, course:8719f0ea-39fb-5ea2-91af-c63eec24e40c, course:0eb7330a-27a7-55df-a6fc-dd75cdc971b0, course:c78530b3-df04-52f9-8b44-5041c9a09bc2
 
+- [Intervention](../treatment-8a56f798-596a-5cd9-9a78-1aad4a276b96.html)
+
 S3:195-195 · * nicotine patch (1/2): helps w PEM/energy a little → stopped
 
 ## 2025-02-05 – 2025-02-25 · Conversation and writing triggered major crashes
@@ -3934,6 +4590,10 @@ documented course
 
 Source: course:b90734f1-7424-5c4b-8089-cdc9a6ff9207 · treatment_intervals:EARLY-I-S3:T:624:1
 
+- [Course detail](../courses/b90734f1-7424-5c4b-8089-cdc9a6ff9207.html)
+
+- [Intervention](../treatment-65a94162-e516-5a24-87f2-325defe1365c.html)
+
 Course actions
 
 - 2025-02-06 · Start
@@ -3961,6 +4621,8 @@ reported use · consecutive sequence aligned to dated posts
 
 Source: intervention_events:S1-C18314-1 · S1:18314–18326
 
+- [Intervention](../treatment-e690ad16-1fa5-5965-8e8b-f1f24eeb307e.html)
+
 S1:18314–18326 · update#26:
 - rating (1-10): 2
 - sleep (following day): bit tired […]
@@ -3975,6 +4637,8 @@ reported use · consecutive sequence aligned to dated posts
 
 Source: intervention_events:PZ73-S1-L18655-FL11-dbde5ff1 · S1:18667–18667
 
+- [Intervention](../treatment-dbde5ff1-daa4-5e19-80d1-23092b2728d5.html)
+
 S1:18667–18667 · - changes: started moly 150mcg; forgot to take off patch in time; l-theanine evening
 
 ## 2025-02-09 · Hospital interruption by 2025-03-25 · Molybdenum
@@ -3986,6 +4650,10 @@ The patient considers the May 29 molybdenum depletion probably correct. Post-hos
 documented course
 
 Source: course:213d6109-bd1c-5468-bf18-d7a82e0dc233 · treatment_intervals:EARLY-I-S1-C18655-1
+
+- [Course detail](../courses/213d6109-bd1c-5468-bf18-d7a82e0dc233.html)
+
+- [Intervention](../treatment-251bf018-9605-5864-8423-1e6ac6021730.html)
 
 Course actions
 
@@ -4001,6 +4669,8 @@ Action
 
 
 Source: unassigned-actions:intervention:86037a32-6743-504f-b8b3-6bc00c7de86d:2025
+
+- [Intervention](../treatment-86037a32-6743-504f-b8b3-6bc00c7de86d.html)
 
 - 2025-02-11 · Missed · Missed with the evening regimen on 2025-02-11, as listed in the diary.
 
@@ -4018,6 +4688,8 @@ Action
 
 Source: unassigned-actions:intervention:65a94162-e516-5a24-87f2-325defe1365c:2025
 
+- [Intervention](../treatment-65a94162-e516-5a24-87f2-325defe1365c.html)
+
 - 2025-02-12 · Missed · after breakfast
 
 - 2025-03-17 · Dose increase · double dose
@@ -4031,6 +4703,8 @@ Action
 
 
 Source: unassigned-actions:intervention:afc086dc-ade8-52b4-a817-a912f0c4e380:2025
+
+- [Intervention](../treatment-afc086dc-ade8-52b4-a817-a912f0c4e380.html)
 
 - 2025-02-14 · Reported use
 
@@ -4052,6 +4726,10 @@ documented course
 
 Source: course:6f768519-cb19-5343-9f53-ad19b347825a · treatment_intervals:HIST-I-631-634
 
+- [Course detail](../courses/6f768519-cb19-5343-9f53-ad19b347825a.html)
+
+- [Intervention](../treatment-80a90a79-4d64-528d-8065-45d7cc732c9a.html)
+
 Course actions
 
 - 2025-02-14 · Start · 500 mg
@@ -4070,6 +4748,10 @@ documented course
 
 Source: course:bc96c0be-cc5a-50c4-8465-4ec82465883a · treatment_intervals:EARLY-I-S1-C20272-3
 
+- [Course detail](../courses/bc96c0be-cc5a-50c4-8465-4ec82465883a.html)
+
+- [Intervention](../treatment-9e568003-bfc4-5ffa-af18-81f327e644a4.html)
+
 Course actions
 
 - 2025-02-14 · Start · 500 mg
@@ -4084,6 +4766,10 @@ The patient estimates about two weeks after the February 14 start, placing the e
 documented course
 
 Source: course:f304fe03-b805-545e-b94f-bcdb460eb81c · treatment_intervals:EARLY-I-S1-C20272-2
+
+- [Course detail](../courses/f304fe03-b805-545e-b94f-bcdb460eb81c.html)
+
+- [Intervention](../treatment-afc086dc-ade8-52b4-a817-a912f0c4e380.html)
 
 Course actions
 
@@ -4100,6 +4786,8 @@ no clear benefit · undated retrospective history · patient retrospective
 
 Source: response:S3:treatment_response:292 · S3:292-292, course:6f768519-cb19-5343-9f53-ad19b347825a, course:f6b0b188-ac00-558b-9ba5-d17ee4d490ee
 
+- [Intervention](../treatment-80a90a79-4d64-528d-8065-45d7cc732c9a.html)
+
 S3:292-292 · * meldonium
 
 ## Recorded 2025-02-15 – 2025-02-17 · NC GABA (experimental nanocarrier)
@@ -4111,6 +4799,8 @@ Action
 
 
 Source: unassigned-actions:intervention:191f76dc-f47d-526d-a303-5f8c82683d80:2025
+
+- [Intervention](../treatment-191f76dc-f47d-526d-a303-5f8c82683d80.html)
 
 - 2025-02-15 · Dose taken · 2 x 5 mL
 
@@ -4125,6 +4815,10 @@ The patient confirms a short trial of about two days beginning February 15. The 
 documented course
 
 Source: course:690b705f-e8f8-53f4-b2a9-c2771690f0dd · treatment_intervals:HIST-I-635-639
+
+- [Course detail](../courses/690b705f-e8f8-53f4-b2a9-c2771690f0dd.html)
+
+- [Intervention](../treatment-191f76dc-f47d-526d-a303-5f8c82683d80.html)
 
 Course actions
 
@@ -4147,6 +4841,8 @@ no clear benefit · undated retrospective history · patient retrospective
 
 Source: response:S3:treatment_response:319 · S3:319-319, course:690b705f-e8f8-53f4-b2a9-c2771690f0dd
 
+- [Intervention](../treatment-191f76dc-f47d-526d-a303-5f8c82683d80.html)
+
 S3:319-319 · * GABA
 
 ## 2025-02-20 · Stopped 2025-02-21 · Eucalyptol
@@ -4158,6 +4854,10 @@ Shared eucalyptol/beta-caryophyllene inhalation trial, 2025-02-20 to 2025-02-21.
 documented course
 
 Source: course:481c79d8-c140-5084-ad58-bb526b415dd8 · treatment_intervals:HIST-I-646-647
+
+- [Course detail](../courses/481c79d8-c140-5084-ad58-bb526b415dd8.html)
+
+- [Intervention](../treatment-7571fe6e-3ff5-5b39-a715-70d980e8f19a.html)
 
 Course actions
 
@@ -4177,6 +4877,10 @@ documented course
 
 Source: course:be62fd53-272a-5bae-9cc7-a283cd5732bf · pz_shared_course_component:course:be62fd53-272a-5bae-9cc7-a283cd5732bf
 
+- [Course detail](../courses/be62fd53-272a-5bae-9cc7-a283cd5732bf.html)
+
+- [Intervention](../treatment-b3cffd95-ae11-5b1d-9342-a9e2f5c08f46.html)
+
 ## 2025-02-22 · Estimated end 2025-05-22 · CranRich
 
 Intervention
@@ -4186,6 +4890,10 @@ The patient estimates about three months after the February 22 CranRich start, o
 documented course
 
 Source: course:04457c8b-3d82-5318-afe6-8aeaa048a88c · treatment_intervals:EARLY-I-S1-C23041-1
+
+- [Course detail](../courses/04457c8b-3d82-5318-afe6-8aeaa048a88c.html)
+
+- [Intervention](../treatment-c172ea0b-1e16-50f9-93cc-73dddbb95b8c.html)
 
 Course actions
 
@@ -4202,6 +4910,10 @@ documented course
 
 Source: course:51108ae7-c760-5aa6-9b83-e5760c4f8587 · treatment_intervals:EARLY-I-S1-C23041-2
 
+- [Course detail](../courses/51108ae7-c760-5aa6-9b83-e5760c4f8587.html)
+
+- [Intervention](../treatment-089d2d33-d206-5989-8566-261529788191.html)
+
 Course actions
 
 - 2025-02-22 · Restart
@@ -4216,6 +4928,10 @@ first reported start through reported stop or supply exhaustion; duration betwee
 documented course
 
 Source: course:7f107046-8249-5699-b6ac-c88b0e13ac13 · treatment_intervals:S1-I23442-27005
+
+- [Course detail](../courses/7f107046-8249-5699-b6ac-c88b0e13ac13.html)
+
+- [Intervention](../treatment-6a367e0f-3e4b-57f4-a9b2-06b4b9595cdb.html)
 
 Course actions
 
@@ -4238,6 +4954,8 @@ no clear benefit · undated retrospective history · patient retrospective
 
 Source: response:S3:treatment_response:318 · S3:318-318, course:7f107046-8249-5699-b6ac-c88b0e13ac13
 
+- [Intervention](../treatment-6a367e0f-3e4b-57f4-a9b2-06b4b9595cdb.html)
+
 S3:318-318 · * lazatotide
 
 ## 2025-02-25 · Intermittent use · L-theanine
@@ -4249,6 +4967,10 @@ L-theanine is taken intermittently for agitation. February 25 is a documented us
 documented course
 
 Source: course:61181b9c-90b5-51a1-b612-7c2e4a04e020 · treatment_intervals:EARLY-I-S1-C23463-1
+
+- [Course detail](../courses/61181b9c-90b5-51a1-b612-7c2e4a04e020.html)
+
+- [Intervention](../treatment-dbde5ff1-daa4-5e19-80d1-23092b2728d5.html)
 
 Course actions
 
@@ -4265,6 +4987,8 @@ Report date only · see original report times; event can precede report · patie
 
 Source: response:S1-F23634-1 · S1:23634-23634
 
+- [Diet history](../diet.html#intervention:c4f928b5-7c78-5e08-9ef0-4da9f3fbf09e)
+
 S1:23634-23634 · i did try carnivore for a few months at the start of my lc and it didn't make me feel better either. not sure it made me worse though
 
 ## 2025-02-27 · Hospital interruption by 2025-03-25 · ProdromeGlia plasmalogens
@@ -4276,6 +5000,10 @@ The February course was interrupted during hospitalization by March 25. A new su
 documented course
 
 Source: course:a2631582-7678-5c56-b7ca-f5cbd207846a · treatment_intervals:EARLY-I-S1-C24039-1
+
+- [Course detail](../courses/a2631582-7678-5c56-b7ca-f5cbd207846a.html)
+
+- [Intervention](../treatment-854a227e-b94d-5159-abb6-fb4f9a1967c4.html)
 
 Course actions
 
@@ -4292,6 +5020,8 @@ no clear benefit · undated retrospective history · patient retrospective
 
 Source: response:S3:treatment_response:320 · S3:320-320, course:a2631582-7678-5c56-b7ca-f5cbd207846a, course:aae1c13f-6162-5c2d-8d4c-1e3c332a9a5e
 
+- [Intervention](../treatment-854a227e-b94d-5159-abb6-fb4f9a1967c4.html)
+
 S3:320-320 · * plasmalogens 4 caps
 
 ## Recorded 2025-02-28 · ProdromeGlia plasmalogens
@@ -4304,26 +5034,11 @@ Action
 
 Source: unassigned-actions:intervention:854a227e-b94d-5159-abb6-fb4f9a1967c4:2025
 
+- [Intervention](../treatment-854a227e-b94d-5159-abb6-fb4f9a1967c4.html)
+
 - 2025-02-28 · Dose taken · 4 Prodrome capsules
 
 - 2025-02-28 · Increase · 4 capsules (1800 mg)
-
-## 2025-03 · Hospital SARS-CoV-2 spike IgG
-
-Test
-
-During the March 2025 admission the patient reported a spike antibody level of 25,000; the retrospective history gives >25,000.
-
-patient reported result · Assay, unit and reportable range are unavailable. This antibody measurement differs from direct spike-protein measurement on S4-R27.
-
-Source: reported_investigations:INV-HOSP-AB · S1:29979–29979, S1:68483–68483, S3:69–70
-
-S1:29979–29979 · During admission the patient reported a spike antibody level of 25,000 and said it was nonspecific as to viral strain or vaccination. The unit was not supplied.
-
-S1:68483–68483 · Recalled that spike IgG had been measured during the March 2025 hospital visit.
-
-S3:69–70 · * antibodies:
-* very high SCV2 spike IgG: >25000
 
 ## 2025-03 · EEG and evoked-response testing
 
@@ -4331,9 +5046,11 @@ Test
 
 EEG and nerve-conduction testing were reported completed. A rapidly reversing checkerboard stimulus produced visual fatigue and blurring, despite a reportedly normal response. The retrospective history lists EMG, SSEP, BAEP and VEP under negative or limited findings.
 
-patient reported result · Specific waveforms, latencies and original report are unavailable.
+patient reported result · The hospital transcription documents BAEP, SSEP and VEP (abnormal left BAEP), but no separate EEG result or original traces. The EEG and stimulus-associated symptoms remain patient-reported.
 
 Source: reported_investigations:INV-HOSP-EEG · S1:29815–29815, S1:30060–30060, S3:172–172
+
+- [Neurology — BAEP, tibial SSEP and visual evoked potentials](../biomarkers.html#report-HOSP-2025-03-evoked)
 
 S1:29815–29815 · Reported completion of nerve-conduction and EEG testing during admission.
 
@@ -4355,46 +5072,6 @@ S1:23720–23720 · Reported a neurology recommendation for MRI and a lumbar pun
 
 S1:29785–29785 · During admission the patient reported that the clinician saw little rationale for a lumbar puncture.
 
-## 2025-03 · Hospital MRI
-
-Test
-
-The patient reported a 3T scan and recalled being told that no demyelination, inflammation, CSF abnormality or blood-flow abnormality was seen. The later history describes the MRI as mostly normal with small frontal lesions.
-
-patient reported result · No 2025 MRI report or images were supplied. The earlier December 2023 MRI has a primary report (S4-R04); see reconciliation Q-002 before comparing the two examinations.
-
-Source: reported_investigations:INV-HOSP-MRI · S1:29984–29985, S3:167–169
-
-S1:29984–29985 · Reported being told the hospital MRI showed no demyelination, inflammation, CSF abnormality or blood-flow abnormality. This is the patient's recollection of the interpretation.
-Reported that the hospital MRI was performed on a 3T scanner.
-
-S3:167–169 · * standard 3T cranial/neck/lumbar MRI:
-* mostly normal
-* small lesions in frontal lobe after 2y, not present in first MRI at start of illness (brain damage?)
-
-## 2025-03 · Hospital small- and large-fiber evaluation
-
-Test
-
-On March 27 the patient reported normal large-fiber testing and was awaiting the small-fiber interpretation. On March 28 the patient described both as negative.
-
-pending then patient reported result · The retrospective history describes nerve-conduction testing without biopsy. Technique and original traces/report are unknown; this account cannot exclude small-fiber neuropathy.
-
-Source: reported_investigations:INV-HOSP-NERVE · S1:29815–29815, S1:29976–29978, S1:30014–30021, S3:171–172
-
-S1:29815–29815 · Reported completion of nerve-conduction and EEG testing during admission.
-
-S1:29976–29978 · Corrected the sequence of the small- and large-fiber assessments during admission.
-Reported that the large-fiber assessment was normal.
-At that time the small-fiber evaluation was still pending.
-
-S1:30014–30021 · so they tested sfn and lfn
-various MRI sequences for brain damage CSF buildup circulation etc
-eeg […]
-
-S3:171–172 · * SFN, LFN (via nerve conduction test, not biopsy)
-* EMG, SSEP, BAEP latencies, VEP
-
 ## 2025-03-01 · Stopped 2025-03-10 · Huperzine A
 
 Intervention
@@ -4404,6 +5081,10 @@ March 1 use of huperzine A explicitly confirmed in S1-M24332; the unit conflict 
 documented course
 
 Source: course:7d44d9f0-54a3-587e-bccf-7a5dea635687 · treatment_intervals:EARLY-I-S1-C27005-2, archive_findings:S1-F2-24332
+
+- [Course detail](../courses/7d44d9f0-54a3-587e-bccf-7a5dea635687.html)
+
+- [Intervention](../treatment-5b8c8383-b81e-5d84-9813-96b1b93ffee7.html)
 
 Course actions
 
@@ -4432,6 +5113,8 @@ no clear benefit · undated retrospective history · patient retrospective
 
 Source: response:S3:treatment_response:293 · S3:293-293, course:7d44d9f0-54a3-587e-bccf-7a5dea635687
 
+- [Intervention](../treatment-5b8c8383-b81e-5d84-9813-96b1b93ffee7.html)
+
 S3:293-293 · * huperzine A
 
 ## Start unknown · Off by 2025-03-02 · Mastic gum
@@ -4444,6 +5127,10 @@ documented course
 
 Source: course:3ae26059-e8a1-57dd-8610-e6f76d97d1c2 · archive_messages:S1-M24852, archive_findings:S1-F24852-1
 
+- [Course detail](../courses/3ae26059-e8a1-57dd-8610-e6f76d97d1c2.html)
+
+- [Intervention](../treatment-78c61d08-6fc6-5d75-9808-a136acfc292d.html)
+
 ## 2025-03-02 · Mastic gum
 
 Response
@@ -4453,6 +5140,10 @@ Stopped chewing due to suspected abrasion of sensitive gums.
 Report date only · see original report times; event can precede report · patient report · Report dated 2025-03-02 · Possible association
 
 Source: response:S1-F24852-1 · S1:24852-24852
+
+- [Course detail](../courses/3ae26059-e8a1-57dd-8610-e6f76d97d1c2.html)
+
+- [Intervention](../treatment-78c61d08-6fc6-5d75-9808-a136acfc292d.html)
 
 S1:24852-24852 · i actually did forget to tell you but i had to stop the masticha gums because i think they were too abrasive for my sensitive gums
 
@@ -4465,6 +5156,10 @@ first reported start through reported stop or supply exhaustion; duration betwee
 documented course
 
 Source: course:f961acc0-f047-5b80-b3e1-cb6a12d9c664 · treatment_intervals:S1-I25533-27005
+
+- [Course detail](../courses/f961acc0-f047-5b80-b3e1-cb6a12d9c664.html)
+
+- [Intervention](../treatment-b40db75a-dfab-51d0-9878-e4634d880c24.html)
 
 Course actions
 
@@ -4487,6 +5182,8 @@ no clear benefit · undated retrospective history · patient retrospective
 
 Source: response:S3:treatment_response:294 · S3:294-294, course:183acef1-e435-508e-b7eb-c6eb79920861, course:f961acc0-f047-5b80-b3e1-cb6a12d9c664, course:73f69fa8-80cd-5bbb-8e8e-cc9c2fc52b31
 
+- [Intervention](../treatment-b40db75a-dfab-51d0-9878-e4634d880c24.html)
+
 S3:294-294 · * PEA/LUT
 
 ## Recorded 2025-03-05 · CranRich
@@ -4499,6 +5196,8 @@ Action
 
 Source: unassigned-actions:intervention:c172ea0b-1e16-50f9-93cc-73dddbb95b8c:2025
 
+- [Intervention](../treatment-c172ea0b-1e16-50f9-93cc-73dddbb95b8c.html)
+
 - 2025-03-05 · Held · before urine sample
 
 ## 2025-03-06 · Estimated end 2025-04-06 · NC broccoli extract
@@ -4510,6 +5209,10 @@ The March 6 source records NC broccoli and NC curcumin together. The patient con
 documented course
 
 Source: course:2e069d4e-1649-50c2-be72-67737eab2630 · treatment_intervals:EARLY-I-S1-C25848-2
+
+- [Course detail](../courses/2e069d4e-1649-50c2-be72-67737eab2630.html)
+
+- [Intervention](../treatment-f37f339e-dff1-59a8-bc30-1afec480e46e.html)
 
 Course actions
 
@@ -4526,6 +5229,10 @@ documented course
 
 Source: course:3659a7af-bcb9-507a-8bd8-64a8302aa81d · treatment_intervals:EARLY-I-S1-C25848-1
 
+- [Course detail](../courses/3659a7af-bcb9-507a-8bd8-64a8302aa81d.html)
+
+- [Intervention](../treatment-ab4fb279-3436-5075-9ff2-ce626322f84b.html)
+
 Course actions
 
 - 2025-03-06 · Start · 1 capsule
@@ -4540,6 +5247,10 @@ The March 6 source records NC broccoli and NC curcumin together. The patient con
 documented course
 
 Source: course:41bfe325-edd8-528d-80ff-e98eef20ad6f · intervention_events:PZ57-S1-C25848-CURCUMIN
+
+- [Course detail](../courses/41bfe325-edd8-528d-80ff-e98eef20ad6f.html)
+
+- [Intervention](../treatment-d1018a98-9f74-5632-bf47-7aafb222bd79.html)
 
 Course actions
 
@@ -4556,6 +5267,8 @@ some benefit · undated retrospective history · patient retrospective
 
 Source: response:S3:treatment_response:200 · S3:200-200, course:eb75422c-9b53-5cb9-8372-ef358fc29356
 
+- [Intervention](../regimens.html#intervention:2e8d476f-6057-5ed0-a717-1d94e2293d33)
+
 S3:200-200 · * clinical grade liposomal vitamins: raised baseline somewhat → stopped out of safety as they may enhance drug absorption too much
 
 ## Treatment context (response date unknown): 2025-03-06 · Estimated end 2025-04-06 · bio fisetin
@@ -4568,6 +5281,8 @@ no clear benefit · undated retrospective history · patient retrospective
 
 Source: response:S3:treatment_response:316 · S3:316-316, course:3659a7af-bcb9-507a-8bd8-64a8302aa81d
 
+- [Intervention](../treatment-ab4fb279-3436-5075-9ff2-ce626322f84b.html)
+
 S3:316-316 · * bio fisetin
 
 ## Recorded 2025-03-11 – 2025-03-13 · Huperzine A
@@ -4579,6 +5294,8 @@ Action
 
 
 Source: unassigned-actions:intervention:5b8c8383-b81e-5d84-9813-96b1b93ffee7:2025
+
+- [Intervention](../treatment-5b8c8383-b81e-5d84-9813-96b1b93ffee7.html)
 
 - 2025-03-11 · Missed
 
@@ -4594,6 +5311,8 @@ Action
 
 Source: unassigned-actions:intervention:653006d0-ed7b-5da6-945e-a01c150a7a45:2025
 
+- [Intervention](../treatment-653006d0-ed7b-5da6-945e-a01c150a7a45.html)
+
 - 2025-03-11 · Dose increase · 1 tsp
 
 - 2025-03-17 · Missed
@@ -4608,6 +5327,8 @@ Action
 
 Source: unassigned-actions:intervention:b40db75a-dfab-51d0-9878-e4634d880c24:2025
 
+- [Intervention](../treatment-b40db75a-dfab-51d0-9878-e4634d880c24.html)
+
 - 2025-03-11 · Missed
 
 ## 2025-03-11 · Off by 2025-04-21 · DHM
@@ -4619,6 +5340,10 @@ The patient agrees with the evidence that DHM had stopped by April 21, 2025. The
 documented course
 
 Source: course:859faff3-2aab-53b8-87aa-3b3b5a7f429d · treatment_intervals:EARLY-I-S1-C27019-1
+
+- [Course detail](../courses/859faff3-2aab-53b8-87aa-3b3b5a7f429d.html)
+
+- [Intervention](../treatment-6e878d3d-76df-5f61-bc15-1257500d3633.html)
 
 Course actions
 
@@ -4635,6 +5360,8 @@ no clear benefit · undated retrospective history · patient retrospective
 
 Source: response:S3:treatment_response:295 · S3:295-295, course:859faff3-2aab-53b8-87aa-3b3b5a7f429d, course:7bfa8407-934c-5e9c-b48c-bc937e296123
 
+- [Intervention](../treatment-6e878d3d-76df-5f61-bc15-1257500d3633.html)
+
 S3:295-295 · * DHM
 
 ## 2025-03-12 · DHM · Dose increase
@@ -4646,6 +5373,8 @@ Action
 reported change · consecutive sequence aligned to dated posts
 
 Source: intervention_events:S1-C27364-3 · S1:27364–27377
+
+- [Intervention](../treatment-6e878d3d-76df-5f61-bc15-1257500d3633.html)
 
 S1:27364–27377 · update#58: [2d ago]
 - rating (1-10): 2
@@ -4677,6 +5406,10 @@ documented course
 
 Source: course:38d2290c-544f-56fd-99c3-a0237e9c68af · treatment_intervals:EARLY-I-S1-C27364-1
 
+- [Course detail](../courses/38d2290c-544f-56fd-99c3-a0237e9c68af.html)
+
+- [Intervention](../treatment-8ab3457a-63be-5ff5-957d-6a9b1ebb0d23.html)
+
 Course actions
 
 - 2025-03-12 · Start
@@ -4691,6 +5424,10 @@ March 12 course; the March 24 diary reports apparent benefit. The hospital hold 
 documented course
 
 Source: course:e1f20d37-4216-5927-be04-fac3fd506c32 · treatment_intervals:EARLY-I-S1-C27364-2
+
+- [Course detail](../courses/e1f20d37-4216-5927-be04-fac3fd506c32.html)
+
+- [Intervention](../treatment-0353a227-b1f4-50ce-8c80-85d4ded24c00.html)
 
 Course actions
 
@@ -4707,6 +5444,8 @@ some benefit · undated retrospective history · patient retrospective
 
 Source: response:S3:treatment_response:202 · S3:202-202, course:e1f20d37-4216-5927-be04-fac3fd506c32, course:0300e233-10eb-5810-b1fb-4c2792e1f985
 
+- [Intervention](../treatment-0353a227-b1f4-50ce-8c80-85d4ded24c00.html)
+
 S3:202-202 · * acacia fiber 3x3g: to target H2S species, made bowel movements smoother → changes were minor, stopped
 
 ## 2025-03-14 · Estimated end 2025-04-14 · Mangiferin
@@ -4718,6 +5457,10 @@ One approximately month-long Life Extension Brain Fog Relief course started Marc
 documented course
 
 Source: course:ef44b932-6433-5eee-a2ad-3fc3f4cb8d71 · treatment_intervals:EARLY-I-S1-C27676-1
+
+- [Course detail](../courses/ef44b932-6433-5eee-a2ad-3fc3f4cb8d71.html)
+
+- [Intervention](../treatment-c1f89c00-7dce-5dcf-93ba-4c6ac2ee9ca4.html)
 
 Course actions
 
@@ -4737,6 +5480,8 @@ no clear benefit · undated retrospective history · patient retrospective
 
 Source: response:S3:treatment_response:296 · S3:296-296, course:ef44b932-6433-5eee-a2ad-3fc3f4cb8d71
 
+- [Intervention](../treatment-c1f89c00-7dce-5dcf-93ba-4c6ac2ee9ca4.html)
+
 S3:296-296 · * mangiferin
 
 ## 2025-03-19 · Reported end 2025-03-19 · Pentoxifylline
@@ -4748,6 +5493,10 @@ The patient dates the end to March 19, 2025, the documented start day. Symptoms 
 documented course
 
 Source: course:4542e986-ae4f-5f61-ac81-8e6764741268 · treatment_intervals:EARLY-I-S1-C28714-2
+
+- [Course detail](../courses/4542e986-ae4f-5f61-ac81-8e6764741268.html)
+
+- [Intervention](../treatment-a81df5c5-0390-54ae-8c8d-97a2d957654e.html)
 
 Course actions
 
@@ -4765,6 +5514,8 @@ attributed temporary worsening · undated retrospective history · patient retro
 Source: response:S3:treatment_response:242 · S3:242-243, * pentoxifylline
 * strange unpleasant heaviness in brain, course:4542e986-ae4f-5f61-ac81-8e6764741268
 
+- [Intervention](../treatment-a81df5c5-0390-54ae-8c8d-97a2d957654e.html)
+
 S3:242-243 · * pentoxifylline
 * strange unpleasant heaviness in brain
 
@@ -4777,6 +5528,8 @@ Action
 reported use · consecutive sequence aligned to dated posts
 
 Source: intervention_events:S1-C28935-1 · S1:28935–28948
+
+- [Intervention](../treatment-00c1f173-050f-5aba-a976-84ad804938ed.html)
 
 S1:28935–28948 · update#66:
 - rating (1-10): 1.5
@@ -4791,6 +5544,10 @@ Already in use by March 21, 2025; actual first dose undated. About a month of us
 documented course
 
 Source: course:pz57-1mna-march · archive_messages:S1-M29044
+
+- [Course detail](../courses/pz57-1mna-march.html)
+
+- [Intervention](../treatment-790ea079-1bc1-5af6-8c2a-ffde6bb95f53.html)
 
 Course actions
 
@@ -4807,6 +5564,10 @@ documented course
 
 Source: course:pz59-berberine-hcl-march21 · diary_fields:S1-L29705-FL9
 
+- [Course detail](../courses/pz59-berberine-hcl-march21.html)
+
+- [Intervention](../treatment-9eb3430d-9e5a-5c9e-bfbf-a30383054e91.html)
+
 ## 2025-03-21 · Hospital interruption by 2025-03-25 · Berberine phytosome
 
 Intervention
@@ -4817,6 +5578,10 @@ documented course
 
 Source: course:pz59-berbevis-march21 · intervention_events:S1-C29705-2
 
+- [Course detail](../courses/pz59-berbevis-march21.html)
+
+- [Intervention](../treatment-fb15d627-61a4-5616-b14c-92ee978beb7b.html)
+
 ## Treatment context (response date unknown): In use by 2025-03-21 · Estimated end 2025-04-21 · 1-MNA (on its own without NAD+)
 
 Response
@@ -4826,6 +5591,8 @@ Response
 no clear benefit · undated retrospective history · patient retrospective
 
 Source: response:S3:treatment_response:291 · S3:291-291, course:pz57-1mna-march
+
+- [Intervention](../treatment-790ea079-1bc1-5af6-8c2a-ffde6bb95f53.html)
 
 S3:291-291 · * 1-MNA (on its own without NAD+)
 
@@ -4839,15 +5606,35 @@ documented course
 
 Source: course:c78530b3-df04-52f9-8b44-5041c9a09bc2 · archive_messages:S1-M30100
 
+- [Course detail](../courses/c78530b3-df04-52f9-8b44-5041c9a09bc2.html)
+
+- [Intervention](../treatment-8a56f798-596a-5cd9-9a78-1aad4a276b96.html)
+
 ## 2025-03-25 – 2025-04 · Neurology admission and post-discharge deterioration
 
 Milestone
 
-Neurology admission 25–28 March: MRI and neurophysiology testing; supplements interrupted and activity reduced. Prolonged post-discharge deterioration from moderate to near-severe illness.
+Neurology admission 25–28 March: orthostatic pulse rise from 100 to 125/min; left BAEP III–V latency prolonged; MRI and nerve conduction did not explain symptoms. Roche spike antibody >25000 kU/L. Post-COVID syndrome suspected; cardiology referral. Supplements interrupted and activity reduced; prolonged post-discharge deterioration from moderate to near-severe illness.
 
 mixed precision · patient report
 
-Source: context_cards:CTX-013 · S1:29649, S1:29809-29817, S1:29984, S1:30009, S1:30210, S1:30692, S1:30920, S1:31904, S3:657-660
+Source: context_cards:CTX-013 · S1:29649, S1:29809-29817, S1:29984, S1:30009, S1:30210, S1:30692, S1:30920, S1:31904, S3:657-660, HOSP-2025-03-exam, HOSP-2025-03-lab, HOSP-2025-03-spike-igg, HOSP-2025-03-mri, HOSP-2025-03-evoked, HOSP-2025-03-hrv, HOSP-2025-03-nerve, HOSP-2025-03-discharge
+
+- [Neurology — Admission clinical and neurological examination](../biomarkers.html#report-HOSP-2025-03-exam)
+
+- [Neurology — CBC, chemistry, lipids and coagulation](../biomarkers.html#report-HOSP-2025-03-lab)
+
+- [Neurology — SARS-CoV-2 spike antibody (Roche)](../biomarkers.html#report-HOSP-2025-03-spike-igg)
+
+- [Neurology — Cranial MRI, MRA and lumbar spine MRI](../biomarkers.html#report-HOSP-2025-03-mri)
+
+- [Neurology — BAEP, tibial SSEP and visual evoked potentials](../biomarkers.html#report-HOSP-2025-03-evoked)
+
+- [Neurology — WIWE heart rate variability](../biomarkers.html#report-HOSP-2025-03-hrv)
+
+- [Neurology — Nerve conduction and sympathetic skin response](../biomarkers.html#report-HOSP-2025-03-nerve)
+
+- [Neurology — Discharge assessment and plan](../biomarkers.html#report-HOSP-2025-03-discharge)
 
 S1:29649 · i'm in hospital
 
@@ -4902,6 +5689,34 @@ Dated admission-day and return-home messages.
 
 Source: clinical_episodes:S1-E29703 · S1-F29703-1
 
+## 2025-03-25 · Neurology — Admission clinical and neurological examination
+
+Test
+
+Supine BP 120/70 mmHg, pulse 100/min; standing BP 125/71 mmHg, pulse 125/min. Photophobia (wearing sunglasses); otherwise no objective focal neurological signs. Brisk symmetrical patellar reflexes; motor, sensory and coordination testing preserved. Laboratory tests, ECG, Mrtg, CDS and cranial CT were recommended.
+
+Examination date · clinical examination
+
+Source: reports:HOSP-2025-03-exam · HOSP-2025-03-exam
+
+- [Open test report](../biomarkers.html#report-HOSP-2025-03-exam)
+
+- [Neurology admission and post-discharge deterioration](../index.html#context_cards:CTX-013)
+
+## 2025-03-25 · Neurology — CBC, chemistry, lipids and coagulation
+
+Test
+
+Glucose 6.2 mmol/L (H), total protein 83 g/L (H), cholesterol 7.3 mmol/L (H), HDL 0.80 mmol/L (L). WBC 10.89 G/L (H), neutrophils 8.02 G/L (H), lymphocytes 20.50% (L) but absolute lymphocytes 2.23 G/L within printed range. Serum osmolarity 278 mOsmol/k L, below printed range without a flag. Fasting status not stated.
+
+Report date only · clinical laboratory report
+
+Source: reports:HOSP-2025-03-lab · HOSP-2025-03-lab
+
+- [Open test report](../biomarkers.html#report-HOSP-2025-03-lab)
+
+- [Neurology admission and post-discharge deterioration](../index.html#context_cards:CTX-013)
+
 ## 2025-03-26 · Estimated end 2025-09 · Berberine HCl
 
 Intervention
@@ -4912,10 +5727,84 @@ documented course
 
 Source: course:4782338b-197d-57d6-9075-647bd45ff8ba · treatment_intervals:EARLY-I-S1-C29849-1
 
+- [Course detail](../courses/4782338b-197d-57d6-9075-647bd45ff8ba.html)
+
+- [Intervention](../treatment-9eb3430d-9e5a-5c9e-bfbf-a30383054e91.html)
+
 Course actions
 
 - 2025-03-26 · Restart
   Source · 2025-03-26 · restart · previous_day_reporting_convention · reported_use · primary · S1:29849–29862 · [intervention_events:S1-C29849-1]
+
+## 2025-03-26 · Neurology — BAEP, tibial SSEP and visual evoked potentials
+
+Test
+
+BAEP: significantly prolonged left III–V interpeak latency, interpreted as left pontomesencephalic dysfunction; absolute latencies normal bilaterally. Tibial SSEP P37 and pattern-reversal VEP P100 normal bilaterally, without significant side difference.
+
+Examination date · neurophysiology report
+
+Source: reports:HOSP-2025-03-evoked · HOSP-2025-03-evoked
+
+- [Open test report](../biomarkers.html#report-HOSP-2025-03-evoked)
+
+- [Neurology admission and post-discharge deterioration](../index.html#context_cards:CTX-013)
+
+## 2025-03-26 · Neurology — WIWE heart rate variability
+
+Test
+
+SDNN 51 ms; RMSSD 37 ms; PNN50 14%. The hospital interpreted these values as within normal range and not suggestive of severe cardiac autonomic dysfunction.
+
+Examination date · clinical measurement
+
+Source: reports:HOSP-2025-03-hrv · HOSP-2025-03-hrv
+
+- [Open test report](../biomarkers.html#report-HOSP-2025-03-hrv)
+
+- [Neurology admission and post-discharge deterioration](../index.html#context_cards:CTX-013)
+
+## 2025-03-26 · Neurology — Cranial MRI, MRA and lumbar spine MRI
+
+Test
+
+Small nonspecific left frontal subcortical T2-FLAIR hyperintensities, uncertain clinical relevance; no other abnormal intracranial signal or diffusion abnormality, haemorrhage or mass. Intact intracranial arterial system. Inferior L4 Schmorl’s node with surrounding oedematous signal and L4/L5 discopathy; no herniation, root compression or spinal canal stenosis.
+
+Examination date · imaging report
+
+Source: reports:HOSP-2025-03-mri · HOSP-2025-03-mri
+
+- [Open test report](../biomarkers.html#report-HOSP-2025-03-mri)
+
+- [Neurology admission and post-discharge deterioration](../index.html#context_cards:CTX-013)
+
+## 2025-03-26 · Neurology — SARS-CoV-2 spike antibody (Roche)
+
+Test
+
+Anti-SARS-CoV-2S >25000 kU/L. Roche spike IgG assay; this measures antibodies, not circulating spike protein.
+
+Report date only · clinical laboratory report
+
+Source: reports:HOSP-2025-03-spike-igg · HOSP-2025-03-spike-igg
+
+- [Open test report](../biomarkers.html#report-HOSP-2025-03-spike-igg)
+
+- [Neurology admission and post-discharge deterioration](../index.html#context_cards:CTX-013)
+
+## 2025-03-27 · Neurology — Nerve conduction and sympathetic skin response
+
+Test
+
+Normal right peroneal motor, median motor/sensory, sural sensory and ulnar sensory conduction. Normal sympathetic sudomotor skin responses in upper and lower limbs. Neither large-fibre nor small-fibre neuropathy was confirmed by these investigations.
+
+Examination date · neurophysiology report
+
+Source: reports:HOSP-2025-03-nerve · HOSP-2025-03-nerve
+
+- [Open test report](../biomarkers.html#report-HOSP-2025-03-nerve)
+
+- [Neurology admission and post-discharge deterioration](../index.html#context_cards:CTX-013)
 
 ## 2025-03-28 – 2025-05-03 · Post-discharge deterioration with fluctuating relief
 
@@ -4947,6 +5836,20 @@ Reported setback from return home through last cited retrospective attribution; 
 
 Source: clinical_episodes:S1-E30000 · S1-F30000-1
 
+## 2025-03-28 · Neurology — Discharge assessment and plan
+
+Test
+
+Persistent post-COVID syndrome suspected. Orthostatic pulse rise suggestive of POTS; cardiology referral to exclude organic pathology. Repeat spike antibody testing after 3 months recommended. No definitive aetiological treatment; closely monitored steroids discussed as a possible symptomatic treatment, not documented as administered.
+
+Report date only · clinical discharge summary
+
+Source: reports:HOSP-2025-03-discharge · HOSP-2025-03-discharge
+
+- [Open test report](../biomarkers.html#report-HOSP-2025-03-discharge)
+
+- [Neurology admission and post-discharge deterioration](../index.html#context_cards:CTX-013)
+
 ## 2025-03-29 · Supply exhausted 2025-08-30 · Magnesium L-threonate
 
 Intervention
@@ -4956,6 +5859,10 @@ March 29 restart, continued use in April and August, reported depletion August 3
 documented course
 
 Source: course:594be1d6-1907-56b4-80ff-4d98451cf176 · treatment_intervals:EARLY-I-S1-C30182-5
+
+- [Course detail](../courses/594be1d6-1907-56b4-80ff-4d98451cf176.html)
+
+- [Intervention](../treatment-089d2d33-d206-5989-8566-261529788191.html)
 
 Course actions
 
@@ -4987,6 +5894,10 @@ documented course
 
 Source: course:5c6972f8-f974-5e54-9a8b-28a587a1baf5 · treatment_intervals:EARLY-I-S1-C30182-2
 
+- [Course detail](../courses/5c6972f8-f974-5e54-9a8b-28a587a1baf5.html)
+
+- [Intervention](../treatment-1dd4afe1-c223-5e32-8afd-7e920d130239.html)
+
 Course actions
 
 - 2025-03-29 · Restart
@@ -5005,6 +5916,10 @@ documented course
 
 Source: course:87cc12f7-6958-5620-a4de-f0a4ff1ad395 · treatment_intervals:EARLY-I-S1-C30182-1
 
+- [Course detail](../courses/87cc12f7-6958-5620-a4de-f0a4ff1ad395.html)
+
+- [Intervention](../treatment-83bd5b76-be9c-59c2-9d88-071b2a340359.html)
+
 Course actions
 
 - 2025-03-29 · Restart
@@ -5019,6 +5934,10 @@ March 29 restart. July 29 evening dose missed, usual 8 g reported July 30, July 
 documented course
 
 Source: course:b18276f0-d233-5c69-b121-6044de8ec4df · treatment_intervals:EARLY-I-S1-C30182-4
+
+- [Course detail](../courses/b18276f0-d233-5c69-b121-6044de8ec4df.html)
+
+- [Intervention](../treatment-48ef78ec-867f-5e5e-95ec-c23574784bf4.html)
 
 Course actions
 
@@ -5062,6 +5981,10 @@ documented course
 
 Source: course:fc27a15d-b43f-5394-9bc4-49641d4ceeb9 · treatment_intervals:EARLY-I-S1-C30182-3
 
+- [Course detail](../courses/fc27a15d-b43f-5394-9bc4-49641d4ceeb9.html)
+
+- [Intervention](../treatment-2458b930-5ff9-5ae8-a517-1c62a0cbc835.html)
+
 Course actions
 
 - 2025-03-29 · Restart
@@ -5080,6 +6003,8 @@ no clear benefit · undated retrospective history · patient retrospective
 
 Source: response:S3:treatment_response:314 · S3:314-314, course:fc27a15d-b43f-5394-9bc4-49641d4ceeb9
 
+- [Intervention](../treatment-2458b930-5ff9-5ae8-a517-1c62a0cbc835.html)
+
 S3:314-314 · * omega-3 (high dose)
 
 ## 2025-03-30 · Intermittent use · PEA/luteolin
@@ -5091,6 +6016,10 @@ The patient recalls about one month of PEA/luteolin in total, possibly two plus 
 documented course
 
 Source: course:183acef1-e435-508e-b7eb-c6eb79920861 · treatment_intervals:EARLY-I-S1-C30213-1
+
+- [Course detail](../courses/183acef1-e435-508e-b7eb-c6eb79920861.html)
+
+- [Intervention](../treatment-b40db75a-dfab-51d0-9878-e4634d880c24.html)
 
 Course actions
 
@@ -5107,6 +6036,10 @@ documented course
 
 Source: course:3359045c-a537-5893-9a4e-64df4910c4a3 · treatment_intervals:EARLY-I-S1-C40570-1
 
+- [Course detail](../courses/3359045c-a537-5893-9a4e-64df4910c4a3.html)
+
+- [Intervention](../treatment-251bf018-9605-5864-8423-1e6ac6021730.html)
+
 Course actions
 
 - 2025-05-29 · Ran out
@@ -5122,6 +6055,10 @@ documented course
 
 Source: course:pz59-berbevis-march30 · archive_messages:S1-M30165
 
+- [Course detail](../courses/pz59-berbevis-march30.html)
+
+- [Intervention](../treatment-fb15d627-61a4-5616-b14c-92ee978beb7b.html)
+
 Course actions
 
 - 2025-04-17 · Dose taken · 1 capsule at breakfast and dinner
@@ -5136,6 +6073,10 @@ first reported start through reported stop or supply exhaustion; duration betwee
 documented course
 
 Source: course:52d5fecc-9cdc-5821-809b-15e037443e12 · treatment_intervals:S1-I30403-35886
+
+- [Course detail](../courses/52d5fecc-9cdc-5821-809b-15e037443e12.html)
+
+- [Intervention](../treatment-2995cbee-c9c2-57e3-ac0a-3744d36a0cfb.html)
 
 Course actions
 
@@ -5206,6 +6147,8 @@ no clear benefit · undated retrospective history · patient retrospective
 
 Source: response:S3:treatment_response:289 · S3:289-289, course:52d5fecc-9cdc-5821-809b-15e037443e12
 
+- [Intervention](../treatment-2995cbee-c9c2-57e3-ac0a-3744d36a0cfb.html)
+
 S3:289-289 · * SS31 peptide 0.5-30mg/day
 
 ## 2025-04-01 · Reported end 2025-05-31 · Citrulline
@@ -5217,6 +6160,10 @@ Dated reported start and stop. Unrecorded interruptions are possible.
 documented course
 
 Source: course:691ea554-c42b-5dfc-878d-c3038b3032cc · treatment_intervals:EARLY-I-S1-C30599-2
+
+- [Course detail](../courses/691ea554-c42b-5dfc-878d-c3038b3032cc.html)
+
+- [Intervention](../treatment-00c1f173-050f-5aba-a976-84ad804938ed.html)
 
 Course actions
 
@@ -5239,6 +6186,8 @@ reported change · consecutive sequence aligned to dated posts
 
 Source: intervention_events:S1-C31115-3 · S1:31115–31128
 
+- [Intervention](../treatment-c1f89c00-7dce-5dcf-93ba-4c6ac2ee9ca4.html)
+
 S1:31115–31128 · update#78: [3d ago]
 - rating (1-10): 1.5
 - sleep (following day): went bed earlier than days before (around 10), slept till 7, okay but not amazing […]
@@ -5252,6 +6201,10 @@ Post-hospital acacia use is documented by April 2, with 10 g reported April 5. J
 documented course
 
 Source: course:0300e233-10eb-5810-b1fb-4c2792e1f985 · treatment_intervals:S2-I-S2-L00919-E4
+
+- [Course detail](../courses/0300e233-10eb-5810-b1fb-4c2792e1f985.html)
+
+- [Intervention](../treatment-0353a227-b1f4-50ce-8c80-85d4ded24c00.html)
 
 Course actions
 
@@ -5267,6 +6220,10 @@ Dated reported start and stop. Unrecorded interruptions are possible.
 documented course
 
 Source: course:aae1c13f-6162-5c2d-8d4c-1e3c332a9a5e · treatment_intervals:EARLY-I-S1-C31115-2
+
+- [Course detail](../courses/aae1c13f-6162-5c2d-8d4c-1e3c332a9a5e.html)
+
+- [Intervention](../treatment-854a227e-b94d-5159-abb6-fb4f9a1967c4.html)
 
 Course actions
 
@@ -5295,6 +6252,10 @@ documented course
 
 Source: course:3ccad727-bfa3-57a3-9109-c2370ef73c31 · treatment_intervals:EARLY-I-S1-C31129-1
 
+- [Course detail](../courses/3ccad727-bfa3-57a3-9109-c2370ef73c31.html)
+
+- [Intervention](../treatment-c23acd6d-bf3d-5066-994f-911b8c091093.html)
+
 Course actions
 
 - 2025-04-03 · Start · 3 sprays in PM
@@ -5313,6 +6274,8 @@ some benefit · undated retrospective history · patient retrospective
 
 Source: response:S3:treatment_response:194 · S3:194-194, course:3ccad727-bfa3-57a3-9109-c2370ef73c31
 
+- [Intervention](../treatment-c23acd6d-bf3d-5066-994f-911b8c091093.html)
+
 S3:194-194 · * Rg3 nasal spray: reduced PEM for 1-2h → stopped because frequent dosing was unaffordable
 
 ## 2025-04-04 · Rg3 nasal spray · Dose taken
@@ -5324,6 +6287,8 @@ Action
 reported use · consecutive sequence aligned to dated posts
 
 Source: intervention_events:S1-C31143-2 · S1:31143–31158
+
+- [Intervention](../treatment-c23acd6d-bf3d-5066-994f-911b8c091093.html)
 
 S1:31143–31158 · update#80:
 - rating (1-10): 1.5+
@@ -5339,6 +6304,8 @@ reported use · consecutive sequence aligned to dated posts
 
 Source: intervention_events:S1-C32259-2 · S1:32259–32274
 
+- [Intervention](../treatment-d30be0e6-0ecd-52cd-bffb-7d4d18650adf.html)
+
 S1:32259–32274 · update#83: [2d ago]
 - rating (1-10): 1.7
 - sleep (following day): better but still woke at 5 due to bladder then light sleep […]
@@ -5353,6 +6320,10 @@ documented course
 
 Source: course:pz59-zinc-picolinate-apr7 · archive_messages:S1-M31673
 
+- [Course detail](../courses/pz59-zinc-picolinate-apr7.html)
+
+- [Intervention](../treatment-8ab3457a-63be-5ff5-957d-6a9b1ebb0d23.html)
+
 ## 2025-04-08 · Ivabradine: reduction in resting and standing heart rate
 
 Milestone
@@ -5362,6 +6333,8 @@ Ivabradine 5 mg twice daily for orthostatic tachycardia: reported heart-rate red
 Patient-reported treatment response · approximately dated start
 
 Source: clinical_summary:ivabradine-response · S1-M32275, S1-M32504, S1-M32705, S3:203
+
+- [Ivabradine treatment history](../treatment-6d5c1cd1-bbc6-5ec1-8a4c-b3d8e3bcd65a.html)
 
 S1-M32275 · update#84:
 - rating (1-10):
@@ -5409,6 +6382,10 @@ documented course
 
 Source: course:5b736977-ac50-5b88-98aa-4ee352c32801 · treatment_intervals:EARLY-I-S1-C32275-2
 
+- [Course detail](../courses/5b736977-ac50-5b88-98aa-4ee352c32801.html)
+
+- [Intervention](../treatment-653006d0-ed7b-5da6-945e-a01c150a7a45.html)
+
 Course actions
 
 - 2025-04-08 · Start
@@ -5429,6 +6406,10 @@ The patient confirms ongoing ivabradine, initially 5 mg at breakfast and lunch. 
 documented course
 
 Source: course:665ec725-8ce1-565a-b72e-479f93f2cc34 · treatment_intervals:EARLY-I-S1-C32275-1
+
+- [Course detail](../courses/665ec725-8ce1-565a-b72e-479f93f2cc34.html)
+
+- [Intervention](../treatment-6d5c1cd1-bbc6-5ec1-8a4c-b3d8e3bcd65a.html)
 
 Course actions
 
@@ -5460,6 +6441,8 @@ some benefit · undated retrospective history · patient retrospective
 
 Source: response:S3:treatment_response:203 · S3:203-203, course:665ec725-8ce1-565a-b72e-479f93f2cc34
 
+- [Intervention](../treatment-6d5c1cd1-bbc6-5ec1-8a4c-b3d8e3bcd65a.html)
+
 S3:203-203 · * ivabradine 2x5mg: reduction in HR, 10bpm resting, 15-20bpm standing, no other improvements
 
 ## 2025-04-09 · Ivabradine
@@ -5472,6 +6455,8 @@ Report date only · Patient-reported
 
 Source: response-evidence:annotations:ANN-S1-32462 · annotations:ANN-S1-32462, claim:313de84e-9961-574f-8890-a06c0829fd4c
 
+- [Ivabradine](../treatment-6d5c1cd1-bbc6-5ec1-8a4c-b3d8e3bcd65a.html)
+
 ## 2025-04-10 · Estimated end 2025-06-10 · Burdock root
 
 Intervention
@@ -5481,6 +6466,10 @@ The patient tentatively identifies Swanson Full Spectrum Burdock Root and estima
 documented course
 
 Source: course:3921aa27-043d-5a8a-831f-11b7692294b9 · treatment_intervals:EARLY-I-S1-C32989-1
+
+- [Course detail](../courses/3921aa27-043d-5a8a-831f-11b7692294b9.html)
+
+- [Intervention](../treatment-bcb679d9-0e69-52e7-ac7a-ab40a4c1186c.html)
 
 Course actions
 
@@ -5496,6 +6485,10 @@ first reported start through reported stop or supply exhaustion; duration betwee
 documented course
 
 Source: course:e234c9d5-4fb6-5d47-a828-927c861310b9 · treatment_intervals:S1-I34012-34026
+
+- [Course detail](../courses/e234c9d5-4fb6-5d47-a828-927c861310b9.html)
+
+- [Intervention](../treatment-908a1f09-49b7-55f5-afe2-59eedacf1f5b.html)
 
 Course actions
 
@@ -5514,6 +6507,10 @@ The patient agrees that the first course ended by early May. A May 2 dose, May 3
 documented course
 
 Source: course:44c6d6b6-7a07-5f35-8221-508dbac9bb35 · treatment_intervals:EARLY-I-S1-C34444-2
+
+- [Course detail](../courses/44c6d6b6-7a07-5f35-8221-508dbac9bb35.html)
+
+- [Intervention](../treatment-27fc436d-77ed-5894-9da8-4d66951e65f7.html)
 
 Course actions
 
@@ -5548,6 +6545,8 @@ Source: response:S3:treatment_response:247 · S3:247-250, * high dose memantine
 * suspected glutamine buildup from blocking glutamate activity
 * no issues when taken 2x10mg 6h apart, course:44c6d6b6-7a07-5f35-8221-508dbac9bb35
 
+- [Intervention](../treatment-27fc436d-77ed-5894-9da8-4d66951e65f7.html)
+
 S3:247-250 · * high dose memantine
 * when taking more than 10mg at a time, intense heaviness (fatigue?) and mild burns appear in brain
 * suspected glutamine buildup from blocking glutamate activity […]
@@ -5562,6 +6561,8 @@ no clear benefit · undated retrospective history · patient retrospective · Po
 
 Source: response:S3:treatment_response:321 · S3:321-321, * memantine 2x10mg: at first seemed to help but then seemed to get worse, unclear, could have been just natural ebb and flow of disease, course:44c6d6b6-7a07-5f35-8221-508dbac9bb35
 
+- [Intervention](../treatment-27fc436d-77ed-5894-9da8-4d66951e65f7.html)
+
 S3:321-321 · * memantine 2x10mg: at first seemed to help but then seemed to get worse, unclear, could have been just natural ebb and flow of disease
 
 ## Start unknown · Stopped 2025-04-22 · DHM
@@ -5573,6 +6574,10 @@ Only the stop/depletion date was identified.
 course fragment
 
 Source: course:7bfa8407-934c-5e9c-b48c-bc937e296123 · treatment_intervals:EARLY-I-S1-C35409-1
+
+- [Course detail](../courses/7bfa8407-934c-5e9c-b48c-bc937e296123.html)
+
+- [Intervention](../treatment-6e878d3d-76df-5f61-bc15-1257500d3633.html)
 
 Course actions
 
@@ -5588,6 +6593,10 @@ April 23 start paired with reported June 26 stock depletion. Exact last dose unk
 documented course
 
 Source: course:7c95e212-d8b3-50db-a88a-f99fb8269bb4 · treatment_intervals:EARLY-I-S1-C35871-2
+
+- [Course detail](../courses/7c95e212-d8b3-50db-a88a-f99fb8269bb4.html)
+
+- [Intervention](../treatment-b30ce6bd-124f-5d6d-8010-251658565b77.html)
 
 Course actions
 
@@ -5607,6 +6616,10 @@ documented course
 
 Source: course:316a7a55-1bca-510a-8b5b-dbccf028e733 · treatment_intervals:S1-I35901-36952
 
+- [Course detail](../courses/316a7a55-1bca-510a-8b5b-dbccf028e733.html)
+
+- [Intervention](../treatment-f09927bc-9fa3-5435-ba53-753c9ad0fb6d.html)
+
 Course actions
 
 - 2025-04-25 · Start · 2 capsules
@@ -5624,6 +6637,8 @@ Initially suspected improvement; sensory sensitivity persisted and patient later
 Report date only · see original report times; event can precede report · patient report · Report dated 2025-04-25
 
 Source: response:S1-F35704-1 · S1:35704-35704, S1:36550-36550, S1:38771-38771
+
+- [Intervention](../treatment-27fc436d-77ed-5894-9da8-4d66951e65f7.html)
 
 S1:35704-35704 · i'm doing pretty okay today, so far, same for yesterday and day before (minus usual evening pem). think the memantine is working?
 
@@ -5643,6 +6658,8 @@ Source: response:S3:treatment_response:244 · S3:244-246, * AHCC
 * mild NK cell stimulant
 * herxed from it → it seems like anything that increases immune function causes massive herx crashes, course:316a7a55-1bca-510a-8b5b-dbccf028e733
 
+- [Intervention](../treatment-f09927bc-9fa3-5435-ba53-753c9ad0fb6d.html)
+
 S3:244-246 · * AHCC
 * mild NK cell stimulant
 * herxed from it → it seems like anything that increases immune function causes massive herx crashes
@@ -5656,6 +6673,8 @@ Two capsules taken again after initially feeling fine. Later grouped mushroom ex
 Report date only · see original report times; event can precede report · patient report · Report dated 2025-04-26
 
 Source: response:S1-F35728-1 · S1:35728-35728, S1:60911-60915
+
+- [Intervention](../treatment-f09927bc-9fa3-5435-ba53-753c9ad0fb6d.html)
 
 S1:35728-35728 · i did take 2 caps of the AHCC this morning again, seeing as i felt fine yesterday. potentially contributing as well
 
@@ -5671,6 +6690,10 @@ Post-hospital use documented April 27. Formulation changed in May. The patient e
 documented course
 
 Source: course:0f2a4e91-62fb-561a-a729-30ab3c6f3d31 · treatment_intervals:S2-I-S2-L00018-E2
+
+- [Course detail](../courses/0f2a4e91-62fb-561a-a729-30ab3c6f3d31.html)
+
+- [Intervention](../treatment-45bff719-d47e-568f-bc40-bbda18989d5b.html)
 
 Course actions
 
@@ -5690,6 +6713,10 @@ documented course
 
 Source: course:eeec8470-392a-575c-b01f-bd831a4fd77c · treatment_intervals:EARLY-I-S1-C36967-1
 
+- [Course detail](../courses/eeec8470-392a-575c-b01f-bd831a4fd77c.html)
+
+- [Intervention](../treatment-4035210f-9812-5e32-acea-bd98a68ca345.html)
+
 Course actions
 
 - 2025-04-28 · Start · 2 x 1 g
@@ -5705,6 +6732,8 @@ Report date only · see original report times; event can precede report · patie
 
 Source: response:S1-F36342-1 · S1:36342-36342
 
+- [Intervention](../treatment-2995cbee-c9c2-57e3-ac0a-3744d36a0cfb.html)
+
 S1:36342-36342 · i have also stopped ss31 a while ago. it was too much work with my current equipment and doing one injection per vial at this dose, and i didn't note any difference on it, so i stopped until i get better equipment (to be able to mix more petides in one go). however now i'm wondering if it's lack is sending my baseline lower
 
 ## Recorded 2025-05-01 – 2025-05-07 · NAD+ solution
@@ -5716,6 +6745,8 @@ Action
 
 
 Source: unassigned-actions:intervention:45ee0a0b-7f22-58bc-b2d9-178c407273d2:2025
+
+- [Intervention](../treatment-45ee0a0b-7f22-58bc-b2d9-178c407273d2.html)
 
 - 2025-05-01 · Dose taken · 2.5 mL
 
@@ -5737,6 +6768,8 @@ Source: response:S3:treatment_response:251 · S3:251-253, * high dose NAD+
 * when taking higher doses, 2h after consumption, feeling intense but short PEM attack, sudden shutdown, as if pinned to couch, unable to move for ~30m
 * this is with a liposomal formula → NAD+ should enter cells without setting off extracellular danger signals, intervention_events:S1-C37002-1, intervention_events:S1-C37017-1, intervention_events:S1-C37032-1, intervention_events:S1-C37526-1
 
+- [Intervention](../treatment-45ee0a0b-7f22-58bc-b2d9-178c407273d2.html)
+
 S3:251-253 · * high dose NAD+
 * when taking higher doses, 2h after consumption, feeling intense but short PEM attack, sudden shutdown, as if pinned to couch, unable to move for ~30m
 * this is with a liposomal formula → NAD+ should enter cells without setting off extracellular danger signals
@@ -5750,6 +6783,10 @@ The patient questions the May restart. Diary update 115 records a 10 mg restart 
 documented course
 
 Source: course:5907e34b-1628-5cc3-b87f-2dd4a97bf5a1 · treatment_intervals:EARLY-I-S1-C37556-1
+
+- [Course detail](../courses/5907e34b-1628-5cc3-b87f-2dd4a97bf5a1.html)
+
+- [Intervention](../treatment-27fc436d-77ed-5894-9da8-4d66951e65f7.html)
 
 Course actions
 
@@ -5771,6 +6808,10 @@ A March exposure is documented by March 21 (S1-M29044), with an estimated one-mo
 documented course
 
 Source: course:3e8128bf-b4e6-53d2-aa2f-d71f09959b19 · treatment_intervals:EARLY-I-S1-C38425-1
+
+- [Course detail](../courses/3e8128bf-b4e6-53d2-aa2f-d71f09959b19.html)
+
+- [Intervention](../treatment-790ea079-1bc1-5af6-8c2a-ffde6bb95f53.html)
 
 Course actions
 
@@ -5819,6 +6860,12 @@ Report date only · see original report times; event can precede report · patie
 
 Source: response:S1-F38826-1 · S1:38826-38826, S1:38833-38847, S1:38852-38852, S1:40423-40691
 
+- [Course detail](../courses/e0ceb8e5-6b06-5099-b5ac-c316e8d72dfe.html)
+
+- [Intervention](../regimens.html#intervention:2e8d476f-6057-5ed0-a717-1d94e2293d33)
+
+- [Intervention](../regimens.html#intervention:4e250aea-f7b2-5446-ae28-2dfaefb1cc89)
+
 S1:38826-38826 · given that my pem flared up to an extreme degree this afternoon after starting the pem mixture, the two may be connected. is there a plausible explanation for the mixture causing this? i took inosine, creatine, myo-d, berberine
 
 S1:38833-38847 · update#125:
@@ -5851,6 +6898,10 @@ documented course
 
 Source: course:24860d76-4210-5b8d-a070-92ceb16d15f6 · treatment_intervals:S1-I40553-40660
 
+- [Course detail](../courses/24860d76-4210-5b8d-a070-92ceb16d15f6.html)
+
+- [Intervention](../treatment-e527c8eb-6bd2-5121-9cb7-10d8838ea0e6.html)
+
 Course actions
 
 - 2025-05-28 · Start · 150 mg as reported
@@ -5872,6 +6923,8 @@ Action
 
 Source: unassigned-actions:intervention:0ad7857f-4464-524f-ae03-6b718504c503:2025
 
+- [Intervention](../treatment-0ad7857f-4464-524f-ae03-6b718504c503.html)
+
 - 2025-06-05 · Dose · 500 mg
 
 - 2025-06-06 · Dose · 750 mg
@@ -5886,6 +6939,8 @@ Report date only · see original report times; event can precede report · patie
 
 Source: response:S1-F40693-1 · S1:40693-40693
 
+- [Intervention](../treatment-e527c8eb-6bd2-5121-9cb7-10d8838ea0e6.html)
+
 S1:40693-40693 · so it doesn't look like i was pem-free on spermidine (even though that's how i remembered it! good thing that i keep a journal), but my daily scores were def a bit higher while i was taking it. unfortunately the course was so short that it could easily have been the natural fluctuations of the disease. if you review back all my reports i do seem to have 2-3 better and 2-3 worse days in alternating succession
 
 ## In use by 2025-06-06 · Off by 2025-07-10 · Daridorexant
@@ -5897,6 +6952,10 @@ Use was recorded by June 6, 2025. The dose was reduced June 17. The July 10 acco
 documented course
 
 Source: course:09acd9c8-c1b3-5f59-9e37-c6879db3af66 · intervention_events:S2-L00033-E2
+
+- [Course detail](../courses/09acd9c8-c1b3-5f59-9e37-c6879db3af66.html)
+
+- [Intervention](../treatment-2504ca83-5085-51dd-a842-20b5f25bd4f2.html)
 
 Course actions
 
@@ -5925,6 +6984,8 @@ some benefit · undated retrospective history · patient retrospective
 
 Source: response:S3:treatment_response:206 · S3:206-206, course:09acd9c8-c1b3-5f59-9e37-c6879db3af66
 
+- [Intervention](../treatment-2504ca83-5085-51dd-a842-20b5f25bd4f2.html)
+
 S3:206-206 · * daridorexant: possibly helped falling asleep faster but didn’t improve maintenance insomnia → stopped
 
 ## Recorded 2025-06-07 – 2025-06-13 · Spermidine
@@ -5936,6 +6997,8 @@ Action
 
 
 Source: unassigned-actions:intervention:e527c8eb-6bd2-5121-9cb7-10d8838ea0e6:2025
+
+- [Intervention](../treatment-e527c8eb-6bd2-5121-9cb7-10d8838ea0e6.html)
 
 - 2025-06-07 · Dose · 45 mg
 
@@ -5954,6 +7017,10 @@ S3 dates first dose to June 11. On June 11 the plan was to begin the following d
 documented course
 
 Source: course:ddf84379-c3cd-5b4c-b702-eb2f4eef6cf6 · treatment_intervals:X-I-beza
+
+- [Course detail](../courses/ddf84379-c3cd-5b4c-b702-eb2f4eef6cf6.html)
+
+- [Intervention](../treatment-a13ea008-f4c6-5dee-815e-aa7df649e106.html)
 
 Course actions
 
@@ -5976,6 +7043,8 @@ no clear benefit · undated retrospective history · patient retrospective
 
 Source: response:S3:treatment_response:285 · S3:285-285, course:ddf84379-c3cd-5b4c-b702-eb2f4eef6cf6
 
+- [Intervention](../treatment-a13ea008-f4c6-5dee-815e-aa7df649e106.html)
+
 S3:285-285 · * bezafibrate 400mg XR
 
 ## Treatment context (response date unknown): 2025-06-12 · Supply exhausted 2025-07-11 · bezafibrate
@@ -5988,6 +7057,8 @@ no clear benefit · undated retrospective history · patient retrospective
 
 Source: response:S3:treatment_response:290 · S3:290-290, course:ddf84379-c3cd-5b4c-b702-eb2f4eef6cf6
 
+- [Intervention](../treatment-a13ea008-f4c6-5dee-815e-aa7df649e106.html)
+
 S3:290-290 · * bezafibrate
 
 ## 2025-06-16 · Stopped 2025-07-16 · Selegiline
@@ -5999,6 +7070,10 @@ Span from evidence of start/use to recorded stop, pause or depletion; individual
 documented course
 
 Source: course:ffccdd39-abb2-5f31-8415-76c759e1057f · treatment_intervals:S2-I-S2-L00185-E1
+
+- [Course detail](../courses/ffccdd39-abb2-5f31-8415-76c759e1057f.html)
+
+- [Intervention](../treatment-d508eca9-1ade-5c0b-ab9d-5e81e6df9398.html)
 
 Course actions
 
@@ -6019,6 +7094,8 @@ attributed temporary worsening · undated retrospective history · patient retro
 Source: response:S3:treatment_response:256 · S3:256-257, * selegiline
 * minor improvement in brain burns but much higher libido, causing PEM, course:ffccdd39-abb2-5f31-8415-76c759e1057f
 
+- [Intervention](../treatment-d508eca9-1ade-5c0b-ab9d-5e81e6df9398.html)
+
 S3:256-257 · * selegiline
 * minor improvement in brain burns but much higher libido, causing PEM
 
@@ -6031,6 +7108,10 @@ The interval retains June 19 as its preferred start estimate. Diary update 162 r
 documented course
 
 Source: course:e0302026-7814-50cf-b357-6447eb394f6b · treatment_intervals:S2-I-S2-L00215-E1
+
+- [Course detail](../courses/e0302026-7814-50cf-b357-6447eb394f6b.html)
+
+- [Intervention](../treatment-4419fb51-9af3-5ab4-b395-17c44063aaa7.html)
 
 Course actions
 
@@ -6138,6 +7219,10 @@ course fragment
 
 Source: course:c03f5256-3453-5ef3-891b-6fccafaa8386 · treatment_intervals:S2-I-S2-L00260-E1
 
+- [Course detail](../courses/c03f5256-3453-5ef3-891b-6fccafaa8386.html)
+
+- [Intervention](../treatment-e527c8eb-6bd2-5121-9cb7-10d8838ea0e6.html)
+
 Course actions
 
 - 2025-06-21 · Ran out
@@ -6153,6 +7238,10 @@ documented course
 
 Source: course:d96ec8ff-9dae-569d-b63e-3c4c095e0595 · treatment_intervals:S2-I-S2-L00260-E2, historical_entries:S3:treatment_response:217, historical_entries:S3:treatment_response:212
 
+- [Course detail](../courses/d96ec8ff-9dae-569d-b63e-3c4c095e0595.html)
+
+- [Intervention](../treatment-d2791758-1a3d-5f28-b23b-b5ef705c0252.html)
+
 Course actions
 
 - 2025-06-21 · Single dose · 0.5 mg · No repeated administration documented for this trial; corroborated as a single dose in case history.
@@ -6167,6 +7256,8 @@ Brief upper abdominal flare immediately after drinking acacia; low carbohydrate 
 see diary date basis · unconfirmed · Possible association
 
 Source: response:S2-R-255 · S2:255-260
+
+- [Intervention](../treatment-0353a227-b1f4-50ce-8c80-85d4ded24c00.html)
 
 S2:255-260 · *  gut pain: upper ab flare immediately after drinking acacia , lasted a minute or so
 *  hunger: high. didn't eat much carbs first 2 meals (just eggs and lentils), was pretty lethargic all morning and by 3pm was so sugar starved went into crash, so still sugar dependent despite beza (not eating enough fats for keto i think)
@@ -6186,6 +7277,10 @@ Source: response:S3:treatment_response:212 · S3:212-216, * rapamycin 0.5mg (one
 * brain burns and pressures reappeared after half a year of hiatus → suggests rebound neuro-inflammation
 * likely primed liver/bile issues (rapa known to cause NAFLD in some cases), course:d96ec8ff-9dae-569d-b63e-3c4c095e0595
 
+- [Course detail](../courses/d96ec8ff-9dae-569d-b63e-3c4c095e0595.html)
+
+- [Intervention](../treatment-d2791758-1a3d-5f28-b23b-b5ef705c0252.html)
+
 S3:212-216 · * rapamycin 0.5mg (one-time)
 * terrible 10-day long recurrent herx-crash-loop
 * the worst crashes by far I’ve ever had → developed CNS+upper body fatigue during it, this still sometimes happens (hadn’t had fatigue before it) […]
@@ -6201,6 +7296,14 @@ attributed persistent worsening · undated retrospective history · patient retr
 Source: response:S3:treatment_response:217 · S3:217-218, * ensitrelvir ?
 * green stools started 1d after starting ensi, possible link (but could be delayed effect of rapa too), course:b54e987f-623b-5a6b-9e8a-5bf3a58dd77b, course:d96ec8ff-9dae-569d-b63e-3c4c095e0595
 
+- [Course detail](../courses/b54e987f-623b-5a6b-9e8a-5bf3a58dd77b.html)
+
+- [Course detail](../courses/d96ec8ff-9dae-569d-b63e-3c4c095e0595.html)
+
+- [Intervention](../treatment-b7531a5b-ba5a-55e9-8a0f-9efc39f7119e.html)
+
+- [Intervention](../treatment-d2791758-1a3d-5f28-b23b-b5ef705c0252.html)
+
 S3:217-218 · * ensitrelvir ?
 * green stools started 1d after starting ensi, possible link (but could be delayed effect of rapa too)
 
@@ -6214,6 +7317,8 @@ uncertain · inferred diary day
 
 Source: intervention_events:S2-L00306-E1 · S2:306–306
 
+- [Intervention](../treatment-6d5c1cd1-bbc6-5ec1-8a4c-b3d8e3bcd65a.html)
+
 S2:306–306 · *  changes: insure if i took first iva
 
 ## 2025-06-25 · Selegiline
@@ -6226,6 +7331,8 @@ Report date only · see original report times; event can precede report · patie
 
 Source: response:S1-F42740-1 · S1:42740-42740
 
+- [Intervention](../treatment-d508eca9-1ade-5c0b-ab9d-5e81e6df9398.html)
+
 S1:42740-42740 · bad corrosive leg tingling and some malaise pem again (though perhaps because of sexual release again last night, sigh...
 
 ## 2025-06-26 · Stopped 2025-08-21 · Spermidine
@@ -6237,6 +7344,10 @@ Span from evidence of start/use to recorded stop, pause or depletion; individual
 documented course
 
 Source: course:fe93434e-a34d-5b78-a5e1-ae0fb1335b21 · treatment_intervals:S2-I-S2-L00337-E1
+
+- [Course detail](../courses/fe93434e-a34d-5b78-a5e1-ae0fb1335b21.html)
+
+- [Intervention](../treatment-e527c8eb-6bd2-5121-9cb7-10d8838ea0e6.html)
 
 Course actions
 
@@ -6256,6 +7367,8 @@ Report date only · see original report times; event can precede report · patie
 
 Source: response:S1-F42904-1 · S1:42904-42904
 
+- [Intervention](../treatment-e527c8eb-6bd2-5121-9cb7-10d8838ea0e6.html)
+
 S1:42904-42904 · A few hours after taking spermidine, an incipient crash with brain pressure subsided; he wondered whether spermidine had shortened it.
 
 ## In use by 2025-06-27 · Stopped 2025-08-28 · Nicotine patch
@@ -6267,6 +7380,10 @@ In use by June 27 after the spring supply had run out. The August 28 diary repor
 documented course
 
 Source: course:0eb7330a-27a7-55df-a6fc-dd75cdc971b0 · treatment_intervals:S2-I-S2-L01489-E1
+
+- [Course detail](../courses/0eb7330a-27a7-55df-a6fc-dd75cdc971b0.html)
+
+- [Intervention](../treatment-8a56f798-596a-5cd9-9a78-1aad4a276b96.html)
 
 Course actions
 
@@ -6297,6 +7414,10 @@ Started potassium malate on June 27. The reviewer estimates a switch to potassiu
 documented course
 
 Source: course:c40acc97-f407-5c75-b381-7e1ef239d5ed · treatment_intervals:S2-I-S2-L00353-E1
+
+- [Course detail](../courses/c40acc97-f407-5c75-b381-7e1ef239d5ed.html)
+
+- [Intervention](../treatment-cfa5263e-8acb-5fb8-9aa5-6842c3052508.html)
 
 Course actions
 
@@ -6341,6 +7462,10 @@ documented course
 
 Source: course:11a7e1ee-b31f-5cb5-9270-438599487ba8 · intervention_events:S3:T:678:4
 
+- [Course detail](../courses/11a7e1ee-b31f-5cb5-9270-438599487ba8.html)
+
+- [Intervention](../treatment-1dd4afe1-c223-5e32-8afd-7e920d130239.html)
+
 Course actions
 
 - 2025-07 · Start · 3 x 150 mcg · Co-reported in a combination; exact day absent here.
@@ -6371,6 +7496,10 @@ documented course
 
 Source: course:397e8511-cddd-58ea-9882-722a7e6051ff · treatment_intervals:S2-I-S2-L00977-E1
 
+- [Course detail](../courses/397e8511-cddd-58ea-9882-722a7e6051ff.html)
+
+- [Intervention](../treatment-5f2fecaf-cc8f-557a-9e7b-c5606e312362.html)
+
 Course actions
 
 - 2025-07 · Start · 1–2 g · Co-reported in a combination; exact day absent here.
@@ -6388,6 +7517,10 @@ The reviewer recalls roughly two to four weeks of charcoal for gut stabilization
 documented course
 
 Source: course:6cef1b4e-9034-58fb-83b0-6b056ae419da · intervention_events:S3:T:678:3
+
+- [Course detail](../courses/6cef1b4e-9034-58fb-83b0-6b056ae419da.html)
+
+- [Intervention](../treatment-4ac4fe9d-f60e-5768-8aa9-9a2d085ae50e.html)
 
 Course actions
 
@@ -6415,6 +7548,10 @@ Span from evidence of start/use to recorded stop, pause or depletion; individual
 documented course
 
 Source: course:b54e987f-623b-5a6b-9e8a-5bf3a58dd77b · treatment_intervals:S2-I-S2-L00418-E1, historical_entries:S3:treatment_response:217
+
+- [Course detail](../courses/b54e987f-623b-5a6b-9e8a-5bf3a58dd77b.html)
+
+- [Intervention](../treatment-b7531a5b-ba5a-55e9-8a0f-9efc39f7119e.html)
 
 Course actions
 
@@ -6446,6 +7583,8 @@ Report date only · see original report times; event can precede report · patie
 
 Source: response:S1-F43911-1 · S1:43911-43911
 
+- [Intervention](../treatment-a13ea008-f4c6-5dee-815e-aa7df649e106.html)
+
 S1:43911-43911 · have you already left for the call? wanted to discuss what to do with the bezafibrate. think i have 1 weeks worth left, but it hasn't done much. probably should have eaten more fat but hard to do without animal fats. thinking about when to switch over to meldonium to improve glucose metabolism
 
 ## 2025-07-04 · Resumed extra virgin olive oil
@@ -6458,6 +7597,10 @@ inferred diary day
 
 Source: intervention_events:S2-L00466-E1 · intervention_events:S2-L00466-E1, S2:466–466
 
+- [Diet history](../diet.html#intervention:9b4419a3-00b7-5665-8438-64767cff35f9)
+
+- [Course detail](../courses/78993f0e-9f08-5b3b-8761-a696401bb1de.html)
+
 S2:466–466 · *  changes: start evoo again
 
 ## 2025-07-08 · Stopped 2025-07-18 · Telmisartan
@@ -6469,6 +7612,10 @@ Temporary July 12 hold joins the July 8–18 trial. July 13 restart remains a di
 documented course
 
 Source: course:1ccba14c-4b92-5b59-9a5d-d847cfaeb343 · treatment_intervals:X-I-telmi1, diary_responses:S2-R-672, archive_findings:S1-F45022-1, diary_responses:S2-R-672, archive_findings:S1-F45022-1, archive_findings:S1-F45022-1
+
+- [Course detail](../courses/1ccba14c-4b92-5b59-9a5d-d847cfaeb343.html)
+
+- [Intervention](../treatment-b1e1651a-770f-5e89-9ae2-d7dd7522e807.html)
 
 Course actions
 
@@ -6509,6 +7656,12 @@ Report date only · see original report times; event can precede report · patie
 
 Source: response:S1-F45022-1 · S1:45022-45022, S1:45686-45686, S1:45940-45940, S1:46496-46496, S1:46499-46499, S1:48184-48184, S1:48957-48957
 
+- [Course detail](../courses/1ccba14c-4b92-5b59-9a5d-d847cfaeb343.html)
+
+- [Intervention](../treatment-b1e1651a-770f-5e89-9ae2-d7dd7522e807.html)
+
+- [Intervention](../treatment-fde13be9-cd08-5faf-a2e5-7d9a86d7de63.html)
+
 S1:45022-45022 · i took telmi now
 
 S1:45686-45686 · also doubled telmi no issues
@@ -6532,6 +7685,10 @@ Retrospective July 9 garlic start and July 16 diary stop.
 documented course
 
 Source: course:f1b690d9-8c39-5e42-a460-71e58846d4ed · treatment_intervals:S2-I-S2-L00661-E2
+
+- [Course detail](../courses/f1b690d9-8c39-5e42-a460-71e58846d4ed.html)
+
+- [Intervention](../treatment-42e319f7-8c08-5319-abe3-1636d6f09a1d.html)
 
 Course actions
 
@@ -6560,6 +7717,10 @@ documented course
 
 Source: course:dfba55ec-5bf9-53d9-9415-cc51d7bd1715 · treatment_intervals:X-I-hmo, historical_entries:S3:treatment_response:219
 
+- [Course detail](../courses/dfba55ec-5bf9-53d9-9415-cc51d7bd1715.html)
+
+- [Intervention](../treatment-10f09ca1-d141-5157-8f90-6a3b02ee7bb3.html)
+
 Course actions
 
 - 2025-07-15 – 2025-07-18 · Reported course · Co-exposures; agent responsible for symptoms uncertain.
@@ -6579,6 +7740,14 @@ attributed persistent worsening · undated retrospective history · patient retr
 Source: response:S3:treatment_response:219 · S3:219-221, * cat’s claw/gou teng + superHMO ?
 * green stool and diarrhea situation became much worse and haven’t been able to fully stabilize it since then
 * unclear which of the two caused it as they were sadly roughly started together, possibly both, course:2aa044d5-773a-55fc-bb69-0b34eba58ef4, course:dfba55ec-5bf9-53d9-9415-cc51d7bd1715
+
+- [Course detail](../courses/2aa044d5-773a-55fc-bb69-0b34eba58ef4.html)
+
+- [Course detail](../courses/dfba55ec-5bf9-53d9-9415-cc51d7bd1715.html)
+
+- [Intervention](../treatment-10f09ca1-d141-5157-8f90-6a3b02ee7bb3.html)
+
+- [Intervention](../treatment-f46ccb39-8460-5396-81a9-e72c2e3198b4.html)
 
 S3:219-221 · * cat’s claw/gou teng + superHMO ?
 * green stool and diarrhea situation became much worse and haven’t been able to fully stabilize it since then
@@ -6630,6 +7799,10 @@ documented course
 
 Source: course:2aa044d5-773a-55fc-bb69-0b34eba58ef4 · treatment_intervals:X-I-gou, historical_entries:S3:treatment_response:219
 
+- [Course detail](../courses/2aa044d5-773a-55fc-bb69-0b34eba58ef4.html)
+
+- [Intervention](../treatment-f46ccb39-8460-5396-81a9-e72c2e3198b4.html)
+
 Course actions
 
 - 2025-07-15 · Start · 0.25 g
@@ -6651,6 +7824,14 @@ see diary date basis · unconfirmed · Attribution uncertain across exposures
 
 Source: response:S2-R-649 · S2:649-681, Corrosive tingling and abnormal stools amid several exposures. Patient reported relief after KPV and charcoal.
 
+- [Intervention](../treatment-10f09ca1-d141-5157-8f90-6a3b02ee7bb3.html)
+
+- [Intervention](../treatment-1dd4afe1-c223-5e32-8afd-7e920d130239.html)
+
+- [Intervention](../treatment-4ac4fe9d-f60e-5768-8aa9-9a2d085ae50e.html)
+
+- [Intervention](../treatment-f46ccb39-8460-5396-81a9-e72c2e3198b4.html)
+
 S2:649-681 · *  PEM: bad corrosive tingling on/off today too (no real crash), some back of head corrosion (!! haven't had this since start of year); felt like herxing all day
 *  narcolepsy:
 *  burns/pressures: […]
@@ -6665,6 +7846,12 @@ see diary date basis · unconfirmed · Attribution uncertain across exposures
 
 Source: response:S2-R-672 · S2:672-693
 
+- [Course detail](../courses/1ccba14c-4b92-5b59-9a5d-d847cfaeb343.html)
+
+- [Intervention](../treatment-b1e1651a-770f-5e89-9ae2-d7dd7522e807.html)
+
+- [Intervention](../treatment-fde13be9-cd08-5faf-a2e5-7d9a86d7de63.html)
+
 S2:672-693 · *  hunger: lower today (telmi caused anxiety again so presumably higher potassium)
 *  activity:
 *  cold/heat: […]
@@ -6678,6 +7865,10 @@ Crash and corrosive tingling during overlapping trials. Patient could not separa
 Report date only · see original report times; event can precede report · patient report · Report dated 2025-07-18 · Attribution uncertain across exposures
 
 Source: response:S1-F48122-1 · S1:48122-48122, S1:52565-52565, S1:60911-60915
+
+- [Intervention](../treatment-10f09ca1-d141-5157-8f90-6a3b02ee7bb3.html)
+
+- [Intervention](../treatment-f46ccb39-8460-5396-81a9-e72c2e3198b4.html)
 
 S1:48122-48122 · do you think it's possible to figure out purely theoretically which of superHMO and gou teng gave me this intense herx?
 
@@ -6695,6 +7886,8 @@ Action
 
 
 Source: unassigned-actions:intervention:5f2fecaf-cc8f-557a-9e7b-c5606e312362:2025
+
+- [Intervention](../treatment-5f2fecaf-cc8f-557a-9e7b-c5606e312362.html)
 
 - 2025-07-20 · Dose
 
@@ -6714,6 +7907,8 @@ Action
 
 Source: unassigned-actions:intervention:df2a810a-af9d-5377-b50f-825936dfbdee:2025
 
+- [Intervention](../treatment-df2a810a-af9d-5377-b50f-825936dfbdee.html)
+
 - 2025-07-20 · Dose
 
 - 2025-07-30 · Dose
@@ -6727,6 +7922,10 @@ Resumption after July 11 undated; July 20 dose confirmed before August 11 supply
 documented course
 
 Source: course:12d343a3-e968-53d5-a42c-5c81d4bdaa0c · treatment_intervals:S2-I-S2-L01101-E1
+
+- [Course detail](../courses/12d343a3-e968-53d5-a42c-5c81d4bdaa0c.html)
+
+- [Intervention](../treatment-74ec198a-8b12-5e37-ba3e-12c10e477658.html)
 
 Course actions
 
@@ -6743,6 +7942,10 @@ documented course
 
 Source: course:73f69fa8-80cd-5bbb-8e8e-cc9c2fc52b31 · archive_messages:S1-M48877
 
+- [Course detail](../courses/73f69fa8-80cd-5bbb-8e8e-cc9c2fc52b31.html)
+
+- [Intervention](../treatment-b40db75a-dfab-51d0-9878-e4634d880c24.html)
+
 Course actions
 
 - 2025-07-20 · Dose
@@ -6758,6 +7961,12 @@ no clear benefit · undated retrospective history · patient retrospective
 
 Source: response:S3:treatment_response:306 · S3:306-306, intervention_events:S2-L00725-E1, intervention_events:S2-L00879-E2, intervention_events:S2-L00879-E3
 
+- [Intervention](../regimens.html#intervention:9d781f61-5ce2-59db-b6fe-0ea828e41b3c)
+
+- [Intervention](../treatment-0d553746-ea8c-569c-b985-98747f95a834.html)
+
+- [Intervention](../treatment-df2a810a-af9d-5377-b50f-825936dfbdee.html)
+
 S3:306-306 · * H1/H2 blockers
 
 ## 2025-07-21 · Stopped 2025-08-21 · Na-R-ALA
@@ -6769,6 +7978,10 @@ Span from evidence of start/use to recorded stop, pause or depletion; individual
 documented course
 
 Source: course:4bd57dd7-01f8-5fca-ad96-0b2d5bfdbe28 · treatment_intervals:S2-I-S2-L00742-E1
+
+- [Course detail](../courses/4bd57dd7-01f8-5fca-ad96-0b2d5bfdbe28.html)
+
+- [Intervention](../treatment-244cac24-6e37-5e4e-bad4-f0148e91f5ce.html)
 
 Course actions
 
@@ -6791,6 +8004,10 @@ inferred diary day
 
 Source: intervention_events:S2-L00759-E1 · intervention_events:S2-L00759-E1, S2:759–759, intervention_events:S3:T:677:1, S3:677–677
 
+- [Diet history](../diet.html#intervention:9b4419a3-00b7-5665-8438-64767cff35f9)
+
+- [Course detail](../courses/78993f0e-9f08-5b3b-8761-a696401bb1de.html)
+
 S2:759–759 · *  changes: stop all EVOO and coconut oil to get bile under control for now
 
 S3:677–677 · * ⏸️ all EVOO/coconut oil to lower bile flow
@@ -6805,6 +8022,10 @@ inferred diary day
 
 Source: intervention_events:S2-L00759-E2 · intervention_events:S2-L00759-E2, S2:759–759, intervention_events:S3:T:677:2, S3:677–677
 
+- [Diet history](../diet.html#intervention:f3244a5c-1059-58b3-9b3d-0eec4f55ce27)
+
+- [Course detail](../courses/7284fd0a-151e-529f-bdce-6da224425601.html)
+
 S2:759–759 · *  changes: stop all EVOO and coconut oil to get bile under control for now
 
 S3:677–677 · * ⏸️ all EVOO/coconut oil to lower bile flow
@@ -6818,6 +8039,10 @@ Uncertain historical regular larazotide trial recalled as ineffective. Later una
 Report date only · see original report times; event can precede report · patient report · Report dated 2025-07-22
 
 Source: response:S1-F49426-1 · S1:49426-49426, S1:70824-70824
+
+- [Intervention](../treatment-6a367e0f-3e4b-57f4-a9b2-06b4b9595cdb.html)
+
+- [Intervention](../treatment-77163fe9-d974-5685-ba53-c89eff1a5b8a.html)
 
 S1:49426-49426 · Oh another super important one: seems like d-larazotide is way superior to the regular form but not very common.
 I think i tried the regular one with no effect.
@@ -6836,6 +8061,10 @@ July 23–August 12 trial, with the one-day hold and August 8–9 missed doses r
 documented course
 
 Source: course:f6f1746b-4a32-5bb3-b0dc-03e8a10ee3c3 · treatment_intervals:X-I-entero1
+
+- [Course detail](../courses/f6f1746b-4a32-5bb3-b0dc-03e8a10ee3c3.html)
+
+- [Intervention](../treatment-b83129aa-3081-52f5-9b69-8eb53c5e4725.html)
 
 Course actions
 
@@ -6894,6 +8123,10 @@ documented course
 
 Source: course:43476409-9ae6-580e-b53b-24f5543da5b4 · treatment_intervals:S2-I-S2-L00807-E1
 
+- [Course detail](../courses/43476409-9ae6-580e-b53b-24f5543da5b4.html)
+
+- [Intervention](../treatment-bba03e3f-ac74-5bbd-9822-86fcfe8c5388.html)
+
 Course actions
 
 - 2025-07-25 · Start · 250 mcg
@@ -6915,6 +8148,8 @@ Action
 
 Source: unassigned-actions:intervention:20c2cc8f-582f-55b7-8402-5b522b810c04:2025
 
+- [Intervention](../treatment-20c2cc8f-582f-55b7-8402-5b522b810c04.html)
+
 - 2025-07-26 · Increase
 
 - 2025-07-29 · Decrease · 1 cap
@@ -6929,6 +8164,8 @@ reported use · inferred diary day
 
 Source: intervention_events:S2-L00869-E1 · S2:869–869
 
+- [Intervention](../treatment-4c58b49b-b0d4-5bf8-8c77-7bd9f0c665ff.html)
+
 S2:869–869 · *  changes: 40mg famotidine for suspected acid reflux; pause SLU- for now; lower ado-b12 back to 1 cap; forget evening enterosgel and glycine and other supps (fell asleep); eat xylitol based jam
 
 ## Treatment context (response date unknown): 2025-07-29 · Recorded window ends 2025-07-31 · xylitol
@@ -6941,6 +8178,8 @@ Response
 attributed temporary worsening · undated retrospective history · patient retrospective
 
 Source: response:S3:treatment_response:254 · S3:254-255, course:44416647-bd6a-5249-a540-c8fe4df8afcf
+
+- [Diet history](../diet.html#intervention:97216a54-44d6-5158-9e73-d1a32e815356)
 
 S3:254-255 · * xylitol ?
 * bad herx reaction
@@ -6955,6 +8194,8 @@ reported use · inferred diary day
 
 Source: intervention_events:S2-L00879-E3 · S2:879–879
 
+- [Intervention](../treatment-0d553746-ea8c-569c-b985-98747f95a834.html)
+
 S2:879–879 · *  changes: skip morning lentils and eat again for lunch (possible cause of bloating?); h1+h2 blockers in evening to deal with MCAS; little bit of xylitol jam; run out of ensitrelvir
 
 ## 2025-07-30 · Omitted morning lentils and ate them at lunch
@@ -6966,6 +8207,8 @@ Diet change
 inferred diary day
 
 Source: intervention_events:S2-L00879-E1 · intervention_events:S2-L00879-E1, S2:879–879
+
+- [Diet history](../diet.html#intervention:ecb9e12f-bab5-5f37-bf37-13645e8c44ee)
 
 S2:879–879 · *  changes: skip morning lentils and eat again for lunch (possible cause of bloating?); h1+h2 blockers in evening to deal with MCAS; little bit of xylitol jam; run out of ensitrelvir
 
@@ -6993,6 +8236,12 @@ see diary date basis · unconfirmed
 
 Source: response:S2-R-877 · S2:877-909
 
+- [Diet history](../diet.html#intervention:ceac6f21-fdca-5c28-bbe8-85564a33ca43)
+
+- [Intervention](../treatment-0d553746-ea8c-569c-b985-98747f95a834.html)
+
+- [Intervention](../treatment-df2a810a-af9d-5377-b50f-825936dfbdee.html)
+
 S2:877-909 · *  gut pain: some RHS in the morning a few hours after breakfast, seemingly after drinking potassium and glycine; intense bloating in evening, SOB, and itching skin that went away in 40m after h1+h2
 *  hunger: 3 meals these days
 *  changes: skip morning lentils and eat again for lunch (possible cause of bloating?); h1+h2 blockers in evening to deal with MCAS; little bit of xylitol jam; run out of ensitrelvir […]
@@ -7007,6 +8256,8 @@ Action
 
 Source: unassigned-actions:intervention:fde13be9-cd08-5faf-a2e5-7d9a86d7de63:2025
 
+- [Intervention](../treatment-fde13be9-cd08-5faf-a2e5-7d9a86d7de63.html)
+
 - 2025-07-31 · Miss
 
 ## 2025-08-01 · Ongoing at review · Potassium chloride
@@ -7018,6 +8269,10 @@ The reviewer identifies August 1 and August 24, 2025 and April 23, 2026 as resta
 documented course
 
 Source: course:4981417b-8ddc-5fe8-af16-93d42d1cec97 · treatment_intervals:S2-I-S2-L00899-E2
+
+- [Course detail](../courses/4981417b-8ddc-5fe8-af16-93d42d1cec97.html)
+
+- [Intervention](../treatment-53c2071d-7035-53de-91a8-ddee2d4c1613.html)
 
 Course actions
 
@@ -7058,6 +8313,8 @@ reported use · timed diary entry; reconstructed calendar day
 
 Source: intervention_events:PZ57-S2-923-1dd4afe1 · S2:923–923
 
+- [Intervention](../treatment-1dd4afe1-c223-5e32-8afd-7e920d130239.html)
+
 S2:923–923 · 13 take enterosgel and KPV to ward off herx crash
 
 ## 2025-08-02 · SLU
@@ -7070,6 +8327,8 @@ Report date only · see original report times; event can precede report · patie
 
 Source: response:S1-F51881-1 · S1:51881-51881
 
+- [Intervention](../treatment-bba03e3f-ac74-5bbd-9822-86fcfe8c5388.html)
+
 S1:51881-51881 · Strangely slu helped me with sleep
 
 ## Start unknown · Stopped 2025-08-05 · Magnesium
@@ -7081,6 +8340,10 @@ Stop, interruption or depletion documented; start unknown.
 documented course
 
 Source: course:be3c174f-6bad-5cb2-b7f3-15f976b052b3 · treatment_intervals:S2-I-S2-L00977-E3
+
+- [Course detail](../courses/be3c174f-6bad-5cb2-b7f3-15f976b052b3.html)
+
+- [Intervention](../treatment-78b5614f-c3ad-56d6-8ce8-413c90e3fb6a.html)
 
 Course actions
 
@@ -7097,6 +8360,12 @@ Report date only · see original report times; event can precede report · patie
 
 Source: response:S1-F52183-1 · S1:52183-52183, S1:52808-52808
 
+- [Intervention](../treatment-5f2fecaf-cc8f-557a-9e7b-c5606e312362.html)
+
+- [Intervention](../treatment-78b5614f-c3ad-56d6-8ce8-413c90e3fb6a.html)
+
+- [Intervention](../treatment-b83129aa-3081-52f5-9b69-8eb53c5e4725.html)
+
 S1:52183-52183 · enteros actually made my diarrhea previously solid, so I doubt it's that, but will remove it too if things don't improve
 
 S1:52808-52808 · so my idea now is to slowly increase Mg to find a sweet spot bw diarrhea and constipation.
@@ -7110,6 +8379,8 @@ Action
 
 
 Source: unassigned-actions:intervention:2504ca83-5085-51dd-a842-20b5f25bd4f2:2025
+
+- [Intervention](../treatment-2504ca83-5085-51dd-a842-20b5f25bd4f2.html)
 
 - 2025-08-06 04:00 · Administration · 50 mg · 4 take 50mg daridorexant
 
@@ -7125,6 +8396,8 @@ Action
 
 Source: unassigned-actions:intervention:ae1809ed-3301-52a0-9fdb-0b97035cd246:2025
 
+- [Intervention](../treatment-ae1809ed-3301-52a0-9fdb-0b97035cd246.html)
+
 - 2025-08-06 · Dose
 
 - 2025-08-07 · Dose · 2
@@ -7138,6 +8411,10 @@ Span from evidence of start/use to recorded stop, pause or depletion; individual
 documented course
 
 Source: course:fe981dfc-a533-5c79-8be3-b1112ec6d5eb · treatment_intervals:S2-I-S2-L01042-E1
+
+- [Course detail](../courses/fe981dfc-a533-5c79-8be3-b1112ec6d5eb.html)
+
+- [Intervention](../treatment-4d09e3fe-ac5f-5ce8-9f52-76de3455db20.html)
 
 Course actions
 
@@ -7156,6 +8433,10 @@ Resumption date unknown. Patient taking PepZin by August 10, twice daily by Sept
 documented course
 
 Source: course:ab29154e-fcde-5cfb-8416-da3013ce002e · treatment_intervals:S2-I-S2-L02420-E1
+
+- [Course detail](../courses/ab29154e-fcde-5cfb-8416-da3013ce002e.html)
+
+- [Intervention](../treatment-b30ce6bd-124f-5d6d-8010-251658565b77.html)
 
 Course actions
 
@@ -7178,6 +8459,10 @@ course fragment
 
 Source: course:b97e06da-6de0-5549-8faa-7bcdbb28afdc · treatment_intervals:S2-I-S2-L01117-E1
 
+- [Course detail](../courses/b97e06da-6de0-5549-8faa-7bcdbb28afdc.html)
+
+- [Intervention](../treatment-ae1809ed-3301-52a0-9fdb-0b97035cd246.html)
+
 Course actions
 
 - 2025-08-11 · Ran out yesterday
@@ -7193,6 +8478,10 @@ inferred diary day
 
 Source: intervention_events:S2-L01117-E3 · intervention_events:S2-L01117-E3, S2:1117–1117
 
+- [Diet history](../diet.html#intervention:f7b384b3-929d-5432-a558-25df99535315)
+
+- [Course detail](../courses/8354840f-4ecd-5be6-a488-9d060c5a4951.html)
+
 S2:1117–1117 · *  changes: ran out of electrolytes yesterday, replacing with 1 cap(87mg) mg bysglicinate, will slowly taper up from here; reintroduce seaweed also; skip enteros today to restart gut motility
 
 ## 2025-08-12 · Reported end 2025-09-03 · Magnesium bisglycinate
@@ -7204,6 +8493,10 @@ August magnesium glycinate doses followed by explicit switch to the oxide mix Se
 documented course
 
 Source: course:12201a12-fb5b-593b-a27e-fd25ba83bb98 · treatment_intervals:S2-I-S2-L01117-E2
+
+- [Course detail](../courses/12201a12-fb5b-593b-a27e-fd25ba83bb98.html)
+
+- [Intervention](../treatment-927dbd40-9110-52cb-9182-c6b59da6fb87.html)
 
 Course actions
 
@@ -7235,6 +8528,8 @@ inferred diary day
 
 Source: intervention_events:S2-L01181-E1 · intervention_events:S2-L01181-E1, S2:1181–1181
 
+- [Diet history](../diet.html#intervention:6f7cb69c-0935-5f89-b07a-cca12b4dc459)
+
 S2:1181–1181 · * changes: no jam today, will see if stool improves; start bacopa (320mg at 8%)
 
 ## 2025-08-15 · Stopped 2025-08-21 · Bacopa
@@ -7246,6 +8541,10 @@ Span from evidence of start/use to recorded stop, pause or depletion; individual
 documented course
 
 Source: course:2fb90004-53f7-599b-b937-78bf07ba72d9 · treatment_intervals:S2-I-S2-L01181-E2
+
+- [Course detail](../courses/2fb90004-53f7-599b-b937-78bf07ba72d9.html)
+
+- [Intervention](../treatment-676ef01c-aa48-5154-bdab-836527b3a66e.html)
 
 Course actions
 
@@ -7264,6 +8563,10 @@ Milestone
 day range · original lab reports
 
 Source: context_cards:CTX-016 · S4-R21 p2, S4-R22 pp1-2
+
+- [19 August enzyme panel](../biomarkers.html#report-S4-R21)
+
+- [4 September follow-up panel](../biomarkers.html#report-S4-R22)
 
 ## 2025-08-19 – 2025-09-09 · Prolonged diarrhea, pain, and severe dietary restriction
 
@@ -7313,6 +8616,8 @@ Investigation
 
 Source: context:context:fbc14899-6488-5eda-9c1f-777d0e966877 · intervention_events:S2-L01274-E1
 
+- [Investigation record](../investigations.html#context:fbc14899-6488-5eda-9c1f-777d0e966877)
+
 ## 2025-08-19 · Broad blood, coagulation, immunology and urine panel
 
 Test
@@ -7322,6 +8627,8 @@ The hemostasis assays used frozen plasma. Control times are laboratory controls,
 Specimen collection · clinical laboratory report
 
 Source: reports:S4-R21 · S4-R21
+
+- [Biomarker results](../biomarkers.html#report-S4-R21)
 
 ## 2025-08-20 · Blood draw · procedure
 
@@ -7333,6 +8640,8 @@ Investigation
 
 Source: context:context:7980b796-14eb-5b63-8dc6-153a37cf2059 · intervention_events:S2-L01301-E1
 
+- [Investigation record](../investigations.html#context:7980b796-14eb-5b63-8dc6-153a37cf2059)
+
 ## 2025-08-21 · Vitamin C · Pause
 
 Action
@@ -7342,6 +8651,8 @@ Action
 omission or hold · day
 
 Source: intervention_events:S3:T:727:4 · S3:727–727
+
+- [Intervention](../treatment-deae119a-83b0-5753-a4f6-61b2d62d35ae.html)
 
 S3:727–727 · * 21: ⏸️ bacopa/spermidine/Na-R-ALA/vit C) while figuring out GI system issues (no specific issues noted on these)
 
@@ -7354,6 +8665,10 @@ Rupatadine August 21 restart through December 19 reported depletion. September 1
 documented course
 
 Source: course:2a96366c-8b27-50f7-bd57-f3b7df4c2204 · treatment_intervals:S2-I-S2-L01320-E5
+
+- [Course detail](../courses/2a96366c-8b27-50f7-bd57-f3b7df4c2204.html)
+
+- [Intervention](../treatment-74ec198a-8b12-5e37-ba3e-12c10e477658.html)
 
 Course actions
 
@@ -7378,6 +8693,10 @@ Boiled rice, egg whites, some carrot/apple salad.
 day
 
 Source: intervention_events:S3:T:728:1 · intervention_events:S3:T:728:1, S3:728–728
+
+- [Diet history](../diet.html#intervention:c5310e4f-1c9f-5080-8183-0fc57d188fd7)
+
+- [Course detail](../courses/5b0dc905-47f0-5854-9626-42b96f954437.html)
 
 S3:728–728 · * 22: stop all fat consumption, only eat boiled rice, boiled egg whites, a bit of carrot/apple salad
 
@@ -7411,6 +8730,10 @@ documented course
 
 Source: course:7c72146b-04d5-5b08-97c7-270bbd0b42bc · treatment_intervals:S2-I-S2-L01393-E1
 
+- [Course detail](../courses/7c72146b-04d5-5b08-97c7-270bbd0b42bc.html)
+
+- [Intervention](../treatment-48ef78ec-867f-5e5e-95ec-c23574784bf4.html)
+
 Course actions
 
 - 2025-08-24 · Restart · 1 g
@@ -7435,6 +8758,8 @@ reported change · inferred diary day
 
 Source: intervention_events:S2-L01447-E1 · S2:1447–1447
 
+- [Intervention](../treatment-aa0d654f-3fdb-5e1e-8e3c-0c3c459edf79.html)
+
 S2:1447–1447 · * Changes: Double vit D dose (due to low blood levels), Double potassium (2x100mg) glycine (2x1g), Double mg bisglycinate (2x2 caps ≈400mg)
 
 ## 2025-08-29 · Stopped 2025-08-31 · Milk thistle
@@ -7446,6 +8771,10 @@ Span from evidence of start/use to recorded stop, pause or depletion; individual
 documented course
 
 Source: course:3ae3ad53-ac4f-5410-b9dc-5ab88839ff1c · treatment_intervals:S2-I-S2-L01523-E1
+
+- [Course detail](../courses/3ae3ad53-ac4f-5410-b9dc-5ab88839ff1c.html)
+
+- [Intervention](../treatment-7d354d20-3fd3-599e-9294-bc0809185808.html)
 
 Course actions
 
@@ -7468,6 +8797,10 @@ month
 
 Source: intervention_events:S3:T:731:1 · intervention_events:S3:T:731:1, S3:731–731
 
+- [Diet history](../diet.html#intervention:0508f440-7083-5a5d-8c9f-f3b77a4c01f4)
+
+- [Course detail](../courses/d35f1867-7eeb-5757-b46e-3a814c6f583c.html)
+
 S3:731–731 · * slowly reintroducing fat (half an egg yolk with each meal), but still only eating plain rice + egg whites
 
 ## 2025-09-01 · Amatica research tests
@@ -7479,6 +8812,12 @@ Amatica blood draw on 1 September 2025; 31-marker protein panel (November 2025) 
 Diary and contemporaneous patient account; transcriptomic sample linkage unverified
 
 Source: clinical_summary:amatica-testing · diary_observations:S2-OBS-1633, S1-M55646, S1-M57986, S1-M58387, reports:S4-R23, S1-M71986
+
+- [Amatica 31-marker protein panel](../biomarkers.html#report-S4-R23)
+
+- [Amatica RNA sequencing](../transcriptomics.html)
+
+- [Diary: 1 September 2025](../weeks/2025-09-01.html#day-2025-09-01)
 
 S1-M55646 · okay it's done. it went well, this nurse is very good
 
@@ -7498,6 +8837,8 @@ Action
 
 Source: unassigned-actions:intervention:7e1ea408-af99-5d0a-982e-3885189f5c9a:2025
 
+- [Intervention](../treatment-7e1ea408-af99-5d0a-982e-3885189f5c9a.html)
+
 - 2025-09-01 11:38 · Administration · baby aspirin; amount unspecified · 11.38 take baby aspirin
 
 - 2025-09-01 · Dose · 3 × 80 mg
@@ -7516,6 +8857,8 @@ Investigation
 
 Source: context:context:c238ccf1-6b68-5b3a-a2ff-827f04af3ee2 · intervention_events:S2-L01625-E1
 
+- [Investigation record](../investigations.html#context:c238ccf1-6b68-5b3a-a2ff-827f04af3ee2)
+
 ## 2025-09-01 · Salt
 
 Response
@@ -7526,6 +8869,8 @@ Possible association
 
 Source: response-evidence:archive_findings:S1-F2-55688 · archive_findings:S1-F2-55688, claim:fa914882-0ee5-5953-9793-bd7cce71b669
 
+- [Salt](../treatment-37713448-e2c0-5e36-84ac-7d18cd96c2e2.html)
+
 ## 2025-09-03 · Reported end 2025-12-11 · Famotidine
 
 Intervention
@@ -7535,6 +8880,10 @@ September 3 start through December 11 supply exhaustion. September 21 supply lap
 documented course
 
 Source: course:204d1260-3a6c-501d-b82a-d498707b57b4 · treatment_intervals:S2-I-S2-L01696-E3
+
+- [Course detail](../courses/204d1260-3a6c-501d-b82a-d498707b57b4.html)
+
+- [Intervention](../treatment-4c58b49b-b0d4-5bf8-8c77-7bd9f0c665ff.html)
 
 Course actions
 
@@ -7584,6 +8933,10 @@ documented course
 
 Source: course:37839629-0d78-5a32-98bb-0ae11b241763 · treatment_intervals:S2-I-S2-L01696-E2
 
+- [Course detail](../courses/37839629-0d78-5a32-98bb-0ae11b241763.html)
+
+- [Intervention](../treatment-42d8eb8b-a907-5a11-beaf-50ca8e3909b3.html)
+
 Course actions
 
 - 2025-09-03 · Switch to · 400 mg elemental
@@ -7599,6 +8952,8 @@ Investigation
 
 Source: context:context:9487039d-e3bf-5e4b-93e9-5feafe8c07dc · intervention_events:S2-L01720-E1
 
+- [Investigation record](../investigations.html#context:9487039d-e3bf-5e4b-93e9-5feafe8c07dc)
+
 ## 2025-09-04 · CBC, leptin, liver and pancreatic enzymes
 
 Test
@@ -7608,6 +8963,8 @@ Test
 Specimen collection · clinical laboratory report
 
 Source: reports:S4-R22 · S4-R22
+
+- [Biomarker results](../biomarkers.html#report-S4-R22)
 
 ## 2025-09-06 · Patient suspected too much work on WGS.
 
@@ -7628,6 +8985,10 @@ Span from evidence of start/use to recorded stop, pause or depletion; individual
 documented course
 
 Source: course:f6b0b188-ac00-558b-9ba5-d17ee4d490ee · treatment_intervals:S2-I-S2-L01827-E1, diary_responses:S2-R-2575, diary_responses:S2-R-2575
+
+- [Course detail](../courses/f6b0b188-ac00-558b-9ba5-d17ee4d490ee.html)
+
+- [Intervention](../treatment-80a90a79-4d64-528d-8065-45d7cc732c9a.html)
 
 Course actions
 
@@ -7659,6 +9020,8 @@ Report date only · see original report times; event can precede report · patie
 
 Source: response:S1-F56736-1 · S1:56736-56736
 
+- [Intervention](../treatment-2504ca83-5085-51dd-a842-20b5f25bd4f2.html)
+
 S1:56736-56736 · Took 50mg daridorexant and nothing.
 
 ## 2025-09-12 · Estimated depletion in summer 2026 · Magnesium L-threonate
@@ -7670,6 +9033,10 @@ The reviewer identifies one Magtein / magnesium L-threonate course from Septembe
 documented course
 
 Source: course:5976e02c-8945-5844-b123-b94b67e74f05 · treatment_intervals:S2-I-S2-L01922-E1
+
+- [Course detail](../courses/5976e02c-8945-5844-b123-b94b67e74f05.html)
+
+- [Intervention](../treatment-089d2d33-d206-5989-8566-261529788191.html)
 
 Course actions
 
@@ -7701,6 +9068,8 @@ inferred diary day
 
 Source: intervention_events:S2-L01969-E1 · intervention_events:S2-L01969-E1, S2:1969–1969
 
+- [Diet history](../diet.html#intervention:8a0aa82c-56c7-5cba-9e63-df595536f012)
+
 S2:1969–1969 · * Changes: no egg yolk/fat today, to let pancreas rest
 
 ## 2025-09-14 · SLU
@@ -7712,6 +9081,8 @@ Reported left upper abdominal pain appearing after SLU and persisting into the f
 Report date only · see original report times; event can precede report · patient report · Report dated 2025-09-14 · Possible association
 
 Source: response:S1-F57222-1 · S1:57222-57222, S1:57230-57230, S1:57298-57298
+
+- [Intervention](../treatment-bba03e3f-ac74-5bbd-9822-86fcfe8c5388.html)
 
 S1:57222-57222 · Reported more left upper abdominal pain despite no fat intake that day and more sugar. He also considered bloating or constipation.
 
@@ -7728,6 +9099,10 @@ Dietary fat increased slightly.
 inferred diary day
 
 Source: intervention_events:PZ-DIET-S2-2018-FAT · intervention_events:PZ-DIET-S2-2018-FAT, S2:2018–2018
+
+- [Diet history](../diet.html#intervention:0508f440-7083-5a5d-8c9f-f3b77a4c01f4)
+
+- [Course detail](../courses/d35f1867-7eeb-5757-b46e-3a814c6f583c.html)
 
 S2:2018–2018 · * Changes: eat slightly more fat; bovine collagen jellies
 
@@ -7750,6 +9125,10 @@ Diary places initiation Sept 18. Patient on Sept 20 recalled starting three days
 documented course
 
 Source: course:dfccdbca-2be2-58a0-a27f-a6c09bd6bad2 · treatment_intervals:X-I-phgg
+
+- [Course detail](../courses/dfccdbca-2be2-58a0-a27f-a6c09bd6bad2.html)
+
+- [Intervention](../treatment-9d877186-aa49-5c6f-abd8-599065739eee.html)
 
 Course actions
 
@@ -7781,6 +9160,10 @@ September 25 is the last recorded dose of the September course. A separate March
 documented course
 
 Source: course:886577a8-0201-5ae0-bcda-ad78a6252ea1 · treatment_intervals:X-I-entero4
+
+- [Course detail](../courses/886577a8-0201-5ae0-bcda-ad78a6252ea1.html)
+
+- [Intervention](../treatment-b83129aa-3081-52f5-9b69-8eb53c5e4725.html)
 
 Course actions
 
@@ -7815,6 +9198,10 @@ documented course
 
 Source: course:ab2b606d-e12b-5b9b-9879-ac4c94c24e2e · treatment_intervals:S2-I-S2-L02101-E2
 
+- [Course detail](../courses/ab2b606d-e12b-5b9b-9879-ac4c94c24e2e.html)
+
+- [Intervention](../treatment-9744789e-f893-564e-99c4-cb78867ae958.html)
+
 Course actions
 
 - 2025-09-19 · Ran out
@@ -7830,6 +9217,10 @@ Report date only · see original report times; event can precede report · patie
 
 Source: response:S1-F57612-1 · S1:57612-57620
 
+- [Intervention](../treatment-9d877186-aa49-5c6f-abd8-599065739eee.html)
+
+- [Intervention](../treatment-b83129aa-3081-52f5-9b69-8eb53c5e4725.html)
+
 S1:57612-57620 · Weirdly I'm having more herx-like PEM now, this unbearable poisoned feeling, not the default tingling. I wonder why. Recent changes:
 Start PHGG 3 days ago, somewhat reduced lhs/rhs flares since then (though too early to tell) […]
 
@@ -7842,6 +9233,10 @@ Stop, interruption or depletion documented; start unknown.
 documented course
 
 Source: course:544dd742-c06c-529a-85aa-67edfeaaa0f8 · treatment_intervals:S2-I-S2-L02164-E1
+
+- [Course detail](../courses/544dd742-c06c-529a-85aa-67edfeaaa0f8.html)
+
+- [Intervention](../treatment-fb15d627-61a4-5616-b14c-92ee978beb7b.html)
 
 Course actions
 
@@ -7857,6 +9252,10 @@ Span from evidence of start/use to recorded stop, pause or depletion; individual
 documented course
 
 Source: course:2700d15c-cb18-5a8d-9bcc-bb1eae9c453b · treatment_intervals:S2-I-S2-L02284-E1, diary_responses:S2-R-2330, diary_responses:S2-R-2330
+
+- [Course detail](../courses/2700d15c-cb18-5a8d-9bcc-bb1eae9c453b.html)
+
+- [Intervention](../treatment-2a05b43a-924f-537b-94d9-5b24be2ed6ac.html)
 
 Course actions
 
@@ -7879,6 +9278,8 @@ no clear benefit · undated retrospective history · patient retrospective
 
 Source: response:S3:treatment_response:288 · S3:288-288, course:2700d15c-cb18-5a8d-9bcc-bb1eae9c453b, course:fc50526d-0aab-5aaf-b75d-5ef3ef269060
 
+- [Intervention](../treatment-2a05b43a-924f-537b-94d9-5b24be2ed6ac.html)
+
 S3:288-288 · * Bodybio PC phosphatydilcholine
 
 ## 2025-09-28 · BodyBio PC
@@ -7890,6 +9291,10 @@ Paused because of suspected reaction described as herx. Prickling and poisoned P
 see diary date basis · unconfirmed · Possible association
 
 Source: response:S2-R-2330 · S2:2330-2333
+
+- [Course detail](../courses/2700d15c-cb18-5a8d-9bcc-bb1eae9c453b.html)
+
+- [Intervention](../treatment-2a05b43a-924f-537b-94d9-5b24be2ed6ac.html)
 
 S2:2330-2333 · * Changes: pause bodybio PC (due to suspected herx); up meldonium dose 500mg BID → 1500mg + 1000mg
 0 eat rice 2 eggs
@@ -7915,6 +9320,8 @@ Report date only · see original report times; event can precede report · patie
 
 Source: response:S1-F58285-1 · S1:58285-58285
 
+- [Intervention](../treatment-80a90a79-4d64-528d-8065-45d7cc732c9a.html)
+
 S1:58285-58285 · I thought there was a small boost to energy and PEM resistance from meldonium but it was only on the first 2 days or so and ever since then nothing, so it was likely psychological (this usually happens when starting a new med, the hope somehow improves symptoms briefly)
 
 ## 2025-10-09 · Meldonium
@@ -7927,6 +9334,10 @@ see diary date basis · unconfirmed
 
 Source: response:S2-R-2575 · S2:2575-2575
 
+- [Course detail](../courses/f6b0b188-ac00-558b-9ba5-d17ee4d490ee.html)
+
+- [Intervention](../treatment-80a90a79-4d64-528d-8065-45d7cc732c9a.html)
+
 S2:2575-2575 · changes: stop meldonium (little to no effect);
 
 ## Start unknown · Reported end 2025-10-11 · Berberine
@@ -7938,6 +9349,10 @@ Stop, interruption or depletion documented; start unknown.
 course fragment
 
 Source: course:2252d3ff-8e45-5736-8d4e-ae1d16698a9d · treatment_intervals:S2-I-S2-L02621-E1
+
+- [Course detail](../courses/2252d3ff-8e45-5736-8d4e-ae1d16698a9d.html)
+
+- [Intervention](../treatment-0c7e2040-6bf9-5577-9a66-395264290c80.html)
 
 Course actions
 
@@ -7953,6 +9368,10 @@ Span from evidence of start/use to recorded stop, pause or depletion; individual
 documented course
 
 Source: course:fc50526d-0aab-5aaf-b75d-5ef3ef269060 · treatment_intervals:S2-I-S2-L02621-E2
+
+- [Course detail](../courses/fc50526d-0aab-5aaf-b75d-5ef3ef269060.html)
+
+- [Intervention](../treatment-2a05b43a-924f-537b-94d9-5b24be2ed6ac.html)
 
 Course actions
 
@@ -7975,6 +9394,8 @@ Action
 
 Source: unassigned-actions:intervention:4d09e3fe-ac5f-5ce8-9f52-76de3455db20:2025
 
+- [Intervention](../treatment-4d09e3fe-ac5f-5ce8-9f52-76de3455db20.html)
+
 - 2025-10-13 · Miss · second dose
 
 - 2025-11-04 · Miss
@@ -7991,6 +9412,10 @@ see diary date basis · unconfirmed
 
 Source: response:S2-R-2751 · S2:2751-2763
 
+- [Diet history](../diet.html#intervention:f5ece1cb-d67c-5382-93c5-f7752086abf8)
+
+- [Diet history](../diet.html#intervention:fe1aba10-a0c2-5d71-bacf-adbbce4263a7)
+
 S2:2751-2763 · 4.20 eat rice veggies potatoes sourdough bread + drink some goat milk
 4.30-5 minor itching upper body
 4.40- brain slow down/burns/forehead pressure/not sure what […]
@@ -8004,6 +9429,10 @@ Span from evidence of start/use to recorded stop, pause or depletion; individual
 documented course
 
 Source: course:bd1c957a-ea0c-5f32-9feb-d662c8cf89ed · treatment_intervals:S2-I-S2-L02801-E1
+
+- [Course detail](../courses/bd1c957a-ea0c-5f32-9feb-d662c8cf89ed.html)
+
+- [Intervention](../treatment-acd8e087-c307-5be4-b590-c40bc8395716.html)
 
 Course actions
 
@@ -8036,6 +9465,8 @@ attributed temporary worsening · undated retrospective history · patient retro
 Source: response:S3:treatment_response:260 · S3:260-261, * methylene blue/MB
 * even at 1mg felt stronger corrosive/herxy tingling (likely not herx, but that’s usually when I have a similar sensation), course:bd1c957a-ea0c-5f32-9feb-d662c8cf89ed, course:5400f759-cf6f-5b10-baa8-35e1b6024648
 
+- [Intervention](../treatment-acd8e087-c307-5be4-b590-c40bc8395716.html)
+
 S3:260-261 · * methylene blue/MB
 * even at 1mg felt stronger corrosive/herxy tingling (likely not herx, but that’s usually when I have a similar sensation)
 
@@ -8049,6 +9480,8 @@ Report date only · molecular laboratory developed test
 
 Source: reports:S4-R24 · S4-R24
 
+- [Biomarker results](../biomarkers.html#report-S4-R24)
+
 ## 2025-10-24 · MicroGenDX nasal swab qPCR and NGS
 
 Test
@@ -8059,6 +9492,8 @@ Report date only · molecular laboratory developed test
 
 Source: reports:S4-R25 · S4-R25
 
+- [Biomarker results](../biomarkers.html#report-S4-R25)
+
 ## Recorded 2025-10-28 · Collagen
 
 Action
@@ -8068,6 +9503,8 @@ Action
 
 
 Source: unassigned-actions:intervention:5742d79a-b0fc-51d0-9769-c6a8fb5931cc:2025
+
+- [Intervention](../treatment-5742d79a-b0fc-51d0-9769-c6a8fb5931cc.html)
 
 - 2025-10-28 · Miss
 
@@ -8080,6 +9517,10 @@ Span from evidence of start/use to recorded stop, pause or depletion; individual
 documented course
 
 Source: course:c6d3d795-37bf-5758-bf60-95d47ed6404e · treatment_intervals:S2-I-S2-L02936-E1, diary_responses:S2-R-2965, diary_responses:S2-R-2965
+
+- [Course detail](../courses/c6d3d795-37bf-5758-bf60-95d47ed6404e.html)
+
+- [Intervention](../treatment-42e319f7-8c08-5319-abe3-1636d6f09a1d.html)
 
 Course actions
 
@@ -8099,6 +9540,10 @@ see diary date basis · unconfirmed · Possible association
 
 Source: response:S2-R-2965 · S2:2965-2965
 
+- [Course detail](../courses/c6d3d795-37bf-5758-bf60-95d47ed6404e.html)
+
+- [Intervention](../treatment-42e319f7-8c08-5319-abe3-1636d6f09a1d.html)
+
 S2:2965-2965 · changes: stop garlic due to gut upset, 3x100mg aspirin for headache
 
 ## 2025-10-30 · Marinated garlic
@@ -8110,6 +9555,10 @@ Paused after more than 12 hours of gut gurgling, discomfort and burning; unsure 
 Report date only · see original report times; event can precede report · patient report · Report dated 2025-10-30 · Possible association
 
 Source: response:S1-F59280-1 · S1:59280-59282
+
+- [Intervention](../treatment-0cfaf5cd-3e21-5cf2-85df-ce4d2eb96dc0.html)
+
+- [Intervention](../treatment-42e319f7-8c08-5319-abe3-1636d6f09a1d.html)
 
 S1:59280-59282 · so anyway, as for next steps: I have started the marinated garlic, but paused today to give my gut some rest in case that's what it caused the 12+ hour gurgling/movements/discomfort/burning.
 
@@ -8163,6 +9612,10 @@ documented course
 
 Source: course:693a230a-64ee-5862-90be-5c3d95be7991 · treatment_intervals:S2-I-S2-L03027-E1, diary_responses:S2-R-3011, diary_responses:S2-R-3011, diary_responses:S2-R-3011, diary_responses:S2-R-3011, diary_responses:S2-R-3011
 
+- [Course detail](../courses/693a230a-64ee-5862-90be-5c3d95be7991.html)
+
+- [Intervention](../treatment-899772de-33cc-5dee-a7fc-710d35a9d8b6.html)
+
 Course actions
 
 - 2025-11-01 · Dose · source lists 0.8 mL (0.4 mg) here, see later changelog estimate
@@ -8190,6 +9643,10 @@ see diary date basis · unconfirmed · Patient-reported
 
 Source: response:S2-R-3011 · S2:3011-3124
 
+- [Course detail](../courses/693a230a-64ee-5862-90be-5c3d95be7991.html)
+
+- [Intervention](../treatment-899772de-33cc-5dee-a7fc-710d35a9d8b6.html)
+
 S2:3011-3124 · 0.40 SkQ1 first dose 0.8ml (0.4mg)
 1.20- pem again, then bad crash, fell asleep […]
 
@@ -8205,6 +9662,8 @@ Source: response:S3:treatment_response:262 · S3:262-265, * SkQ1
 * accidentally overdosed to 1.6mg first time I tried (instead of 0.4mg) and had a strong CNS crash → fell asleep within an hour
 * but smaller doses (0.4mg) also resulted in increased corrosive tingling and poisoned PEM feeling
 * reasons are unclear: possible mitochondrial memV drop, or unmasking complex IV breakage and ROS generation or RET flow, course:693a230a-64ee-5862-90be-5c3d95be7991
+
+- [Intervention](../treatment-899772de-33cc-5dee-a7fc-710d35a9d8b6.html)
 
 S3:262-265 · * SkQ1
 * accidentally overdosed to 1.6mg first time I tried (instead of 0.4mg) and had a strong CNS crash → fell asleep within an hour
@@ -8236,6 +9695,8 @@ Report date only · Patient-reported
 
 Source: response-evidence:archive_findings:S1-F2-59964 · archive_findings:S1-F2-59964, claim:a9c22cb7-9e79-5479-ac31-e4aed436991d
 
+- [Garlic](../treatment-42e319f7-8c08-5319-abe3-1636d6f09a1d.html)
+
 ## 2025-11-16 · Methylene blue; SkQ1; L. reuteri; SuperHMO; mushroom extract; cat's claw; rapamycin
 
 Response
@@ -8245,6 +9706,20 @@ Methylene blue was among the separately recalled exposures associated by the pat
 Report date only · see original report times; event can precede report · patient report · Report dated 2025-11-16 · Patient-reported · Attribution uncertain across exposures
 
 Source: response:S1-F60911-1 · S1:60911-60915, Patient grouped these as increasing a similar corrosive tingling also experienced during PEM. Mechanistic explanations in same message are speculative.
+
+- [Intervention](../treatment-10f09ca1-d141-5157-8f90-6a3b02ee7bb3.html)
+
+- [Intervention](../treatment-59d11350-8ed5-585b-a188-87437b38b620.html)
+
+- [Intervention](../treatment-899772de-33cc-5dee-a7fc-710d35a9d8b6.html)
+
+- [Intervention](../treatment-908a1f09-49b7-55f5-afe2-59eedacf1f5b.html)
+
+- [Intervention](../treatment-acd8e087-c307-5be4-b590-c40bc8395716.html)
+
+- [Intervention](../treatment-d2791758-1a3d-5f28-b23b-b5ef705c0252.html)
+
+- [Intervention](../treatment-d3d2587c-b98a-5bbd-9d39-bbf31cd4d50b.html)
 
 S1:60911-60915 · I was thinking: what if the SkQ1 and MB were not causing mitochondrial issues, but rather the opposite: they improved function, which in turn made immune cells more active, which caused a herx? is this plausible?
 asking because other, non-mitochondrial interventions also always resulted in an exacerbation of this corrosive tingling effect; think superHMO, L. reuteri. the mushroom extract, cat’s claw, or rapamycin (though the last two obviously caused some severe other symptoms as well). […]
@@ -8258,6 +9733,10 @@ The patient took spore probiotic with lunch December 3. The researcher advised s
 documented course
 
 Source: course:53f1f9de-6a4c-562b-b9fe-c22466b0b849 · treatment_intervals:X-I-spore, diary_responses:S2-R-3313, diary_responses:S2-R-3313, diary_responses:S2-R-3313
+
+- [Course detail](../courses/53f1f9de-6a4c-562b-b9fe-c22466b0b849.html)
+
+- [Intervention](../treatment-8c44127d-11fb-5024-8f14-bb5c20b3def5.html)
 
 Course actions
 
@@ -8292,6 +9771,10 @@ see diary date basis · unconfirmed · Possible association
 
 Source: response:S2-R-3313 · S2:3313-3457
 
+- [Course detail](../courses/53f1f9de-6a4c-562b-b9fe-c22466b0b849.html)
+
+- [Intervention](../treatment-8c44127d-11fb-5024-8f14-bb5c20b3def5.html)
+
 S2:3313-3457 · 17 take tiny dose spore pbx
 17.30-18 pretty pemy
 20 eat rice beef veggies […]
@@ -8306,6 +9789,8 @@ Report date only · research panel
 
 Source: reports:S4-R23 · S4-R23
 
+- [Biomarker results](../biomarkers.html#report-S4-R23)
+
 ## 2025-11-22 · Spore probiotic / meal
 
 Response
@@ -8315,6 +9800,8 @@ Strong fullness after a small meal with spore probiotic; distress, systemic corr
 see diary date basis · unconfirmed · Possible association
 
 Source: response:S2-R-3375 · S2:3375-3392
+
+- [Intervention](../treatment-8c44127d-11fb-5024-8f14-bb5c20b3def5.html)
 
 S2:3375-3392 · 8.30 wake
 9.20 eat rice beef veggies
@@ -8330,6 +9817,8 @@ Patient-reported
 
 Source: response-evidence:archive_findings:S1-F2-61824 · archive_findings:S1-F2-61824, claim:831a976a-1846-58f9-baa0-a3eea3f7d7f8
 
+- [Spore probiotic](../treatment-8c44127d-11fb-5024-8f14-bb5c20b3def5.html)
+
 ## 2025-12 · Estimated end 2026-01 to 2026-02 · Zinc
 
 Intervention
@@ -8339,6 +9828,10 @@ Codeage Liposomal Zinc 50+ first used in December 2025. The patient estimates th
 documented course
 
 Source: course:f45ec250-bbf0-50a1-b8a1-d4eeb86b1da5 · pz_review57_course:course:38d2290c-544f-56fd-99c3-a0237e9c68af
+
+- [Course detail](../courses/f45ec250-bbf0-50a1-b8a1-d4eeb86b1da5.html)
+
+- [Intervention](../treatment-8ab3457a-63be-5ff5-957d-6a9b1ebb0d23.html)
 
 ## 2025-12-01 – 2025-12-19 · New persistent nape/wrist and forehead symptoms with a lower threshold
 
@@ -8386,6 +9879,10 @@ documented course
 
 Source: course:d1746288-6ef4-54c7-b6d8-38e68ad26e60 · treatment_intervals:X-I-bezi, diary_responses:S2-R-3550, historical_entries:S3:treatment_response:226, diary_responses:S2-R-3550, diary_responses:S2-R-3550
 
+- [Course detail](../courses/d1746288-6ef4-54c7-b6d8-38e68ad26e60.html)
+
+- [Intervention](../treatment-ee824179-20cd-5023-98b9-9ca860592f79.html)
+
 Course actions
 
 - 2025-12-01 · Start · 10 mg
@@ -8404,6 +9901,10 @@ see diary date basis · unconfirmed · Attribution uncertain across exposures
 
 Source: response:S2-R-3550 · S2:3550-3569
 
+- [Course detail](../courses/d1746288-6ef4-54c7-b6d8-38e68ad26e60.html)
+
+- [Intervention](../treatment-ee824179-20cd-5023-98b9-9ca860592f79.html)
+
 S2:3550-3569 · 21.40 eat rice beef + spore pbx + bezisterim
 22.30- helmet, sinus pressures […]
 
@@ -8419,6 +9920,10 @@ Source: response:S3:treatment_response:226 · S3:226-229, Q-005, * bezisterim
 * strange type of brain PEM (“lactate brain”) and behind eye sensations + heightened sinus pressures appeared the day after
 * nape and wrist/forearm fatigue has been developing since then
 * baseline drastically lowered (was on computer/phone pretty much all day before it, now start getting this brain/forehead PEM after a few hours), course:d1746288-6ef4-54c7-b6d8-38e68ad26e60
+
+- [Course detail](../courses/d1746288-6ef4-54c7-b6d8-38e68ad26e60.html)
+
+- [Intervention](../treatment-ee824179-20cd-5023-98b9-9ca860592f79.html)
 
 S3:226-229 · * bezisterim
 * strange type of brain PEM (“lactate brain”) and behind eye sensations + heightened sinus pressures appeared the day after
@@ -8456,6 +9961,8 @@ day · original research report
 
 Source: context_cards:CTX-027 · S4-R27 p1
 
+- [Attomarker spike assay results](../biomarkers.html#report-S4-R27)
+
 ## 2025-12-09 · Blood draw · procedure
 
 Investigation
@@ -8465,6 +9972,8 @@ Investigation
 
 
 Source: context:context:c4339eed-cf25-51b2-81de-0bf7bc2a716f · intervention_events:S2-L03679-E1
+
+- [Investigation record](../investigations.html#context:c4339eed-cf25-51b2-81de-0bf7bc2a716f)
 
 ## 2025-12-09 · CBC, iron, vitamins, liver and pancreatic markers
 
@@ -8476,6 +9985,8 @@ Specimen collection · clinical laboratory report
 
 Source: reports:S4-R26 · S4-R26
 
+- [Biomarker results](../biomarkers.html#report-S4-R26)
+
 ## 2025-12-09 · Attomarker COVID spike protein ELISA
 
 Test
@@ -8486,6 +9997,8 @@ Specimen collection · investigational assay
 
 Source: reports:S4-R27 · S4-R27
 
+- [Biomarker results](../biomarkers.html#report-S4-R27)
+
 ## 2025-12-10 · Off by 2026-10-21 · Adenosyl B12
 
 Intervention
@@ -8495,6 +10008,10 @@ Patient review associates the October 21 B12 depletion with this earlier adenosy
 documented course
 
 Source: course:6fc75e7f-06dc-53dc-bfe2-63d6a0ffcb32 · treatment_intervals:S2-I-S2-L03720-E1
+
+- [Course detail](../courses/6fc75e7f-06dc-53dc-bfe2-63d6a0ffcb32.html)
+
+- [Intervention](../treatment-20c2cc8f-582f-55b7-8402-5b522b810c04.html)
 
 Course actions
 
@@ -8511,6 +10028,10 @@ documented course
 
 Source: course:199b8aaa-d908-5b01-aa55-e428bb2ef2f2 · treatment_intervals:S2-I-S2-L03737-E2
 
+- [Course detail](../courses/199b8aaa-d908-5b01-aa55-e428bb2ef2f2.html)
+
+- [Intervention](../treatment-b30ce6bd-124f-5d6d-8010-251658565b77.html)
+
 Course actions
 
 - 2025-12-11 · Restart
@@ -8526,6 +10047,10 @@ course fragment
 
 Source: course:204ac37f-7a20-5897-9866-177a766da6b6 · treatment_intervals:S2-I-S2-L03737-E4
 
+- [Course detail](../courses/204ac37f-7a20-5897-9866-177a766da6b6.html)
+
+- [Intervention](../treatment-4d09e3fe-ac5f-5ce8-9f52-76de3455db20.html)
+
 Course actions
 
 - 2025-12-11 · Ran out
@@ -8540,6 +10065,10 @@ Span from evidence of start/use to recorded stop, pause or depletion; individual
 documented course
 
 Source: course:db32230f-502d-520d-9fd0-cbc15c57c470 · treatment_intervals:S2-I-S2-L03737-E1
+
+- [Course detail](../courses/db32230f-502d-520d-9fd0-cbc15c57c470.html)
+
+- [Intervention](../treatment-afbde9a0-891e-5e9a-862b-dfd2860031b4.html)
 
 Course actions
 
@@ -8559,6 +10088,10 @@ documented course
 
 Source: course:2fb76149-37f0-5a24-956b-13059199cebd · treatment_intervals:S2-I-S2-L03809-E1
 
+- [Course detail](../courses/2fb76149-37f0-5a24-956b-13059199cebd.html)
+
+- [Intervention](../treatment-028b1f6a-4e2d-5f34-848e-b736b1e9af64.html)
+
 Course actions
 
 - 2025-12-15 · Start
@@ -8577,6 +10110,8 @@ Report date only · see original report times; event can precede report · patie
 
 Source: response:S1-F64636-1 · S1:64636-64636
 
+- [Intervention](../treatment-a81df5c5-0390-54ae-8c8d-97a2d957654e.html)
+
 S1:64636-64636 · TIL that pentoxifylline is an immune suppressant. remember that i felt bad on it?
 
 ## 2025-12-21 · Last dose 2025-12-21 · Brilliant blue FCF
@@ -8588,6 +10123,10 @@ December 21 was the initial Brilliant Blue FCF (E133) test. The patient later de
 documented course
 
 Source: course:3c27d046-9574-5087-89a9-3ad8d4e55366 · treatment_intervals:S2-I-S2-L03942-E1
+
+- [Course detail](../courses/3c27d046-9574-5087-89a9-3ad8d4e55366.html)
+
+- [Intervention](../treatment-d9f5ef53-ab29-5a64-a3ca-72a4af67faa1.html)
 
 Course actions
 
@@ -8610,6 +10149,10 @@ documented course
 
 Source: course:a7b3b0d5-a505-57dd-8613-11d9631a8341 · treatment_intervals:S2-I-S2-L04016-E1
 
+- [Course detail](../courses/a7b3b0d5-a505-57dd-8613-11d9631a8341.html)
+
+- [Intervention](../treatment-53c2071d-7035-53de-91a8-ddee2d4c1613.html)
+
 Course actions
 
 - 2025-12-25 · Ran out
@@ -8624,6 +10167,10 @@ Earlier exposure Dec 21 included a sip estimated at <1 mg, followed by a smaller
 documented course
 
 Source: course:dee449d2-5f51-587b-8bdb-eacc3120b3be · treatment_intervals:X-I-e133, archive_findings:S1-F65365-1
+
+- [Course detail](../courses/dee449d2-5f51-587b-8bdb-eacc3120b3be.html)
+
+- [Intervention](../treatment-d9f5ef53-ab29-5a64-a3ca-72a4af67faa1.html)
 
 Course actions
 
@@ -8667,6 +10214,10 @@ Report date only · see original report times; event can precede report · patie
 
 Source: response:S1-F65365-1 · S1:65365-65365, S1:65589-65589, S1:65883-65900, S1:75429-75429
 
+- [Course detail](../courses/dee449d2-5f51-587b-8bdb-eacc3120b3be.html)
+
+- [Intervention](../treatment-d9f5ef53-ab29-5a64-a3ca-72a4af67faa1.html)
+
 S1:65365-65365 · short update, but seems i'm no longer reacting poorly to E133. doubled dose to 0.05mg now, taking BID, seems fine? will slowly keep increasing dose and see how it goes. maybe there's an exponential tolerance curve?
 
 S1:65589-65589 · Rapid return of hunger had recurred after E133 was stopped.
@@ -8703,6 +10254,8 @@ proposed · day
 
 Source: intervention_events:PZ57-E133-PLANNED · S1:66142–66148
 
+- [Intervention](../treatment-d9f5ef53-ab29-5a64-a3ca-72a4af67faa1.html)
+
 S1:66142–66148 · we'd ideally decide what i'd do next:
 - diamox
 - cyano B12 injections (still waiting on answer from GP on hydroxy B12 rx) […]
@@ -8716,6 +10269,10 @@ Span from evidence of start/use to recorded stop, pause or depletion; individual
 documented course
 
 Source: course:5400f759-cf6f-5b10-baa8-35e1b6024648 · treatment_intervals:S2-I-S2-L04245-E1, diary_responses:S2-R-4381, diary_responses:S2-R-4381
+
+- [Course detail](../courses/5400f759-cf6f-5b10-baa8-35e1b6024648.html)
+
+- [Intervention](../treatment-acd8e087-c307-5be4-b590-c40bc8395716.html)
 
 Course actions
 
@@ -8753,6 +10310,8 @@ Report date only · see original report times; event can precede report · patie
 
 Source: response:S1-F66096-1 · S1:66096-66096
 
+- [Intervention](../treatment-0c7e2040-6bf9-5577-9a66-395264290c80.html)
+
 S1:66096-66096 · Took berberine for many months. Stopped owing to cost and uncertainty about additional benefit.
 
 ## 2026-01-07 · Reported stopping confit steak the previous day
@@ -8764,6 +10323,10 @@ Diet change
 inferred diary day
 
 Source: intervention_events:S2-L04286-E1 · intervention_events:S2-L04286-E1, S2:4286–4286
+
+- [Diet history](../diet.html#intervention:0758fb8e-924c-5f19-9bfc-e6b473b95610)
+
+- [Course detail](../courses/995402d8-0ada-51fc-9da5-bf50bc45d8a3.html)
 
 S2:4286–4286 · changes bitter taste went down today as i stopped eating the confit steak previous day
 
@@ -8777,6 +10340,8 @@ Report date only · see original report times; event can precede report · patie
 
 Source: response:S1-F66294-1 · S1:66294-66294
 
+- [Intervention](../treatment-acd8e087-c307-5be4-b590-c40bc8395716.html)
+
 S1:66294-66294 · it's been ongoing since then, very mild, more like evening pem, so could be circadian (woke a bit earlier yesterday so "evening" is earlier for me today).
 
 ## 2026-01-12 · Methylene blue
@@ -8788,6 +10353,10 @@ Paused to see if baseline would improve; response to withdrawal uncertain.
 see diary date basis · unconfirmed
 
 Source: response:S2-R-4381 · S2:4381-4381
+
+- [Course detail](../courses/5400f759-cf6f-5b10-baa8-35e1b6024648.html)
+
+- [Intervention](../treatment-acd8e087-c307-5be4-b590-c40bc8395716.html)
 
 S2:4381-4381 · changes: pause MB to see if baseline improves
 
@@ -8801,6 +10370,8 @@ inferred diary day
 
 Source: intervention_events:S2-L04485-E1 · intervention_events:S2-L04485-E1, S2:4485–4485
 
+- [Diet history](../diet.html#intervention:bab3aab5-3fe3-5393-98e1-0efabf8a6c3a)
+
 S2:4485–4485 · changes: no gummies today (to see if sinus pressures improve) → somewhat lower but didn’t go away
 
 ## 2026-01-22 · Stopped 2026-03-31 · D-larazotide
@@ -8812,6 +10383,10 @@ First dose uncertain due to scale malfunction. Further start entry in February, 
 documented course
 
 Source: course:cc92f604-5b8f-509e-a2c3-c47e79dead5f · treatment_intervals:X-I-dlara, diary_responses:S2-R-5811, diary_responses:S2-R-5811
+
+- [Course detail](../courses/cc92f604-5b8f-509e-a2c3-c47e79dead5f.html)
+
+- [Intervention](../treatment-77163fe9-d974-5685-ba53-c89eff1a5b8a.html)
 
 Course actions
 
@@ -8849,6 +10424,8 @@ no clear benefit · undated retrospective history · patient retrospective
 
 Source: response:S3:treatment_response:287 · S3:287-287, course:cc92f604-5b8f-509e-a2c3-c47e79dead5f
 
+- [Intervention](../treatment-77163fe9-d974-5685-ba53-c89eff1a5b8a.html)
+
 S3:287-287 · * D-larazotide
 
 ## 2026-01-24 – 2026-01-30 · S-acetyl-glutathione trial with symptomatic worsening
@@ -8872,6 +10449,10 @@ Span from evidence of start/use to recorded stop, pause or depletion; individual
 documented course
 
 Source: course:6274bf2b-0d9e-5910-99b9-2e13e6c1e287 · treatment_intervals:S2-I-S2-L04619-E1, diary_responses:S2-R-4758, diary_responses:S2-R-4758
+
+- [Course detail](../courses/6274bf2b-0d9e-5910-99b9-2e13e6c1e287.html)
+
+- [Intervention](../treatment-6796cb12-8e27-5863-990e-7e732a38b61d.html)
 
 Course actions
 
@@ -8915,6 +10496,8 @@ Source: response:S3:treatment_response:266 · S3:266-269, * S-acetyl-glutathione
 * similar in evening
 * effects present even at microdoses, course:6274bf2b-0d9e-5910-99b9-2e13e6c1e287, course:5148a3fc-7540-503a-b451-c1d0b0476f5e
 
+- [Intervention](../treatment-6796cb12-8e27-5863-990e-7e732a38b61d.html)
+
 S3:266-269 · * S-acetyl-glutathione 25-50mg, taken in morning
 * “evening pem” like pulsing and strange sensations (reductive stress??) but all day
 * similar in evening […]
@@ -8928,6 +10511,8 @@ additional noon dose
 reported use · inferred diary day
 
 Source: intervention_events:S2-L04639-E1 · S2:4639–4639
+
+- [Intervention](../treatment-6d5c1cd1-bbc6-5ec1-8a4c-b3d8e3bcd65a.html)
 
 S2:4639–4639 · changes: took ivabradine at noon also, usually only in morning (think this plus extra work caused wired feeling maybe)
 
@@ -8951,6 +10536,10 @@ documented course
 
 Source: course:fa1a43d9-bed1-5ccc-ac87-87b58669ceda · archive_messages:S1-M67011, archive_findings:S1-F67011-1
 
+- [Course detail](../courses/fa1a43d9-bed1-5ccc-ac87-87b58669ceda.html)
+
+- [Intervention](../treatment-7ccec6a9-3af7-5cc6-bf94-1235af43da5d.html)
+
 ## 2026-01-27 · Zinc-containing minerals
 
 Response
@@ -8960,6 +10549,10 @@ Repeated nausea led to discontinuation.
 Report date only · see original report times; event can precede report · patient report · Report dated 2026-01-27 · Patient-reported
 
 Source: response:S1-F67011-1 · S1:67011-67011
+
+- [Course detail](../courses/fa1a43d9-bed1-5ccc-ac87-87b58669ceda.html)
+
+- [Intervention](../treatment-7ccec6a9-3af7-5cc6-bf94-1235af43da5d.html)
 
 S1:67011-67011 · i was taking minerals for a while but always got nausea from the zinc and had to stop
 
@@ -9008,6 +10601,10 @@ see diary date basis · unconfirmed · Possible association
 
 Source: response:S2-R-4758 · S2:4758-4758
 
+- [Course detail](../courses/6274bf2b-0d9e-5910-99b9-2e13e6c1e287.html)
+
+- [Intervention](../treatment-6796cb12-8e27-5863-990e-7e732a38b61d.html)
+
 S2:4758-4758 · changes: stop SAG as it may have exacerbated sinus and poisoned pem symptoms
 
 ## 2026-02-04 · Resumed collagen gummies
@@ -9019,6 +10616,10 @@ Diet change
 inferred diary day
 
 Source: intervention_events:S2-L04833-E1 · intervention_events:S2-L04833-E1, S2:4833–4833
+
+- [Diet history](../diet.html#intervention:bab3aab5-3fe3-5393-98e1-0efabf8a6c3a)
+
+- [Course detail](../courses/7029fd9c-00bd-5e5a-8a44-d70ff9755324.html)
 
 S2:4833–4833 · changes: restart gummies
 
@@ -9032,6 +10633,8 @@ reported use · timed diary entry; reconstructed calendar day
 
 Source: intervention_events:PZ57-S2-4921-089d2d33 · S2:4921–4921
 
+- [Intervention](../treatment-089d2d33-d206-5989-8566-261529788191.html)
+
 S2:4921–4921 · 16 take 2g magtein
 
 ## 2026-02-09 · Estimated end 2026-02-16 · Yoga nidra
@@ -9043,6 +10646,10 @@ Yoga nidra began February 9. The reviewer recalls approximately one week of prac
 documented course
 
 Source: course:a79e13c3-c876-5da5-ac70-5a209e2bcc57 · treatment_intervals:S2-I-S2-L04928-E3
+
+- [Course detail](../courses/a79e13c3-c876-5da5-ac70-5a209e2bcc57.html)
+
+- [Intervention](../treatment-829c617c-31b4-5b4f-96f8-9cf289c12019.html)
 
 Course actions
 
@@ -9058,6 +10665,10 @@ Famotidine exposure already established at the February 6 supply lapse. February
 documented course
 
 Source: course:ac82a88a-c849-518f-ab38-3fdf403d7d57 · treatment_intervals:S2-I-S2-L04928-E1
+
+- [Course detail](../courses/ac82a88a-c849-518f-ab38-3fdf403d7d57.html)
+
+- [Intervention](../treatment-4c58b49b-b0d4-5bf8-8c77-7bd9f0c665ff.html)
 
 Course actions
 
@@ -9080,6 +10691,10 @@ course fragment
 
 Source: course:860bc133-20f2-504c-bec9-83c87dd9ec12 · treatment_intervals:S2-I-S2-L04950-E1
 
+- [Course detail](../courses/860bc133-20f2-504c-bec9-83c87dd9ec12.html)
+
+- [Intervention](../treatment-4d09e3fe-ac5f-5ce8-9f52-76de3455db20.html)
+
 Course actions
 
 - 2026-02-10 · Ran out
@@ -9095,6 +10710,8 @@ reported use · timed diary entry; reconstructed calendar day
 
 Source: intervention_events:PZ57-S2-5045-39efbf4d · S2:5045–5045
 
+- [Intervention](../treatment-39efbf4d-6308-507c-ae4c-09e5c2a8a632.html)
+
 S2:5045–5045 · 14.30 take 1g bicarb
 
 ## 2026-02-16 · Estimated end 2026-02-23 to 2026-03-02 · Bicarbonate
@@ -9106,6 +10723,10 @@ The reviewer recalls a one- to two-week bicarbonate trial without perceived bene
 documented course
 
 Source: course:327fa231-bcc6-5f42-b2e9-a9d4c295758d · treatment_intervals:S2-I-S2-L05059-E1
+
+- [Course detail](../courses/327fa231-bcc6-5f42-b2e9-a9d4c295758d.html)
+
+- [Intervention](../treatment-39efbf4d-6308-507c-ae4c-09e5c2a8a632.html)
 
 Course actions
 
@@ -9122,6 +10743,8 @@ reported use · timed diary entry; reconstructed calendar day
 
 Source: intervention_events:PZ57-S2-5200-e4efb12f · S2:5200–5200
 
+- [Intervention](../treatment-e4efb12f-aabd-557c-943f-58382baf5952.html)
+
 S2:5200–5200 · 3 take copper 2mg
 
 ## 2026-02-25 · Estimated end 2026-02-26 · Imidazenil
@@ -9133,6 +10756,10 @@ The February test includes February 25 and a timed February 26 application. Febr
 documented course
 
 Source: course:41e6f848-a5f5-58b3-be0b-fee669f8a6bc · intervention_events:S2-L05211-E2, diary_responses:S2-R-5218
+
+- [Course detail](../courses/41e6f848-a5f5-58b3-be0b-fee669f8a6bc.html)
+
+- [Intervention](../treatment-dc5b655c-1dab-5ac8-81dc-22a3ef282bd4.html)
 
 Course actions
 
@@ -9161,6 +10788,10 @@ documented course
 
 Source: course:8ec78b2c-81a2-5eba-88b2-da3757409124 · treatment_intervals:S2-I-S2-L05211-E1
 
+- [Course detail](../courses/8ec78b2c-81a2-5eba-88b2-da3757409124.html)
+
+- [Intervention](../treatment-f3b5ca75-48e9-5352-a841-93700bba4a90.html)
+
 Course actions
 
 - 2026-02-25 · Start · 2 mg
@@ -9179,6 +10810,8 @@ reported use · timed diary entry; reconstructed calendar day
 
 Source: intervention_events:PZ57-S2-5218-a8977b1f · S2:5218–5218
 
+- [Intervention](../treatment-a8977b1f-ec96-50e7-9d88-7ccb28bba6c0.html)
+
 S2:5218–5218 · 6 take cetirizine h1 blocker
 
 ## 2026-02-26 · Reported end 2026-04-29 · Magnesium oxide
@@ -9190,6 +10823,10 @@ Span from evidence of start/use to recorded stop, pause or depletion; individual
 documented course
 
 Source: course:267ac6eb-8bc0-581a-b003-44a39448de92 · treatment_intervals:S2-I-S2-L05230-E2
+
+- [Course detail](../courses/267ac6eb-8bc0-581a-b003-44a39448de92.html)
+
+- [Intervention](../treatment-4d09e3fe-ac5f-5ce8-9f52-76de3455db20.html)
 
 Course actions
 
@@ -9221,6 +10858,10 @@ see diary date basis · unconfirmed · Possible association
 
 Source: response:S2-R-5218 · S2:5218-5230, Sublingual trial followed by itching. Cetirizine had been taken shortly beforehand, with later self-attributed brain fog.
 
+- [Course detail](../courses/41e6f848-a5f5-58b3-be0b-fee669f8a6bc.html)
+
+- [Intervention](../treatment-dc5b655c-1dab-5ac8-81dc-22a3ef282bd4.html)
+
 S2:5218-5230 · 6 take cetirizine h1 blocker
 6.20 take 0.1ml of imi solution (so about 0.02ml dmso) subL
 6.30-7.30 mild itchy sensations across scalp, face, hands, butt, feet […]
@@ -9234,6 +10875,14 @@ Patient recalled no meaningful benefit from these earlier trials; cordyceps and 
 Report date only · see original report times; event can precede report · patient report · Report dated 2026-03-02
 
 Source: response:S1-F70915-1 · S1:70915-70922, S1:71058-71058, S1:71075-71075, S1:72181-72181
+
+- [Intervention](../treatment-5f3df278-ddd3-5532-a8cd-975c2dc08603.html)
+
+- [Intervention](../treatment-65a94162-e516-5a24-87f2-325defe1365c.html)
+
+- [Intervention](../treatment-e3067b63-6c07-58f0-a72c-f1be554aa183.html)
+
+- [Intervention](../treatment-e7f4dc7c-979d-568d-8bba-10f1b4d97228.html)
 
 S1:70915-70922 · Reported no discernible effect from NC B complex with cofactors, including at 2–3 times the recommended dose, despite substantial previous NC supplement use. Preferred to prioritize pending KL1333 and exploring nebulized antivirals such as sofosbuvir for a hypothesized CNS reservoir, rather than further vitamins. […]
 
@@ -9252,6 +10901,10 @@ Interrupted by missed doses and restarted March 19. March 31 explicitly states s
 documented course
 
 Source: course:195cec67-4ceb-5f59-a92e-e8d244ea1bc8 · treatment_intervals:X-I-entero5, archive_findings:S1-F70972-1
+
+- [Course detail](../courses/195cec67-4ceb-5f59-a92e-e8d244ea1bc8.html)
+
+- [Intervention](../treatment-b83129aa-3081-52f5-9b69-8eb53c5e4725.html)
 
 Course actions
 
@@ -9291,6 +10944,10 @@ Restarted March 4. One spoon reportedly reduced abdominal bubbling; two spoons p
 Report date only · see original report times; event can precede report · patient report · Report dated 2026-03-04 · Patient-reported
 
 Source: response:S1-F70972-1 · S1:70972-70976, S1:71008-71010
+
+- [Course detail](../courses/195cec67-4ceb-5f59-a92e-e8d244ea1bc8.html)
+
+- [Intervention](../treatment-b83129aa-3081-52f5-9b69-8eb53c5e4725.html)
 
 S1:70972-70976 · ok dude, i assembled a minimum viable protocol because i genuinely cannot wait anymore. i know you're aiming for perfection but i don't think we're going to reach that point, testing and research are just not there yet, so better act while i still have some agency, IMO.
 i started enterosgel today as it kinda worked last time. think B12 injections next? or maybe redaxin, unless you veto these--or if you prefer, you can edit the plan (gdoc), that's hopefully easier than for you to write it down from scratch? […]
@@ -9357,6 +11014,10 @@ documented course
 
 Source: course:bff11fcc-d97a-52e1-af0e-1c9c8f74c30e · treatment_intervals:S2-I-S2-L05391-E1, diary_responses:S2-R-5427, diary_responses:S2-R-5427
 
+- [Course detail](../courses/bff11fcc-d97a-52e1-af0e-1c9c8f74c30e.html)
+
+- [Intervention](../treatment-b39d25a2-afc1-5440-a49f-a23b7a3155ef.html)
+
 Course actions
 
 - 2026-03-08 03:45 · Start · 3.45 take 1/4 cap redaxin
@@ -9375,6 +11036,10 @@ see diary date basis · unconfirmed · Possible association
 
 Source: response:S2-R-5427 · S2:5427-5427
 
+- [Course detail](../courses/bff11fcc-d97a-52e1-af0e-1c9c8f74c30e.html)
+
+- [Intervention](../treatment-b39d25a2-afc1-5440-a49f-a23b7a3155ef.html)
+
 S2:5427-5427 · Changes stop redaxin due to very bad crash yesterday
 
 ## Recorded 2026-03-12 – 2026-11-23 · Aspirin
@@ -9386,6 +11051,8 @@ Action
 
 
 Source: unassigned-actions:intervention:7e1ea408-af99-5d0a-982e-3885189f5c9a:2026
+
+- [Intervention](../treatment-7e1ea408-af99-5d0a-982e-3885189f5c9a.html)
 
 - 2026-03-12 11:20 · Administration · 200 mg · 11.20 take 200mg aspirin
 
@@ -9443,6 +11110,8 @@ Action
 
 Source: unassigned-actions:intervention:1dd4afe1-c223-5e32-8afd-7e920d130239:2026
 
+- [Intervention](../treatment-1dd4afe1-c223-5e32-8afd-7e920d130239.html)
+
 - 2026-03-14 02:00 · Administration · 1 mg · 2 take 1mg kpv subL dissolved in water
 
 - 2026-03-18 23:20 · Attempted administration · Administration uncertain · 23.20 take kpv → sudden very strong nausea → spit it out and it disappeared
@@ -9456,6 +11125,10 @@ March 14, 2026 records a new KPV start after the 2025 trials. The reviewer estim
 documented course
 
 Source: course:7818e72d-8bb6-529f-90b3-6ff87c19be74 · treatment_intervals:S2-I-S2-L05500-E1, archive_messages:S1-M72495
+
+- [Course detail](../courses/7818e72d-8bb6-529f-90b3-6ff87c19be74.html)
+
+- [Intervention](../treatment-1dd4afe1-c223-5e32-8afd-7e920d130239.html)
 
 Course actions
 
@@ -9482,6 +11155,8 @@ Report date only · Possible association
 
 Source: response-evidence:archive_messages:S1-M72495 · archive_messages:S1-M72495, claim:11d0c051-1ad4-539e-936d-d40a9d6503f8
 
+- [KPV](../treatment-1dd4afe1-c223-5e32-8afd-7e920d130239.html)
+
 ## 2026-03-28 · Estimated end 2026-04-01 · Redaxin
 
 Intervention
@@ -9491,6 +11166,10 @@ The reviewer identifies April 1 as the likely final day of the low-dose Redaxin 
 documented course
 
 Source: course:909b8c6a-461b-5b29-97d3-4f5d150d29d5 · intervention_events:S2-L05762-E1
+
+- [Course detail](../courses/909b8c6a-461b-5b29-97d3-4f5d150d29d5.html)
+
+- [Intervention](../treatment-b39d25a2-afc1-5440-a49f-a23b7a3155ef.html)
 
 Course actions
 
@@ -9510,6 +11189,10 @@ see diary date basis · unconfirmed
 
 Source: response:S2-R-5811 · S2:5811-5811
 
+- [Course detail](../courses/cc92f604-5b8f-509e-a2c3-c47e79dead5f.html)
+
+- [Intervention](../treatment-77163fe9-d974-5685-ba53-c89eff1a5b8a.html)
+
 S2:5811-5811 · changes: forget and stop entersogel; stop d-lara due to no effect
 
 ## Recorded 2026-04-01 · Enterosgel
@@ -9522,6 +11205,8 @@ Action
 
 Source: unassigned-actions:intervention:b83129aa-3081-52f5-9b69-8eb53c5e4725:2026
 
+- [Intervention](../treatment-b83129aa-3081-52f5-9b69-8eb53c5e4725.html)
+
 - 2026-04-01 · Miss
 
 ## 2026-04-02 · Last dose 2026-04-02 · Imidazenil
@@ -9533,6 +11218,10 @@ The April 2 diary records a 0.1 mL test at 01:33, followed around 02:00 by an in
 documented course
 
 Source: course:f8b51cc2-077d-5bad-8d5d-0b21baf7cb86 · intervention_events:S2-L05849-E1, diary_observations:S2-OBS-5834
+
+- [Course detail](../courses/f8b51cc2-077d-5bad-8d5d-0b21baf7cb86.html)
+
+- [Intervention](../treatment-dc5b655c-1dab-5ac8-81dc-22a3ef282bd4.html)
 
 Course actions
 
@@ -9552,6 +11241,8 @@ Possible association
 
 Source: response-evidence:diary_observations:S2-OBS-5834 · diary_observations:S2-OBS-5834, PZ57-CLAIM-S2-OBS-5834
 
+- [Imidazenil](../treatment-dc5b655c-1dab-5ac8-81dc-22a3ef282bd4.html)
+
 ## 2026-04-03 · B vitamins (unspecified) · Administration
 
 Action
@@ -9561,6 +11252,8 @@ Action
 reported use · timed diary entry; reconstructed calendar day
 
 Source: intervention_events:PZ57-S2-5860-201a3745 · S2:5860–5860
+
+- [Intervention](../treatment-201a3745-367e-59f4-923a-db646b98ee7b.html)
 
 S2:5860–5860 · 23.30 take b vitamins
 
@@ -9599,6 +11292,10 @@ documented course
 
 Source: course:70111251-17dd-5049-bd03-088a021f94dc · pz_shared_course_component:course:70111251-17dd-5049-bd03-088a021f94dc
 
+- [Course detail](../courses/70111251-17dd-5049-bd03-088a021f94dc.html)
+
+- [Intervention](../treatment-dc2952de-b829-5b31-a0b6-ffe6c49e4da3.html)
+
 ## 2026-04-03 · Ongoing at review · Methylfolate (5-MTHF)
 
 Intervention
@@ -9608,6 +11305,10 @@ The reviewer identifies April 3 B9 (coadministered with B2 and B6) and April 7 m
 documented course
 
 Source: course:951b6402-ebd0-51d7-b85f-d2c662d1ed19 · treatment_intervals:S2-I-S2-L05924-E1
+
+- [Course detail](../courses/951b6402-ebd0-51d7-b85f-d2c662d1ed19.html)
+
+- [Intervention](../treatment-fc1b46d9-c0aa-5523-a6ca-83ca9ad00b7f.html)
 
 Course actions
 
@@ -9623,6 +11324,10 @@ Riboflavin was first documented with B6 and B9 on April 3 and again on April 8. 
 documented course
 
 Source: course:d096fddb-7998-5e78-aa87-c688ca00241e · treatment_intervals:S2-I-S2-L05863-E1
+
+- [Course detail](../courses/d096fddb-7998-5e78-aa87-c688ca00241e.html)
+
+- [Intervention](../treatment-1b8da3bd-64e8-5abd-9988-7326c9a71779.html)
 
 Course actions
 
@@ -9641,6 +11346,10 @@ Life Extension Calm-Mag began April 8. The reviewer reports stopping after appro
 documented course
 
 Source: course:c9171bd1-6214-509e-a15d-fb8dd907ce6b · treatment_intervals:S2-I-S2-L05935-E1
+
+- [Course detail](../courses/c9171bd1-6214-509e-a15d-fb8dd907ce6b.html)
+
+- [Intervention](../treatment-d66bda5d-f702-54a6-9da1-4b25dbca91e3.html)
 
 Course actions
 
@@ -9667,6 +11376,10 @@ documented course
 
 Source: course:e984f27a-8d8a-55ae-a8c5-498c4aacd719 · treatment_intervals:X-I-kl1
 
+- [Course detail](../courses/e984f27a-8d8a-55ae-a8c5-498c4aacd719.html)
+
+- [Intervention](../treatment-93c2dda4-0d00-53ef-8837-e7926119666b.html)
+
 Course actions
 
 - 2026-04-19 18:27 · Administration · tiny test dose, probably <1 mg · Vehicle: cellulose
@@ -9682,6 +11395,10 @@ Patient-reported
 
 Source: context_cards:CTX-018 · context_cards:CTX-018, claim:738e0407-f1c6-5762-a504-08758cb58ebd, claim:8733940c-3b49-5da7-9c0d-222e699c90ab, course:95847237-8af7-5dac-9c95-e2e13d24397f, course:e984f27a-8d8a-55ae-a8c5-498c4aacd719, course:a5840efa-3957-5202-98ac-0e903017f2a8
 
+- [ASHA-091](../treatment-b9b5c434-2f1d-5273-950d-52abaf4e1c88.html)
+
+- [KL-1333](../treatment-93c2dda4-0d00-53ef-8837-e7926119666b.html)
+
 ## Treatment context (response date unknown): 2026-04-19 · Last dose 2026-04-19; 2026-04-24 · Off by 2026-05-04 · KL1333 ≤1mg
 
 Response
@@ -9692,6 +11409,8 @@ attributed temporary worsening · undated retrospective history · patient retro
 
 Source: response:S3:treatment_response:270 · S3:270-271, * KL1333 ≤1mg
 * after 15-20m: nape clenching, overall malaise, wrist fatigue → seems like systemic danger response leading to brain stem flare, course:e984f27a-8d8a-55ae-a8c5-498c4aacd719, course:a5840efa-3957-5202-98ac-0e903017f2a8
+
+- [Intervention](../treatment-93c2dda4-0d00-53ef-8837-e7926119666b.html)
 
 S3:270-271 · * KL1333 ≤1mg
 * after 15-20m: nape clenching, overall malaise, wrist fatigue → seems like systemic danger response leading to brain stem flare
@@ -9705,6 +11424,10 @@ Stop, interruption or depletion documented; start unknown.
 course fragment
 
 Source: course:a3c924cf-2e27-5dda-b131-378dcb26b962 · treatment_intervals:S2-I-S2-L06127-E1
+
+- [Course detail](../courses/a3c924cf-2e27-5dda-b131-378dcb26b962.html)
+
+- [Intervention](../treatment-ae1809ed-3301-52a0-9fdb-0b97035cd246.html)
 
 Course actions
 
@@ -9721,6 +11444,8 @@ Action
 
 Source: unassigned-actions:intervention:93569cbe-a783-56e4-907c-915c1780ad64:2026
 
+- [Intervention](../treatment-93569cbe-a783-56e4-907c-915c1780ad64.html)
+
 - 2026-04-22 16:51 · Administration · small amount in water · 16.51 take small cellulose in water to test
 
 - 2026-04-22 19:07 · Administration · one capsule · 19.07 take cellulose cap to test
@@ -9735,6 +11460,8 @@ reported use · timed diary entry; reconstructed calendar day
 
 Source: intervention_events:PZ57-S2-6176-fde13be9 · S2:6176–6176
 
+- [Intervention](../treatment-fde13be9-cd08-5faf-a2e5-7d9a86d7de63.html)
+
 S2:6176–6176 · 20.29 take some potassium (440mg)
 
 ## 2026-04-24 · Off by 2026-05-04 · KL-1333
@@ -9746,6 +11473,10 @@ Water re-trial Apr 24, reduced dose with MCT Apr 30, omitted later dose that day
 documented course
 
 Source: course:a5840efa-3957-5202-98ac-0e903017f2a8 · treatment_intervals:X-I-kl2, diary_observations:S2-OBS-6261, diary_observations:S2-OBS-6193, diary_responses:S2-R-6184, diary_responses:S2-R-6184, diary_observations:S2-OBS-6184
+
+- [Course detail](../courses/a5840efa-3957-5202-98ac-0e903017f2a8.html)
+
+- [Intervention](../treatment-93c2dda4-0d00-53ef-8837-e7926119666b.html)
 
 Course actions
 
@@ -9810,6 +11541,10 @@ see diary date basis · unconfirmed
 
 Source: response:S2-R-6184 · S2:6184-6203
 
+- [Course detail](../courses/a5840efa-3957-5202-98ac-0e903017f2a8.html)
+
+- [Intervention](../treatment-93c2dda4-0d00-53ef-8837-e7926119666b.html)
+
 S2:6184-6203 · 2.01 take tiny tiny dose of KL1333 mixed in water → no significant reaction
 4.15 eat rice beef veggies gummies
 7.30 BM pale and very loose fraying in water […]
@@ -9824,6 +11559,8 @@ Patient-reported
 
 Source: response-evidence:diary_observations:S2-OBS-6261 · diary_observations:S2-OBS-6261, claim:3f02afdb-697b-5209-919a-c9d794910e73
 
+- [KL-1333](../treatment-93c2dda4-0d00-53ef-8837-e7926119666b.html)
+
 ## Start unknown · Reported end 2026-05-06 · Vitamin B12
 
 Intervention
@@ -9833,6 +11570,10 @@ Stop, interruption or depletion documented; start unknown.
 course fragment
 
 Source: course:29d81276-9d3c-5f24-b8f8-bd841679962d · treatment_intervals:S2-I-S2-L06414-E1
+
+- [Course detail](../courses/29d81276-9d3c-5f24-b8f8-bd841679962d.html)
+
+- [Intervention](../treatment-8ef2412c-0f4d-5f8f-b050-0a2e9b39d8bf.html)
 
 Course actions
 
@@ -9848,6 +11589,10 @@ The May 7 S-acetyl-L-glutathione trial included omissions. Based on the use and 
 documented course
 
 Source: course:5148a3fc-7540-503a-b451-c1d0b0476f5e · intervention_events:S2-L06430-E1
+
+- [Course detail](../courses/5148a3fc-7540-503a-b451-c1d0b0476f5e.html)
+
+- [Intervention](../treatment-6796cb12-8e27-5863-990e-7e732a38b61d.html)
 
 Course actions
 
@@ -9953,6 +11698,10 @@ documented course
 
 Source: course:59ea5405-f7ba-52d8-a0f8-56ffd5eed2e6 · treatment_intervals:S2-I-S2-L06693-E1
 
+- [Course detail](../courses/59ea5405-f7ba-52d8-a0f8-56ffd5eed2e6.html)
+
+- [Intervention](../treatment-8ef2412c-0f4d-5f8f-b050-0a2e9b39d8bf.html)
+
 Course actions
 
 - 2026-05-23 · Restart
@@ -9970,6 +11719,10 @@ The reviewer identifies Trace Ionic Copper. A small sip was tried May 23, a star
 documented course
 
 Source: course:af29af36-2277-5108-acdc-02420c3ea365 · intervention_events:S2-L06693-E2
+
+- [Course detail](../courses/af29af36-2277-5108-acdc-02420c3ea365.html)
+
+- [Intervention](../treatment-40dec8c2-f445-5625-a581-134aa1931e43.html)
 
 Course actions
 
@@ -9993,6 +11746,8 @@ attributed temporary worsening · undated retrospective history · patient retro
 Source: response:S3:treatment_response:280 · S3:280-281, * copper sulfite ?
 * similar nape flare within half an hour, course:af29af36-2277-5108-acdc-02420c3ea365
 
+- [Intervention](../treatment-40dec8c2-f445-5625-a581-134aa1931e43.html)
+
 S3:280-281 · * copper sulfite ?
 * similar nape flare within half an hour
 
@@ -10005,6 +11760,10 @@ Span from evidence of start/use to recorded stop, pause or depletion; individual
 documented course
 
 Source: course:c8360e41-550e-593e-865f-8269bd324079 · treatment_intervals:S2-I-S2-L06702-E1, diary_responses:S2-R-6721, diary_responses:S2-R-6721, diary_responses:S2-R-6721
+
+- [Course detail](../courses/c8360e41-550e-593e-865f-8269bd324079.html)
+
+- [Intervention](../treatment-357e36ab-9006-5f35-b2fc-b69946ef748e.html)
 
 Course actions
 
@@ -10032,6 +11791,8 @@ Source: response:S3:treatment_response:274 · S3:274-276, Q-004, * hydroxy-b12 i
 * 500mg no response
 * 1g nape flare similar to KL within half an hour, course:c8360e41-550e-593e-865f-8269bd324079
 
+- [Intervention](../treatment-357e36ab-9006-5f35-b2fc-b69946ef748e.html)
+
 S3:274-276 · * hydroxy-b12 injections ?
 * 500mg no response
 * 1g nape flare similar to KL within half an hour
@@ -10047,6 +11808,10 @@ Span from evidence of start/use to recorded stop, pause or depletion; individual
 documented course
 
 Source: course:7b9d91ee-a811-5de1-b6af-60fbb9a66625 · treatment_intervals:S2-I-S2-L06721-E1
+
+- [Course detail](../courses/7b9d91ee-a811-5de1-b6af-60fbb9a66625.html)
+
+- [Intervention](../treatment-4d09e3fe-ac5f-5ce8-9f52-76de3455db20.html)
 
 Course actions
 
@@ -10065,6 +11830,10 @@ Full 1 mg dose recorded, followed by stopping injections due to a reported brain
 see diary date basis · unconfirmed · Patient-reported
 
 Source: response:S2-R-6721 · S2:6721-6734
+
+- [Course detail](../courses/c8360e41-550e-593e-865f-8269bd324079.html)
+
+- [Intervention](../treatment-357e36ab-9006-5f35-b2fc-b69946ef748e.html)
 
 S2:6721-6734 · changes: start mg oxide again (400mg); bump b12 injection to full dose (1mg)
 sleep a bit fragmented […]
@@ -10104,6 +11873,10 @@ documented course
 
 Source: course:5ca14bc3-968a-555c-9969-dc4c77bd96ae · intervention_events:S2-L06894-E1, diary_observations:S2-OBS-6882, historical_entries:S3:treatment_response:272
 
+- [Course detail](../courses/5ca14bc3-968a-555c-9969-dc4c77bd96ae.html)
+
+- [Intervention](../treatment-070c1ac7-a53d-5490-bbf0-3b41ba2e9771.html)
+
 Course actions
 
 - 2026-06-06 02:30 · Administration · 10 mg
@@ -10122,6 +11895,8 @@ Possible association
 
 Source: response-evidence:diary_observations:S2-OBS-6882 · diary_observations:S2-OBS-6882, PZ57-CLAIM-S2-OBS-6882
 
+- [Lithium orotate](../treatment-070c1ac7-a53d-5490-bbf0-3b41ba2e9771.html)
+
 ## Related treatment record: 2026-06-06 · lithium orotate
 
 Response
@@ -10132,6 +11907,10 @@ Response
 attributed temporary worsening · undated retrospective history · patient retrospective
 
 Source: response:S3:treatment_response:272 · S3:272-273, intervention_events:PZ57-ADM-6881
+
+- [Course detail](../courses/5ca14bc3-968a-555c-9969-dc4c77bd96ae.html)
+
+- [Intervention](../treatment-070c1ac7-a53d-5490-bbf0-3b41ba2e9771.html)
 
 S3:272-273 · * lithium orotate ?
 * similar nape flare, milder, within 45m
@@ -10145,6 +11924,10 @@ June 8 records restarting copper. The reviewer identifies this as probably Swans
 documented course
 
 Source: course:b983d52d-3a30-5358-be8a-4151438a3e4c · treatment_intervals:S2-I-S2-L06930-E1
+
+- [Course detail](../courses/b983d52d-3a30-5358-be8a-4151438a3e4c.html)
+
+- [Intervention](../treatment-f3b5ca75-48e9-5352-a841-93700bba4a90.html)
 
 Course actions
 
@@ -10166,6 +11949,10 @@ June 17 is the date of the final 01:33 dose of approximately 10 mg ASHA-091. The
 documented course
 
 Source: course:95847237-8af7-5dac-9c95-e2e13d24397f · intervention_events:S2-L07025-E1, diary_observations:S2-OBS-7022, diary_observations:S2-OBS-7044
+
+- [Course detail](../courses/95847237-8af7-5dac-9c95-e2e13d24397f.html)
+
+- [Intervention](../treatment-b9b5c434-2f1d-5273-950d-52abaf4e1c88.html)
 
 Course actions
 
@@ -10193,6 +11980,8 @@ Source: response:S3:treatment_response:277 · S3:277-279, * ASHA-091
 * strong nape flare and wrist fatigue at 10mg, milder at smaller doses, within half an hour
 * brain fatigue / sleep pressure crashes in the afternoon, course:95847237-8af7-5dac-9c95-e2e13d24397f
 
+- [Intervention](../treatment-b9b5c434-2f1d-5273-950d-52abaf4e1c88.html)
+
 S3:277-279 · * ASHA-091
 * strong nape flare and wrist fatigue at 10mg, milder at smaller doses, within half an hour
 * brain fatigue / sleep pressure crashes in the afternoon
@@ -10207,6 +11996,8 @@ Patient-reported
 
 Source: response-evidence:diary_observations:S2-OBS-7044 · diary_observations:S2-OBS-7044, claim:7581a85f-9c64-5cf6-b74e-dc47b3bc6c21
 
+- [ASHA-091](../treatment-b9b5c434-2f1d-5273-950d-52abaf4e1c88.html)
+
 ## In use by 2026-06-23 · Reported end 2026-07-29 · Famotidine
 
 Intervention
@@ -10216,6 +12007,10 @@ Stop, interruption or depletion documented; start unknown.
 course fragment
 
 Source: course:c3464199-57ef-5590-9968-59843ca26680 · treatment_intervals:S2-I-S2-L07672-E1, diary_responses:S2-R-7180
+
+- [Course detail](../courses/c3464199-57ef-5590-9968-59843ca26680.html)
+
+- [Intervention](../treatment-4c58b49b-b0d4-5bf8-8c77-7bd9f0c665ff.html)
 
 Course actions
 
@@ -10235,6 +12030,10 @@ see diary date basis · unconfirmed
 
 Source: response:S2-R-7180 · S2:7180-7180
 
+- [Course detail](../courses/c3464199-57ef-5590-9968-59843ca26680.html)
+
+- [Intervention](../treatment-4c58b49b-b0d4-5bf8-8c77-7bd9f0c665ff.html)
+
 S2:7180-7180 · Canr sleep stomach upset constipated think from lowered famotidine dose
 
 ## 2026-06-29 · Supply exhausted 2026-07-28 · Ledifos
@@ -10246,6 +12045,10 @@ One pill at start; on June 30 patient confirmed taking it without initial percei
 documented course
 
 Source: course:ba50873b-af12-5e41-99db-a35677455d0f · treatment_intervals:X-I-ledifos
+
+- [Course detail](../courses/ba50873b-af12-5e41-99db-a35677455d0f.html)
+
+- [Intervention](../treatment-46ab8820-eaf0-56d4-9ff9-08e58bbd60cd.html)
 
 Course actions
 
@@ -10305,6 +12108,10 @@ Report date only · see original report times; event can precede report · patie
 
 Source: response:S1-F76373-1 · S1:76373-76373, S1:76378-76378, S1:76380-76380, Recalled nape flare and wrist fatigue roughly 30 minutes after ASHA, similar to KL-1333. Exact recalled sequence varied; original time-stamped notes take precedence.
 
+- [Intervention](../treatment-93c2dda4-0d00-53ef-8837-e7926119666b.html)
+
+- [Intervention](../treatment-b9b5c434-2f1d-5273-950d-52abaf4e1c88.html)
+
 S1:76373-76373 · In the discussion of ASHA, he reported nape symptoms and wrist fatigue within about 30 minutes of taking it, similar to what he had experienced with KL1333 and other trials.
 
 S1:76378-76378 · that said with KL i think and maybe also ASHA there was this nape clenching feeling, flare, fatigue in that order
@@ -10332,6 +12139,10 @@ documented course
 
 Source: course:1bace627-1098-5544-a889-97fb97965b1f · treatment_intervals:S2-I-S2-L07374-E1
 
+- [Course detail](../courses/1bace627-1098-5544-a889-97fb97965b1f.html)
+
+- [Intervention](../treatment-dbde5ff1-daa4-5e19-80d1-23092b2728d5.html)
+
 Course actions
 
 - 2026-07-09 · Dose
@@ -10346,6 +12157,8 @@ Action
 
 
 Source: unassigned-actions:intervention:dbde5ff1-daa4-5e19-80d1-23092b2728d5:2026
+
+- [Intervention](../treatment-dbde5ff1-daa4-5e19-80d1-23092b2728d5.html)
 
 - 2026-07-10 · Dose · 300 mg
 
@@ -10375,6 +12188,8 @@ reported use · timed diary entry; reconstructed calendar day
 
 Source: intervention_events:PZ57-S2-7705-b611d400 · S2:7705–7705
 
+- [Intervention](../treatment-b611d400-b62d-53f0-9564-ebe78e301bfd.html)
+
 S2:7705–7705 · 11.22 take thyroid gummy (ashwagandha, schisandra, eleuthero, l-tyrosine, kelp, acerola cherry powder, pectin, selenium, vitamins)
 
 ## 2026-08-06 · Stopped 2026-08-08 · Albendazole
@@ -10386,6 +12201,10 @@ Span from evidence of start/use to recorded stop, pause or depletion; individual
 documented course
 
 Source: course:c677e1f0-caf7-524d-a07f-8dccaa79a470 · treatment_intervals:S2-I-S2-L07760-E1
+
+- [Course detail](../courses/c677e1f0-caf7-524d-a07f-8dccaa79a470.html)
+
+- [Intervention](../treatment-c69d51c0-7465-53ff-bad5-fe01b232faad.html)
 
 Course actions
 
@@ -10407,6 +12226,10 @@ Span from evidence of start/use to recorded stop, pause or depletion; individual
 documented course
 
 Source: course:9f901627-2028-5946-9458-195ff2acd3d6 · treatment_intervals:S2-I-S2-L07852-E1
+
+- [Course detail](../courses/9f901627-2028-5946-9458-195ff2acd3d6.html)
+
+- [Intervention](../treatment-c69d51c0-7465-53ff-bad5-fe01b232faad.html)
 
 Course actions
 
@@ -10446,6 +12269,10 @@ Span from evidence of start/use to recorded stop, pause or depletion; individual
 documented course
 
 Source: course:24da4977-2e1f-52cb-8332-0f9511af8415 · treatment_intervals:S2-I-S2-L07909-E1, diary_responses:S2-R-8029, diary_responses:S2-R-8029
+
+- [Course detail](../courses/24da4977-2e1f-52cb-8332-0f9511af8415.html)
+
+- [Intervention](../treatment-7e1ea408-af99-5d0a-982e-3885189f5c9a.html)
 
 Course actions
 
@@ -10492,6 +12319,8 @@ no clear benefit · undated retrospective history · patient retrospective
 
 Source: response:S3:treatment_response:305 · S3:305-305, course:24da4977-2e1f-52cb-8332-0f9511af8415
 
+- [Intervention](../treatment-7e1ea408-af99-5d0a-982e-3885189f5c9a.html)
+
 S3:305-305 · * aspirin
 
 ## Recorded 2026-08-18 – 2026-10-16 · Rupatadine
@@ -10503,6 +12332,8 @@ Action
 
 
 Source: unassigned-actions:intervention:74ec198a-8b12-5e37-ba3e-12c10e477658:2026
+
+- [Intervention](../treatment-74ec198a-8b12-5e37-ba3e-12c10e477658.html)
 
 - 2026-08-18 · Dose · extra morning dose
 
@@ -10517,6 +12348,10 @@ Span from evidence of start/use to recorded stop, pause or depletion; individual
 documented course
 
 Source: course:80aebe96-391b-54db-a9f3-c7160dda9f53 · treatment_intervals:S2-I-S2-L07934-E1
+
+- [Course detail](../courses/80aebe96-391b-54db-a9f3-c7160dda9f53.html)
+
+- [Intervention](../treatment-c69d51c0-7465-53ff-bad5-fe01b232faad.html)
 
 Course actions
 
@@ -10535,6 +12370,10 @@ Stopped when patient suspected a contribution to worsening.
 see diary date basis · unconfirmed · Possible association
 
 Source: response:S2-R-8029 · S2:8029-8029
+
+- [Course detail](../courses/24da4977-2e1f-52cb-8332-0f9511af8415.html)
+
+- [Intervention](../treatment-7e1ea408-af99-5d0a-982e-3885189f5c9a.html)
 
 S2:8029-8029 · Changes stop aspirin since it might have been causing the worsening
 
@@ -10561,6 +12400,10 @@ documented course
 
 Source: course:2eb06d98-9661-555a-ac69-e03a339eb04a · treatment_intervals:S2-I-S2-L08057-E1, diary_responses:S2-R-8064, diary_responses:S2-R-8064
 
+- [Course detail](../courses/2eb06d98-9661-555a-ac69-e03a339eb04a.html)
+
+- [Intervention](../treatment-b8fc143d-8d7c-5080-96ad-6af7dc851734.html)
+
 Course actions
 
 - 2026-08-28 07:50 · Start · 7.50 take velpanat / sofosbuvir/velpatasvir (TODO what’s the full name)?
@@ -10582,6 +12425,10 @@ see diary date basis · unconfirmed · Possible association
 
 Source: response:S2-R-8064 · S2:8064-8084
 
+- [Course detail](../courses/2eb06d98-9661-555a-ac69-e03a339eb04a.html)
+
+- [Intervention](../treatment-b8fc143d-8d7c-5080-96ad-6af7dc851734.html)
+
 S2:8064-8084 · 17- absolutely brutal crash, the intensity of the brain slowdown/corrosion/pain feels a bit similar to the post-rapa crash
 20 sleep […]
 
@@ -10594,6 +12441,10 @@ Diary-only correction. Repeated holds/missed doses and restarts; no assumption o
 documented course
 
 Source: course:76cbb139-c278-5a89-871b-c5efe0eecd7b · treatment_intervals:X-I-darvoni, diary_responses:S2-R-8165, diary_responses:S2-R-8165, diary_responses:S2-R-8165, diary_responses:S2-R-8165
+
+- [Course detail](../courses/76cbb139-c278-5a89-871b-c5efe0eecd7b.html)
+
+- [Intervention](../treatment-aef6ad12-ed5a-50de-8e7b-06d4e27a43b7.html)
 
 Course actions
 
@@ -10676,6 +12527,10 @@ see diary date basis · unconfirmed · Possible association
 
 Source: response:S2-R-8165 · S2:8165-8191
 
+- [Course detail](../courses/76cbb139-c278-5a89-871b-c5efe0eecd7b.html)
+
+- [Intervention](../treatment-aef6ad12-ed5a-50de-8e7b-06d4e27a43b7.html)
+
 S2:8165-8191 · changes double darvoni dose as experiment
 2.20 wake with nape burning […]
 
@@ -10715,6 +12570,10 @@ course fragment
 
 Source: course:cc50d34e-21fe-5b7e-b7f7-ffdd8738d29b · intervention_events:S2-L08202-E1
 
+- [Course detail](../courses/cc50d34e-21fe-5b7e-b7f7-ffdd8738d29b.html)
+
+- [Intervention](../treatment-927dbd40-9110-52cb-9182-c6b59da6fb87.html)
+
 Course actions
 
 - 2026-09-09 · Ran out
@@ -10729,6 +12588,10 @@ Span from evidence of start/use to recorded stop, pause or depletion; individual
 documented course
 
 Source: course:9bf09bae-e1d8-5d77-ae91-7375108f214c · treatment_intervals:S2-I-S2-L08406-E1, diary_responses:S2-R-8549, diary_responses:S2-R-8549
+
+- [Course detail](../courses/9bf09bae-e1d8-5d77-ae91-7375108f214c.html)
+
+- [Intervention](../treatment-d7ee65d3-fa00-574a-aa80-c1766d747a9d.html)
 
 Course actions
 
@@ -10809,6 +12672,10 @@ see diary date basis · unconfirmed · Possible association
 
 Source: response:S2-R-8549 · S2:8549-8601
 
+- [Course detail](../courses/9bf09bae-e1d8-5d77-ae91-7375108f214c.html)
+
+- [Intervention](../treatment-d7ee65d3-fa00-574a-aa80-c1766d747a9d.html)
+
 S2:8549-8601 · changes take thymogen BID now, roughly 1/4 of pill each time (still one darvoni though)
 3 wake […]
 
@@ -10836,6 +12703,10 @@ documented course
 
 Source: course:pz67-rupatadine-in-use-by-2026-10-16 · diary_logs:S2-L08664
 
+- [Course detail](../courses/pz67-rupatadine-in-use-by-2026-10-16.html)
+
+- [Intervention](../treatment-74ec198a-8b12-5e37-ba3e-12c10e477658.html)
+
 Course actions
 
 - 2026-11-16 · Missed · changes skip evening antivirals + rupatadine due to crash
@@ -10850,6 +12721,10 @@ One test on October 19. The diary says approximately one eighth of a 0.5 mg tabl
 documented course
 
 Source: course:3ba98885-dcca-5069-9437-22c1a7bc2930 · intervention_events:S2-L08715-E1, diary_responses:S2-R-8715
+
+- [Course detail](../courses/3ba98885-dcca-5069-9437-22c1a7bc2930.html)
+
+- [Intervention](../treatment-b4e24ea5-3f09-58b3-a0f0-2f47d375394b.html)
 
 Course actions
 
@@ -10866,6 +12741,10 @@ see diary date basis · unconfirmed · Possible association
 
 Source: response:S2-R-8715 · S2:8715-8732, After first recorded dose: burning brain, fatigue without expected forced sleep, internal tremor. The patient explicitly questioned attribution and concurrent exertion. Dose fraction is internally inconsistent.
 
+- [Course detail](../courses/3ba98885-dcca-5069-9437-22c1a7bc2930.html)
+
+- [Intervention](../treatment-b4e24ea5-3f09-58b3-a0f0-2f47d375394b.html)
+
 S2:8715-8732 · 2.25 take clonazepam ~1/8 pill (0.5mg/6 = 0,0833 mg)
 2.29-2.50 kinda panicky
 3.40-5 brain fatigue, burning brain, interestingly didn’t crash into sleep. cannot be certain that this is a result of the clona, as i continue to exert somewhat above baseline but it very likely is. the reaction is also more akin to a sudden flare then the progressive buildup i usually get post exertion. need to trial clona one more time on a good day to control for pem […]
@@ -10879,6 +12758,10 @@ A separate October 26 single-day challenge used one sixth of a 0.5 mg tablet, ap
 documented course
 
 Source: course:72d01411-5bfd-5499-8435-4aef46b823e0 · intervention_events:S2-L08824-E1, diary_responses:S2-R-8824
+
+- [Course detail](../courses/72d01411-5bfd-5499-8435-4aef46b823e0.html)
+
+- [Intervention](../treatment-b4e24ea5-3f09-58b3-a0f0-2f47d375394b.html)
 
 Course actions
 
@@ -10898,6 +12781,10 @@ see diary date basis · unconfirmed
 
 Source: response:S2-R-8824 · S2:8824-8839
 
+- [Course detail](../courses/72d01411-5bfd-5499-8435-4aef46b823e0.html)
+
+- [Intervention](../treatment-b4e24ea5-3f09-58b3-a0f0-2f47d375394b.html)
+
 S2:8824-8839 · 17.10: take clona 0.5mg/6 = 0,0833 mg
 17.40 not sure if tingling is stronger already but it probably shouldn’t have an effect just yet
 19.30- slightly burning pem now in brain mainly […]
@@ -10911,6 +12798,10 @@ The November 2 Velpanat restart is ongoing according to the November 20 stack an
 documented course
 
 Source: course:1a4bc091-e430-5bac-be0f-576c927c1f77 · treatment_intervals:S2-I-S2-L08925-E2
+
+- [Course detail](../courses/1a4bc091-e430-5bac-be0f-576c927c1f77.html)
+
+- [Intervention](../treatment-b8fc143d-8d7c-5080-96ad-6af7dc851734.html)
 
 Course actions
 
@@ -10974,6 +12865,8 @@ Report date only · consumer genotype annotation
 
 Source: reports:report:513c897e57d98de9433573018f36230a · report:513c897e57d98de9433573018f36230a
 
+- [Biomarker results](../biomarkers.html#report-report:513c897e57d98de9433573018f36230a)
+
 ## 2026-11-25 · Genetic Genie Methylation Profile
 
 Test
@@ -10984,6 +12877,8 @@ Report date only · consumer genotype annotation
 
 Source: reports:report:a7e6f09fe5eee1f572acb5703912d17d · report:a7e6f09fe5eee1f572acb5703912d17d
 
+- [Biomarker results](../biomarkers.html#report-report:a7e6f09fe5eee1f572acb5703912d17d)
+
 ## Date unrecorded · D-ribose
 
 Action
@@ -10993,6 +12888,8 @@ Action
 
 
 Source: unassigned-actions:intervention:883d63f2-c1c4-542f-a3b8-76d55e2d709b:undated
+
+- [Intervention](../treatment-883d63f2-c1c4-542f-a3b8-76d55e2d709b.html)
 
 - Date unknown · Dose taken · 1 g
 
@@ -11028,6 +12925,10 @@ exposure period
 
 Source: course:a4e16b8d-1a69-5127-9eec-b39f6b0960b5 · historical_entries:S3:treatment_response:298
 
+- [Course detail](../courses/a4e16b8d-1a69-5127-9eec-b39f6b0960b5.html)
+
+- [Intervention](../treatment-4111d133-8836-5d2b-b71b-73915908de3d.html)
+
 ## Event date unknown · Citrulline-malate
 
 Intervention
@@ -11037,6 +12938,10 @@ Historical citrulline-malate trial. Number of doses, duration and dates are undo
 exposure period
 
 Source: course:a6d1f289-92b1-5c29-a39b-cb66157ec1cc · historical_entries:S3:treatment_response:317
+
+- [Course detail](../courses/a6d1f289-92b1-5c29-a39b-cb66157ec1cc.html)
+
+- [Intervention](../treatment-7f41d593-2b57-5451-8839-00cdc99f521c.html)
 
 ## Event date unknown · Molecular hydrogen inhalation (150 mL/min)
 
@@ -11048,6 +12953,10 @@ exposure period
 
 Source: course:ca56d4ec-a6cb-56b0-b447-382d1ec62e78 · historical_entries:S3:treatment_response:284
 
+- [Course detail](../courses/ca56d4ec-a6cb-56b0-b447-382d1ec62e78.html)
+
+- [Intervention](../treatment-159c2945-9c1d-50ff-8310-426c77130711.html)
+
 ## Event date unknown · DHM
 
 Intervention
@@ -11057,6 +12966,10 @@ Reported DHM restart. The action has no resolved calendar date. Stopped by 2026-
 documented course
 
 Source: course:d4475fd2-6e83-57fb-bdc0-0c2541248121 · intervention_events:S1-C40488-1
+
+- [Course detail](../courses/d4475fd2-6e83-57fb-bdc0-0c2541248121.html)
+
+- [Intervention](../treatment-6e878d3d-76df-5f61-bc15-1257500d3633.html)
 
 Course actions
 
@@ -11073,6 +12986,8 @@ some benefit · undated retrospective history · patient retrospective
 
 Source: response:S3:treatment_response:201 · S3:201-201
 
+- [Diet history](../diet.html#intervention:c8ecfe36-50ba-5c58-838f-dec9eb50dbd5)
+
 S3:201-201 · * diet: histamine-free, sulfur-free, oxalate-free
 
 ## Event date unknown · creatine or inosine
@@ -11085,6 +13000,10 @@ attributed temporary worsening · undated retrospective history · patient retro
 
 Source: response:S3:treatment_response:258 · S3:258-259, * creatine or inosine
 * strange intense poisoned CNS feeling → XO pathway or uric acid related issue?
+
+- [Intervention](../treatment-362db25c-64c6-54e7-a9a3-14172b1a146a.html)
+
+- [Intervention](../treatment-aef061b9-70ac-5461-9806-4df7cf00a77a.html)
 
 S3:258-259 · * creatine or inosine
 * strange intense poisoned CNS feeling → XO pathway or uric acid related issue?
@@ -11099,6 +13018,8 @@ no clear benefit · undated retrospective history · patient retrospective
 
 Source: response:S3:treatment_response:284 · S3:284-284
 
+- [Intervention](../treatment-159c2945-9c1d-50ff-8310-426c77130711.html)
+
 S3:284-284 · * molecular hydrogen inhalation 150ml/min
 
 ## Event date unknown · NAD+
@@ -11110,6 +13031,8 @@ Response
 no clear benefit · undated retrospective history · patient retrospective
 
 Source: response:S3:treatment_response:286 · S3:286-286
+
+- [Intervention](../treatment-2f258c66-f534-54bb-8955-ed8f97328c81.html)
 
 S3:286-286 · * NAD+
 
@@ -11123,6 +13046,8 @@ no clear benefit · undated retrospective history · patient retrospective
 
 Source: response:S3:treatment_response:297 · S3:297-297
 
+- [Diet history](../diet.html#intervention:2bea5e32-895e-56f2-9983-4703024e862c)
+
 S3:297-297 · * ketogenic diet
 
 ## Event date unknown · nattokinase/serraptase (enteric)
@@ -11134,6 +13059,8 @@ Response
 no clear benefit · undated retrospective history · patient retrospective
 
 Source: response:S3:treatment_response:298 · S3:298-298
+
+- [Intervention](../treatment-4111d133-8836-5d2b-b71b-73915908de3d.html)
 
 S3:298-298 · * nattokinase/serraptase (enteric)
 
@@ -11147,6 +13074,10 @@ no clear benefit · undated retrospective history · patient retrospective
 
 Source: response:S3:treatment_response:301 · S3:301-301
 
+- [Intervention](../treatment-57e7dbce-39f5-555c-b7c8-4c4c4d8d9b26.html)
+
+- [Intervention](../treatment-e3067b63-6c07-58f0-a72c-f1be554aa183.html)
+
 S3:301-301 · * NMN/NR
 
 ## Event date unknown · citrulline-malate
@@ -11158,6 +13089,8 @@ Response
 no clear benefit · undated retrospective history · patient retrospective
 
 Source: response:S3:treatment_response:317 · S3:317-317
+
+- [Intervention](../treatment-7f41d593-2b57-5451-8839-00cdc99f521c.html)
 
 S3:317-317 · * citrulline-malate
 
@@ -11321,4 +13254,3 @@ Earlier dated assertions
 - 2026-11-02 · Velpanat · switch_reported [`intervention_events:S2-L08925-E2`]
 - 2026-10-28 · Aspirin · administration 500 mg [`intervention_events:PZ57-S2-8846-7e1ea408`]
 - 2026-10-27 · Clonazepam · considering_stop [`intervention_events:S2-L08839-E1`]
-- 2026-10-26 · Clonazepam · trial 0.5 mg / 6 ≈ 0.0833 mg [`intervention_events:S2-L08824-E1`]

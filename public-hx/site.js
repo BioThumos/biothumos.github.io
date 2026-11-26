@@ -190,7 +190,7 @@ for (const panel of document.querySelectorAll('.record-directory .c-member > .re
 // Stable record/section permalinks. Keep labels, record identities and URLs independent
 // of locale, sort order and display filters. Never add controls to raw evidence.
 (() => {
-  const selector='details.bm-report-card[id],details.bm-card[id],details.bm-panel[id],details.bm-section[id],details.c-entry[id],details.ba-group[id],article.entry[id],section[id]:not(.wk-day),article.bm-rna-report[id],article.qual-card[id],.track[id]';
+  const selector='details.bm-report-card[id],details.bm-report-group[id],details.bm-card[id],details.bm-panel[id],details.bm-section[id],details.c-entry[id],details.ba-group[id],article.entry[id],section[id]:not(.wk-day),article.bm-rna-report[id],article.qual-card[id],.track[id]';
   const excluded='[data-record-source],.record-source,.record-source-body,.wk-evidence,template,#wk-source-panel';
   const hash=id=>'#'+encodeURIComponent(id);
   const target=()=>{try{return document.getElementById(decodeURIComponent(location.hash.slice(1)));}catch{return null;}};
@@ -216,7 +216,7 @@ for (const panel of document.querySelectorAll('.record-directory .c-member > .re
     if(!heading || container.closest(excluded)||heading.querySelector(':scope > .section-permalink, :scope > .record-heading-text > .section-permalink'))return;
     const host=heading.querySelector(':scope > .record-heading-text')||heading;
     // Keep the link adjacent to the name and ahead of secondary metadata.
-    if(container.matches('.bm-report-card') && heading.matches('summary')){
+    if(container.matches('.bm-report-card,.bm-report-group') && heading.matches('summary')){
       heading.querySelector('strong')?.after(link(container.id));return;
     }
     host.appendChild(link(container.id));
@@ -238,7 +238,7 @@ for (const panel of document.querySelectorAll('.record-directory .c-member > .re
     syncLocaleLinks();
     // Other page-specific handlers clear filters, select the appropriate tab,
     // and navigate the weekly horizontal timetable. Do not override them.
-    if(t.closest('.wk-day,#bm-marker-view,#bm-report-view,.record-directory,.year-group'))return;
+    if(t.closest('.wk-day,#bm-marker-view,#bm-report-view,#bm-trends-view,.record-directory,.year-group'))return;
     for(let n=t;n;n=n.parentElement){if(n.tagName==='DETAILS'&&!n.closest(excluded))n.open=true;}
     if(t.matches(selector)||t.matches('h1,h2,h3'))requestAnimationFrame(()=>t.scrollIntoView({block:'start',inline:'nearest'}));
   }
@@ -259,6 +259,11 @@ for (const panel of document.querySelectorAll('.record-directory .c-member > .re
       }
       if(e.target.closest('a,button,input,select,label'))return;
       const summary=e.target.closest('summary');const detail=summary?.parentElement;
+      // Browsing biomarker and treatment disclosures is not a navigation action.
+      // Individual test-report openings retain the requested shareable report URL.
+      if(detail?.matches('.bm-panel,.bm-section,.bm-card,.bm-report-group') ||
+         detail?.matches('.c-entry') && /(?:^|\/)interventions\.html$/.test(location.pathname) ||
+         detail?.matches('.c-entry') && document.querySelector('nav#site-sections a[href$="interventions.html"][aria-current="page"]') )return;
       if(detail?.matches(selector)&&!detail.open&&!detail.closest(excluded)){
         // Let the default disclosure activation happen first.
         requestAnimationFrame(()=>{if(detail.open)mark(detail.id);});

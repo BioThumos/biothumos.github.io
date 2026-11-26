@@ -1,6 +1,6 @@
 # Clinical overview
 
-Revision Revision 87 · Snapshot 2026-11-25
+Revision Revision 90 · Snapshot 2026-11-26
 
 ## Patient overview
 
@@ -172,6 +172,12 @@ month range · original report and patient recollection
 
 Source: context_cards:CTX-026 · S4-R12 p1, S4-R13 p1, S4-R14 p1, S3:239-241, S3:657
 
+- [Borrelia IgG and IgM serology](../biomarkers.html#report-S4-R13)
+
+- [Repeat Borrelia ELISA](../biomarkers.html#report-S4-R14)
+
+- [Borrelia PCR](../biomarkers.html#report-S4-R12)
+
 S3:239-241 · * was put on it for 2 months due to Lyme suspicion after positive IgG test
 * no improvement at all, instead brain burns got more severe, was barely "in there" by the end of the cure
 * doxycycline can slow lymphatic drainage → lymphatic issues may play a role in brain burns
@@ -187,6 +193,10 @@ After NADH on 20–21 and 25–28 October 2024: new profound deep-muscle fatigue
 day range · Reviewer-corrected intake dates; tracker, patient and clinician accounts of symptoms
 
 Source: context_cards:CTX-007 · S6-CLIN-001, S5-C-EM14, S5-C-EO15, S5-C-EU15, S1-M1617, S1-M2711, S1-M2714, S1-M2480, S1-M2509, S3:symptom:013, PZ-R14-TX:1
+
+- [First NADH course](../courses/44b32159-76c8-55fe-ac48-80f6c4554167.html)
+
+- [NADH restart](../courses/a070ea34-22cf-5ff7-a89b-0d5e45914b69.html)
 
 S6-CLIN-001 · this one should be the source of truth for the nadh sequence. since the other data points are later retellings.
 pre-nadh "crashes" were purely neurological, ie PENE, brain burns, etc.
@@ -228,11 +238,27 @@ S3:symptom:013 · * Post Exertional Malaise (PEM):
 
 Milestone
 
-Neurology admission 25–28 March: MRI and neurophysiology testing; supplements interrupted and activity reduced. Prolonged post-discharge deterioration from moderate to near-severe illness.
+Neurology admission 25–28 March: orthostatic pulse rise from 100 to 125/min; left BAEP III–V latency prolonged; MRI and nerve conduction did not explain symptoms. Roche spike antibody >25000 kU/L. Post-COVID syndrome suspected; cardiology referral. Supplements interrupted and activity reduced; prolonged post-discharge deterioration from moderate to near-severe illness.
 
 mixed precision · patient report
 
-Source: context_cards:CTX-013 · S1:29649, S1:29809-29817, S1:29984, S1:30009, S1:30210, S1:30692, S1:30920, S1:31904, S3:657-660
+Source: context_cards:CTX-013 · S1:29649, S1:29809-29817, S1:29984, S1:30009, S1:30210, S1:30692, S1:30920, S1:31904, S3:657-660, HOSP-2025-03-exam, HOSP-2025-03-lab, HOSP-2025-03-spike-igg, HOSP-2025-03-mri, HOSP-2025-03-evoked, HOSP-2025-03-hrv, HOSP-2025-03-nerve, HOSP-2025-03-discharge
+
+- [Neurology — Admission clinical and neurological examination](../biomarkers.html#report-HOSP-2025-03-exam)
+
+- [Neurology — CBC, chemistry, lipids and coagulation](../biomarkers.html#report-HOSP-2025-03-lab)
+
+- [Neurology — SARS-CoV-2 spike antibody (Roche)](../biomarkers.html#report-HOSP-2025-03-spike-igg)
+
+- [Neurology — Cranial MRI, MRA and lumbar spine MRI](../biomarkers.html#report-HOSP-2025-03-mri)
+
+- [Neurology — BAEP, tibial SSEP and visual evoked potentials](../biomarkers.html#report-HOSP-2025-03-evoked)
+
+- [Neurology — WIWE heart rate variability](../biomarkers.html#report-HOSP-2025-03-hrv)
+
+- [Neurology — Nerve conduction and sympathetic skin response](../biomarkers.html#report-HOSP-2025-03-nerve)
+
+- [Neurology — Discharge assessment and plan](../biomarkers.html#report-HOSP-2025-03-discharge)
 
 S1:29649 · i'm in hospital
 
@@ -264,6 +290,8 @@ Ivabradine 5 mg twice daily for orthostatic tachycardia: reported heart-rate red
 Patient-reported treatment response · approximately dated start
 
 Source: clinical_summary:ivabradine-response · S1-M32275, S1-M32504, S1-M32705, S3:203
+
+- [Ivabradine treatment history](../treatment-6d5c1cd1-bbc6-5ec1-8a4c-b3d8e3bcd65a.html)
 
 S1-M32275 · update#84:
 - rating (1-10):
@@ -365,6 +393,10 @@ day range · original lab reports
 
 Source: context_cards:CTX-016 · S4-R21 p2, S4-R22 pp1-2
 
+- [19 August enzyme panel](../biomarkers.html#report-S4-R21)
+
+- [4 September follow-up panel](../biomarkers.html#report-S4-R22)
+
 ## 2025-09-01 · Amatica research tests
 
 Milestone
@@ -374,6 +406,12 @@ Amatica blood draw on 1 September 2025; 31-marker protein panel (November 2025) 
 Diary and contemporaneous patient account; transcriptomic sample linkage unverified
 
 Source: clinical_summary:amatica-testing · diary_observations:S2-OBS-1633, S1-M55646, S1-M57986, S1-M58387, reports:S4-R23, S1-M71986
+
+- [Amatica 31-marker protein panel](../biomarkers.html#report-S4-R23)
+
+- [Amatica RNA sequencing](../transcriptomics.html)
+
+- [Diary: 1 September 2025](../weeks/2025-09-01.html#day-2025-09-01)
 
 S1-M55646 · okay it's done. it went well, this nurse is very good
 
@@ -419,6 +457,8 @@ Milestone
 day · original research report
 
 Source: context_cards:CTX-027 · S4-R27 p1
+
+- [Attomarker spike assay results](../biomarkers.html#report-S4-R27)
 
 ## 2026-06 – 2026-11 · Hepatitis C antivirals repurposed for suspected chronic COVID: Ledifos, Velpanat, Darvoni
 
@@ -561,4 +601,3 @@ Earlier dated assertions
 - 2026-11-02 · Velpanat · switch_reported [`intervention_events:S2-L08925-E2`]
 - 2026-10-28 · Aspirin · administration 500 mg [`intervention_events:PZ57-S2-8846-7e1ea408`]
 - 2026-10-27 · Clonazepam · considering_stop [`intervention_events:S2-L08839-E1`]
-- 2026-10-26 · Clonazepam · trial 0.5 mg / 6 ≈ 0.0833 mg [`intervention_events:S2-L08824-E1`]

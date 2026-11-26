@@ -7,7 +7,7 @@
   const repeated = document.getElementById('bm-repeat');
   const abnormal = document.getElementById('bm-abnormal');
   const all = new Set(entries.map(entry => entry.dataset.marker));
-  const views = {markers: document.getElementById('bm-marker-view'), reports: document.getElementById('bm-report-view')};
+  const views = {markers: document.getElementById('bm-marker-view'), reports: document.getElementById('bm-report-view'), trends: document.getElementById('bm-trends-view')};
   const tabs = [...document.querySelectorAll('[data-bm-view]')];
   let beforeFiltering = null;
 
@@ -49,6 +49,25 @@
       ? matches.size + ' of ' + all.size + ' biomarkers and assay catalogues' : '';
   }
 
+  const trendEntries=[...document.querySelectorAll('[data-trend-marker]')];
+  const trendSearch=document.getElementById('bm-trend-search');
+  const trendCategory=document.getElementById('bm-trend-category');
+  const trendAbnormal=document.getElementById('bm-trend-abnormal');
+  const normalize=s=>String(s||'').toLocaleLowerCase().normalize('NFD').replace(/\p{M}/gu,'');
+  function refreshTrends(){
+    const terms=normalize(trendSearch.value).split(/\s+/).filter(Boolean);
+    let n=0;
+    for(const entry of trendEntries){
+      const group=entry.closest('[data-trend-group]').dataset.trendGroup;
+      const text=normalize(entry.dataset.trendSearch+' '+entry.querySelector('h3').textContent+' '+(window.PZ_HU?.[group]||''));
+      entry.hidden=Boolean(trendCategory.value&&trendCategory.value!==group || trendAbnormal.checked&&entry.dataset.trendAbnormal!=='1' || !terms.every(term=>text.includes(term)));
+      if(!entry.hidden)n++;
+    }
+    for(const folder of document.querySelectorAll('.bm-trend-group,.bm-trend-section,.bm-trend-pair'))folder.hidden=!folder.querySelector('[data-trend-marker]:not([hidden])');
+    document.getElementById('bm-trend-count').textContent=terms.length||trendCategory.value||trendAbnormal.checked?`${n} of ${trendEntries.length} biomarkers`:'';
+  }
+  for(const el of [trendSearch,trendCategory,trendAbnormal])el.addEventListener(el===trendSearch?'input':'change',refreshTrends);
+
   function reveal() {
     let id;
     try {id = decodeURIComponent(location.hash.slice(1));} catch {return;}
@@ -60,6 +79,9 @@
       for (let node=target; node; node=node.parentElement) {
         if (node.tagName === 'DETAILS') node.open = true;
       }
+    } else if (target.closest('#bm-trends-view')) {
+      setView('trends');
+      if(target.closest('.bm-trend-card')?.hidden){trendSearch.value='';trendCategory.value='';trendAbnormal.checked=false;refreshTrends();}
     } else if (target.closest('#bm-marker-view')) {
       setView('markers');
       const card=target.closest('.bm-card');
@@ -78,6 +100,17 @@
   repeated.addEventListener('change',refresh);
   abnormal.addEventListener('change',refresh);
   window.addEventListener('hashchange',reveal);
+  // Use the same compact value-first tooltip as the wearable and score charts.
+  // Data attributes retain the unlocalized source values; translate components
+  // only when constructing the reading tooltip. Point anchors remain clickable.
+  for(const point of document.querySelectorAll('[data-bm-tip-value]')){
+    if(!window.PZChartTooltip)continue;
+    const localize=s=>window.pzLocalize?.text(s)??s;
+    let meta=[];try{meta=JSON.parse(point.dataset.bmTipMeta);}catch{}
+    window.PZChartTooltip.attach(point,localize(point.dataset.bmTipValue),meta.map(localize).join(' · '));
+    point.querySelector(':scope > title')?.remove();
+  }
   refresh();
+  refreshTrends();
   reveal();
 })();

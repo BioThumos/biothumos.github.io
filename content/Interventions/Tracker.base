@@ -78,9 +78,9 @@ views:
       - status
       - file.mtime
     sort:
-      - property: status
-        direction: ASC
       - property: category
+        direction: ASC
+      - property: status
         direction: ASC
   - type: table
     name: Next
