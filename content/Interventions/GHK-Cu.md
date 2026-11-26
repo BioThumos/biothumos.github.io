@@ -1,6 +1,6 @@
 ---
 tracked: true
-category:
+category: mineral
 provenance:
 status:
 ---

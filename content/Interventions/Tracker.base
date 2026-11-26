@@ -61,7 +61,7 @@ views:
       - property: provenance
         direction: ASC
       - property: status
-        direction: DESC
+        direction: ASC
       - property: category
         direction: DESC
       - property: file.name
@@ -83,9 +83,10 @@ views:
       - property: category
         direction: ASC
   - type: table
-    name: Order
+    name: Next
     filters:
-      and:
+      or:
+        - status == "next"
         - status == "order"
     order:
       - file.name

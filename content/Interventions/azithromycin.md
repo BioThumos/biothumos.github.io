@@ -1,6 +1,6 @@
 ---
 tracked: true
-status: inventory
+status:
 category: antiviral
 provenance: jard
 ---
