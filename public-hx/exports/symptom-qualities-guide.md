@@ -8,7 +8,7 @@ This clinical guide separates distinct recurring patterns from general symptoms,
 - **Brain-fatigue / sleep-pressure crash:** may include brain fatigue, a lactate-like brain sensation, strong sleep pressure and sometimes a crash into sleep. Not every component is obligatory; no added subtype count.
 - **Poisoned-type crash:** full crashes with a reported poisoned sensation, possibly after sexual release or intense activity. Isolated poisoned feeling is not itself a crash.
 
-## Recurring evening-type sensory waves / tingling
+## Recurring evening-type sensory waves
 
 Historically called “evening PEM”, later “evening pulsing/tingling”. Patient reports this as a recurring near-daily sensation, including low-intensity days not entered in the diary. Not always in the evening, and not necessarily following exertion. Patient places the onset after the late-2024 NADH period, without a confirmed first date. First explicit named diary observation: 2025-08-27; archived reference by February 2025.
 The 103 indexed diary observations are evidence examples, not distinct attacks or a true occurrence rate. Ambiguous observations do not assert positive presence.

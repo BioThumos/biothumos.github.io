@@ -59,33 +59,139 @@
         compact && event ? event.dataset.wcCompactTitle : trigger.dataset.wkTitle;
       panel.querySelector('#wk-source-heading').textContent = title || trigger.textContent.trim() || 'Clinical record';
       const triggers = [trigger,...memberIds.map(id=>document.getElementById(id)?.querySelector('.wc-clock-button')).filter(Boolean)];
-      const seen = new Set();
+      // Render clinical facts once. Source templates and structured exports retain
+      // all provenance, including conventional boundary observations.
+      const entries = new Map(), wanted = new Set(), primary = new Set();
       for (const item of triggers) {
-        const section = document.createElement('div');
-        section.className='wc-popup-report';
-        const clock = item.querySelector('time');
-        if (clock) {
-          const heading = document.createElement('strong');
-          heading.textContent = clock.textContent;
-          section.appendChild(heading);
-        }
-        const tags = item.querySelector('.wc-full-tags');
-        if (tags) {
-          const copy=tags.cloneNode(true);copy.classList.remove('wc-full-tags');copy.hidden=false;
-          for(const chip of copy.querySelectorAll('.wc-chip'))chip.hidden=false;
-          section.appendChild(copy);
-        }
-        if (item.dataset.timingNote) {
-          const note = document.createElement('p');
-          note.className = 'wc-timing-note';
-          note.textContent = item.dataset.timingNote;
-          section.appendChild(note);
-        }
+        if (item.dataset.wkPrimary) primary.add(item.dataset.wkPrimary);
+        for(const chip of item.querySelectorAll('.wc-full-tags [data-identity^="symptom:"]'))wanted.add(chip.dataset.identity);
         for (const id of item.dataset.wkSource.split(' ')) {
-          const tpl = document.getElementById(id);
-          if (tpl && !seen.has(id)) { section.appendChild(tpl.content.cloneNode(true)); seen.add(id); }
+          const tpl=document.getElementById(id);if(tpl&&!entries.has(id))entries.set(id,{tpl,item});
         }
-        body.appendChild(section);
+      }
+      const records=[...entries.values()];
+      const isSymptom=r=>['diary_symptom_intervals','event'].includes(r.tpl.dataset.wkKind);
+      const ids=r=>(r.tpl.dataset.wkSymptoms||'').split(' ').filter(Boolean);
+      const matches=r=>!wanted.size||ids(r).some(i=>wanted.has(i));
+      const intervals=records.filter(r=>r.tpl.dataset.wkKind==='diary_symptom_intervals'&&matches(r));
+      const intervalKeys=new Set(intervals.map(r=>r.tpl.dataset.wkKey));
+      const occurrences=records.filter(r=>r.tpl.dataset.wkKind==='event'&&matches(r)&&!intervalKeys.has(r.tpl.dataset.wkNative));
+      const symptoms=[...intervals,...occurrences];
+      const origins=new Set(symptoms.map(r=>r.tpl.dataset.wkOrigin).filter(Boolean));
+      const logs=new Set(symptoms.map(r=>r.tpl.dataset.wkLog).filter(Boolean));
+      const symptomPopup=!!symptoms.length;
+      // The primary record may itself be an observation (including untimed ones).
+      const selectedObservations=records.filter(r=>r.tpl.dataset.wkKind==='diary_observations'&&(!symptomPopup||origins.has(r.tpl.dataset.wkKey)||primary.has(r.tpl.dataset.wkKey)));
+      selectedObservations.forEach(r=>{if(r.tpl.dataset.wkLog)logs.add(r.tpl.dataset.wkLog)});
+      const quoted = new Set();
+      const showRecord=(r,container=body,options={})=>{
+        const fragment=r.tpl.content.cloneNode(true), section=fragment.querySelector('section');
+        if(!section)return;
+        const kind=r.tpl.dataset.wkKind, quote=section.querySelector('.wk-evidence');
+        const text=quote?.textContent.trim()||'';
+        if(text&&quoted.has(text)&&!options.original)return;
+        if(text)quoted.add(text);
+        section.dataset.recordKey=r.tpl.dataset.wkKey;
+        section.dataset.recordKind=kind;
+        section.querySelectorAll('.wk-src').forEach(x=>x.hidden=true);
+        if(['diary_observations','diary_logs','source_lines','source_cells','event','diary_symptom_intervals'].includes(kind)){
+          // The extra paragraphs contain clocks, raw keys, parser status and other
+          // technical context. Retain them in the DOM, not in the reading view.
+          for(const p of section.querySelectorAll(':scope > p:not(.wk-evidence)')){p.hidden=true;p.dataset.originalSource='';}
+          if(symptomPopup&&kind==='diary_observations')section.querySelectorAll('.wc-definition-links').forEach(x=>x.hidden=true);
+        }
+        container.appendChild(fragment);
+      };
+      const group=()=>{const d=document.createElement('div');d.className='wc-popup-report';body.appendChild(d);return d;};
+      if(symptomPopup){
+        // The original observation is the evidence, not the next meal/sleep.
+        const summary=group();
+        selectedObservations.forEach(r=>showRecord(r,summary));
+        for(const r of records.filter(r=>r.tpl.dataset.wkKind==='event'&&matches(r))){
+          if(!selectedObservations.some(o=>o.tpl.dataset.wkKey===r.tpl.dataset.wkOrigin)){
+            const quote=r.tpl.content.querySelector('.wk-evidence');
+            if(quote&&!quoted.has(quote.textContent.trim())){
+              const el=document.createElement('section');el.appendChild(quote.cloneNode(true));summary.appendChild(el);quoted.add(quote.textContent.trim());
+            }
+          }
+        }
+        if(!summary.childElementCount)summary.remove();
+        const cards=document.createElement('div');cards.className='wk-symptom-cards';
+        const seenCards=new Set();
+        for(const r of symptoms){
+          const d=r.tpl.dataset;
+          const links=[...r.tpl.content.querySelectorAll('.wc-definition-links a')].filter(a=>a.getAttribute('href')?.includes('#symptom:'));
+          for(const link of links){
+            const identity=link.getAttribute('href').split('#')[1];
+            if(wanted.size&&!wanted.has(identity))continue;
+            const key=[identity,d.wkStart,d.wkEnd,d.wkOrigin].join('|');if(seenCards.has(key))continue;seenCards.add(key);
+            const card=document.createElement('div');
+            // Reuse the canonical chart tones, never translated-name heuristics.
+            const chip=triggers.flatMap(t=>[...t.querySelectorAll('.wc-full-tags .wc-chip, .wc-plain-button .wc-chip, .wc-chip')]).find(c=>c.dataset.identity===identity);
+            const tone=chip?.classList.contains('wc-pem')?'wc-pem':chip?.classList.contains('wc-note')?'wc-note':'wc-symptom';
+            card.className='wk-symptom-card wc-chip '+tone;
+            card.dataset.recordKey=d.wkKey;card.dataset.startLocal=d.wkStart;card.dataset.endLocal=d.wkEnd;card.dataset.endpointBasis=d.wkBasis;card.dataset.sourceKey=d.wkOrigin;
+            card.appendChild(link.cloneNode(true));
+            // Use full civil dates for a cross-midnight interval; otherwise clocks only.
+            const clock=d.wkClock||r.item.querySelector('time')?.textContent||'';
+            if(clock){const t=document.createElement('time');t.textContent=clock;
+              if(['inferred_meal','inferred_sleep'].includes(d.wkBasis))t.title='Inferred endpoint';
+              card.appendChild(t);}
+            cards.appendChild(card);
+          }
+        }
+        if(cards.childElementCount)body.appendChild(cards);
+        // Preserve other independently relevant records (e.g. medication taken
+        // at the same clock) without repeating raw diary or endpoint citations.
+        for(const r of records){const k=r.tpl.dataset.wkKind;if(!isSymptom(r)&&!['diary_observations','diary_logs','source_lines','source_cells'].includes(k))showRecord(r);}
+      }else{
+        for (const item of triggers) {
+          const section=group();const clock=item.querySelector('time');
+          if(clock){const heading=document.createElement('strong');heading.textContent=clock.textContent;
+            if(item.dataset.timingNote)heading.title=item.dataset.timingNote;section.appendChild(heading);}
+          const tags=item.querySelector('.wc-full-tags');if(tags){const copy=tags.cloneNode(true);copy.classList.remove('wc-full-tags');copy.hidden=false;for(const chip of copy.querySelectorAll('.wc-chip'))chip.hidden=false;section.appendChild(copy);}
+          for(const r of records.filter(r=>r.item===item)){
+            const kind=r.tpl.dataset.wkKind;
+            if(kind==='diary_logs')continue;
+            if(['source_lines','source_cells'].includes(kind)&&selectedObservations.length)continue;
+            showRecord(r,section);
+          }
+        }
+      }
+      const diaryRecords=records.filter(r=>r.tpl.dataset.wkKind==='diary_logs'&&(!symptomPopup||!logs.size||logs.has(r.tpl.dataset.wkLog)));
+      for(const r of diaryRecords){
+        const details=document.createElement('details');details.className='wk-original-diary';
+        const summary=document.createElement('summary');summary.textContent='Original diary';details.appendChild(summary);
+        showRecord(r,details,{original:true});details.querySelector('section > strong')?.remove();body.appendChild(details);
+      }
+      // One unobtrusive dated locator at the bottom, plus all related source
+      // locators and technical timing in an explicitly requested evidence pane.
+      if(records.length){
+        const details=document.createElement('details');details.className='wk-source-details';
+        const summary=document.createElement('summary');summary.textContent='Source and timing';details.appendChild(summary);
+        const list=document.createElement('ul');list.className='wk-source-list';details.appendChild(list);
+        for(const r of records){
+          const d=r.tpl.dataset, li=document.createElement('li');li.dataset.originalSource='';
+          const locator=r.tpl.content.querySelector('.wk-src')?.cloneNode(true)||document.createElement('div');
+          locator.className='wk-src';locator.hidden=false;
+          if(!locator.textContent.trim())locator.textContent=d.wkKey||'';
+          li.appendChild(locator);
+          const context=[...r.tpl.content.querySelectorAll('section > p:not(.wk-evidence)')].map(x=>x.textContent.trim()).filter(Boolean);
+          const timing=[d.wkStart,d.wkEnd,d.wkBasis].filter(Boolean).join(' · ');
+          if(timing)context.push(timing);
+          if(d.wkOrigin)context.push(d.wkOrigin);
+          if(d.wkNative)context.push(d.wkNative);
+          if(context.length){const extra=document.createElement('small');extra.textContent=[...new Set(context)].join(' · ');li.appendChild(extra);}
+          list.appendChild(li);
+        }
+        body.appendChild(details);
+        const footer=document.createElement('footer');footer.className='wk-popup-footer';
+        const main=diaryRecords.length?diaryRecords:[records.find(r=>primary.has(r.tpl.dataset.wkKey))||records[0]];
+        for(const r of main){
+          const locator=r.tpl.content.querySelector('.wk-src')?.cloneNode(true);
+          if(locator){locator.hidden=false;locator.dataset.originalSource='';footer.appendChild(locator);}
+        }
+        if(footer.childElementCount)body.appendChild(footer);
       }
       // Keep the chart itself unchanged; expose the event's stable link in the popup.
       const record = trigger.closest('[id^="entry-"]') ||
@@ -280,6 +386,46 @@
     }
     if(modeControl){modeControl.closest('.wc-display-controls').hidden=false;modeControl.addEventListener('change',()=>applyMode());}
     if(filterPanel)filterPanel.addEventListener('change',()=>applyMode());
+    // Compact groups use the existing count when space is limited. Only after
+    // normal lane and collision layout is settled do we reveal secondary chips
+    // within the available band. Never inflate an hour or shift event geometry
+    // solely to reveal children. Counts are pre-rendered for both locales.
+    function setGroupSize(el,n){
+      const tags=el.querySelector('.wc-compact-tags'), group=tags?.querySelector('.wc-subtags');
+      if(!group)return;
+      const children=[...group.querySelectorAll('.wc-chip')];
+      group.hidden=n===0;
+      children.forEach((c,i)=>c.hidden=i>=n);
+      for(const badge of tags.querySelectorAll('[data-wc-overflow]'))badge.hidden=Number(badge.dataset.wcOverflow)!==children.length-n;
+      el.toggleAttribute('data-wc-expanded',n>0);
+    }
+    function expandGroups(items){
+      if(scroller.dataset.wcMode!=='clinical')return;
+      const placed=items.map(({el})=>({el,button:el.querySelector('.wc-clock-button'),edit:el.querySelector(':scope > .pz-edit-actions')}));
+      for(const {el,button,edit} of placed){
+        const tags=button.querySelector('.wc-compact-tags'),group=tags?.querySelector('.wc-subtags');
+        const band=el.querySelector('.wc-duration');
+        if(!group||!band||el.hasAttribute('data-wc-narrow'))continue;
+        const b=band.getBoundingClientRect(),original=button.getBoundingClientRect();
+        if(original.top<b.top-1||original.bottom>b.bottom+1)continue;
+        const total=group.querySelectorAll('.wc-chip').length;
+        // Check the actual rendered rectangles, including labels on other lanes
+        // and point records. Preserve the original label geometry when not fitting.
+        const other=placed.filter(x=>x.el!==el).map(x=>{
+          const r=x.button.getBoundingClientRect();
+          return {left:r.left,right:r.right,top:r.top,bottom:x.edit?Math.max(r.bottom,x.edit.getBoundingClientRect().bottom):r.bottom};
+        });
+        for(let n=total;n>=0;n--){
+          setGroupSize(el,n);
+          const r=button.getBoundingClientRect(), bottom=r.bottom+(edit?edit.getBoundingClientRect().height+2:0);
+          if(n===0||(bottom<=b.bottom-1&&r.right<=b.right+1&&r.left>=b.left-1&&
+              !other.some(o=>r.left<o.right-1&&r.right>o.left+1&&r.top<o.bottom+2&&bottom>o.top-2))){
+            if(edit)el.style.setProperty('--label-height',r.height+'px');
+            break;
+          }
+        }
+      }
+    }
     let frame = 0;
     function measureLabels() {
       frame = 0;
@@ -289,6 +435,7 @@
         if (!track.clientWidth || !track.clientHeight) return [];
         track.dataset.wcReady = '';
         track.removeAttribute('data-wc-sleep-rail');
+        for(const el of track.querySelectorAll('.wc-event'))setGroupSize(el,0);
         layoutBands(track);
         return Array.from(track.querySelectorAll(':scope > .wc-event:not([hidden])')).map(el => {
           const labelHeight=el.querySelector('.wc-clock-button').getBoundingClientRect().height;
@@ -345,6 +492,7 @@
         }
         if(fallback[index]) placeLabels(items,0,height);
         else for(const r of regions[index])placeLabels(r.items,r.a*height/1440,r.b*height/1440);
+        expandGroups(items);
       }
     }
     function schedule() {

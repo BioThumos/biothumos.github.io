@@ -1,5 +1,5 @@
 {
-  "revision_id": "Revision 85",
+  "revision_id": "Revision 87",
   "scale": {
     "1": "Low",
     "2": "Very disabling",
@@ -978,7 +978,7 @@
     },
     {
       "symptom_id": "symptom:9fdcdaab-6919-579a-9480-227ab4f01989",
-      "symptom": "Evening-type sensory waves / tingling",
+      "symptom": "Evening-type sensory waves",
       "level": 1,
       "level_label": "Low",
       "resolution": {
@@ -1041,67 +1041,6 @@
           "note": "The diary sometimes calls this sensation “evening PEM”, but its reported regularity and lack of a consistent exertion trigger argue against automatically counting it as exertion-triggered PEM.",
           "source_ref": "diary_observations:S2-OBS-6312; S2-OBS-7916; archive_messages:S1-M72650",
           "title": "PEM / PEM-like state"
-        }
-      ]
-    },
-    {
-      "symptom_id": "symptom:1d04fe0d-d290-561a-97ce-5ca208a86176",
-      "symptom": "Facial or sinus pressure",
-      "level": 2,
-      "rated_by": "practitioner",
-      "rated_on": "2026-11-20",
-      "rationale": "",
-      "source_card": null,
-      "source_title": null,
-      "source_detail": null,
-      "source_refs": [],
-      "level_label": "Very disabling",
-      "resolution": {
-        "status": "unknown"
-      },
-      "occurrence_pattern": {
-        "baseline": "continuous_fluctuating",
-        "triggers": "Exertion can intensify the baseline pressure",
-        "note": "The patient reports near-continuous facial/sinus pressure since illness onset, with varying intensity. Sensations in or behind the eyes are part of this symptom presentation and may include irritation, tearing or difficulty keeping the eye open. These experiences do not establish a specific ocular or intracranial mechanism.",
-        "source_ref": "patient review 2026-11-21; historical_entries:S3:symptom:039",
-        "author": "practitioner",
-        "reviewed_on": "2026-11-21"
-      },
-      "course_events": [
-        {
-          "id": "SYM32-FACIAL-BASELINE-ONSET",
-          "symptom_id": "symptom:1d04fe0d-d290-561a-97ce-5ca208a86176",
-          "kind": "onset",
-          "timing": "known",
-          "period": "2023",
-          "anchor_label": "October–November 2023 (illness onset)",
-          "recorded_on": "2026-11-21",
-          "author": "practitioner",
-          "note": "Patient reports continuous facial/sinus pressure since illness onset; earlier diary only dates first indexed observation. Exact first day unknown. Possible interim improvement remains unconfirmed.",
-          "source_ref": "patient review 2026-11-21; historical_entries:S3:symptom:039",
-          "anchor_card": null,
-          "basis": "reviewed_evidence"
-        }
-      ],
-      "first_indexed_episode": {
-        "date": "2024-07-09",
-        "source_ref": "diary_symptom_intervals:SI-ca9d770fec4c1775a7f3c5ea",
-        "page": "weeks/2024-07-08.html#entry-e5c1edfdb9f05ca59396a8"
-      },
-      "reviewed_relationships": [
-        {
-          "related_id": "intervention:8c44127d-11fb-5024-8f14-bb5c20b3def5",
-          "relation": "Present in overlapping treatment period; cause uncertain",
-          "note": "The spore probiotic was in use/restarted before the single December 1 bezisterim dose. The symptom was reported around this period, but available chronology does not isolate which, if either, treatment contributed.",
-          "source_ref": "context_cards:CTX-017; intervention_events:S2-L03457-E1; intervention_events:S2-L03554-E1",
-          "title": "Spore probiotic"
-        },
-        {
-          "related_id": "intervention:ee824179-20cd-5023-98b9-9ca860592f79",
-          "relation": "Present in overlapping treatment period; cause uncertain",
-          "note": "The spore probiotic was in use/restarted before the single December 1 bezisterim dose. The symptom was reported around this period, but available chronology does not isolate which, if either, treatment contributed.",
-          "source_ref": "context_cards:CTX-017; intervention_events:S2-L03457-E1; intervention_events:S2-L03554-E1",
-          "title": "Bezisterim"
         }
       ]
     },
@@ -2153,7 +2092,7 @@
     },
     {
       "symptom_id": "symptom:c5ba84c7-ddcd-563b-8aa8-e95a3bffeee6",
-      "symptom": "Nape clenching / pressure",
+      "symptom": "Nape clenching",
       "level": 3,
       "rated_by": "patient",
       "rated_on": "2026-11-22",
@@ -2282,7 +2221,7 @@
       "first_indexed_episode": {
         "date": "2025-11-14",
         "source_ref": "diary_symptom_intervals:SI-e0da8064f531dfe74e751671",
-        "page": "weeks/2025-11-10.html#entry-6e02ccf8487d76dc79a140-2"
+        "page": "weeks/2025-11-10.html#entry-6e02ccf8487d76dc79a140"
       },
       "reviewed_relationships": [
         {
@@ -2820,7 +2759,7 @@
           "relation": "terminology_overlap",
           "note": "The recurring evening-type pulsing/tingling is tracked separately because it can occur without an exertion-linked crash.",
           "source_ref": "diary_observations:S2-OBS-6312; S2-OBS-7916; archive_messages:S1-M72650",
-          "title": "Evening-type sensory waves / tingling"
+          "title": "Evening-type sensory waves"
         }
       ]
     },
@@ -2897,6 +2836,67 @@
         "page": "weeks/2025-01-06.html#entry-15c1c80b1e7c342de90ed7"
       },
       "reviewed_relationships": []
+    },
+    {
+      "symptom_id": "symptom:1d04fe0d-d290-561a-97ce-5ca208a86176",
+      "symptom": "Sinus pressure",
+      "level": 2,
+      "rated_by": "practitioner",
+      "rated_on": "2026-11-20",
+      "rationale": "",
+      "source_card": null,
+      "source_title": null,
+      "source_detail": null,
+      "source_refs": [],
+      "level_label": "Very disabling",
+      "resolution": {
+        "status": "unknown"
+      },
+      "occurrence_pattern": {
+        "baseline": "continuous_fluctuating",
+        "triggers": "Exertion can intensify the baseline pressure",
+        "note": "The patient reports near-continuous facial/sinus pressure since illness onset, with varying intensity. Sensations in or behind the eyes are part of this symptom presentation and may include irritation, tearing or difficulty keeping the eye open. These experiences do not establish a specific ocular or intracranial mechanism.",
+        "source_ref": "patient review 2026-11-21; historical_entries:S3:symptom:039",
+        "author": "practitioner",
+        "reviewed_on": "2026-11-21"
+      },
+      "course_events": [
+        {
+          "id": "SYM32-FACIAL-BASELINE-ONSET",
+          "symptom_id": "symptom:1d04fe0d-d290-561a-97ce-5ca208a86176",
+          "kind": "onset",
+          "timing": "known",
+          "period": "2023",
+          "anchor_label": "October–November 2023 (illness onset)",
+          "recorded_on": "2026-11-21",
+          "author": "practitioner",
+          "note": "Patient reports continuous facial/sinus pressure since illness onset; earlier diary only dates first indexed observation. Exact first day unknown. Possible interim improvement remains unconfirmed.",
+          "source_ref": "patient review 2026-11-21; historical_entries:S3:symptom:039",
+          "anchor_card": null,
+          "basis": "reviewed_evidence"
+        }
+      ],
+      "first_indexed_episode": {
+        "date": "2024-07-09",
+        "source_ref": "diary_symptom_intervals:SI-ca9d770fec4c1775a7f3c5ea",
+        "page": "weeks/2024-07-08.html#entry-e5c1edfdb9f05ca59396a8"
+      },
+      "reviewed_relationships": [
+        {
+          "related_id": "intervention:8c44127d-11fb-5024-8f14-bb5c20b3def5",
+          "relation": "Present in overlapping treatment period; cause uncertain",
+          "note": "The spore probiotic was in use/restarted before the single December 1 bezisterim dose. The symptom was reported around this period, but available chronology does not isolate which, if either, treatment contributed.",
+          "source_ref": "context_cards:CTX-017; intervention_events:S2-L03457-E1; intervention_events:S2-L03554-E1",
+          "title": "Spore probiotic"
+        },
+        {
+          "related_id": "intervention:ee824179-20cd-5023-98b9-9ca860592f79",
+          "relation": "Present in overlapping treatment period; cause uncertain",
+          "note": "The spore probiotic was in use/restarted before the single December 1 bezisterim dose. The symptom was reported around this period, but available chronology does not isolate which, if either, treatment contributed.",
+          "source_ref": "context_cards:CTX-017; intervention_events:S2-L03457-E1; intervention_events:S2-L03554-E1",
+          "title": "Bezisterim"
+        }
+      ]
     },
     {
       "symptom_id": "symptom:cd78cdf7-fe2c-5f54-afb6-13d8c889fe7f",
@@ -3158,7 +3158,7 @@
       "first_indexed_episode": {
         "date": "2025-10-08",
         "source_ref": "diary_symptom_intervals:SI-736a31b19d65d0e962b90579",
-        "page": "weeks/2025-10-06.html#entry-975bfdd369e1e18386e0fb-2"
+        "page": "weeks/2025-10-06.html#entry-975bfdd369e1e18386e0fb"
       },
       "reviewed_relationships": []
     },

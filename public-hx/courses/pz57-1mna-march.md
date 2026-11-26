@@ -1,6 +1,6 @@
 # 1-MNA · course dossier
 
-Revision: Revision 85
+Revision: Revision 87
 course:pz57-1mna-march
 documented_course
 In use by 2025-03-21 · Estimated end 2025-04-21 · Already in use by March 21, 2025; actual first dose undated. About a month of use recalled; April is the estimated endpoint. May 13 separately documents use before NAD+.

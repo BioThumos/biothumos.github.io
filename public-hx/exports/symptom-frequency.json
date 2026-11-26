@@ -1,5 +1,5 @@
 {
-  "revision_id": "Revision 85",
+  "revision_id": "Revision 87",
   "description": "Documented positive diary-day rate, not a true episode rate. The calculation incorporates the time-indexed symptom occurrences AND positive structured daily assessments. An episode mentioned more than once on one diary day counts once. Sleep pressure includes separately identified inferred sleep-crash dates; direct counts are exported separately. Negative, ambiguous and merely rated assessments do not assert presence. Persistently present symptoms are ranked at the top. No lifetime weekly rate is displayed for resolved, mostly-resolved, persistently present or historically underdocumented symptoms. Neurological patterns, crash presentations and sensory descriptions have no separate frequency; they can overlap with their parent symptoms. Persistent symptoms are ranked above episodic ones.",
   "symptoms": [
     {
@@ -164,7 +164,7 @@
     },
     {
       "symptom_id": "symptom:1d04fe0d-d290-561a-97ce-5ca208a86176",
-      "name": "Facial or sinus pressure",
+      "name": "Sinus pressure",
       "occurrence_days": 157,
       "direct_occurrence_days": 157,
       "inferred_additional_days": 0,
@@ -804,7 +804,7 @@
     },
     {
       "symptom_id": "symptom:9fdcdaab-6919-579a-9480-227ab4f01989",
-      "name": "Evening-type sensory waves / tingling",
+      "name": "Evening-type sensory waves",
       "occurrence_days": 78,
       "direct_occurrence_days": 78,
       "inferred_additional_days": 0,
@@ -944,7 +944,7 @@
     },
     {
       "symptom_id": "symptom:c5ba84c7-ddcd-563b-8aa8-e95a3bffeee6",
-      "name": "Nape clenching / pressure",
+      "name": "Nape clenching",
       "occurrence_days": 93,
       "direct_occurrence_days": 93,
       "inferred_additional_days": 0,

@@ -308,3 +308,24 @@
 .wk-day .wc-track .wc-event:has(.wc-clock-button:hover,.wc-clock-button:focus-visible) .wc-clock-button{z-index:4}
 .wk-day .wc-track[data-wc-ready] .wc-event[data-wc-moved]::before{z-index:2}
 @media print{.wc-display-controls{display:none!important}}
+
+/* Compact clinical popup: one source quotation, distinct symptom cards, optional diary. */
+#wk-source-panel [hidden]{display:none!important}
+#wk-source-panel .wk-symptom-cards{display:grid;gap:.45rem;margin:.75rem 0}
+#wk-source-panel .wk-symptom-card{display:grid;grid-template-columns:minmax(0,1fr);align-items:start;gap:.28rem;border:1px solid var(--wc-edge);background:var(--wc-bg);color:var(--wc-text);border-radius:5px;padding:.5rem .65rem;font:inherit}
+#wk-source-panel .wk-symptom-card a{font-weight:650;min-width:0;color:inherit;justify-self:start;overflow-wrap:anywhere}
+#wk-source-panel .wk-symptom-card time{font-variant-numeric:tabular-nums;font-weight:600;font-size:.88em;white-space:normal;overflow-wrap:anywhere}
+#wk-source-panel .wk-original-diary{margin-top:.7rem;border-top:1px solid var(--line);padding-top:.6rem}
+#wk-source-panel .wk-original-diary summary{cursor:pointer;font-weight:650;color:var(--accent)}
+#wk-source-panel .wk-original-diary section{border:0;margin:0;padding:0}
+#wk-source-panel .wc-popup-report:first-of-type section:first-child{border:0;padding-top:0}
+
+/* Adaptive clinical groups: secondary symptoms sit inside the parent lane. */
+.wk-day .wc-track .wc-clock-button .wc-subtags{display:block;box-sizing:border-box;margin:.12rem 0 0 .32rem;padding-left:.3rem;border-left:1px solid var(--wc-edge,var(--control-line));max-width:calc(100% - .32rem)}
+.wk-day .wc-track .wc-clock-button .wc-subtags .wc-chip{font-size:.82rem;max-width:100%;box-sizing:border-box}
+#wk-source-panel .wk-source-details{margin:.65rem 0 0;padding-top:.5rem;border-top:1px solid var(--line)}
+#wk-source-panel .wk-source-details summary{cursor:pointer;color:var(--accent);font-size:.84rem}
+#wk-source-panel .wk-source-list{list-style:none;padding:0;margin:.35rem 0}
+#wk-source-panel .wk-source-list li{border-bottom:1px solid var(--line);padding:.3rem 0;overflow-wrap:anywhere}
+#wk-source-panel .wk-source-list small{display:block;color:var(--muted);font-size:.75rem}
+#wk-source-panel .wk-popup-footer{border-top:1px solid var(--line);margin:.65rem 0 0;padding-top:.5rem}

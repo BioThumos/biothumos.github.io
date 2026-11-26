@@ -77,7 +77,7 @@
           "relationship_label": "Possible delayed onset",
           "source_ref": "context_cards:CTX-R21-SYMPTOM-REVIEW; context_cards:CTX-007",
           "symptom_id": "symptom:c5ba84c7-ddcd-563b-8aa8-e95a3bffeee6",
-          "symptom_title": "Nape clenching / pressure"
+          "symptom_title": "Nape clenching"
         },
         {
           "group_id": "nadh-oct-2024",
@@ -280,7 +280,7 @@
           "relationship_label": "Uncertain membership",
           "source_ref": "diary_observations:S2-OBS-4572; diary_observations:S2-OBS-4748; baseline_states:BL-22; context_cards:CTX-017",
           "symptom_id": "symptom:1d04fe0d-d290-561a-97ce-5ca208a86176",
-          "symptom_title": "Facial or sinus pressure"
+          "symptom_title": "Sinus pressure"
         }
       ],
       "source_ref": "context_cards:CTX-017; baseline_states:BL-22; archive_messages:S1-M16763; intervention_events:S2-L03457-E1; intervention_events:S2-L03554-E1",
