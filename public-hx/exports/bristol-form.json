@@ -1,5 +1,5 @@
 {
-  "revision": "Revision 90",
+  "revision": "Revision 92",
   "scale": "Bristol Stool Form Scale",
   "method": "Source-anchored retrospective text interpretations and low-confidence consistency proxies. A patient/reviewer-suggested type (e.g., mildly constipated -> type 3) is not a directly observed or clinically validated morphology score. Softness, constipation, and perceived normality may justify broad low-confidence ranges but not a confirmed exact Bristol type. Color and frequency alone are insufficient. Negated/hypothetical events are excluded. Multi-movement summaries are not copied to every movement; overlapping daily and individually clocked evidence is withheld from the plot.",
   "bounds": [

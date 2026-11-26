@@ -114,3 +114,15 @@
 .bm-trace-key{display:flex;flex-wrap:wrap;gap:.1rem .65rem;color:var(--muted);font-size:.75rem}
 .bm-trace-key span{display:inline-flex;align-items:baseline;gap:.35rem}
 .bm-trace-key i{width:.55rem;height:.55rem;border-radius:50%;background:var(--bm-trace-color);flex:none}
+
+/* Keep the taller quantitative viewBox readable at all widths. Reference
+   segments use their own trace color; never obscure point hover targets. */
+.bm-figure .bm-reference-band{opacity:.15;pointer-events:none}
+.bm-figure .bm-reference-line,.bm-figure .bm-reference-bracket{stroke:var(--accent);stroke-width:1.2;stroke-dasharray:3 3;fill:none;opacity:.68;pointer-events:none}
+.bm-figure .bm-reference-band[class*="bm-trace-"]{fill:var(--bm-trace-color)}
+.bm-figure .bm-reference-line[class*="bm-trace-"],.bm-figure .bm-reference-bracket[class*="bm-trace-"]{stroke:var(--bm-trace-color)}
+.bm-figure .bm-unassessed-point:not(.bm-report-point){fill:var(--muted)}
+.bm-figure .bm-flagged-point:not(.bm-report-point){fill:var(--mark-response);stroke:var(--paper)}
+.bm-figure .bm-report-point.bm-flagged-point{stroke:var(--mark-response)}
+
+.bm-figure .bm-report-point.bm-unassessed-point{stroke:var(--muted)}
