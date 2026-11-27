@@ -126,3 +126,14 @@
 .bm-figure .bm-report-point.bm-flagged-point{stroke:var(--mark-response)}
 
 .bm-figure .bm-report-point.bm-unassessed-point{stroke:var(--muted)}
+
+/* Vendor genotype notation: colors reproduce the legend, not disease severity. */
+.bm-genetic-context{margin:.8rem 0;max-width:85ch}
+.bm-genetic-context h4,.bm-vendor-background h4{margin:.3rem 0;font-size:.94rem}
+.bm-genetic-key{display:flex;flex-wrap:wrap;gap:.45rem 1rem;align-items:center;margin:.45rem 0}
+.bm-genetic-key-item{display:inline-flex;align-items:center;gap:.4rem;font-size:.88rem;max-width:100%}
+.bm-genetic-code{display:inline-block;min-width:2.3em;text-align:center;padding:.13rem .35rem;border-radius:.25rem;border:1px solid currentColor;font-variant-numeric:tabular-nums;color:var(--ink)}
+.bm-genetic-hom{background:#a64b4b;color:#fff;border-color:#c77b7b}.bm-genetic-het{background:#8a7127;color:#fff;border-color:#bd9e43}.bm-genetic-ref{background:#417b55;color:#fff;border-color:#7eaa85}
+.bm-genetic-context .bm-meta-note{margin:.45rem 0;font-size:.85rem}
+.bm-vendor-background{margin:.75rem 0;padding:.55rem .75rem;border:1px solid var(--control-line);border-radius:.45rem;max-width:85ch}
+.bm-vendor-background p{margin:.3rem 0 .75rem;font-size:.9rem}.bm-vendor-background section{margin:.65rem 0}

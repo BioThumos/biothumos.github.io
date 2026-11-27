@@ -8,4 +8,6 @@ author_followers: 18302
 ---
 # Tweets by 🕸️Dr.T, PhD (@chydorina)
 
+![[reference/tweets/posts/🕸️Dr.T, PhD - Lamotrigine is horrible - its an anticonvulsant an]]
+
 ![[reference/tweets/posts/🕸️Dr.T, PhD - @RikhzR Start with N9 Plasmalogens (its the same a]]
