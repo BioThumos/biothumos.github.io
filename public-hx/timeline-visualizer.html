@@ -70,7 +70,8 @@
 .sleep-phase-clock{position:sticky;left:0;z-index:4;flex:0 0 49px;width:49px;height:536px;background:var(--surf2);border-right:1px solid var(--line);font:11px system-ui,sans-serif;color:var(--muted)}
 .sleep-phase-clock span{position:absolute;right:8px;transform:translateY(-50%)}
 .sleep-phase-scroll{min-width:0;flex:1;overflow-x:auto;overflow-y:hidden;touch-action:pan-x pinch-zoom;overscroll-behavior-inline:contain;scrollbar-color:#698f80 #21322c}
-.sleep-phase-svg{display:block;height:536px;max-width:none}
+.sleep-phase-spacer{position:relative;height:536px}
+.sleep-phase-svg{position:absolute;top:0;display:block;height:536px;max-width:none}
 .sleep-phase-svg .phase-grid{stroke:var(--line);stroke-opacity:.5;stroke-width:1}
 .sleep-phase-svg .phase-dayline{stroke:var(--line);stroke-opacity:.17;stroke-width:1}
 .sleep-phase-svg text{fill:var(--muted);font:10px system-ui,sans-serif;pointer-events:none}
@@ -216,7 +217,8 @@ function dates(view){let start=tdate(d.first),end=tdate(d.last);if(view==='week'
  let arr=[];for(let i=0;start<=end&&i<2000;i++) {let next=new Date(start);if(view==='week')next.setUTCDate(next.getUTCDate()+7);if(view==='month')next.setUTCMonth(next.getUTCMonth()+1);arr.push({from:iso(start),to:iso(new Date(next.getTime()-MS)),t0:start.getTime(),t1:next.getTime()});start=next;}return arr}
 function label(p,view){if(view==='week')return p.from.slice(5);return p.from.slice(0,7)}
 function weekBase(day){let p=tdate(day);p.setUTCDate(p.getUTCDate()-(p.getUTCDay()+6)%7);return iso(p)}
-function observations(track,p){let entries=d.metrics[track.id]||{};let days=Object.keys(entries).filter(day=>day>=p.from&&day<=p.to);
+function observations(track,p){let entries=d.metrics[track.id]||{};let days=[];
+ for(let x=p.t0;x<p.t1;x+=MS){const day=iso(x);if(Object.hasOwn(entries,day))days.push(day);}
  if(track.kind==='rate'){
   
   const byWeek=new Map();for(let x=p.t0;x<p.t1;x+=MS){const day=iso(x);if(day> d.last)break;const wk=weekBase(day);if(!byWeek.has(wk))byWeek.set(wk,{covered:0,positive:0});

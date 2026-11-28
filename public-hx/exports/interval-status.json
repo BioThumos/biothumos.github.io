@@ -1,12 +1,14 @@
 {
-  "method": "Status intervals follow calendar boundaries. Medians use only available daily readings; sleep values are displayed as hours and minutes. PEM-family counts include crash-documented dates; weekly rates use documented diary dates per complete Monday--Sunday week with >=5 structured PEM-assessment or detailed timed diary dates; require >=3 qualified weeks. Sparse and partial weeks are excluded and the actual adequately tracked window is stated. Short, explicitly documented crash episodes can be described qualitatively. Rates do not estimate clinical attack incidence or missing periods. No interpolation. Dates of month-level milestones are approximated at month start.",
+  "method": "Status intervals use reviewed event and post-transition boundaries. Daily ratings use the arithmetic mean of unambiguous scores, one per date; other continuous status metrics retain their existing medians. No missing ratings are imputed; sleep values are displayed as hours and minutes. PEM-family counts include crash-documented dates; weekly rates use documented diary dates per complete Monday--Sunday week with >=5 structured PEM-assessment or detailed timed diary dates; require >=3 qualified weeks. Sparse and partial weeks are excluded and the actual adequately tracked window is stated. Short, explicitly documented crash episodes can be described qualitatively. Rates do not estimate clinical attack incidence or missing periods. No interpolation. Month-level milestones use reviewed exact anchors where available; otherwise month start is approximate.",
   "items": [
     {
       "id": "interval-status-3",
       "after": "context_cards:CTX-004",
       "from": "2023-10-01",
       "through": "2023-11-30",
-      "heading": "Oct 2023 \u2013 Nov 2023",
+      "heading": "Oct 2023 – Nov 2023",
+      "event_anchor": "2023-10-01",
+      "boundary_reason": "Approximate month/year anchor; no exact day established.",
       "metrics": [
         {
           "source": "watch_sleep",
@@ -46,7 +48,7 @@
         },
         {
           "source": "hrv_sdnn",
-          "title": "HRV \u00b7 SDNN",
+          "title": "HRV · SDNN",
           "value": "31.2 ms",
           "coverage": "30 measured days",
           "link": "wearable.html",
@@ -56,7 +58,7 @@
         {
           "source": "sleeping_wrist_temperature",
           "title": "Wrist skin temperature",
-          "value": "35.56 \u00b0C",
+          "value": "35.56 °C",
           "coverage": "8 measured days",
           "link": "wearable.html",
           "domain": "cardiovascular",
@@ -117,7 +119,7 @@
             },
             {
               "source": "hrv_sdnn",
-              "title": "HRV \u00b7 SDNN",
+              "title": "HRV · SDNN",
               "value": "31.2 ms",
               "coverage": "30 measured days",
               "link": "wearable.html",
@@ -127,7 +129,7 @@
             {
               "source": "sleeping_wrist_temperature",
               "title": "Wrist skin temperature",
-              "value": "35.56 \u00b0C",
+              "value": "35.56 °C",
               "coverage": "8 measured days",
               "link": "wearable.html",
               "domain": "cardiovascular",
@@ -147,7 +149,9 @@
       "after": "context_cards:CTX-006",
       "from": "2023-12-01",
       "through": "2024-01-31",
-      "heading": "Dec 2023 \u2013 Jan 2024",
+      "heading": "Dec 2023 – Jan 2024",
+      "event_anchor": "2023-12-01",
+      "boundary_reason": "Approximate month/year anchor; no exact day established.",
       "metrics": [
         {
           "source": "watch_sleep",
@@ -187,7 +191,7 @@
         },
         {
           "source": "hrv_sdnn",
-          "title": "HRV \u00b7 SDNN",
+          "title": "HRV · SDNN",
           "value": "31.2 ms",
           "coverage": "62 measured days",
           "link": "wearable.html",
@@ -197,7 +201,7 @@
         {
           "source": "sleeping_wrist_temperature",
           "title": "Wrist skin temperature",
-          "value": "35.87 \u00b0C",
+          "value": "35.87 °C",
           "coverage": "55 measured days",
           "link": "wearable.html",
           "domain": "cardiovascular",
@@ -258,7 +262,7 @@
             },
             {
               "source": "hrv_sdnn",
-              "title": "HRV \u00b7 SDNN",
+              "title": "HRV · SDNN",
               "value": "31.2 ms",
               "coverage": "62 measured days",
               "link": "wearable.html",
@@ -268,7 +272,7 @@
             {
               "source": "sleeping_wrist_temperature",
               "title": "Wrist skin temperature",
-              "value": "35.87 \u00b0C",
+              "value": "35.87 °C",
               "coverage": "55 measured days",
               "link": "wearable.html",
               "domain": "cardiovascular",
@@ -288,7 +292,9 @@
       "after": "clinical_summary:maraviroc-atorvastatin",
       "from": "2024-02-01",
       "through": "2024-04-16",
-      "heading": "01 Feb 2024 \u2013 16 Apr 2024",
+      "heading": "01 Feb 2024 – 16 Apr 2024",
+      "event_anchor": "2024-02-01",
+      "boundary_reason": "Approximate month/year anchor; no exact day established.",
       "metrics": [
         {
           "source": "watch_sleep",
@@ -328,7 +334,7 @@
         },
         {
           "source": "hrv_sdnn",
-          "title": "HRV \u00b7 SDNN",
+          "title": "HRV · SDNN",
           "value": "33.7 ms",
           "coverage": "76 measured days",
           "link": "wearable.html",
@@ -338,7 +344,7 @@
         {
           "source": "sleeping_wrist_temperature",
           "title": "Wrist skin temperature",
-          "value": "36.02 \u00b0C",
+          "value": "36.02 °C",
           "coverage": "60 measured days",
           "link": "wearable.html",
           "domain": "cardiovascular",
@@ -399,7 +405,7 @@
             },
             {
               "source": "hrv_sdnn",
-              "title": "HRV \u00b7 SDNN",
+              "title": "HRV · SDNN",
               "value": "33.7 ms",
               "coverage": "76 measured days",
               "link": "wearable.html",
@@ -409,7 +415,7 @@
             {
               "source": "sleeping_wrist_temperature",
               "title": "Wrist skin temperature",
-              "value": "36.02 \u00b0C",
+              "value": "36.02 °C",
               "coverage": "60 measured days",
               "link": "wearable.html",
               "domain": "cardiovascular",
@@ -428,41 +434,46 @@
       "id": "interval-status-6",
       "after": "clinical_summary:liposomal-protocol",
       "from": "2024-04-17",
-      "through": "2024-06-30",
-      "heading": "17 Apr 2024 \u2013 30 Jun 2024",
+      "through": "2024-07-02",
+      "heading": "17 Apr 2024 – 02 Jul 2024",
+      "event_anchor": "2024-04-17",
+      "boundary_reason": "Documented milestone onset anchor.",
       "metrics": [
         {
           "source": "score",
-          "title": "Overall daily rating",
-          "value": "3.00 / 10",
-          "coverage": "29 rated days",
+          "title": "Mean daily rating",
+          "value": "3.65 / 10",
+          "coverage": "31 rated days",
           "link": "scores.html",
           "domain": "function",
-          "numeric": 3.0
+          "numeric": 3.6451612903225805,
+          "rating_first": "2024-06-02",
+          "rating_last": "2024-07-02",
+          "rating_coverage": "2024-06-02 – 2024-07-02"
         },
         {
           "source": "watch_sleep",
           "title": "Watch-measured sleep",
-          "value": "8 h 13 min/night",
-          "coverage": "72 measured nights",
+          "value": "8 h 10 min/night",
+          "coverage": "74 measured nights",
           "link": "wearable.html#chart-sleep",
           "domain": "sleep",
-          "numeric": 493.0
+          "numeric": 490.5
         },
         {
           "source": "watch_deep",
           "title": "Deep sleep",
-          "value": "54 min/night",
-          "coverage": "72 staged nights",
+          "value": "53 min/night",
+          "coverage": "74 staged nights",
           "link": "wearable.html#chart-sleep",
           "domain": "sleep",
-          "numeric": 53.5
+          "numeric": 52.75
         },
         {
           "source": "heart_rate",
           "title": "Sampled heart rate",
           "value": "78 bpm",
-          "coverage": "75 measured days",
+          "coverage": "77 measured days",
           "link": "wearable.html",
           "domain": "cardiovascular",
           "numeric": 78.0
@@ -471,28 +482,28 @@
           "source": "resting_heart_rate",
           "title": "Resting heart rate",
           "value": "70 bpm",
-          "coverage": "71 measured days",
+          "coverage": "73 measured days",
           "link": "wearable.html",
           "domain": "cardiovascular",
           "numeric": 70.0
         },
         {
           "source": "hrv_sdnn",
-          "title": "HRV \u00b7 SDNN",
-          "value": "36.6 ms",
-          "coverage": "75 measured days",
+          "title": "HRV · SDNN",
+          "value": "36.9 ms",
+          "coverage": "77 measured days",
           "link": "wearable.html",
           "domain": "cardiovascular",
-          "numeric": 36.58
+          "numeric": 36.9413
         },
         {
           "source": "sleeping_wrist_temperature",
           "title": "Wrist skin temperature",
-          "value": "35.73 \u00b0C",
-          "coverage": "72 measured days",
+          "value": "35.72 °C",
+          "coverage": "74 measured days",
           "link": "wearable.html",
           "domain": "cardiovascular",
-          "numeric": 35.732
+          "numeric": 35.721050000000005
         }
       ],
       "domains": [
@@ -502,12 +513,15 @@
           "metrics": [
             {
               "source": "score",
-              "title": "Overall daily rating",
-              "value": "3.00 / 10",
-              "coverage": "29 rated days",
+              "title": "Mean daily rating",
+              "value": "3.65 / 10",
+              "coverage": "31 rated days",
               "link": "scores.html",
               "domain": "function",
-              "numeric": 3.0
+              "numeric": 3.6451612903225805,
+              "rating_first": "2024-06-02",
+              "rating_last": "2024-07-02",
+              "rating_coverage": "2024-06-02 – 2024-07-02"
             }
           ]
         },
@@ -518,20 +532,20 @@
             {
               "source": "watch_sleep",
               "title": "Watch-measured sleep",
-              "value": "8 h 13 min/night",
-              "coverage": "72 measured nights",
+              "value": "8 h 10 min/night",
+              "coverage": "74 measured nights",
               "link": "wearable.html#chart-sleep",
               "domain": "sleep",
-              "numeric": 493.0
+              "numeric": 490.5
             },
             {
               "source": "watch_deep",
               "title": "Deep sleep",
-              "value": "54 min/night",
-              "coverage": "72 staged nights",
+              "value": "53 min/night",
+              "coverage": "74 staged nights",
               "link": "wearable.html#chart-sleep",
               "domain": "sleep",
-              "numeric": 53.5
+              "numeric": 52.75
             }
           ]
         },
@@ -543,7 +557,7 @@
               "source": "heart_rate",
               "title": "Sampled heart rate",
               "value": "78 bpm",
-              "coverage": "75 measured days",
+              "coverage": "77 measured days",
               "link": "wearable.html",
               "domain": "cardiovascular",
               "numeric": 78.0
@@ -552,28 +566,28 @@
               "source": "resting_heart_rate",
               "title": "Resting heart rate",
               "value": "70 bpm",
-              "coverage": "71 measured days",
+              "coverage": "73 measured days",
               "link": "wearable.html",
               "domain": "cardiovascular",
               "numeric": 70.0
             },
             {
               "source": "hrv_sdnn",
-              "title": "HRV \u00b7 SDNN",
-              "value": "36.6 ms",
-              "coverage": "75 measured days",
+              "title": "HRV · SDNN",
+              "value": "36.9 ms",
+              "coverage": "77 measured days",
               "link": "wearable.html",
               "domain": "cardiovascular",
-              "numeric": 36.58
+              "numeric": 36.9413
             },
             {
               "source": "sleeping_wrist_temperature",
               "title": "Wrist skin temperature",
-              "value": "35.73 \u00b0C",
-              "coverage": "72 measured days",
+              "value": "35.72 °C",
+              "coverage": "74 measured days",
               "link": "wearable.html",
               "domain": "cardiovascular",
-              "numeric": 35.732
+              "numeric": 35.721050000000005
             }
           ]
         },
@@ -587,29 +601,28 @@
     {
       "id": "interval-status-7",
       "after": "context_cards:CTX-026",
-      "from": "2024-07-01",
+      "from": "2024-07-03",
       "through": "2024-10-19",
-      "heading": "01 Jul 2024 \u2013 19 Oct 2024",
+      "heading": "03 Jul 2024 – 19 Oct 2024",
+      "event_anchor": "2024-07-03",
+      "boundary_reason": "First documented Borrelia results (S4-R12/R13).",
       "metrics": [
         {
           "source": "score",
-          "title": "Overall daily rating",
-          "value": "4.00 / 10",
-          "coverage": "111 rated days",
+          "title": "Mean daily rating",
+          "value": "3.48 / 10",
+          "coverage": "109 rated days",
           "link": "scores.html",
           "domain": "function",
-          "numeric": 4.0,
-          "change": {
-            "direction": "improvement",
-            "delta": "+1.00 points",
-            "comparison": "Change versus the immediately preceding observed interval; recording coverage differs"
-          }
+          "numeric": 3.481651376146789,
+          "rating_first": "2024-07-03",
+          "rating_last": "2024-10-19"
         },
         {
           "source": "watch_sleep",
           "title": "Watch-measured sleep",
           "value": "7 h 42 min/night",
-          "coverage": "109 measured nights",
+          "coverage": "107 measured nights",
           "link": "wearable.html#chart-sleep",
           "domain": "sleep",
           "numeric": 461.5
@@ -618,7 +631,7 @@
           "source": "watch_deep",
           "title": "Deep sleep",
           "value": "57 min/night",
-          "coverage": "109 staged nights",
+          "coverage": "107 staged nights",
           "link": "wearable.html#chart-sleep",
           "domain": "sleep",
           "numeric": 57.0
@@ -627,7 +640,7 @@
           "source": "heart_rate",
           "title": "Sampled heart rate",
           "value": "79 bpm",
-          "coverage": "111 measured days",
+          "coverage": "109 measured days",
           "link": "wearable.html",
           "domain": "cardiovascular",
           "numeric": 79.0
@@ -636,25 +649,25 @@
           "source": "resting_heart_rate",
           "title": "Resting heart rate",
           "value": "71 bpm",
-          "coverage": "101 measured days",
+          "coverage": "99 measured days",
           "link": "wearable.html",
           "domain": "cardiovascular",
           "numeric": 71.0
         },
         {
           "source": "hrv_sdnn",
-          "title": "HRV \u00b7 SDNN",
+          "title": "HRV · SDNN",
           "value": "30.5 ms",
-          "coverage": "111 measured days",
+          "coverage": "109 measured days",
           "link": "wearable.html",
           "domain": "cardiovascular",
-          "numeric": 30.4563
+          "numeric": 30.4558
         },
         {
           "source": "sleeping_wrist_temperature",
           "title": "Wrist skin temperature",
-          "value": "35.55 \u00b0C",
-          "coverage": "109 measured days",
+          "value": "35.55 °C",
+          "coverage": "107 measured days",
           "link": "wearable.html",
           "domain": "cardiovascular",
           "numeric": 35.5464
@@ -667,17 +680,14 @@
           "metrics": [
             {
               "source": "score",
-              "title": "Overall daily rating",
-              "value": "4.00 / 10",
-              "coverage": "111 rated days",
+              "title": "Mean daily rating",
+              "value": "3.48 / 10",
+              "coverage": "109 rated days",
               "link": "scores.html",
               "domain": "function",
-              "numeric": 4.0,
-              "change": {
-                "direction": "improvement",
-                "delta": "+1.00 points",
-                "comparison": "Change versus the immediately preceding observed interval; recording coverage differs"
-              }
+              "numeric": 3.481651376146789,
+              "rating_first": "2024-07-03",
+              "rating_last": "2024-10-19"
             }
           ]
         },
@@ -689,7 +699,7 @@
               "source": "watch_sleep",
               "title": "Watch-measured sleep",
               "value": "7 h 42 min/night",
-              "coverage": "109 measured nights",
+              "coverage": "107 measured nights",
               "link": "wearable.html#chart-sleep",
               "domain": "sleep",
               "numeric": 461.5
@@ -698,7 +708,7 @@
               "source": "watch_deep",
               "title": "Deep sleep",
               "value": "57 min/night",
-              "coverage": "109 staged nights",
+              "coverage": "107 staged nights",
               "link": "wearable.html#chart-sleep",
               "domain": "sleep",
               "numeric": 57.0
@@ -713,7 +723,7 @@
               "source": "heart_rate",
               "title": "Sampled heart rate",
               "value": "79 bpm",
-              "coverage": "111 measured days",
+              "coverage": "109 measured days",
               "link": "wearable.html",
               "domain": "cardiovascular",
               "numeric": 79.0
@@ -722,25 +732,25 @@
               "source": "resting_heart_rate",
               "title": "Resting heart rate",
               "value": "71 bpm",
-              "coverage": "101 measured days",
+              "coverage": "99 measured days",
               "link": "wearable.html",
               "domain": "cardiovascular",
               "numeric": 71.0
             },
             {
               "source": "hrv_sdnn",
-              "title": "HRV \u00b7 SDNN",
+              "title": "HRV · SDNN",
               "value": "30.5 ms",
-              "coverage": "111 measured days",
+              "coverage": "109 measured days",
               "link": "wearable.html",
               "domain": "cardiovascular",
-              "numeric": 30.4563
+              "numeric": 30.4558
             },
             {
               "source": "sleeping_wrist_temperature",
               "title": "Wrist skin temperature",
-              "value": "35.55 \u00b0C",
-              "coverage": "109 measured days",
+              "value": "35.55 °C",
+              "coverage": "107 measured days",
               "link": "wearable.html",
               "domain": "cardiovascular",
               "numeric": 35.5464
@@ -757,47 +767,52 @@
     {
       "id": "interval-status-8",
       "after": "context_cards:CTX-007",
-      "from": "2024-10-20",
+      "from": "2024-10-29",
       "through": "2025-03-24",
-      "heading": "20 Oct 2024 \u2013 24 Mar 2025",
+      "heading": "29 Oct 2024 – 24 Mar 2025",
+      "event_anchor": "2024-10-20",
+      "boundary_reason": "Exclude the NADH trial from both adjacent baselines; last dose 2024-10-28 (NADH-I-retrial).",
       "metrics": [
         {
           "source": "score",
-          "title": "Overall daily rating",
-          "value": "2.00 / 10",
-          "coverage": "60 rated days",
+          "title": "Mean daily rating",
+          "value": "1.82 / 10",
+          "coverage": "51 rated days",
           "link": "scores.html",
           "domain": "function",
-          "numeric": 2.0,
+          "numeric": 1.8235294117647058,
+          "rating_first": "2025-02-02",
+          "rating_last": "2025-03-24",
+          "rating_coverage": "2025-02-02 – 2025-03-24",
           "change": {
             "direction": "decline",
-            "delta": "-2.00 points",
+            "delta": "-1.66 points",
             "comparison": "Change versus the immediately preceding observed interval; recording coverage differs"
           }
         },
         {
           "source": "watch_sleep",
           "title": "Watch-measured sleep",
-          "value": "7 h 46 min/night",
-          "coverage": "151 measured nights",
+          "value": "7 h 47 min/night",
+          "coverage": "142 measured nights",
           "link": "wearable.html#chart-sleep",
           "domain": "sleep",
-          "numeric": 466.5
+          "numeric": 466.75
         },
         {
           "source": "watch_deep",
           "title": "Deep sleep",
-          "value": "1 h/night",
-          "coverage": "151 staged nights",
+          "value": "58 min/night",
+          "coverage": "142 staged nights",
           "link": "wearable.html#chart-sleep",
           "domain": "sleep",
-          "numeric": 59.5
+          "numeric": 58.5
         },
         {
           "source": "heart_rate",
           "title": "Sampled heart rate",
           "value": "79 bpm",
-          "coverage": "156 measured days",
+          "coverage": "147 measured days",
           "link": "wearable.html",
           "domain": "cardiovascular",
           "numeric": 79.0
@@ -806,28 +821,28 @@
           "source": "resting_heart_rate",
           "title": "Resting heart rate",
           "value": "73 bpm",
-          "coverage": "153 measured days",
+          "coverage": "146 measured days",
           "link": "wearable.html",
           "domain": "cardiovascular",
           "numeric": 73.0
         },
         {
           "source": "hrv_sdnn",
-          "title": "HRV \u00b7 SDNN",
-          "value": "31.7 ms",
-          "coverage": "156 measured days",
+          "title": "HRV · SDNN",
+          "value": "31.9 ms",
+          "coverage": "147 measured days",
           "link": "wearable.html",
           "domain": "cardiovascular",
-          "numeric": 31.7056
+          "numeric": 31.864
         },
         {
           "source": "sleeping_wrist_temperature",
           "title": "Wrist skin temperature",
-          "value": "35.68 \u00b0C",
-          "coverage": "147 measured days",
+          "value": "35.68 °C",
+          "coverage": "138 measured days",
           "link": "wearable.html",
           "domain": "cardiovascular",
-          "numeric": 35.6834
+          "numeric": 35.6816
         },
         {
           "source": "bowel",
@@ -842,7 +857,7 @@
           "source": "pem",
           "title": "PEM-family documented days",
           "value": "6.2 days / tracked week",
-          "coverage": "50 dates in 8 qualifying weeks (27 Jan 2025\u201323 Mar 2025); 22 complete weeks in interval. Mentions, not attack counts",
+          "coverage": "50 dates in 8 qualifying weeks (27 Jan 2025–23 Mar 2025); 20 complete weeks in interval. Mentions, not attack counts",
           "link": "pem-patterns.html",
           "domain": "function",
           "numeric": 6.25
@@ -851,7 +866,7 @@
           "source": "crash",
           "title": "Crash-documented days",
           "value": "4.8 days / tracked week",
-          "coverage": "38 dates in 8 qualifying weeks (27 Jan 2025\u201323 Mar 2025); 22 complete weeks in interval. Mentions, not attack counts",
+          "coverage": "38 dates in 8 qualifying weeks (27 Jan 2025–23 Mar 2025); 20 complete weeks in interval. Mentions, not attack counts",
           "link": "symptoms.html#symptom:bbec37b1-1b89-58f4-aaf2-214943a25d60",
           "domain": "function",
           "numeric": 4.75
@@ -864,15 +879,18 @@
           "metrics": [
             {
               "source": "score",
-              "title": "Overall daily rating",
-              "value": "2.00 / 10",
-              "coverage": "60 rated days",
+              "title": "Mean daily rating",
+              "value": "1.82 / 10",
+              "coverage": "51 rated days",
               "link": "scores.html",
               "domain": "function",
-              "numeric": 2.0,
+              "numeric": 1.8235294117647058,
+              "rating_first": "2025-02-02",
+              "rating_last": "2025-03-24",
+              "rating_coverage": "2025-02-02 – 2025-03-24",
               "change": {
                 "direction": "decline",
-                "delta": "-2.00 points",
+                "delta": "-1.66 points",
                 "comparison": "Change versus the immediately preceding observed interval; recording coverage differs"
               }
             },
@@ -880,7 +898,7 @@
               "source": "pem",
               "title": "PEM-family documented days",
               "value": "6.2 days / tracked week",
-              "coverage": "50 dates in 8 qualifying weeks (27 Jan 2025\u201323 Mar 2025); 22 complete weeks in interval. Mentions, not attack counts",
+              "coverage": "50 dates in 8 qualifying weeks (27 Jan 2025–23 Mar 2025); 20 complete weeks in interval. Mentions, not attack counts",
               "link": "pem-patterns.html",
               "domain": "function",
               "numeric": 6.25
@@ -889,7 +907,7 @@
               "source": "crash",
               "title": "Crash-documented days",
               "value": "4.8 days / tracked week",
-              "coverage": "38 dates in 8 qualifying weeks (27 Jan 2025\u201323 Mar 2025); 22 complete weeks in interval. Mentions, not attack counts",
+              "coverage": "38 dates in 8 qualifying weeks (27 Jan 2025–23 Mar 2025); 20 complete weeks in interval. Mentions, not attack counts",
               "link": "symptoms.html#symptom:bbec37b1-1b89-58f4-aaf2-214943a25d60",
               "domain": "function",
               "numeric": 4.75
@@ -903,20 +921,20 @@
             {
               "source": "watch_sleep",
               "title": "Watch-measured sleep",
-              "value": "7 h 46 min/night",
-              "coverage": "151 measured nights",
+              "value": "7 h 47 min/night",
+              "coverage": "142 measured nights",
               "link": "wearable.html#chart-sleep",
               "domain": "sleep",
-              "numeric": 466.5
+              "numeric": 466.75
             },
             {
               "source": "watch_deep",
               "title": "Deep sleep",
-              "value": "1 h/night",
-              "coverage": "151 staged nights",
+              "value": "58 min/night",
+              "coverage": "142 staged nights",
               "link": "wearable.html#chart-sleep",
               "domain": "sleep",
-              "numeric": 59.5
+              "numeric": 58.5
             }
           ]
         },
@@ -928,7 +946,7 @@
               "source": "heart_rate",
               "title": "Sampled heart rate",
               "value": "79 bpm",
-              "coverage": "156 measured days",
+              "coverage": "147 measured days",
               "link": "wearable.html",
               "domain": "cardiovascular",
               "numeric": 79.0
@@ -937,28 +955,28 @@
               "source": "resting_heart_rate",
               "title": "Resting heart rate",
               "value": "73 bpm",
-              "coverage": "153 measured days",
+              "coverage": "146 measured days",
               "link": "wearable.html",
               "domain": "cardiovascular",
               "numeric": 73.0
             },
             {
               "source": "hrv_sdnn",
-              "title": "HRV \u00b7 SDNN",
-              "value": "31.7 ms",
-              "coverage": "156 measured days",
+              "title": "HRV · SDNN",
+              "value": "31.9 ms",
+              "coverage": "147 measured days",
               "link": "wearable.html",
               "domain": "cardiovascular",
-              "numeric": 31.7056
+              "numeric": 31.864
             },
             {
               "source": "sleeping_wrist_temperature",
               "title": "Wrist skin temperature",
-              "value": "35.68 \u00b0C",
-              "coverage": "147 measured days",
+              "value": "35.68 °C",
+              "coverage": "138 measured days",
               "link": "wearable.html",
               "domain": "cardiovascular",
-              "numeric": 35.6834
+              "numeric": 35.6816
             }
           ]
         },
@@ -982,38 +1000,37 @@
     {
       "id": "interval-status-9",
       "after": "context_cards:CTX-013",
-      "from": "2025-03-25",
+      "from": "2025-03-29",
       "through": "2025-04-07",
-      "heading": "25 Mar 2025 \u2013 07 Apr 2025",
+      "heading": "29 Mar 2025 – 07 Apr 2025",
+      "event_anchor": "2025-03-25",
+      "boundary_reason": "Exclude the 25–28 March inpatient stay from adjacent baselines; discharge report dated 28 March.",
       "metrics": [
         {
           "source": "score",
-          "title": "Overall daily rating",
-          "value": "1.50 / 10",
-          "coverage": "11 rated days",
+          "title": "Mean daily rating",
+          "value": "1.58 / 10",
+          "coverage": "9 rated days",
           "link": "scores.html",
           "domain": "function",
-          "numeric": 1.5,
-          "change": {
-            "direction": "decline",
-            "delta": "-0.50 points",
-            "comparison": "Change versus the immediately preceding observed interval; recording coverage differs"
-          }
+          "numeric": 1.5777777777777777,
+          "rating_first": "2025-03-29",
+          "rating_last": "2025-04-07"
         },
         {
           "source": "watch_sleep",
           "title": "Watch-measured sleep",
-          "value": "8 h 14 min/night",
-          "coverage": "13 measured nights",
+          "value": "8 h 40 min/night",
+          "coverage": "9 measured nights",
           "link": "wearable.html#chart-sleep",
           "domain": "sleep",
-          "numeric": 494.0
+          "numeric": 520.0
         },
         {
           "source": "watch_deep",
           "title": "Deep sleep",
           "value": "56 min/night",
-          "coverage": "13 staged nights",
+          "coverage": "9 staged nights",
           "link": "wearable.html#chart-sleep",
           "domain": "sleep",
           "numeric": 56.0
@@ -1022,34 +1039,34 @@
           "source": "heart_rate",
           "title": "Sampled heart rate",
           "value": "72 bpm",
-          "coverage": "14 measured days",
+          "coverage": "10 measured days",
           "link": "wearable.html",
           "domain": "cardiovascular",
-          "numeric": 72.0
+          "numeric": 71.5
         },
         {
           "source": "resting_heart_rate",
           "title": "Resting heart rate",
-          "value": "71 bpm",
-          "coverage": "13 measured days",
+          "value": "70 bpm",
+          "coverage": "9 measured days",
           "link": "wearable.html",
           "domain": "cardiovascular",
-          "numeric": 71.0
+          "numeric": 69.5
         },
         {
           "source": "hrv_sdnn",
-          "title": "HRV \u00b7 SDNN",
-          "value": "37.6 ms",
-          "coverage": "14 measured days",
+          "title": "HRV · SDNN",
+          "value": "38.3 ms",
+          "coverage": "10 measured days",
           "link": "wearable.html",
           "domain": "cardiovascular",
-          "numeric": 37.638099999999994
+          "numeric": 38.26085
         },
         {
           "source": "sleeping_wrist_temperature",
           "title": "Wrist skin temperature",
-          "value": "35.48 \u00b0C",
-          "coverage": "13 measured days",
+          "value": "35.48 °C",
+          "coverage": "9 measured days",
           "link": "wearable.html",
           "domain": "cardiovascular",
           "numeric": 35.4816
@@ -1057,11 +1074,11 @@
         {
           "source": "bowel",
           "title": "Recorded bowel movements",
-          "value": "1.08 / diary day",
-          "coverage": "12 countable diary days",
+          "value": "1.00 / diary day",
+          "coverage": "10 countable diary days",
           "link": "bowels.html#bowel-chart",
           "domain": "bowel",
-          "numeric": 1.0833333333333333
+          "numeric": 1.0
         }
       ],
       "domains": [
@@ -1071,17 +1088,14 @@
           "metrics": [
             {
               "source": "score",
-              "title": "Overall daily rating",
-              "value": "1.50 / 10",
-              "coverage": "11 rated days",
+              "title": "Mean daily rating",
+              "value": "1.58 / 10",
+              "coverage": "9 rated days",
               "link": "scores.html",
               "domain": "function",
-              "numeric": 1.5,
-              "change": {
-                "direction": "decline",
-                "delta": "-0.50 points",
-                "comparison": "Change versus the immediately preceding observed interval; recording coverage differs"
-              }
+              "numeric": 1.5777777777777777,
+              "rating_first": "2025-03-29",
+              "rating_last": "2025-04-07"
             }
           ]
         },
@@ -1092,17 +1106,17 @@
             {
               "source": "watch_sleep",
               "title": "Watch-measured sleep",
-              "value": "8 h 14 min/night",
-              "coverage": "13 measured nights",
+              "value": "8 h 40 min/night",
+              "coverage": "9 measured nights",
               "link": "wearable.html#chart-sleep",
               "domain": "sleep",
-              "numeric": 494.0
+              "numeric": 520.0
             },
             {
               "source": "watch_deep",
               "title": "Deep sleep",
               "value": "56 min/night",
-              "coverage": "13 staged nights",
+              "coverage": "9 staged nights",
               "link": "wearable.html#chart-sleep",
               "domain": "sleep",
               "numeric": 56.0
@@ -1117,34 +1131,34 @@
               "source": "heart_rate",
               "title": "Sampled heart rate",
               "value": "72 bpm",
-              "coverage": "14 measured days",
+              "coverage": "10 measured days",
               "link": "wearable.html",
               "domain": "cardiovascular",
-              "numeric": 72.0
+              "numeric": 71.5
             },
             {
               "source": "resting_heart_rate",
               "title": "Resting heart rate",
-              "value": "71 bpm",
-              "coverage": "13 measured days",
+              "value": "70 bpm",
+              "coverage": "9 measured days",
               "link": "wearable.html",
               "domain": "cardiovascular",
-              "numeric": 71.0
+              "numeric": 69.5
             },
             {
               "source": "hrv_sdnn",
-              "title": "HRV \u00b7 SDNN",
-              "value": "37.6 ms",
-              "coverage": "14 measured days",
+              "title": "HRV · SDNN",
+              "value": "38.3 ms",
+              "coverage": "10 measured days",
               "link": "wearable.html",
               "domain": "cardiovascular",
-              "numeric": 37.638099999999994
+              "numeric": 38.26085
             },
             {
               "source": "sleeping_wrist_temperature",
               "title": "Wrist skin temperature",
-              "value": "35.48 \u00b0C",
-              "coverage": "13 measured days",
+              "value": "35.48 °C",
+              "coverage": "9 measured days",
               "link": "wearable.html",
               "domain": "cardiovascular",
               "numeric": 35.4816
@@ -1158,11 +1172,11 @@
             {
               "source": "bowel",
               "title": "Recorded bowel movements",
-              "value": "1.08 / diary day",
-              "coverage": "12 countable diary days",
+              "value": "1.00 / diary day",
+              "coverage": "10 countable diary days",
               "link": "bowels.html#bowel-chart",
               "domain": "bowel",
-              "numeric": 1.0833333333333333
+              "numeric": 1.0
             }
           ]
         }
@@ -1173,16 +1187,20 @@
       "after": "clinical_summary:ivabradine-response",
       "from": "2025-04-08",
       "through": "2025-06-20",
-      "heading": "08 Apr 2025 \u2013 20 Jun 2025",
+      "heading": "08 Apr 2025 – 20 Jun 2025",
+      "event_anchor": "2025-04-08",
+      "boundary_reason": "Documented milestone onset anchor.",
       "metrics": [
         {
           "source": "score",
-          "title": "Overall daily rating",
-          "value": "1.70 / 10",
+          "title": "Mean daily rating",
+          "value": "1.74 / 10",
           "coverage": "66 rated days",
           "link": "scores.html",
           "domain": "function",
-          "numeric": 1.7
+          "numeric": 1.7378787878787878,
+          "rating_first": "2025-04-09",
+          "rating_last": "2025-06-20"
         },
         {
           "source": "watch_sleep",
@@ -1222,7 +1240,7 @@
         },
         {
           "source": "hrv_sdnn",
-          "title": "HRV \u00b7 SDNN",
+          "title": "HRV · SDNN",
           "value": "43.2 ms",
           "coverage": "74 measured days",
           "link": "wearable.html",
@@ -1232,7 +1250,7 @@
         {
           "source": "sleeping_wrist_temperature",
           "title": "Wrist skin temperature",
-          "value": "35.40 \u00b0C",
+          "value": "35.40 °C",
           "coverage": "74 measured days",
           "link": "wearable.html",
           "domain": "cardiovascular",
@@ -1251,7 +1269,7 @@
           "source": "pem",
           "title": "PEM-family documented days",
           "value": "6.0 days / tracked week",
-          "coverage": "48 dates in 8 qualifying weeks (14 Apr 2025\u201315 Jun 2025); 9 complete weeks in interval. Mentions, not attack counts",
+          "coverage": "48 dates in 8 qualifying weeks (14 Apr 2025–15 Jun 2025); 9 complete weeks in interval. Mentions, not attack counts",
           "link": "pem-patterns.html",
           "domain": "function",
           "numeric": 6.0
@@ -1260,7 +1278,7 @@
           "source": "crash",
           "title": "Crash-documented days",
           "value": "1.8 days / tracked week",
-          "coverage": "14 dates in 8 qualifying weeks (14 Apr 2025\u201315 Jun 2025); 9 complete weeks in interval. Mentions, not attack counts",
+          "coverage": "14 dates in 8 qualifying weeks (14 Apr 2025–15 Jun 2025); 9 complete weeks in interval. Mentions, not attack counts",
           "link": "symptoms.html#symptom:bbec37b1-1b89-58f4-aaf2-214943a25d60",
           "domain": "function",
           "numeric": 1.75
@@ -1273,18 +1291,20 @@
           "metrics": [
             {
               "source": "score",
-              "title": "Overall daily rating",
-              "value": "1.70 / 10",
+              "title": "Mean daily rating",
+              "value": "1.74 / 10",
               "coverage": "66 rated days",
               "link": "scores.html",
               "domain": "function",
-              "numeric": 1.7
+              "numeric": 1.7378787878787878,
+              "rating_first": "2025-04-09",
+              "rating_last": "2025-06-20"
             },
             {
               "source": "pem",
               "title": "PEM-family documented days",
               "value": "6.0 days / tracked week",
-              "coverage": "48 dates in 8 qualifying weeks (14 Apr 2025\u201315 Jun 2025); 9 complete weeks in interval. Mentions, not attack counts",
+              "coverage": "48 dates in 8 qualifying weeks (14 Apr 2025–15 Jun 2025); 9 complete weeks in interval. Mentions, not attack counts",
               "link": "pem-patterns.html",
               "domain": "function",
               "numeric": 6.0
@@ -1293,7 +1313,7 @@
               "source": "crash",
               "title": "Crash-documented days",
               "value": "1.8 days / tracked week",
-              "coverage": "14 dates in 8 qualifying weeks (14 Apr 2025\u201315 Jun 2025); 9 complete weeks in interval. Mentions, not attack counts",
+              "coverage": "14 dates in 8 qualifying weeks (14 Apr 2025–15 Jun 2025); 9 complete weeks in interval. Mentions, not attack counts",
               "link": "symptoms.html#symptom:bbec37b1-1b89-58f4-aaf2-214943a25d60",
               "domain": "function",
               "numeric": 1.75
@@ -1348,7 +1368,7 @@
             },
             {
               "source": "hrv_sdnn",
-              "title": "HRV \u00b7 SDNN",
+              "title": "HRV · SDNN",
               "value": "43.2 ms",
               "coverage": "74 measured days",
               "link": "wearable.html",
@@ -1358,7 +1378,7 @@
             {
               "source": "sleeping_wrist_temperature",
               "title": "Wrist skin temperature",
-              "value": "35.40 \u00b0C",
+              "value": "35.40 °C",
               "coverage": "74 measured days",
               "link": "wearable.html",
               "domain": "cardiovascular",
@@ -1388,16 +1408,20 @@
       "after": "context_cards:CTX-014",
       "from": "2025-06-21",
       "through": "2025-06-30",
-      "heading": "21 Jun 2025 \u2013 30 Jun 2025",
+      "heading": "21 Jun 2025 – 30 Jun 2025",
+      "event_anchor": "2025-06-21",
+      "boundary_reason": "Acute rapamycin-associated crash interval, beginning with the single dose; not a post-recovery baseline.",
       "metrics": [
         {
           "source": "score",
-          "title": "Overall daily rating",
-          "value": "1.40 / 10",
+          "title": "Mean daily rating",
+          "value": "1.43 / 10",
           "coverage": "10 rated days",
           "link": "scores.html",
           "domain": "function",
-          "numeric": 1.4
+          "numeric": 1.43,
+          "rating_first": "2025-06-21",
+          "rating_last": "2025-06-30"
         },
         {
           "source": "watch_sleep",
@@ -1437,7 +1461,7 @@
         },
         {
           "source": "hrv_sdnn",
-          "title": "HRV \u00b7 SDNN",
+          "title": "HRV · SDNN",
           "value": "39.2 ms",
           "coverage": "10 measured days",
           "link": "wearable.html",
@@ -1447,7 +1471,7 @@
         {
           "source": "sleeping_wrist_temperature",
           "title": "Wrist skin temperature",
-          "value": "35.28 \u00b0C",
+          "value": "35.28 °C",
           "coverage": "8 measured days",
           "link": "wearable.html",
           "domain": "cardiovascular",
@@ -1479,12 +1503,14 @@
           "metrics": [
             {
               "source": "score",
-              "title": "Overall daily rating",
-              "value": "1.40 / 10",
+              "title": "Mean daily rating",
+              "value": "1.43 / 10",
               "coverage": "10 rated days",
               "link": "scores.html",
               "domain": "function",
-              "numeric": 1.4
+              "numeric": 1.43,
+              "rating_first": "2025-06-21",
+              "rating_last": "2025-06-30"
             },
             {
               "source": "crash",
@@ -1545,7 +1571,7 @@
             },
             {
               "source": "hrv_sdnn",
-              "title": "HRV \u00b7 SDNN",
+              "title": "HRV · SDNN",
               "value": "39.2 ms",
               "coverage": "10 measured days",
               "link": "wearable.html",
@@ -1555,7 +1581,7 @@
             {
               "source": "sleeping_wrist_temperature",
               "title": "Wrist skin temperature",
-              "value": "35.28 \u00b0C",
+              "value": "35.28 °C",
               "coverage": "8 measured days",
               "link": "wearable.html",
               "domain": "cardiovascular",
@@ -1585,16 +1611,20 @@
       "after": "context_cards:CTX-015",
       "from": "2025-07-01",
       "through": "2025-08-18",
-      "heading": "01 Jul 2025 \u2013 18 Aug 2025",
+      "heading": "01 Jul 2025 – 18 Aug 2025",
+      "event_anchor": "2025-07-01",
+      "boundary_reason": "Onset anchor: ensitrelvir started 1 July (S2-I-S2-L00418-E1).",
       "metrics": [
         {
           "source": "score",
-          "title": "Overall daily rating",
-          "value": "1.70 / 10",
+          "title": "Mean daily rating",
+          "value": "1.68 / 10",
           "coverage": "49 rated days",
           "link": "scores.html",
           "domain": "function",
-          "numeric": 1.7
+          "numeric": 1.683673469387755,
+          "rating_first": "2025-07-01",
+          "rating_last": "2025-08-18"
         },
         {
           "source": "watch_sleep",
@@ -1634,7 +1664,7 @@
         },
         {
           "source": "hrv_sdnn",
-          "title": "HRV \u00b7 SDNN",
+          "title": "HRV · SDNN",
           "value": "47.3 ms",
           "coverage": "49 measured days",
           "link": "wearable.html",
@@ -1644,7 +1674,7 @@
         {
           "source": "sleeping_wrist_temperature",
           "title": "Wrist skin temperature",
-          "value": "35.38 \u00b0C",
+          "value": "35.38 °C",
           "coverage": "46 measured days",
           "link": "wearable.html",
           "domain": "cardiovascular",
@@ -1663,7 +1693,7 @@
           "source": "pem",
           "title": "PEM-family documented days",
           "value": "4.8 days / tracked week",
-          "coverage": "29 dates in 6 qualifying weeks (07 Jul 2025\u201317 Aug 2025); 6 complete weeks in interval. Mentions, not attack counts",
+          "coverage": "29 dates in 6 qualifying weeks (07 Jul 2025–17 Aug 2025); 6 complete weeks in interval. Mentions, not attack counts",
           "link": "pem-patterns.html",
           "domain": "function",
           "numeric": 4.833333333333333
@@ -1672,7 +1702,7 @@
           "source": "crash",
           "title": "Crash-documented days",
           "value": "1.8 days / tracked week",
-          "coverage": "11 dates in 6 qualifying weeks (07 Jul 2025\u201317 Aug 2025); 6 complete weeks in interval. Mentions, not attack counts",
+          "coverage": "11 dates in 6 qualifying weeks (07 Jul 2025–17 Aug 2025); 6 complete weeks in interval. Mentions, not attack counts",
           "link": "symptoms.html#symptom:bbec37b1-1b89-58f4-aaf2-214943a25d60",
           "domain": "function",
           "numeric": 1.8333333333333333
@@ -1685,18 +1715,20 @@
           "metrics": [
             {
               "source": "score",
-              "title": "Overall daily rating",
-              "value": "1.70 / 10",
+              "title": "Mean daily rating",
+              "value": "1.68 / 10",
               "coverage": "49 rated days",
               "link": "scores.html",
               "domain": "function",
-              "numeric": 1.7
+              "numeric": 1.683673469387755,
+              "rating_first": "2025-07-01",
+              "rating_last": "2025-08-18"
             },
             {
               "source": "pem",
               "title": "PEM-family documented days",
               "value": "4.8 days / tracked week",
-              "coverage": "29 dates in 6 qualifying weeks (07 Jul 2025\u201317 Aug 2025); 6 complete weeks in interval. Mentions, not attack counts",
+              "coverage": "29 dates in 6 qualifying weeks (07 Jul 2025–17 Aug 2025); 6 complete weeks in interval. Mentions, not attack counts",
               "link": "pem-patterns.html",
               "domain": "function",
               "numeric": 4.833333333333333
@@ -1705,7 +1737,7 @@
               "source": "crash",
               "title": "Crash-documented days",
               "value": "1.8 days / tracked week",
-              "coverage": "11 dates in 6 qualifying weeks (07 Jul 2025\u201317 Aug 2025); 6 complete weeks in interval. Mentions, not attack counts",
+              "coverage": "11 dates in 6 qualifying weeks (07 Jul 2025–17 Aug 2025); 6 complete weeks in interval. Mentions, not attack counts",
               "link": "symptoms.html#symptom:bbec37b1-1b89-58f4-aaf2-214943a25d60",
               "domain": "function",
               "numeric": 1.8333333333333333
@@ -1760,7 +1792,7 @@
             },
             {
               "source": "hrv_sdnn",
-              "title": "HRV \u00b7 SDNN",
+              "title": "HRV · SDNN",
               "value": "47.3 ms",
               "coverage": "49 measured days",
               "link": "wearable.html",
@@ -1770,7 +1802,7 @@
             {
               "source": "sleeping_wrist_temperature",
               "title": "Wrist skin temperature",
-              "value": "35.38 \u00b0C",
+              "value": "35.38 °C",
               "coverage": "46 measured days",
               "link": "wearable.html",
               "domain": "cardiovascular",
@@ -1800,16 +1832,20 @@
       "after": "context_cards:CTX-016",
       "from": "2025-08-19",
       "through": "2025-08-31",
-      "heading": "19 Aug 2025 \u2013 31 Aug 2025",
+      "heading": "19 Aug 2025 – 31 Aug 2025",
+      "event_anchor": "2025-08-19",
+      "boundary_reason": "Documented milestone onset anchor.",
       "metrics": [
         {
           "source": "score",
-          "title": "Overall daily rating",
-          "value": "1.60 / 10",
+          "title": "Mean daily rating",
+          "value": "1.67 / 10",
           "coverage": "13 rated days",
           "link": "scores.html",
           "domain": "function",
-          "numeric": 1.6
+          "numeric": 1.6692307692307693,
+          "rating_first": "2025-08-19",
+          "rating_last": "2025-08-31"
         },
         {
           "source": "watch_sleep",
@@ -1849,7 +1885,7 @@
         },
         {
           "source": "hrv_sdnn",
-          "title": "HRV \u00b7 SDNN",
+          "title": "HRV · SDNN",
           "value": "52.9 ms",
           "coverage": "13 measured days",
           "link": "wearable.html",
@@ -1859,7 +1895,7 @@
         {
           "source": "sleeping_wrist_temperature",
           "title": "Wrist skin temperature",
-          "value": "35.37 \u00b0C",
+          "value": "35.37 °C",
           "coverage": "10 measured days",
           "link": "wearable.html",
           "domain": "cardiovascular",
@@ -1882,12 +1918,14 @@
           "metrics": [
             {
               "source": "score",
-              "title": "Overall daily rating",
-              "value": "1.60 / 10",
+              "title": "Mean daily rating",
+              "value": "1.67 / 10",
               "coverage": "13 rated days",
               "link": "scores.html",
               "domain": "function",
-              "numeric": 1.6
+              "numeric": 1.6692307692307693,
+              "rating_first": "2025-08-19",
+              "rating_last": "2025-08-31"
             }
           ]
         },
@@ -1939,7 +1977,7 @@
             },
             {
               "source": "hrv_sdnn",
-              "title": "HRV \u00b7 SDNN",
+              "title": "HRV · SDNN",
               "value": "52.9 ms",
               "coverage": "13 measured days",
               "link": "wearable.html",
@@ -1949,7 +1987,7 @@
             {
               "source": "sleeping_wrist_temperature",
               "title": "Wrist skin temperature",
-              "value": "35.37 \u00b0C",
+              "value": "35.37 °C",
               "coverage": "10 measured days",
               "link": "wearable.html",
               "domain": "cardiovascular",
@@ -1978,17 +2016,21 @@
       "id": "interval-status-14",
       "after": "clinical_summary:amatica-testing",
       "from": "2025-09-01",
-      "through": "2025-10-31",
-      "heading": "Sep 2025 \u2013 Oct 2025",
+      "through": "2025-11-17",
+      "heading": "01 Sep 2025 – 17 Nov 2025",
+      "event_anchor": "2025-09-01",
+      "boundary_reason": "Documented milestone onset anchor.",
       "metrics": [
         {
           "source": "score",
-          "title": "Overall daily rating",
-          "value": "1.60 / 10",
-          "coverage": "58 rated days",
+          "title": "Mean daily rating",
+          "value": "1.64 / 10",
+          "coverage": "67 rated days",
           "link": "scores.html",
           "domain": "function",
-          "numeric": 1.6
+          "numeric": 1.635820895522388,
+          "rating_first": "2025-09-01",
+          "rating_last": "2025-11-17"
         },
         {
           "source": "watch_sleep",
@@ -2028,7 +2070,7 @@
         },
         {
           "source": "hrv_sdnn",
-          "title": "HRV \u00b7 SDNN",
+          "title": "HRV · SDNN",
           "value": "53.9 ms",
           "coverage": "54 measured days",
           "link": "wearable.html",
@@ -2038,7 +2080,7 @@
         {
           "source": "sleeping_wrist_temperature",
           "title": "Wrist skin temperature",
-          "value": "35.27 \u00b0C",
+          "value": "35.27 °C",
           "coverage": "30 measured days",
           "link": "wearable.html",
           "domain": "cardiovascular",
@@ -2047,29 +2089,29 @@
         {
           "source": "bowel",
           "title": "Recorded bowel movements",
-          "value": "0.76 / diary day",
-          "coverage": "59 countable diary days",
+          "value": "0.78 / diary day",
+          "coverage": "76 countable diary days",
           "link": "bowels.html#bowel-chart",
           "domain": "bowel",
-          "numeric": 0.7627118644067796
+          "numeric": 0.7763157894736842
         },
         {
           "source": "pem",
           "title": "PEM-family documented days",
-          "value": "6.4 days / tracked week",
-          "coverage": "51 dates in 8 qualifying weeks (01 Sep 2025\u201326 Oct 2025); 8 complete weeks in interval. Mentions, not attack counts",
+          "value": "6.5 days / tracked week",
+          "coverage": "72 dates in 11 qualifying weeks (01 Sep 2025–16 Nov 2025); 11 complete weeks in interval. Mentions, not attack counts",
           "link": "pem-patterns.html",
           "domain": "function",
-          "numeric": 6.375
+          "numeric": 6.545454545454546
         },
         {
           "source": "crash",
           "title": "Crash-documented days",
-          "value": "0.9 days / tracked week",
-          "coverage": "7 dates in 8 qualifying weeks (01 Sep 2025\u201326 Oct 2025); 8 complete weeks in interval. Mentions, not attack counts",
+          "value": "1.0 days / tracked week",
+          "coverage": "11 dates in 11 qualifying weeks (01 Sep 2025–16 Nov 2025); 11 complete weeks in interval. Mentions, not attack counts",
           "link": "symptoms.html#symptom:bbec37b1-1b89-58f4-aaf2-214943a25d60",
           "domain": "function",
-          "numeric": 0.875
+          "numeric": 1.0
         }
       ],
       "domains": [
@@ -2079,30 +2121,32 @@
           "metrics": [
             {
               "source": "score",
-              "title": "Overall daily rating",
-              "value": "1.60 / 10",
-              "coverage": "58 rated days",
+              "title": "Mean daily rating",
+              "value": "1.64 / 10",
+              "coverage": "67 rated days",
               "link": "scores.html",
               "domain": "function",
-              "numeric": 1.6
+              "numeric": 1.635820895522388,
+              "rating_first": "2025-09-01",
+              "rating_last": "2025-11-17"
             },
             {
               "source": "pem",
               "title": "PEM-family documented days",
-              "value": "6.4 days / tracked week",
-              "coverage": "51 dates in 8 qualifying weeks (01 Sep 2025\u201326 Oct 2025); 8 complete weeks in interval. Mentions, not attack counts",
+              "value": "6.5 days / tracked week",
+              "coverage": "72 dates in 11 qualifying weeks (01 Sep 2025–16 Nov 2025); 11 complete weeks in interval. Mentions, not attack counts",
               "link": "pem-patterns.html",
               "domain": "function",
-              "numeric": 6.375
+              "numeric": 6.545454545454546
             },
             {
               "source": "crash",
               "title": "Crash-documented days",
-              "value": "0.9 days / tracked week",
-              "coverage": "7 dates in 8 qualifying weeks (01 Sep 2025\u201326 Oct 2025); 8 complete weeks in interval. Mentions, not attack counts",
+              "value": "1.0 days / tracked week",
+              "coverage": "11 dates in 11 qualifying weeks (01 Sep 2025–16 Nov 2025); 11 complete weeks in interval. Mentions, not attack counts",
               "link": "symptoms.html#symptom:bbec37b1-1b89-58f4-aaf2-214943a25d60",
               "domain": "function",
-              "numeric": 0.875
+              "numeric": 1.0
             }
           ]
         },
@@ -2154,7 +2198,7 @@
             },
             {
               "source": "hrv_sdnn",
-              "title": "HRV \u00b7 SDNN",
+              "title": "HRV · SDNN",
               "value": "53.9 ms",
               "coverage": "54 measured days",
               "link": "wearable.html",
@@ -2164,7 +2208,7 @@
             {
               "source": "sleeping_wrist_temperature",
               "title": "Wrist skin temperature",
-              "value": "35.27 \u00b0C",
+              "value": "35.27 °C",
               "coverage": "30 measured days",
               "link": "wearable.html",
               "domain": "cardiovascular",
@@ -2179,11 +2223,11 @@
             {
               "source": "bowel",
               "title": "Recorded bowel movements",
-              "value": "0.76 / diary day",
-              "coverage": "59 countable diary days",
+              "value": "0.78 / diary day",
+              "coverage": "76 countable diary days",
               "link": "bowels.html#bowel-chart",
               "domain": "bowel",
-              "numeric": 0.7627118644067796
+              "numeric": 0.7763157894736842
             }
           ]
         }
@@ -2192,18 +2236,22 @@
     {
       "id": "interval-status-15",
       "after": "context_cards:CTX-017",
-      "from": "2025-11-01",
+      "from": "2025-11-18",
       "through": "2025-12-08",
-      "heading": "01 Nov 2025 \u2013 08 Dec 2025",
+      "heading": "18 Nov 2025 – 08 Dec 2025",
+      "event_anchor": "2025-11-18",
+      "boundary_reason": "First spore probiotic trial (X-I-spore); this anchors the transition, not proven wrist-fatigue onset.",
       "metrics": [
         {
           "source": "score",
-          "title": "Overall daily rating",
-          "value": "1.60 / 10",
-          "coverage": "24 rated days",
+          "title": "Mean daily rating",
+          "value": "1.55 / 10",
+          "coverage": "15 rated days",
           "link": "scores.html",
           "domain": "function",
-          "numeric": 1.6
+          "numeric": 1.5466666666666666,
+          "rating_first": "2025-11-18",
+          "rating_last": "2025-12-08"
         },
         {
           "source": "watch_sleep",
@@ -2239,7 +2287,7 @@
         },
         {
           "source": "hrv_sdnn",
-          "title": "HRV \u00b7 SDNN",
+          "title": "HRV · SDNN",
           "value": "37.6 ms",
           "coverage": "5 measured days",
           "link": "wearable.html",
@@ -2249,29 +2297,11 @@
         {
           "source": "bowel",
           "title": "Recorded bowel movements",
-          "value": "0.79 / diary day",
-          "coverage": "38 countable diary days",
+          "value": "0.76 / diary day",
+          "coverage": "21 countable diary days",
           "link": "bowels.html#bowel-chart",
           "domain": "bowel",
-          "numeric": 0.7894736842105263
-        },
-        {
-          "source": "pem",
-          "title": "PEM-family documented days",
-          "value": "6.8 days / tracked week",
-          "coverage": "34 dates in 5 qualifying weeks (03 Nov 2025\u201307 Dec 2025); 5 complete weeks in interval. Mentions, not attack counts",
-          "link": "pem-patterns.html",
-          "domain": "function",
-          "numeric": 6.8
-        },
-        {
-          "source": "crash",
-          "title": "Crash-documented days",
-          "value": "0.8 days / tracked week",
-          "coverage": "4 dates in 5 qualifying weeks (03 Nov 2025\u201307 Dec 2025); 5 complete weeks in interval. Mentions, not attack counts",
-          "link": "symptoms.html#symptom:bbec37b1-1b89-58f4-aaf2-214943a25d60",
-          "domain": "function",
-          "numeric": 0.8
+          "numeric": 0.7619047619047619
         }
       ],
       "domains": [
@@ -2281,30 +2311,14 @@
           "metrics": [
             {
               "source": "score",
-              "title": "Overall daily rating",
-              "value": "1.60 / 10",
-              "coverage": "24 rated days",
+              "title": "Mean daily rating",
+              "value": "1.55 / 10",
+              "coverage": "15 rated days",
               "link": "scores.html",
               "domain": "function",
-              "numeric": 1.6
-            },
-            {
-              "source": "pem",
-              "title": "PEM-family documented days",
-              "value": "6.8 days / tracked week",
-              "coverage": "34 dates in 5 qualifying weeks (03 Nov 2025\u201307 Dec 2025); 5 complete weeks in interval. Mentions, not attack counts",
-              "link": "pem-patterns.html",
-              "domain": "function",
-              "numeric": 6.8
-            },
-            {
-              "source": "crash",
-              "title": "Crash-documented days",
-              "value": "0.8 days / tracked week",
-              "coverage": "4 dates in 5 qualifying weeks (03 Nov 2025\u201307 Dec 2025); 5 complete weeks in interval. Mentions, not attack counts",
-              "link": "symptoms.html#symptom:bbec37b1-1b89-58f4-aaf2-214943a25d60",
-              "domain": "function",
-              "numeric": 0.8
+              "numeric": 1.5466666666666666,
+              "rating_first": "2025-11-18",
+              "rating_last": "2025-12-08"
             }
           ]
         },
@@ -2352,7 +2366,7 @@
             },
             {
               "source": "hrv_sdnn",
-              "title": "HRV \u00b7 SDNN",
+              "title": "HRV · SDNN",
               "value": "37.6 ms",
               "coverage": "5 measured days",
               "link": "wearable.html",
@@ -2368,11 +2382,11 @@
             {
               "source": "bowel",
               "title": "Recorded bowel movements",
-              "value": "0.79 / diary day",
-              "coverage": "38 countable diary days",
+              "value": "0.76 / diary day",
+              "coverage": "21 countable diary days",
               "link": "bowels.html#bowel-chart",
               "domain": "bowel",
-              "numeric": 0.7894736842105263
+              "numeric": 0.7619047619047619
             }
           ]
         }
@@ -2382,49 +2396,48 @@
       "id": "interval-status-16",
       "after": "context_cards:CTX-027",
       "from": "2025-12-09",
-      "through": "2026-05-31",
-      "heading": "09 Dec 2025 \u2013 31 May 2026",
+      "through": "2026-06-28",
+      "heading": "09 Dec 2025 – 28 Jun 2026",
+      "event_anchor": "2025-12-09",
+      "boundary_reason": "Documented milestone onset anchor.",
       "metrics": [
         {
           "source": "score",
-          "title": "Overall daily rating",
-          "value": "1.50 / 10",
-          "coverage": "148 rated days",
+          "title": "Mean daily rating",
+          "value": "1.52 / 10",
+          "coverage": "170 rated days",
           "link": "scores.html",
           "domain": "function",
-          "numeric": 1.5
+          "numeric": 1.5188235294117647,
+          "rating_first": "2025-12-09",
+          "rating_last": "2026-06-28"
         },
         {
           "source": "bowel",
           "title": "Recorded bowel movements",
-          "value": "0.85 / diary day",
-          "coverage": "172 countable diary days",
+          "value": "0.82 / diary day",
+          "coverage": "199 countable diary days",
           "link": "bowels.html#bowel-chart",
           "domain": "bowel",
-          "numeric": 0.8488372093023255
+          "numeric": 0.8241206030150754
         },
         {
           "source": "pem",
           "title": "PEM-family documented days",
           "value": "6.8 days / tracked week",
-          "coverage": "164 dates in 24 qualifying weeks (15 Dec 2025\u201331 May 2026); 24 complete weeks in interval. Mentions, not attack counts",
+          "coverage": "190 dates in 28 qualifying weeks (15 Dec 2025–28 Jun 2026); 28 complete weeks in interval. Mentions, not attack counts",
           "link": "pem-patterns.html",
           "domain": "function",
-          "numeric": 6.833333333333333
+          "numeric": 6.785714285714286
         },
         {
           "source": "crash",
           "title": "Crash-documented days",
           "value": "2.3 days / tracked week",
-          "coverage": "56 dates in 24 qualifying weeks (15 Dec 2025\u201331 May 2026); 24 complete weeks in interval. Mentions, not attack counts",
+          "coverage": "64 dates in 28 qualifying weeks (15 Dec 2025–28 Jun 2026); 28 complete weeks in interval. Mentions, not attack counts",
           "link": "symptoms.html#symptom:bbec37b1-1b89-58f4-aaf2-214943a25d60",
           "domain": "function",
-          "numeric": 2.3333333333333335,
-          "change": {
-            "direction": "decline",
-            "delta": "+1.5 documented days/week",
-            "comparison": "Change versus the immediately preceding observed interval; recording coverage differs"
-          }
+          "numeric": 2.2857142857142856
         }
       ],
       "domains": [
@@ -2434,35 +2447,32 @@
           "metrics": [
             {
               "source": "score",
-              "title": "Overall daily rating",
-              "value": "1.50 / 10",
-              "coverage": "148 rated days",
+              "title": "Mean daily rating",
+              "value": "1.52 / 10",
+              "coverage": "170 rated days",
               "link": "scores.html",
               "domain": "function",
-              "numeric": 1.5
+              "numeric": 1.5188235294117647,
+              "rating_first": "2025-12-09",
+              "rating_last": "2026-06-28"
             },
             {
               "source": "pem",
               "title": "PEM-family documented days",
               "value": "6.8 days / tracked week",
-              "coverage": "164 dates in 24 qualifying weeks (15 Dec 2025\u201331 May 2026); 24 complete weeks in interval. Mentions, not attack counts",
+              "coverage": "190 dates in 28 qualifying weeks (15 Dec 2025–28 Jun 2026); 28 complete weeks in interval. Mentions, not attack counts",
               "link": "pem-patterns.html",
               "domain": "function",
-              "numeric": 6.833333333333333
+              "numeric": 6.785714285714286
             },
             {
               "source": "crash",
               "title": "Crash-documented days",
               "value": "2.3 days / tracked week",
-              "coverage": "56 dates in 24 qualifying weeks (15 Dec 2025\u201331 May 2026); 24 complete weeks in interval. Mentions, not attack counts",
+              "coverage": "64 dates in 28 qualifying weeks (15 Dec 2025–28 Jun 2026); 28 complete weeks in interval. Mentions, not attack counts",
               "link": "symptoms.html#symptom:bbec37b1-1b89-58f4-aaf2-214943a25d60",
               "domain": "function",
-              "numeric": 2.3333333333333335,
-              "change": {
-                "direction": "decline",
-                "delta": "+1.5 documented days/week",
-                "comparison": "Change versus the immediately preceding observed interval; recording coverage differs"
-              }
+              "numeric": 2.2857142857142856
             }
           ]
         },
@@ -2483,11 +2493,11 @@
             {
               "source": "bowel",
               "title": "Recorded bowel movements",
-              "value": "0.85 / diary day",
-              "coverage": "172 countable diary days",
+              "value": "0.82 / diary day",
+              "coverage": "199 countable diary days",
               "link": "bowels.html#bowel-chart",
               "domain": "bowel",
-              "numeric": 0.8488372093023255
+              "numeric": 0.8241206030150754
             }
           ]
         }
@@ -2496,50 +2506,59 @@
     {
       "id": "interval-status-17",
       "after": "context_cards:CTX-020",
-      "from": "2026-06-01",
-      "through": "2026-09-30",
-      "heading": "Jun 2026 \u2013 Sep 2026",
+      "from": "2026-06-29",
+      "through": "2026-10-18",
+      "heading": "29 Jun 2026 – 18 Oct 2026",
+      "event_anchor": "2026-06-29",
+      "boundary_reason": "First Ledifos course (X-I-ledifos); ongoing antiviral-treatment interval.",
       "metrics": [
         {
           "source": "score",
-          "title": "Overall daily rating",
-          "value": "1.60 / 10",
-          "coverage": "94 rated days",
+          "title": "Mean daily rating",
+          "value": "1.64 / 10",
+          "coverage": "88 rated days",
           "link": "scores.html",
           "domain": "function",
-          "numeric": 1.6
+          "numeric": 1.6397727272727272,
+          "rating_first": "2026-06-29",
+          "rating_last": "2026-10-18"
         },
         {
           "source": "bowel",
           "title": "Recorded bowel movements",
-          "value": "0.60 / diary day",
-          "coverage": "121 countable diary days",
+          "value": "0.54 / diary day",
+          "coverage": "112 countable diary days",
           "link": "bowels.html#bowel-chart",
           "domain": "bowel",
-          "numeric": 0.5950413223140496
+          "numeric": 0.5446428571428571
         },
         {
           "source": "pem",
           "title": "PEM-family documented days",
-          "value": "5.1 days / tracked week",
-          "coverage": "87 dates in 17 qualifying weeks (01 Jun 2026\u201327 Sep 2026); 17 complete weeks in interval. Mentions, not attack counts",
+          "value": "4.8 days / tracked week",
+          "coverage": "76 dates in 16 qualifying weeks (29 Jun 2026–18 Oct 2026); 16 complete weeks in interval. Mentions, not attack counts",
           "link": "pem-patterns.html",
           "domain": "function",
-          "numeric": 5.117647058823529,
+          "numeric": 4.75,
           "change": {
             "direction": "improvement",
-            "delta": "-1.7 documented days/week",
+            "delta": "-2.0 documented days/week",
             "comparison": "Change versus the immediately preceding observed interval; recording coverage differs"
           }
         },
         {
           "source": "crash",
           "title": "Crash-documented days",
-          "value": "1.4 days / tracked week",
-          "coverage": "24 dates in 17 qualifying weeks (01 Jun 2026\u201327 Sep 2026); 17 complete weeks in interval. Mentions, not attack counts",
+          "value": "1.2 days / tracked week",
+          "coverage": "20 dates in 16 qualifying weeks (29 Jun 2026–18 Oct 2026); 16 complete weeks in interval. Mentions, not attack counts",
           "link": "symptoms.html#symptom:bbec37b1-1b89-58f4-aaf2-214943a25d60",
           "domain": "function",
-          "numeric": 1.411764705882353
+          "numeric": 1.25,
+          "change": {
+            "direction": "improvement",
+            "delta": "-1.0 documented days/week",
+            "comparison": "Change versus the immediately preceding observed interval; recording coverage differs"
+          }
         }
       ],
       "domains": [
@@ -2549,35 +2568,42 @@
           "metrics": [
             {
               "source": "score",
-              "title": "Overall daily rating",
-              "value": "1.60 / 10",
-              "coverage": "94 rated days",
+              "title": "Mean daily rating",
+              "value": "1.64 / 10",
+              "coverage": "88 rated days",
               "link": "scores.html",
               "domain": "function",
-              "numeric": 1.6
+              "numeric": 1.6397727272727272,
+              "rating_first": "2026-06-29",
+              "rating_last": "2026-10-18"
             },
             {
               "source": "pem",
               "title": "PEM-family documented days",
-              "value": "5.1 days / tracked week",
-              "coverage": "87 dates in 17 qualifying weeks (01 Jun 2026\u201327 Sep 2026); 17 complete weeks in interval. Mentions, not attack counts",
+              "value": "4.8 days / tracked week",
+              "coverage": "76 dates in 16 qualifying weeks (29 Jun 2026–18 Oct 2026); 16 complete weeks in interval. Mentions, not attack counts",
               "link": "pem-patterns.html",
               "domain": "function",
-              "numeric": 5.117647058823529,
+              "numeric": 4.75,
               "change": {
                 "direction": "improvement",
-                "delta": "-1.7 documented days/week",
+                "delta": "-2.0 documented days/week",
                 "comparison": "Change versus the immediately preceding observed interval; recording coverage differs"
               }
             },
             {
               "source": "crash",
               "title": "Crash-documented days",
-              "value": "1.4 days / tracked week",
-              "coverage": "24 dates in 17 qualifying weeks (01 Jun 2026\u201327 Sep 2026); 17 complete weeks in interval. Mentions, not attack counts",
+              "value": "1.2 days / tracked week",
+              "coverage": "20 dates in 16 qualifying weeks (29 Jun 2026–18 Oct 2026); 16 complete weeks in interval. Mentions, not attack counts",
               "link": "symptoms.html#symptom:bbec37b1-1b89-58f4-aaf2-214943a25d60",
               "domain": "function",
-              "numeric": 1.411764705882353
+              "numeric": 1.25,
+              "change": {
+                "direction": "improvement",
+                "delta": "-1.0 documented days/week",
+                "comparison": "Change versus the immediately preceding observed interval; recording coverage differs"
+              }
             }
           ]
         },
@@ -2598,11 +2624,11 @@
             {
               "source": "bowel",
               "title": "Recorded bowel movements",
-              "value": "0.60 / diary day",
-              "coverage": "121 countable diary days",
+              "value": "0.54 / diary day",
+              "coverage": "112 countable diary days",
               "link": "bowels.html#bowel-chart",
               "domain": "bowel",
-              "numeric": 0.5950413223140496
+              "numeric": 0.5446428571428571
             }
           ]
         }
@@ -2611,45 +2637,49 @@
     {
       "id": "interval-status-18",
       "after": "context_cards:CTX-021",
-      "from": "2026-10-01",
+      "from": "2026-10-27",
       "through": "2026-11-23",
-      "heading": "01 Oct 2026 \u2013 23 Nov 2026",
+      "heading": "27 Oct 2026 – 23 Nov 2026",
+      "event_anchor": "2026-10-19",
+      "boundary_reason": "Separate the two clonazepam trial dates, 19 and 26 October, from the post-trial interval.",
       "metrics": [
         {
           "source": "score",
-          "title": "Overall daily rating",
-          "value": "1.65 / 10",
-          "coverage": "44 rated days",
+          "title": "Mean daily rating",
+          "value": "1.70 / 10",
+          "coverage": "20 rated days",
           "link": "scores.html",
           "domain": "function",
-          "numeric": 1.65
+          "numeric": 1.7,
+          "rating_first": "2026-10-28",
+          "rating_last": "2026-11-23"
         },
         {
           "source": "bowel",
           "title": "Recorded bowel movements",
-          "value": "0.44 / diary day",
-          "coverage": "54 countable diary days",
+          "value": "0.46 / diary day",
+          "coverage": "28 countable diary days",
           "link": "bowels.html#bowel-chart",
           "domain": "bowel",
-          "numeric": 0.4444444444444444
+          "numeric": 0.4642857142857143
         },
         {
           "source": "pem",
           "title": "PEM-family documented days",
-          "value": "4.4 days / tracked week",
-          "coverage": "31 dates in 7 qualifying weeks (05 Oct 2026\u201322 Nov 2026); 7 complete weeks in interval. Mentions, not attack counts",
+          "value": "4.0 days / tracked week",
+          "coverage": "12 dates in 3 qualifying weeks (02 Nov 2026–22 Nov 2026); 3 complete weeks in interval. Mentions, not attack counts",
           "link": "pem-patterns.html",
           "domain": "function",
-          "numeric": 4.428571428571429
+          "numeric": 4.0
         },
         {
           "source": "crash",
           "title": "Crash-documented days",
-          "value": "0.6 days / tracked week",
-          "coverage": "4 dates in 7 qualifying weeks (05 Oct 2026\u201322 Nov 2026); 7 complete weeks in interval. Mentions, not attack counts",
+          "value": "0.7 days / tracked week",
+          "coverage": "2 dates in 3 qualifying weeks (02 Nov 2026–22 Nov 2026); 3 complete weeks in interval. Mentions, not attack counts",
           "link": "symptoms.html#symptom:bbec37b1-1b89-58f4-aaf2-214943a25d60",
           "domain": "function",
-          "numeric": 0.5714285714285714
+          "numeric": 0.6666666666666666
         }
       ],
       "domains": [
@@ -2659,30 +2689,32 @@
           "metrics": [
             {
               "source": "score",
-              "title": "Overall daily rating",
-              "value": "1.65 / 10",
-              "coverage": "44 rated days",
+              "title": "Mean daily rating",
+              "value": "1.70 / 10",
+              "coverage": "20 rated days",
               "link": "scores.html",
               "domain": "function",
-              "numeric": 1.65
+              "numeric": 1.7,
+              "rating_first": "2026-10-28",
+              "rating_last": "2026-11-23"
             },
             {
               "source": "pem",
               "title": "PEM-family documented days",
-              "value": "4.4 days / tracked week",
-              "coverage": "31 dates in 7 qualifying weeks (05 Oct 2026\u201322 Nov 2026); 7 complete weeks in interval. Mentions, not attack counts",
+              "value": "4.0 days / tracked week",
+              "coverage": "12 dates in 3 qualifying weeks (02 Nov 2026–22 Nov 2026); 3 complete weeks in interval. Mentions, not attack counts",
               "link": "pem-patterns.html",
               "domain": "function",
-              "numeric": 4.428571428571429
+              "numeric": 4.0
             },
             {
               "source": "crash",
               "title": "Crash-documented days",
-              "value": "0.6 days / tracked week",
-              "coverage": "4 dates in 7 qualifying weeks (05 Oct 2026\u201322 Nov 2026); 7 complete weeks in interval. Mentions, not attack counts",
+              "value": "0.7 days / tracked week",
+              "coverage": "2 dates in 3 qualifying weeks (02 Nov 2026–22 Nov 2026); 3 complete weeks in interval. Mentions, not attack counts",
               "link": "symptoms.html#symptom:bbec37b1-1b89-58f4-aaf2-214943a25d60",
               "domain": "function",
-              "numeric": 0.5714285714285714
+              "numeric": 0.6666666666666666
             }
           ]
         },
@@ -2703,15 +2735,226 @@
             {
               "source": "bowel",
               "title": "Recorded bowel movements",
-              "value": "0.44 / diary day",
-              "coverage": "54 countable diary days",
+              "value": "0.46 / diary day",
+              "coverage": "28 countable diary days",
               "link": "bowels.html#bowel-chart",
               "domain": "bowel",
-              "numeric": 0.4444444444444444
+              "numeric": 0.4642857142857143
             }
           ]
         }
       ]
+    }
+  ],
+  "boundary_audit": [
+    {
+      "milestone": "context_cards:CTX-002",
+      "event_anchor": "2021-06-01",
+      "from": "2021-06-01",
+      "through": "2023-04-30",
+      "boundary_reason": "Approximate month/year anchor; no exact day established.",
+      "rated_days": 0,
+      "mean_score": null,
+      "rating_first": null,
+      "rating_last": null
+    },
+    {
+      "milestone": "context_cards:CTX-003",
+      "event_anchor": "2023-05-01",
+      "from": "2023-05-01",
+      "through": "2023-08-31",
+      "boundary_reason": "Approximate month/year anchor; no exact day established.",
+      "rated_days": 0,
+      "mean_score": null,
+      "rating_first": null,
+      "rating_last": null
+    },
+    {
+      "milestone": "context_cards:CTX-005",
+      "event_anchor": "2023-09-01",
+      "from": "2023-09-01",
+      "through": "2023-09-30",
+      "boundary_reason": "Approximate month/year anchor; no exact day established.",
+      "rated_days": 0,
+      "mean_score": null,
+      "rating_first": null,
+      "rating_last": null
+    },
+    {
+      "milestone": "context_cards:CTX-004",
+      "event_anchor": "2023-10-01",
+      "from": "2023-10-01",
+      "through": "2023-11-30",
+      "boundary_reason": "Approximate month/year anchor; no exact day established.",
+      "rated_days": 0,
+      "mean_score": null,
+      "rating_first": null,
+      "rating_last": null
+    },
+    {
+      "milestone": "context_cards:CTX-006",
+      "event_anchor": "2023-12-01",
+      "from": "2023-12-01",
+      "through": "2024-01-31",
+      "boundary_reason": "Approximate month/year anchor; no exact day established.",
+      "rated_days": 0,
+      "mean_score": null,
+      "rating_first": null,
+      "rating_last": null
+    },
+    {
+      "milestone": "clinical_summary:maraviroc-atorvastatin",
+      "event_anchor": "2024-02-01",
+      "from": "2024-02-01",
+      "through": "2024-04-16",
+      "boundary_reason": "Approximate month/year anchor; no exact day established.",
+      "rated_days": 0,
+      "mean_score": null,
+      "rating_first": null,
+      "rating_last": null
+    },
+    {
+      "milestone": "clinical_summary:liposomal-protocol",
+      "event_anchor": "2024-04-17",
+      "from": "2024-04-17",
+      "through": "2024-07-02",
+      "boundary_reason": "Documented milestone onset anchor.",
+      "rated_days": 31,
+      "mean_score": 3.6451612903225805,
+      "rating_first": "2024-06-02",
+      "rating_last": "2024-07-02"
+    },
+    {
+      "milestone": "context_cards:CTX-026",
+      "event_anchor": "2024-07-03",
+      "from": "2024-07-03",
+      "through": "2024-10-19",
+      "boundary_reason": "First documented Borrelia results (S4-R12/R13).",
+      "rated_days": 109,
+      "mean_score": 3.481651376146789,
+      "rating_first": "2024-07-03",
+      "rating_last": "2024-10-19"
+    },
+    {
+      "milestone": "context_cards:CTX-007",
+      "event_anchor": "2024-10-20",
+      "from": "2024-10-29",
+      "through": "2025-03-24",
+      "boundary_reason": "Exclude the NADH trial from both adjacent baselines; last dose 2024-10-28 (NADH-I-retrial).",
+      "rated_days": 51,
+      "mean_score": 1.8235294117647058,
+      "rating_first": "2025-02-02",
+      "rating_last": "2025-03-24"
+    },
+    {
+      "milestone": "context_cards:CTX-013",
+      "event_anchor": "2025-03-25",
+      "from": "2025-03-29",
+      "through": "2025-04-07",
+      "boundary_reason": "Exclude the 25–28 March inpatient stay from adjacent baselines; discharge report dated 28 March.",
+      "rated_days": 9,
+      "mean_score": 1.5777777777777777,
+      "rating_first": "2025-03-29",
+      "rating_last": "2025-04-07"
+    },
+    {
+      "milestone": "clinical_summary:ivabradine-response",
+      "event_anchor": "2025-04-08",
+      "from": "2025-04-08",
+      "through": "2025-06-20",
+      "boundary_reason": "Documented milestone onset anchor.",
+      "rated_days": 66,
+      "mean_score": 1.7378787878787878,
+      "rating_first": "2025-04-09",
+      "rating_last": "2025-06-20"
+    },
+    {
+      "milestone": "context_cards:CTX-014",
+      "event_anchor": "2025-06-21",
+      "from": "2025-06-21",
+      "through": "2025-06-30",
+      "boundary_reason": "Acute rapamycin-associated crash interval, beginning with the single dose; not a post-recovery baseline.",
+      "rated_days": 10,
+      "mean_score": 1.43,
+      "rating_first": "2025-06-21",
+      "rating_last": "2025-06-30"
+    },
+    {
+      "milestone": "context_cards:CTX-015",
+      "event_anchor": "2025-07-01",
+      "from": "2025-07-01",
+      "through": "2025-08-18",
+      "boundary_reason": "Onset anchor: ensitrelvir started 1 July (S2-I-S2-L00418-E1).",
+      "rated_days": 49,
+      "mean_score": 1.683673469387755,
+      "rating_first": "2025-07-01",
+      "rating_last": "2025-08-18"
+    },
+    {
+      "milestone": "context_cards:CTX-016",
+      "event_anchor": "2025-08-19",
+      "from": "2025-08-19",
+      "through": "2025-08-31",
+      "boundary_reason": "Documented milestone onset anchor.",
+      "rated_days": 13,
+      "mean_score": 1.6692307692307693,
+      "rating_first": "2025-08-19",
+      "rating_last": "2025-08-31"
+    },
+    {
+      "milestone": "clinical_summary:amatica-testing",
+      "event_anchor": "2025-09-01",
+      "from": "2025-09-01",
+      "through": "2025-11-17",
+      "boundary_reason": "Documented milestone onset anchor.",
+      "rated_days": 67,
+      "mean_score": 1.635820895522388,
+      "rating_first": "2025-09-01",
+      "rating_last": "2025-11-17"
+    },
+    {
+      "milestone": "context_cards:CTX-017",
+      "event_anchor": "2025-11-18",
+      "from": "2025-11-18",
+      "through": "2025-12-08",
+      "boundary_reason": "First spore probiotic trial (X-I-spore); this anchors the transition, not proven wrist-fatigue onset.",
+      "rated_days": 15,
+      "mean_score": 1.5466666666666666,
+      "rating_first": "2025-11-18",
+      "rating_last": "2025-12-08"
+    },
+    {
+      "milestone": "context_cards:CTX-027",
+      "event_anchor": "2025-12-09",
+      "from": "2025-12-09",
+      "through": "2026-06-28",
+      "boundary_reason": "Documented milestone onset anchor.",
+      "rated_days": 170,
+      "mean_score": 1.5188235294117647,
+      "rating_first": "2025-12-09",
+      "rating_last": "2026-06-28"
+    },
+    {
+      "milestone": "context_cards:CTX-020",
+      "event_anchor": "2026-06-29",
+      "from": "2026-06-29",
+      "through": "2026-10-18",
+      "boundary_reason": "First Ledifos course (X-I-ledifos); ongoing antiviral-treatment interval.",
+      "rated_days": 88,
+      "mean_score": 1.6397727272727272,
+      "rating_first": "2026-06-29",
+      "rating_last": "2026-10-18"
+    },
+    {
+      "milestone": "context_cards:CTX-021",
+      "event_anchor": "2026-10-19",
+      "from": "2026-10-27",
+      "through": "2026-11-23",
+      "boundary_reason": "Separate the two clonazepam trial dates, 19 and 26 October, from the post-trial interval.",
+      "rated_days": 20,
+      "mean_score": 1.7,
+      "rating_first": "2026-10-28",
+      "rating_last": "2026-11-23"
     }
   ]
 }

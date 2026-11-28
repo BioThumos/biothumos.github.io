@@ -1,6 +1,6 @@
 # Liposomal vitamins (aggregate) · course dossier
 
-Revision: Revision 95
+Revision: Revision 96
 course:b11119fe-8dd1-5def-acb6-1253a7de7bbf
 documented_course
 2025-05-07 · Absent from scheduled regimen on 2026-11-20 · historical end unknown · Stopped by 2026-11-20. Exact final dose date unknown.
